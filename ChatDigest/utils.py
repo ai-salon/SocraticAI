@@ -1,4 +1,6 @@
 import logging
+import re
+import uuid
 from typing import Dict, List
 
 import tiktoken
@@ -65,3 +67,60 @@ def count_string_tokens(string: str, model_name: str = "gpt-3.5-turbo-0301") -> 
     encoding = tiktoken.encoding_for_model(model_name)
     num_tokens = len(encoding.encode(string))
     return num_tokens
+
+
+class Prompt:
+    """
+    A class representing a prompt with variables to be filled in.
+
+    Attributes:
+    -----------
+    template : str
+        The string template for the prompt, with variables to be filled in using the `format` method.
+    """
+
+    def __init__(self, name, template):
+        """
+        Initializes a new Prompt object.
+
+        Parameters:
+        -----------
+        template : str
+            The string template for the prompt, with variables to be filled in using the `format` method.
+        """
+        # generate random id
+        self.id = f"prompt_{uuid.uuid4()}"
+        self.template = template
+
+    def __call__(self, **kwargs):
+        """
+        Formats the prompt string with the given keyword arguments.
+
+        Parameters:
+        -----------
+        **kwargs : dict
+            The keyword arguments to be used to fill in the variables in the prompt string.
+
+        Returns:
+        --------
+        str
+            The formatted prompt string.
+        """
+        return self.template.format(**kwargs)
+
+    def required_variables(self):
+        """
+        Returns a list of the variable names that are required to fill in the prompt string.
+
+        Returns:
+        --------
+        list of str
+            The list of variable names that are required to fill in the prompt string.
+        """
+        pattern = r"\{(\w+)\}"
+        variable_names = re.findall(pattern, self.template)
+        return variable_names
+
+    def __str__(self):
+        """Return the current state of the template."""
+        return self.template

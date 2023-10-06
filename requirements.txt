@@ -1,4 +1,2 @@
 anthropic
-whisper
-https://github.com/pyannote/pyannote-audio/archive/refs/heads/develop.zip
-pydub
+assemblyai
