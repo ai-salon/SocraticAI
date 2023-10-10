@@ -4,6 +4,18 @@ import uuid
 from typing import Dict, List
 
 import tiktoken
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+
+
+def chunk_text(text):
+    text_splitter = RecursiveCharacterTextSplitter(
+        # Set a really small chunk size, just to show.
+        chunk_size=5000,
+        chunk_overlap=0,
+    )
+    docs = text_splitter.create_documents([text])
+    chunks = [d.page_content for d in docs]
+    return chunks
 
 
 def count_message_tokens(

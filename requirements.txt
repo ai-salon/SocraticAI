@@ -1,2 +1,4 @@
 anthropic
 assemblyai
+langchain
+tiktoken
