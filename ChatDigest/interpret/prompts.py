@@ -50,5 +50,53 @@ together similar insights.
 
 ```insight list```
 {insight_list}
+
+```Output Format```
+* [Insight 1]
+* [Insight 2]
+* [Insight 3]
+...
+""",
+)
+
+insight_categorizer_prompt = Prompt(
+    "insight_categorizer",
+    """
+I will give you a list of insights derived from a conversation. I want you to
+categorize them into 2-4 named categories.
+
+```insight list```
+{insight_list}
+
+```Output Format```
+{{
+    ["category 1"]: [
+        [Insight 1],
+        [Insight 2],
+        [Insight 3],
+        ...
+    ],
+    ["category 2"]: [
+        [Insight 4],
+        [Insight 5],
+        ...
+    ],
+    ...
+}}
+""",
+)
+
+insight_expand_prompt = Prompt(
+    "insight_expand",
+    """
+I will give you a theme and a list of insights derived from a conversation. 
+
+```theme```
+{theme}
+
+```insight list```
+{insight_list}
+
+Please write a 500-600 word blog post these insights derived from the theme. Focus on generating an engaging lead that hooks readers, and smoothly connecting the different insights into a cohesive whole. Use subheadings to break up the sections. Maintain a conversational but authoritative tone, providing enough background for readers new to AI and the theme. Share your own perspective where relevant. The goal is an insightful post that distills the essence of the conversation for a general audience interested in technology's meaning and impact.
 """,
 )

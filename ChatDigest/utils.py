@@ -1,3 +1,4 @@
+import json
 import logging
 import re
 import uuid
@@ -7,11 +8,11 @@ import tiktoken
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 
-def chunk_text(text):
+def chunk_text(text, chunk_size=5000, chunk_overlap=0):
     text_splitter = RecursiveCharacterTextSplitter(
         # Set a really small chunk size, just to show.
-        chunk_size=5000,
-        chunk_overlap=0,
+        chunk_size=chunk_size,
+        chunk_overlap=chunk_overlap,
     )
     docs = text_splitter.create_documents([text])
     chunks = [d.page_content for d in docs]
@@ -136,3 +137,15 @@ class Prompt:
     def __str__(self):
         """Return the current state of the template."""
         return self.template
+
+
+def extract_and_read_json(s):
+    # Look for the JSON substring by finding the substring that starts and ends with curly braces
+    json_str = re.search(r"\{.*\}", s, re.DOTALL)
+    if json_str:
+        json_str = json_str.group()
+        # Parse the JSON substring into a JSON object
+        json_obj = json.loads(json_str)
+        return json_obj
+    else:
+        raise ValueError("No JSON object found in the string")

@@ -1,79 +1,31 @@
 import os
+from glob import glob
 
+from ChatDigest.interpret.insights import run_insight_generation
 from ChatDigest.interpret.process import process_file
-from ChatDigest.llm_utils import *
-from ChatDigest.prompts.interpret_prompts import (
-    archetype_conversation_prompt,
-    archetype_template,
-    distill_template,
-    flesh_out_prompt,
-    summary_template,
-    twitter_template,
-)
-from ChatDigest.utils import Prompt, chunk_text
+from ChatDigest.interpret.utils import expansion_to_string
 
-# load up the conversation
-file_path = "data/2023-05-25 - Salon: Relationships_transcript.txt"
+for file_path in glob("data/*transcript.txt"):
+    # process if the file hasn't been processed yet, otherwise load
+    processed_file_path = file_path.replace(".txt", "_processed.txt")
+    if not os.path.exists(processed_file_path):
+        print(f"Processing {file_path}...")
+        text = process_file(file_path)
+    else:
+        print(f"Loading {processed_file_path}...")
+        with open(processed_file_path, "r") as f:
+            text = f.read()
 
-# process if the file hasn't been processed yet, otherwise load
-processed_file_path = file_path.replace(".txt", "_processed.txt")
-if not os.path.exists(processed_file_path):
-    text = process_file(file_path)
-else:
-    with open(processed_file_path, "r") as f:
-        text = f.read()
+    # generate insights and "blogs"
+    print("Generating insights...")
+    blogs = run_insight_generation(text, model="claude-2")
 
-
-out = chain_completion(
-    [archetype_template(text=text), archetype_conversation_prompt, flesh_out_prompt],
-    model="claude-2",
-)
-
-
-archetype_conversation_prompt = """
- I'd like you to create a new conversation that condenses the original using the created
-    archetypes into a point-by-point transcript between these archetypes. Use the same format as the original transcript. Each point should be given in the style of casual human conversation.
-    
-    It should flow naturally, be responsive to other points, and be consistent to the archetype
-    saying it. The points in the conversation should reflect the original conversation.
-
-    The goal is to distill the conversation reasonably, without losing any nuance in the overall flow of the conversation. The output is expected to be long,
-    so as to not lose important information. Make the output mirror the conversation format.
-
-    Include a "Facilitator" to help direct the conversation while remaining neutral. The facilitator should be a new archetype, and should introduce themselves at the beginning.
-"""
-
-flesh_out_prompt = """
-Try it again, this time making each utterance 100-200 words. Allow the points to be fleshed out more
-"""
-
-continue_prompt = (
-    "continue if the conversation isn't finished yet. Otherwise say <<DONE>>"
-)
-out2 = chain_completion(
-    [
-        archetype_template(text=text),
-        archetype_conversation_prompt,
-        flesh_out_prompt,
-        continue_prompt,
-        continue_prompt,
-    ],
-    model="claude-2",
-)
-final_text = out2[2]
-for addition in out2[3:]:
-    if addition != "<<DONE>>":
-        final_text += addition
-
-templates = [archetype_template, distill_template, summary_template, twitter_template]
-
-
-template = templates[0]
-prompt = template(text=text)
-pyperclip.copy(prompt)
-
-
-outputs = {}
-for template in templates:
-    prompt = template(text=text)
-    outputs[template.name] = chat_completion(prompt, "claude-2")
+    # save expansions to file in output folder
+    print("Saving expansions...")
+    expansion_string = expansion_to_string(blogs)
+    basename = os.path.basename(file_path)
+    output_path = os.path.join(
+        "output", basename.replace("transcript_processed", "insights")
+    )
+    with open(output_path, "w") as f:
+        f.write(expansion_string)
