@@ -6,8 +6,8 @@ from ChatDigest.interpret.prompts import (
     insight_categorizer_prompt,
     insight_expand_prompt,
 )
-from ChatDigest.llm_utils import chat_completion
-from ChatDigest.utils import chunk_text, extract_and_read_json
+from ChatDigest.llm_utils import chat_completion, extract_and_read_json
+from ChatDigest.utils import chunk_text
 
 
 def generate_insights(text, model="claude-2"):
@@ -90,7 +90,7 @@ def classify_insights(insights, model="claude-2"):
         str: The response from the chat_completion function.
     """
     p = insight_categorizer_prompt(insight_list="\n\n".join(insights))
-    response = chat_completion(p, model=model)
+    response = chat_completion(p, model=model, temperature=0)
     return response
 
 
@@ -106,9 +106,13 @@ def expand_insights(insights, model="claude-2"):
     Returns:
         dict: A dictionary where the keys are the themes of the insights and the values are the expanded blog posts.
     """
-    classified_insights = extract_and_read_json(classify_insights(insights))
+    classified_insights = classify_insights(insights)
+    try:
+        extracted_json = extract_and_read_json(classified_insights)
+    except:
+        pass
     expansions = {}
-    for theme, insights in classified_insights.items():
+    for theme, insights in extracted_json.items():
         p = insight_expand_prompt(insight_list="\n\n".join(insights), theme=theme)
         response = chat_completion(p, model=model)
         expansions[theme] = {"blog": response, "insights": insights}

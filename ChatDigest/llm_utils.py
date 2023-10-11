@@ -1,4 +1,6 @@
+import json
 import os
+import re
 import time
 from collections import namedtuple
 
@@ -17,7 +19,7 @@ MAX_TOKENS = 10000
     reraise=True,
 )
 def anthropic_completion(
-    prompt, model="claude-instant-1", max_tokens_to_sample=MAX_TOKENS
+    prompt, model="claude-instant-1", max_tokens_to_sample=MAX_TOKENS, **kwargs
 ):
     """
     Generates a chatbot response given a prompt using the specified model.
@@ -32,15 +34,13 @@ def anthropic_completion(
     """
     start = time.time()
     completion = anthropic.completions.create(
-        model=model,
-        max_tokens_to_sample=max_tokens_to_sample,
-        prompt=prompt,
+        model=model, max_tokens_to_sample=max_tokens_to_sample, prompt=prompt, **kwargs
     )
     print(f"Time taken: {time.time() - start:.2f} seconds with model {model}")
     return completion.completion
 
 
-def chat(model="claude-instant-1", max_tokens_to_sample=MAX_TOKENS):
+def chat(model="claude-instant-1", max_tokens_to_sample=MAX_TOKENS, **kwargs):
     """
     This function allows the user to chat with an AI model using the command line interface.
 
@@ -58,14 +58,16 @@ def chat(model="claude-instant-1", max_tokens_to_sample=MAX_TOKENS):
         if human_input == "q":
             break
         prompt = f"{history} {HUMAN_PROMPT} {human_input}{AI_PROMPT}"
-        response = anthropic_completion(prompt, model, max_tokens_to_sample)
+        response = anthropic_completion(prompt, model, max_tokens_to_sample, **kwargs)
         history = f"{prompt} {response}"
         print(response)
 
 
-def chat_completion(prompt, model="claude-instant-1", max_tokens_to_sample=MAX_TOKENS):
+def chat_completion(
+    prompt, model="claude-instant-1", max_tokens_to_sample=MAX_TOKENS, **kwargs
+):
     prompt = f"{HUMAN_PROMPT} {prompt}{AI_PROMPT}"
-    return anthropic_completion(prompt, model, max_tokens_to_sample)
+    return anthropic_completion(prompt, model, max_tokens_to_sample, **kwargs)
 
 
 def chain_completion(
@@ -93,3 +95,36 @@ def chain_completion(
         history = f"{prompt} {response}"
         responses.append(response)
     return responses
+
+
+def repair_json(json_str, error):
+    repair_json_prompt = f"""
+{json_str}
+
+The JSON object is invalid for the following reason:
+{error}
+
+The following is a revised JSON object:\n;
+"""
+    response = chat_completion(repair_json_prompt, model="claude-2")
+    return response
+
+
+def extract_and_read_json(s, try_repair=True):
+    # Look for the JSON substring by finding the substring that starts and ends with curly braces
+    json_str = re.search(r"\{.*\}", s, re.DOTALL)
+    if json_str:
+        json_str = json_str.group()
+        try:
+            # Parse the JSON substring into a JSON object
+            json_obj = json.loads(json_str)
+            return json_obj
+        except json.JSONDecodeError as e:
+            error = e
+            if try_repair:
+                print("Trying to repair...")
+                return extract_and_read_json(repair_json(json_str, error), False)
+            else:
+                print(e)
+    else:
+        raise ValueError("No JSON object found in the string")

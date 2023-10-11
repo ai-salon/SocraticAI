@@ -137,15 +137,3 @@ class Prompt:
     def __str__(self):
         """Return the current state of the template."""
         return self.template
-
-
-def extract_and_read_json(s):
-    # Look for the JSON substring by finding the substring that starts and ends with curly braces
-    json_str = re.search(r"\{.*\}", s, re.DOTALL)
-    if json_str:
-        json_str = json_str.group()
-        # Parse the JSON substring into a JSON object
-        json_obj = json.loads(json_str)
-        return json_obj
-    else:
-        raise ValueError("No JSON object found in the string")
