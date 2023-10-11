@@ -19,3 +19,36 @@ The conversation is between ```:
 ```{text}```
 """,
 )
+
+
+basic_insight_prompt = Prompt(
+    "insight",
+    """
+I will give you a piece of conversation. I want you to extract the most
+creative and unexpected insights from the conversation.
+
+The conversation is between ```:
+```{text}```
+
+Give the insights to me as a bulleted list where each insight is 2-4 sentences.
+Do not include any filler content, only the insights themselves.
+
+```Output Format```
+* [Insight 1]
+* [Insight 2]
+* [Insight 3]
+...
+""",
+)
+
+insight_aggregator_prompt = Prompt(
+    "insight_aggregator",
+    """
+I will give you a list of insights derived from a conversation. I want you to
+aggregate them into a single list of insights. Remove duplicates and group
+together similar insights.
+
+```insight list```
+{insight_list}
+""",
+)

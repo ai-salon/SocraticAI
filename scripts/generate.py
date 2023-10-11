@@ -1,3 +1,5 @@
+import os
+
 from ChatDigest.interpret.process import process_file
 from ChatDigest.llm_utils import *
 from ChatDigest.prompts.interpret_prompts import (
@@ -12,11 +14,14 @@ from ChatDigest.utils import Prompt, chunk_text
 
 # load up the conversation
 file_path = "data/2023-05-25 - Salon: Relationships_transcript.txt"
-# Read the file
-with open(file_path, "r") as f:
-    text = f.read()
 
-text = process_file(file_path)
+# process if the file hasn't been processed yet, otherwise load
+processed_file_path = file_path.replace(".txt", "_processed.txt")
+if not os.path.exists(processed_file_path):
+    text = process_file(file_path)
+else:
+    with open(processed_file_path, "r") as f:
+        text = f.read()
 
 
 out = chain_completion(
