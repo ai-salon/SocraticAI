@@ -16,16 +16,25 @@ for file_path in glob("data/*transcript.txt"):
         with open(processed_file_path, "r") as f:
             text = f.read()
 
-    # generate insights and "blogs"
-    print("Generating insights...")
-    blogs = run_insight_generation(text, model="claude-2")
-
-    # save expansions to file in output folder
-    print("Saving expansions...")
-    expansion_string = expansion_to_string(blogs)
+    # create insights if they don't exist
     basename = os.path.basename(file_path)
     output_path = os.path.join(
-        "output", basename.replace("transcript_processed", "insights")
+        "outputs", basename.replace("transcript.txt", "insights.md")
     )
-    with open(output_path, "w") as f:
-        f.write(expansion_string)
+
+    if not os.path.exists(output_path):
+        # generate insights and "blogs"
+        print("Generating insights...")
+        try:
+            blogs = run_insight_generation(text, model="claude-2")
+        except Exception as e:
+            print(e)
+            print(f"Failed to generate insights for {file_path}")
+            continue
+
+        # save expansions to file in output folder
+        print("Saving expansions...")
+        expansion_string = expansion_to_string(blogs)
+
+        with open(output_path, "w") as f:
+            f.write(expansion_string)
