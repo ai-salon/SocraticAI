@@ -10,7 +10,7 @@ setup(
     install_requires=requirements,
     entry_points={
         "console_scripts": [
-            "transcribe=scripts.transcribe:transcripe.py",
+            "chatdigest=scripts.cli:main",
         ]
     },
 )

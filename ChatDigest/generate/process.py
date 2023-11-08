@@ -1,6 +1,10 @@
-from ChatDigest.interpret.prompts import COPY_EDIT
+import logging
+
+from ChatDigest.generate.prompts import COPY_EDIT
 from ChatDigest.llm_utils import chat_completion
 from ChatDigest.utils import chunk_text
+
+logger = logging.getLogger(__name__)
 
 
 def process_file(file_path, save_file=True, process_prompt=COPY_EDIT):
@@ -26,7 +30,7 @@ def process_file(file_path, save_file=True, process_prompt=COPY_EDIT):
     text_chunks = chunk_text(text)
     processed_chunks = []
     for i, chunk in enumerate(text_chunks):
-        print(f"Processing chunk {i+1}/{len(text_chunks)}")
+        logger.info(f"Processing chunk {i+1}/{len(text_chunks)}")
         processed = chat_completion(process_prompt(text=chunk), "claude-2", 10000)
         # remove text at beginning of string
         to_remove = (

@@ -101,3 +101,19 @@ I will give you a theme and a list of insights derived from a conversation.
 Please write a 500-600 word blog post these insights derived from the theme. Focus on generating an engaging lead that hooks readers, and smoothly connecting the different insights into a cohesive whole. Use subheadings to break up the sections with markdown format. Maintain a conversational but authoritative tone, providing enough background for readers new to AI and the theme. Share your own perspective where relevant. The goal is an insightful post that distills the essence of the conversation for a general audience interested in technology's meaning and impact.
 """,
 )
+
+multi_convo_prompt = Prompt(
+    "insight_expand",
+    """
+I will give you a list of insights derived from multiple conversations
+
+```Conversations```
+{text}
+
+```Task```
+
+Please write a 300-500 word summary of the insights derived from the different conversations. Be sure
+to highlight the commonalities and differences across the conversations. Also pull out the
+most interesting insights from all of the conversations. Provide your response in markdown format
+""",
+)

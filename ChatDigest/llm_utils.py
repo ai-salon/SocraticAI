@@ -1,4 +1,5 @@
 import json
+import logging
 import os
 import re
 import time
@@ -7,6 +8,7 @@ from collections import namedtuple
 from anthropic import AI_PROMPT, HUMAN_PROMPT, Anthropic, InternalServerError
 from tenacity import *
 
+logger = logging.getLogger(__name__)
 anthropic = Anthropic(api_key=os.getenv("ANTHROPIC_KEY"))
 
 MAX_TOKENS = 10000
@@ -36,7 +38,7 @@ def anthropic_completion(
     completion = anthropic.completions.create(
         model=model, max_tokens_to_sample=max_tokens_to_sample, prompt=prompt, **kwargs
     )
-    print(f"Time taken: {time.time() - start:.2f} seconds with model {model}")
+    logger.info(f"Time taken: {time.time() - start:.2f} seconds with model {model}")
     return completion.completion
 
 
@@ -60,7 +62,7 @@ def chat(model="claude-instant-1", max_tokens_to_sample=MAX_TOKENS, **kwargs):
         prompt = f"{history} {HUMAN_PROMPT} {human_input}{AI_PROMPT}"
         response = anthropic_completion(prompt, model, max_tokens_to_sample, **kwargs)
         history = f"{prompt} {response}"
-        print(response)
+        logger.info(response)
 
 
 def chat_completion(
@@ -122,9 +124,9 @@ def extract_and_read_json(s, try_repair=True):
         except json.JSONDecodeError as e:
             error = e
             if try_repair:
-                print("Trying to repair...")
+                logger.info("Trying to repair...")
                 return extract_and_read_json(repair_json(json_str, error), False)
             else:
-                print(e)
+                logger.error(e)
     else:
         raise ValueError("No JSON object found in the string")

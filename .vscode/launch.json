@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Debug CLI",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/cli.py",
+            "args": ["transcribe", "data/2023-11-01 AI Salon x GAICO - Saumya Gupta.m4a"],
+            "console": "integratedTerminal",
+            "justMyCode": true,
+        }
+    ]
+}
