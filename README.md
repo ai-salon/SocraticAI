@@ -3,6 +3,6 @@ Code for transcribing and interpreting human conversations.
 
 ## Setup
 
-You'll need to have a hugging face token called "HF_TOKEN" to transcribe.
-
-You'll need an anthropic api token called "ANTHROPIC_KEY" to interpret.
+You'll need certain environment variables set:
+* ANTHROPIC_KEY: anthropic api token, used to interpret transcripts
+* ASSEMBLYAI_KEY: Assembly AI api token, used to transcribe
