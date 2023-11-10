@@ -1,11 +1,20 @@
-import json
 import logging
+import os
 import re
 import uuid
 from typing import Dict, List
 
 import tiktoken
 from langchain.text_splitter import RecursiveCharacterTextSplitter
+
+from ChatDigest.config import DATA_DIRECTORY
+
+
+def get_data_directory(subdirectory):
+    path = os.path.join(DATA_DIRECTORY, subdirectory)
+    if not os.path.exists(path):
+        os.makedirs(path)
+    return path
 
 
 def chunk_text(text, chunk_size=5000, chunk_overlap=0):

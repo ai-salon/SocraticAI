@@ -4,6 +4,8 @@ import time
 
 import assemblyai as aai
 
+from ChatDigest.utils import get_data_directory
+
 logger = logging.getLogger(__name__)
 
 aai.settings.api_key = os.getenv("ASSEMBLYAI_KEY")
@@ -22,7 +24,9 @@ def transcribe(file_path, output_file=None):
         assemblyai.transcript.Transcript: The transcript object returned by AssemblyAI.
     """
     if output_file is None:
-        output_file = os.path.splitext(file_path)[0] + "_transcript.txt"
+        basename = os.path.basename(file_path)
+        basename = os.path.splitext(basename)[0] + "_transcript.txt"
+        output_file = os.path.join(get_data_directory("processed"), basename)
 
     if os.path.exists(output_file):
         logger.info(f"Transcription already done. Loading {output_file}...")
