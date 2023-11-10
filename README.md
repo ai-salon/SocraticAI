@@ -1,4 +1,4 @@
-![Alt text](https://github.com/IanEisenberg/ChatDigest/static/AI_Salon.png "AI Salon")
+![Alt text](https://github.com/IanEisenberg/ChatDigest/blob/main/static/AI_Salon.png?raw=true "AI Salon")
 
 
 # ChatDigest
