@@ -1,9 +1,13 @@
 import logging
 import os
 
-from ChatDigest.generate.insights import run_insight_generation
 from ChatDigest.generate.process import process_file
-from ChatDigest.generate.utils import dict_to_markdown, expansion_to_string
+from ChatDigest.generate.takeaways import run_insight_generation
+from ChatDigest.generate.utils import (
+    dict_to_markdown,
+    expansion_to_string,
+    get_data_directory,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -21,7 +25,7 @@ def interpret_transcript(file_path, expand=False):
     # create insights if they don't exist
     basename = os.path.basename(file_path)
     output_path = os.path.join(
-        "outputs", basename.replace("transcript.txt", "insights.md")
+        get_data_directory("outputs"), basename.replace("transcript.txt", "insights.md")
     )
 
     if not os.path.exists(output_path):
