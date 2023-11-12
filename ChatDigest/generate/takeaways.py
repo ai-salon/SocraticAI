@@ -7,6 +7,7 @@ from ChatDigest.generate.prompts import (
     basic_prompts,
     categorizer_prompt,
     expand_prompt,
+    quote_extraction_prompt,
 )
 from ChatDigest.llm_utils import chat_completion, extract_and_read_json
 from ChatDigest.utils import chunk_text
@@ -79,6 +80,18 @@ def generate_takeaways_from_chunks(
         raise
 
 
+def get_quotes(insights):
+    quotes = []
+    for chunked_insights in insights:
+        insight_string = "\n\n".join(chunked_insights["takeaways"])
+        p = quote_extraction_prompt(
+            text=chunked_insights["chunk"], insight_list=insight_string
+        )
+        response = chat_completion(p, model="claude-2")
+        quotes.append(response)
+        break
+
+
 def generate_all_takeaways(text, model="claude-2"):
     takeaways = {
         t: generate_takeaways_from_chunks(text, t) for t in basic_prompts.keys()
@@ -123,7 +136,7 @@ def expand_insights(classified_insights, model="claude-2"):
         for theme, insights in classified_insights.items():
             p = expand_prompt(takeaway_list="\n\n".join(insights), theme=theme)
             response = chat_completion(p, model=model)
-            expansions[theme] = {"blog": response, "insights": insights}
+            expansions[theme] = response
         logger.info("Expanded insights into blog posts")
         return expansions
     except Exception as e:
@@ -134,7 +147,7 @@ def expand_insights(classified_insights, model="claude-2"):
 def write_article(expansions, questions, disagreements, length=1000, model="claude-2"):
     logger.info("Writing an article...")
     try:
-        expansion_string = "\n\n".join([e["blog"] for e in expansions.values()])
+        expansion_string = "\n\n".join(expansions.values())
         questions = "\n\n".join(collapse_takeaways(questions))
         disagreements = "\n\n".join(collapse_takeaways(disagreements))
         p = article_prompt(
@@ -151,7 +164,7 @@ def write_article(expansions, questions, disagreements, length=1000, model="clau
         raise
 
 
-def run_insight_generation(text, model="claude-2", expand=False):
+def run_takeaway_generation(text, model="claude-2", article_length=2000):
     """
     Generates insights from the given text using the specified model.
 
@@ -165,14 +178,26 @@ def run_insight_generation(text, model="claude-2", expand=False):
     """
     logger.info("Running the full insight generation process")
     try:
-        chunk_outputs = generate_takeaways_from_chunks(text, model=model)
-        takeaways = [item["takeaways"] for item in chunk_outputs]
-        # collapse list of lists
-        takeaways = [item for sublist in takeaways for item in sublist]
-        if expand:
-            return expand_takeaways(takeaways, model=model)
-        else:
-            return classify_takeaways(takeaways, model=model)
+        takeaways = generate_all_takeaways(text, model=model)
+        collapsed = collapse_takeaways(takeaways["insight"])
+        classified = classify_takeaways(collapsed, model=model)
+        expansions = expand_insights(classified, model=model)
+        article = write_article(
+            expansions,
+            takeaways["question"],
+            takeaways["disagreement"],
+            length=article_length,
+            model=model,
+        )
+        output = {
+            "insights": collapse_takeaways(takeaways["insight"]),
+            "questions": collapse_takeaways(takeaways["question"]),
+            "disagreements": collapse_takeaways(takeaways["disagreement"]),
+            "classified": classified,
+            "expansions": expansions,
+            "article": article,
+        }
+        return output
     except Exception as e:
         logger.error(f"Error in running the full insight generation process: {e}")
         raise

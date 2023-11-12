@@ -1,4 +1,5 @@
 anthropic
 assemblyai
 langchain
+spacy
 tiktoken

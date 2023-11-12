@@ -21,3 +21,9 @@ You'll need certain environment variables set:
 ### Configuration
 Configuration is set up to automatically expect your files to be places in `data/inputs`. If
 you would like a different directory then `data` change it in the configuration file.
+
+### Spacy Setup
+We use spacy for named-entity-recognition (NER) to remove names. After downloading spacy you need
+to download the specific model we use to run NER.
+
+```python -m spacy download en_core_web_lg```
