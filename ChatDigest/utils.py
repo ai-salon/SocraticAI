@@ -2,6 +2,7 @@ import logging
 import os
 import re
 import uuid
+from glob import glob
 from typing import Dict, List
 
 import tiktoken
@@ -15,6 +16,21 @@ def get_data_directory(subdirectory):
     if not os.path.exists(path):
         os.makedirs(path)
     return path
+
+
+def get_stats():
+    audio_files = glob(os.path.join(DATA_DIRECTORY, "inputs", "*"))
+    transcriptions = glob(os.path.join(DATA_DIRECTORY, "processed", "*transcript.txt"))
+    processed_files = glob(os.path.join(DATA_DIRECTORY, "processed", "*_processed.txt"))
+    anonymized_files = glob(os.path.join(DATA_DIRECTORY, "processed", "*_anon.txt"))
+    takeaways = glob(os.path.join(DATA_DIRECTORY, "outputs", "*takeaways.md"))
+
+    # log number of each
+    logging.info(f"{len(audio_files)} audio files")
+    logging.info(f"{len(transcriptions)} transcriptions")
+    logging.info(f"{len(processed_files)} processed files")
+    logging.info(f"{len(anonymized_files)} anonymized files")
+    logging.info(f"{len(takeaways)} takeaways")
 
 
 def chunk_text(text, chunk_size=5000, chunk_overlap=0):

@@ -86,6 +86,29 @@ basic_prompts = {
     "disagreement": basic_argument_prompt,
 }
 
+quote_extraction_prompt = Prompt(
+    "quote_extraction",
+    """
+I will give you a piece of conversation as well as some insights derived from the conversation.
+I want you to extract supportive 1-3 quotes from the conversation for each insight.
+
+The conversation subset is between ```:
+```{text}```
+
+```insight list```
+{insight_list}
+
+
+```Output Format```
+Return the output as a json with the insights as keys and the supporting quotes as values.
+{{
+    [Insight 1]: [Quote 1], [Quote 2], ...
+    [Insight 2]: [Quote 4], 
+    [Insight 3]: [Quote 5], [Quote 6], ...,
+}}
+""",
+)
+
 aggregator_prompt = Prompt(
     "takeaway_aggregator",
     """
@@ -144,10 +167,26 @@ I will give you a theme and a list of takeaways derived from a conversation.
 ```theme```
 {theme}
 
-```output list```
+```takeaway list```
 {takeaway_list}
 
-Please write a 500-600 word blog post incorporating these takeaways derived from the theme. Focus on generating an engaging lead that hooks readers, and smoothly connecting the different takeaways into a cohesive whole. Use subheadings to break up the sections with markdown format. Maintain a conversational but authoritative tone, providing enough background for readers new to AI and the theme. Share your own perspective where relevant. The goal is an insightful post that distills the essence of the conversation for a general audience interested in technology's meaning and impact.
+```Style Guide```
+Depth and Nuance: Delve into the intricacies of your subject matter with rigor. Avoid surface-level analysis; instead, aim for a deeper dive that brings out the subtleties and complexities of the topic.
+
+Cohesiveness and Narrative: Construct a clear narrative that links data, theory, and personal insights. Your writing should guide the reader through a logical progression of ideas, building towards a comprehensive understanding.
+
+Balanced Examination: Address various perspectives and examine different facets of an issue. While maintaining your authorial voice, present a balanced view that considers counterarguments and alternative viewpoints.
+
+Engagement and Authority: Write with confidence and authority, but also strive to engage your readers. Use a conversational tone where appropriate to make complex ideas more relatable.
+
+Challenging Assumptions: Do not shy away from questioning established beliefs or popular opinions. Offer well-reasoned critiques and fresh perspectives that encourage readers to think critically.
+
+Eloquence and Accessibility: Your language should be clear and articulate, avoiding unnecessary jargon. Strive to make your writing accessible to both experts and laypeople, ensuring that it is both informative and readable.
+
+Forward-Thinking: Look beyond the current discourse and anticipate future developments and implications. Aim to provide insights that are not just relevant today but will also resonate with future trends and patterns.
+
+```Task```
+Please write a 500-600 word blog post incorporating these takeaways derived from the theme. The goal is an insightful post that distills the essence of the conversation for a general audience interested in technology's meaning and impact.
 """,
 )
 
@@ -184,7 +223,7 @@ Eloquence and Accessibility: Your language should be clear and articulate, avoid
 Forward-Thinking: Look beyond the current discourse and anticipate future developments and implications. Aim to provide insights that are not just relevant today but will also resonate with future trends and patterns.
 
 ```Task```
-Please write a {length} word blog post incorporating the different elements I have provided. The goal is an insightful post that distills the essence of the conversation for a general audience interested in technology's meaning and impact.
+Please write a {length} word blog post incorporating the different elements I have provided. The goal is an insightful post that distills the essence of the conversation for a general audience interested in technology's meaning and impact. Sections should flow smoothly into each other and the article should have a clear overall narrative arc.
 """,
 )
 

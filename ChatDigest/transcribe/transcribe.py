@@ -4,6 +4,7 @@ import time
 
 import assemblyai as aai
 
+from ChatDigest.transcribe.process import anonymize_transcript, process_file
 from ChatDigest.utils import get_data_directory
 
 logger = logging.getLogger(__name__)
@@ -11,7 +12,7 @@ logger = logging.getLogger(__name__)
 aai.settings.api_key = os.getenv("ASSEMBLYAI_KEY")
 
 
-def transcribe(file_path, output_file=None):
+def transcribe(file_path, process=True, anonymize=True, output_file=None):
     """
     Transcribes an audio file using AssemblyAI's transcription service.
 
@@ -45,8 +46,20 @@ def transcribe(file_path, output_file=None):
             f"Speaker {utterance.speaker}: {utterance.text}"
             for utterance in transcript.utterances
         ]
-        transcript_text = "\n".join(utterances)
+        transcript = "\n".join(utterances)
         logger.info(f"Transcribed in {time.time() - start:.2f} seconds")
         with open(output_file, "w") as f:
-            f.write(transcript_text)
+            f.write(transcript)
+    if process is True:
+        transcript_file = output_file
+        processed_file_path = transcript_file.replace(".txt", "_processed.txt")
+        if not os.path.exists(processed_file_path):
+            logger.info(f"Processing {transcript_file}...")
+            transcript = process_file(transcript_file)
+        else:
+            logger.info(f"Processed already. Loading {processed_file_path}...")
+            with open(processed_file_path, "r") as f:
+                transcript = f.read()
+        if anonymize_transcript:
+            transcript = anonymize_transcript(processed_file_path, save_file=True)
     return output_file, transcript

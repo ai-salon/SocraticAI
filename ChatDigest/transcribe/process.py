@@ -1,8 +1,11 @@
 import logging
 import os
 
+import spacy
+
 from ChatDigest.generate.prompts import copy_edit_prompt
 from ChatDigest.llm_utils import chat_completion
+from ChatDigest.transcribe.utils import get_name_list
 from ChatDigest.utils import chunk_text, get_data_directory
 
 logger = logging.getLogger(__name__)
@@ -40,6 +43,7 @@ def process_file(file_path, save_file=True, process_prompt=copy_edit_prompt):
         processed = processed.replace(to_remove, "")
         processed_chunks.append(processed)
     processed_text = "\n".join(processed_chunks)
+    logger.info(f"Finished processing {file_path}")
     if save_file:
         basename = os.path.basename(file_path)
         output_path = os.path.join(
@@ -48,3 +52,41 @@ def process_file(file_path, save_file=True, process_prompt=copy_edit_prompt):
         with open(output_path, "w") as f:
             f.write(processed_text)
     return processed_text
+
+
+def anonymize_transcript(file_path, save_file=True):
+    """
+    Anonymize a transcript by replacing all names with a generic name.
+
+    Args:
+        file_path (str): The path to the input file.
+        save_file (bool, optional): Whether to save the processed text to a new file. Defaults to True.
+
+    Returns:
+        str: The processed text as a single string.
+    """
+    logger.info(f"Anonymizing {file_path}...")
+    # Read the file
+    with open(file_path, "r") as f:
+        text = f.read()
+
+    # assume names of people are in the first 1/6 of the text
+    first_sixth = text[: len(text) // 6]
+    nlp = spacy.load("en_core_web_lg")
+    doc = nlp(first_sixth)
+    persons = [ent.text for ent in doc.ents if ent.label_ == "PERSON"]
+    name_list = get_name_list()
+    remapping = {person: name_list[i] for i, person in enumerate(persons)}
+    for person, name in remapping.items():
+        text = text.replace(person, name)
+    text = "Names have been changed to preserve anonymity.\n\n" + text
+    logger.info(f"Finished anonymizing {file_path}")
+    if save_file:
+        basename = os.path.basename(file_path)
+        output_path = os.path.join(
+            get_data_directory("processed"),
+            basename.replace("_processed.txt", "_processed_anon.txt"),
+        )
+        with open(output_path, "w") as f:
+            f.write(text)
+    return text
