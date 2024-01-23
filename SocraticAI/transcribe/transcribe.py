@@ -4,8 +4,8 @@ import time
 
 import assemblyai as aai
 
-from ChatDigest.transcribe.process import anonymize_transcript, process_file
-from ChatDigest.utils import get_data_directory
+from SocraticAI.transcribe.process import anonymize_transcript, process_file
+from SocraticAI.utils import get_data_directory
 
 logger = logging.getLogger(__name__)
 

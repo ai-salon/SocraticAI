@@ -1,4 +1,4 @@
-from ChatDigest.utils import Prompt
+from SocraticAI.utils import Prompt
 
 copy_edit_prompt = Prompt(
     "copy_edit",

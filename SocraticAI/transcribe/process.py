@@ -3,10 +3,10 @@ import os
 
 import spacy
 
-from ChatDigest.generate.prompts import copy_edit_prompt
-from ChatDigest.llm_utils import chat_completion
-from ChatDigest.transcribe.utils import get_name_list
-from ChatDigest.utils import chunk_text, get_data_directory
+from SocraticAI.generate.prompts import copy_edit_prompt
+from SocraticAI.llm_utils import chat_completion
+from SocraticAI.transcribe.utils import get_name_list
+from SocraticAI.utils import chunk_text, get_data_directory
 
 logger = logging.getLogger(__name__)
 

@@ -2,16 +2,16 @@ import argparse
 import logging
 from glob import glob
 
-from ChatDigest.generate.interpret import interpret_transcript
-from ChatDigest.transcribe.transcribe import transcribe
-from ChatDigest.utils import get_stats
+from SocraticAI.generate.interpret import interpret_transcript
+from SocraticAI.transcribe.transcribe import transcribe
+from SocraticAI.utils import get_stats
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
 )
 
 # Initialize the logger
-logger = logging.getLogger("ChatDigestCLI")
+logger = logging.getLogger("SocraticAICLI")
 
 
 def transcribe_generate(file_path, expand=False):
@@ -35,7 +35,7 @@ def transcribe_multi(path_pattern):
 
 
 # Initialize the argument parser
-parser = argparse.ArgumentParser(description="ChatDigest CLI")
+parser = argparse.ArgumentParser(description="SocraticAI CLI")
 subparsers = parser.add_subparsers(title="commands", dest="command")
 
 # Create the parser for stats
