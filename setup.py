@@ -10,7 +10,7 @@ setup(
     install_requires=requirements,
     entry_points={
         "console_scripts": [
-            "SocraticAI=scripts.cli:main",
+            "SocraticAI=SocraticAI.cli.main:main",
         ]
     },
 )
