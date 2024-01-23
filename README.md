@@ -9,6 +9,11 @@ like those facilitated by the [AI Salon](https://lu.ma/Ai-salon).
 
 ## Setup
 
+### Installation
+Install the repo from source:
+
+```pip install git+https://github.com/IanEisenberg/SocraticAI.git```
+
 ### Data
 Audio files should be put in the "data" folder. Transcriptions and processed transcriptions will
 be created in that folder and moved to outputs.
@@ -28,4 +33,11 @@ to download the specific model we use to run NER.
 
 ```python -m spacy download en_core_web_lg```
 
-## Command Line Interface
+## Command Line Interface (CLI)
+
+After installing the repo in your python environment, you can 
+use the CLI by calling `SocraticAI`.
+
+For instance, to see all commands you can get help like so:
+
+```SocraticAI -h```
