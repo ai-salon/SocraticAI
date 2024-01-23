@@ -1,8 +1,8 @@
 import logging
 
-from ChatDigest.generate.prompts import multi_convo_prompt
-from ChatDigest.generate.utils import strip_preamble
-from ChatDigest.llm_utils import chat_completion
+from SocraticAI.generate.prompts import multi_convo_prompt
+from SocraticAI.generate.utils import strip_preamble
+from SocraticAI.llm_utils import chat_completion
 
 logger = logging.getLogger(__name__)
 

@@ -1,10 +1,10 @@
 import logging
 import os
 
-from ChatDigest.generate.takeaways import run_takeaway_generation
-from ChatDigest.generate.utils import dict_to_markdown, expansion_to_string
-from ChatDigest.transcribe.process import process_file
-from ChatDigest.utils import get_data_directory
+from SocraticAI.generate.takeaways import run_takeaway_generation
+from SocraticAI.generate.utils import dict_to_markdown, expansion_to_string
+from SocraticAI.transcribe.process import process_file
+from SocraticAI.utils import get_data_directory
 
 logger = logging.getLogger(__name__)
 

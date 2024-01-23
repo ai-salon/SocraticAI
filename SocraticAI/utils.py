@@ -8,7 +8,7 @@ from typing import Dict, List
 import tiktoken
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
-from ChatDigest.config import DATA_DIRECTORY
+from SocraticAI.config import DATA_DIRECTORY
 
 
 def get_data_directory(subdirectory):

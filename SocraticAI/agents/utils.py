@@ -1,7 +1,7 @@
 import os
 from glob import glob
 
-from ChatDigest.utils import get_data_directory
+from SocraticAI.utils import get_data_directory
 
 processed_dir = get_data_directory("processed")
 processed_transcripts = glob(os.path.join(processed_dir, "*_processed_anon.txt"))

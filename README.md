@@ -1,8 +1,8 @@
-![Alt text](https://github.com/IanEisenberg/ChatDigest/blob/main/static/AI_Salon.png?raw=true "AI Salon")
+![Alt text](https://github.com/IanEisenberg/SocraticAI/blob/main/static/AI_Salon.png?raw=true "AI Salon")
 
 
-# ChatDigest
-Codebase for transcribing and interpreting human conversations. ChatDigest was originally
+# SocraticAI
+Codebase for transcribing and interpreting human conversations. SocraticAI was originally
 developed to support modern civil discourse about transformative ideas and technologies,
 like those facilitated by the [AI Salon](https://lu.ma/Ai-salon).
 
@@ -27,3 +27,5 @@ We use spacy for named-entity-recognition (NER) to remove names. After downloadi
 to download the specific model we use to run NER.
 
 ```python -m spacy download en_core_web_lg```
+
+## Command Line Interface

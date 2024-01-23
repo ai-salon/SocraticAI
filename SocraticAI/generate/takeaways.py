@@ -1,7 +1,7 @@
 import logging
 import re
 
-from ChatDigest.generate.prompts import (
+from SocraticAI.generate.prompts import (
     aggregator_prompt,
     article_prompt,
     basic_prompts,
@@ -9,8 +9,8 @@ from ChatDigest.generate.prompts import (
     expand_prompt,
     quote_extraction_prompt,
 )
-from ChatDigest.llm_utils import chat_completion, extract_and_read_json
-from ChatDigest.utils import chunk_text
+from SocraticAI.llm_utils import chat_completion, extract_and_read_json
+from SocraticAI.utils import chunk_text
 
 logger = logging.getLogger(__name__)
 
