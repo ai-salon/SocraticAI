@@ -1,0 +1,312 @@
+Speaker A: Go around.
+Speaker B: I think you have.
+Speaker C: We did a round of introductions. Yeah, let's do it again.
+Speaker D: Sure.
+Speaker C: Maybe be generous a couple minutes.
+Speaker E: Yeah.
+Speaker B: Your background, where you're coming from, and some of the things you've been thinking about in terms of living the city in the context of, I guess for now, the public facilities, but we can kind of go anywhere we want.
+Speaker C: Really?
+Speaker B: Sure, yeah. Thanks. My name is Andrew. I've lived here for three years. I studied sociology originally before I came into the world of engineering and technology. And so I also have a small startup that's actually trying to solve this problem of using AI to help access public services that's based in Canada where I grew up. And I think there could be. Yeah, I don't have as much experience with proms in San Francisco because I'm a tech employee. So sort of like divorced from a lot of the city proms, but yeah, curious to also go around.
+Speaker F: My name is Maury.
+Speaker B: You are facilitating, okay.
+Speaker C: From New York, so I don't really.
+Speaker E: Get the similar.
+Speaker C: Background now shifting into tech.
+Speaker G: My name is Jed.
+Speaker A: I work as a product designer at a company called Everlock. It's a legal tech AI company. Before that I worked at another startup. I'm really passionate about ways to make legal aid more.
+Speaker C: My name is Louis. I work for the Attorney General researching law enforcement, crime, and artificial intelligence together. So kind of the intersection.
+Speaker H: My name is Chris. I work at UCSF Researching Computational biology algorithms.
+Speaker A: My name is Sammy.
+Speaker F: I'm a student in New York City. So much also new to SF problems.
+Speaker A: Yeah.
+Speaker D: Have a go already? Sure.
+Speaker H: I'm Leon.
+Speaker C: Doing some tree learning research and then.
+Speaker B: Also looking at jobs.
+Speaker F: Very good.
+Speaker D: Well, I guess I should introduce myself as well then. I'm Fatin. I'm a student at UC Berkeley right now. I'm originally from Norway. I've been living here for nine months and I'm doing a PhD in anthropology. And I'm here to help Andrew with facilitation.
+Speaker C: Things.
+Speaker D: Okay, join the Circle. Sit down. Feel comfortable. Do you want to. We could also like scoot you a little bit inside Here if you want to come sit on the corner. Can we just go around once more and kind of just say like one sentence, like very briefly who you are, your background, and also just like your relationship to the problem here. Okay, so I'm partain. I'm an anthropologist, and I'm here to help facilitate discussion.
+Speaker C: I'm Leon, I'm doing AI research.
+Speaker D: My name is Corey.
+Speaker E: I come from an e commerce background.
+Speaker D: Working a shift in New York.
+Speaker F: Where I'd imagine we have similar problems.
+Speaker E: But I don't know the exact problems SF has.
+Speaker F: And I would love to learn.
+Speaker A: Hi, I'm Jen. I work as a product designer at Everlaw Legal Tech AI. And I'm Passion bond.
+Speaker E: My name is Chris. I work at UCSF as a foundation biology researcher.
+Speaker H: I've lived in the city my whole.
+Speaker C: Life, so I'm always looking for ways to give back.
+Speaker E: I'm Leo, and I'm still a student studying economics.
+Speaker G: I'm also a student studying math.
+Speaker F: I'm Sammy. I'm a student. I'm curious to learn.
+Speaker E: Hi, my name is Jan. So, a student studying economics and history and running a foundation in Poland where I'm originally from.
+Speaker C: I'm Louis. I work for the attorney general.
+Speaker D: Very good. So if there's anyone who want to jump start the discussion. Anything on your mind?
+Speaker F: I guess I had a question for what you said earlier before we did introduction. So you mentioned that there was a problem with police being understaffed. Fully staffed would be 2100. I was just curious to hear more on what the kind of results of that deficit are. The most critical kind of things that are missing.
+Speaker A: That you think that we had that.
+Speaker F: Fully staffed police presence, where do you think that would help out?
+Speaker C: Yeah. So to give some background on that for the people that just got here, right before I was here, I just came from a meeting with one of the San Francisco PD captains and a city supervisor. And we were talking about basically just a bunch of issues the city's facing right now. One of them is significant. Police understaffing. Seems like that some of the issues that are coming out of that would be, obviously, it's more difficult to enforce the law. You have to be more selective in what you enforce. And even when you are enforcing, you're actually not able to enforce as much. At the same time, I think for me, the bigger problem, and I think the captain agreed with me, was that the enforcement incentives and the incentives, specifically on the homelessness side of things, are very misaligned right now. The city of San Francisco is paying significant amounts of money and providing significant amounts of aid to people that are coming into the city. So the statistic that verifies that is that 90% of homeless people in San Francisco are not from San Francisco, 50% of them are not from California. So there is a huge proportion of people that are traveling across the country to come to San Francisco and live here because San Francisco is providing monthly stipend, cash stipends, food, legal services, housing, free cells, so a lot of government services. And I asked, why are we providing these services? And the general answer was, it's a third rail.
+Speaker E: Not touch it.
+Speaker C: Do not touch them. Because if you do, shout you down and your political.
+Speaker H: A couple of the services you just mentioned, like the free phones and technically the stipends come from the federal government, not San Francisco, California.
+Speaker C: These are California. It was passed under Gavin dissolves.
+Speaker H: There's also a phone thing from Obama.
+Speaker C: I think he did that during his ten campaign. That was a separate thing. This is general name.
+Speaker D: So there are a couple of problems that are being identified there. Is there anything that pops out to you that you want to discuss in the circle? Problems with law enforcement, understanding there? It also seems to be present around the unhoused. Give the word out there. Feel free to grab it. Sometimes I wonder if it's more like.
+Speaker C: A personal politician and whatever their vote is rather than how not.
+Speaker F: Quite.
+Speaker D: All right, so, yeah, we were just trying to identify the problems that you just kind of introduced. So one that I saw right was the understanding and the overspending of the unhoused taxes to California. Is there any other, like any other.
+Speaker H: Problems you mentioned we spend money to defend people that the city's prosecuting. Maybe a better way to decide what we're prosecuting for. Well, with the idea that the issue.
+Speaker C: From my understanding, was that any reduction in these services is a socially.
+Speaker H: Yeah, I mean, the other way around. So, like, if Legal aid is defending something that you're prosecuting.
+Speaker D: Right.
+Speaker H: Maybe the thinking should be that less prosecute and instead focus on your possible.
+Speaker C: It's possible, but from my experience, and I think from the enforcement perspective, they're already not enforcing, they're not prosecuting. I think what's more likely than over prosecution is that an overzealous defense system, and it comes because there's a social advocacy component around protecting these benefits. And that's something that politicians, specifically the Board of Supervisors, are not willing to touch because they know it's politically inexpedient. They get in trouble with unions, with advocacy groups, and with activists. And from the city supervisor that I was speaking with, he described it literally as a third rail. He's like, it's not worth touching it. He's like, it's a huge problem. It's a waste of city money. But trying to end it will end my career. So I have no incentive to finish.
+Speaker F: It, deal with it.
+Speaker D: It's just not going to work.
+Speaker C: So my question from that is, what's the deal?
+Speaker I: The advocacy goals.
+Speaker C: Right. I think most people that live in San Francisco. I grew up in the Bay Area. I've lived here my whole life. Most people that live in San Francisco see it going downhill. The quality of life is decreasing. I don't think that's a controversial opinion.
+Speaker E: Can we do a survey?
+Speaker D: I want to see.
+Speaker C: Yeah, I'd love to hear that.
+Speaker H: Who thinks quality of life is going down?
+Speaker C: I'd also be interested to hear how.
+Speaker D: Long have people lived here. Yeah, let's do around again. Like, how long have people lived in the Bay Area?
+Speaker C: 24 years.
+Speaker A: Are you trying to.
+Speaker D: Technically live in Berkeley right now.
+Speaker F: Would you say?
+Speaker D: I've been There nine months. Okay, I'll just explain a little bit about my background as a European from Norway. I was shocked when I first came over. It's not like this back. Yeah, I think there are some problems to be identified in the city.
+Speaker H: I'd say I've been living in the city also, like, for 23 years. My score for college. I think that in many ways, the quality of life has gone down. A lot of safety, things have gotten better. It used to be that there were large areas of the mission that people would really get shot in, like, wearing the wrong colors in neighborhoods, even, like, a couple of blocks away from here. And shootings like that have gone down. Yeah, like, dangers of gang violence.
+Speaker C: There's definitely been a decrease in gang and organized crime. Now it seems like the biggest threat is random assaults, public safety violations, needles in the street, open air drug markets. I mean, I live on Market street, so I literally walk by one every day. It's like where I don't walk on the sidewalk. I walk into the street because I'd rather get watch out for a car than walk through a crowd of people that are like, you know how it is everywhere.
+Speaker D: Do you care to say anything more about the tenderloin?
+Speaker G: We study here.
+Speaker A: So we came here first two years ago, then we left.
+Speaker E: Where are you from?
+Speaker A: Georgia, Canada.
+Speaker D: How long did you say you've been here? Not that long.
+Speaker A: Four months.
+Speaker D: We're from foreign countries. Right. So how was San Francisco compared to.
+Speaker A: Well, when we came back here first, it was like two years ago. It was right after COVID. So much more places were closed down, I think. And the general energy in the city was much lower. So for me now, it looks like the city is more alive than it was two years ago. But I don't really have a comparison of before.
+Speaker D: Do anyone have a comparison with pre COVID? Post COVID?
+Speaker H: Pre COVID is a lot better.
+Speaker C: There was a lot more businesses there's a lot more activity. There's a lot more people in the street. Generally speaking, it felt cleaner. To me, the most blatant thing that I notice on an almost daily basis is people doing and selling drugs on the street. And I'm not like, nobody can get high. I don't really care if people get high, honestly. But I don't think it's appropriate and I don't think it should be condoned to behave like that in public spaces, specifically on public sidewalks because there's health hazards. I'm a pretty big guy. I don't really have safety concerns for me personally, but my sister does not walk around in the city alone. I don't know any of my female friends do not walk around in the city alone because they do not feel safe. And for one of the richest cities in the country and the world, that's unbelievable. Anyone should walk down the street, not feel absolutely safe.
+Speaker G: I had a question for about, like six months now, and it's after COVID. So I see a lot of tourists around and I see lots of crimes that are related to specifically towards the tourists and not towards the local people. So is this something that is like, purposely or is it something that has happened over the time?
+Speaker C: Tourists are being targeted specifically for crimes?
+Speaker G: Yeah.
+Speaker C: I mean, you know, I'll see tourists driving around with, like, their luggage in the car and then they park the car and leave the luggage in the know. Come on. The reason why people do that is because they're coming from a place where. That's in. I was in Europe recently. I was in Budapest, Vienna. And in Vienna, there was people doing that all over. There are people that just leave their bags outside. Cafes would leave their laptop on the table, go inside and go to the bathroom.
+Speaker E: You do that in census.
+Speaker C: I don't leave anything outside of my arm's reach unless I'm okay with being stolen.
+Speaker G: So I myself had my passport. Like, second guy was.
+Speaker A: I see there are a lot of.
+Speaker G: Times I right now live in Oakland, but I seriously.
+Speaker A: I felt it's much.
+Speaker G: Dangerous as compared to.
+Speaker A: Actually San Francisco.
+Speaker C: Worse than Oakland.
+Speaker A: Yeah.
+Speaker C: Well, Oakland you're going to get. It's going to still be tending more towards organizing crime and gang violence in Oakland. San Francisco is more. IT's going to be more random. The scary thing is, like you said earlier in the mission, it used to be you walk down the street, if you're wearing red on a grip area, then someone, you're going to have a problem. If you're wearing blue in a blood area, you're going to have a problem. Now, it's not what you're wearing, it's, do you happen to run into a guy who's coming down on Fentanyl and wants a few bucks? And if you're unlucky enough, if that's the case and that's random, which makes it, to me, scary, at least I know. If I'm walking through the city, I wear black. If I'm walking through an area where I know there's gang activity, I'm going to wear white and black, like neutral colors. I'm not without life. I'm not affiliated. It's not a part of the. Just ignore me, pretend I'm not here. But with the random violence, you never know.
+Speaker E: Have you ever considered leaving?
+Speaker D: Have you ever considered leaving?
+Speaker C: Yeah, I mean, I'm getting ready for law school.
+Speaker F: At what point do you.
+Speaker E: Guess you.
+Speaker D: Got to get out of here?
+Speaker C: Well, I mean, I'm planning on it because law school is. I'm sure I don't.
+Speaker D: So I'm seeing a couple of patterns here, right? A couple of problems. One thing that I'm seeing is, like, the law enforcement that's been mentioned, like, it's too few cops has been mentioned. There's the fear of being the victim of petite. Right. There's also the fear of being the victim of violent crime, like, randomly. Right. There's also the problem of open drug use in the street, which is both a problem for people walking by and the people doing the drugs, I would say. Right. So that's kind of a two part problem there. Do you agree these are some of the themes that we've touched upon, right? Yeah.
+Speaker F: If you don't mind, I kind of would like to get specific and maybe discuss maybe more concrete things to get from the what and how. Like I said, I think I still want to understand your position better or what you're saying from your experience. So you're talking about kind of the services that people in local government feel like they can't touch. Are there any specific services that come to mind and what the incentive structure you think they create that you see as a problem just to kind of drill down into something?
+Speaker C: To be very frank, the fact that San Francisco gives out to non resident unhoused people. This is the official language. Non resident unhoused people get a $650 stipend every month from the city of San Francisco. I don't know about you guys. To me, that's BS. It's unbelievable that the city of San Francisco, and therefore anybody who works and pays taxes in the city, is contributing a part of their paycheck. For people who come into the city from outside of the city or outside of the state, to come in here and then live on the street and do drugs, it's crazy to me. But that is something that, in the direct words of one of the eleven city supervisors, cannot be touched. Because if you touch it, if you even try to talk about it, you're going to have advocacy groups, ACLU, forget the specific name, but there's an organization that advocates for homeless rights. You're going to have them up your grill, and you're going to have, during public comment sections, you're going to have hundreds of activists storming in to the public comment screaming at you. And he said, I tried to talk about this to people, and I have people with bullhorns at my events. So that is the specific why of.
+Speaker E: The research done on how many people of San Francisco actually support that policy. The disagreement of the loudest group is obviously problematic, but it doesn't reflect the sentiment of the whole population.
+Speaker C: Exactly. And that's the problem. There is a significant, extremely vocal minority that seems to be outvoicing a majority of people. Seems to be pretty common sense reform.
+Speaker E: Why does the system prioritize the voice of the vocal minority?
+Speaker C: Because the people that want it to be fixed are at their job, and they're working, and they're dealing with their kids, and they're taking their dog for a walk, and they're washing their clothes, and they're dealing with all the day to day functions that any normal person has. But if you're a professional activist, and this is one of the problems. Professional advocacy groups, they are organizations with paying members on staff whose job is to influence public policy. And if your job is to influence public policy, you've got nothing fucking better to do than to go to a city council meeting and scream at people. And if you're a city council member, every single time you try to talk about something, you get people showing up with bullhorns and signs going, fuck you, asshole. We're voting you out.
+Speaker H: It goes both ways. I mean, you know how Brooke got into power.
+Speaker D: I think I want to open up the space for some other topics, and other people get into the space and share their experiences. This is great. Thanks for sharing. But, yeah, let's open it up a little bit here.
+Speaker I: So my name is Will. I'm just six weeks new to the area. I'm actually standing Berkeley as well. But I was curious to that last point when that got enacted to give this subsidy of like $650 a month to unhouse residents that relocated to the area. How did local city officials, what was a KPI? Or how did they factor in what that was going to solve or do? I'm just curious to know the logic of how that even got.
+Speaker H: It used to be when Gavin Newsom was mayor, his big initiative was care.
+Speaker D: Not cash.
+Speaker H: Which is exactly what it sounds like. Giving people housing, food stamps, but not money. With the idea that give people money just by that, people didn't like that because they felt like people weren't being given enough things and there wasn't good direction as to what people were given. People might be given housing who didn't need housing or food, who actually had a job to buy food, and they really needed medical care. And so maybe something that we could work on is more of a directed algorithm to help match people to what.
+Speaker D: They need, as opposed to just giving people money. I think this is a good topic to discuss. I was actually thinking about, let's bracket the other discussion and focus on problems like this, like solvable problems for new people who arrive. So these are ideas that are going to go towards a hackathon in mid September, focusing on practical problems to be solved in the city of.
+Speaker H: Yeah, that was just kind of randomly said.
+Speaker F: Well, I guess as a follow up for that, for maybe addressing the gap between kind of the direction people in tech might have versus. I'm just curious, as, like a newcomer, how many people who are unhoused or kind of struggling with these issues have consistent access to connection? Or how many of them have phones, mobile devices?
+Speaker H: Like when we said there's initiatives that you can get, like a free phone, some sort of cell phone.
+Speaker F: That's not a good.
+Speaker H: Yeah, I mean, it is a great area. Getting people to use things, especially, like government forms are really hard to fill out, especially if you, like, all your stuff is in a shopping cart. But, yeah, just having people.
+Speaker A: But that's also, like, the bigger question of the age, right? Do you give them what you think they need, or do you give them the money to purchase what they actually need because they know their problems more than we do?
+Speaker H: Yeah, exactly. That's why we stop giving people what.
+Speaker E: We thought they needed and started giving them.
+Speaker C: Or to introduce another question, should you be giving people stuff at all? And I know that's probably going to be, politically in this environment, not a very popular question, but it's one that needs to be asked, considering that San Francisco has done a lot of experimentation with providing service to members of society that are not contributing back to society. And what obligation, and this is what obligation does the city have?
+Speaker E: And then the question is.
+Speaker D: I think we should bracket the political discussion a little bit and focus on more practical problems.
+Speaker A: So right now, are we just generating as many problems?
+Speaker D: Yes, many problems as possible. So let's not get bogged down in one particular issue too much.
+Speaker E: So the question is whether the city is to support the outsiders or the citizens. And also education, especially map education. San Francisco is underfunded. So the question is, do we want to spend money on people whom tangibly is more difficult to support, instead of supporting people who don't have access to resources which they would be able to use for both personal and public gains? Since we have limitations of budget, there's also the question of how, in the most effective way for the highest social worker. So my potential pieces I have is that those money could be reallocated for education, underprivileged.
+Speaker D: How can we reallocate those funds? Right. That's a problem that could be solved.
+Speaker A: A good idea. Make an algorithm, personalize what every person, I guess, then distribute it that way.
+Speaker G: But how do you make them?
+Speaker H: And that's also, there's so many networks of where money comes from. Certain programs are state, summer, city.
+Speaker D: Is there a way to make this more accountable?
+Speaker I: And I had a question from a data standpoint, is it measured the influx of out of state residents that are flocking to San Francisco? Do we know that number at all in terms of the individuals that are participating in these?
+Speaker C: I know there's 8000 homeless people. The estimated population of homeless people in San Francisco, 90% of which are from out of the city and 50% of which are from out of the state. That's all.
+Speaker A: I have another problem. So I come from an immigrant, working class background, and I've seen firsthand how legal aid, or firsthand how the lack of access to legal aid or the inaccessibility of the law in general can be used to really take advantage of people like my family, immigrants, people who don't have the funds to hire a lawyer. So that's something that I think is really interesting.
+Speaker D: So could I just ask that question? So it's a question of funding, right?
+Speaker A: Yeah.
+Speaker D: Would it also be a question of language?
+Speaker A: Yeah, language. And then also, even if you were born here, I don't know how many of you actually know how the legal system works. I'm assuming you probably don't. If you say you don't have rich parents and you want to start a company and you don't know how contracts work. You don't know, you can't understand legalese, then somebody with more active, with more access to legal aid or more money can really take advantage of that.
+Speaker D: These things are clearly linked, right?
+Speaker A: Yeah, that's one problem.
+Speaker D: Anyone want to comment on that?
+Speaker C: I think one thing that's been good for that, it's definitely a problem. One thing that's been good is generative AI tools. Obviously it's not an attorney, but for generally speaking, and this is a new solution. So obviously hasn't been brought into practice. But I have put a good amount of contracts into GPT $420 a month and run it through and ask what are the obligations by both parties? Are there any glaring issues in this contract, any irregularities, et cetera? And it gives you a good response, clearly explains without any BS legalese, super complicated highbrow terms, plain easy English. So I think in terms of the accessibility argument, that's something that Generative AI is very good for. The question is then do people know that they can use the tool in that way?
+Speaker A: I actually work for a company that incorporating Generative AI products, more on the law firm side of things. And do you think there's a lot of opportunity there with Generative AI? The law work, the problem still is like hallucinations. And then also the legal system itself is kind of vicious. Generative AI, they're still trying to figure out can generated content or just generated any sort of assessment made with Generative AI, are those admissible in court? And we've even seen a couple of lawsuits already because of that. So I think it'll be interesting to think about how we could use LLMs and generative AI to make the law processible, as you say. And then also, how do we get around that hallucination?
+Speaker D: That's definitely a worthwhile problem to spend time on. And then on the other end, as you mentioned, it becomes like how to distribute the solution, right. Comes with a new problem after that, like it was mentioned during the pre discussion, you know, not everyone has access to a computer, even in San Francisco, apparently. Thanks.
+Speaker C: Any one issue that might be worth floating. Oh, sorry, go ahead.
+Speaker A: I said, you're giving them phones, give them computers this morning. But no, it was a joke. I'm sorry.
+Speaker C: One issue I told the city I was speaking to about this, he mentioned there's a service called three one one. It's basically 911, except it's not for emergency issues. Three one one is for like, hey, there's somebody graffitiing on my building, or the trash here is really piled up. It's from municipal civic issues, non emergency stuff. And he said that that system is really overloaded and that there is an app, but most people use the phone number, but the app is like eight to ten years old, and it was whipped up very quickly and it's very low quality. So something that might be worth some new technological review is how does the average everyday citizen in San Francisco more efficiently report civic issues? How does the government allocate resources to fix said civic issues? And what's the interface between those two points look like? So maybe it's a really convenient chat app where you can get on, send a text message to a number, and say, hey, here's a picture of this issue and going on. Or just send a text and then a model reads it, scans the image, submits a report to appropriate agency, or come out and fix it. It's just like, obviously.
+Speaker F: One other part of it is thinking about the strengths of technologies like AI versus nothing. It seems like AI would be adept at handling some kind of volume issue, right, where if the problem is that there's so many things that it's just overwhelming the current system, like things that are more suited to some rotation or calcifying it, just making it so that the people at the other end of that pipeline, it just seems like a tool of summarization or language understanding would be very helpful for just kind of diminishing that. Maybe like chunking various requests into bins and like, okay, these are all of the three one one calls centered around this issue. And this seems to be affecting a lot of people right now. Maybe this is how we should allocate.
+Speaker A: Kind of our attention.
+Speaker F: So it just seems like just things where there's not a lot of data are inherently just hard for AI to do anything. So if the issue is always seems like a good issue for AI, I.
+Speaker C: Think that would be good. And then the question is, if AI.
+Speaker E: Makes a mistake, there will be a huge outcry, especially from. Also there's a question, which problems can be tackled by AI allows the system to function more productively. There's another question, perhaps more, whether the.
+Speaker C: That'S not.
+Speaker D: This group is. Okay, I'll do a retour of that. So this session of the ASMR is to identify problems, talk about problems. This group in particular was law enforcement. And then in mid September, there will be a hackathon by the Gen AI Collective, an accelerator, working on solving those problems. So you will find a link with more information on the event page of this event. So this is just generic problems to get those gears going and have an interesting discussion around those problems.
+Speaker E: I also have the idea of maybe doing like a digital twin, or having conducting an experiment where the city council is done by generated AI, and then perhaps comparing the efficiency. You were saying that it's very hard for traditional councils to make decisions since they're met with overblown resistance and criticism from activists, and there will just be like an AI where to run the council and make the decision.
+Speaker D: You can have a toy council with AI to begin with.
+Speaker E: Maybe you can have a doctor that does it. I guess.
+Speaker F: I don't have like an open ended question for the group. I guess I'm doing around kind of your discussion about your parents or family who might be not know where to go, or even if there is some tool, have difficulty using it. For people who are maybe less dependent on technology or less technologically literate for understanding how these things work, what are the alternate sources of information? So it's like, if you don't go to this because you have no idea where GPT four is, and you're kind of distrustful of it, where are people going instead to kind of get this information? And what are the ways that we can go to the places where people are already at, if there's like a gap between solutions that already exist and people who just have no way of knowing that those things already exist?
+Speaker A: I think that's a really good question. I think that's definitely something that we should.
+Speaker H: I think three, one, one kind of spoke directly to that. That is very much where a lot of people here go. And the whole point of it is just refer you to another secret service.
+Speaker D: Really?
+Speaker G: Does it cost anything?
+Speaker H: No, it's just a public service.
+Speaker D: Does anyone have any other experiences with the city?
+Speaker G: There is one point that I'd like to discuss. I'm not sure if it's a part of discussion, but I wanted to address one thing that I've noticed around SS and California in general, is the microclimate issue and how people are affected by it. But I'm not sure if you're addressing.
+Speaker C: That right now, like red zoning and Democratic red zoning.
+Speaker A: It's like some areas are theoretically.
+Speaker G: There'S a huge difference in the climate. Like there are microclimates.
+Speaker H: You mean like the weather? You mean like the weather?
+Speaker G: I currently work related to the natural disasters that happen and solve those with AI. Huge years of data, like up to 40 years, up to 50 years of data that is required. So that's the reason the microclimates issue is not like immediately that can be forecasted or can be helped to prevent any cause of disasters or catastrophes that might happen. So is this something an issue that could be a point even in terms of hackathon perspective?
+Speaker A: Just curious. Just like solving to predict the microclimates.
+Speaker G: Better and maybe to monitor it as well, because I work in the wildfires department, so my main research is around that, and it's a part of major catastrophes that are happening as well.
+Speaker A: And those microclimates are causing the catastrophes or like, are interacting with it diffErently.
+Speaker G: Yeah. So the wind, the rainfall, the fire, everything that is happening around, it's not segregated based on times because at one time there would be different weather at different places. And that's the reason we can't solve it by the place or by particular time. And forecasting is an issue because of it, because each solution requires enough data and some problems that are solved by bigger organizations that I am aware of that are taking into consideration as a digital twin of a place or a city that is utilizing, and we can simulate our climate like weather, rainfall, wind and these points, and could help in forecasting or monitoring and better prevention of any. I am not sure if this is a topic of concern.
+Speaker D: I think this particular group are focusing more on social issues right now. Right? Yeah, but this is also a great topic for discussion. Thank you.
+Speaker H: I think the three one one thing is really interesting.
+Speaker D: Yeah. Do you have any more thoughts around that?
+Speaker H: I was just thinking that it really matches up with a lot of the things that we've been talking about all along.
+Speaker C: I don't think that'll be a super complex project to put together. I think that it seems like there's a pretty solid roadmap. All you need is a good interface for reporting. And then. Sorry, I'm so bad with names. What you were saying about the chunking and separating requests into different bins. You give a good model, basically a description. Anything within this issue set goes to here. Anything within this issue set goes to here. Anything within this issue set goes to here. And boom. Instead of having a whole phone room full of people routing calls, you have one system routing issues directly to the department that needs to go to and less downtime, faster response.
+Speaker H: And it really would be kind of an AI thing because the reason it doesn't work yet is because, as I'm sure you know, there's a complex network of support services and there's a lot of overlap between them. So it takes, it's kind of tricky figuring out what.
+Speaker D: Exactly. So actually, it kind of sounds like you've identified a solution. Almost also. But like the tricky thing here is to build it. Right, which would be the focus of the hackathon. Please.
+Speaker A: I just asked, who is the hackathon for?
+Speaker C: Is it like just for Excel at SS?
+Speaker D: You can apply for it. There's a link to it on the event page.
+Speaker A: I have another problem with unemployment. I think not everyone can do like coding, boot camp, or think about people from working class backgrounds need a way to make enough money to afford housing. And sometimes waiting tables is just not going to earn you enough money. So what are some ways of providing some career paths without having them pay? Shelling out tons of money or spending like ten months on some online course? Even tech jobs in general right now are harder to get into. What if somebody is in their 50s or sixty s and they need to go back to the job market? What do they do?
+Speaker D: Obviously the issue of unemployment ties back to a lot of other issues. This is a good problem space that's been introduced here because you bring up your background. You said you had a working background and all of that. I'm sure that everyone in this circle comes from a background where they can identify some problems, that there could be tools that would make it easier. Like we've had a couple of good ones here, like the legal help, employment help make life easier for people in the city, can lift the city up. Right. Just regular people. So do any of you have any experiences that you have where you thought.
+Speaker H: Are you thinking about training?
+Speaker C: Like more parochial kind of training?
+Speaker A: I think that's going a little bit.
+Speaker H: I can speak to that problem as like, because it also exists for like 18 hours.
+Speaker A: I'm not specifying a target. Yeah.
+Speaker E: So you can have resetting programs, but then they require a lot of resources. So again, the question is, where do.
+Speaker C: We allocate the research?
+Speaker H: I mean, I do agree that education.
+Speaker D: I want to open up the space is open for everyone to contribute.
+Speaker I: And I guess I would just say to that it's like kind of primarily Internet, like the digital divide and digital inequity, because some people don't have broadband Internet, Wi Fi at home or whatever. And like I said, I'm not native to this area, but I do think more public private partnership needs to happen to where you're not just putting the onus of responsibility on local government, but really being able to leverage Silicon Valley to kind of provide more resources, more educational training, and just that intellectual talent really kind of contributing to start finding innovative social solutions that are kind of plaguing the city. Because I've spent the last several years in Southern California and I know Long beach does a pretty great job of being able to bring players in the private sector, public sector, all the way from economic development to digital equity, et cetera. So I think they're a pretty interesting blueprint to kind of look at.
+Speaker E: One idea I have is maybe have AI coaching tool that could be run by the government and then update community users which support people in getting back to the job market, providing tangible advice.
+Speaker D: And feedback to the past.
+Speaker E: That will be one of the accessible tools.
+Speaker D: Yeah, access to resources, hearing here, that's a problem that could be solved quite easily. It sounds like.
+Speaker C: Another problem, maybe to throw out into the ring another One of the things that the supervisor mentioned was seems like a lot of the police captain mentioned, a lot of people that are arrested are booked into the system and then essentially immediately released. And we have a high percentage of people that are being arrested multiple times. Even when they're on probation for a previous crime, they're arrested and then put back on probation. So multiple probations. And these are decisions that are made by the bench, by judges. I don't know about you guys, but I work in politics. I'm relatively politically involved, but I don't know judges. And they're elected by votes. We vote for judges. And I think most people either don't even vote or just check a box. And it would be interesting, there can be some kind of accountability service or some kind of product that allows people to understand the judges more about the judges that they're voting for. And really this can apply not just to judges but to politicians in general. There should be a structural infrastructure for the average citizen to say, hey, I'm voting for this person. What have they actually done over their last term? I know what they're campaigning on, but what have they actually done? They're a judge and they're getting 1000 cases. Are they only convicting 50 people out of 1000 cases? That would suggest to me maybe they're being a little too loud because I don't think police are hauling people up for no reason. If they're convicting 1000 out of 1000, they're probably being too strict because I doubt that there's no innocent people in the world. So some kind of accountability system for elected officials, I think could be interesting. And that affects everything.
+Speaker D: So what I'm hearing here is accessibility to information about judges, politicians. It's a related problem to the legal aid stuff. Right. Political systems are complex. People might not fully understand what's going on. So maybe a problem is like, just access to that information.
+Speaker A: Easy classification of the information, so you can actually read it and understand it.
+Speaker E: If a judge convicts a lot of.
+Speaker C: People and doesn't release immediately, do they also get the bulk?
+Speaker H: Yeah, it sounds similar, like, is this.
+Speaker C: The end of something you can't really talk about? I think much less so, because these judges decisions are not open for public comment. If the Board of Supervisors is voting on something, there's a public comment time. There's a devoted time where they announce to the city, hey, we're voting on X, Y, and Z. Here's the public commentary, and people go and make public. I think that's important. There is no infrastructure because people know someone who's outside of the courtroom. Relevant information. But it would be interesting to know if a judge is averaging the very minimum sentencing for every case that they get, or if they're averaging maximum sentencing requirements. Should be probably somewhere in the middle, not higher level. The judge is not there to decide what the law should be. Their job is to enforce the law as written.
+Speaker H: Get into politics a little. There's people who try and do this, all these issues. There are groups that try and track politicians in the Bay Area, but all those are kind of partisan in one way or another. So it would be good if. Yeah, and there's similar systems that exist for the national people like to see which way is the senators voting? It'd be cool to implement that.
+Speaker C: This should be very accessible information. People are hired and paid to represent us, and it's easy to say, oh, I don't want to talk about politics. But if you think about it, political systems affect every issue.
+Speaker D: Politics is involved in everything.
+Speaker C: Exactly. So how do we find technical solutions to political problems?
+Speaker H: The problem in this case is that voters don't know how their judges are doing, not what the judge is doing.
+Speaker D: Exactly.
+Speaker F: Information.
+Speaker D: Anyone else?
+Speaker E: I have another question.
+Speaker C: Do we have a lot of information.
+Speaker E: On, like, do the judges have a.
+Speaker D: Term.
+Speaker C: And is it the same judges, or is it, do they turn over and new judges? I think there is nature also. It's a career thing, so there is kind of a ladder, and you'll go up a ladder, but yeah, circuit, same city, off to the studios, obviously, but that's super hard.
+Speaker D: Do you want to contribute to the conversation?
+Speaker A: I don't think I heard that from Hunter.
+Speaker D: We're trying to find problems.
+Speaker H: And there's.
+Speaker D: Also everybody sitting like.
+Speaker H: I think it's.
+Speaker D: Hard to go after, like, children.
+Speaker H: But is very much.
+Speaker D: Did you want to introduce yourself?
+Speaker A: Yeah.
+Speaker F: Who's also.
+Speaker D: So like, we've all been talking about problems that we've been dealt with, like identifying the city. Are there any?
+Speaker A: I think it's less easily addressed by tech. So I.
+Speaker D: Should probably like reiterate, we're focusing on access to civic services.
+Speaker A: I feel like there are a lot of returns, just like public spacEs. Trying to figure out what I'm gonna do and working on a startup, like, I like a public version where you can put your, there's free WiFi, you can put your laptop. Whereas right now, public investments, like things like that, private, you have to pay investing.
+Speaker D: So that's a problem. Access to necessities like that.
+Speaker A: But not just as a license. People need to eliminate. But I think there's this brownie and ration thing that you get when there's vitality. People feel DM just maybe that's what different ideas, but not entirely.
+Speaker H: The public library.
+Speaker A: Right now.
+Speaker D: But that's also a problem that I like. Just like information about where there are restrooms that are open to the public. The problem that maybe has an easy solution.
+Speaker A: Reminded me of how people isolated from each other, that might have something to do with lack of.
+Speaker G: Small town.
+Speaker A: Sort of community that we had for millions of years before we moved into these larger cities. Now we're kind of isolated on our phones, on our devices, and know that there is a really bad mental health problem right now. We know that there are higher suicide rates among men. Something another problem that we could be tackling. How do we improve access to mental health?
+Speaker D: So what are the concrete sort of problems that you can identify within the city, like related to that?
+Speaker A: Because like there are fewer.
+Speaker D: Options.
+Speaker A: Yeah, like it feels like if you, you know, like, can you do it? Totally. Whereas I think in the past, people remote, intertwined. No, you don't get anymore. And also, I'm from LA. Cool. Yeah. Not too long ago there was a mental institution that was shut down and they released some of their patients who didn't have families to the street. There's like a correlation between mental health, homelessness aspect. Yeah, think about and an office.
+Speaker D: So we're going to wrap up in like ten minutes. There are any other problems that people want to talk about? People have identified in the city.
+Speaker E: That.
+Speaker D: Could be solved with tank.
+Speaker B: You guys have covered a lot of ground today.
+Speaker E: Probably.
+Speaker B: Feeling like all the ideas are.
+Speaker E: Out of the table. Very open space.
+Speaker B: Very open space.
+Speaker E: A little bit too warm maybe.
+Speaker H: Could you give us any cross training.
+Speaker A: Information from the other groups?
+Speaker B: I wish I could. I can't really. I haven't been in any one of.
+Speaker A: Them for more than a couple of months.
+Speaker B: Yeah. So I do think it's great to talk with you and remind people what the original intention was is our thoughts will be recorded and uploaded to the Great hive mind in the sky and form the new generation of Gestalt consciousness that will guide us through these troubled times or something like that. Or maybe it'll just be a chat bot that people can talk to as a hackathon and do customer recovery with either one.
+Speaker D: Also our idea here. Also informing a hackathon. That's happening.
+Speaker C: That's right.
+Speaker B: But your contributions will be immoral in the long term. Yeah.
+Speaker C: Why don't you just wrap up, too?
+Speaker B: I'll reconvene us all for a couple of minutes where we can share between.
+Speaker C: Groups and answer that question.
+Speaker D: During this wrap up, let's just kind of go through what we think were the main topics that we discussed. Three one one thing.
+Speaker F: Yeah.
+Speaker A: What is three one one?
+Speaker D: Yeah.
+Speaker C: Three one one is like civil service phone number. So say somebody sprays graffiti or dumps trash and you need to call the city to come clean it up and they send out some of the right now system struggles to handle the amount of input, and we were thinking about a more efficient way. Taking the calls or taking text regarding issues, scanning it, grouping it, assigning it to the proper municipality or city department, use it or fix the problem.
+Speaker G: Rather than producing.
+Speaker A: People can be better incentivized to take. Like if you see a population.
+Speaker C: I.
+Speaker A: Think required area where like a sign, like you see all these kind of like jury, they're like desires where the people making this change and if people are able to this idea like that become more better and more.
+Speaker D: The question becomes that how do you empower people to do that?
+Speaker A: Maybe.
+Speaker C: The only issue then is you might run into code violations and also how many people. I'm not trying to shut it down, but my question genuinely is, and this is a city full of a lot of people, so I'm sure it actually could work. It's just like, what percentage of people knows how.
+Speaker D: We discussed the problem of making this more efficient.
+Speaker F: Space over here.
+Speaker D: About legal access to legal health and also access to employment and unemployment that could probably be taught by utilizing large language models at some level. I'll leave that up to spider people.
+Speaker H: There was the thing about tracking city politics the way we do what national politicians do. We could just set up one of.
+Speaker E: These with the AI.
+Speaker D: Yeah. How to ensure accountability.
+Speaker C: Yes.
+Speaker D: It sounds like we're kind of soft wrapping up here already. You don't have anything more to discuss, or you don't, like, have any. Forgotten to mention anything that we talked about during our conversation.
+Speaker A: Hydrobank.
+Speaker D: Thanks for your contribution. Thanks for all of you.
+Speaker A: And share your thoughts. We have, like, a building.
+Speaker G: Like.
+Speaker D: On that note, thank. I'm gonna end this recording.

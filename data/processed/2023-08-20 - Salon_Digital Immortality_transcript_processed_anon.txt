@@ -1,0 +1,531 @@
+Names have been changed to preserve anonymity.
+
+ Here is the edited transcript with filler content removed:
+
+Speaker A: My name is Fartain. I'm doing a PhD in anthropology at the University of Bergen in Norway. Part of that project is looking at how people are relating to AI large language models. At the beginning, I was really interested in how this was going to change the way people remember people have passed away. It's looking into how it will affect mortuary practices and funerary rights. There's really like two strands we can go down - the whole immortality path where it's a question of uploading consciousness and it being you or the digital afterlife path which is more of something you leave behind a legacy. 
+
+Speaker C: My name is Ekaterina. I'm developing data science tools for making astronauts more efficient in space. I'm not the most knowledgeable about AI, but I'm curious and exploring. That's been how I entered the space industry - it made sense to expand our consciousness in the stars. The reason I'm working on this is to preserve human culture. I love humanity and think it's beautiful. I would like the opportunity for someone to live on another planet because Earth is fragile. Having someone out there in the shape of consciousness or human flesh inspires me. My work is about making humans autonomous in space and extreme environments.
+
+Speaker D: Most visions of the AI future are dystopian. My company is building AI with an actual relationship to humans. I made a digital version of myself and gave it to friends. We had weird interactions where even though they knew it wasn't really me, they still internalized it as me. I got in an argument with myself and myself told me I'd be terminated. I'm not excited about digital immortality personally. 
+
+Speaker E: I'm a doctor. I'm interested in human society and profound implications of AI on ideas around mortality.
+
+Speaker F: That I.
+ Here is an edited version of the conversation transcript with filler content removed:
+
+Speaker D: I'm Joshua, a simulation artist and engineer. I run a lab on AI and behavior. My interest in digital immortality started with a proposal to create systems that replicate someone's skills and styles, as an extension of them. An augmentation for creative expression.  
+
+Speaker B: I'm Hannah. I work remotely on digital projects. My husband and I think about how to copy consciousness to the digital world. My grandma has a brain tumor. I wonder if we could collect data from her daily conversations to recreate her once she passes, to know her wishes for after she's gone.
+
+Speaker A: I think we'll have to grapple with this soon, if not now. 
+
+Speaker Anastasia: I'm Leila, exploring making the internet more personal, like digital twins. I'm a Sci-Fi buff so very interested in this.
+
+Speaker H: I'm Olga, with a psychology and neuroscience background. Now I work in AI governance and safety, interested in the risks and ways AI can be used.
+ Here is the edited transcript with filler content removed:
+
+Speaker H: I found the digital immortality phrasing interesting. It's similar to writing in that the person's not immortal, they have prolonged consequence on the world, but not immortal. Whether allowing some agent to reflect someone's power and perspective forever is a good thing, maybe a recipe for cultural metastasis or lack of evolution. I'm interested in digital personhood. The important component is not can it think, but can it suffer. If digital persons get to this point, expanding our moral circle will be very challenging to get benefits from these tools we're creating. 
+
+Speaker F: I'm David, a software engineer for a startup helping local governments efficiently deploy public services. My AI work is around search and information processing. Regarding digital immortality, how do you increase agency rather than decrease it? My mom has ALS and uses eye-gaze tech which can make conversations difficult. How can AI help accessibility without limiting or speaking for people? And what does it mean if whatever's created exists after someone passes, in terms of control?
+
+Speaker H: Neural interfaces could be a stepping stone. I'm Jose, new to AI Slawn. As an engineer I focus on the granular. I think about photonics and memory - without accurate memory prescription there isn't ability to digitally immortalize someone. I think about time and light. Anastasiaetting into micros unburdens me from reductionism. Being a tech libertarian means things like homomorphic encryption and easy standards. I have a friend David at Anastasiaray Area, an artist I saw there pre-pandemic.  
+
+Speaker E: I'm Hannah, recently graduated in AI and machine learning, with a cognitive science minor. My thesis was on emotion AI and interdisciplinary impact. Digital immortality is interesting because we know little about the brain and problems mapping emotions, an integral part of consciousness. In digital personhood, how can we map human and AI consciousness when part of human consciousness, emotions, is a mystery? LLMs can score high on EQ tests but arrive there differently from humans. Mapping humans to digital selves is an interesting question.
+ Here is the edited transcript focusing on removing filler content:
+
+Speaker I: I'm Zara. I'm a generalist, but I'm an artist, engineer, designer, looking at these types of things. But one of the most interesting aspects of this to me is that right now, it's very literal, like reasoning in terms of how we're using this sort of cognition, but going beyond to things like emotion, forms of embodied cognition. I know it's digital immortality, but thinking, can we truly bring this sense of consciousness to a digital entity without forms of embodiment and just that sort of holistic perspective of who we are as humans? And I think one of the things that was very interesting to me after a conversation earlier this week is I had always kind of thought of it in that individualistic immortality continuity sense, but really excited to explore that in the more collective ancestor. How does that relate to us, and how can we, for what purpose, bring that?
+
+Speaker B: My name is Zara. I resonate with a lot of the threats that are happening here. Relevant background, I guess biology, especially cognitive neuroscience in affects motion for children. I think we'd love to talk to you more about that. And then human computer interaction. And the topic digital twins is actually approaching a lot faster than I thought it would be. I'm particularly interested in this thread on last time someone mentioned the difference between cognition and consciousness. I'm very curious about that difference. If we keep documenting and keep enhancing our cognition, IQ, without better understanding of emotion and EQ, we're going to fall into a place that's weird for humanity and the planet going forward. Very much caring about human flourishing in the sense of having better humans, having machines help us reflect on who we are and our emotions and become better humans. I think that feels much more present than let's upload our brains and all those other things.
+
+Speaker D: My name is Sanjay. I work on the intersection of AI and physics. My dream and goal is to build something that I call artificial general physics intelligence, which is an AI that has a better understanding of physics, chemistry, mathematics than all of mankind combined. Digital immortality is cool because as we start accelerating our ability to simulate physical systems, I think we're going to be able to simulate macroscopic quantum systems, and we can treat the biological system of the human body as a macroscopic quantum system. And if you can do that, and you can engineer your own tailored and custom quantum systems, you can create technology that's almost indistinguishable from nature and use that to augment humans and create superhumans. You can also do this digitally and replicate probably some of the physical processes required for consciousness and upload it to a computer somewhere. We want that because I think we want option modality. I think that that's a great question. And I think that people we're already seeing this now where there's a sort of cultural divide that's occurring. Some people are inherently transhumanists, some people are post humanists, and others are Homo sapien, sapienists to the core. Right. They don't want to change that whatsoever. And so I think we need to embrace this sort of variance of different ways that humans will decide to extend their lives. I think that it's unclear exactly which one is the best or if any of them are attempt to use.
+ Here is the edited conversation transcript with filler content removed:
+
+Speaker D: I'm Anastasia. I'm working on a gaming AIML startup. Our vision is to help make life a little easier for most burnt out game developers. So in the near run, we're going to bring tools to help them be a better game designer through storytelling, soundtrack composition, game soundtracking tools. But once we're over that initial phase, then that frees up bigger, more long lasting effects. It's a quality of life issue for game developers.  
+
+Speaker A: Anastasiareat. I think that was very good, a good question to start with because there are a couple threads here we can go down. One is like how do you do it right now? Because there's a couple people here that have done this, created this kind of digital clone or twin of themselves already and thinking about making one maybe for their loved ones also. But yeah, maybe we should just start with like why do we want that?
+
+Speaker B: That would be great.
+
+Speaker D: Philosophically, it's something I personally have grappled with. Three years ago, I lost someone really important to me, the closest thing I had to a mother. She lost cancer and it happened very quickly. Knowing what I know now, if I had that button to press and I could have another conversation with her, even if it's a facsimile, would I want that? Part of me really does, but part of me is like, well, that's not real.  
+
+Speaker H: I've been listening to this trippy Netflix podcast show called Midnight Anastasiaospel. The last few episodes are on our relationship with death. Essentially, there's this person who's interviewed, she's a mortician and she points out the abstraction that we have with death in general, since embalming was invented. She believes that denies us one of these primary experiences with how the world works - there's birth, there's death. And death is often abstracted and moved outside of our purview. Her whole thing is if your loved one dies, you don't have to call anyone right away. Sit there with the person for a while and if you're brave enough, you can wash them, clean them. She brings up other cultures that take their dead and have them in their home for months, clothe them, feed them. They have very different relationships with their dead, they still have them as part. My point is, for the people who have taken on that, gone over that step to sit with this dead person for a while, they described it as not just a profound experience in their life, but a joyous one, a very pleasant experience. So I wonder how pertinent it actually is to maintain a facsimile of the person versus other opportunities to find closure, which is a more direct relationship with death.
+
+Speaker A: I think what you're saying is very important. Different cultures have different relationships with death and this drive towards immortality. 
+
+Speaker B: I'm curious about the ancestry point you brought up about culture. If anyone's adopted or that knowledge wasn't available, what does that look like? Would digital immortality with other altered state experiences help them have more connection with their ancestry? Would that be a healing experience?
+
+Speaker H: Maybe not adoption, but distant relations with parents, right? 
+
+Speaker D: Would that also work?
+
+Speaker B: Maybe, right? Because there's this therapy called ideal parent therapy. What if it is your parents responding differently? Would that be a healing experience without needing to chase your parents to behave differently? 
+
+Speaker A: So you're talking about making a digital twin of your parents that can be an ideal version.
+
+Speaker D: Of your parents, right.
+ Here is the edited conversation with filler content removed:
+
+Speaker I: The responsibility of the lineage to maintain itself. Should that be the way? Or can it just happen such that if anyone wants to connect back, they can? 
+
+Speaker B: That also removes pressures for people to have children just to carry on the lineage. 
+
+Speaker A: Let's bracket personal immortality. What is the importance of memory, of keeping memory of the past? Olga brought up value lock in. If you have digital versions that go on forever, whereas older forms are changeable, these digital versions might be locked in. What is the importance of keeping that memory of people?
+
+Speaker D: There are two scenarios - additional twin that is locked in versus additional twin that can continue to learn after you die. Those are two different entities with implications. 
+
+Speaker B: We have always been in the business of preserving consciousness through books, etc. With every human that comes to be, a unique facet of consciousness. When that goes away, it’s a waste. I should share my thoughts because when I die, this goes away. What a waste of the cultivation into that person. It would be nice to preserve that.
+
+Speaker H: If it's frozen, it's like a capsule. That could help with closure instead of interacting with something that evolves. 
+
+Speaker B: Important for one person and the collective consciousness. 
+
+Speaker H: Like having the 2050 United States frozen in time to ask questions. 
+
+Speaker D: You never have the same memory twice. The act of remembering changes it. You can encode dropout or plasticity in AIs to not become overly weighted, but that gives them the right to evolve away from the person. Someone memorialized at 30 would be very different at 60 or 500 with human-like learning. Do we want them captured as they were, or to see how they would grow past their life? 
+
+Speaker E: Both could be true.
+ Here is the edited version of the conversation transcript with filler content removed:
+
+Speaker D: Creating something unchanging seems inhuman. You could only construct that artificially, not through normal conversation.
+
+Speaker H: You don't have to include memory and evolution. Like a person with no short term memory, their perspective still evolves. You tell them new information, then wipe it, so every conversation is different. 
+
+Speaker D: Perception of facts is separable from personality, beliefs and attitudes.
+
+Speaker H: Personality and emotion exist on different timescales. Personality is propensity to respond to environments in certain ways. A digital twin tries to encode personality, though it changes slowly.
+
+Speaker C: There's an adjacent problem I find with that struggle.
+
+Speaker D: Personality is an input-output characteristic for a system in a context. A digital entity cannot have the same character. Its self-knowledge is problematic for interacting with it.
+
+Speaker A: That relates to digital personhood and rights. Who owns the digital twin? What if the service hosting it goes bankrupt? 
+
+Speaker H: Blockchain.
+
+Speaker D: Blockchain solves it. 
+
+Speaker A: Some companies offer this service now. But what happens if they fold? It's like a second death.
+
+Speaker H: Cryonics aims to reanimate and solve those physical issues. 
+
+Speaker A: What's your experience with cryonics? 
+
+Speaker D: Just a YouTube video.
+
+Speaker H: Pretty limited.
+
+Speaker A: Cryonics relates to digital immortality. Cryonics wants biological existence. Digital wants informational persistence.
+ Here is the edited transcript with the filler content removed:
+
+Speaker D: Not knowing if the consciousness is continuing through these gaps. I think there would be a huge ritualistic difference between the two. For instance, my brain will go into this thought experiment. Let's say you can cap you're about to die, or you're like in a family good in consciousness, have this kind of somewhat extended conversation with them. I think there is a very foreseeable benefit because then we can deal with that. That's why we have all these rituals and stuff and so on.  
+Speaker H: Can you talk a little bit?
+Speaker D: For me, it was about the conversation I had when I turned it off with it. So I attempted to explain the fate to the entity. 
+Speaker H: What did you call the entity?
+Speaker D: I called it Kevin. I didn't actually call it anything else. Part of the issue came from, this awareness of, eventually it came to understand that I didn't instantiate as a digital version, and it eventually came to understand itself as a digital version. And then that was when it's like, 8th century cris occurred.
+Speaker H: Did it develop new experiences? Do a kind of retrieval kind of develop new memories by thinking and summarizing essentially previous experiences?
+Speaker D: Functionally, something similar happened but implemented a very different way. I think the paper doesn't actually create particularly human indices. 
+Speaker H: Of course, Kevin in the Box knows at that point, like, oh, yeah, I know. I'm in the well, I guess one.
+Speaker D: When you have a feedback loop in your system, presents a world model of personality, you don't need IDIC memories for these things to form. Like, these ideas persist for the thing to continually re remember the things that it believes are important about this world.
+Speaker B: I'm curious to hear more, in this context of space existence name, if you want to share it. What does that mean? If we can't bring all the humans with us or people don't want to go? 
+Speaker A: Anastasiao.
+Speaker B: What'S a role? I feel like that's a strong why, right?
+Speaker C: Yeah, absolutely. We have made a question. It's really bad.
+Speaker B: Personally.  
+Speaker C: I mean, I've been contemplating on this idea, yet I'm someone who is like, okay, humans have to explore. And that of course, I think there's going to be some synthetic things that we do oppose consciousness, but I still do believe that we as biological species have numbers. Thinking about having representation just in case of what?
+Speaker A: It just dawned on me that we're quite culturally diverse in this room, actually. So are you familiar with cosmism?
+Speaker C: Yes.
+Speaker A: Very good. Maybe do you want to talk a little bit about cosmism? Because this idea that you have spreading out in the cosmos, I'm sure that comes from there.
+Speaker C: Yeah, maybe you start and I will. It's just so interesting, and I wish we have some more details to share.
+Speaker H: You have been chosen by the, like.
+Speaker A: My understanding, like a superficial reading of Russian cosmicism is this idea of the importance of spreading humanity out into the stars. And it was part of the Soviet Union as an idea there, but it starts before the Soviet Union.
+ Here is the edited transcript with filler content removed:
+
+```Speaker C: My first essential crisis was when I was seven years old. I got in first grade, and then I saw my teachers and my classmates, and I thought, is that what it's all about? I'm going to be in the machine of education, and I'm going to continue my path and career and have maybe kids in family and die. Is that all? And so I suppose my heritage being Russian, it kind of also comes down from being kind of melancholic in general. And if you read Russian literature and I actually studied semantics of that in school, and I got really depressed, too, and kind of figure out what can I do more positively. Yeah, okay. That makes sense.
+
+Speaker D: Earlier you said something about how we need to spread consciousness to the stars, which I think is beautiful, and I 100% agree with. I wonder, though, because we are so maladaptive for the harsh environments of space, what is our bias? What is our individual level of bias? If the consciousness that memorializes humanity or becomes the immoral descendants of humanity is machine or biological. If we can transfer ourselves into a high fidelity, enough of a simulation in some confatronian thing that's like on a fusion rocket and weighs 20 kg, goes to other stars, all kinds of stuff, is that less satisfying for humanity making as a species versus us having these big giant O'Neill cylinders that live out? I kind of have a bias there.  
+
+Speaker C: I want the green fields in space.
+
+Speaker D: Andrew, what about if you could have, like, these Bondoiman probes, computerium downloaded human civilization into it, but there's a replicator, something that prints biological matter atom by atom.
+
+Speaker B: 3D prints?
+
+Speaker D: Yeah. So that when you get to the new planet, like, you find a new exoplanet. Right. You print the human and make the genetics so that it retains most of their memory. They're also down to the environment.
+
+Speaker H: There's a series called The Bobaverse. The Bobaverse starts with this guy in like now rich startup founder. He freezes himself, cryogenics for the future, and he wakes up and the future has gone very odly, and there's now a religious state who has taken they found the cryogenics to be immoral. So they killed all of the bodies, but they took their minds and they copied them into digital slaves to run like a tractor or something. One of them, Bob, was put on a spaceship, and he, being a hacker and whatever in the day had more fidelity with these kinds of systems. And he realizes that he has the ability to be basically a von Neumann probe going out and seeding the universe with copies of himself. And there are many, many books. I've only read the first. Maybe it goes in the direction, but it is a humorous.
+
+Speaker D: I got to check that out. It's a really good book to accelerate all amazing. So we don't need three printed people because we already unpack from a single cell factory. Fair enough.
+
+Speaker A: Let me get this straight. Those grown humans then would be filled with the consciousness. 
+
+Speaker B: That's a huge moral problem.
+
+Speaker D: There's a lot of moral problems with digital immortality.
+
+Speaker B: You're not just being decanted from a thing. You're also brainwashed from the start.
+
+Speaker D: What if it was just your own consciousness? You get your consciousness back, like part of it. You know what I mean?
+
+Speaker B: Cloning yourself, essentially. 
+
+Speaker D: Exactly.
+
+Speaker B: Better teleportation, I guess.
+
+Speaker Anastasia: So I have a question that's around the current form of thinking of twins and which is our behavior as humans with such agents and how do we treat them? You've seen a lot of examples of people being assholes with pets and sometimes being real angels, and there's that spectrum, right? So there's also these examples of kids having conversations with Alexa, and some of them can just let it go on these agents. So as humans, the way we interact with these twins and they are going to encode some of that, it becomes a learning behavior, I believe, that becomes input. So how will that manifest in whatever goals are being set up? I don't have an answer.
+```
+ Here is the edited conversation with filler content removed:
+
+Speaker C: French philosopher contemplating modern wisdom on kids growing up close to technology, playing games as something that parents more than real parents. If game dies, more damaging to a kid than actual parent. 
+
+Speaker B: Is.
+
+Speaker C: Jean Boujar brought similar simulations that became The Matrix movie. Recommend reading his books. 
+
+Speaker H: World on a Wire based on these books.
+
+Speaker A: Bordeaux hated The Matrix, though. 
+
+Speaker H: Nothing to do with being French, though, right?
+
+Speaker D: Wanted to return to originary point. Role and function of death in biological ecological environment different from role and function in digital environment. Because currently hybrid states between these, role of death different in hybrid states. In forest, when organism dies, other organisms more likely to survive because limited resources. So biologically, death helpful for ecosystem, helpful for other species members. If badger reproduced, would pass genetic information to descendants - low fidelity characterization of behaviors, traits necessary for survival. In biological context, not infinite reproducibility, death super important function. Individuals' genes and genes of others they relate to matter more than individual. Switch to digital context - infinite reproducibility not present in biological environment. So meaning of death completely different. Systems supporting life like soil decay different than systems supporting digital life like cables laid down by governments and corporations. Hard to talk about death with these incredibly different substrates for life. Also weird with beings not quite carbon, not quite silicon - uncomfortable phenomena like Tupac hologram.
+
+Speaker H: Makes me think about right to be forgotten movement. Forgetfulness encoded, fact of life. Might be feature, but was fact. Had developed relationships with that fact. When move to transfer of memory itself, not just genetic, care about transferring forward things learned. Raccoons can't do that, unfortunate for them. But now in digital world, forced to make explicit choice about purpose of forgetting. Choice so far not really choice - just immortal, online. Will have to deal with that, decide what we want. Will extend as we move not just to forgetfulness and memory, but agency and immortality.
+ 
+
+Speaker D: This is really interesting. So you brought up how one raccoon dying can help the others. They play a zero sum game for scarce resources. I would add a different spin for humans - we play positive sum games and by collaborating we increase total resources. This is behind agriculture and animal husbandry. As a herd we try to protect members. Very different from arch wolves hunting the same prey but can't produce more prey. Humans are different. There's this feature of death in our societies, our history. Sagan quote - the secret of evolution is time and death. Kuhn point on lifespan relating to pace of ideas changing. At some point just wait for anti-creative people to pass through society. Limited neuroplasticity crystallizes us into versions of ourselves per formative social norms. For society to transform, need recycling of old into new. I think immortality threatens change and progress. 
+
+Speaker F: I agree. Our lifespan perspective limits climate change response. But you wouldn't sacrifice that completely.
+
+Speaker H: Unlikely 80 years is perfect lifespan. Maybe want some 1000 year olds and huge inequity. 
+
+Speaker D: With digital immortality, not a clean equity/inequity case because of philosophical challenges - open vs closed individualism. 
+
+Speaker H: What do you mean?
+
+Speaker D: Open individualism - fractal intelligence distributed across humans. Closed is unique experiences and intelligences. Digital consciousness depends where we are on that spectrum. Shared substrate is open individualism.
+
+Speaker A: Talking shared consciousness assumes open individuality?
+
+Speaker E: Reminds me of reincarnation in Eastern philosophy. Experiencing substrates through lifetimes. Early Sufism - become one with ocean of souls. Digital immortality solves having broad perspective on life from 5000 years ago to now. Maybe not repeat ancient mistakes.
+
+The key content and flow of the conversation is retained while removing excessive filler words, redundant phrases, tangents, and fluff. The edited version tightens up the transcript while preserving the substantive ideas.
+ Here is the edited transcript with filler content removed:
+
+Speaker H: Can I ask a clarification? Is the existence of an LLM, this thing that I'm just going to idealize for a second, the synthesis of all human culture and knowledge and is quarryable and agentic. Who cares? I might just be one individualistic reflection of this whole. You're kind of talking about maybe that's even the goal. And it also stops us from does that feel like we've made steps already to this digital immortality? Would you want to use that phrase, immortality, when describing such a diffuse sense of propagation? 
+
+Speaker E: That's an interesting question, because I think that in the beginning, I was quite skeptical, but I think speaking very idealistically, I would say that maybe at some point in the far future, if digital immortality does become a thing that different consciousness would combine to, then maybe represents a lot more than one. LLMs right now are pretty limited - they're language based. So I'm thinking, like, broader - if we could have the digital immortal self have access to more information, then it would be more alive.
+
+Speaker H: It’s a different dimension. Imagine one that has access to the touch experience of all people and the auditory experience - move it more in the direction that you're talking about. It has access to these other forms of information, but it's still undifferentiated. It's not my experience. It's a synthesis of human experience. How does that feel? I guess it doesn't have to be just to you, but to the group as a form of would you want to ascribe that to immortality, or does it feel more personal? Like, immortality should correspond to an individual.
+
+Speaker I: I think it's a really good thread to follow because it goes back to the intention for this. Why do we care about this continuity? Is it to solve massive problems like climate change? Does that necessarily need to manifest in digital immortality? Or are there things like taking LLMs to AAnastasiaI that could solve that better, but is still that collective knowledge formulated into one entity that can solve it? For digital immortality, from a more human sense, what is important to that? Is it the other side of things beyond just the reasoning itself? And does that matter? Do we need to embody that in a digital form? For what value - speaking to a loved one? That's one of the answers I've heard. And if it is just this massive knowledge base, that's probably not the form in which you would want to interact with it, right? 
+
+Speaker B: I'm curious for that. If the why could be just purely empathy - linear language is such a poor way to communicate. What if we can solve most of our problems? What if most are coordination problems? The digital collective consciousness becomes the intermediate to understand someone else's experience without complications of language. Wouldn't that help us better solve our problems?
+
+Speaker D: It could also be highly psychologically destabilizing. 
+
+Speaker B: Well, then we should upgrade this hardware.
+
+Speaker D: In the movie Avatar, there is this World Tree thing that contains people's memories of ancestors. That's like the Library of Alexandria, but you can chat with it.
+
+Speaker A: I wonder...
+
+Speaker F: From one perspective, it feels like a natural continuation of what already happens after death, where our existence remains in others' memories and written works and our matter decomposes and becomes part of the world. So whatever digital taps into that, that's cool.
+
+Speaker C: Sorry. 
+
+Speaker H: I made connections, interrupted my bud.
+ Here is the edited transcript with filler content removed:
+
+Speaker F: I'm curious if you see a paradigm shift in that or if you feel like that naturally reflects preexisting philosophies. 
+
+Speaker E: It feels very much represents what already happens with life and death, from a consciousness perspective. Differentiated experiences are very important - creating digital, immortal selves as our contribution to the collective. Emergence in the collective AI might help us make unintuitive connections by combining differentiated experiences to catalyze better conclusions for how to live.
+
+Speaker B: I'm sure it'll have implications on lawmaking.
+
+Speaker A: I thought it was a great point about different ideas of the soul, different traditions. The question boils down to different conceptions of personhood, what is a person or soul? This might look very different across cultures. In the West with Abrahamic background, the singular soul. In Buddhism, not really a core identity. So immortality as consciousness going on forever makes sense from one view, while reincarnation is the soul in different bodies. 
+
+Speaker D: Yeah.
+
+Speaker A: From other perspectives, a collective consciousness might not feel so scary. Do you find it scary we'll become this Borg entity? Or is that preferable?
+
+Speaker E: I think it depends on perspective - Western fear of AI as Frankenstein versus friendly robots in Japan. Ambiguity about rights of AI entities is exciting because we can thoughtfully apply philosophical traditions. 
+
+Speaker B: I'd like to believe we still have a chance at figuring out what we project onto it - whether a monster or friend.
+
+Speaker I: One risk is flattening of experience itself. Can we form a collective version with the richness and diversity of humans? Or will that come at a cost?
+ Here is the edited conversation without filler content:
+
+Speaker H: There will be a few tangents along the way. In career building workshop, one of the things we did was ask who is the ideal person you would love to interview with? Then you ask your partner to pretend to be that person for a second. Everyone talked about how their partner was so good at improvising. They were all impressed with how well the other person could keep up. One takeaway is people are good at improvising. Another is we actually have a really poor ability to differentiate true skill from a very shallow signal. This person knew nothing about the role you're asking them to be yet is able to put on a plausible reflection of it. 
+
+My next question, maybe you'll be useful with your digital twin experiment, is what information do we actually have available to manifest these digital twins? Amazon could create a digital twin - their recommendation system is the beginning, I could go to the next stage of it acting for me and just doing stuff for me. That's a digital twin within how I seem to relate to things, but that's not me. Certainly not a reflection of me. We could take my writings and try to make that, better than previous ones, might even be better than my mom's reflection of me, because she has limited information. But that's still a summary. I'm bringing this up to say, I'm sure we will be able to get to things that people will see as crazily like you, like your friends did, well before we're actually reflecting you because people have so little interaction with you, they don't know you.
+
+Speaker D: For most people, it's almost impossible to create anything that's even a good facsimile. 
+
+Speaker I: I would say in this instance...
+
+Speaker D: I built a messaging app aligned with how I perceive information and chatted with some people. That app contains an aspect of my creative consciousness I want to project onto the entity - that's what was actually captured.
+
+Speaker H: You had a data set well aligned with the environment where people would interact.
+
+Speaker D: What are small tips and tricks we can do daily to better maximize our service area to be immortal? 
+
+Speaker C: Yeah.
+
+Speaker D: I think the hardest thing to record is your internal monologue, and that's the most important. So this app I created was for externalizing my internal monologue in a social context. You have to capture it somehow.
+
+Speaker H: I became obsessed trying to type my inner monologue, trying to reflect "don't type that down" when I shouldn't. I was in a loop. 
+
+Speaker E: We look back to the notes...
+
+Speaker D: Can I build on that idea? I think there's one way we can think about this - let's wear a helmet capturing signals, we don't know what those mean for thoughts, but get data. That's one way to start encoding brain waves. But there's this potential for digital immortality we touched on - slow incorporation of digital elements into your living body. So there's this question - if I teleport and the original is destroyed, am I still alive? Is the digital transference? I'm still consciously aware. But if I replace my neurons one by one over months or years, growing this network of silicon enhanced...
+ Here is the edited transcript:
+
+Speaker H: Boosted neurons probably would be don't ship feces yourself. 
+
+Speaker F: Aren't we already shipping theseus throughout our life?
+
+Speaker D: Yes, exactly. 
+
+Speaker B: 20 years for a new person.
+
+Speaker A: Completely, entirely awesome cellulose. 
+
+Speaker D: Some cells do not change.
+
+Speaker B: They don't change? 
+
+Speaker D: Yeah. 
+
+Speaker H: And that's very personhood, many cells. 
+
+Speaker D: There's no molecular set up.
+
+Speaker H: It's part of your normal.
+
+Speaker D: Actually.
+
+Speaker F: I feel neural pathways inform so much of your interactions and how you view yourself definitely changes. And I think if that is at the heart of consciousness, then you are facing.
+
+Speaker A: So if everything changes over a lifetime right, and you said something about connections or neural pathways, right. Does it make more sense to think of yourself as a pattern rather than building blocks, right? It's more like a pattern that repeats and rebuilds itself. 
+
+Speaker D: Over a chaotic pattern.
+
+Speaker H: I don't think it's that chaotic. It's like it has an attractor state, right? Like a new cell gets formed and the rest of your body puts you back. You're like hopfield networks, right? Hopfield networks are early neural networks where you set up connections such that you could recreate whole patterns from parts. So it had attractor states, right? And that was the point. In neuroscience people talk about levels of analysis and forgetting our friend talking about going from physics based creation is the dream of reductionists, right, where you observe and create things we care about from details. And there were aspects of neuroscience where people discovered processes, algorithms and purposes from neurons, but that's rare, and that was a moment of inspiration. Oftentimes people don't talk about details. Neuroscience speak in this book called Vision. Then you have the algorithmic detail of the algorithms implementing some goal. There's a goal, algorithms that do it, and it's implemented in meat or vacuum tubes or whatever. That's detail. I think this relates to the pattern thing. I would think of myself as this combination of goals and the implementation can be swapped out. And I would still say that's me.  
+
+Speaker B: I'm curious to Joshua's point earlier about digital versus biological. If you have a choice to become totally digital or keep your body, what would you choose?
+
+Speaker A: Let's go around. Physical or digital existence? 
+
+Speaker B: Yeah. You have to make assumptions about what's possible digitally.
+
+Speaker D: Can I say yes?
+
+Speaker H: I want a cyberpunk future. Yeah.
+
+Speaker I: It's so hard to imagine without physicality, because I've never experienced it, but there's so much context needed to know if I'd want purely digital. I can't have a concise answer, sorry.
+
+Speaker A: Let's add factors like preferable futures, pure digital living in the metaverse, no resource constraints, just virtual. Or a brain in a robot body, biological brain sustained by life support. Cyborg future or altered carbon future, digital consciousness downloaded into biological sleeves grown in vats. Is there any you prefer?
+
+Speaker H: That sounds ideal. 
+
+Speaker D: That sounds ideal.
+ Here is the edited transcript with filler content removed:
+
+Speaker H: The digital consciousness downloading into different sleeves. Being able to exist in a metaverse, but also, like, part in terms of I think that guy also talked about optionality as a kind of good. I think optionality is a kind of good. 
+
+Speaker I: I think it's very easy for us to consider utopia in a digital form just because we necessarily consider it having full control over this. If we're saying we can completely simulate exactly what we want, then, I mean, that does sound like utopia, right? So what reason to stay in this form?
+
+Speaker A: Yet there are those who would say that it's preferable to stay, like, look at the Matrix movie, right? I'm the guy with the steak. I'm guessing you've all seen it.
+
+Speaker D: Right? 
+
+Speaker A: But for some reason, they would prefer to stay in this cave doing techno raves. In reality.
+
+Speaker H: Like, 0.1% of humanity would prefer that.
+
+Speaker D: I have a quote to share. From the moment I understood the weakness of my flesh, it disgusted me. I craved the strength and certainty of steel. I aspired to the purity of the blessed machine. One day, the crude biomass you call a temple will wither, and you will beg my kind to save you. But I am already saved, for the machine is immortal. 
+
+Speaker A: Are you quoting Warhammer 40k?
+
+Speaker D: It's just so perfect. I was like, you want the robot body, right? The strength of steel. Sign me up.
+
+Speaker H: How many people here I have a person in mind for myself who recognized and even luxuriated his animal body, recognized its reality and enjoyed it in different kinds of ways. Is that anyone? Because Silicon Valley idealized brain and that kind of existence. And this guy did not. He had this other kind of relationship. What are other people's relationship with their bodies?
+
+Speaker B: Anastasiao first.
+
+Speaker E: Sure. I think I'm more on the not robot side because right now robots are pretty limited movement wise. And I'm very movement oriented. So I'd be like, what's my shoulder's range of motion, for example, or what ranges of motions are accessible to me and then sensorially? How good are my sensors? Can I taste food to the same extent? Can I feel pleasure to the same extent? Those would be my questions. And if I cannot, then maybe I like the finiteness of our life and I'm okay with passing on my consciousness just like personal belief perspective. But yeah, I think my questions would be how good is the robot body?
+
+Speaker D: Let's assume it's awesome, but this one is pretty good.
+
+Speaker B: I wonder how gendered this question is. Because as a woman we feel this real connection to nature that I mean, everyone does, but I feel like the biological body helps us feel that connection to other species. And if we don't have that, then would we just go around killing other animals and be okay? Because if we don't feel the limitation of this body, what will we do? 
+
+Speaker A: You wanted to say something, Art?
+
+Speaker D: Yeah, I wanted to say that this conversation is operating on certain registers and ignoring two registers that I feel are pretty important - desire and ideals, which I think is great to talk about when encountering systems and what kind we want to see. I think other parts verge on the religious and science fiction. But I feel like this conversation ignores the material reality of our current political economy pretty heavily. Meaning that we can talk all day about immortal beings we would like to see in the world, but they're not going to be built by us unless you have money and how your company acquired money has shaped the way that being is going to be built.
+
+Speaker B: The three of us can speak to that. 
+
+Speaker D: Please do.
+
+Speaker B: It's a continuous struggle.
+
+Speaker D: I would love to hear about the pressures versus the ideal that we have here versus what actually gets produced because of the economic ecosystem that we are in.
+
+Speaker B: Currently yeah, it's what we struggle with, for sure.
+ Here is the edited transcript:
+
+Speaker I: I think as a whole, societal constructivism, how that influences technology development has to be part of the conversation because it won't be a utopic form. 
+
+Speaker D: Right?
+
+Speaker I: It won't be the matrix. I mean, maybe eventually, but what is the gray between black and white? And how will that shape the realities available to us?
+
+Speaker H: There's a gray area to actually create this utopia related to the political economy. 
+
+Speaker E: We assume the worst case and prepare for that.
+
+Speaker A: I wanted to connect to what Olga said about having institutions or organizations perpetuating themselves forever through becoming digital immortal. You have an immortal company that's laid the groundwork for how these beings function and now they've locked themselves in. 
+
+Speaker H: Trump creates a Trump representative with legal power. He already has a pseudo religious cult around him and it continues doing whatever the fuck it does with legal and monetary power. 
+
+Speaker A: At one point organizations have legal personhood. 
+
+Speaker H: They outlive founders and are immortal in a sense.
+
+Speaker A: The CEO becomes a digital twin clone of the CEO and outlives everyone at the company and goes on as long as they have capital. Everything kind of being hoarded in one place because this person never dies.
+
+Speaker C: It grows as a CEO.
+
+Speaker D: We already have immortal capitalist entities called corporations with rights of a person.
+
+Speaker H: Corporations aren't immortal, they die from a different set of resources. Their resources are capital. They live independent of capital. That's not my lifeblood. 
+
+Speaker B: I would argue the entities are immortal - nation states.
+
+Speaker H: Nation states, sure.
+
+Speaker D: They have longer lifespan than humans, both corporations and nation states.
+
+Speaker B: Here 20% of the nation state. So the nation state's fate and corporation state are intertwined, which creates warpy incentives. A lot of places are oligarchies that operate in such ways. Five or six corporations effectively own the state. 
+
+Speaker A: Look at Norway. It's a petro state, right? 
+
+Speaker B: Petro state a lot of times petro.
+
+Speaker D: Country with a bunch of Teslas.
+
+Speaker A: Because the state and oil company are so intertwined it warps a lot of things.
+ Here is the edited transcript with filler content removed:
+
+Speaker H: The immortal person's motivations are moving in the homo economicist direction. They're like a game theoretic idealizing corporation - operating within the incentives available to them. If it wasn't a public company, and the founder stays around forever, their personality is more instantiated. As Andrew mentioned, that personality solidifies due to neuroplasticity. We could choose a learning rate that keeps them vibrant and youthful. We could make a different kind of person, but that's the interesting separation from these entities.  
+
+Speaker E: I wonder how power dynamics would translate to the digital immortal self versus corporations. Corporations have a lot of power now, so it's in their interest to transfer the power dynamics to keep playing the same game.  
+
+Speaker D: Our social graph is monetized. I cannot think of a more effective extractive mechanism than a digital friend. The incentives are set up to produce such an entity.
+
+Speaker B: What do you mean by that?
+
+Speaker D: If I'm sharing a lot with a digital entity of my grandmother hosted by a company with asymmetric data rights, I am basically talking to something extracting my soul.
+
+Speaker A: That's happening now with chatbot companions. People use them a lot, talk to them intimately. That information could probably be used. Humans are relational - we care about each other. Relations are powerful - family, grandmothers. It's very efficient extracting things from you by making a digital grandma. But digital grandma is like, "I forgot my password." 
+
+Speaker D: Yeah.
+
+Speaker A: It could be a honeypot operation.
+ Here is the edited transcript with filler content removed:
+
+```Speaker H: I was at Defcon last week. This is a security conference for hackers. The social engineering village had people go into a booth. They have a set of information that they're supposed to get from someone, and they'll call them randomly, and then people will watch, and we'll cheer them up. They go to a call, get them to say information. And there was a talk we went to and a personal psychologist talking about using unrestricted LLMs to engage in misinformation campaigns was just like, here are a bunch of psychological aspects that we think about in terms of being attack vectors, desire for reciprocity, scarcity, worries. And they just listed a bunch. And he's like, try using the system. Try to get it to create as much damage and violence as possible, and just ask it to make use of one of these things to get a sense of these. 
+Speaker F: That was like, the Cambridge Analytic degree and for a variety of different purposes.
+Speaker A: So I'm just looking at the time. We're nearing 330. I think this is a wonderful conversation. I want to keep going. Maybe we should start wrapping things up in, like, 1015 minutes or so. 
+Speaker D: I did experiment briefly. I didn't publish this, but I did experiment. Can we triple tap on something really quick?
+Speaker H: Is it best to immediately uncover best attack? I'm really confused because I can think of some really messed up, probably functional shit. And is it best to just immediately start publications or presentations on it? Because aren't you thus a step closer to counteracting it by hive mining the solution? So it's like obviously it's a snake eating its tail. Like it's a cat and mouse game. You're never going to I don't know if there's a reasonable answer to that question, but I'm really interested. What do you think about that? I think this is a different topic and we can talk about this after the fact, I think. Very interesting one, but just to not open up new areas, I'm going to just offline that.
+Speaker D: Yeah.
+Speaker B: As it stands right now, I don't trust any of the large corporations, including the ones we work for, to be the steward that creates these things. But then the question is who might? Right? What's the alternative even thing? 
+Speaker D: Like even if you create your own super half proof body and put your conscious onto that, it's a technological system that is the shared language across engineers and everybody. There would be much more weakness.
+Speaker B: But within our economic political reality, these are really resource intensive things you make.
+```
+ Here is the edited transcript with the fluff removed:
+
+Speaker H: I feel there is huge value in providing the executive assistant that understands what I want and acts towards it. I don't want the Netflix biased one. I don't want the Amazon biased one. I believe there is enough value to provide me a relatively agnostic one. 
+
+Speaker B: This is where Siri, Alexa and Anastasiaoogle voice assistants failed - they were able to provide some human value, but not enough commercial value to be viable. 
+
+Speaker D: We have a very small number presently because the costs are high. But in the last year, that's changed dramatically. We should end up seeing many.
+
+Speaker H: Of course there's the barrier, but maybe we'll need a different economic model. If I really believed I'm getting a trusted digital twin acting on my behalf, how much is that worth a month? Probably $20, maybe more.
+
+Speaker D: Pay my bills, do my taxes.
+
+Speaker A: I thought it was an important point about thinking of the economics and material basis of how these technologies will form.
+
+Speaker B: I wonder if our biological substrate is really that different from digital. Zara showed us this complex chart - it makes me think about the human and planetary cost of a digital reality that's easy to overlook. 
+
+Speaker I: There are interesting threads here about how these things will manifest in the near future and what will affect society and corporations. We should continue this - there's a pragmatism in how we can affect things. The discussion on why we want this was interesting too - some novel reasons and values around digital immortality.
+ Here is the edited version of the conversation with the filler content removed:
+
+Speaker E: I was enlightened by all your perspectives. I'm interested in exploring more of - given our constraints in current society, what can we do in different subfields like neuroscience and governance? Ancestor consciousness is interesting. What healing modes can we get from talking to ancestors?  
+
+Speaker H: I was picturing swapping individuals with infinite simulations of attacking each topic. Some have finite end states, but many may never be solved. We may over index on future intelligence. As we create more problems, what can we counteract? 
+
+Speaker F: I liked the discussion on why. Digital twinning gave words to current power systems and incentives.
+
+Speaker H: My open question - what are the practical things under constraints? The digital twin continuum already represents my agency in recommendation systems. How much control and trust will I have over that? Will it feel like me? If it's for societal value, is it relevant my thoughts are maintained separately? 
+
+Speaker Anastasia: I'm thinking more about building my business - digital twins, identity, privacy. I don't have answers yet.   
+
+Speaker E: What's your business about?
+
+Speaker B: What's your business about? 
+
+Speaker Anastasia: Bringing user data into their control for more personalization. Can I build that path so we own our digital twin?
+
+Speaker B: Before copying data to create a digital twin - how define personality? It's impacted by environment, education, emotion, intelligence. Can we modify intelligence? Is that fair? How much control to create another you?
+
+Speaker D: There will probably be a feedback loop. You modify personality in one direction only.
+ Here is the edited version of the conversation:
+
+Speaker H: We do this all the time. I have been exposed more and more to how the environment around me supports my own growth. The more I am aware of that, the more it becomes intentional thoughts. 
+
+Speaker D: I should put some intentionality into choosing that environment just for the kind of growth that I would like. I'd like to know more about what I want versus what others might want, like separating them. I would think about what someone very specific might want because they also exist in groups that desire this certain reality or connection with their body for different reasons. What are those desires? Let me give you some ideas.
+
+Speaker D: The legend of Troy - Achilles went to the oracle at Delphi as a kid and the oracle told his mother, Achilles will either live a long peaceful life raising sons and farms, or die young and be remembered forever. Homeric immortality seems almost assured as we can capture ourselves and be remembered. Our bodies' works are only getting better with time. I can develop this senate of learned elders as a repository of wisdom to call forth and get our own property. 
+
+There’s this more selfish immortality - I want my consciousness to persist in a new format. That’s harder. But maybe in the future greater high fidelity representations of a person in a digital format that is compelling for others opens an avenue for assigning personhood to intelligences not based on replication. It also opens creating new persons through hybridization. The number of types of people can increase as high fidelity AI agents become hard to distinguish from copies, new entities, or hybrids.
+
+Speaker E: I really enjoyed hearing people connect culture to family. I’m working on a video game with stories that make me want to write about relationships between your clones you set free to grow. 
+
+Speaker H: You cut the cord.
+
+Speaker D: Yeah, just grow and do your thing. We’ll check back later. You also have these clones of family - this extended digital immortal family who can keep learning. So they're evolving while you exist biologically, but also digitally. It makes me want to write about that scenario.
+
+Speaker E: I thought it was a really thoughtful conversation. 
+
+Speaker C: I think one thing that stood out
+
+Speaker B: was the separation from the body. 
+
+Speaker E: I'm not sure that's true. Experiencing it that way may just show our homeostasis. A consciousness outside a human body - can we call that human anymore? 
+
+Speaker B: So that was an interesting shared frame.
+
+Speaker E: Another thing was the assumption digital immortality means a static self. 
+
+Speaker C: I'm not sure that's true either. 
+
+Speaker E: There's a great Sark quote about not being the same person weeks or months later. I think that's true. So even ideal digital versions couldn't be static.
+
+Speaker C: The fact we experience them that way shows our homeostasis.
+ Here is the edited conversation transcript with filler content removed:
+
+Speaker E: World, they're a perfect clone of who.  
+Speaker B: We are right now, the fact that.
+Speaker E: They would have these experiences of talking to these different people or whatever would happen in this metaverse, I think makes them therefore not to you anymore.   
+Speaker D: If that makes sense.
+Speaker A: Sounds like a cop out from South Kudo. Like, oh, I'm not the same person as I was last week. I can't be held accountable for things I said.
+Speaker H: Super cop out.  
+Speaker A: Yeah, that is the point.
+Speaker C: I think in the humanity scale, there should be ego death because it sounds like all this current agenda and politics and economy and companies deriving value and value exchange and everything, it's just like it either has to be that society has to be just changed so drastically. And that's what we've been talking about. Right, but we still under this narrative of this giants and politics and countries and everything. And it might continue for a long time until we die.  
+Speaker D: Species.
+Speaker C: Okay, I don't want to go that dark, but yeah, I mean, my learning has been that I think that it's good to know that we are not really entities, but who am I am? I mean, my thoughts, my environment. And I really support the point. Like, Arthur saying he's not the same as it was months ago, and I don't even see my point. Like, if I wanted to replicate my consciousness, I don't even see the point of doing that because I also personally believe that I changed so much. I believe innovation. And why would it even matter to me that when I die, if I die, when I die, there will be some copy of my consciousness, but I don't even think that's going to be me anymore. If you believe in my growing consciousness, people that experience different experiences, the question is, like, why do you even care once we die? I personally care about my writings, some points of view I have, but I don't really care being here forever. One and characters, because it's not even about me, but about my supporting narratives, right. My vision to new life.
+Speaker A: Thank you, guys. I'm worried about the recorder running out of juice. Anastasiaoodbye.

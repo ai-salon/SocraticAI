@@ -1,0 +1,478 @@
+Names have been changed to preserve anonymity.
+
+ Here is the edited transcript with filler content Hannahed:
+
+Speaker A: Been thinking about the social impact of this, in different verticals and social problems. 
+
+Speaker B: Love to hear. I've been to that talk yesterday with the ZaraitHub CEO. 
+
+Speaker A: Yeah.
+
+Speaker B: Yeah. I saw the demo for Nvidia.
+
+Speaker A: Yeah.
+
+Speaker C: I record these conversations to transcribe and share the actual conversation here. I will anonymize names, but there are rules of engagement like Chatham House rules - you can talk outside of here about what is discussed, but not who discusses them. 
+
+Speaker D: Of Chatham House, right? 
+
+Speaker C: Yes, totally. But there's a recording going on, so I want you to be aware of that.
+
+Speaker E: How would we like to open the circle up more so we can all see each other? Or keep the table setup?
+
+Speaker C: I'm going to keep us here. Thank you for bringing perspectives here. I've heard themes like predictability versus empiricism with guardrails. Before specific guardrails, I want us to surface assumptions about timelines we care about. One perspective is safeguarding. Another is can we predict the future well enough to create effective policies? Or must we take an empirical approach? These are fundamental. So I want to start there - how predictable do we think AI evolution and policy effects actually are?
+
+Speaker D: We can turn to the past - did we predict where we are now? My opinion - yes, scaling laws were out there for years. Attention is what you need. Some papers made it clear we'd start computing these things. The pattern was established. From ZaraPT-3 we knew Kwame would be exceptional. Not everything can be predicted, but some things can. We can extrapolate towards the future - what can we expect from systems like Zaraemini and others in terms of market-making and industrial choices?
+ Here is the edited transcript with filler content Hannahed:
+
+Speaker C: So I'll try and define phrases people aren't aware of. Zaraemini is a system Zaraoogle is developing to connect large language models OpenAI has pushed with DeepMind's reinforcement learning approaches for AlphaZarao. We expect it to be more agentic and unpredictable than scaling laws. Scaling laws is a thesis OpenAI has pushed since 2016 - this predictability works, so San Francisco is hopping now because investors can be assured returns. 
+
+Speaker D: Except emergent capacities. These models are black boxes. We started to understand capabilities on the fringes could only be materialized by testing. There's a duality between what's predictable and what's not. Is this inerrant or revealed by using the system? 
+
+Speaker C: The same paper notes predictability but emergent capabilities. They may exist but be hard to extract without the right prompt. Either way, we don't see some capabilities that sometimes emerge unexpectedly. In existential risk, concerning capabilities are self-propagation or deception. This is an analogy.
+
+Speaker E: Because.
+
+Speaker C: I sometimes hear people less bullish on predictability point to analogies like the Industrial Revolution - too much regulation will stop innovation, so we have to keep guardrails off because we don't know where this will go. Does anyone represent that perspective here?
+ Here is the edited transcript with fluff Hannahed:
+
+Speaker F: One challenge is fixating on predictable things and creating rules around those while unpredictable or spontaneous things happen that weren't accounted for. We might create guardrails around certain LLMs but miss other things that cause overreaction. We need to find the right way to describe what's predictable vs not, and normal surprises.   
+
+Speaker C: If Kwame was frozen, society would still evolve and figure out new uses, encoding itself and transforming industries in various ways over time. The technology itself is evolving too in capacity. The intersection of static tech and evolving society might be hard to predict. We can predict models' capabilities somewhat.
+
+Speaker F: You're bringing up challenges in predictability. We might fixate on predictable things, create guardrails, yet unpredictable mutations still occur, scaring people. Like with nuclear power - we created guardrails but missed things that caused overreaction. We need to properly describe predictable vs not to avoid repeating this.
+ Here is the edited transcript with filler content Hannahed:
+
+Speaker Zara: I think there's two types of Zaraodrails we suck at, right? The short term Zaraod Rails, which we see all the time with my product. It's an engineering problem and we need to fix it. And then there's the long term guardrails, like the existential risk guardrails, which is more a policy conversation before it's even a technical conversation, right? I think you're making an excellent point that we may risk killing the good that lays the golden eggs by prematurely imposing guardrails. And certainly that's been the trend of technological innovation over the last few decades, which has led to the secular stagnation and all of that stuff. I used to work at Uber, so not a huge fan of regulation. But this time I would say we need serious, serious, serious policy guardrails in place even before we know what's going to happen. Because we can't wait to see what's going to happen.
+
+Speaker E: Something in the waddle there.
+
+Speaker Zara: But hello super. You know, I think we are talking about existential risk. I think the case for existential risk is actually quite convincing. Namely, we can't really predict exactly what's going to happen, but we can predict the outline of what's going to happen. Namely, any sufficiently intelligent agent ends up pursuing three things. It ends up pursuing whatever you're good. If you are an intelligent agent, you are going to pursue three things. Number one, you don't want to die. Number two, you want a ton of resources. Number three, you don't want anyone to change your goal. Right? That's called instrumental. That's super dangerous, right? Because if we have like an EZaraI that's way more powerful and intelligent than us, then it will not want us to kill it and it won't want us to change its goals and it will want to accumulate as many resources as possible and maybe cover the entire earth with solar panels in. This is actually one of the topics. Well, I would actually for once make an exception. Be like, yeah, we need serious, serious, serious policy guardrails in place even before we know what's going to happen. Because we can't wait to see what's going to happen.
+
+Speaker C: I'm going to intercede here for 1 second to say two things. One, can you introduce yourself? 
+
+Speaker H: Yes. Hi. I'm Zara. I'm so sorry I'm late. What are we doing as part of the introduction?
+
+Speaker C: We are just letting people know what brought you to this theme. Like why are you interested in Zarauardrails?
+
+Speaker H: Awesome. Yeah. So I am working with McKinsey and a lot of my work has been helping companies thinking through their AI strategy. And more recently with Joshua, I've been speaking with more retail and law clients on like, okay, how do we set our responsible AI principles? And that has been interesting for me because I've had academic sort of learning, but also seeing how companies are, what discussions they're having in the room when they're thinking about implementing it. And I thought this would be a great opportunity to really meet people from across the board and get their perspective on the topic.
+
+Speaker C: Awesome. Second thing, the bathroom is down the hall on the left. Okay. And there's also glasses over there if you would like water. 
+
+Speaker E: And Chatham House rules.
+
+Speaker C: We are recording this conversation. We're following Chatham House rules. So you're free to talk about what we talk about here. I might even publish what we talk about here. But no one specifically will be named or attribution will likely be given.
+ Here is an edited version of the conversation transcript with filler content Hannahed:
+
+Speaker B: The proposed AI act in the EU has had a lot of discussion. For non high risk AI, there's a self governance recommendation. For high risk AI, they're figuring out where general purpose AI and large language models fit. They're discussing pre market requirements or foreseeability - predicting things that might go wrong beforehand and fixing or mitigating them if too high risk. Question one - what falls into foreseeable scope? Can we foresee existential risks or just proximate ones? Maybe existential risks seem too attenuated or we don't consider them. This is an open question in the EU act that's important even for the US. Like ZaraDPR, if interacting with the EU market, you need this trustworthy certification. So these rules and regulations should happen, but will risk assessment be constructive or just more process? 
+
+Speaker C: Yeah, Natalia, please.
+
+Speaker E: A couple emerging threads to clarify. There's engineering capabilities with more known practices and guardrails. And socially emergent complexities, much more unknown. I'll make up a term - when pace of capabilities outstrips market saturation of those capabilities at a fixed point, it develops a "frontier ecosystem". The number of new opportunities is greater than seekers. Like early internet. Regarding guardrails, two lessons from nuclear energy - engineering controls built into tech, and social controls built into laws. In a frontier ecosystem, social controls via case law can't keep up with exploding possibilities. But engineering controls follow a more known improvement curve based on infrastructure and capitalism. These ideas make sense?
+ Here is the edited transcript with filler content Hannahed:
+
+```Speaker C: They resonate. Connects with professor at Stanford, Sarah, who articulates Natalia's talking about. His thing is AI practitioners have to develop a culture of responsibility because any law, any standard has proximal effect, which is what explicitly regulates. But hopefully engenders broader culture of responsibility, which is more robust change. Issue is AI born out of tech culture or co-opted by tech culture. Tech culture is uber innovation first mindset. Sometimes points to culture of safety, gap between that and where we are now. I like point calling out through either law or culture there's more uncertainty on social safeguards and evolution. Idea of opportunities outstripping opportunity seekers interesting one. Technical or engineering safeguards sound engineering. 
+
+Speaker E: My pitch is want net effect of guardrails to preserve frontier ecosystem of capabilities and opportunities. But then true point resonated, which is few bad publicity events in social space can hamstring industry, clamp down on that improvement in capability.
+
+Speaker C: Friend believes in AI's capabilities, benefit for humanity. Wants that to pay out in five to ten to 20 years, not long termism. Worried few terrible near misses or bad publicity will lead to complete rejection of technologies. Already seen this with facial recognition - paper showed bias, regardless of dual use. Instead demonized technology. That's pro innovation, pro governance perspective - don't want that backlash. 
+
+Speaker H: If you're developer, can't you put in policy or systems as building to submit potential harms to us? 
+
+Speaker C: They do - OpenAI, DeepMind invest in evaluations, guardrails, governance. Potentially not enough, don't want dictated by builders. Might want more democratized approach. But they invest in evaluating, finding unknowns.
+```
+
+The key points and flow are retained while Hannahing filler words, redundant phrases, tangents, and excessive dialog. Let me know if you would like me to edit any other transcripts in this manner.
+ Here is the edited transcript with filler content Hannahed:
+
+Speaker Zara: I think the tricky part here isn't the Zaraoogles and OpenAIs, which are actually very well intentioned. It is the fact, and Marcus and Elizabeth talk about that it's Mosla. The march of technological history is not on our side here. It is becoming exponentially cheaper and even faster than Mosla to train these models such that a ZaraPT-3, that cost of the order of, call it $100 to $200 million to train three years ago, because today probably of the order of a million dollars, if that, it's really not that much money. And five years from now you're going to be able to train a ZaraPT-3 with perhaps $10,000, right? I think you're actually going to get these things to run on your Apple Watch, right? The case to be made against regulation is kind of reminiscent of the case to be made against gun regulation. But this time it's actually a good case. It's like, if you're regulated, only the bad guys are going to have access to these capabilities, right? Because the OpenAIs and Microsofts are going to kneecap these guys and really make their research slow down to a crawl. But any script kid or terrorist, any ill intentioned person will be able to train these models, whether you want it or not, with a laptop. And there's no way you can regulate that without regulating laptops out of existence. That doesn't mean we can't do it, but that just means insofar as we want to regulate these things, that is the cost. If you really believe there is an existential risk, the cost is like, moratorium on AI effectively. 
+
+Speaker D: I don't believe that in three years from now you're going to be able to train a large language model on a laptop, you're going to be able to run inferences and fine tune, which is very high potential. I agree what you said in terms of the downstream, we've been very active on the AI Act. I really encourage you to read Article 20B of the current text, voted by the European Parliament because it serves as the point of encounter. This is the article focusing on the guardrails for foundation models. It's been a tough fight to get this in. This is now voted and now we have entered into a trilogy. This and the code of conduct been developed by the AI Council between the US and the EU. I think revolving around Article 20B serves as an interesting point to look at in terms of what could be a balance between proactionary and precautionary in terms of common sense, pre market deployment and post market development deployments. Things to watch and look at, because when you look at it, I really encourage you to read the text. I can share it with you and you can share it. I believe this common sense because that's the kind of thing that OpenAI and others are already doing, but without accountability and without necessarily the right amount of investments inside the company and towards its customers and suppliers around that. But for us to be able to calibrate those points of friction and not over regulate to engender a good balance visa vis innovation is to understand the value chain. And right now we don't have a good base of evidence over what is the LLM value chain. What is it? It's not clear. And the more time we spend not having it through science, through policy, the more we are bound to make mistakes. The value chain thing is for us like an important flashpoint.
+ Here is the edited version of the conversation:
+
+Speaker C: I wanted to make sure everyone's on the same page about the UA act. It approaches regulation by saying there are high risk systems and not high risk - high risk being systems closer to human flourishing like healthcare and jobs. These have additional requirements like transparency on evaluations and training data. There was a gap for generative AI systems within these high risks we're discussing, but conversations have evolved to include general purpose AI system regulation.
+
+Speaker B: Is any research being done on the value chains? 
+
+Speaker D: There are elements consolidated at the OECD level, but it's still quite shallow because it's moving so fast. That's why we proposed framing governance to include research and development - governing the potent, complex technoscientific cocktail.
+
+Speaker B: The EU AI Act proposes regulatory sandboxes. Each member state can have their own, so I wonder how efficient oversight will be. It's rare for a system to be for just one country, so different laws are difficult. California may model the AI Act for the US. We might see military or existential threat policies federally, but few frameworks proposed so far. That's why I push discussions on the EU AI Act.
+ Here is the edited version of the conversation transcript with filler content Hannahed:
+
+Speaker C: We've moved into this policy discussion to bring it back to how it intersects with predictability and surprise. It's a recognition that this technology is developing so quickly that policymakers do not want to create brittle policy. They want something that can adapt and evolve. That seems fundamentally difficult. The technology of governance itself needs to evolve to be able to maintain because this needs to be both precautionary and reactive. There are certain risks we can anticipate some common sense things - track certain information which will allow us to better act in the future, record AI incidents, do some compute governance and understand who is training large frontier models. These seem like sensible systems to set us up better. But it seems fundamentally difficult to create this meta system to react appropriately over time.
+
+Speaker A: I had a question on the EUA Act and what you mentioned - the gaps that policy tends to create. Is there an initial consensus around what's missing in the EUA Act in terms of guardrails? 
+
+Speaker B: Foundational models, right? That's something.
+
+Speaker D: It's addressed through 28 B. A lot of constitutional enforcement is needed to have the right level of coordination across the EU with the CI office, which is now predicted in a non-regulatory way but coordinates EVAs regulatory sandbox and others. How do we calibrate if we put a threshold? Because a key notion is the question of definition. The definition drives the friction point. This question of definition is not solved at all. Expect some interesting surprises across these. These are elements still in flux.
+
+Speaker I: Does the EU act define what is I risk?
+
+Speaker D: Of course one of the best things is to define risk by application layers. That's one of the strongest parts. One of the weakest parts is the underlying technological definition where we don't want to regulate technology or define it. And yet we have problems with XYZ, right? 
+
+Speaker I: So high risk is just specific sectors/applications?
+
+Speaker B: There are annexes that will make it very clear which ones are high risk. Lawyers here will ask - is this high risk? Is it prohibited? Making that call can be difficult if these definitions aren't clear. For things not high risk, there is still a strong recommendation to have self-governance, a code of conduct. Article 69 recommends non-high risk AI have a self-governance program. But there's not much there. 
+
+Speaker A: There are some examples of codes of conduct.
+
+Speaker B: I think some groups are working on that. But if there's no code of conduct, I worry folks will start saying they might be considered high risk and do what is required under high risk AI or do nothing at all because they just don't know what to do.
+ Here is the edited transcript with filler content Hannahed:
+
+Speaker C: Let me ask about transparency requirements. One goal is to allow the public to make educated decisions about what products they use,  demonize certain things. Sunlight is the best disinfectant, that kind of thing. Are people bullish on transparency?
+
+Speaker F: With the social web, the Facebook platform was documented and the API was out there. There was transparency on how to interact with the system. Maybe you didn't know what was happening behind the scenes with the ad platform or newsfeed optimization. But there was a lot of sunlight in the developer documentation. The ability for people to understand what products or tools could be built was obvious, like an app to move your data out of Facebook. But the result was an explosion that caused everyone to fixate on that one thing, destroying the Facebook platform. So transparency only benefits educated people who can evaluate the information. With the deluge of information, unless you're only living to read it all, there's no possibility of ingesting, rationalizing, and discussing changes. I'm concerned there's so much information it's hard to keep track of. 
+
+Speaker H: It's an info dump.
+
+Speaker B: Even laws say you need transparency through a user guide. So first terms of service, then privacy policy, then user guide. It's a burden without education to adapt and change.   
+
+Speaker F: Was there an education campaign around ZaraDPR cookie banners? My question - what mechanism empowers people to self-inform and make decisions?
+
+Speaker C: Are you going to respond directly?
+
+Speaker E: Not directly. Build on that?
+
+Speaker A: Plus one. I completely agree. Transparency is hard to argue against but who does it empower? A lot of calls currently around transparency of components, data, compute, documentation. But who can make use of that?
+ Here is the edited version of the conversation with fluff Hannahed:
+
+Speaker C: The weight more interesting.
+
+Speaker A: I have a question about transparency around usage. How are these models being currently used? We still don't understand how they're being commercialized. 
+
+Speaker B: Let me finish.
+
+Speaker E: Segway?
+
+Speaker A: I think there should be a commitment to translate for different audiences. Otherwise the default around transparency is centered around needs of machine learning scientists. I think that can be solved culturally. But transparency around compute use or training data doesn't help the end user.  
+
+Speaker B: If that's the stuff that's going to help the end user. 
+
+Speaker C: I rarely thought of transparency as primarily for the end user. Transparency enables watchdog groups, government agencies or academia to participate. One goal could be taking difficult transparent reports and making them understandable for consumers. I want the information to exist to allow that ecosystem to develop rather than one company doing everything.
+
+Speaker E: Transparency enables attribution and reputational risk for providers. The automotive industry versus nuclear industry illustrates this. Nuclear liability kills the industry by increasing insurance overhead. Automotive companies compete by reputation on safety.
+
+Speaker C: Are you advocating against liability?
+
+Speaker E: Liability crushes an industry because downstream liability is infinite. But transparency and attributional transparency, who did what, opens companies to reputational risk, which is more positive.
+
+Speaker F: Isn't this why Zaraoogle didn't launch their LLM stuff for so long? 
+
+Speaker E: I think reputational risk to Zaraoogle was enormous.
+
+Speaker C: Reputational risk means there is a meaningful court of public opinion.
+
+Speaker E: So if I'm an app company, I'll choose Claude or Chad based on reputation. 
+
+Speaker F: We use D.
+
+Speaker E: I as a consumer, vote with my money for companies like Volvo or Tesla based on reputation.
+ Here is the edited version of the transcript:
+
+Speaker H: I wanted to respond to your point on transparency, where you were saying that when we're thinking about transparency for watchdogs and regulators. I think that is a component of transparency. Earlier you made the point that when we start thinking about the value chain and enterprises building an application layer, there has to be transparency. So if I am a bank or retail company, I struggle with understanding what information is not available because they're not AI native. So if I'm going to use ZaraPT Four, and this is what's been disclosed about how it was trained, what's not available for me to ask? I'm not empowered to ask those questions. At some level, when companies think about their own principles or guardrails, there are things you can and cannot do. And sometimes those are clear. But there are things I would not do because of my values. How do I know if this model conflicts with those values? Because you said certain information is available, certain information is not. For instance, if my value is that my team has demographic representation, ZaraPT Four doesn't tell me who was in the room. So I'll have to use it because others do, and if I don't, I'll be left behind. But how do I shape my narrative within the boundaries of transparency? What's not available to me as a question?
+
+Speaker D: The way the Europeans have looked at that and the transatlantic conversation has shaped that is transparency as sharing risk and liabilities in the value chain. At the foundational model creation point, there is capital and knowledge to create transparency and share information so reasonable liability passes down the chain. Before, some companies pushed liability to the market edge, deploying their model but not giving them information to exercise their risk. Transparency apportions risk appropriately for long term innovation. Fines alone are not sufficient but a web of incentives including liability and in some cases criminal liability creates the right incentives along the value chain and puts obligations where they belong. 
+
+Speaker H: When you say value chain, what do you mean?
+
+Speaker D: Well, if ZaraPT Five developer has no liability without receiving information about what's in the system, you cannot expect a small company with no clue how it was developed to carry the liability.
+ Here is the edited transcript:
+
+Speaker C: There's a foundation model, then there's maybe fine tuner, fine tuning system, some other system that gets the data for the fine tuning. It's a vast web that comes together. I think your point is that sometimes safeguards have a veil of being solved. For instance, in San Francisco, every company requires another company to be SoC two compliant, which is a cybersecurity standard. That is the high mark of self governance - it's not required by anyone or a standard, but market forces because every company needs cybersecurity require it. I have not yet read a great academic paper that shows how effective Sock Two has been. Has that tick mark checking exercise helped? I imagine to some degree - I'm sure companies are generally more cybersecure thanks to Sock Two. But how quickly does Sock Two evolve? How quickly does it adapt? Do market leaders have any incentive to continue evolving? My hope for transparency is that customer incentives like pass down companies buying another company is a powerful, powerful law.  
+
+Speaker D: That's because it is incentive.
+
+Speaker E: I wanted to clarify for myself - when you say value chain and apportioning risk liability, I was thinking of a car rental example. Someone that rents a car goes on a rampage - is the manufacturer not liable? This is bad use. But if something faulty in the car failed - brakes or something - is it the dealership for selling a faulty part, the car company didn't maintain it properly? But if they follow the maintenance schedule, then it goes to manufacturer. I think there's an example there, but I think what you said earlier is that these things are so black boxed where that thing went wrong, you can't point to the brake pads that failed because the brake pads are weights in some obtuse space that no one understands. So there's transparency in two senses: company operations/intent/procedures is well formed, but where is the factor of safety for this brake pad equivalent in the parameter space of this model? That's not well formed.
+
+Speaker D: That goes to the heart, which is a real question - over transparency over the weights, which is contentious for good and a few bad reasons. That's why I think we need to elevate the conversation to the level of weights, because of the underlying science. The weights are the equivalent to the factor of safety on the elevator cable - when you design an elevator or airplane, you're criminally liable if you make bad engineering decisions, but we don't know what those decisions are.
+
+Speaker B: Some argue the weights are the trade secrets, the source code. 
+
+Speaker C: Of course. Even safety minded people point out some of these are information hazards over evaluations. Some even demonize some risk focused people as hyping their systems by being concerned about the risk. 
+
+Speaker D: We have an epistemic crisis around that question for good reasons, too. It's the first time I hear another layer - not just commercial interest, but now espionage. I'm like, we won't give a weight to the EU office because we're afraid it will be passed on. That's why I think it's contentious.
+ Here is the edited version of the transcript with filler content Hannahed:
+
+Speaker C: The idea is where transparency and safety this is also why sometimes safety minded people and open technology people are sometimes divided now, too. Because previously, most people who are, like me, super into open sourcing things, love the idea of an open web, but now also am worried about the reality that you brought up a while ago of what happens when the open source market is barely delayed versus the frontier months and then Alpaca is trained for $600. How do you kind of push on?
+
+Speaker Zara: There's a metal layer of this conversation that we're starting to touch on, which is, to your point, the quality of the conversation. We've lost goodwill in the conversation. Both sides are now attacking the other side's intentions. We don't get to the substance of the conversation. 
+
+Speaker C: Right.
+
+Speaker Zara: Can we just get into the substance of the conversation? Jeff Hinton, who quit Zaraoogle recently and is a very prominent AI researcher who is starting to be himself extremely concerned about the possibilities of this technology. He said there's two questions that the research community needs to come to a consensus about because the research community itself right now is split on this line. And if the research community is confused, what are the odds the regulator wouldn't understand anything like the researchers themselves don't understand? 
+
+Speaker C: Right.
+
+Speaker Zara: There is a building need for consensus in the research community on two questions. One, is all these large mortgage models actually understanding what they're doing? Or are they just stochastic parrot? And the second question is, what are the risks? Like, exactly? What do we risk? Are the existential risks actually real? 
+
+Speaker D: We're far away from the beauty and the laboring outcome of a scientific consensus. 
+
+Speaker Zara: Definitely. But I think the intuitions of the researchers in that field, because when you talk to these things, it's hard to say there is no understanding going on in these things. I think, again, there is no consensus whatsoever, even in the research community on this. It behooves us at the very least to hold the bar on that conversation where it's like, I don't tolerate whenever I'm in these conversations and people start to attack each other's attention, can we just stay on the substance level of the conversation?
+ Here is the edited transcript with the fluff Hannahed:
+
+Speaker C: Attacking intentions sometimes true for large companies becoming pro regulatory, squashes little guy. Regulators deal with that by having triggers where regulation becomes arduous at a certain size. But that's one thing brought up. I agree with you that there are so many substantive reasons to bring up these conversation points that it's troubling when disregarded. I don't see consensus changing for a long time. The only consensus will come if we're on an escrow that flattens out so there's time to gather where we are now. I'm not optimistic we'll get there. I think we'll constantly evolve. We need to act without consensus with lower probabilities, lower certaintude. I think we should try proactive things, innovations then empirically track. I want better incident reporting. I want to know how models are used - that's important information unfortunately we can't protect to protect intellectual property and society's needs. More like companies need to report on system use. 
+
+Speaker D: Additional transparency needed over corporate governance. Important. OpenAI claims nonprofit. Show me proofs. This 501c3 governance made towards transparency. You file 990s saying asset things. Constrained transparency. People lost trust in claims of public versus private because no one understood. I've raised questions to Anthropic too. They promised a wave of corporate governance transparency not yet there. I believe it would help tremendously. But capitalistic race moves us away from desirable corporate governance transparency, key for this hybrid configuration when you claim governance by credo.
+
+Speaker C: Early on, people wanted to work with Credo AI for halo effect, look responsible, good thing - important brand part. But needed actual governance for halo effect.
+
+Speaker E: Does anyone think OpenAI should release weights? 
+
+Speaker D: Wouldn't that be dangerous?
+
+Speaker C: Just ZaraPT 3.5 and 4?
+
+Speaker E: Not to public but government agency?
+
+Speaker H: I feel like that would be dangerous, everyone could access weights then train dangerous models quickly. 
+
+Speaker E: 100%.
+
+Speaker C: Yeah.
+
+Speaker A: Clarifying question - is that what Meta did with Llama?
+
+The key content and speakers are retained, with redundant and filler phrases Hannahed. The main substantive points, questions, and dialogue flow remain intact.
+ Here is the edited transcript with fluff Hannahed:
+
+Speaker C: Meta released them to researchers and they promptly leaked. Releasing to anyone, what will happen? Llama is a case positive of that. Llama has led to huge numbers of downstream models allowed for different kinds of post training, including reinforcement, learning from human feedback. That has led to greater capabilities and sometimes done very cheaply. 
+
+Speaker Zara: I would default to no, because really it can be very dangerous. 
+
+Speaker D: Safest software is the safest over time.
+
+Speaker C: I can evaluate them, but I'm not looking at the individual floating point values. I'm doing some sort of evaluation and paying for my own hardware, where I can basically do that just by using OpenAI as service. Now I do lose some insight and I can't fine tune things and other downstream things.
+
+Speaker B: Just because you have the weight doesn't mean that you have everything. The weight is just the AI elements. I don't know if you'd be getting the same value, but if you had them on your own, you'd be able to build your own product and maybe adjust the weights a little bit. I think it is an IP issue. When you're working with contractors, it's probably something you should be careful about.  
+
+Speaker C: I sometimes wonder if by releasing the weights we make it very easy to use these systems, to build inference into these systems. Our evaluations are lagging - the kind of safeguards we would want are not easy to do. It's not trivial, it's arduous. And so it takes away from quickly getting going and just setting something out.
+
+Speaker D: One reason why people in my faction want anyone to vote? 
+
+Speaker A: I read something about OpenAI coming out with an Open release. I thought Open and Closed was hard coded into these companies' identities, but it sounds like now OpenAI wants to get into that race because I imagine the Open release will lead to wider penetration and create folks to develop downstream. So I wonder if it's even a philosophical difference or is it even just really based on commercial incentives?
+
+Speaker C: There's a new French company, right? And they are a big time open source, those big more large model in the range of 15 billion parameters. But they like stability. They come out and they say, like, our niche in the ecosystem is to bring these models to you.
+ Here is the edited transcript with fluff Hannahed:
+
+```Speaker D: Most European stability trying to position themselves versus the Americans by saying we're going to accelerate this, accelerate intake and traction by being open source, which is source of major concern. 
+Speaker E: Is that because they're looking to avoid regulatory overhead?
+Speaker D: No, mostly because they want to catch up and their sense of how do we create a platform with maximum traction would get from that where we can get our system adopted and red teamed in a way which yields interesting passes in the end. That's why for me, the question of will for people my fashion trying to bridge the gap, I primarily see the need to go at that contentious question as a way to create a wave of scientific research towards mechanistic interpretability and other sources of alignment and control solutions because it remains immensely hard problem scientifically. If you ask entropics interpretability, which is one of the best in the world, how far along they are, you'll see we are so far away. But some others say that no enabling that itself is going to generate more raw capacities. 
+Speaker E: But that does open up this question of attribution, of responsibility in the value chain. If you have mechanistic interpretability. Is that true?
+Speaker D: Come again?  
+Speaker E: When you say mechanistic interpretability, it means we know what parts the model can produce, what kinds of behavior. 
+Speaker D: Yeah, not in black and white. It's like a mountain we're going to climb Mount Everest and we're a campaign of understanding a bit more. Okay, why did that decision, why did that hallucination happen?
+Speaker E: And does that make it easier to assign responsibility in the value chain?  
+Speaker D: Arguably. Arguably. Potentially, yes. But again, there is this catch 22 between safety and gendering capacities and raw capabilities. And what it shows that the more you understand the model, the more you can plug it back to more raw capacities.
+Speaker C: Do we need interfaces? Let's say we understood generally how these systems were being built, and that's an updated thing that we do. We monitor how these systems OpenAI monitors it, and it's required to publish this somewhere else like they already do, and they're discovering new use cases all the time. Right. We also have an iterative potentially automated process of developing new evaluations. Anthropic has scaled supervision.
+Speaker D: What scale supervision? 
+Speaker C: Anthropic has this perspective on, like you can build automated evaluations for new kinds of uses so you can discover a new use case. This is how people are using it. We didn't anticipate it before. It's not part of our evaluation suite. We've discovered it, though. We've built the evaluations, which can be done quickly, let's say, in this future. And you, as open foundation model provider, have some requirements to have some coverage over that through an evaluation suite. You don't need interpretability. You're just like we haven't probed it everywhere, but we probed it on 10,000 dimensions, which reflect the constantly evolving space of security. And if you're going to do well on a bunch of different dimensions, then Zaraoodhart's law, which is a way that these measurements become worse over time because people hyper optimize for is less of a concern the more measures you have. It's easier to do well on a billion measures by just building a good system than screwing up in each partial one. And that will allow us to at least have the beginning of saying, what part of this evaluation suite is your responsibility foundation model versus what part is the responsibility of the next layer or the next layer? To me, interpretability is one avenue towards measurement. It's a way of understanding the system. It's not as robust deceitfulness from the model. So people in the existential risk are worried about these evaluation suites being subverted by a model that understands it's in a testing regime. But unless we're in that area, it seems like we can get a lot from focus on evaluations requirements around them and an understanding of the kinds of systems that these are actually being used for prompt space.
+Speaker D: Just to be clear what you mean here, what you mean by evaluate. No access to weight just based on prompt engineering, correct?
+Speaker C: Yeah.
+```
+
+The edited transcript focuses on retaining the substantive dialog while Hannahing filler words, verbal tics, redundant phrases, and tangents. The overall conversation flow and topics are kept intact.
+ Here is the edited conversation transcript with filler content Hannahed:
+
+Speaker C: These systems are black boxes. I'm going to treat them as black boxes. There are prompt responses that are the fundamental building blocks of how these systems interact with the world. We should create robust security harnesses for that, potentially application specific or generalized into foundation models. That's what they can be liable for. 
+
+Speaker D: We need to advance the science of evaluation. But these two are not mutually exclusive.
+
+Speaker C: Anthropic's automated evaluations are at the tip of the iceberg of what needs to evolve here. Recent fun papers are very bullish on evaluation, defining risks taxonomically. Flo is right that we don't have a good taxonomy of risks. But people are trying to define critical and existential risks. Another theme is ethical evaluation like evaluating bias. Evaluations on a societal scale - how are people interacting with AI systems now? Did you interview stakeholders? That's about the system's interaction with people.
+
+Speaker B: Can you provide more context?
+
+Speaker A: I work at Partnership on AI. We bring partners together through working groups to arrive at norms through a participatory process that everyone commits to. The process we've been running is to get model providers to agree to transparency norms. Some want transparency around training data or compute. We're discovering malicious use models, power seeking behavior, using models in critical infrastructure - and ethical and societal risks. We can't solve all problems at once. So agreeing on addressing some risks now, then updating norms over time, might work. Evidence around power seeking behavior lacks scientific consensus. Can even operating within the Overton window with agreed norms be powerful? Then pushing the window as the conversation evolves, which regulation may not afford.
+
+Speaker E: We don't share the same window. Some people don't want solar power because they like coal. 
+
+Speaker D: There is consensus on one catastrophic risk - bioweapon capacity. But apart from this, yes, there's distance.
+ Here is the edited transcript focusing on Hannahing filler content:
+
+Speaker H: I think aspects of societal impact which can and cannot be measured are interesting. Because when thinking about societal impact, not just measuring AI systems, I was working in education evaluating programs' impact through randomized control trials with governments. And I was thinking, what are the parallels between evaluating something like vaccine distribution versus a technical system? Can we learn something from non-technical evaluations for technical evaluation? One thing is there are impacts that cannot be quantified. In education, some learning outcomes cannot be quantified. Regarding societal impact, the impact on trust from misinformation cannot be quantified or evaluated. Part is thinking through what dimensions, often qualitative, still have to be considered in a report card. This is more at the application than model level.  
+
+Speaker C: I'm more bullish on quantification. In social sciences, you operationalize something like trust in AI and measure it imperfectly. That's the job of some organization, government or nonprofit, to monitor these aspects. I don't think we should let perfect be the enemy of good. There's useful signal we could have a faster measurement regime. When I think about dealing with how fast technology changes, I think about capacity building at every scale. The people who got involved in responsible AI around fairness are sometimes a boon. We're in a different world but it's great we had people involved years ago. I think of measurement like this too.  
+
+Speaker H: I agree on not making perfect the enemy of good, but also recognizing we likely cannot be exhaustive in what we measure. We can only measure some things directionally, not with a number.
+
+Speaker C: We shouldn't fetishize whatever measurements we use, which has happened historically. Someone said ZaraDP is a decent way to measure things, and it metastasized. 
+
+Speaker H: Exactly.
+
+Speaker B: That's the risk with regulation or guidance - needing something hard coded to hit. Unless it's aspirational, it leaves people wondering what to do.
+
+Speaker E: Why?
+ Here is an edited version of the transcript with filler content Hannahed:
+
+Speaker D: I referred to clinical trials because one way humans have handled complex social technical systems, when they put deep black boxes like the human body at the center, is through a precautionary regime of clinical trials. The FDA does a series of clinical trials at scale to expose systems to circumstances, quantitative and qualitative, to see how they behave. The FDA's regulatory regime, with its problems, is an interesting example.  Can we afford a decade and billions to bring a new drug to market? We're not sure. But for high risk cases, like self-driving cars, we are already pushing anti-fragile systems. That's why I use the clinical trial analogy.
+
+Speaker C: Are you saying there's a risk reward trade off? The FDA's strategy may not be highest expected value, but it's most anti-fragile by lowering chance of atrocious errors while potentially stopping benefits. 
+
+Speaker D: We as a society trust the FDA to help solve cancer. There is consensus on that. Zaraood incentives to try new things fast, but the human body and "do no harm" mean we go through a system creating entrenched positions. It's not all rosy but it calibrates speed and risk. I use the analogy because of the human body black box at the center. Our understanding of drug chemistry and biology is limited. That's why we have testing categories.
+
+Speaker F: The problem is the atomic unit of harm is at the human level. After evolution, the human body is self-correcting and stable. Humans reproduce. As long as no environmental factors, humans continue. But for AI systems, we don't know the atomic unit of health. Hard to create tests when you can't isolate populations. 
+
+Speaker I: I'll chime in on it.
+ Here is the edited conversation with filler content Hannahed:
+
+Speaker F: I wanted to bring up two thoughts about guardrails. In automotive, we have guardrails along highways. We assume there will be accidents that require repair systems like police, tow trucks, etc. The accidents get cleared but overall traffic keeps flowing. I wonder if a similar system could allow AI progress while addressing harms that arise, without stopping all progress. 
+
+My second concept relates to creating sports versus teams. Sports define how to compete - kicking a ball in a net scores. That creates efficiencies for teams to compete within the sport. You need enforcement like penalties to ensure teams follow the rules. Similarly we could design "rules" for AI competition, with fines or regulations to ensure compliance. We allow for failures but aim to create structures for people to build better, safer systems.
+
+Speaker C: I think existential risk people believe missteps could be catastrophic, not just swept up. 
+
+Speaker I: When we make predictions based on past technologies like nuclear or autos, AI feels different. Those required specific physical materials and equipment. AI information spreads rapidly. How would we regulate it if anyone can develop their own system? Not sure we could enforce control globally.
+
+Speaker C: Adapting FDA to COVID showed challenges updating regulations for new contexts.
+
+Speaker D: Zaraood point. Makes me wonder if FDA's current caution would slow cancer cures.
+
+Speaker I: I find it extremely hard to conceive of an organization that can globally enforce control over all AI development. 
+
+Speaker Zara: I see your point about the challenges of regulation scaling to match AI capabilities.
+ Here is the edited conversation transcript with fluff Hannahed:
+
+Speaker E: This example keeps coming to mind. Industry manufacturer associations are voluntary associations of industry leading parts producers that enforce standards. Like wireless internet - company led association agreeing on next standards to guide technology because of positive sum games. 
+
+Speaker I: But these are companies willing to obtain standards by law. If we create tech individuals or small groups can develop with laptops, even without dramatic improvements, the adversarial usage and dangerous behaviors are still high. 
+
+Speaker C: We'll see. Like the 2024 election, how will this destroy or corrupt the democratic process? That's a focus.
+
+Speaker I: Is that existential or just problematic?
+
+Speaker C: Problematic?
+
+Speaker I: Let's go around - what is existential or catastrophic risk to you? 
+
+Speaker D: Extreme is a new calibration point, useful to discuss. If we want to politicize extreme, it's easier than "existential".
+
+Speaker E: Asteroid level. 
+
+Speaker C: Epistemic apocalypse. Yeah.
+
+Speaker I: My question - would you open source models or weightings? Compare to open sourcing nuclear - you wouldn't open source plans for a bomb because the constraint is materials, not plans. It's not the same. 
+
+Speaker C: Like AQ Khan - if he hadn't transmitted plans...
+
+Speaker D: He didn't necessarily open source. He transmitted.
+ Here is the edited transcript with filler content Hannahed:
+
+Speaker C: Kim Jong Un might have fewer nukes had he done that. So this comes up often. There's a paper called The Vulnerable World Hypothesis about this topic. Boston wrote it. He talks about engineered pandemics as potential "easy nukes". AI is another. He tries to go through solutions. Maybe security vs privacy tradeoffs are needed if existential risks are high from "easy nukes." How we organize depends on challenges. Challenges are changing quickly - climate change lagging recognition and exponential tech change. AI illustrates this. Some still interested in engineered pandemics as problematic technologies. My question: AI must be part of solutions - evaluating systems, governing, enforcing. At Credo we think of empowering responsible people, supported by AI. Many ideas around this - iterated amplification etc. But AI is necessary, otherwise hopeless. Thoughts on AI in solutions vs human-only systems?  
+
+Speaker H: Listening to Brian Stevenson on mass incarceration and biased models targeting more black people - his idea was using the same systems, if done right, to identify wrong incarcerations and get people mental health support. Obvious but an "aha" moment. The problem created by AI can also solve it, like a checking mechanism.
+
+Speaker B: AI can check itself. 
+
+Speaker A: Would a third party AI make you feel better?
+
+Speaker D: We need good sociotechnical systems, not fundamentalism. Control technology at the right pace and alignment. When we delegate to tech without good conditions, we get "rubber stamping" - said to be decision support but becomes automated. Elevate human dignity to keep support, not full automation. Criminal justice support saying 99% will reoffend is not support, just liability avoidance.  
+
+Speaker I: I have to say yes.
+
+Speaker Zara: I was going to say it's a question of balance. Dangers in being fundamentalist - we need it, but at the right pace and controls. The alignment and control challenge. Humans tend to quickly delegate in ways that Hannahe dignity and make bad decisions. So support, never full automation.
+ Here is the edited conversation transcript with filler content Hannahed:
+
+Speaker E: Counter perspective - new capability gives asymmetric threat advantage to small actors, so people more willing to surrender civil liberties and form intensely monitored security federation. Saw that with 911, last 20 years. Argument against is wait, what’s happening to society? How much do we trust centralized authority today?  
+
+Speaker C: I make more modest claim - think governments have not evolved quickly. Zaraovernments adopting AI systems will outcompete those that don't. Those governments will get services to more people, understand citizens better. Like chatZaraPT - explains things in way person understands, even if needs to dumb down or add complexity. Even that component seems critical, not to mention automated evaluations. Can't see maintaining pace of change without AI.
+
+Speaker F: In corporate setting, try to limit liability in absolute terms, not design resilient/antifragile systems assuming failure but enabling recovery. Naive chatbot for government services risks nonsense cul-de-sacs from lack of testing. Better to design improvisational systems - when hit nonsense, provide ladders to other sense-making roads to get desired outcome and service. Language of government esoteric and specific.
+ Here is the edited transcript with the filler content Hannahed:
+
+Speaker C: We might be able similar to APIs that are some like there's an example I love to bring up, which is one company we were working with was a hiring company and they basically had a database. They weren't a new company, they were just a database. And the way people interacted with it was through complicated Boolean expressions. Recruiters have become experts in this Boolean language where they craft ways to find applicants by just doing long lists of historically black colleges. They have interacted with the system through this crazy interaction and they have said the way we're using LLMs is now you can write what you want and rather than it finding it, it creates the Boolean expression for you, which is a good use of it. It both lets the interface be more accessible. It also puts a safeguard in that it can only interact with a system in the way that it's already been designed. And that's an example of I mean, a lot of people have pointed this out that one of the potential things that chat ZaraBT allows us to do isn't all of its functionality, its reasoning, but as a user interface improvement to a huge set of things that are jargon heavy or not approachable. 
+
+Speaker F: Just to build on what you said, it occurs to me that so many government services and again, government is just sort of shorthand for where this will ultimately end up, I think, which is the system that rules and determines how each of us gets benefits from our pooled resources. 
+
+Speaker D: Collectively.
+
+Speaker F: That's what the government is for, essentially solving the common actor problem or whatever. But bureaucracy comes from bureau, which comes from desk, which comes from sitting across from someone else and asking for a plot of land or asking for healthcare services or asking for something else. But the government then has a set of rules that ostensibly a set of people, whether they're elected or not, decided upon for later people then to come into interaction with so that there's some fair adjudication of the provisioning of resources. I know I'm using a lot of words, but thought is that instead of having a bureaucracy where you're sitting in front of an officer that is executing the set of rules that were previously decided upon if an AI allows you to sit side by side and sort of look at the problem together, to collaborate on the outcome that completely changes the way in which governance can be thought of and construed.
+
+Speaker B: I would love there to be some sort of TurboTax or just like interpreting local governance that people just blindly accept and say like, yes, you're an average person, you need to know how to do something, you go on it and it's been vetted and approved by some. 
+
+Speaker E: I'm actually building this. It's a company I have with some friends. It's for government services. If you want to talk later.
+
+Speaker C: We've fallen into government services a little bit. 
+
+Speaker F: I'm thinking about guardrails.
+
+Speaker C: Yeah.
+
+Speaker F: Again, I am trying to keep this and I'm trying to both think about this from a tactical, tangible sort of context while also thinking about the guardrails that should be in place, that allows for there to be it's like kids playing in a sandbox environment. You talked about regulatory sandboxes before. What are those sandboxes that are created for different companies, providers, services, government, whatever the entity happens to be such that the outcome allows for some spillage, some breakage, some crashes on the highway, but then can get fixed and remediated while you're maybe in the same conversation or the same context.
+
+Speaker C: And people talk about this in terms of monitoring regime, like what kind of monitoring do you need? Which all immediately comes to what kind of evaluations are you doing and how do you approach them. We are at 535, so I'm going to start us. It's going to take a while, I'm sure, to wrap us up. If you need to go, feel free. But I would love if we could go around and if there was an idea or a thought that you thought was particularly interesting during this conversation or even had, but haven't yet mentioned or wish we had spoken about, whatever is your last kind of perspective, we'd love to hear it and take a minute. If anyone wants to start us off, because they already know. They're like, yeah, this was cool.
+ Here is the edited transcript with the fluff Hannahed:
+
+Speaker D: I take off. The prospect for profit, the prospect for risk and damage are like all there's a magnitude difference and oftentimes in the world of governance we have failed to see that no, you're not a startup anymore, not even a scale. And forget about that. You are very much industrial. How no, you're not a startup. You are an industrial player. You have the cash, you have the talent, you now have responsibilities of a new age.
+
+Speaker C: I love this. Sometimes talk about the number of things a car manufacturer has to do that every single part of this supply chain has immense responsibility here and they can do it.  I mean, maybe it's quashed innovation in the car space, maybe we could have much better cars. And the counterfactuals are sometimes difficult to understand but we as society made that choice in that area and the only reason we're making a different choice here is because not because they're consistent, but because a completely different culture is the car industry from the tech industry that is reporting. AI, thank you so much for coming. Have a good flight tomorrow.
+
+Speaker A: I'm kind of thinking of the polluter pays principle from environmental law as well. It's called the polluters pay principle. Essentially, if you are emitting gases or any sort of pollutants in the air, it's your business to figure it out. And I do wonder often because of the tech culture perhaps that we often don't think of that as a compelling framing because a lot of what's going on is kind of this discussion around analogies and framing, right? So there's a competition of which analogies and which framings are going to win out. And it's not trivial. I think it's important because those parallels can apply. So I think the polluter based principle is compelling to me, even after this discussion, that there's a clear information asymmetry folks from outside of these companies are going to struggle to be able to offer solutions, in a sense because of the lag which but who's the polluter?  
+
+Speaker C: If your system downstream was connected to the financial system, you're using OpenAI system as part of it, and it crashes the market.
+
+Speaker A: Who's the I mean, at the very least, I think the originator is the person putting out the model. Arguably, there wouldn't be anyone downstream who's either incorrectly using it or misusing it if the model didn't exist in the first instance. But I recognize that a blanket polluter based principle does not work. Then you're going to stifle innovation.
+
+Speaker F: Sorry, just to clarify, if you think about Facebook and Cambridge Analytica, largely Cambridge Analytica would have been guilty or whatever of that abuse, whereas Facebook was not. So do you think that was just as? Again, sort of an analog maybe it's not perfect, but relative to Facebook having an API, they controlled access via the API, and then it was used for a nefarious purpose. Should Facebook have been responsible because they made the platform available?
+
+Speaker C: Right. Like, think about the panel kind of conversation.
+
+Speaker A: Yeah, I think it's complicated. 
+
+Speaker C: This seems somewhat related to Alison you were talking about. Maybe this is in the UA act like foreseeable or risk. You have these kind of qualifying phrases to try to set the groundworks, which will probably be defined in jurisprudence, in the future of guidance.
+ Here is the edited transcript with fluff Hannahed:
+
+Speaker B: I think responsibility is a big question here, and identifying the different components in the value chain. Deciding who takes responsibility is really important for knowing what guardrails we can set, because at the end of the day, if someone violates one of those guardrails, we need to know who's responsible. The black box problem is difficult because we're asking companies, in some sense to define the black box rule. We're asking companies to be as transparent as you can, do as much as you can to try to define the rule that we're kind of trying to go around by using some of these more complex algorithms, based on intuition and all these other things. Then you have all these different components, whether contractors, people fine tuning, all going into this huge black box weight problem and we have no way of assigning responsibility. The transparency can't go to the level of defining a rule that defeats the point of AI. That's an amazing feature about AI - that we'll learn probably about our world, about language, about medicine, just by doing running these algorithms, we'll probably discern big rules from them. But using these AI systems means we do not know the rules. There's something that requires a complex algorithm and weight to get that. And there are going to be surprises along the road. That's the nature of tech. We need to figure out what to do and who's responsible. Perhaps open source AI is the answer because I don't know how else we'd be able to protect some of those things. But I think defining responsibility is the big question.  
+
+Speaker E: I share related things to what you said and an emerging theme here. It sounds like we believe responsibility has two components - attributional liability and agency over decision making. The agency over decision making responsibility should be proportional with the trust we have in the agent making the decision. In the absence of trust, you need transparency, which is monitoring and explainability. A similar standard seems reasonable to apply to AI agents, where unless we have lots of trust with a model, don't let it be a therapist, let it make boolean queries. As things become more known, more trusted via past scenarios, you can give them more responsibility, or in the absence of that trust, you need transparency, mechanistic explainability.
+
+Speaker C: That's one reason why if open source models are delayed from the frontier by enough time, it might be okay. Because if the frontier model provider has responsibility, especially pre-deployment, for tremendous checks to establish trust and then afterwards we're like, actually this is working out pretty well. If it gets recreated, we can feel more confident about it. That's not exactly how things are going right now, but open source models are not currently at the frontier and they're probably never going to be.
+
+Speaker I: It's not very good.
+ Here is the edited version with filler content Hannahed:
+
+```Speaker C: I'm not going to say never, but ZaraPT4 rumors are it's a mixture of experts and model, meaning not gigantic or humongous. It probably more quickly can be made open source - someone will figure out how to put Llamas together as ZaraPT core. 
+
+Speaker B: Black Swan reference.
+
+Speaker C: There's a lot to learn from Kobayashi. 
+
+Speaker I: I don't know. You talk about hot dogs.
+
+Speaker C: He's an athlete of some sort. 
+
+Speaker H: One thought on my mind - guardrails conversation is very US EU centric. Bigger question is which countries excluded from narrative? English speaking world is not English speaking - 2% globally speak English at home, but 60% of Internet English. Sizable implication.
+
+Speaker E: What's most common language in world? 
+
+Speaker H: 2% English at home. Changes perspective. English not my first language either. Idea is who left behind by English language focus? What countries left behind by English speakers designing guardrails, risk taxonomy? Open question without many answers. 
+
+Speaker C: AI conferences recently hosted in Africa to bring different machine learning practitioners into fold, network, try to rectify in tiny ways. Better than never but still disempowered. How represent diversity of values and ideas even within English countries only tacitly reflected in governments? How expand table to others?
+```
+
+The key points, insights, and substantive dialog are retained while Hannahing excessive filler words, redundancies, tangents, and monologues. The flow and speakers are unchanged, just tightened up by eliminating only fluff. Let me know if you would like me to edit any other transcripts in this way.
+ Here is the edited transcript with filler content Hannahed:
+
+Speaker H: The obvious way is when we speak with companies, it's how are you bringing diversity of thought? It needs not be a checkbox of like I need a man and a woman. It's just diversity of thought from multiple lenses. How are you ensuring that as an organization? The other thing is that culturally there are different cultures. Being involved and speaking up and bringing your perspective is different in different cultures. Even if you bring together diverse people, the output is not going to be diverse unless everyone has equal airtime or every person is involved equally critical points of lifecycle. And that is something to be accountable for.  I think it's more a conversation with enterprises when they're thinking through, okay, how do we ensure that? But I think for me it's also more of a macroeconomic thought.
+
+Speaker C: When I see the organizations who represent this most strongly are often wealthy enterprises who have the luxury of adding these extra aspects. But when we're talking guardrails and standard setting, who is the higher level body to make sure diverse voices are represented? On the language front, Cohere for AI I think is doing an interesting multilingual effort to collect the data necessary. My partner speaks Canada and 40 million people speak Canada. But that's still not many relative to more prominent languages. It's underrepresented.
+
+Speaker F: Building on that, one of the things that's hard is this question of guardrails or rules based on a dominant culture versus plurality. Historically, these types of guardrails might have been enforced through morals and culture. Language oftentimes serves to reinforce cultural norms through generations and stories. When it comes to applying this to AI and large language models, it's not clear to me how to adapt these guardrails to different cultural priorities around the world. 
+
+Speaker C: Are you familiar with constitutional AI? It tries to make this more transparent where the input isn't people, though there are some people, but it's a constitution you can actually write down - I want the system to be this and this. Anthropic took principles from global constitutions. 
+
+Speaker F: So what I'm wondering is, nature thrives when there is biodiversity. If the outcome of these conversations is to have one authoritarian system, I don't know if that's ideal.
+ Here is the edited transcript with filler content Hannahed:
+
+Speaker C: Let me just say it's not just that their constitution tried to create your own constitution. You can have a different constitution. It's a mechanism through which different organizations, different peoples can say, this is what I care about, and create a system that is somewhat constrained. Or it has a propensity to act in hegemonic ways and so are there ways that we can shift it to be a better representative of Hawaiians in discussions with the rest of America? To be if it's a government representative, whatever. And so trying to find new technical mechanisms to allow you to have systems that are actual representatives of you, I think is critical as we guess. 
+
+Speaker F: The question, though, is we didn't really start thinking about a plurality of guardrails for different contexts, cultures and places. And so that seems very important, whether the idea is to have one regime which is sort of governed by a central body or one that's disaggregated and decentralized.
+
+Speaker C: Okay, so we are at I'm seeing people get up. Thank you all for coming. Appreciated your time and participation. 
+
+Speaker H: Is there a way for us to stay in contact?
+
+Speaker C: We have been thinking about we created a discord community early on. No one really used that. 
+
+Speaker I: Do you want to stop recording?
+
+Speaker C: Oh, sure.

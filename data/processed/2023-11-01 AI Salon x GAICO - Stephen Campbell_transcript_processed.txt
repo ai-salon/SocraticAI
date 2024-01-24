@@ -1,0 +1,271 @@
+ Here is the edited conversation transcript with filler content removed:
+
+Speaker A: We're live. Let's do it.
+Speaker B: I wanted to bring up a point about education. I classify two kinds - learned from experiences versus resources. So how does AI affect learning from experiences? That's often harder to obtain. Can great teaching be an experience? I think it is. But it's said the world is the best teacher - things humans can't teach.  
+
+Speaker A: You're distinguishing between tactile skills and book knowledge. AI impacts learning by doing, like direct marketing - no professor teaches that. So both one-on-one tutoring and classroom learning matter for creativity and innovation.
+
+Speaker C: With hardware, machines can see infrared and ultraviolet - not our spectrum. So there are implications in art too. Intentionally developing human-level AI could be a better partner than superhuman AI.  
+
+Speaker D: My AI startup creates human-biased AI.
+
+Speaker A: Interesting point on AI biases and creativity.
+
+Speaker C: What's worth learning in the age of generative AI? Before, you'd need a physics PhD to contribute to fusion. But now you could just query agents trained on textbooks and get multimodal feedback as you build. So what's worth learning or doing for creativity?
+
+Speaker A: Humanity in innovation is key.
+ Here is the edited transcript with filler content removed:
+
+Speaker C: I think that's a really interesting point. This guy I met at university never coded in his life. He coded a little bit. I've been coding since I was twelve, so I've become a really good coder. In the space of three months, using Chat GPT, this guy was writing better programs that I've ever written just by prompting GPT really, really well and making this meticulously crafted prompt. I realized this guy just outpaced me in three months. 
+
+Speaker A: Was he able to scope down problems and create different functions or parts of the algorithm? Or was it like architecting? There's a larger meta.
+
+Speaker C: Honestly, I think it's a bit of a pride thing. I think programmers take a lot of pride in your code and you never want to look up how to do something. You want to code it all yourself. Whereas with Chat GPT you wouldn't mind just asking it to write everything out quickly. I think the skill worth learning is learning how to work with GPT because then you can move much faster.
+
+Speaker B: I would want to teach my child how to work with these AI systems.
+
+Speaker C: With these AI systems.
+
+Speaker D: Can I ask - would you think that same dynamic applies to painting or photography? 
+
+Speaker A: Did you guys see that in the back? Can you repeat the question?
+
+Speaker D: That dynamic they just described, would you think that applies to painting, photography, music?
+
+Speaker C: Not yet. With vision GPT and multimodal models coming, imagine chat GPT on your camera. You could ask to capture the most captivating moment and it could guide your hardware. So eventually you'll have on device guidance. From a photographer standpoint, part of gaining skill is repetition - number of photos taken and shared - that could be condensed into just capturing the moment.
+
+Speaker D: When I'm painting and I like what turned out, I am shut off from technology. I struggle to interact with AI.
+
+Speaker A: It depends on the feedback. Feedback is valuable to build skill by figuring out if you're doing the right thing. But once you have the skill set, you're just applying it. 
+
+Speaker C: You could give the AI different personalities - an assistant, a critique personality trained on more data than one professor over many years and students and genres. Give it an objective function - I want to present at a professional gallery. It's doing what an art teacher would, just with more data.
+
+Speaker D: That's what we're building - synthetic responses. Just not close yet. 
+
+Speaker A: I'm curious how to imagine the AI's role.
+
+Speaker C: Seems pretty clear - like a virtual critic.
+ Here is the edited transcript with filler content removed:
+
+Speaker D: I think more philosophical debate that we have at where I work and I have with other artists sometimes, is, does AI have to be able to build a nation to be truly human, or to even be like, a superhuman AI? There are so many ethical considerations around intentionally creating an AI that, because I feel like a missing piece of the puzzle when you think about AI and art is the emotional reaction to an art piece is so integral to what we're doing.  
+
+Speaker B: So is AI going to have the...
+
+Speaker A: Would it be beneficial to separate into two smaller groups of five or six?
+
+Speaker C: Yeah, that works better. 
+
+Speaker A: We could also take, like, an intermission at some point too, I'm sure. We have enough chairs here. We could form these chairs on a group. Let's divide it in the middle. 
+
+Speaker A: Let's migrate over here. All right, you come with us. You come with us.  
+
+Speaker A: It's fairly unacoustically optimized.
+
+Speaker D: Sorry.
+
+Speaker A: Like, shut up. Wait, who was recording?
+
+Speaker C: Is it you?
+
+Speaker A: Yeah, I'm still recording. Here we go. Let me get this signed. Nine A and nine B. All right.
+
+Speaker C: It's similar, the icebreaker, being outdoors. I climbed up a hill today. It was really... 
+
+Speaker A: Did you mission up in mission?
+
+Speaker C: Yeah. Mission Peak.
+
+Speaker A: Should we do a little round of introduction? I was going to say I showed...
+
+Speaker C: Up a little late here, by the way. 
+
+Speaker A: Oh, my goodness. That is just incredible.
+
+Speaker C: Yeah. Really, really good. Never seen anything like it before. Nice.
+
+Speaker A: Well, yeah, let's do, like, a quick round of intros and then get back into it. You want to start us off, Brandon?
+
+Speaker C: I'm Brandon. Nice to meet you. I'm staying at 24th Street Mission. I'm only here for three months on Esther, my co founder, and I were trying to raise out here. And if that goes well, then we'll get a visa. We'll stay here for long. We're working on trying to make the world's best teacher to turn your kids into the generation's next.
+
+Speaker A: And you and Sherry are...
+
+Speaker D: Sherry? Yes, Sherry. I'm a photographer, actually. Photographer. So creative aspect of it. And talking about the sky earlier, the great view of Jeff was magnificent, wasn't it?
+
+Speaker C: Yes. Magical.
+
+Speaker D: Creative world is going to go so I can follow it and roll with it instead of not important.
+
+Speaker C: I'm Joshua. I'm here studying engineering management. Has a background, computer engineering. Generally interested in the hardware, but here with AI kind of connects to. Since I kind of continue to use it for ever more things in my day to day, I'm kind of wondering on also talking with the photography where to balance basically being authentic and human and building real results and kind of. I'm much more sympathizing with the view of seeing AI as a tool. Contrary to kind of completely merging it and striking the balance between fine tuning, let's say, language models, but still kind of where is. How do we navigate being authentic human while leveraging the powers of AI. And using that power.
+
+Speaker A: Where did you say you were?
+
+Speaker C: Southea Itu University.
+
+Speaker D: Hi, everyone. My name is Devanshu Brahmbat. I'm doing my master's in University of Texas, but I'm also doing my thesis in the Lawrence Berkeley National Lab. So I'm staying in Berkeley, and I'm doing my thesis there.
+
+Speaker A: What's your thesis on?
+
+Speaker B: My thesis is on the data storage and visualization platform for quantum computers. I'm into that. And recently I founded a company called PaperToCL, where we are aiming to explain research paper using AI power generate explanation. So our goal is to anyone on the planet Earth, you can easily find the research, understand the research, and apply the research in the real world. And that's the thing I'm doing.
+ Here is the edited transcript with filler content removed:
+
+Speaker A: I'm Pierce. I co-founded the Gen AI Collective. I'm in a restaurant, FPV, from Series A, Series B. My whole life revolves around AI. My interests really lie in how AI can augment exponentially more complex systems we've built - whether it's software using code generation or drug discovery or social connection. 
+
+Speaker B: I'm Stephen with the collective as well. I have a startup called Revamp doing marketing automation with AI. It's been interesting to see how quickly people can learn new skills through AI.
+
+Speaker D: I'm Susanna, co-founder of Subconscious where we create well-designed experiments and synthetic respondents representing humans, not superhumans. There are applications like predicting the voting preferences of non-voters. I'm also an artist at Lucid Dreamwalls. I find the intersection of AI and art interesting as a traditional oil painter.
+
+Speaker A: Have you played with Midjourney? 
+
+Speaker D: Some of my friends do AI art. My art is traditional in media, not subject.
+
+Speaker B: I think imagination and creativity are coupled. AI is great for learning but can restrict imagination because I can instantly get anything like a poem from GPT. Can we use AI to increase rather than restrict imagination?
+
+Speaker D: I have friends who weren't artists but now call themselves that after using AI. It took me years to become an artist. But they're contributing to the arts community, getting people involved, so it's good more people are creative even if it hurts my pride. Their art has improved. 
+
+Speaker C: Are they an artist or just a prompt engineer?
+
+Speaker A: Every major technological shift lowers barriers to entry. It seems odd at first but people learn over time.
+
+Speaker D: Their art has improved, but...
+
+Speaker C: Are they an artist or just a prompt engineer?
+
+Speaker A: Good question.
+ Here is the edited version of the conversation with the filler content removed:
+
+Speaker D: With this context, I'm more comfortable calling them an artist, not because of the quality of their art, but because they've used it to put resources into putting on shows, getting more people involved in the art world. The shows they put on are incredibly well done, and that is their artwork. Lowering barriers to entry is always good. I could see AI making it easy for someone to do art who never had the opportunity before. It turns out they're a great artist. 
+
+Speaker A: What do you think? Part of what I took from your pitch is finding hidden talent.
+
+Speaker C: I'm not an artist, so I can't say much, but with paintings you don't need to paint nowadays. You could use a tablet. But people still paint, and there's value in that. Part of what makes art good is you spend a long time on it, although that's not entirely true. 
+
+Speaker D: I don't disagree. Another thing that makes art good is you put so much personal information into it. AI doesn't have that experience yet. 3D art is interesting, but I love paintings. After studying Van Gogh, seeing them in person, you can feel the thick brushstrokes, the emotion and thickness of the paint. AI might recreate the look, but not the feeling. 
+
+Speaker C: In person.
+
+Speaker D: There's a study showing when people see the texture in a painting, they recreate the painter making it in their heads. That generates emotional reactions. I learned this when I met a woman who started an AI company using robots trained to create large scale paintings collaborating with artists, so more people can afford semi-original works. It retains the human element of the art process and textures you can't get in AI. 
+
+Speaker C: What's the name?
+
+Speaker D: Acrylic robotics. The robot mimics the painter's style. 
+
+Speaker B: The robot mimics the paint strokes.  
+
+Speaker D: I want to try it as an artist to put in the technical inputs. 
+
+Speaker A: Good question.
+
+Speaker D: Right now they use Adobe InDesign and a tablet to mimic you. Another coming up will have cameras so you're not constrained to one medium. Right now just acrylic. But for other mediums it will be more complicated, like oil painting. I'm definitely going to try that.
+ Here is the edited version of the conversation:
+
+Speaker C: With art photography, delivering something authentic is most helpful. Painting and oil takes a lot of nuance and experience. In early stages of learning skills, there's a lot of tricks, like with perspective, that without guidance, take a lot of trial and error. I feel technology and tools can fast pace learning these skills, not by just generating and replicating style, but by better learning the skill itself. That connects to your theme - it's still a medium if you want to keep it authentic. How can we use guidance and tools to actually train us to be better?
+
+Speaker D: I learned in group settings with other artists. You would learn almost as much from the other artists for a number of reasons. I had art teachers that influenced me greatly, but that didn't happen in isolation. 
+
+Speaker C: With art, there isn't really a right or wrong. If you have a tutor trying to teach kids modular arithmetic in a Socratic way, and a bright kid explains it first, that spoils it for the other kids because they didn't discover it themselves. When you figure it out on your own, that intuition is stronger than just hearing someone else explain it. I think that's different with knowledge-based things that have right and wrong answers.
+
+Speaker A: How did we get on that? 
+
+Speaker C: We're talking about art. She said you learn just as much from others as your tutor. I argued that's true with art, but with science and other objective topics, it's better to have a one-on-one tutor so others don't spoil the answer. 
+
+Speaker A: Do you think this applies to other fields as well?
+
+Speaker D: An interesting field between art and science is politics and debating, where there aren't always right answers. 
+
+Speaker C: I don't like politics, it always seems a massive mess. 
+
+Speaker D: But learning history and politics while growing up is valuable. 
+
+Speaker C: Yes, just taking it as an example.
+
+Speaker A: Carry on the discussion.
+
+Speaker B: The new education has to be AI compatible - the proportion of machine learning exposure at certain ages. If a smarter student gives me all the answers I'm looking for, I'll never explore apart from that question. I only see what's directly presented, not other approaches. Doing trial and error myself, I get experience and learn techniques to find answers if somebody's not there to help. Education should expose students to more AI as they advance in age.
+ Here is the edited transcript with filler content removed:
+
+Speaker D: I think there's a place for creativity and science.
+
+Speaker C: You just need a better prompt. The standard GPT is super clinical. But if you change the prompt well enough and guide it in a certain direction, then it's a lot better. 
+
+Speaker D: Let's go down the rabbit hole and see.
+
+Speaker B: Can AI be my co-founder?
+
+Speaker D: That's not what I'm saying. I'm saying, can AI be like my co-scientist?
+
+Speaker C: You invest in me as co-founder, 50% equity. 
+
+Speaker D: Is it really interesting legally?
+
+Speaker A: That could be a clever way to keep your cat accountable.
+
+Speaker D: I used to be a lawyer.
+
+Speaker B: The time will come that AI can have emotions and human instincts. Then it can be a co-founder. 
+
+Speaker C: Humans can handle higher complexities than current AI.
+
+Speaker A: This is similar to previous paradigm shifts like the internet and mobile. No one could have predicted the novel creations those enabled. AI will do the same, producing more and better art even if aided by prompting. 
+
+Speaker B: Interesting to me. 
+
+Speaker D: I fundamentally disagree with that analysis.
+
+Speaker A: Okay, I'm glad you do.
+ Here is the edited transcript with filler content removed:
+
+Speaker D: Increased complexity in AI does not make art improve. Are AI artists sitting there thinking about memories when they were five years old? Of course not. The AI piece might have weird complexity but it wouldn't have the emotion you see in art from 1000 years ago.
+
+Speaker A: So it's the iterative process. 
+
+Speaker D: It's moving at a human speed that allows unlocking of memory and emotion. Maybe there needs to be a different name for it. I feel like artists who create by hand is different than AI art. AI doesn't have that emotion I'm talking about. 
+
+Speaker B: But they...
+
+Speaker D: I categorize it this way - art that intentionally involves slow hands on process. Their art involves a computer but also hand carved wood pieces connected to it. 
+
+Speaker A: When Photoshop came out, people said Photoshop artists weren't real artists. Today we'd consider them artists. Where do you draw the line between Photoshop artist and AI artist?
+
+Speaker D: I'm not saying AI can't be an artist. I think AI would have to feel emotion in some sense to be a human artist. I just think AI art is not the same.
+
+Speaker A: Being a better programmer doesn't necessarily make you a better artist, that makes sense.
+
+Speaker C: Have you tried replicating your art with AI? How do you feel about that? I use AI to increase productivity - for emails, reports, etc. The end result is better sometimes. But I have to refine it - remove over the top phrases, generic stuff. It's an iterative process but faster with AI. But would I have written that? It makes me wonder if people can tell I didn't write it myself. 
+
+Speaker D: It's easy to tell with intern applications which ones used AI.
+
+Speaker C: We have assignments using AI to become literate with it. That makes sense to have the positive without the negative. But people notice it. How do you navigate this?
+ Here is the edited transcript with fluff removed:
+
+Speaker D: AI has its own voice. Using AI makes that voice standardized, like taking on a voice that's not yours. There is a way to make AI allow us to keep our individual voices, understand each other better, speed up communication within community and as individuals. There is a deeply human dream of people from different backgrounds and languages communicating seamlessly. AI can accelerate that. But there's a vision where AI takes over diverse languages. Ideally AI is a conduit for human energy and diversity, not merging in a way that doesn't retain wonder. 
+
+I have a burning question - what's real anymore in creativity and journalism? Because AI can create anything, make it look realistic. So what do we believe? Where do we find truth? Where are AIs learning from each other? What's the source? What pictures of war are real? 
+
+Speaker A: That's a great question.
+
+Speaker D: Is there a way to ethically...?
+
+Speaker B: There are two discussions we can draw from that. One - what is real? We can manipulate reality with apps. We can change pictures - that's one issue. And what if AI learns from itself, how far can it go? I think both are concerning questions. The second is more that if AI starts learning from itself and we lose control, it's fine till we have control. But if we lose control and AI surpasses human intelligence, we have a real problem because we built something more evolved that can trick us without us realizing. So control of AI should be there initially until we fully understand how far it can go. Then we can develop software to identify if something is AI generated - that could be a solution. 
+
+Speaker D: Would there need to be a watermark or something legally for everything created by AI?
+
+Speaker C: OpenAI and others signed something recently about making a digital watermark. But some say it's another way for them to control the whole system - they watermark everything so it's known they created it. For a long time Sam Altman said we need legislation and restrictions on AI - none of you should make AI, it's important we control it. So some think that before GP4 he purposefully acted worried about releasing it, but wanted to be the big dogs controlling it all along. And with the watermarks it's another way for them to control the system.
+
+Speaker B: It's technologically really hard to detect what's from GPT versus human written. Some argue you can distinguish between human and AI writing, but eventually there may not be patterns you can identify.
+
+Speaker D: I was thinking of a watermark from the creator to identify it's AI, not as a control thing.
+
+Speaker C: Yeah exactly.
+ Here is an edited version of the conversation transcript with filler content removed:
+
+Speaker C: A friend trained a language model on her journal to have her authentic writing style. The more data you feed it of your previous work, the more authentic future generated work. 
+
+Speaker D: You can fine tune it because it learns from my songs. How do you input?
+
+Speaker C: You can fine tune a model with openAI APIs. People have smaller models to fine tune too. 
+
+Speaker D: Her personal software?
+
+Speaker C: Was it with llama or Facebook's model you can run locally? Llama is what Facebook has - Laura, based on his sister. Fine tune the model. She fine tuned her journal to write like her.
+
+Speaker A: Sorry.

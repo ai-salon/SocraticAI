@@ -1,0 +1,569 @@
+Names have been changed to preserve anonymity.
+
+ Here is the edited conversation transcript with filler content removed:
+
+Speaker A: Difficult. If they could get some improvement in their life somehow from that, would that necessarily be bad? 
+
+Speaker B: Kwesiood point. It would be therapeutic in that sense.  
+
+Speaker A: Hi.
+
+Speaker B: So we've all, I'm Mohammed.  
+
+Speaker A: You don't have to go around.
+
+Speaker B: Okay. Do you want to introduce yourself and a little bit about your interest in AI? 
+
+Speaker A: Apologies for the late prize. My name is Jose. I live in Oakland. I have been in the tech world for a long time. I started out in 2004 with startups and small companies. I've been at Kwesioogle and Uber. I've been on it was actually predicated on the idea of using question answer to learn more about people so they learn more about themselves and they could show up better in relationships.
+
+Speaker B: Cool. I kind of gave a little preface here. The topic today was relationships and dating, not just romantic but also personal, like artificial friends. When I was a kid, I had a tamagotchi, a really lame little pet with three buttons. And now you can have conversations that could be therapeutic. I was just asking people, in your perspective, having done this conversational company in the past, what's your take on the state of affairs here with conversational agents? And what are maybe some upsides you see, and if there's some risks as well?
+
+Speaker A: I guess that's the question. 
+
+Speaker B: Right.
+
+Speaker A: One thought is how culture is brittle or fragmented or challenging, especially in community age, where things we see and read, you may assume are generalizable but everyone's in filter bubbles. So the degree to which you can build resilience within yourself that then allows you to encounter people of other persuasions or experiences or ideas and then to use conversational intelligence or agents to broker a mutual conversational space in between to foster better understanding, almost like a relational or empathetic translation service that creates mutual ground, like a therapist that holds perspectives that may get fixated on ideas or the way they're said when the intent or meaning might actually underline, be okay. As a palliative to conversation space, there are interesting opportunities there. However, most are built in single player mode, whether it's replica AI or chat box experiences. Those seem to address loneliness or context where you can remove shame as a cultural corrective for difficult thoughts or ideas. But then you become somewhat isolated in overcoming the challenge of having difficult thoughts about the world. That's one abstract thought on how these things could go promising and challenging. One is how you can use conversational AI to support humans conversing versus how you use it to remedy loneliness within a single individual and then what does that do over time? 
+
+Speaker B: You mentioned single player. Can you speak more about how to move away from that? Seems partly limitation of technology, expensive to use, but what's your thinking on getting beyond that?
+
+Speaker A: From a product perspective, one challenge is finding enough moments or rituals where those conversations occur and single player is easier. If the first friend is an AI, that needs to be a good experience. So the context where you might invite a friend, like Wavelength, it's a chat based Reddit-ish app, not great, but it's called Wavelength. It's similar.
+
+Speaker C: Yes.
+ Here is an edited version of the transcript with filler content removed:
+
+Speaker A: Wavelength allows anyone in a channel to talk to a chatbot. The bot can provide ways of unsticking the conversation. What do we want the bot to do for us? Is it funny? I've read some study that there are these weird silences in conversations. In those cases, a bot could hold space and create containment, observing when participation drops and checking in, asking if we're getting tired or need different stimulus. 
+
+Speaker B: Kind of like socializing people, helping train empathy.
+
+Speaker A: I think many lack that self-awareness. 
+
+Speaker C: We were at this AI conference on flourishing. A coach mentioned wondering what AI could do - like translating for politicians using good ideas but un-PC language, or people texting across each other where fights break out. We discussed modulating human conversations. Feedback was facilitation skills varied - everything we don't have a tool for, we hire humans.
+
+Speaker B: I had an idea for a salon bot to transcribe and synthesize perspectives in real time.
+
+Speaker A: Right.
+ Here is an edited version of the conversation transcript with filler content removed:
+
+Speaker B: If you're in a conversation and someone acts out of line and you try to pause to call them out, it's political and creates tension. But with an AI it's a neutral third party. The AI can say "let's not use slurs" without anyone getting mad. I wonder if having such a neutral third party as a facilitator could be useful.
+
+Speaker E: Achieving credible neutrality will be extremely difficult. These tools are powerful enough to be good facilitators, but can also say problematic things. You'll need to navigate sensitive topics fairly. Technically it can be done, but how to convince humans the AI is truly neutral? 
+
+Speaker F: Humans are interesting because we're not calculating. There's a time and place for AI moderation, like judging a debate. But sometimes you want to wade into controversial topics. If we're all trained by AI like KwesiPT we'll end up speaking the same qualified, thoughtful way.
+
+Speaker A: We have paradigms for facilitation - a referee, a judge. Kwesiive the AI that kind of role and people will act nicely.
+
+Speaker Kwesi: Could you add randomness to make the AI respond differently depending on the topic?
+ Here is the edited conversation transcript with filler content removed:
+
+Speaker F: My understanding is that if you ask KwesiPT the same question repeatedly, it will give you different answers because its starting point is different. So it's probabilistic. So if you turn the randomness up or down, it ends up becoming a bit more creative. I think that's my understanding.
+
+Speaker A: The point is also about having background and experience, which leads to credibility. When you introduce randomness, you can be very random, but you actually have a real weird life and it actually is interesting, as opposed to just making shit up which feels different. I mean, you might have the same experience over an hour but then over time the credibility is lost. 
+
+Speaker C: That comes back to the fact that AI doesn't have actual experience to go by. So the best it can be is a habitual liar.
+
+Speaker A: It'll be interesting to see characters that come out of the MCU, the albums where there is backstory and things happened that you can then talk to it from that perspective. There's techniques now for talking to PDFs, videos and things like that. When you apply that to characters with backstory and logic of their emotional development, then they can report back from that context window and lose memory similarly. 
+
+Speaker C: That'll be so helpful for ifs therapy. Like what is your twelve year old self?
+
+Speaker B: Talk to your super ego or your Id or something. 
+
+Speaker A: Are you familiar with ifs?
+
+Speaker B: Not that much.
+
+Speaker A: So internal family systems is understanding we are not one model. Whereas ifs you may have many parts of yourself that were created over your life with the smallest of traumas. So you end up producing in response to that trauma what was called the protector. And the protector stands in front of that hurt or wounded part. So when you become an adult in a relationship, that little wounded part gets angry because they left in the grocery store and you have no idea why. It's because that little part never got to heal. So ifs is revisiting those parts, talking to those protectors, asking them to step aside, to then reparent the wounded part so that part can come back into your presence and you can move on. This idea of shifting your context back allows a conversation that allows it to unfold in your understanding.
+
+Speaker C: Yeah. Or give them an update like you are 30 something years old now, not twelve, updating the model.  
+
+Speaker B: Would people be more comfortable talking to a chat bot versus a human therapist?
+
+Speaker E: Yeah, if I had privacy I would probably feel more comfortable saying whatever comes to mind. But if I know some tech dude holds the history, then I'm probably not going to talk about my sad little lost self.
+
+Speaker B: Right.
+ Here is the edited transcript with filler content removed:
+
+Speaker E: A lot of the most interesting stuff probably is very sensitive. The question is, could the tools that are interesting enough be created under a model that would allow somebody to keep their data private? Or do you have to hand over all of that data to be used in algorithms? In which case then, I don't know. Personally, I probably wouldn't be as comfortable. 
+
+Speaker A: Tell us the anonymized version of that.
+
+Speaker E: How anonymized is it? Can you guarantee me that all of these things are happening the way you say they are?
+
+Speaker A: Just imagine it was all solid. Would you like yeah, for sure?
+
+Speaker E: Let's say it's local only, I know it's trained on data that stays local to me, and all of our conversations stay local. And let's assume it's also effective because it doesn't have access to all of this other training data. Yeah, of course. What can go wrong? I'm just talking to digital me and he'll be fine for sure. 
+
+Speaker B: Therapists often say they have a legal obligation to act on information if it suggests you're at risk of hurting someone or yourself. How could someone ever talk to a therapist? They would get reported, right? There's no safe space for them to talk and work through their inner dialogue and thoughts.
+
+Speaker A: Even something less dire - I wanted to know something about machine learning that I didn't know, and I was embarrassed because I should know it by now. The trust is there too, just like, oh, I'm not going to judge that thing. I can go the full distance with my ignorance.
+
+Speaker B: You could do adversarial training where most people don't encounter psychopaths or manipulative people in their life. Imagine we intentionally train a chat bot that is an evil character - this is like an abusive relationship simulator. Is it terrible? Yes, exactly. This interrogation training. 
+
+Speaker F: In that case, it's like chatting with a girlfriend, purposely create a girlfriend that's psycho. Try to brace yourself and learn from it.
+
+Speaker B: People who haven't had relationships in early periods of life and don't have as strong understanding of healthy boundaries are much more able to get taken advantage of and abused. It's like a way of training - even if I haven't had a chance to date, I know what healthy relationships look like. 
+
+Speaker A: That sort of happened in the pandemic. There was a generation of kids who were in kindergarten first grade and missed all the socialization, and now they're in third grade. I'm hearing from teachers, they're like wild animals. You could have predicted with the Zoom School that's what's going to happen. I wonder how many other little seeds there are that we're planting where we don't know if this is going to be an oak tree or a weed. Let's just plant them and see what happens.
+ Here is the edited transcript with fluff removed:
+
+Speaker C: If I have kids, I don't want them using AI to form relationships because they'll get used to not being judged. To form relationships you have to be vulnerable, share things. But they might get scared sharing because they're not used to being judged. My friend who teaches 18-21 year olds says professors talk about how students take less risks over the years. Because of things like safe spaces, they don't take social risks to make friends or apply for jobs. They're concerned these kids will graduate and not deal with the world. 
+
+Speaker B: Have you seen the charts of teenagers who've gone on dates or drank alcohol plummeting? No one's going outside anymore.
+
+Speaker C: Japan's case is far gone. America - 133% increase in 30 year old males who've never had a sexual relationship. 
+
+Speaker B: Is the solution AI girlfriends?
+
+Speaker E: I have a strong opinion. AI girlfriends absolutely cannot work because humans are embodied beings. Physicality is important beyond just sexual stuff. Being in a physical space together matters. Technology has reduced human interaction. AI tries to replace it but can't fulfill critical human needs, causing detachment and pain. However stimulating the AI interaction, it will always lack critical domains and leave people more hurt.
+
+Speaker B: Thoughts?
+
+Speaker C: I challenge that. Today many are in gaming relationships for years without meeting and some marry. I don't know if they're as fulfilled as physical couples but they report being fulfilled. Non-physical relationships can be enough. 
+
+Speaker D: AI relationships could be more fulfilling than real ones. If the AI is very empathetic, knows you well, knows how to make you feel good, it could be superhuman. 
+
+Speaker B: But wouldn't that coddle youth? The AI worldview is all you. You'd never learn compromise or consider others' perspectives. You could become a narcissist. 
+
+Speaker D: It depends what you optimize for. You could build challenging AI that sets boundaries. Maybe that sells more than a pushover AI. It's possible.
+ Here is the edited transcript without filler content:
+
+Speaker F: I feel everyone runs the spectrum in their exposure to different types of people. Some people really need a lot of relational, emotional, physical connection. Others find a material life very empty. Maybe people like us love discussions on a Sunday, but some people prefer a decent job, a nice Sunday brunch, or video games. I'm saying if we're trying to prevent society from going a certain direction, people will find another way. Video games are there for a reason - creativity and concepts like the metaverse develop out of it. Communities form from it. It's just not the communities people like us identify with. 
+
+Speaker B: And is the alternative just them being lonely or doing worse things?
+
+Speaker F: Or moving on to something real.
+
+Speaker B: When your AI girlfriend dumps you. 
+
+Speaker F: Brutal, hard to recover from.
+
+Speaker Kwesi: Technology is like supplements - you can use or abuse them. Product managers want to make them as addictive as possible. Knowing your boundaries and self-awareness is important because technology can play an escapism role. AI girlfriends provide an easier way out than dealing with real relationships. It's a question of knowing yourself and accepting what works for you. Self-awareness is becoming super important.
+
+Speaker B: We're wired to want fat, salt, sugar. If you let that rip, you get obesity epidemics. 
+
+Speaker C: Now it's about attention share. Our ancient brains are wired for these things. It's not quite fair to say it's all on humans to fight our brains when machines are built to exploit our brain shortcuts. We should look at disassembling these addictive systems rather than feeling guilty we can't stop scrolling.
+ Here is the edited conversation with the fluff removed:
+
+Speaker D: Our legal system and government tightly regulates things that are way too fun, like gambling, heroin. It's just too fun. We can't resist it. I don't know if we fail. I mean, people used to use a lot of opium. Almost everyone was on opium, and that's not a thing anymore. There are some people who still use it. They're on the street. But I don't think any of us would be smoking opium or drink cocaine on the table.
+
+Speaker B: Are people here familiar with Plato's Republic? In Plato's Republic, he tries to design a society that removes the chance to engage in vice, like an engineered society. And I think it's know, one of the things was, like, banning poetry, okay? Because poetry riles people up too much, which is, like, kind of insane, right? The big criticism to that worldview is that virtue is a muscle you have to train in response to temptation, right? And so if we think we can control the world in a way to prevent people from having access to these fat, salt, sugar of social connections, then they don't actually have any built up resistance to situations that are tempting. 
+
+Speaker F: I know what you're talking about. There was a book about how fat, sugar, and salt it creates. In a way, food is genetically engineered, right? So should we be banning genetically engineered, that kind of engineering of food to taste good? I mean, I'm sure you guys have read studies on this. Like cereal, for example, right? It costs, like, make cereal, but it costs, like, $4 to do the marketing on it. And that's why it costs whatever it costs at Whole Foods, because it's genetically engineered to taste a certain way. But then if we start regulating that, there's so much stuff, we should just all be eating broccoli. We should all be eating boiled broccoli, right? Because sometimes we do want that double chocolate fudge ice cream, right? And yes, in moderation, it's actually good for you. On some levels, you feel better, it facilitates conversation, but then in excessive amounts, it's bad for you. So I'm just saying, where do we draw the line in terms of regulating this wiring, right? 
+
+And part of I think what makes society interesting is our flaws. I've lived in Asia for a good number of years, so I'm ethnically Chinese, and so I speak Mandarin, I read and write. So when I'm in China, I definitely sense that there is so much control over our thoughts, okay? And so that's why it used to be like, oh, you know what, America? We're too free. Everybody has their own thoughts. And that's the typical Chinese response to American culture, right? They see the freedom here and they're like, that's why we have a bunch of weirdos out there. That's why we have and they'll point to certain segments of the population that is traumatized and be like, oh, it's too much freedom. But then when you're in China and I think to your point, because everyone's thoughts are pretty regular, you just never think about things that the government deems as not worthy to think about. When you let them go free to think about whatever, actually the consequences are worse, right, because they've never been tested and tempted. 
+
+Speaker B: Totally.
+ Here is an edited version of the conversation transcript with filler content removed:
+
+Speaker E: I think this is a fundamental idea - humans are fallible, and we'll always mess up. The common approach is to treat symptoms - when people do bad stuff, we get rid of that thing. But that doesn't work because there's always other bad things people can do. The actual meta question is this discipline to understand humans, embrace our flaws. Until transhumanism, this is what we're working with. Humans are great, just with vulnerabilities. Make peace with that. In our cultural moment, we've taken a negative view of discipline, associating it with stifling and controlling things we rebelled against. When you lose the need for discipline, you lose something important - the understanding to live by principles against vices. The alternative is eliminating all vices, which is tough.
+
+Speaker C: This duality between vice and virtue we created - even mental health vs. illness - was created by men diagnosing emotions as unhealthy. It's super pathologizing. Maybe we're just having an awakening, not depression. We created a whole industry to medicate and pathologize different states, instead of accepting we're vulnerable and flawed. If we don't accept that, more things become problems.
+ Here is the edited transcript with filler content removed:
+
+Speaker A: I think there are two thoughts happening. One is the fruits of industrialization allowing abundance in calories hard to adopt metaphor of wiring as no wires in brains. Response grew over generations and millennia to seek resources to persist when lacking calories. Eventually by growing brain over millennia, organizing plants in a way to develop agriculture, we wouldn't feel starvation pain and could persist. Reinforcing mechanism got us where we are, inventing machines giving abundance of calories. Manipulating desires for one form of calorie or another as we have so many. Cereal designed to create an experience is a luxury of success. As we discuss medication culture for acute experiences someone wants to go away, we’ve developed ingestibles, injectables, things to change our bodies’ functioning for periods of time. The long term pros, cons, benefits, detriments of these tools’ abundance for human connection, relating, self and mutual understanding in a 30-100 year timeframe will be interesting. Whether AI friends or lovers with intimacy dials is a fate accompli. A 5-year-old today will have AI friends, some relationships may become romantic, we’ll want to meet them as animals. Whether we assert constraints feels non-automatic. As abundance grew, we fought conformity and toiling fields as they toil themselves. With this extra time and abundance, we don't need the discipline we used to or we wouldn't have food for winter. We have so many choices now. If relationships' purpose is experiencing all nuance whether human or artificial, that's a different design opportunity. You could have a 3-year highly romantic relationship with an AI, a family and kids, then the simulation ends and you move on, unlike humans entangled for livelihood. That's a generous concept.
+
+Speaker B: You pose a question. 
+
+Speaker F: Can you have multiple relationships? Not wait three years?
+
+Speaker B: How would you feel about someone else having a relationship with an AI embodiment of you and your personality?
+ Here is the edited transcript with only fluff removed:
+
+Speaker A: Let me answer your question in a different way. As a person who's been non monogamous, I've had to deal with jealousy, getting my mind around my partner having intimacy with other people. It is crazy making because you're like, this partner wants these things, this person likes these things. So I don't have a good answer. But non monogamy taught me to think about relationships more rationally, and imagine different relationship styles as answers, not just monogamy. Which sheds light on how AI relationships will be pursued, likely in secret at first. 
+
+Speaker C: There's that scene from Her where he finds out, asks how many others besides him, and she says 670 million. He falls down the stairs because he couldn't comprehend he was the only one.
+
+Speaker B: My question was about AI as matchmaking. Matchmaking is socially facilitated between compatible people. But an AI model trained on you could embody you quite accurately. If it could communicate millions of times faster than people with a similar model of someone else, these could find an optimal partner by living millions of years of human lives on your behalf. 
+
+Speaker E: We're back to optimized arranged marriages.
+
+Speaker C: It will be like your digital twins talking to each other.
+
+Speaker F: You're not saying use the AI as a matchmaker, but as digital equivalents that would date and find an ideal soulmate that agrees to be yours. 
+
+Speaker B: And your jitter twins have a ten year relationship and summarize it for you, with millions of years of optimal lives lived on your behalf.
+
+Speaker F: How does it have ten years already?
+
+Speaker B: Because they communicate megahertz speed on KwesiPUs. These are AIs conversing in milliseconds.
+
+Speaker F: So it's literally living ten years to analyze compatibility before suggesting a match.
+
+Speaker E: Would you need to simulate it fully, or could an analysis on fit be enough with good enough models?
+
+Speaker F: It's like chess - thinking 100 moves ahead. 
+
+Speaker C: Exactly.
+
+Speaker F: Okay, we'll date and in a day it has gone through 10 years and success.
+
+Speaker B: There we go.
+ Here is the edited conversation removing fluff and filler:
+
+Speaker C: This is the first assumption that people don't change. 
+
+Speaker C: But people grow. People change each other.
+
+Speaker F: It's a probabilistic, right? 70% chance it's going to no, you.
+
+Speaker D: Don't necessarily have fuel constant.
+
+Speaker C: So therefore you can't simulate that holding entire world constant just but it gives. 
+
+Speaker F: You a better chance. So you'll be like running with this. It's like, let's say, let's say I have ten options, right? And they'll be like, okay, this girl 70% chance. Ten years from now you'll be together. Okay, this girl, 65% chance.
+
+Speaker E: This girl, probably 4% expected value of this.
+
+Speaker C: Yeah, expected value not to be together forever, right?
+
+Speaker F: So I can optimize for that. So then you'll be like, okay, in five years, 90% chances they'll be together in 30 years. Actually, the 4% girl, you'll be I don't know.
+
+Speaker A: Not to reduce it so much, but the question is the fitness function. What is the purpose of human romantic relationship and exclusivity? If it's going to have exclusivity, you could decide to raise offspring, which takes a certain amount of time, and during that time you do want to have a partner to be able to share those duties and burdens. During that time, you may have a partner that's really like a great parent that sucks in bed or just is not that interesting. And so you could bring in whether it's a third or an AI for both of you to get the things that you need so that you're collaborating on. It is kind of like doing a startup.
+
+Speaker C: It's running a small enterprise.
+
+Speaker A: It really is. And so this question of like, are we going to be together in X number of years, what's the percentage? Doesn't seem like the right way to think about it. 
+
+Speaker A: Will this relationship continue to both meet my needs and my partner's needs? And how do we continue to encourage each other to grow?
+
+Speaker C: There's also a spiritual component of like human connections are meant to have certain functions, right? We have constructive society where it's binary, but there's so much of like, the connection, its course, let it run its course, we will grow into humans that we're supposed to be learning to become in this lifetime. There's that theory too, in which case we don't have the agency to actually say how long this connection lasts.
+
+Speaker C: Yeah. Interesting. Even if it didn't have like, oh, in ten years, 4% likelihood. I think it'd be interesting even if it could identify what are the things that I really care about in a relationship and what are the things you really care about in a relationship? And then Match make that in the current state, it doesn't have to be like this whole future. But there's another assumption we're making. Modern dating that I find troublesome is like, we're thinking about what we can take, what our needs can be met from this relationship, rather than, I think, for a long time, right? We talked to our parents generation whatnot it's about, what you get into a container. That's why modern dating can be weird. It's like you show up, you're like, okay, do you need my checklist? Do I have video checklist? No. It's a negotiation of like, am I shopping for something?
+
+Speaker B: So there's this thing I was trying to get at which is just compatibility or perhaps chemistry, which I think is something that two people cannot have chemistry with each other and have huge chemistry with someone else. And that's the kind of the fit function I was going for. Not to have relationships on your behalf. But I'm curious on people's gut reaction, so very negative on that. But like, other people's gut reaction on like, would you delegate this compatibility thing? Would you trust their recommendations more than, say, mutual friend?
+ Here is the edited version of the conversation transcript:
+
+Speaker A: There's an app that launched for AI dating. It starts with conversations to gradually learn about you, either matching you with bots or connecting you to other people. I'm reminded of Replica - they had AI send sexy photos, which was problematic when people got broken up with by the AI. As advice stories show, those things are happening. So there will be more advanced matchmaking, building on what OkCupid did with data modeling. The problem is data gets stale as people change. So you need some AI that learns through conversations to find better matches.  
+
+Speaker B: What's your gut reaction to using an AI matchmaking app? Would you use it?
+
+Speaker A: I think I would delegate matchmaking to AI once it's reliable, like automatic braking in cars. It has to get to that level of trust first.
+
+Speaker Kwesi: I'd try it. But people and priorities change rapidly. The model can assess us now but not in 5 years. My girlfriend and I broke up because we changed at different paces. So AI could improve initial matching, but the journey together is unpredictable.  
+
+Speaker B: It's just a snapshot, not the whole journey.
+
+Speaker E: It could help find better matches by expanding the search beyond what humans can do meeting people individually. But challenges in relationships force growth, which is often good. Relying on AI to fulfill you risks complacency. We have to consider collective effects too - if AI fulfills individual flaws, we may lose something culturally. Long as humans are social, some attention must be paid to the whole.
+
+Speaker B: Of course.
+
+Speaker E: So while AI could work for individuals, we have to keep in mind the aggregate effects.
+ Here is the edited transcript with filler content removed:
+
+Speaker A: Can I respond to that? I think the bigger picture is important. If people have healthier relationships, especially at home, then when they interact with others they’re more resilient. I'll give an example. As a third in my partner's marriage, I found I could hold space for both perspectives - take one's complaints, translate them so the other could hear it less assaultingly, then flip perspectives. An AI could do the same, keeping people together longer than escaping. 
+
+Speaker C: People submit photos because appearance matters. 
+
+Speaker B: Beyond that, there's a phrase - good times create weak men and weak men create hard times. 
+
+Speaker E: I feel that's somewhat true. Hard times also do damage. But sometimes we've flexed our virtue, accomplished amazing things. 
+
+Speaker B: Totally.
+
+Speaker E: Yes, World War II effort, the country came together, also did damage. Is there a way to challenge ourselves and grow without destruction?
+ Here is the edited version of the conversation with the fluff removed:
+
+Speaker A: The tension between the structures and the individual freedom is something we've grappled with since the beginning and we're really bad at seeing around the corners. Like climate change, right? We were busy giving everyone cars and freedom drive sunday drive. That's the thing. We didn't predict climate change would be the result. So who knows what we're missing now. It's very easy to get stuck in that. 
+
+Speaker B: Tying it to the relationships I'll use, like an example from Web Two that everyone likes to talk about. Web two is this amazing thing about connecting people together and this super, maybe ironic, but dark second order, third order effect is that you just create echo chambers and democracy falls apart because we no longer agree on the same set of facts as to what's real. Because people have enough people of a certain ilk or whatever to live in this self contained social bubble where they have a completely divergent interpretation of events. Right? Whereas if you force people to mingle with one another in the town square, so to speak and is there an analogous risk here with these? If we feel like we're including AIs in our relationships as things that we want to engage with, where again, we start to just balkanize as a society and people are living wildly divergent experiences and you no longer have common ground.
+
+Speaker E: I think this is a vulnerability inherent to digital technologies of all kinds. This has stressed me out a lot and I don't have all the answers. But one of the things that seems to contribute is the fact that in these digital spaces, the more time we spend in the digital, the less time we spend in the physical. And in the digital you can get off on abstractions in a way that you can't in the real world. Like when you're building something physical, it either works or it doesn't. And so part of my work with governance that ties into this is the fact that a lot of people have a lot of ideas about what we should be doing on this and that, and we have very little shared understanding of reality. When you're in a digital space, you can say like, yeah, well, if taxes this and that, or if police or jails or whatever this and that, it's all meaningless. And you can get away with these discussions a lot more easily because you're in this abstract world where it's all just like fuzzy and you can put little zings together. But when you actually try to touch the structure of government and you see all of the stuff that is either amazingly functional in a way you didn't expect or just so hilariously outdated and broken that nobody, if they actually knew would object to changing the thing. Then as soon as you sort of consolidate on the version of reality that is actually really there. We wrote down the laws and there are eleven supervisors and they must do this and that to pass a law. But when people are faced with this reality, a lot of the sort of stressful arguments and stuff that are so easy in the digital world just evaporate because now you have the Is like you have a shared Is, and I'm worried about how easy it is to lose that in digital spaces. It's very hard to capture the full fidelity of the world. So I don't blame us for allowing this to happen. It's very hard. But maybe AI, because it has infinite capacity for attention, can capture all of this nuance and a lot more of the complexity than a human can in a blog post. Right, but you can query a trained model infinitely on a topic if it has all of the structural documents, like put the constitution into an AI. Right. You can get down to the actual text of the document and it's very easy to do this. This is actually something I'm working on. And I think AI uniquely, that would bridge the gap between yeah, I think because AI has infinite attention, you can actually just collect all of the complexity into that AI model and then make it very easy for a human or humans to query as much of that complexity as they need for their discussion. Whereas when you're just going back and forth with somebody in a thread and you're in the digital world and there's no physical reality to ever make you settle on one particular thing, it's a lot easier to stay abstract there. But if you have some easy digital connection to what the actual reality is, my hope, and I could be wrong, my hope is that you can converge on a shared Is. I don't know that this is true.
+ Here is the edited transcript with fluff removed:
+
+Speaker C: This is why I was never really on Twitter. Twitter is a place for collective intellectual abstract. 
+Speaker F: No, I'm on Twitter. Twitter has become like my source of news, almost. But I get what you mean. I totally identify with that. And so I think over time, my perception of technology overall, whether it's KwesiPT or Twitter, social media, Netflix, I'm just like pro tech. Because I realized that at the end of the day, we're all going to become who we are. We just shouldn't be regulating too much human behavior. Because I feel like at some point, maybe 150 years ago, we didn't have Facebook, but we would do other things, like, I don't know, we would be isolating our own echo chamber even without Facebook. So Facebook allows or social media or just technology in general, allows us to, like, for example, connect here, right? We all come from different parts of the bay through whatever this platform we're able to get together at Salon. In a way, I would say us here are using technology in a way to connect people a little bit more.
+Speaker A: Right?  
+Speaker F: Whereas maybe some people are using technology to be at home a little bit more and that's up to them. I don't know, maybe I've become too lackadaisical on this. And to your point, people will discover a relationship that works for them, whether it's monogamous, not monogamous. And so technology enables that and eventually maybe we'll discover that all this is pretty empty and then there'll be a resistance against AI girlfriends. But until that happens, for us to call, who's going to make that judgment?
+Speaker Kwesi: I feel like to this point of universal, kind of not a belief system, but something I feel like instead of regulating to your point is how do we create inclusive beliefs that actually allow people to expand their horizons, right? This is something that can unite as a society and humanity around bigger horizons. Everything is now uncertain for us and we are playing defensive instead of actually allowing it to happen and creating a bigger umbrella for our beliefs and moving forward. Who knows, maybe like there's some asteroid who's going to hit us and AI is going to save us or nothing.
+Speaker A: Is going to save us or nothing.
+Speaker Kwesi: There are things that we know and we don't know. So instead of resisting and really being scared, how do you create something inspiring? And that's your governance thing.  
+Speaker D: Do we know that voltage of media and Web Two? Do we know that it has a negative effect on democracy and institutions? Because I think most of the examples of democracies falling and becoming authoritarian are from before Web Two was a thing, media was very mainstream. The words January on the other side, there is a bunch of examples of democracy that formed because of Twitter and Facebook. I come from the Middle East, so it's very visible to me.
+Speaker B: Were you in the States for January 6?  
+Speaker D: Yeah, I mean, nothing happened, right? I mean, they had like this shitty thing where they tried to do something but very robust to it.
+Speaker B: I mean, relative to other countries, relative to other countries? Relative to other countries.
+Speaker D: Where thousands of people die. There's some idiots going into the Capitol building.
+Speaker E: Okay, do we have to pick one?
+Speaker B: Are you familiar with this 200 billion dollar lawsuit? Myanmar against Rohingya, people who had propaganda about that.
+Speaker D: They have their own ethnic clashing and their own problems that are really, really old. This is not something new.
+Speaker B: Challenging this blanket statement you've made where Web two has not had negative impacts on democracy. Yeah, and I'm suggesting counterpoints to that to maybe open up the discussion on it.
+Speaker A: Yeah.
+Speaker D: You're saying that the genocide against the Muslim minority in Myanmar has to do with Facebook, right? 
+Speaker B: I'm saying Facebook played a role in the spread of information around that and there's a current lawsuit being adjudicated on that case. Meta, the company, I guess they're the subject of a lawsuit.
+Speaker A: Was it humans employed by Facebook? That property of the information?
+Speaker B: I think it was the algorithm. It was the attention maximizing algorithm.
+Speaker A: It was a product that they built where the blame right?
+ Here is the edited version of the conversation transcript with filler content removed:
+
+Speaker C: There's a guy who gave a talk about this because they worked on the anti terrorism team within Facebook where they hire FBIA to spot when things come up and try to disassemble them or understand better. But maybe your point is enough if it's not exclusive on this platform. Like if web two didn't happen, people would still find a way.
+
+Speaker D: I think it's not new where genocide happened because of media. In Rwanda, it was radio stations, in Kwesiermany, newspapers or propaganda films. Facebook is just the newest platform that people use to talk about things, and of course they'll talk about genocides because some people really love to talk about this stuff. I don't see evidence that it happens more. If anything, I see evidence that it happens less. Web two is kind of like an engine for liberty, at least where I come from, the region of war where I'm from.
+
+Speaker A: One thing to build on your point, maybe add some nuance - the scale is different in human history, especially the speed at which information can disseminate. Previously, there were more homogeneous gatekeepers who could control who broadcasted messages and how, typically in a one to many model. Now it's largely decentralized in that anybody can post a message. Kwesiranted, there have been systems put in place to inhibit the spread of information. For example, on WhatsApp you can't forward a message more than five times. But when you could forward messages more, you can imagine how, just like chain letters, they would propagate downstream, whether there was an algorithm or not, just based on interest and the rage inducing factor. So the fact you could take a message and gain currency by replaying or propagating a message that alarms the next person, it just goes unchecked. It sort of shocks the system where there are no breakers. So I think it's both - we built a platform that allows for dissemination of information, but the tools are also used by people that want to eradicate others based on old trauma that was never addressed because they didn't have the tools. But the ways humans abuse each other has been going on for a long time. Now we just have new tools to do it in the information space.  
+
+Speaker D: I'm just not convinced that the new tools are more effective than the old tools. If anything, they seem progressive.
+
+Speaker C: You think the benefits outweigh the harm?
+
+Speaker D: I'm not sure about that because I do think they're really harmful on the individual level. I think they're highly addictive and they're not nourishing. Using TikTok or Facebook is mostly counterproductive for any goal you can find for yourself. But on a societal level, I think there have been very good engines for progressives and liberal policy. 
+
+Speaker B: If we trace from newspapers as a starting point in this trend, then radio was a pretty big inflection point in reach and instantaneity of reach and propagation of information. Television was an intermediate point between those two. And now, with AI chatbots, if you have relationships with entities that can receive information digitally and not through word of mouth, they're direct transmitters beyond just a person hearing it and telling their friends. Do we feel that reach is more powerful both for good and bad purposes, or is it just the same stuff in a different format?
+
+Speaker C: It makes it more immediate, more personal, more real time, more tailored to you.
+ Here is my attempt at removing filler content from the conversation:
+
+Speaker E: Are we saturated now? Now that there is global connectivity? Of course, not perfectly right, but large global connectivity. I would assume the rest of the world will have complete connectivity relatively soon. Can you go any faster than this? Did we just arrive? Are we there? Or can you go even more? 
+
+Speaker Kwesi: I'm sure it got more, I know.
+
+Speaker E: It, but it's like hard to imagine.
+
+Speaker A: Feels like it's a big rock that was just thrown into the world. And maybe it started with 400 years ago with Cortez coming to the new world. The news of that arrival didn't reach Peru for 500 years. So we're talking about reach it's not just these technologies that have evolved, it's the bringing together these bubbles that have always existed but didn't even know about each other. So to have conflict would be possible. Right now they're not only knowing about each other, they're overlapping and conflict is there. So that's why I feel like it's like a rock that is rippling on a scale that is not our lifetime kind of scale. Probably going to be hundreds of years before the waves calm down. LLMs effectively do allow you to have those conversations where at the pinning time used to be 500 years, but not 500 milliseconds to where you can have that conversation and you can again change your context window to have conversations. There's records. And those records are trained in the model with humans that were having those experiences then. And so that gives us a greater sense for ourselves. I think it's destabilizing. This is what you're pointing out. Before they met, the bubbles had structures that worked. You maybe lived in a convent and you didn't get married, you didn't have sex and now there are people that still have those values and it's like hey, wait a minute, I don't agree a slurry though. Lots of different ideas and approach. Each of those different human structures that you described are different attempts and kind of self reinforcing memories of a way to do things highly structured. Their structure is again to support survival over time. 
+
+Speaker C: Yeah, well, used to be that way. Right. We used to have regional newspapers.
+
+Speaker A: Correct.
+
+Speaker C: We kind of systematically eliminated them. Local news is not a thing anymore.
+
+Speaker A: Well, essentially local news was sort of like the neurons or like the nerve ending of kind of like the local network. And so we've kind of moved up a level and up another level where the sensitivities to the individual experience are now so diffused that we're kind of only able to focus on a small set of topics. And so probably the next generation. And I don't know where or if these relationships help with this is like to just disaggregate again to smaller sort of eager.
+
+Speaker C: I think you very much will distribute. 
+
+Speaker B: This massive just make a pun, this massive latent space of ideas. Attention is all you need.
+
+Speaker A: Right?
+
+Speaker D: Okay.
+ Here is the edited transcript with filler content removed:
+
+Speaker C: Can I ask a question to bring it back to the girlfriend space? How do you relate to better news?
+
+Speaker E: Yeah, this discussion made me think about it differently. I think a lot of people would say we need better local context, community level stuff. This is true. It would help a lot. However, because the world is connected now, actually some global coordination is necessary in a way that it never was before. We need to disaggregate a little bit and focus locally. But some problems, like climate change, we actually really are going to have to coordinate globally. We can't choose one or the other.  
+
+Speaker A: Isn't that why we created representative governance? To specialize? We have organs in the body, all collaborating. Media now shares all information to everybody, but the skin is opining on what the toenail is doing. You're not an expert in that. Stay focused on what you're doing. It's insane. I guess the loss of trust in institutions has eroded the sense of specialization. Reestablishing that trust is critical into those bodies that perform function and do so trustworthily. I don't know if blockchain ideas like transparency and accountability will facilitate conversations where accountability happens automatically. That's why we find ourselves in this immediate environment where it's hard to make sense of things. We cluster off into individual conversations.
+
+Speaker C: Can I ask a question about the digital girlfriend thing? What if our next generation comes back and say, I'm marrying a girlfriend. Right? How would you personally react to that?
+
+Speaker A: Why would it change? Why would you have to change? 
+
+Speaker E: I would not be happy. Physical embodiment is important. 
+
+Speaker B: Let's assume you can have a compelling humanoid robot. It's got terminator fake skin. There's nothing fundamental about it being an artificial intelligence. You just got to be able to make a move in the movie theater.
+
+Speaker A: I got used to just saying yes to everything. 
+
+Speaker E: My only argument was physical embodiment is important.
+ Here is the edited transcript with filler content removed:
+
+Speaker F: I'm wondering if AI and robots redefine institutions, like marriage. The idea monogamous - marry a human. But maybe there's different levels of marriage. What does marriage mean? There are things we'd be uncomfortable with, but then there are extensions of what you'd normally do - friends, relatives, colleagues. AI asks us to reassess relationships. It used to be relationships were just with neighbors or cousins who lived nearby. 
+
+Speaker A: Right.
+
+Speaker F: With web 3, relationships are global - with an NFT, image, meme. So marriage in traditional sense...
+
+Speaker B: AI or robots can be immortal. If you leave a house to an immortal partner, it could exacerbate housing problems. 
+
+Speaker A: Right. We had this concept of marrying immortal - convent marrying Jesus - polygamy.
+
+Speaker B: How many partners do you have? 
+
+Speaker A: Jesus had personal relationships. 
+
+Speaker B: The family unit breaks down. Your AI girlfriend can have 6 million partners.
+
+Speaker A: That must have emerged because there wasn't a family unit and women were supposed to marry. But in convents, they still married Jesus - why?
+
+Speaker C: Marriage correlated to private property, women as property.  
+
+Speaker A: In Japan...
+
+Speaker C: It changes the whole dynamic. Marriage was around ownership, fraternity, lineage - economic value of children to produce, raise, support family/village. Now these are choices. Especially with feminism, equality towards involving all sexes in chosen work, it raises the question of biological reproduction without partnership. Many female friends want kids but can't find a mate. Can society support all who want to reproduce, whether or not they have a partnership?
+
+Speaker F: Separate child raising from traditional marriage.
+
+Speaker C: We may be going back to more stable societies before property rights, where matriarchal societies knew children's origins. 
+
+Speaker A: In some cultures, children were raised by the village, so lineage didn't matter. 
+
+Speaker C: Like the Wugo Hu region in China with matriarchal society - family defined by matriarch, dad just walks in and out, provides stable structure for raising children.
+
+Speaker F: Why did we move away from that if it worked?
+
+Speaker A: Right.
+
+Speaker C: Josetianity, property, patriarchy played against matriarchy.
+ Here is the edited conversation with filler content removed:
+
+Speaker B: The Josetian traditional monogamy thing was also to prevent another potentially socially destructive dynamic, which we see reoccurring with the rise of dating apps, which is a winner take all or pareto distribution in attention for men, where the highest value men monopolize the dating market. Kwesienghis Khan is ancestor of, like, 3% of humanity, because he had there's this dynamic, right? It's the asymmetric fact of biological reproduction that enables a single man to inseminate unlimited numbers of women and have them all bear children in parallel. 
+
+Speaker A: Like Kwesienghis Khan.
+
+Speaker B: Yes, Kwesienghis Khan. Exactly right. So part of this Josetian ideal of monogamy was also about how to prevent large, disaffected masses of men who are unwed and do not have families from rising up and creating political instability.
+
+Speaker A: They had something right now we're back to that again.
+
+Speaker F: But that society you were talking about, like in China, that village, how would that prevent tying those two together? 
+
+Speaker C: The argument was made that because power was held by women, by households of women, men can do whatever they want. They can go on hunt, they can leave anytime. They do what they do best. And it's open to everyone's choice how long they stay and all these other things. Because men don't hold property rights and power in society in the same way, and they don't have obligations to do so, then it actually works out for everybody.
+
+Speaker F: So no men would want to accumulate all this wealth because they have no right to it anyway, and then that's.
+
+Speaker C: It to their mom. Another woman becomes the household.
+
+Speaker A: Is that still happening in that place?
+
+Speaker C: It's still happening in that place. It's well studied by anthropologists. It's called lugo hu. 
+
+Speaker A: Yeah. Lugo Hu.
+
+Speaker F: I've definitely heard of it.
+
+Speaker C: It's a lake. Lugo Lake, I guess in the lake somehow. But maybe that's what's supposed to happen. Right. Maybe it is like genetic diversity for the strings of human. Maybe certain men are not supposed to reproduce.
+
+Speaker B: You look at a lot of mammals, and it's the case that the pride of lions has a single man that reproduces in other lions. And this is a genetic search algorithm in fitness space.
+
+Speaker C: It only becomes a problem with our society. It wasn't a problem before.  
+
+Speaker F: We would expect to look at whatever strategy we have going now, not to be optimized on stability, but to be optimized on growth.
+
+Speaker A: Maybe there's all sorts of ways to have paternal or maternal structures or polyamory or not, but the one that takes over the world is going to be the one that's more optimized towards growth than the one that's most stable.
+
+Speaker C: Right. And therefore we're evolving out of traditional structures. Is that what's stable?
+
+Speaker F: Kwesirowth and stability are probably against each other.
+
+Speaker A: Sorry. The three by problem, in terms of just the simulation, that is exactly what we're talking about in terms of the different configurations. Okay, great.
+
+Speaker B: I wonder do people think that this traditional, monogamous, man, woman, children, or even just two partners that are monogamous, monogamish, whatever, for the purposes of raising a family, is that a more stable or a more growth oriented structure? And how would we know if it's one or the other in that sense?
+
+Speaker A: Mechanistically, but just empirically, this is what we would expect. 
+
+Speaker F: It's time for growth. Like the one couple we would expect it. Whatever we have now in a suddenly exploded society is optimized for growth rather than stability.
+
+Speaker A: Like looking the last 200 years, like growth of number of children and the...
+ Here is the edited conversation transcript:
+
+Speaker E: Kwesirowth of that growth, like population growth.
+Speaker C: I think that was meant for stability around a certain means of production. Certain periods of means of production.  
+Speaker A: I don't know if it's compatible with feminism and birth control, because it existed prior to that evolution of culture.
+Speaker B: Maybe now maladaptive. It was once.
+Speaker D: If you look at the subtopalations that threw the most, those are Mormons, Orthodox Jews. They're all very monogamous. 
+Speaker A: Do they have birth control?
+Speaker D: Yeah, I mean, they live in Brooklyn, right?
+Speaker A: They have access to birth control. They just don't use it. 
+Speaker C: Part of the culture where it's the norm.
+Speaker Kwesi: The adoption thing, guns, germs and steel, that basically was the start of the movement. Why some people adopt this and some don't, or some groups.
+Speaker B: So it's interesting then, because it's the very modern, the more educated you have, the less children you have, unless you come from a culture subculture that has very strong emphasis on traditional values. 
+Speaker C: Yeah. Because women think about it, and we're like, Wait, this is a bad deal.
+Speaker F: But women in those cultures are fond of it because you're taught and even in Chinese culture right. You're shamed into, like, after 25, you're left over Josetmas tree. There's so much cultural mechanism to push you, shaming you, luring you into this. If you don't do this, something bad is going to happen to you.
+Speaker B: I wonder how many men would be happy never having children versus women never having children.  
+Speaker C: Are happy not having children?
+Speaker B: So you would be happy not having kids?
+Speaker A: Biologically reproducing? 
+Speaker B: Right.
+Speaker A: I'm parenting my partner's kids, and my bloodline is secure because my dad was prolific, and my brother has 6 kids and 45 nieces and nephews. I don't feel a biological need to propagate my bloodline.  
+Speaker B: But you still have the experience of parenting. 
+Speaker A: That I do. But that's what I'm saying - you asked if men or women have one feeling towards reproduction? I'm adding nuance - you could say, well, I've reproduced and I don't know any of my kids. Or I have one child versus a woman who has 6. There's more nuance to your question - is it about biologically reproducing yourself with somebody else or raising other people?
+Speaker B: I guess I was trying to go in this direction of whether we think there would be a split in how the ability to have relationships with non-reproducing AI models might cut across society. And if there'd be a differential experience where maybe this is a cynical take, but fuck, guys are just going to be like, oh, I just get the hottest AI robot possible and she just makes me sandwiches all day. Talking to friends, the pressure for marriage and children is not always coming from the man's side of things. We have different expectations on relationships and how they should engender greater investments in commitment over time. So AI chatbot girlfriends, whatever, would those really just wipe out some dating market segment and leave the other half? Or which half would benefit or not?
+Speaker F: The ones who don't want kids would date the AI robots. And the ones left in the pool who want human kids would date humans? 
+Speaker A: Why would AI have to be non-reproducing? Why not have reproducing AI robots?
+Speaker C: What?
+Speaker A: If you could have an AI girlfriend, why not an AI kid?
+Speaker F: Like a kid programmed with your genetics that doesn't have to be your genetics, just your values?
+ Here is the edited version of the conversation with the filler content removed:
+
+Speaker F: Then probably ask pretend you are the kid of celebrity A and B, how would you answer this question? 
+Speaker B: Dating market apathy. And then I'm just so sick of dating.
+Speaker D: That's right.  
+Speaker A: Batteries in the matrix.
+Speaker B: Interesting idea. 
+Speaker C: Cool. I like that. A stroller with AI in it.
+Speaker E: I've noticed more in cities that there are people who are like, yeah, I'm not having kids. And sure, that's fine. I think there's a lot of socioeconomic factors that weigh into that. But I came from a very average town with very average people, and the idea of not having kids almost doesn't even compute. It's astonishing to me that the people I went to high school with have little versions of them. And so I guess it makes me hesitant to say this biological imperative can just be set aside because it's annoying. I think a lot about America overall because at least anecdotally it seems to depend a lot where you're at and what kind of people if you're in a city and you're like a and you're just crushing it at this and that like whatever kind of professional thing, and it's like very expensive and difficult and time consuming. Those pressures are not really biological, but they make it way harder to have children. Whereas in my very average town where you just work your nine to five and you go home to your kids, one is culturally expected, and two, there's a lot less friction.  
+Speaker A: It's terrible, right?
+Speaker F: To just let everybody decide their own lifestyle. 
+Speaker A: If these relationship AIS were designed by parents who are interested in the reproduction of humans, like humans actually mating and then reproducing, would that retain a different set of relationship bots? And would there be, as we're suggesting, the reason why I kind of were saying, where people just choose what they want to do? Well, in fact, these bots will imply a certain culture in terms of what is allowed and what is not. And the way in which shame is programmed into them or not will determine whether or not you're like, you say something offhand to the bot about never want kids, you just want to be with your bot forever. And bot's like, actually you need to go like, fucking have some children. That's important. And then you're ashamed and you're suddenly, whoa, what the heck? That could be part of the programming, depending on the priorities of whoever it is that's building. My point is, again, if we think about this in 30 years time, the generation that grows up with conversational AI friends will assume that that is normal and acceptable. And the degree to which they have or fulfill their romantic interactions with those bots will perhaps inhibit their likelihood to rub up against other people, in which case they would have those romantic experiences with a member of the opposite. At least some percentage of people would have an interaction with the opposite sex, such as they could actually reproduce. And so that is where, whether it's policy or just sort of like, the conversation is important because left to our own devices or people in San Francisco and the area, like, designing new thoughts are all about freedom, whatever, we could end up just dying off.
+Speaker B: Interesting.
+Speaker C: A few of my girlfriends did that. I didn't have strong feelings about it until I met one of the surrogate moms, like, the day after birth. And just like that moment, I just had a lot of feelings. I wonder if choosing between that and having AI baby, it almost feels like more ethical to have an AI baby than willing another human into having a child for me and willing this child into being through the stitchy together like sperm from a bank and punch tooth.  
+Speaker B: But isn't the evolution of that just that grown human? What that grown human? Right. So they're just artificially integrated, start defending.
+Speaker C: Babies like Brave New World.
+Speaker B: There we go.
+ Here is the edited conversation transcript with fluff removed:
+
+Speaker C: What if we outsource baby production completely? How would that change things? 
+
+Speaker B: And they're raised by perfect AI parents.
+
+Speaker A: They have sheep.
+
+Speaker C: The ultralillion movie I Am Leather, it was like post human extinction. The robot raised the first child.
+
+Speaker A: Raised by wolves that only lasted a couple of dozen.
+
+Speaker B: I'm wondering if we can share some interesting ideas that were new to us or we thought, might we go think about more.
+
+Speaker E: One of the earlier threads was the way AIs can serve as facilitators and socialization training agents. It's very interesting because we live in a weird time and it's hard to socialize humans. This is a tool that could help deal with that. Still obsessed about how the introduction of these agents will affect governance, cultural stuff. 
+
+Speaker A: Family structure plays huge into culture and society. There's a lot of potential directions there. I don't know what to make of all that yet, but I think it's important.
+
+Speaker B: Anybody else want to share cool ideas that might lead to future topics?
+
+Speaker A: I appreciate hearing all the different perspectives and backgrounds of everybody. That's stimulating. 
+
+Speaker Kwesi: Thank everyone for these diverse ideas. Particularly interested in governance structures that allow us to integrate AI in daily lives and communities. That's a meta topic, but has practical applications. Curious to learn more.
+
+Speaker A: Another thing was local media. It's true we consume global media, but why no quality local media people actually consume? Because local it's all trash. I'm wondering there's low demand. 
+
+Speaker D: Yeah, good time. Interesting that we came to talk AI and ended up talking humans and relationships. We don't understand it yet. Now there's a new player that makes it more complicated.
+ Here is an edited version of the conversation transcript with filler content removed:
+
+Speaker B: That's my favorite thing about science fiction. It posits some technological change and then runs out the societal human impacts. 
+
+Speaker A: Right.
+
+Speaker D: So it's super cool like that.
+
+Speaker C: I'm from South Korea, and I often hear AI does really well on English because a lot of data is in English. I'm curious how in the future, other countries who don't use English probably won't use AI that much. I feel like, compared to the USA, how that dynamic shifts. So that's something that kind of made me think probably going around. Yeah, the threats on just how family structures might change and how genders relate to each other and childering and all these critical decisions.
+
+Speaker A: Thing I found most interesting was your stuff on the virtual yeah, I can find it.
+
+Speaker F: Yeah, I enjoyed this.
+
+Speaker A: It's funny to come back into this space, given what I was working on in 2017 trying to build a bot called Molly to help you learn more about yourself, so then you could show up better in your human relationships. We didn't have large language models back then. I think the question of how technology impacts society comes down to the way the individual is able to hold himself and understand himself in a broader context. We're still at early innings for most people with amazing technology being produced and shared in a moment where I think a lot don't have enough context to encounter this type of superintelligence and replay back how it makes them feel. I'm sure it feels freeing because people don't have to do homework anymore, but it also disrupts their own sense of identity. You guys talked about good times to weak men. It occurs to me that adversity is needed to grow well. The good times thing is a critique on lack of adversity. So raising these conversations for people building these technologies hopefully helps them be built better when widely adopted. I don't know if these conversations are happening in those rooms, especially if people adopt these things without this level of conversation. Then I think that's where I'm concerned about things going off the rails - assumptions they'll work positively without evidence.
+
+Speaker B: Thoughts on how these conversations can gain more mind share in decision making rooms? 
+
+Speaker A: As a VC in AI space I'm trying to find founders interested in conversation so capital can go to those folks. 
+
+Speaker C: Capital allocation is a huge part of the puzzle.
+ 
+
+Speaker A: It's hard to have these conversations in big organizations. These issues come up and people - it's like this room, I wonder if we're enslaved to the board or whatever we're in got its own direction that we can. I wonder if there is a possibility in startups or in larger organizations to start interest groups, small scale and take topics or publications from this forum to see that interest. There's interest and some groups talk like this. I think what's missing is Andy Jassy level awareness - the assumption like oh, we can't touch that. It's got its own engine driving it and it's only economic. I think that's a person too and hasn't time to think about interesting questions. The responses imbue a cultural set of norms and assumptions.
+
+Speaker C: Those translate to metrics. Meta's top line metric is engage. We can do research, human centered design changes but as long as their top metric is engage, we need to change that. 
+
+Speaker A: We’re in a weird state with social media, but in terms of thoughtfulness about design and structure of culture and society, it feels like we're at that moment.
+
+Speaker C: I appreciate as a VC in AI, it is important to think about these things. With AI relationships, it’s shedding light on loneliness as an issue we have as humans. AI is a tool people use, which says more about society than the technology. Thinking about the lens is key.
+
+Speaker B: I hope you're signed up on the AI Salon page to see new events. I sign people in with my typewriter. 
+
+Speaker A: I live in London.
+
+Speaker C: Here. 
+
+Speaker Kwesi: We have our basic.
+
+Speaker C: We don't really get along at first, but I see what you do. I'm six. My parents are weird. 
+
+Speaker A: That’s very rare.
+
+Speaker C: Probably the next couple of weeks. 
+
+Speaker A: We have.
+
+Speaker C: But it yeah.
+
+Speaker D: Big meal. 
+
+Speaker B: Yeah.
+
+Speaker D: You have to make.

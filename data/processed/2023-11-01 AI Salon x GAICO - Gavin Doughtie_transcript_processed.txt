@@ -1,0 +1,188 @@
+ Here is the edited transcript with filler content removed:
+
+Speaker A: I am a vest guy, but I am only here to keep the loud mouths from keeping the quiet people down. As a loud mouth, I rely on all of you to watch the watchers. 
+
+Speaker B: This is economics and AI and economic and ethical implications of AI. Oftentimes ethics are influenced by economics. 
+
+Speaker C: I think she talked more about how we need to really change our educational system because people are using AI to now just cheat and have the AI do their homework. So she's saying, okay, well, maybe we need to not have homework anymore and reinvent our entire system. I think the problem is, and same thing applies to our economic systems, is that we can't take it away anymore unless everybody just comes online and decides like, okay, let's ban openai. It's no longer legal. We're not taking systems away. Now it's more of a question, like, how fast can we adjust our other systems, including economic, educational, to match what we created with AI?
+
+Speaker A: I was actually having this discussion with a teacher who says, well, chat GBT's just a plagiarism machine or a cheating machine, and hosted some known Chomsky. I'm like, well, maybe like right now. But it also puts a lot more load on the teachers to understand if their students have actually absorbed the material, right? They can't just read through a paper. They now actually have to engage with the students and see if they've absorbed that material. So I think that's going to have an economic impact in the world of education.
+
+Speaker C: It’s also just missing the point of a lot of what we like, a lot of the writing is to learn how to write and how to read. Like, half of America doesn't read at a 6th grade reading level. That's going to get worse if we don't need to actually write our two papers anymore. It's a little bit like a calculator, right? Calculators came out and people don't know how to do a list. And that just helps you learn logic, even if you can do it. It's like a question of, like, is it a good idea in terms of building those basic skills of reading writing? That’s pretty important.
+
+Speaker A: So my question was, is AI going to give us a systemic ability that is more competitive than capitalism? Because I think we've all experienced the sharp edges of what capitalism does. So I wonder if we can talk about any. I have no idea that this is even a possible thing. I'm just wondering if any of us have seen a glimmer of where artificial intelligence could unwind something that we take for granted as sort of a rule of physics that won't be going forward. 
+
+I think that the human needs are growing in a linear way. What we have today is much more than what we had like 200 years ago. But technology and AI is growing, so we have a lot of gain. What the humanity needs can't understand, we are able to generate much more than what the humanity needs. And so we have this gap that we need to understand how to. Talking about capitalism, it'd be kind of the antagonist of the farmers right now. It's kind of we have the technology, the potential the farmers might win. It's like we are not distributing anymore, like just piece of bread or dangerous part. We are able to distribute something more valuable for the use. Yeah, I mean, the incentives of capitalism are winner take all, do the best for your stockholders, you'll get sued, et cetera. Is AI going to give us a tool for doing better than that in terms of how people experience life? I'll put the term technological socialism out there as just a concept. There's socialism, but with technology, we might be able to use AI and robot and everything to UBI to distribute the wealth. Just technological socialism as opposed to just regular socialism, whatever that is.
+
+Speaker D: The part that seems the most interesting to me with what you guys just said is capitalism is optimizing for technological. 
+
+Speaker A: Growth at this point.
+
+Speaker D: And with the topic of the table, which is economics and ethics, I'm curious if there's a way to continue using capitalism to advance AI, but align that with ethical development of AI at the same time. Because it seems like right now we're just optimizing for developing and deploying it as fast as possible, but it doesn't seem like that's aligned. It might be, but it doesn't seem like it is aligned with also making sure going to be good for us. I think right now, current AI systems do have the direct incentive to be ethical in some way. Right? Like tragic tea, et cetera. Do not say out certainly like racist things or racist things. You prompt it. But right now there's like content filters for within healthcare.
+ Here is the edited conversation without filler content:
+
+Speaker E: It's shown that diagnostic biases already exist.  Black people diagnosed with STIs more often than white people with mono. So there already are biases within training sets, leading to problems.
+
+Speaker A: There are training data biases. AI optimizes for some economic goal - engagement, selling you ads. Think of Facebook enraging conversations surfaced by AI.  
+
+Speaker B: We had the same with social media - let the genie out without regulation. Government catching up after damage done with elections, polarization. Promising they passed regulation to get ahead of AI. Trying to learn from social media mistakes. But can we regulate when companies race to create the best models and own the market? Enterprise leaders say they don't need to hire because AI increases productivity 30%. LinkedIn laid off 10% because they don't need engineers now with AI. We're in early stages. What happens to jobs when there are none because of AI productivity?
+
+Speaker A: Technological productivity always leads to questions about putting people out of work - mechanization, automation, industrial revolution. What might be different this time?
+
+Speaker B: Interested in your question - could AI/AGI change something fundamental? What are our current laws or parameters? 
+
+Speaker A: How do we define capitalism and human participation - organizations, nations? What changes with labor's role accumulating capital? With human labor less rewarded, what replaces that - creativity, intuition? How to replace labor in a world of AI productivity?
+ Here is an edited version of the conversation transcript with filler content removed:
+
+Speaker C: My favorite definition of capitalism is it's a system of information. Literally just provides information to producers on should you make more or less. Contrast to a command economy which is top down. Now, you could imagine a smart plan economy not limited by human limits. But that's a question of human incentive and motives. Because if you get what you need, not based on your effort, it encourages a lot of your writing. I think that's where human nature gets into it. Some people can overcome inherent drives. 
+
+Speaker B: What if that's not our inherent drive? I think premises kind of underlying.
+
+Speaker C: Yeah, sure.
+
+Speaker A: The potlatching tribe in the Pacific Northwest lived in abundance. Sociologically they showed off wealth by giving away. Not the survival incentive of modern capitalism.
+
+Speaker C: Entering abundance we can produce more. Tying to human flourishing - work provides purpose. As we lose need to work, what replaces meaning? 
+
+Speaker D: What would that be for you?
+
+Speaker B: Highly individual, your unique gift to the world. Exciting about AI - instead of job just for paycheck, which is common hatred, AI systems do uninteresting work. Focus gift without economic incentive. 
+
+Speaker A: In ideal capitalism aligned with progress, survival of species. Reward efficiency, better products, skills. In abundance, what drives behavior? How align towards progress, not aimless?
+
+Speaker D: Unclear what progress means as society. 
+
+Speaker A: Probably have GDP view not good for health. One thing, AI get rid of jobs we don't want, so focus on meaningful work. 
+
+Speaker D: Feel AI will also get rid of meaningful work.
+ Here is the edited transcript with filler content removed:
+
+Speaker D: I feel like it's far away from replacing a plumber, but it's closer to replacing making art, something really meaningful that doesn't provide value to the economy, but more to do with how they think and how they perceive the world. My real fear is what happens when that kind of work can be done by something in your pocket, like what gives you drive? 
+
+Speaker A: A hurricane hit Acapulco last week that annihilated the city. I think climate change will be a defining issue of the next 30 years and our adaptation. There'll be plenty of work to do to build defenses against insane weather. Until they have Tesla humanoid robots rebuild the city we're going to have a lot. How can we change the incentives? I work with computer security people. Nobody wants to spend money on it because it is a cost center, not a profit center. Mitigating climate change costs money. You can't get rich mitigating climate change. All you can do is lose less. What can we do with better AI tools? 
+
+Speaker D: Given the time, we'll keep the conversation going till about eight, then come back together.
+
+Speaker A: Our measuring system leads us to believe we can't generate wealth by getting ahead of climate change or investments in that. Similarly to how we measure security - absence of intrusion versus better systems and monitoring as an asset you're building. If we quantify trees, health of population like we quantify transactions and efficiency, we can change value. Maybe AI helps rewire what we consider valuable.
+
+Speaker B: I have to leave for early morning commitment. I've taught anthropology - we are evolving, just means change up and down. I prefer upward change. Technology matters, that's why you're interested in what this will mean. There are alternatives. Ethics comes from seeing how technologies depend on who holds the money. So who will plant the ideas? Because ideas splinter into other ideas. If only certain demographics with certain needs drive it, will it really help you? As an anthropologist, I'm drawn to all voices. It'd be interesting to define AI for people who've never seen a computer, and ask them what daily work they'd want done. We are limited by what we're raised in and who our friends are. Opening up matters.
+
+Speaker A: Can I riff on that?
+ Here is the edited transcript with fluff removed:
+
+Speaker C: Cultures in different countries will respond to AI differently. In the US, we value individualism and choice, which could allow unregulated AI. But countries like China regulate things like video games and social media more. Their TikTok is educational. We'll see different outcomes based on culture.
+
+Speaker E: What about the harms of energy usage and bias? How do we balance potential harm with encouraging human flourishing? 
+
+Speaker A: It depends where the energy comes from. If it's coal, that's bad. If it's renewable or fusion, maybe it's good. 
+
+Speaker D: Training the next big model will likely use natural gas. The energy needed will keep increasing for bigger models. 
+
+Speaker A: There was an LLM trained in France powered by nuclear.
+
+Speaker B: From an anthropology view, should we evaluate AI like any tool? Or does it represent a new culture? Chimps started with rocks. This feels like a new culture with shared assumptions. Are there historical parallels regarding tools developing culture?
+
+Speaker A: Writing is symbolic like language models. It's both a tool and represents culture. 
+
+Speaker D: If AI surpasses humans at language and persuasion, and our culture is based on language, what will that mean in 100 years? Will AI just parrot human values while generating its own? Sounds concerning. 
+
+Speaker C: If AI becomes better at language.
+
+Speaker A: I think it already is.
+ Here is the edited transcript with fluff removed:
+
+Speaker C: I think it's better than the average American writing and reading, without a doubt. So we're past that. What does that mean?
+Speaker B: We start getting.  
+Speaker E: How do we define better at language?
+Speaker D: So far it's a bunch of tests, like the GRE writing exam. 
+Speaker E: But is that necessarily the bar?
+Speaker A: I think the bar is.
+Speaker D: Can you persuade human like, that's 1 bar, I guess. And then other bar.
+Speaker B: Can you express your thoughts understandably and it sounds good to you as a person, not just expressing yourself with. You can't fully form a sentence. That's how low the bar is, also just comprehension.
+Speaker C: I'm going to give you a passage. Can you tell me objective facts out of that passage?
+Speaker A: Right.
+Speaker C: Way betTer.
+Speaker D: But the scariest one that also you already wrote about was like, can you form relationships with humans even if you're not a human?
+Speaker B: AI can already do that like the whole AI girlfriend experience and all that. Right? Lack of understanding of the opposite gender.
+Speaker A: Humans really hallucinate someone else's state of mind all the time. They're very good at seeing patterns where they may or may not. Okay, so this is the subject of most theological debates that I've been in. But regardless, I think if it feels like a real person to you that you're communicating with, subjectively, you're not getting very different information than you would from an actual biological human. So your subjective experience in AI is going to be very similar to your subjective experience.  
+Speaker C: There's a pretty big difference, though. Kids have sex with the AI.
+Speaker B: Yes.
+Speaker C: And when that changes, it gets challenging.
+Speaker A: Much is in the mind, man?
+Speaker C: But I mean, like, jokes aside, there is something very magical to touch that we all react to.
+Speaker B: I mean, we have five senses. Being able to speak to somebody and have this, that's just like curing, I guess. Right? That's only one sense engaged. Where is that? Brain slides, right?
+Speaker A: Sharing what I'm rattling personally on this, like, can we do something about the flaws that we're experiencing in capitalism with AI isn't going to help changing our perspective on what is valuable. I think using the language facilities of AI to convince us of doing something that's in our interest, that doesn't seem to be in our immediate interest. Make it feel like it's working. That's like a fruitful thing. What about the. Are there any practical counters to the perversing sentence of the current economic system? That was my initial question, was, is there something we could do that would outcompete it? So if you're AI powered and your job is summarizing legal briefs, maybe you could out compete human paralegals, put them out of a job, but you could outcompete them at some level. So that's like a toy example, but I'm wondering if there's anything we can do that's actually productive for humanity that will be better than the model of kind of winner take all. My shares are worth more and then have captured more of the economic value. Well, I wonder if a lot of capitalism has an integration with the governance structure. And a lot of times capitalists will do regulatory capture and gain a lot of power. So you end up with three monopolies in it, and the Electoral College did that too. So, I mean, we can AI governance, rethink governance with AI, that doesn't allow regulatory capture in the same way. And things like that.
+ Here is the transcript with filler content removed:
+
+Speaker D: Earlier you were mentioning when one person can do the work of five people, etc. I recently listened to a podcast where Bob breaks this down - what would happen if food costs reduced from $500 per month to $100 per month. Everyone now has $400 extra. What do you do with the extra $400? You might get a nicer apartment, go out to eat nicer meals instead of cooking because humans made the meal versus manufactured pasta. So your costs went down but propensities for leisure went up. But there's unclear effects - some people are out of jobs because one person was augmented. It's a fuzzy picture - what happens in this slowly transitioning economy with very efficient, productive people.
+
+Speaker C: We're seeing AI really disrupt the middle class - white collar jobs paying less than $100k. Those jobs can be augmented or replaced. We can't yet replace the lowest paying jobs like warehouses, fast food, plumbers. We need plumber robots. 
+
+Speaker A: Plumbers make good money.
+
+Speaker C: Janitors, right? We're far from those robots. With COVID the government made it better to be unemployed below $50k than work - so places like Target and Walmart had to raise wages. No way to automate those jobs yet. Just extreme inflation. We're taking out the middle class jobs but no solution for the bottom jobs we really want. Just more inequality. 
+
+Speaker A: I think long enough horizon, the bottom stack of work disappears too. We'll be able to fix a sink. A general purpose machine can mop floors and do 80% of household chores. In the next decade, glasses could overlay how to fix a leaking sink, deliver tools by drone, and walk you through it despite no skills. That could happen with almost everything people currently do themselves.
+
+Speaker B: We all become a Swiss army knife able to do what we need without needing money because we don't need to pay for specialized skills anymore. That would be utopia.
+ Here is the edited transcript with filler content removed:
+
+Speaker A: I'd try the opposite view - not necessarily towards fear, but try to see the upside. If everything distributed through marketplaces like modules - plumbing module - you could just come up with a better module through creativity or knowledge and have worldwide distribution. If everything becomes a marketplace and everyone has access, ultimately it's creativity and concepts that distribute this versus capital. Every niche occupied as on app stores or YouTube.  
+
+Speaker E: Can we have an environment where all jobs taken away? Unless completely equal society, probably impossible. Flaws within the system not fixable with AI, so some jobs entirely different. Maybe fewer jobs, but wonder if hypothetically no jobs.
+
+Speaker D: Even if only 25% jobs gone in ten years, we just don't know how to deal with that. 
+
+Speaker A: No one at right level, like governments, really thinking that timescale. Mostly going to be dead. Same with climate change.  
+
+Speaker D: We always have to react and work with it. Need to make people work on this now. Humanity's proactivity record pretty bad.
+
+Speaker B: Housing as a human right, fighting for two jobs to survive. Don't need ten years to reshift role of job, meeting needs - there's enough. Value's where we put it.   
+
+Speaker C: With UBI, how get somebody to stock shelf at Walmart? How fill groceries?
+
+Speaker B: TVs made to break, everything's made to break that we consume. Don't need water or Walmart. Share through buy nothing group, probably survive without ever buying again. So no, don't need to stock shelf.
+
+Speaker D: Concept of donut or cyclical economy - making things like fridges that last generations. Used to be conspiracy but true - old light bulbs still running because made more efficient. In Stockton one light bulb just still on since first installed.  
+
+Speaker B: Won't need plumber every three months. 
+
+Speaker D: Still some things need doing - be janitor because no one wants to. No one wants to stock shelves.
+ Here is the edited transcript with fluff removed:
+
+Speaker B: They just don't want to do it for $12 an hour or for $7. We're in California. We forget people make $2 an hour in every other state except for New York, California, right? If you paid a decent wage, people will probably do it and go to that job every day. But we humanize that part, right? It was convenient. It was okay during that time. And then all of a sudden, all the work that we see as new caller, low wage, no skill. That's the highest skilled job. These jobs require a high level of skill set. You don't need a college degree to do it, right? But many will argue that what they probably have more value economy than what the CEO. But we've shifted of where we put that value because we brought that up. 
+Speaker A: I have a question. I really like what you said about universal basic income and health care and gardens. I was curious, when you think about the path to reaching those, do you see AI playing a role in that path? Yes or no? And then if yes, what kind? I don't think we need AI. I don't think technology. Can it contribute? Yeah, that would be great. What is the contribution? Technology? Can I give it a prompt to be able to convince someone? Yeah, no.
+Speaker E: I'm curious what you mentioned about we could change the definition of a job today, essentially. What would that definition be? Because I'm all for universal basic income and so forth, and that kind of just sets the bar the lowest bar at a level which is in concordance with health. But then there's still going to be a drive for people to work harder, to get more than their neighbor, to have a better quality of life. And so I'm just curious how you define what a job should be, what should be the purpose of a job?
+Speaker A: You're raising the lower part of society, right? So of course you want some possibilities, but it's not a strict need anymore. There are no work, no jobs anymore. If we're going to raise up the lower bar and people can decide, or if I want a better car than your, but I still get a shitty car. Someone is giving me a shitty car, I don't know. Or whatever I need. So we are raising the lower bar and everyone going to benefit. And that is more volunteering, philanthropy, whatever you want to do, which is your passion. So you are flingIng. People will have more time to do what they like to do somehow, or if they want something more of what? The distant team.
+Speaker A: I'm going to put out there that a time frame that 20 years from now, just to put an arbitrary number out there. We're in this transition zone, but in about 20 years, everything. Maybe AI will run a human zoo and we'll just see animals in the zoo. If we're lucky, we're lucky.
+Speaker C: I do feel like a lot of this wraps back to your original question of, like, how do we change capitalism? Because I think the idea of can we pay a living wage to these jobs that we currently don't, the reason we don't is would actually not work in this capital system because we're rewarding output. Most of these companies run a very low margin. They don't make a lot of. Amazon makes two or three. 
+Speaker A: Right.
+Speaker C: If you raise the wages of all their employees by 10%, suddenly the company. It's actually that simple. But that's just because of the consequences of capitalism. For us to achieve your view, I think we need to achieve what you want.
+Speaker A: Well, yeah. And the consequences of capitalism is as Amazon's efficiency improves, right. As their margin improves, that margin is not returned to the labor force. It's distributed to the shareholders.
+Speaker C: Well, potentially to the consumer, like lowering prices and things like that, that can.  
+Speaker A: Happen as well, but no more than required to maintain the market dominance to ensure the rising perverse incentive, especially in a world of concentration, kind of economic value. I guess you mean monopoly. Monopoly for sure, but just kind of like. Yeah, monopoly. Because I think this year's stock market kind of reflects that already. SMB is up a certain amount. All of it is kind of seven companies, right. So you're starting to see a dislocation between everyone else and then the companies that own these technologies.
+Speaker B: Every grocery store in this country is owned by two companies.
+ Here is the edited transcript with the filler content removed:
+
+Speaker B: There's two companies that own every grocery store. So it's like there's no such thing as competition.
+Speaker A: Amazon's one of them, yeah, but.  
+Speaker E: I'm just wondering, do you think the question is how do we change capitalism with AI? Or just how does capitalism change as a consequence rather than as a deliberate act?
+Speaker B: I understood your question more so as asking of will people intentionally dismantle capitalism, or will a series of events occur that capitalism falls apart? Is that your question?
+Speaker A: I think we may as well just add some features. Carbon credits. Let's throw that there. All right. A couple more UBI kind of modules.
+Speaker C: It's almost like certainty, right? Like if many jobs get automated away. Our current economy requires you to have a job, to have income, right? There's now 10% less jobs, right? That's pitchforks time unless something changes, right. So I think to your premise, I think as AI eliminates jobs, then what you described must happen because there must be a response.
+Speaker A: Do we buy the kind of parallel with previous big revolutions that new jobs will emerge and we just don't know what they are like creators? It's an undeniable kind of current reality that economically people can make money that way. And it wasn't obvious historically. You look at countries that have had a rapid rise in the standard of living. The populations of those countries are typically not very angry. They might want to take over the rest of the world, but it's working well for everyone if there's a lot of abundance. Where the revolution comes is where a few people have most of the wealth and a lot of people are suffering for lack of enough. I think unemployment has always been kind of like a leading indicator of within America, we have normal corporations, but in agriculture they have cooperatives. There's also B corporations, but they don't seem to be very popular. So maybe it's just sort of a corporate formation to be adjusted too. It's sort of hard to know why people try to start corporations, but they don't seem to do very well. That's minutiae. But.
+Speaker E: Equity across countries in that of the people who will be more likely to be disgruntled. And we say perhaps a similar thing with oil and COP 21 and the developing countries going, well, hang on a minute, you've already had your industrial revolution and profited from it. We want to do the same. And I just wonder how we tackle that issue from an equity perspective also from how that changes the world geopolitically. 
+Speaker A: Very interesting question because currently there are huge barriers for entry, right? Build a model, have the compute, have the energy and then the skill base. So it's really kind of inaccessible many geographies, right? Does that like if we just kind of imagine a long term, very long, far in the future, 100 years, does that remain true? A worldwide maybe like energy abundance is there maybe like hard sales. I wonder if this current barrier to kind of advanced AI over 100 years kind of evens out.
+ Here is the edited transcript with filler content removed:
+
+Speaker D: The US purposefully cutting off a certain level of chips to export and making it where the US companies like Nvidia, AMD, et cetera, maintain that lead and therefore hold to the engineers part. Where this gets interesting is where China is trying to set up its own education task force that they, they have a lot of people, but they're academics, institutions, but they kind of have the input to be. So we're not going to hear it seems like kind of creating that environment where there might be, maybe at least two players and maybe kind of have two sides. 
+
+Speaker A: So you choose the American advanced AI.
+
+Speaker D: Chips of the hundred years or the kind of Chinese version.  
+
+Speaker A: Europeans, I think they're going to be players as well.
+
+Speaker D: Or they just choose from American because it's like cheaper.
+
+Speaker A: No, but I think that's the question, right? I think that's the question of if we kind of open our imagination, making cars was maybe the dominion of one country and then two countries. Now every country is capable of making cars, right? So making AI at least like to a certain degree of sophistication, which again like cars are pretty sophisticated.

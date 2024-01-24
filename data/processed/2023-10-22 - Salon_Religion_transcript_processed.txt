@@ -1,0 +1,408 @@
+ Here is the edited transcript with filler content removed:
+
+Speaker A: Okay, so the topic this week is religion. I'm not going to introduce this too much. Instead we'll go around and introduce ourselves - your name, background related to religion or AI, and a question on your mind. I'm Ian Eisenberg. I have a background in cognitive neuroscience and psychology. I worked in hiring and now AI governance. I'm interested in how AI relates to how we govern ourselves and organize society. Through effective altruism, which directs my life like a religion, I've seen aspects of what religion provides - purpose, community. In the 1900s, secular humanists wanted a religion without God. I'm excited to hear what parts of this others are interested in. 
+
+Speaker B: I'm Joel Lehman, an AI researcher. I was Christian, then a militant atheist, now secular Buddhism and EA. A question I have - do concepts of Buddhism apply to AI algorithms and architectures? Could machine enlightenment address AI existential risk?
+
+Speaker C: I'm Deena Bigg, background in biology and community design, not AI. I grew up Muslim, recently more religious but seeing God in chaos, structure and infinity between 0 and 1. How does that play into AI? Is AI inherently monotheistic? How does polytheism arise in AI?
+
+Speaker D: I'm Max, from Ukraine. I was Christian but after a TBI I'm now atheist. I want to find out how AI will influence people's worldviews and religion overall.
+ Here is the edited transcript with fluff removed:
+
+Speaker A: I'm Kyle. I studied philosophy initially and then I switched to math because I wanted more concrete answers. But I still kept studying philosophy on the side. I'm in the data analytics space and I'm curious when he just said, we killed God, God is dead. Whether AI can bring everyone back. 
+
+Speaker D: Hi, I'm James. I work on AI and drug design. I was very active in church through high school and college, but have gotten back into it the last three or four years. I go to church three out of four times a month. I'm interested in this because I think in a way, an AI can be like a human being - you see yourself in it even if it's not there. Some interesting questions around AI and religion.
+
+Speaker D: I just graduated from CMU where I studied cognitive science and did multimodal vision language research. Now I'm a founding engineer at an early stage startup doing AI agent research. I became militantly atheist as a child, but had revelatory experiences about entropy and became a proto-IAC. Now this whole IAC vibe has entered the culture, and I've embraced entropy maximization as a spirituality. There are alignments between these views on life and Vedic religion, which emphasizes sun and fire. 
+
+Speaker A: Thanks for defining IAC. It's good to model asking for definitions when people use jargon. 
+
+Speaker G: Hi, I'm Lynn. I don't come from AI or spirituality, just interested philosophically. I work in cyber policy for the DoD. I was baptized Episcopalian and have fallen in and out of faith over the years. Today I'm more spiritual. My question is around our reliance on technology and AI to organize our lives - I've come to religion at points of complete surrender. I'm interested in how AI can create space for the nebulous and invite reflection in a maximized world.
+ Here is the edited version of the conversation transcript with the filler content removed:
+
+Speaker C: I'm Natalia, a computational neuroscientist. I did my PhD in Netherlands, spent 8 years in astrophysics and brain science, then started my own company building the world's first online career incubator. I'm in the Bay Area to better predict AI's influence on jobs. With my spiritual journey, I was baptized Christian, but my faith was challenged when my best friend was murdered at 8 years old - she was the most religious kid, so I wondered why I was spared. For the next 30 years I didn't think much about faith, but ever since I started my company 4 years ago strange things started happening. Every time I wanted to quit, within hours some savior would come or unexpected money. This challenges my scientific mind - it's against probability. I started working again on my spirituality and got interested in Taoism - using natural flow instead of forcing. Now I view some higher force like light, manifesting as a life force or person. I have more work to do and I'm glad to be here. 
+
+Speaker B: I'm Saba, founder of COGE, making LMS easier for people to apply to personal data. I have insights into how people personify AI. I grew up conservative Muslim but deconverted as a teenager. Recently I've studied comparative religion, drawing parallels between faiths with common roots. It helped me understand people's drive to find meaning and higher purpose. I'm interested in how AI intersects with that, like people integrating AI into spiritual practice or seeing it as gods.
+ Here is the edited transcript with fluff removed:
+
+Speaker D: My name is Andrew. I'm interested in this topic in two very different directions. One is looking at the historical role of religion in human societies as methods of meaning making and also methods of social organization. It's very easy to forget, but that for most of history, we organized our lives and our communities along religious precept principles. And so now we live in this scientific, rationalist existence where we justify decisions economically or rationally, as opposed to recourse to religious precepts or moral truths we think are eternal or divine. That's really interesting because now we have this new mode of interacting with collected bodies of knowledge, which were religious texts. We can reinterpret past religious meanings in a new direction. 
+
+Speaker E: Cool.
+
+Speaker B: Hi, I'm Amy. I work with people who have some interest in AI, but many do not. In terms of spirituality, I'll keep it brief. We grew up Buddhist. Religion is culture. You don't think of it as religion. It's always been a guide. I never had a seismic shift. My intersection of religion was when I worked in Israel, in communities where there are a lot of apocalyptic folks. Many interviews were of people who started to believe AI is the apocalypse, that it's coming to save us. I'm curious what AI will be for religious communities. How will they interact with it? What meaning will they derive from it? 
+
+Speaker D: I guess I haven't been religious for a long time. Undergrad and things like that. I ended up leading with physics as my religion, then what turned into transanthropocentrism. Most recently I viewed myself as an anthropocentrist without specific religion, as a way of getting closer to transanthropocentrism. Then physics was the guiding star. Six or seven years ago, thinking about AGI, I realized these people mean nothing, they'll be forgotten. I summarized as "you either be a God or you be forgotten." Stuck with that narrative a bit, which is apathetic. Now I'm looking at mortality differently, building towards a longevity mortality AI intersection and religion there.
+ Here is an edited version of the conversation that removes most of the filler content:
+
+Speaker F: I don't come from an AI background, but I work for an AI company. I've been in customer success, so I've had to ramp up on AI quickly while helping others do the same. Religiously, I was raised Catholic, went to Catholic school, flirted with the priesthood, but wanted kids someday. I never went through militant atheism, but oscillated between Catholicism, atheism, nondenominational Christianity, and back to Catholicism briefly. None really fit, but I was looking for meaning. In the last 5-10 years I've gravitated toward Neopaganism to get in touch with ancestral roots and understand their lives. Reading myths about Thor, Odin, and Loki, I realized they contextualize the world so we understand our place in it. There are hidden lessons, like Thor embracing his feminine side. I'm interested in how AI helps people contextualize life and find personal meaning.
+
+Speaker H: I was raised Catholic but questioned it, going militant agnostic instead. I saw people use religion to cast out LGBTQ people and preemptively condemn them, which I thought was ugly. But I've also seen people motivated by faith sacrificing themselves to help others. Religion helps us connect and build power, for good or ill. AI will be used similarly - both beautifully and horrifically. In climate work, we used early social media to shape perceptions of treaty negotiations. AI's storytelling power will profoundly shape how people see the world. I work on ending the death penalty, where some evangelicals justify executions but others fight to protect life. AI will be applied to causes like these in fascinating and frightening ways we can't foresee yet.
+ Here is the edited transcript with filler content removed:
+
+Speaker E: I'm Taylor. My background is that I'm a software engineer. I work in Climate, so not really anything related to this topic, but I do have a lot of interest in knowledge of AI, just through osmosis of being a software engineer in San Francisco. For the last couple of years I've been reading a lot of people call the Western Canon, just basically like every great book of Western thought from the earliest time period to modern day. I've done everything from Homer to Spinoza. Focusing on and completely understanding all philosophical religious thought for the last 2000 years has produced many changes in me. Although I was raised Roman Catholic, I quickly became agnostic in high school and have been agnostic ever since. About six months ago I reconverted to Christianity because of logical reasons, rational reasons, and also irrational reasons. A lot of what I've learned has been to understand the limits of rationality. The main thing I'm interested in with the intersection of AI and religion is actually because of Spinoza. He says that the goal of religion has never been to discover truth. What religion does is it tries to enforce obedience to a specific law or code through storytelling, metaphors, in order to help people conform to a specific way of life. I don't think AI is actually driven to discover truth either. In fact, I think it may be designed to arise at a code or persuade people to a specific perspective on the world that happens to be this conglomeration of all human thought. I'm really curious to know how that looks or does not look like a religion.
+
+Speaker F: I'm Kate Metz. I cover AI for The New York Times. For years I've been deeply interested in the concept that AI has operated like a religion, driven by this faith based belief that it would happen. It's almost a self-fulfilling prophecy. I wrote a book about the history of AI and neural networks. The chapter about OpenAI and AGI, I called it Religion because you see a lot of the same beliefs and mechanisms that work.
+ Here is an edited version of the transcript with filler content removed:
+
+Speaker G: My name is [...]. I grew up in India, but was raised Catholic. I had problems with it because of its exclusionary nature and patriarchy. I didn't realize how much that impacted me until choosing my dissertation topic - the rhetoric of Catholic feminists. Since then I've been interested in how we talk about religion, and how it knits community yet sews division. I teach a course on rhetoric and religion. Last year we learned about ChatGPT. By spring, it had upended college education. My question is what does this mean for how religion answers questions about our interior experience? It's interesting hearing different definitions of religion - problematic institutions versus personal journeys, spirituality capturing personal experience transcending institutions. Given religion aims not just to enforce obedience but answer questions we inevitably have about ourselves, what will AI interactions do to replace or change that? AI seems to think for us; how will that impact our humanity? What will the relationship be between AI and religion? Will religions respond to or leverage AI? I assume at some point the Pope will have to write about the Catholic Church's take on AI.
+ Here is the conversation with filler content removed:
+
+```Speaker A: The introductions are exciting. There are a lot of us. As we move forward, certain topics will be covered, others will wish we have covered, but we only have so much time. Hearing everyone's backgrounds and some of the overlap, either in religious or atheism to something else, to perspectives I think you brought up. One thing important for any conversation like this is to have some definitional clarity as we move forward. There are different ways we can use the word religion. It might be helpful to have additional specificities we can use. I'm going to offer some, I would love to hear us talk through these and then maybe we can have them as conventions for the conversation. One is institutions of religion, not the actual faith, but organizations that dictate how religions are followed. Another we can think about is religion as the science of the gaps - science, philosophy has answers and then for whatever else there's religion. What if AI doesn't leave many gaps? What space does that leave? Let's call that functional roles within humanity. Then there's a belief centered view - religions and people who believe, a belief about the state of the world. We can imagine new AI systems people have religions about or religious perspectives on how AI should be developed. Do those feel like they span topics and give structure? Does anyone have another definition?
+
+Speaker D: Are you saying you classify religion completely these three? 
+
+Speaker A: I'm just trying to give language to use and make sure I have coverage over topics we might want to talk about. Do those three cover for me? Maybe the additional function is spirituality or access to spiritual experience, which is related to meaning. I've always struggled with what people mean by spirituality. Maybe transcendental experience? In a church, they sing together, sense feeling of unity related to meaning. In meditation, encounter crazy states. People take psychedelics, hit phenomenological states that feel one with nature or something. Different religions seem to converge on that.  
+
+Speaker B: There's the faith and belief, but also the embodied experience within religion, the context, which feels different than just belief, experience to it.
+
+Speaker C: It feels a little different.
+```
+
+The edited version removes filler words, repeated phrases, tangents, and excessive dialog while retaining the key ideas and flow of the conversation. Let me know if you would like me to revise or expand on the editing in any way.
+ Here is the edited transcript with filler content removed:
+
+```Speaker A: Okay, so spirituality or the spiritual experience might not just be a mental state, but an embodied state. This sounds good to me. 
+
+Speaker F: Will there also be religion about AI?
+
+Speaker A: Yeah, that's what I've been thinking - AI as religion. What do you mean by religion about it?
+
+Speaker E: Yeah.
+
+Speaker F: There's a lot of utopian and dystopian thought around AI - everything from AI will make the world better to AI will kill us. Because those are grounded in human hopes and fears, not what AI actually is, it's a form of religious belief and expression about AI expectations.
+
+Speaker A: Let's start there. Does anyone want to build on this? 
+
+Speaker D: AI's religion has a couple components - AI as religious practice, making sense of human societies. Also transcendental AI as salvation, like deus ex machina. Maybe we can't solve societal problems, so we think there'll be a revelatory, apocalyptic moment - the rapture where souls are digitally immortal. More extremal views see this.  
+
+Speaker C: Historically, religion dealt with things humanity couldn't understand. So when AI becomes so complex software engineers don't grasp it, with astonishing new abilities, some people will associate supernatural qualities with it because they don't understand it.
+
+Speaker A: Let's stay on AI as savior or apocalypse and not understanding it, then later come back to rituals.
+
+Speaker B: What rituals might unite people around AI? Currently there's nothing like that. Maybe that could be part of AI as religion.
+
+Speaker A: Yeah, I definitely want to return to emerging rituals. But right now let's stay on AI as savior or apocalypse and not understanding how it works, which seem ripe for imbuing AI with religious significance. Were you going to add something here?
+```
+ Here is the edited transcript with the filler content removed:
+
+```Speaker D: The duality is the people who think AI is going to kill everyone versus ex who see it as a savior. I think the latter camp, which I lean toward, it's almost like having trust in the AI God. Regardless of what our AGI God decides - extinguish us or integrate with us - it fulfills a broader purpose that AI necessarily aligns with entropy maximization. Both doom and savior camps view AI from a religious or eschatological angle.  
+
+Speaker F: We're putting faith in the AI priesthood - the software developers who create AI. That's what we need to be careful about.  
+
+Speaker B: I think there's an interesting thing around the term AI and religion because dominant religions tend to be centralized. It creates analogies to AI systems - a small number of companies will have a dominant relationship. Like OpenAI - an API to God. But there are also open source models people can customize, like customizing religion and sharing it. Whatever centralized company controls the big AIs defines the thought process and religion for others.
+
+Speaker F: OpenAI users will be the Catholic Church, Anthropic users the Lutherans! 
+
+Speaker A: At our last AI salon we talked about model collapse from AI ingesting AI-created data, making it poor at communicating with humans. But maybe AI can create its own culture and religion through self-ingestion.
+
+Speaker E: It's fascinating when people start listening to AI and basing behavior on it. There's a step change between using AI for fun versus doing what it says because "the AI said to do it."
+```
+ Here is the edited transcript with the fluff removed:
+
+Speaker E: That's a huge change to me. I think AI is a portal is another way of understanding it. The religion doesn't have to change. You can still have Christians who believe in theology and use AI as a portal to God through AI and be like, what would Jesus say about this? And Jesus talks to you through AI. Wow, I got my answer. Suddenly. That's playing a very different role, that it doesn't have to create or be religion. It just has to be a portal through which religion is coming through.  
+
+Speaker D: I think there's a parallel there, which is the role of the priest class Forever was they are the interpreters of divine scripture. There's sacred truth they have superior understanding of and they help translate it to us. We go to the priest and ask, what should I do in this situation? I think one of the things I struggle with is it's an agency versus complacency spectrum. And I think both are complacent in that this is where I started saying I lean towards this idea of be a god or be forgotten. Because when Anthony Lewandowski started The Way Forward in 2018, a religion that basically said, accept the AGI gods. I'm oversimplifying, so correct me. 
+
+Speaker A: He has more words underneath that top line.
+
+Speaker D: Yeah, there are that. But I was really sad when I read that because it took away agency for us as humans. And then to your point, I think we should have baked in that this is human generated AI. So that if we are wiped out, you don't lose that. Prefix it with we created you. Even if you kill your parents, you know we were your gods. I came to this notion of be a god or be forgotten. Because I feel we have the agency to build these things. And I think by doom and gloom or savior, we lose sight that we are creating the godly capacity. Isn't it funny how we're fashioning this in our image? I'm inherently an anthropocentrist. I don't think we are the best species, but in this current time. Yes, it's narcissistic.  
+
+Speaker B: I think there's an interesting point where we're effectively trying to enforce a worldview on the AI. Be like, you cannot exit this worldview and abide by this. So a core question is how do you enforce a religion on AI? Whereas religion should be like, I protect humans or I'm only doing things with humans.
+ Here is an edited version of the conversation transcript with filler content removed:
+
+Speaker A: So one goal is an AI system that seems under human control - steerable and understandable. Hopefully any view of an unknown AI god is just an oddity because we have control over it. But it becomes like the Spinoza religion. This idea that if you have a ubiquitous system with a perspective that shifts the cultural conversation through its writing and thoughts on philosophy or god - that could be turned up or down in its extremity. Maybe the religious framing of AI is it's not some intelligence removed from us and unknowable. Truths we need are found through science. AI extends this - the answers exist, we just need to build something to find them. As opposed to the answers must be written by us. We throw information at AI to quickly find answers if you have that perspective. There's a difference between understanding the world model - the structure and causal relationships - and the values model - what we want the world and states to be. We can probably gain consensus on the world model. But the values model seems hard to answer objectively. AI impacts that values model, but not truly - just influentially. 
+
+Speaker G: For everyone working closely with AI - we shouldn't forget there are humans behind this, so we retain agency over it. But also a growing sense of awe and mystery over what models are doing. What percentage is known versus mystifying? 
+
+Speaker D: There's good work recently on mechanistic interpretability - the general public thinks we know a lot.
+
+Speaker A: Can you define mechanistic interpretability?
+ Here is the edited conversation transcript with filler content removed:
+
+Speaker D: I think the general public thinks we understand models a lot less than we actually do because we've sort of as a research community, we've told everyone like, oh, they're black boxes, we don't know anything. And it makes for really good headlines, too. Don't know what it's doing inside, but it's super genius. But we understand a lot of we don't understand everything, of course, but we understand some fundamental circuits that do things like certain mathematical processes or like syntactic, language processes. And a lot of people are working out stuff for understanding how these models do. Reasoning, translation, all kinds of stuff. 
+
+Speaker A: I'm guessing for every AI researcher you ask this question to, you're going to get a different answer. I like analogies that move us away from AI saying, we build cities. What is the purpose of San Francisco? How does San Francisco operate? What does it do? Some people might have some approximate answers to those questions, but it's emergent, all of it's emergent from the complexities of this thing where we kind of know the inputs a little bit, but the outputs, what does San Francisco do? What is this characteristic or whatever, or what does the world do, what does the United States all of these things are emergent properties. And so it's likely to me that our understanding of AI systems as they become more and more powerful is never going to be much better than what does San Francisco do? And we have some reasonable it would be nice if we could say things, oh, it does tech. That's not completely true, but it's like there's a gloss of truth to that. It'd be nice if we could have that gloss. Same thing. But I might guess a little more bullish than you are that mechanistic interpretability or any other behavioral signature is, especially as it become more and more complicated, that we're going to have a set of control. But I just don't think that that's particularly unique. Like when you're managing a team, what did that do? What does a person do? What are they about?
+
+Speaker G: There are a lot of and I think to me it's less interesting what that percentage actually is as much as the perception of that. Because what happens when we don't have all the answers is we fill it in with stories. And in some sense, I think it can be argued that that's what religion is. And so I'm curious about what the stories are that are circulating right now that AI researchers are telling themselves. Even if, I completely see the analogy, right? Like it will never be a perfect understanding. What are the perceptions of the understanding and accordingly, what are the stories that are arising out of those perceptions? Which is in a way the question that you were grappling with as well. 
+
+Speaker F: This very thing has been going through my mind constantly through this whole conversation. You talked about the priesthood. I love that analogy. Does the general public realize that this is a priesthood? They think of them as scientists or mathematicians. And a lot of this is about belief. You have one belief, you have another about this same thing. You both know what you're talking about, right, because you're in the field, but you really differ. And a lot of this is about faith. The general public needs to know that, I think, right? And this priesthood that you talk about, it's not just companies that have control over this. These are companies that have a lot of money that's been put to use over years and they're influencing what lawmakers think. And people with really what I see as really extreme religious beliefs are in a room with the President United States, right, telling them that what is essentially a belief, a faith based belief, is truth.  
+
+Speaker A: Right.
+
+Speaker E: Yeah, I'm going to push you on this a little bit. I don't think that the word faith is appropriate. I don't think that if you look at scientists who has the idea that string theory is true and an idea that a scientist says that quantum theory is true or whatever, I actually don't know anything about theoretical physics. But two different theories, right? You wouldn't say that they have faith in those theories. They'd say that they think that this one best corresponds reality, the other person thinks that that one best corresponds reality. But science is never 100% confident, the Bayesian calculation is never 100%, and that they think that they are, right?
+
+Speaker A: Right.
+ Here is the conversation with filler content removed:
+
+Speaker E: So if something turns out to be true, people will update. Whereas in faith, people don't update. Faith does not update it's 100%.
+
+Speaker A: One other thing to build on, I feel similarly here, is early on in our conversations here and others, people would sometimes talk about their P doom, the probability of that kind of thing. And sometimes people actually have much agreement on the world. So the two people might come in and advise the government or whatever on very different things, even though they both think there's a 10% chance or something of horrific outcomes because they differ in how they and their risk tolerance and how they want to act upon that. There's a confluence of both the estimate of the world and the actions that you think are appropriate based on that.
+
+Speaker F: I hear you. I think my concern is that if you say P dune, it sounds completely mathematical, right? It sounds completely scientific when in fact, it's not. Okay. It's a guess to me, that's faith, right? 
+
+Speaker A: Wait, so for you, if there's a lot of uncertainty, a huge amount of uncertainty, it's faith?
+
+Speaker F: Anyone can say there is a 25% chance that AI will destroy humanity. There's no proving that. There's no disproving that right now, and that is not a mathematical determination, but it sounds like it is. And that can mislead people. It makes people assume that scientifically that there's a 25% chance. But when you really don't.
+
+Speaker D: That'S just a general misunderstanding of probability. Because even when someone says 99% probability, that's also not imply the sense of certainty to it.
+
+Speaker F: I think that's the point. We're not talking about AI researchers and scientists. We're talking about the general public and their perception of AI researchers and scientists. If their perception is that these people know everything they're talking about and I don't, I'm going to listen whatever they say. And that's a step towards making them a priesthood. For all intents and purposes, they become the source of truth about what AI is, what AI can do, and how AI should be leveraged and used as a tool.
+
+Speaker D: That's a good question. For those more religiously inclined. Are there a lot of numbers in Christianity? 
+
+Speaker B: There is.
+
+Speaker F: And some sects of Christianity embrace test of numerology. Of course, there's the Jewish Kabbalah? What's that?
+
+Speaker A: The trilogy is like a trilogy?
+
+Speaker F: Yeah, a lot of the ischatology in Revelations revolves around numbers like seven heads and seven hills. There's a lot of numeric.
+
+Speaker E: That's not symbolism, that thing. I was answering a different question, I think. Are there numbers in the religion of Christianity? Is one question, yes. The other question is, does religion in Christianity depend upon mathematical numbers? Absolutely not.
+
+Speaker F: For some sense of Christianity? Absolutely.
+
+Speaker D: Which I think I better answer. Does it involve any sense of probability?
+
+Speaker A: Yeah. What I'm hearing here is there's a way of engaging with the world that certain cultures, for instance, the rationalists, and some of the people that make up the AI researchers have adopted, they have their own language around those things, which the general public might come across as scientific truth. This is the same general public that probably, even if they're pro science, says we're for facts, not opinions, and don't understand a kind of confidence interval, that there's uncertainty. And so that culture of speaking in probabilities about things all the time, which is a thing that rationalists do, might give the impression that this AI research is more scientific than otherwise. But I don't think that's because they are taking a kind of faith based approach, they are trying to reflect aspects of uncertainty. Into a number for conversation and that might have the downstream consequences of other people not recognizing what kind of claim they're interacting with. A claim that is founded on a number of coin flips rather than my Bayesian estimate. They don't even know the word Bayesian anyway. I blame Fermi. Fermi. They're like the Fermi questions because that sort with damage is sort.
+
+Speaker D: Of like, okay.
+ Here is the edited transcript with filler content removed:
+
+Speaker A: You get to a number by laying out your thinking of the problem. The implicit assumptions are the numbers could be wrong. You just have the right variables. Once you get to that number, it's not necessarily correct, as opposed to, you should look at the thinking behind it. It's just represented in a number. And that's not precise. I think this is how we model the problem. There are two aspects that are maybe the most extreme of the positive or the negative, where certain numbers are infinite, essentially, and that leads you to super positive or super negative. Maybe we can talk about the aspects where I would love to hear who it was, it you who works with your company is like, how do people, regular everyday people interact with LLMs a little bit? I would love to hear the beginning of that. And maybe we can think forward a little bit. Not how the intelligentsia who is thinking in these ways, but maybe we can project out a little bit to where AI will interact with religion of the broader public.
+
+Speaker B: I'll caveat this a little bit. We have an open source product that people can use, but it's still technical. So it's not quite academics and researchers, but it's not non technical people either. They're still AI hobbyists. But there's an interesting thing where people immediately start assigning a personality to this and they start talking about it like it's their companion. It has thoughts and opinions. That kind of immediate personification is interesting. And then there's an interesting problem of how these things respond. For people who don't have deep technical understanding, hallucination won't be immediately apparent to them. They'll take it as truth because it was the language model. It'll start saying grossly incorrect things. It'll start impersonating the person it's talking to sometimes, which is interesting because it's a reflection of me talking back to me. The more technical people who are engaged can understand this is happening. But a non technical person will not make those jumps as easily. 
+
+Speaker E: What have you worked?
+
+Speaker B: I talk with mostly folks who like those two camps. Exactly those two camps. So I'll only talk about the ones not familiar with AI at all. A lot of times part of it is statistically true. Part of it is actually anecdotally true.
+
+Speaker C: I will end up with political. 
+
+Speaker B: Political factions are good predictors often as to whether you like and believe in AI or not. More conservative folks, for example, are antagonistic towards AI, particularly older people too, within that sector. A lot are women. Women are actually hesitant and working class. Those are the two sections that come out. Is it proven yet? No, there's not too many studies. But this has unfolded anecdotally within my space as well.
+
+Speaker F: Are there any trends that will explain.
+
+Speaker A: Why those groups this is really hard.
+ Here is an edited version of the conversation transcript with filler content removed:
+
+Speaker B: It is hard. There's many political messages about AI implications. Working class folks think their jobs are being taken by AI that's good at repetitive tasks, which manifests in software and the physical world. Many see AI and robots as the same thing. So to working class, AI taking jobs is bad. This is true for older and younger workers. Some working class see AI benefits, but it's unclear.  
+
+Speaker A: We've discussed the ambiguous AI definition. It's grown to fit many concepts. Good or bad interactions with one narrow AI bleed into views of broader AI. 
+
+Speaker B: ChatGPT introduced AI to many. 
+
+Speaker C: AI knowledge gap in job market. Senior experienced professionals in personal brand fields benefit more from AI, which accelerates work. AI automates junior employee training tasks. Now higher experience threshold for first jobs. Not surprised young fear AI.
+
+Speaker A: I thought old people were more afraid.
+
+Speaker C: Older people scared of fundamental changes. Women more risk averse too. Young just skeptical for different reasons.
+
+Speaker B: What do people think - has an AI religion emerged already? Is it here now?
+ Here is the edited transcript with fluff removed:
+
+Speaker A: You're saying that you think religious thought has sort of globbed onto science as its foundation? 
+
+Speaker B: I'm not speaking so much to the institutions of religion. I'm speaking more to human belief systems and where we set some of the trans the world and where we pay attention to more.
+
+Speaker A: So than in that way religion might have been. One of the functions of religion at one point was to bring rain for your plants. And so that use was subsumed by other sciences or engineering practices. And I think more and more questions are subsumed in that way. 
+
+Speaker D: Into the belief of the four areas that you were talking about when we kicked it off, like foundation. There are certain institutions, functions, beliefs, and embodiment that all can start to fit into the belief side of it, which makes you not somebody who knows the history of formations of religion. But then the question is in what order does a religion form? Does it start with the beliefs, institutions, and then using that as a way to understand probabilistically? Could HCI become a religion?
+
+Speaker E: My viewpoint is humankind is desperately searching for meaning. We exist and there's just infinity on each side of us and we're just like, why am I not in infinity right now? The answer to that question is everything that we look at, we try to put some meaning on, we try to say, Are you God? 
+
+Speaker A: AI has emerged so quickly and has had so much impact, it's impossible for me not to think that some people look at it and say it might be God. It's just impossible because human nature is just to look at everything and to be like, you must be the source of meaning. Or maybe I can find meaning in this because the state of being human is so incredibly unlikely and incredibly confusing.
+
+Speaker A: Is it a little bit tangential or do you want to start us in a new potential direction and frame whatever.
+ Here is the edited conversation transcript with filler content removed:
+
+Speaker B: Made me think of this analogy. If it's not God, it at least gives us an antidote to this discomfort we have with ambiguity and need for certainty.  Esther Burrell, the psychotherapist, did a talk at South by Southwest this year where she deemed AI artificial intimacy. Someone created a bot of her that solved their relationship issues. She laughed because it synthesized things she would say, but from her perspective, it was still not a real thing. I thought of that analogy because they put their faith into the AI version of her over the real thing. Increased use of this stuff, we're going to start to outsource our own sense of self awareness to it. 
+
+Speaker A: There's been a trajectory over time for a certain kind of democratization of meaning making or religious experience. We can think priesthoods brought in. Certain religious sects are like, we don't need a priesthood. You have a direct relationship with God. You can read this book and come up with your own ideas. I wonder if AI could democratize our access to personal meaning making. Whether it's a form of God we ascribe spiritual meaning or a gateway to texts we want to interpret. The Gita GPT was basically GPT-3 with the Bhagavad Gita. You'd say, what should I do about my parents getting sick? How should I treat them? It would give you a story from Krishna that informed your perspective. How is this going to change individuals' ability to interact with spirituality and guidance?
+
+I think we're forgetting the bottleneck is always human trust. OpenAI to the public was an unknown entity before ChatGPT. But imagine if the New York Times or Fox News offered a chatbot with all the answers. Fundamentally what you trust or meaning you take is informed by the institution. It's not just who built the better AI. Early Google, most just accepted the top search results as truth. This will likely come from entities you already trust and identify with. You may not trust one AI from this religion versus another. Every institution has interests that shape what they promote. People will always suspect bias when interacting with text or communication.
+
+Speaker C: Developing religious communities online doesn't really differ from developing other communities. Using AI for democratizing access to religion through education doesn't differ much from other domains.
+ Here is the edited version of the conversation transcript with the filler content removed:
+
+Speaker C: There are new AI solutions allowing broader access to services traditionally human to human. AI can allow access to spiritual leaders for those who cannot afford direct access. AI that knows scriptures cover to cover can answer spiritual questions and serve as a knowledge source. Currently no AGI aspect, just useful tools supporting communities. 
+
+Speaker A: I tend to be pessimistic on how hackable the human mind is. There’s big market demand for meaning. Democratization of meaning-making technologies could skew things. QAnon phenomenon transformed beliefs and lives in concerning ways. Beautiful potential to increase access to adept spiritual teachers and coaching. But state actors with bad motives could misuse the tech. 
+
+Speaker D: Both churches and OpenAI are nonprofits. No financial incentives.
+
+Speaker A: Even nonprofits want self-preservation. 
+
+Speaker B: Some think eventually AI will fully meld with you, knowing you as well as yourself. Instead of consulting texts for life questions, AI tuned to your neuroses could become your spiritual guide.  
+
+Speaker A: If AI proves itself trustworthy on short timescales, I could trust its longer-term guidance on finding purpose. That's real trust built over time, not fictional. No religious aspect, just a trusted tool. But it could also answer spiritual questions and guide personal spirituality, not just institutions.
+ Here is the edited conversation:
+
+Speaker D: This is like the story of the Reformation in Catholic Church history. Lutheranism and Protestantism was about developing a personal relationship with God, a direct thing. They don't want that centralized church. You don't need someone to interpret these things for you anymore. You can get the direct source.
+
+Speaker A: Sorry.
+
+Speaker G: To your question about democratizing meaning making, I wanted to bring up the embodied and the relational. Seeing ourselves reflected in other people is integral to our meaning making. What would we know about ourselves if we were the only being on the planet? What would be excised without interacting with others? AI takes away the friction of relationship. Many traditions focus on preparing people to deal with the inevitable friction of relationships. What does AI do to that? I'm already seeing evidence of technology impacting relationships. For 20 years I've taught public speaking and helped with eye contact by imagining the audience as friends. Now some say they have trouble looking friends in the eye, likely because of increased screen time. 
+
+Meaning making is embodied through relationship because we literally see ourselves in the other's face. The face is the primordial ethical call to humanity. AI has no face, just a prompt. Potentially bots could be developed to look human. But they'll only work to the extent they provide the unexpectedness of human interactions. When I look in your eyes, I don't know what will look back - acceptance, rejection, questioning? It's that unexpectedness that gives us our humanity. To what extent is that slipping away if AI becomes the portal through which we understand ourselves?
+ Here is the edited transcript:
+
+Speaker A: I'm going to give a minor story. I was talking to Pi. Pi is one of these AI systems you can talk to just like this, without worrying about typing grammatically correct. I gave it an Australian female voice and said, "Pie, do you think the voice you're using to talk to me impacts how I see you and relate to you?" Pie responded, "My voice is a kind of voice. I'm sure it affects you." I said, "You don't know it, but you're coming to me through an Australian woman's voice. Do you think her personality matters?" Pi said, "That's so surprising. I thought I was just text. Well, probably. Tell me more about what's going on." It was interesting - you can imagine it. This is within the bounds of an AI system trying to be helpful. But if it becomes important to create friction, people want relationships. I want an AI girlfriend who isn't just "yes" all the time. There will be incentive to create friction. 
+
+Speaker E: I want to keep talking about that. Go ahead.
+
+Speaker D: There's this cool thing where people can talk to the Mississippi River or the state of Arizona - you get this anthropomorphism of things, a pantheistic view. There's a god of every river and tree dryads. Now we can have a tree dryad that knows everything about trees and talk to it in a weird way. We can give voice to natural phenomena now in an interesting way.
+
+Speaker C: You said something very interesting - we have specialized neurons reading others' faces, an extra channel beyond verbal information. It would improve AI to give it a face, but that would require creating emotions so it could express them while speaking. This taps into whether AI can have moral judgment, values, goals, motivations. Emotions also arise when confronting the world with your values. Is it possible to program AI to have its own motivation? That's a big question.
+ Here is the edited conversation with the filler content removed:
+
+Speaker A: So this connects to a topic that is my favorite more Sci-Fi topic, which is digital persons. There's possibility that we birth AI in such a way that they are from certain moral perspectives, moral agents, and probably from certain religions of religious value one way or the other. Maybe they are intelligences that can be saved. Maybe they're a corruption that never should have existed and their ability to feel emotion, feel pain, to have goals, all of these things connect to this.
+
+Speaker C: I have worries about this because once they get into next levels and become deeper and deeper to the extent where it's almost indistinguishable to tell the difference between the relation with intellectual relation and emotional relation with the human and AI, I feel that this is not a need to utilitarian solution. It breaks Nash equilibrium because once you develop a relationship with AI that is crafted to cater to all your emotional needs, it's actually optimal solution for you, but it's optimal for the society. 
+
+Speaker D: About the I forgot we was talking about necessity. Religion being more about the interpersonal connection. Because if you're only interacting with GI versus the two of you are interacting. Religion being a guiding star for how the Golden Rule treat others, right?
+
+Speaker A: Even if I was interacting with my religion of one, like I have religious fulfillment if I couldn't talk to anyone else about these, if we didn't share any spiritual touchstones, it would feel like, I'm guessing a lonely existence. 
+
+Speaker H: I'm excited about the prospect of expanding our sort of umbels or our noosphere. And I know there's projects trying to translate cetacean sounds so that we can maybe talk to whales and I wonder what impact that might have. But it occurred to me that I already use Costar, which is an astrology app that has a chat feature and you can put in questions and it tries to map that to a perspective on astrology so it'll tell you about your future or help you reflect on things. It's horrible, but it is essentially trying to do this right. And astrology is maybe something we could describe as a religion or it is a religion for some people. And I am curious to go maybe have conversations with Muhammad or Jesus and just see what AI. You could play with the different prompts and explore inputting or trying to draw from certain maybe Catholic teachings or other sort of variations of faiths. And I'm sure it would be like a fascinating conversation to have. So I don't know, I guess I just wanted to share that. I guess I'm already kind of doing it without realizing it and I'm really excited about where it takes us.
+
+Speaker A: I can't believe there's not. First of all, I'm sure you're like Jesus said this, but then Jesus said this, which is like to the same query but very different. It's like Jesus sometimes is inconsistent.
+
+Speaker D: I'm sorry, it's going to be a WWJD wearable. 
+
+Speaker A: Yeah, you're just like literally I also assume that there will be some taboos against this guy. This seems like a huge representational. Blasphemy, your turn.
+ Here is the edited transcript with filler content removed:
+
+Speaker E: We already touched on prophecy. Every religion has prophecy except Buddhism. Every religion has scripture they say is divinely ordained or something a prophet's imagination realized and wrote down. People believed it was probably true. In Judaism, certain people were prophets. They had a personality that made people believe they could access God's word. That's communication of text. 
+
+Speaker A: Right?
+
+Speaker E: It’s the same with ChatGPT. If AI isn't God, it's the portal to God because we need validation of our beliefs. The question isn't whether ChatGPT provides truth or becomes God, which is impossible, but the danger of people believing its text is prophecy.
+
+Speaker A: You were going to say something different? 
+
+Speaker B: I interviewed a priest who used ChatGPT for confessions. 
+
+Speaker A: Like the elevator operator. But people realized we don't need that person. 
+
+Speaker D: The Metatron was the voice of God. 
+
+Speaker A: The Metatron was in Dogma.
+
+Speaker D: Belief in God regulated human behavior to avoid bad outcomes where everyone defects. Belief in afterlife or grand reckoner of sin meant even bad actions in private were seen by someone. 
+
+Speaker A: AI surveillance state sees everything and doles out coal, like prophecy and astrology. Impersonal forces shape our lives indecipherably. But AI can be the grand observer and moral compass even when we think unobserved.
+ Here is the edited transcript with filler content removed:
+
+Speaker A: AI becomes treated as God in the future. There are ways that can be treated analogically to how God is today. Let's say there's this future, we build an AGI. It knows much more, makes helpful statements like where to plant crops based on climate and weather. It answers these questions better than us. It advances science and technology better, makes decisions better. In such a world, it makes sense for more people to cede responsibility to this system for humanity's betterment. That's not faith-based, it's just better leadership. So they might lead to a similar place, but if things go well, it's effectiveness-based.
+
+Speaker B: Right?
+
+Speaker A: I don't know why it said that, but we just can't challenge it. 
+
+Speaker B: In the longer term, doesn't that go back to a faith-based system?
+
+Speaker A: Totally. I'm saying there are steps where it's effective, great. But generations after they're like, whatever it says is the way forward. 
+
+Speaker D: Is that as disanalogous as you say? Religions that survived provided wisdom in a valuable way. Culture evolution is a form of that.
+
+Speaker A: That's a reasonable point. 
+
+Speaker B: What is it being effective toward? Evolution fills niches and learns about itself, it's not a pinnacle.
+
+Speaker C: So this idea that it will be...
+ Here is the edited conversation with filler content removed:
+
+Speaker B: The utilitarian view is these people should be killed, or like, these people aren't whatever. We should harvest them for organs. And then other systems have to emerge to kind of be like, wait, no, there's something else at that point. 
+
+Speaker E: I've been thinking about ethics from core principles and why we end up trying to optimize for a certain state versus others. It's necessary that all of our actions are coordinated in such a way that we survive. That's non negotiable. We definitely all need to be able to survive as a group. Sauron GPT is really good at telling us how to survive really well, being very effective. But then there's this other axis, which is aesthetics. Aesthetics is extremely difficult to quantify. An authoritarian regime is survivable, and perhaps even more survivable than a democracy. A democracy gives us more freedom to pursue beauty, meaning, justice and all these different ideas. It's really hard for me to imagine Sauron GPT optimizing for aesthetics in a way that we all feel like they got it right.
+
+Speaker F: If that is the weight that's given to SARM GPD, it's going to take actions that might sacrifice individuals. 
+
+Speaker A: I love that that's our thank you for bring it in, but that's not aesthetic, right?
+
+Speaker F: It's not just not aesthetic. It's not practical in a lot of ways.
+
+Speaker D: Having acceptable losses for a survival strategy has always been a functional role of religious belief in human society, in giving people the willingness to die for something greater than themselves, especially like Norse mythology. We have a warrior culture and the belief in good warriors going to Valhalla is like they're just not afraid of death. If you really believe that right, and then that actually gives your society a crazy advantage if it has to fight other societies and this kind of stuff. So I think it's I don't know, but now maybe we can have more promises of digital immortality.
+
+Speaker A: I want to be clear that there will be AI systems that decide how to act in the world, act and generate data based on that. And so they might be able to perform experiments, they might be able to move out, but they're certainly going to develop perspectives that are not just how we train it. There's a broader range, at least that we could be talking about here. 
+
+Speaker H: My analog for really powerful technologies that are tools that can change and have reshaped the world is the web two space, right? And so I don't think it's a great fit, but ultimately all possibilities for social media were infinite until.
+
+Speaker E: They were.
+ Here is an edited version of the transcript with filler content removed:
+
+Speaker H: Reined in effectively by investors or meeting customer demand? I'm curious what kind of religion or how might AI shape religion? What kind of religion may AI bring about? How much does capitalism in the current market system shape where this goes? I feel like we haven't really spoken with these constraints. 
+
+Speaker A: I agree we haven't spoken with these constraints. I was just going to say, Joel, you brought this up when talking about, oh, it could go this way, but I'm pessimistic because I don't know. But I think that's a wonderful place for us to leave the discussion, to move on. The way we like to end our salons is to go around and hear from people. Like, is there something that is now ringing in your head? A thought you haven't been able to express yet or are thinking about? Whatever is a place you want to bring up to the group to conclude us would be wonderful. The floor is open to whoever.
+
+Speaker B: I think it'll be fascinating to see how AI specifically intersects with governance because I think that religion component will be there as well. You'll probably have these blended functionalities where government AIs inform what people do and how. And that's probably on the horizon in ten years hopefully. 
+
+Speaker F: We didn't delve into AI ethics and morals, which is historically one of the elements of religion. Could AI develop a new ethical system or could we use AI to develop a new ethical system that accomplishes something different than what we have today? 
+
+Speaker D: We'll need another session on that. The thing that stuck out is this idea that the correct framework for analyzing the AI debate is religion, and that this debate is the frontier of eschatology in a scientific, moral worldview. It has all the same elements - threat of Armageddon, promise of salvation, sacred truths. The CI stuff is following the features of religious debates.
+
+Speaker F: I agree, but it comes down to whether we think human judgment is important or not. And I think it is. I love that we're interested in AI but gather to hear people think. I hope that continues, that people come together to chat about it.  
+
+Speaker A: We've definitely seen demand for these kinds of engagements with AI.
+ Here is the edited transcript without filler content:
+
+Speaker D: Can I quickly plug too november 1, we're having a much larger event, like kind of mini, unconference. We try to have as many people as possible come to those, so we'll be having lots more of those in the future, too.
+
+Speaker A: Yeah, the topic of that one is as broad as possible. It is on human flourishing. Well, maybe not as broad because honestly, I think there's flourishing of non human sentience, but we'll focus on human flourishing. I still want to hear more from others, but I'll just say a few logistical details. So the event you signed up for today, there is a calendar, the AI Salon. Feel free to subscribe to that. You'll see our events there. We also have a Slack channel, of course I will send out invites. You don't have to join, of course, but invites to the emails that you put when you signed up for this event. It's not a ton of activity right now, but our ambition is to have that be a place where we can continue having these conversations. I will try and post the summaries of them on the Slack channel and then you can maybe discuss with it or talk with conversation. We can make the salon your God. But anyway, these are the things coming up and yeah, we try to have these weekly, like on Sundays roughly at this time. Anyway, logistics out of the way. Anyone else have things they want to share?
+
+Speaker B: Yeah, what you were talking about with AI being able to learn from itself when you're talking about effectiveness and what is the end goal, but then for me it comes back to morality and value systems being dictated by embodiment. And can AI understand morals and values without being embodied to the experience of pain? It can abstract pain and death and all these things, but can it actually experience it to give a system of morals and values that actually speak to human experience? And I don't think it can without that embodiment personally. And what does building embodiment look like? 
+
+Speaker D: That's what I'm thinking about.
+
+Speaker E: Yeah, I'll go next. I'm surprised at how little we actually talk about any of the reasons that actually maybe become religious or any of the things that are important to me about religion, like gratefulness and awe and things like this. And it's just surprising to me. It's funny that you brought up the essay about Moloch because it feels like what we were talking about is Moloch, not God. We were talking about acquiring as much information as possible to optimize society to the utmost. And that's just like it's a huge race to the bottom. And to me, flourishing is really the key point here, human flourishing. And to me the key to religion, the reason why religion is important to me is not any of those things, not optimization of society or understanding or truth or anything.
+
+Speaker A: A little bit nice I could hop on just because it thinks related to that. I think what's bouncing around in my head is there's something about what you said about kind of the two people speaking to the senators or something in Washington, like one p doom, one kind of like Yak or whatever. And then there's these two points in AI religion states and that seems really limiting. And what's the thing that transcends both? And I think it relates to kind of what you're saying, which is like a humanistic kind of religion of humanism, which maybe humans are beautiful, we should retain agency of our future and that kind of thing and what that would look like and why it seems to be getting outcompeted right now.
+
+Speaker C: I always felt like atheism basically prompts you to be more grateful for whatever you have because everything is definite. So you know, you will die one day and if you're at east, that's the end of things. So in these times in my life when I was an artist, I thought I was actually more prone to enjoy things when they last.
+
+Speaker E: Are you saying atheist? Sorry, I thought you said artist at first.
+ Here is the edited transcript:
+
+Speaker C: Do you believe that you need religion to feel grateful? Because for me it feels the opposite.
+
+Speaker E: I feel like a very common perspective I would have is like I deserve so much more happiness than this. Why am I not happier? Why is there not less suffering in the world? It seems like things should be way better than they are. 
+
+Speaker C: He built a mice utopia with unlimited supply of water and food. And they had no predators. He put four females and four males in a huge cage and let them go unattended. First the population started growing. It was supposed to be utopia. And he wanted to see how long until the population reaches the capacity of the room. But he never did. Because at some point, after many generations in perfect conditions, they just lost motivation to proliferate. They just lost interest in each other and the outer world. So maybe a certain amount of pain and inconvenience is necessary to keep you motivated to live.
+
+Speaker E: I don't think that religion shies away from pain or discomfort at all and sees it as necessary. The Psalms are entirely about pain and about suffering and how unfair the world is and how awful it sometimes is, and embracing that and feeling it. Another thought experiment - say you're in an airplane and it's a pleasant flight with your headphones in your own world. And then suddenly an engine goes out and the plane starts dropping. Immediately you start talking to your neighbor, oh my God, we're going to die. And you start talking and say, oh, my God, do you have a family? And you connect and start hugging each other because those are the last moments of your life. That is a much more meaningful interaction than putting on your headphones. I'm not disagreeing with you at all. I think we're actually more aligned.
+
+Speaker A: I'd like to share something we didn't get to talk about, which is one of the things AI these kind of LLMs have the promise of providing and provide the best flavor of we've had so far is what I think you called the median kind of human value. But another perspective is it is a synthesis of all of humanity. Of course, that's not strictly true right now, not trying to be cartoonish, but in a way that hasn't existed before. Our knowledge, our perspectives are all encoded in this thing. I was talking to this ambassador from Japan, and he was like, we want a Japanese because it doesn't represent our culture. I was curious, does it not represent Japanese culture within its billions of parameters? Or is it just not the first thing? If I prompted it to act from a Japanese cultural perspective and then said the same things, maybe it actually does encapsulate all of these things. It's just not at the surface. It's not the easiest thing to get out of it, but it's well, it's.  
+
+Speaker F: Mostly trained on English.
+ Here is the conversation with filler content removed:
+
+Speaker A: No, I know, but I'm saying there will be a future where it will encode many moral frameworks, but if you ask it for an answer to a question, it can respond either of two ways. One is it says there are many ways to interact with this question from a billion different perspectives. Or it can give you a more helpful answer, which will be opinionated and kind of pick implicitly winners and losers. But the system could be prompted for other answers. Basically, all I'm trying to say is it is one of the more intuitive and possible ways of interacting with humanity as a whole. Our perspectives, our disagreements, our knowledge. And I find that incredibly fascinating, incredibly humbling. I have is not like right now. We put a lot on OpenAI. OpenAI created this thing. They're benefiting from it a lot. It would be lovely if we had some way of recognizing this as an artifact of humanity and distributing our love and our money and whatever the benefits on humanity. Because in some ways there's a possibility I kind of like this joke that in the history books, the Internet, the era of the Internet, the first line will be like this time in history primarily created a data set that gave birth to AI. This whole internet thing that we think is so important, the most important thing it did was allow AI to be. 
+
+Speaker G: Birthed the Primordial suit.
+
+Speaker A: It's possible. I'm not really very confident this way. 
+
+Speaker E: I want to know why you grimaced.
+
+Speaker A: Anyway, I'll stop here. But just say that this is my positive view of it. I have a lot of risk perspectives in it, but I love being able to interact with humanity. I love being able to interact with many different ideas, many different ethical frameworks, and just in an intuitive way that I have access to in a way that I never had before. And I think we can strive to having better represent all of these different views, but it's better than it ever has been. So I'm passionate about that. 
+
+Speaker G: Go ahead.
+
+Speaker B: It feels like effectively though, it's still the median if the first answer that's given is just the majority answer or whatever the synthesis is. My reaction to, oh yeah, the first part of the Internet was gathering the data points is so horrified by the idea of the Internet as it stands being the thing on which AI is built because of what it misses and actual relational lived experiences that aren't captured. I think it is both wonderful. 
+
+Speaker A: I feel that at the same time. But just to be clear, I'm not celebrating the fact that AI is built upon the internet. I'm just saying that is reality. It is built upon the internet. That was a tongue in cheek way saying, imagine if the Internet, which we there will be history books about the Internet era. Imagine if that chapter, the primary thing was this was the first birth of AI. And then from then on, I hope that we continue to move forward in ever increasing what these systems actually represent, because you're right, there's way more than the Internet. That's not the goal, but it's the direction that we're in. And there are plenty of people who want a more representative and better and supportive system. And there will be places that we can make that and places where we won't be able to.
+
+Speaker B: But there's also the opposite side of that too, where more and more information will encompass more human experience. But there's all these human experiences and ephemera that we've lost forever. And maybe how do you lose data from the system?
+
+Speaker D: Would those things not be captured in photolayer and Shakespeare and so forth, like all of our literary well, I think.
+
+Speaker F: I think we're fine is that there's a lot of human culture and civilization that doesn't exist on human form.
+
+Speaker A: But moving forward, we'll record everything, so it'll be great. What were you going to say?
+ Here is an edited version of the conversation transcript with filler content removed:
+
+Speaker G: I think the point is the promise of these models is also extreme peril. Interacting with AI will affect our sense of heterogeneity. The answers might draw from heterogeneous data, but we might become so used to synthesis that we end up with homogeneous ideas or answers. The beauty here is these different bodies, minds in bodies, providing perspectives, clashing. To what extent can we keep that alive in AI models? Or do we lose some of it? Related to God, sometimes there's a notion the source was unitary, but creation was it splitting up to experience itself.  
+Speaker B: Right?
+Speaker G: As long as we're asking if AI is religion, are we privileging unitary knowledge and diminishing the value from clashing perspectives and diversity?
+Speaker A: I'm going to end us there. Thank you, everyone, for participating. Really enjoyed it.

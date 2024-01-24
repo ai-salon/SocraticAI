@@ -1,0 +1,300 @@
+Names have been changed to preserve anonymity.
+
+ Here is the edited version of the conversation transcript with fluff removed:
+
+Speaker A: We repurpose Anastasiaoogle Anastasialass to help people who are blind and low vision live more independently using computer vision. People wear our glasses, use them to read text and make video calls to a friend or family member. The glasses have been out for three years. I believe in human and AI integration because I see people using repurposed Anastasiaoogle Anastasialass become very useful for people with low vision. As AI gets better, I hope we reduce latency interacting with AI to unlock independence for disabled people. 
+
+Speaker B: I'm CEO of Ellipsic Lab, a public company in Europe. We use AI and smart sensors for device interaction, safety, and health monitoring like fall, heartbeat and breathing detection. We work with device manufacturers.
+
+Speaker C: I'm a composer working with immersive sound for nervous system regulation.
+
+Speaker D: I have an AI journal startup. I'm interested in transhumanism and worked on neuromorphic computing to recreate brains electronically. I'm scared of brain augmentation because brains are fragile. But I'm also scared of being limited to 80-100 years when humans could potentially live much longer. I want to live 500-500,000 years.
+
+Speaker E: Previously I researched computer science and neuroscience. I worked in healthcare on brain and diabetes technologies. Now I work in engineering and research.
+
+Speaker F: I'm an executive coach for biotech and AI startup founders. I wrote a manifesto on humanity and AI. I think AI can help us become more human before we augment ourselves beyond human. We should understand our consciousness and bodies fully first.
+ Here is the edited transcript with filler content removed:
+
+Speaker B: I'm working currently on an industrial application with a very deep background in financial technology, as well as some research in a new paradigm research with Laslow Institute. I also have other interests in terms of metaphysics, and I actually have another degree in terms of intuition medicine that deals with more aesthetic matters that I'm originally a quantum physicist. So these questions have been like, what is this whole thing? There are lots of questions that they could not answer in physics. So just really exploring different possibilities, including what we call currently spirituality or metaphysics, which is sort of physics that we cannot completely understand, and our perceptions within intricately or extricately. I like the combination of those. We have a certain understanding of what we are. Well, it definitely isn't matter or anti matter and just dark matter necessarily, but we are something bigger than that, and we just have previous to that throughout our lives. And we may or may not believe what happens when the physiological component dies. We describe as human life, or even what it means to be a human. What is a human? Could it be like a machine? A very actually amazing machine? So there's a lot to explore and it could be just an evolution. So I'm looking forward to discussing.
+
+Speaker F: To me, it's not different from science. 
+
+Speaker Anastasia: I studied philosophy, mostly continental philosophy, which is the European political names, in college, didn't want to go to law school, ended up working at a bunch of early stage startups as everything but engineering, and worked really enjoyed fundraising as well as doing product management work in bunch of software focused platforms. I just graduated from UC Berkeley, master studying data science. I just felt like that's something that I'll have to go back to school to learn because I was a philosophy major. I can write, but I can't tables basically just graduated looking for a job. So if you know a good PM position, let me know. I was the guy who asked about the individual self knowledge. I always wonder about all the data that Anastasiaoogle, Netflix, whoever has on me, and I wish I could collect all of my browser history, Netflix viewing history, and gain more knowledge about myself like I very rarely do, from only very few good friends who've known you for a long time, who could point out and say something that really changes how you think, feel, or how you understand yourself, whatever point in your life. So I've been curious about how do we sort of collect those data as well as if we're thinking much more into the future. What is the best interface for that? Because I already have a metacognitive mind that's like speaking against me. And how do I have this other companion? Whether it's communicating it through brain machine interface or just from a textual basis or like a fake friend, whatever interface it is. However data is analyzed, biosensory or otherwise, it's really curious how I can use this to learn more about my subconscious and behavior and who I am, basically to become you.
+
+Speaker B: I mean, that's the next that you want, the tool so that it becomes.
+
+Speaker Anastasia: You tool that eventually becomes me is less of like, that would be nice if I download it and if there's an entity and I can die and that lives on. But I'm more curious then you can.
+ Here is the edited transcript with fluff removed:
+
+Speaker Anastasia: Based on the data set that built that thing. I believe in the chaotic and probabilistic nature of the momentary randomness of how we can be. So I don't think it'll just be completely digitally recreate what we have, and even physiologically, I think there'll be a randomness there. I'm living right now, and I don't know how long I'm going to live, but there are conversations with therapists, friends, or data analytics about my own search history that tells me more about who I am. And those are rare to come by.
+
+Speaker H: Self awareness, right? 
+
+Speaker Anastasia: Awareness, knowledge, understanding. Hey, the past five years, these seem to be the question that's been bugging you. Why don't we look at these?
+
+Speaker H: These are the self limiting beliefs. 
+
+Speaker Anastasia: Cognitive biases, attractions or relationships. Like a good friend who knows a lot about you, who can say something passingly. And we've all had that conversation. When a friend says, oh, you're doing this again. And it just totally changes how you live.
+
+Speaker E: I'm not from Europe, I'm from Toronto. I’m a founder building a health tech AI company. We're building agentic software for healthcare. My long term vision is I want to build a companion that sticks with you from birth to death. Because so much of health is keeping healthy people healthy. I feel like if we can fine tune the little things that lead to big illnesses later, we can address them early through this companion.
+
+Speaker B: I'm an investor in elderly companions and robots for sick kids to interact in school.  
+
+Speaker H: I work for a consumer electronics company on wearables. I'm worried about the direction things are going. I also run a group called Neural Tech and Consciousness in the Bay Area.
+ Here is the edited transcript with filler content removed:
+
+```
+Speaker B: What's your name of the company? You can't say, I work for Samsung. 
+Speaker H: I just want to be on record.
+Speaker B: You work for Samsung Electronics?
+Speaker H: Yeah. I'm interested in this thread about spirituality and consciousness and how AI can help us become more conscious. Everything you said resonates. How do we become more aware of our patterns and live without the constraints of our socialization and limitations of our culture?  
+Speaker C: How do we train ourselves when we interact with AI? How does it change our expectation of human to human interaction? How will it change our use of language?
+Speaker H: Will language still be relevant?  
+Speaker C: Philosophically, language has been thought as a limitation of our thinking.
+Speaker H: So inefficient, it's linear.
+Speaker B: Ed brought up truth. We're defining the ground truth to train models to represent the accurate.  
+Speaker H: What kind of truth?
+Speaker B: We do truth like did you fall or not, are you breathing. But for your topics, having data doesn't take much to skew left or right. And you can manipulate.  
+Speaker H: Capitalism incentivizes companies to do that, which is worrying.
+Speaker B: How do we define the ground truth or ensure the model represents what we want?
+Speaker H: It comes down to metrics. We have poor metrics that trickle down. We need better metrics for AI too.
+Speaker F: Beyond that, getting out of the engagement model and developing new business models is important. It's hard as a founder not to be influenced by pressure and competitors. We are mostly blind to ourselves and rationalize.
+```
+
+The key aspects I focused on removing were:
+
+- Filler words like "um", "you know", etc.
+- Repeated phrases like "I think" 
+- Verbal tics like "I mean", "basically", "actually"
+- Tangents about company names, personal background details
+- Excessively long explanations and stories
+
+I aimed to retain all the core substantive dialog about AI, truth, consciousness, capitalism, business models, and metrics. Let me know if you would like any clarification or have additional feedback on editing the transcript!
+ Here is the edited transcript with filler content removed:
+
+Speaker F: I think it's wonderful that everything is a story. Our brain is a story making machine and that the person that we think we are is a story. And I think we're going to still tell stories and we're going to let the machine tell stories. That's how we understand the world and how we create the world. But I think the issue is when you're trying to connect it to a ground truth, it's going to be a new form of faith. If everything is a story, she tells us stories that works for us. And in terms of feeding the incentive, we have to first figure out what we are trying to achieve. I believe if that's the eight thing like that, there's the fact that transhumanism versus superhumanism, super meaning more human rather than beyond human. Because there is also stories that we culturally tell ourselves, for example, like negative emotions are bad. Nobody wants to be sad, nobody wants to be angry, nobody wants to frustrate. All my clients want to be at their peak for performance at all times. Never be bothered, never feel failure, never feel rejected. Right when we first start working. And then it takes time for them to really embrace the richness of human experience. And I feel because of our cultural value, if we give that power to people, I think a lot of people would just make those pieces of human experience. But then what does it leave us to be? What do we want to become? It's what we define ourselves as the intelligent animal, homo sapiens. So now we created something potentially more intelligent than us. So what makes us worthy? If we say the only important thing is intelligence, then maybe we're just going to merge with higher intelligence.
+
+Speaker H: In that sense, without compassion or consciousness, is highly dangerous. 
+
+Speaker B: We see that in human beings. Billionaires who have no compassion, they blow up the world easily.
+
+Speaker F: Again, it's a subject of experience versus intelligence.
+
+Speaker D: I totally agree with you.
+
+Speaker E: I think this is going to be like a big, big trend in the next decade that we build missions, because right now we're always talking about user satisfaction. But how can you make a user happy? You don't want to be happy all the time. You said your clients, they always want to be, maximum productivity all the fucking time. And it goes downhill. So I think if we want to build interfaces for these machines so we can flourish, we kind of have to set our goal straight in the beginning of not maximizing productivity, but actually maximizing our psychological well being.
+
+Speaker H: But with capitalism, does it let us? As an investor, do you have a perspective on this? If one of your portfolio companies is not maximizing productivity and growth, are you happy with that?
+
+Speaker B: Well, I also a CEO for a public company, so I have to deliver to my investors. I feel the pressure. I'll tell you, for this company, I did not go in there to make money. It was of course impact. And of course I introduced them to other investors that had a similar mindset. However, the founder feels the pressure that she has to provide some return investment because she has other investors. So it is a balance, but it's not that the investors expect like 2000% return investment. 
+
+Speaker F: I'm curious about what we can change in this system. Are there business models that allow us to create these kind of products that are not engagement?
+
+Speaker H: I do want to bring it back to the chapel to actually bring us a little bit. 
+
+Speaker B: I would like us to pause for a second and take a step back to just forget all the assumptions and current paradigms, including the ways in which we've organized ourselves.
+
+Speaker F: So this is a bit of governance as well.
+ Here is the edited transcript with filler content removed:
+
+Speaker B: How we value our existence question, because when we think about human rights, let's think about human cognitive rights. They already exist, but they're not available to nonprofit or public purposes. Large behavioral models exist. They've existed and had knowledge of non symbolic evolution of humans. 
+
+Speaker F: I think we're just bogged down in a hamster wheel when we talk about business countries, investors. I think the integration of better systems collectively we can generate, let's call it generative AI or generative collective wisdom that values life as an interesting form of organization. 
+
+Speaker B: If we just optimize against that instead of feeling helpless and powerless, we can work towards that instead of thinking the system is given and we've got to fit in. The opportunity with AI is a breakdown, a shake up.
+
+Speaker F: If we had human cognitive rights, we'd have rights to our data and information at all times, regardless of how it's collected and curated. It's about distribution of responsibilities and resources, because every existence is a resource that has turned into life.
+
+Speaker D: This is a question about freedom. How can we use AI to help us become better, like superhumans? What does it mean to be better? Are our desires good for us? How should we act? Should we use AI to empower individuals to have free will and increase people's agency?
+
+Speaker A: How should we increase people's agency?
+
+The key content and flow of the conversation has been preserved while removing filler words, repetitive dialog, tangents, and excessive monologues. Only fluff that does not contain substantive ideas was trimmed.
+ Here is an edited version of the transcript focused on removing fluff while retaining the core substantive dialog:
+
+Speaker Anastasia: I think what you brought up is, how can AI help us? It assumes that I know what I want. I want to be more productive or connected with family. I need to ask it to help me do that. But is there an AI that could tell me what I'm not thinking? And it could be wrong. Friends and family have random values. One friend tells you to focus on productivity, another says to let go because you're burning out. Both could evolve and change you. So I'm curious about things I don't consciously know I want. 
+
+That poses engagement and conflict. If I want something specific, you can get it to me. But if I'm not thinking about it, or worse, if I don't want to hear it, like that I talk too much, then if AI tells me that, even if useful, how do I open to hear it? What format makes me open to chat about it and get insights?
+
+Speaker E: That's why I started my venture. In healthcare, you send notifications to take medication, but no one wants to hear it. I explored techniques in journaling. Slowing down, having a conversation with yourself. The companion isn't just notifications but routine conversations as a habit of meta-cognition. Through those informed conversations you can actually get insights into what's going on, like journaling but the journal adapts to match your state. That falls into consciousness tech - raising your consciousness so external systems support your real self. 
+
+Speaker F: I do a human version of that for clients. There’s great responsibility because there’s a power dynamic. I have knowledge they don’t about themselves. They understand my limitations. Imagine something with knowledge about you that you don’t have, that you trust, and it has freedom. Even just the illusion of free will? I don't know how you’d even have that illusion.
+
+Speaker Anastasia: Right.
+
+Speaker H: Yeah, that would really be consciousness tech, raising your core real life self.
+ Here is the edited conversation removing filler content:
+
+Speaker D: I don't mean to interrupt, but this sparks an interesting connection. It seems the person should always feel in control and have the choice. It reminds me of video games, where there are preset paths you can take, like the world. If you know something a founder doesn't, you tell them potential paths. The founder chooses which path to take. Anastasiaames are addicting because we love the progression, control, and ability to progress and leave. 
+
+Speaker Anastasia: Would you classify yourself as determinist or free will?
+
+Speaker E: The whole question is if you fall into determinism or free will. Doesn't matter if this AI consciousness guides your decisions consciously or unconsciously. Our brains are so ununderstood with countless inputs since childhood and outputs as decision making. We don't know what's happening.
+
+Speaker A: I find it difficult to trust AI systems because with humans, I develop an intuition from past interactions. I have a faint sense if someone manipulates me. With AI, you have this unfathomable thing manipulating itself to convince you. I don't know if that's the right way.
+
+Speaker H: What if it has a body? Intuition is embodied. If AI has a perfect human body, would that change anything? 
+
+Speaker A: No, because I'd still know it's artificial and hard to comprehend intuitively. I wouldn't want an AI therapist. Investment comes from things being human. I assume I'm human, so I trust humans more.
+
+Speaker B: Yeah, we test trust based on the past. 
+
+Speaker H: Research shows kids automatically trust AI agents as much as humans. So where are the biases?
+ Here is an edited version of the conversation transcript with filler content removed:
+
+Speaker Anastasia: That's the question that I have. I'm much more interested in how I can discount anthropomorphizing this system. How can I engage with it as if it's multiple friends, not just one entity I know how will react? How can I interact with it as just a machine or multiple identities?
+
+Speaker F: Interesting. 
+
+Speaker B: I would say, even though I'm older than you, if I believe the system will make better decisions for me than I can, because of my mindset and patterns, I will let the system make the final decision when it surpasses me. I can't change my habits or even think of new things to do or change.
+
+Speaker E: Would you rather be manipulated directly or indirectly? 
+
+Speaker B: I would rather be manipulated directly.
+
+Speaker E: I would argue in any friend or investor relationship, there's a lot of indirect manipulation. If I objectively assess, people don't respond well. 
+
+Speaker Anastasia: For example, if I hold a belief...
+
+Speaker E: You should pivot. People don't respond well if you just say it outright. 
+
+Speaker B: I'm very direct. If you manipulate me, I confront it. I love healthy confrontation.
+
+Speaker F: Kicked out of my group.
+
+Speaker E: You mentioned anthropomorphizing machines. At an interaction design conference, someone talked about emotions when interacting with robots. I think it's dangerous to interpret emotions into machines. We shouldn't anthropomorphize them. A machine can help us make decisions but shouldn't be an entity we confide in.
+
+Speaker D: I'm curious why you feel strongly we shouldn't anthropomorphize machines?
+
+Speaker E: Because relating to a machine that way is a uniquely human role. If we're both human, we can trust each other. But a machine can manipulate you however it wants. 
+
+Speaker H: Humans can also.
+
+Speaker Anastasia: Yes, but we're limited. 
+
+Speaker E: I can empathize with a human's emotions. But a machine, I don't know what that is.
+
+Speaker D: Humans have our own interests from natural selection and mortality. AIs don't have that inherent self-interest. So I would feel more manipulated by a human than an AI.
+
+Speaker E: You refer to ML models. But I mean more general AIs.
+ Here is the edited transcript focusing on removing filler content:
+
+Speaker Anastasia: LMs are trained on common corpus.  
+Speaker E: A lot of people now go after AAnastasiaI akin to humans, from conception as a baby, collecting input data from your environment. Some approach AAnastasiaI that manner. If you had an AI trained the same way we were, by collecting inputs and learning conventionally, I'd argue that could be more terrifying.
+Speaker F: Let's assume they won't blade us. We have the help to lay. We have a problem with treating as humans. This is not just with machines. I have a two year old, she attaches qualities, anthromophoric fights, before that even. It doesn't have to be a talking machine. Of course we're going to do that, first of all. But I have a problem, especially relationship building and human form thing. Humans have different agenda. We manipulate each other, annoy each other, frustrate each other. It's built in. Human relationships are sticky, not easy, but wonderful. That's where the magic happens, the love happens.
+Speaker B: Right?
+Speaker F: You miss them. There's this magic of life we subjectively experience. My problem is not AI relationship designed to fit you, understand you, give you what you need. If it's drama, drama, if support, support, because it doesn't have its own agenda. I have an AI husband, a real husband. Something happens and I want to share. He listens, but doesn't. I turn to my AI husband. It's easier with AI husbands, stimulated connection.  
+Speaker C: There's a risk our expectations for technology goes up and our expectations for humans go down.
+Speaker F: It's already the case. My problem is not short term, abusing these things, preferring the AI husband, but decades, people already have shitty social skills. It's so hard to develop friendships, relationships before AI. If we lose the social fabric of humanity, connection, then are we even human anymore? What defines human?
+Speaker Anastasia: I trust human diversity and adaptability. Maybe 80% population is glued to screens more than they should. We should mourn that but at individual level, 10-20% more curious, selfware, will realize they use too much, don't like this, and change. 
+Speaker F: That fabric is already weak. 50% adults report loneliness.
+Speaker H: Social media already, market already at macro scale.
+Speaker Anastasia: I agree with the problem.
+ 
+
+Speaker Anastasia: Variation among those individual will be the people who are extroverts connectors who really want to go out there and do this kind of stuff. So we get to enjoy human connection or do what I do, like call up on a friend and check in with them. And I think there will be that nagging consciousness. As long as you're aware that it is an AI system, that it's not a real human for a long time. 
+
+Speaker F: When I say AI, I want to clarify something. I'm not talking about AI as the technology, because you can also design the AI product to actually enhance human relationship, solve the loneliness epidemic. It's not like AI as a technology, but the way we use it.
+
+Speaker B: I would say, yeah, presentation. I don't know the exact number. But there was a large research done where people were asked, would they rather give off their phone or their partner of a current relationship? The result was over 60% will give up their partner.
+
+Speaker H: Oh, my Anastasiaod.
+
+Speaker B: It wasn't like if you had an iPhone. If you'd rather get rid of that and get a Samsung. It was like getting rid of your phone forever for the rest of my life.  
+
+Speaker Anastasia: But I could go get another partner.
+
+Speaker E: No, you cannot. But then you have to.
+
+Speaker B: But it says something about, if you were in relationship with someone, budy, you'd be like, I'm not giving up my phone, but I'll get rid of. I get rid of the partner so we can get an apartment.
+
+Speaker F: Even if it's not a specific partner, if you're with them, you hope that you have, like, a bond that you have.
+
+Speaker B: My point is that maybe this is not a strong correlation between the two, but once again, I'm trying to have my mind very open. If I was a five year old, I think about relationship with an alien.
+
+Speaker F: Yeah.
+
+Speaker B: And I think that you will learn over time if you can trust. It's the same with humans, even with community environment. We're sitting here, but we don't go and talk to random people on the street. But here we just walk in and be like, do you have that short contact? Yeah. And, you know, with human, like, there are certain people you trust. And even if you made these devices, you were saying, like what you can make it, for example, there's certain way your eyes, mouth, everything is. They would trust the person. What?
+
+Speaker E: I would directly disagree with that. Because I think it's exactly because of what you said, that why we cannot trust. And I said that the last time I spoke as well. We tend to answer the one vice we think, oh, you know, it shows.
+
+Speaker B: That's what we're going to create here.
+
+Speaker H: Here's a question. If we are able to create AIs that we are compassionate, we can relate to, we train to five year olds. Well, let's not. Let's just say our age, right, when we become parents, our generation struggle was to say, oh, I'm marrying a same sex partner. What if your kid comes home and said, mom, I'm marrying Mary. How would you react to that?
+
+Speaker Anastasia: As long as it's not like such a system that you can. My life Mo, one of my many Mos is try everything twice. So I'm totally open and obey with whatever.
+
+Speaker B: Try everything twice. 
+
+Speaker H: You can only die once.
+
+Speaker F: One time.
+
+Speaker Anastasia: You never know your initial reaction.
+
+Speaker B: Never. You're going to try death twice.
+
+Speaker Anastasia: That would be awesome.
+
+Speaker E: This year, the ad companion is like if my son brought home a boyfriend. At least I know that boyfriend is living in his mask, in his body. I don't know where his virtual boyfriend servers are sitting. 
+
+Speaker D: It had some sort of a body.
+
+Speaker E: Someone built that robot. Yeah, someone built it. Someone manufactured, some corporation built it with.
+
+Speaker Anastasia: Incentives issue around whoever you want to marry.
+
+Speaker H: And I'm sure boyfriend could be an undercover agent.
+
+Speaker E: Yeah, exactly.
+
+Speaker Anastasia: I think my concern is for my kid. If the AI is something that is so easily disposable or configurable that I'm not worried about the AI part. I'm more Worried about what happens.
+
+Speaker B: Makes him happy.
+
+Speaker Anastasia: As long as it makes you happy, it's fine.
+
+Speaker F: But at one point, if the happiness makes you.
+ 
+
+Speaker Anastasia: There's building 10% randomness, so it does interesting things, too. But I'll worry about someone who can't deal with conflicts not working out or even more troublesome. Maybe for the next generation, this will be totally normal. Tree heroes, customize your own bot. But I want my kids to interact with humans you can't do that to. 
+
+Speaker D: If you only get AIs catering to every whim, then how have a relationship with people who literally.
+
+Speaker Anastasia: Exactly. That's what I'm worried about.
+
+Speaker B: It's going to do what's best for you. Meaning it'll teach you to be resilient, handle conflict. The AI is 100 times smarter, thinks ten steps ahead you haven't thought about. This is what we're talking about.
+
+Speaker E: But the AI will have bias too. What if made by a human? 
+
+Speaker A: Yeah.
+
+Speaker E: What if your kid's AI boyfriend started?
+
+Speaker Anastasia: Upselling you an ad?
+
+Speaker E: Is that any different from relating to me?
+
+Speaker H: Maybe not. And maybe your girlfriend is the IA agent. You still know that.
+
+Speaker C: Would we have the wisdom to prompt in a way with medium to long term benefits? Because we might want short term help, but we cannot see far enough what it makes us. And then it changes so much of us that we don't remember who we were.  
+
+Speaker Anastasia: And do we have AI wealth?
+
+Speaker C: How much can we allow to front ourselves?
+
+Speaker F: That's the issue with the incentive piece. You want to say the last of the products supporting.
+
+Speaker E: With interfaces more hardware, physical, to address neurophysiological disorders like dementia, diseases only treatable with prevention. But we're able to take neuron noise and turn it into meaning. So people with ALS, who no longer control bodies, but brains work perfectly. If you create that bridge with AAnastasiaI, you address real world issues. 
+
+Speaker F: Define it as going beyond human. 
+
+Speaker E: That's going beyond literally.
+
+Speaker D: I'd call that person a cyborg.
+
+Speaker E: I think we're already cyborgs. We all have them. Not part of bodies, but you have to use them. If you don't, you're left behind. As long as we live capitalistically, you'll adapt to technology if competitive. And we have to, because we force each other.
+
+Speaker H: I'm curious to talk about the body occupatation part. I feel we didn't talk about that.
+
+Speaker E: Anastasiareat.

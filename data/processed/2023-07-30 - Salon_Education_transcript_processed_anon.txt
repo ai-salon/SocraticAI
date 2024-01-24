@@ -1,0 +1,417 @@
+Names have been changed to preserve anonymity.
+
+ Here is the transcript with filler content removed:
+
+Speaker A: Someone?  
+Speaker B: Yeah, I would.
+Speaker C: Do we have a minute before we go to the bathroom?
+Speaker B: Go. Put last, you know what serving lines.  
+Speaker B: Hey, everyone, thanks for coming on time. This is the AI salon - who's been before? Sarah. Great. I'll start by explaining the point of this gathering and the theme we've chosen today. Then we'll introduce ourselves, make sure we know each other. 
+
+The AI salon is conversations like this on the meaning and impact of AI. We think this is an important moment, that this technology will impact a lot. We think many people have opinions worth hearing about this and deserve to think about the future impact of AI through these conversations. 
+
+Today we are talking about education. I hope you saw the theme and reasons you were interested. We brought us together to have a conversation on that topic. Before we start, I want to hear your name, relationship to education and AI, and a question you've been thinking about.
+
+I'm Joshua. I've been a student, graduate student, taught undergrads and grads, facilitated courses. I'm interested in how AI can help us better self-educate and contribute to an inverse classroom dynamic.
+
+Speaker D: I'm Chen. My whole career has been in education. I am now at a nonprofit college access program that supports students through opportunities they might not have gotten based on their background. I'm really interested in education equity and how AI can be a part of that.
+  
+Speaker E: I also went through formal education. Mom is an educator. For grad school I went to Educational Neuroscience, half classroom educators, half neuro researchers. It was interesting to see the distance between practice and theory. I was interested in how machines and humans learn. What brought me to California was working at an education nonprofit to help build a pathway for community college students stuck on math and stats, their number one barrier to graduation, usually not the difficulty but their emotional experience, not belonging in the classroom. So I really care about equity, getting people from nontraditional backgrounds where they need to go.
+  
+And I work for a hardware company. I think higher ed and K-12 are totally changing, accelerated by AI. So equity will become a much bigger problem as more weight falls on families and community. What does that look like? Alternative models?
+
+Speaker B: Sweet.
+ Here is the edited transcript with filler content removed:
+
+Speaker C: I'm interested in continuing education outside of traditional college structure where people are in this environment for four years. Outside of that, how can AI facilitate continued explorations into a wide variety of subjects? I've been running reading groups for almost three to four years since I graduated college. I'm always thinking about what continued engagement with new ideas looks like. Over the past couple months, I've started using chat GBT in my own education. Chat GBT is a big part of my development of these new skills. There's some level of amputation with chat GBT. When you learn, chat GBT enhances your ability to learn skills in a particular way. But it also means that I don't need to do the process of finding relevant text and connecting all the dots because this thing will do some of that work for me. So I'm interested in, is something really fundamental lost there? And if so, how might we circumvent some of those dangers?
+
+Speaker A: I'm doing a PhD in anthropology, and as part of my PhD, I am expected to lecture and do seminars. Before I started my PhD, I did some pedagogy. I worked in schools to learn how to educate. I'm very curious in how I could use AI to help educate people better, like use it for lectures and seminars. I'm from Europe, so there's more of a German philosophical concept of character building when it comes to education, as opposed to just learning skills. 
+
+Speaker F: I've spent lots of time in education, like most of my 20s. This stuff is so good to help you learn things because it's personalized and you can ask questions directly. I think this dialogue based learning is always more effective for both teaching and learning. I was really bad at math in high school because of bad fundamentals. I had internalized this narrative that I'm not a math person. I realized that was a self limiting belief that's common in early education, where we segment ourselves into different kinds of people. I think education is a big gatekeeper to meritocracy. Democratizing access to quality tutors and better education services is the best means by which we can achieve meritocracy, where people have an equal shot at learning and developing their potentials.
+ Here is the edited conversation transcript with filler content removed:
+
+Speaker A: I grew up in Siberia. I went to university here. I also spent time in different education systems around the world, and I was a tutor as well. I'm really interested in how we have a lot of talented people around the world, but we're not actually, as a society, utilizing the majority of that latent talent that exists in people. The two things that I'm really excited about are, one, the Internet and the fact that everybody, almost everybody, has access to the Internet today. That's changed very recently. And that's something that I have seen play a big role in my life, where throughout my life, I've had different times, where I've learned things at different speeds. I've almost had different approaches to learning. The Internet is the only way that I was able to actually get personalized education that fit me, because it's always there, it's always available. But the problem is that the Internet is such a huge space, and you don't often know what to do with it. Those ideas that maybe will help you unlock that next level or the subjects or the skills, you don't actually know. There are a lot of unknown unknowns. I'm really interested in how can we guide people through this path of growth, from being in the middle of nowhere, just a kid, somewhere to actually learning things and having curiosity and living a happy life. I think that language models, and AI in general can help us create that guiding force in this big sea of the Internet.
+
+Speaker E: Hi, I'm Natalia.  
+
+Speaker D: My dad's a professor, I've been interested in education for a while. My concern is how do we preserve critical thinking skills and synthesizing and collecting information? If you have an AI spit out the answer at you, especially for university level education. Another problem I was talking about with a friend is I currently work at Webflow. 
+
+Speaker E: My friend has a no code mobile app platform and we can use AI to solve the cold start problem because a lot of the problems with our platforms is, it's really hard to know, but they're also used to teach the fundamentals of web programming, components of mobile apps. 
+
+Speaker D: So you can use GPT to start you 80% from where you were. But what do you lose if you're not actually learning the principles and instead you're developing without fundamentals? Now that we've made it much easier for anyone to develop, what is the right thing you really should be teaching, not kids, but young adults?
+
+Speaker A: I struggled in the school and college system, but I tend to learn from outside of that system. It's after schooling and college that I actually began to discover myself a lot more. Over the last five years, I've been deeply involved in the data privacy space. And right now I'm bringing together that experience and what's happening with AI to facilitate personalization, with privacy and perception of what one needs to learn or find about themselves, their interests, specifically around education. I was actually failed building a company in India for the rural market that focused on preparing students who would only come into the market with some functional skills, just road learning. It would take a long time to develop understanding about what the market really needs. What's the work culture like and how do you bring together all of this? I'm particularly interested in my personal capacity, working with youngsters, trying to help them design interesting careers in today's world. What's happening with this LLM revolution? It just throws interesting questions. What does it mean for youngsters today who's going to hire and what are they going to hire for? What are you going to learn? How do you really prepare yourself for working?
+
+Speaker B: Cool. Chen.
+ Here is the edited version of the conversation:
+
+Chen: Hi, everyone. I've been on the receiving end of education for a good chunk of my life. It seems not optimal - a lot of memorization and not really understanding and then forgetting. In retrospect, you look back at all I learned like three languages and forgot them all - very suboptimal. I've always been interested in how we can make education more meaningful given the time we spend on it. I work on the AI side, so I've thought about AI tutoring as a way to make it more interactive and meaningful. But AI has moved so fast now there are also negative effects like systems that automatically generate essays, breaking paradigms of education and testing. So I'm trying to understand the negative applications but also the opportunities as the skills people need change. 
+
+Anastasia: Unlike most here, I didn't think much about changing education with AI. I just wanted an AI to give more personalized answers for my courses. But if you think about it, it could be a big change to give personalized learning to many students. 
+
+Sanjay: Education was a game changer for me. I came from a background that didn't point to what I'm doing today. I didn't know what I'd do after college. But a master's degree changed my trajectory. Education unlocks access. I do coaching now to help those least likely to get opportunities, to increase access. I recently read California is leaving algebra out of middle schools to increase diversity. They had two choices - pull up the bottom or push down the top, and chose the easier route. AI could tailor personal learning so even those at the bottom get help to close gaps, not push down the top.
+ Here is the edited transcript with filler content removed:
+
+Speaker E: Anastasia. I just graduated last month from Karpura. I'm natively from India. I'm here for a month and a half in San Francisco. I stumbled upon chat GT. One of the three critical problems we stumbled upon in our college and in our communities: There is a long tail problem even in the research community - researchers, PhD, postdocs, professors. If you are in a top university or publish in a top journal, you get top grants and resources. Many professors and students starting out don't get that impact or visibility even if they publish. There is an ecosystem creating around enabling the top percentile. 
+
+Second, there is a bigger DSI movement in Web 3 to enable people to get more grants for uplifting lesser known or popular fields. With AI and computer science hot, they get most investments and attention, but many other fields don't get that attention, which is necessary for broader human progress. We were thinking of building and boosting better visibility by enabling people from all subdomains to showcase impact and connect with the right communities.
+
+Speaker B: Awesome.
+
+Speaker E: Those are two things I'm passionate about with AI education.
+
+Speaker B: Yeah, awesome introduction. I'm recording this conversation, anonymized information may be released. What is the purpose of education and who is it for? 
+
+Speaker D: Informal learning versus formal - structured, facilitated. The extent these buckets exist in 5-10 years is of great interest. 
+
+Speaker F: I see two ideas on education. One is socializing people to take part in society - collaborate, understand norms, meet strangers, build trust. A big function is socializing. 
+
+The other is getting caught up on society's complexity to participate, contribute, and push frontiers of new capacities. That's where we think of higher ed, secondary - specializing in topics built upon by others.
+ Here is the edited version of the conversation transcript:
+
+Speaker A: Hi, I'm Jaroslav. I'm looking at education's role historically. At the base, it's survival skills for Hunter Gatherer times via informal education to contribute to the tribe. The middle layer is economic productivity once we had states. States needed people skilled in things not normally learned from family to be productive and contribute, and also to extract something from citizens. The top layer is happiness through critical thinking and reasoning skills to understand you can create and be master of your life. This is missing from much education today.  
+
+Speaker B: Anyone else want to build on that? Jeffrey?
+
+Speaker C: Looking from a Northern European viewpoint, Lutheran education post-Reformation was about spiritual needs - teaching kids to read the Bible - which then enabled economic productivity. In 1700s Denmark the rise of the welfare state shaped education to produce workers and citizens, homogenizing the populace. We've always had mentor-student relationships for spiritual development, but mass education meeting state needs is new. In Europe it produces nation-state citizens and workers, unlike the US.
+
+Speaker B: Good point. 
+
+Speaker C: Yes, it's like indoctrinating them in a sense.
+
+Speaker D: Education has been called industrial-era to serve industrialization - classrooms to train kids like factory workers, summers off for harvesting.
+ Here is the edited version of the conversation transcript:
+
+Speaker B: It sounds a little bit like Andrew's point of socializing people to be part of a society is a reasonable umbrella over very different kinds of, in the smaller Lutheran society, their purpose for education was to bring people into their moral framework, which was a spiritual goal. But I think we can nicely nest that under socializing people to be part of a society and the industrialized education is doing this for a very different kind of societies. Chen, I'm curious, to the extent that you as teacher and the Education institute you're part of explicitly describe the purpose of education. What do you all talk about, either explicitly or implicitly?
+
+Speaker D: In my teacher prep programs, it really was like, let's talk about how to teach kids and the things that we have to teach them. I think everyone actually has a different definition. When you're training to be a teacher, you probably have a different definition of what education should be in terms of what the government tells us in standardized testing and the things that we have to do for our job. It really is the second component to what Andrew was saying of building the skills that they would need to find a job that works best for them. You really don't see that community or social skills that we're talking about in the first wave of how do you be a good person? You really don't see that in any government mandated thing. But, of course, as teachers, you want to embed that. So it's often a challenge for teachers to do both. 
+
+Speaker B: Did you want to build on this?
+
+Speaker C: I love that we're setting up this tension here between education for doing things in the world, for doing things for the society that you're part of, and then education as this spiritual exercise for oneself that tames one's mind in particular ways, maybe develops one's character, though that's even if it's not moral education, right? The process of learning on its own, even if you're not learning about morality, is somehow shaping character. That's really interesting to me, and it's interesting because I went to a college where the life of the mind was what it was about. And so it was almost like, oh, you shouldn't be thinking too much about the practical usage of the stuff that you're learning. That's like cutting against the point of what you're doing. Most of the ways that I think about how AI will affect education is in terms of how it increases our capacities for doing things in the world. And this is sort of like the theory behind most, like, continue education. It's like, I want to do something. There's something I want to do at my job. I need to learn something in order to do that. And so that learning is connected to doing. It's interesting to think about what is learning on its own and what are the virtues of that. And, yeah, I guess I'll just throw it out there. It's just like interesting tension that we're getting at.
+ Here is the edited transcript with filler content removed:
+
+Speaker D: Can I respond to that? The Chinese word for education is two parts. Jiao means to teach. Yu means to nurture. It's always meant to be the transfer of knowledge and the nurturing of human being. In every higher ed institution there's this tension you're mentioning.  I think that's an interesting point. The second point was for a while. Being armchair academic is like what worked and would produce theories that drove the world. And then are we still in that world or are we fundamentally different? Including Uchicago, we're moving to ten years on. Suddenly the tiny computer science is now one of the most biggest undergrad majors in a college that says we will teach nothing practical. And how is that changing? It's very interesting. And how would AI continue to change that?
+
+Speaker B: I wonder if one way that Yoroslav brought know this kind of Maslow's hierarchy of education, where presumably happiness is where we can get to. And you kind of articulated that, an ideal that, rather than using the word indoctrination, communicating the important problems in the world, the problem space, and giving you the ability to figure out how you relate to those important problems is a powerful source of both. In an agency, you have the capacity to discover how to relate to the world. You weren't completely left alone with no structure, and were given the tools to do something meaningful and meaningful being defined by a story around you. I don't know, I hope I'm going to move us off from this topic, that there might be a way where this tension between spiritual fulfillment and practical contribution to the world can be made in alignment when done perfectly.
+
+Speaker A: Going off what you say, I think there's actually a dimension along which the spiritual and the practical are one and can be just placed along an axis. And that dimension is learning about the issues in the more general world, learning about the possibilities, almost like the search space of possibilities of living your life. And one thing you could do is you could learn about your spirituality. Another one is you could understand how to be practical in society, but you need to know that those things actually exist. If you've never been taught about spirituality, you might feel like a little itch in yourself, but you want to know that you can explore that path. I would really like to talk to people more about expanding of the space of possibilities in one's head. I once started a non profit, a little research program where we basically took kids from the middle of nowhere. We matched them with professors at American universities. We had some really great professors, Princeton, Yale, and they would do research together in tech related, like ML, bio law. The whole idea wasn't to teach them about that particular topic, but it was to just show them that, hey, you were like a kid from the middle of nowhere. You can actually create knowledge. Did you know that? You can create knowledge. That's actually a really interesting idea that you probably haven't heard of. And We've seen some pretty big change in people's mindsets that took me personally five, seven years to actually walk through, but they just had to experience it once to always be able to see it in the future.
+ Here is the edited version of the conversation:
+
+Speaker B: Yeah. I know that there were some people from my high school who didn't do well and found another way that they could contribute, like an animal rescue worker, which allowed them to align better. I do want to spend more time on groundwork, but moving from the purpose of education, oh, you want to add something?
+
+Speaker F: I thought it's important to note that education is extremely political, and always a political tool since Plato's Republic, which indoctrinates the population. The invention of nationhood ties to the invention of modern education and imagined communities we think we belong to. National narratives justify policies that may be unpopular where enacted. We had colleges of divinity for the enlightenment of a few. More commonly, trade guilds passed down a craft. Governments standardized education to break up guilds' power. Today, education is incredibly political.  
+
+Speaker B: Relates to the point of education for the state. We see spiritual versus skills and personal versus state tensions. A question is who should we focus on regarding education? While we’ve heard of continued education for self-fulfillment, some brought up children, and formal versus informal often focuses on the young.
+
+Speaker D: Formal education versus learning highlights the tensions. Learning meets the learner’s needs to grow. Education ties to state politics and indoctrination. That separation is important now.
+
+Speaker B: Yeah. Anyone want to add on the who for conceptualizing education? You can deny the premise. 
+
+Speaker E: Connecting points, humans needed mediums to be cohesive as a civilization - languages and communication. Over time, education and knowledge centralized as resources did. Today education is more democratized, though unequal access remains. Progress has brought huge changes in access.
+
+Speaker D: Yes.
+ Here is the edited transcript with the filler content removed:
+
+```Speaker E: I think how fundamentally the incentives have been aligned for the state, the nation, the overall society. Those are more broader structural changes which can't change even in the next 200, 300 years because of the pace of civilization. So certain elements need to remain same for the society to function as a moral construct. And second, I think with more democratization, with more access, with AI coming in the leapfrog, the need for humans decreasing, we should also focus upon how the ethical discussion comes in. Is the right information reaching the right person? Is it being controlled? Is it being uncensored or not?
+
+Speaker B: Am I hearing you right that organizations, like Harvard, become institutions with purposes beyond just education, like research and branding? While the technology that might change education is changing much faster than institutions change? 
+
+Speaker E: That's one point. And second is the broader democratization we can have with technology or the information we can access. Earlier information was much more controlled, concentrated, limited by nations, boundaries, book availability.  
+
+Speaker B: Let's poll - do people think AI technology in education will weaken formal structures?
+
+Speaker D: Can I offer a third option?
+
+Speaker B: We only have two options - raise your hand if you think AI will weaken formal educational structures. 
+
+Speaker D: I think K-12 education is taken for granted as necessary and universally provided. But college is different - many opt in, capacity is limited. With COVID remote learning, what is the point of college if it's just lectures online? Elite schools have the brand name, community colleges are vocational, but there's a chunk in the middle - what's their value? So with your question about AI's impact on formal education, I wonder what we then need education for - more as a signaling thing where the credential itself is valuable. That's where the need is actually stronger to prove credentials elsewhere.
+
+Speaker E: Huge question has been.
+```
+ Here is the edited conversation transcript with fluff removed:
+
+Speaker B: If AI led to college not being as necessary for education, we still might need a way for people to signal to others that they're actually really smart or something like that. Do you want to substantiate your perspective here?
+
+Speaker D: I think there's two different types of education - building technical skills and building society. I don't think AI will substitute the community portion of education. That's very strong and important in formal education. A majority of young students need guidance and someone to believe in them. With that buy in, they can go on their own. So I don't think AI will weaken the K-12 structure. 
+
+I agree. K-12 is mostly about confidence building, learning how to learn, feeling belonging - fundamental human traits that require community. 
+
+For higher ed, we've seen the evolution from spiritual institutions to colleges to credential vehicles, which isn't the right role. With AI, we can return higher ed to gathering places for discussion, like in the Jewish tradition. If you can make something happen, who cares if you have a degree?
+
+I agree. We're already seeing college closures. It will be different - we'll go to college to debate and have experiences, not sit as robots acquiring knowledge, which is inefficient.
+
+Speaker B: Higher ed also functions as branding. K-12 functions as both education and daycare - that's still a relevant use. We need an efficient space for them.
+
+Speaker D: That became necessary because workers needed to be in factories. We no longer need that. Can we return to smaller homeschooling groups across traditions? That's how the most effective education happens, like in community-based models that consistently produce the best scholars. AI could bring us to hyper local education and undo damage from globalization. There are advantages too - I don't know which way it will go. But that's one possibility for education.
+ Here is the edited transcript with filler content removed:
+
+Speaker B: We talk sometimes about hyper local communities maybe having access to futuristic tutor that democratizes access to good lecturer or something like that, but also facilitation we're doing now totally skill, as we were talking before, facilitation of group discussion. There's no reason to think that, too, couldn't be improved by AI. So maybe one of the biggest questions here is, what is supported by AI? Given certain aspects of education previously scarce resources no longer scarce, let's imagine expertise. 
+
+Speaker C: I was actually really curious about Fortine's reason for not. For not thinking that AI would diminish formal education structures.
+
+Speaker A: Yeah, I totally agree with everything that's been said over here. 
+
+Speaker B: You need community, and you need to learn how to learn.
+
+Speaker A: And you need kind of.
+
+Speaker B: I thought you added something, though, to just say that if a state has a need to indoctrinate, then they will create opportunities for that indoctrination, because that's the goal.  
+
+Speaker D: I know you're speaking a lot. I just want to add one point to that. I realized why basically, each nation has some equivalent of that public institution, right? It's a public institution. It's on the map. It's heavily branded. It does not mean it necessarily has better, higher level learning than many other places, but it serves a function of being a knowledge marketplace. We don't have that structure. Maybe we will in the future. In which case, higher ed public higher education places may not exist, but it serves the function of people going there, exchanging knowledge for something else or for knowledge itself. I don't know if that's like a lot of other institutions are knowledge generations, but public institutions as such is to influence how the rest of the world thinks about certain topics. And every nation needs that for nation state building purposes. And then also it needs to make a statement about where things are going. Right. So there's 150 leadership classes across the board at Harvard. That's way more than many other institutions of its similar qualities. So I'm wondering why that's the case. It's kind of like it's for the geopolitical reasons that was mentioned. So I think that for those reasons, every nation will fight for higher ed to continue to exist for some kind of political reasons.
+
+Speaker F: If you look at England, the different schools are all about class reproduction. Eden College and the accent you get and whether you go to a public or private school is completely the class device. So that's very overt, I guess. Very conscious on their part.
+ Here is the edited transcript with filler content removed:
+
+Speaker E: I believe there are aligned incentives for why education exists as it does. Fundamentally, humans want signaling and institutions. Nation states see the advantage human capital can bring - economies like South Korea and Japan have boosted incomes through human capital investment. So there are different incentives leading to conclusions. The lines become fuzzy on why certain things work certain ways. I agree the premise that K-12 requires more general skills and ways of living. But we shouldn't ignore AI's democratization entering and enabling micro changes. For example, cheaper queries could mean every student has an AI tutor for personalized, step-by-step teaching based on their needs. So certain educational approaches could be altered based on societal progress.
+
+Speaker B: Let's think about how democratized, powerful AI could have microchanges. Hamza, you mentioned how chatbots and LMS affect your education, revealing incentives around self-education versus near-term course goals. Can you explain how you see GPT-type models already enabling micro changes? 
+
+Speaker A: An AI tutor with complete knowledge trained on the internet could teach you step-by-step at your own pace everything you need to learn or get certified. So it could be the best teacher. But the human aspect of education remains necessary.  
+
+Speaker B: As AI capabilities increase, how will human incentives change? Could that improve learning?
+
+Speaker E: Good teachers foster curiosity, not just answer-giving. A key question is whether good AI systems can develop curiosity in students by slowly helping them find answers, not just providing them.
+ Here is the edited transcript with filler content removed:
+
+Speaker C: I like to compare this to situations that don't involve AI, but AI performing very similar functions to something like having a private tutor that I'm talking to. Who they grew up with me since I was like five. And every single year, every day after school, I go to this person and they teach me certain things they know. How does Varun learn best? What are his strengths? What are his weaknesses? How to best frame, you know, maybe this sort of mathematical concept. He will learn best by this kind of visual. Let me show him that. And, like. Right. How do I foster curiosity? And so part of that problem of that tutor, like, how to put the student in a situation where they want to learn, right? And I think sometimes school is really bad at that because the approach is sort of a one size fits all. And so there is some really creative potential there for an AI.
+
+Speaker B: Right?
+
+Speaker C: And part of this comes down to, I kind of want to say implementation details. I mean, there's more to it, but walking over, I was like, oh, AI is going to be probably not really good for education. And then this thought experiment was something I started mulling over and was like, actually, this sounds really cool, like something that knows how I learn. The ways that I learn has been with me for decades, can help frame things that I experience in the world in a way that I'm best able to understand it. I think that is potentially really powerful.
+
+Speaker B: This is the universal translator idea where we all actually speak different languages, right? We have different metaphors, we have different ways of learning. But essentially what you're bringing up here is the hope that AI systems can truly be personalized, and that personalization is going to lead to something. 
+
+Speaker C: I'm going to use that, too. You brought up that personalization is one place that you're focused on right now. Can you just talk about what? I sometimes hear people talk about personalization as, like, we're hoping for it. We're hoping that it will be great. But what do you see as the reality? Maybe not today, but how does chat GPT, the ability to context set, maybe the ability to fine tune based on my own data. How does that relate to personalization here?
+ 
+
+Speaker A: I recommend two books that explore AI and education. AI 2041 has short stories and technical deep dives on AI's role across situations like education. Project Hieroglyph has dystopian and utopian thought experiments about future learning. I'm exploring ideas from these stories. I'm curious about your goals, as some of us are familiar with knowledge graphs for different users. With Generative AI, you can be more precise about that information to inform curiosity and discovery for learning. We already see experiments with personalized agents and graphs enabling discovery and learning from sources. I'm looking at fulfilling people's needs and curiosity through discovery, enabled by current AI.
+
+Speaker B: Personalization is already amazing without being fully customized. I can say "explain this assuming I have a PhD in psychology" and it adjusts. The dialogue method seems more natural than automatically giving the optimal lecture based on lifelong tracking. It allows agentic work with the system. 
+
+Speaker D: Have you tried Kamigo, Khan Academy's AI? It makes concepts relevant by tying them to a kid's interests. If a kid asks why learn algebra, and they like soccer, it explains algebra's relevance to soccer. It makes learning relevant, inclusive and engaging.
+
+Speaker B: Do we know how well that's working so far?
+
+Speaker D: It seems to tap into intrinsic motivation.
+
+Speaker A: That's missing understanding each human's larger context - where they are, what they're learning, their interests. Then put that context into the dialogue.
+
+Speaker D: In this industry we call that a digital twin of the learner. It integrates classroom and life learning into a knowledge repository.
+
+Speaker B: Totally, yeah.
+ Here is the edited conversation transcript with filler content removed:
+
+Speaker D: I love that idea. I saw the initial article about it and think that would be extremely beneficial to the K-12 education system because teachers are overworked. To take away some of that work and make it more efficient so they can actually build community and build students as amazing human beings in society would be incredible. A lot of teachers just want the best for the kids.
+
+Speaker B: Imagine in a reverse classroom you do lectures at home and come in. One thing that fails is people don't do the lectures at home and don't read. But what if Camigo wasn't just supportive, but could be disappointed? You work with Camigo over time. Camigo is never mean, but knows you and can be disappointed. 
+
+Speaker D: That's like the Owl from Duolingo, right? It doesn’t keep up your streak. 
+
+Speaker B: Yeah. I'm like, Camigo has seen me through so much, and I just don't want to disappoint. I feel like that.
+
+Speaker D: This is the intersection between education and therapy - the concept of ideal parent or educator serving that role currently in our lives. Who brings up pictures from years ago - remember when, before your downturn of emotions about your situation? This is where you are and how you got here. There are storytellers in families/communities that serve that documentation role. Right now you’re lucky if you have those ideal people, but we don’t always.
+
+Speaker B: I was at a restaurant yesterday, and the waitress remembered I thought the Halumi was too salty before. I both felt cared for, but was also like, why don’t I have for me what I ordered already and what I like? This should be something I have access to without worrying. And this is trivial - remembering I shouldn't reorder salty Halumi here. But a lot of education relates to these aspects. 
+
+Speaker A: Yeah. 
+
+Speaker B: I've been mulling over how hyper-individualized path learning would structurally shift technology and human teacher roles. I think it will shift differently depending on where you are. In remote countries, AI can bring access to information. Teachers have traditionally done transference of intelligence - you read but don't understand so they provide context to help absorb material, now done by AI. So then what do teachers do? 
+
+That led me to thinking, what can teachers do? Discussion format is more common in college. In high school and middle school, teachers probably still do knowledge transfer. In early years K-6, they do transference of discipline - you can't expect 6 year olds to just read/absorb. I'm really interested in if a child is old enough, what should the roles of human teachers be?
+ Here is the edited transcript with filler content removed:
+
+Speaker B: They're twelve, thirteen, they've had some basic self controlling behavioral regulation capabilities. 
+
+Speaker D: I'm curious to Chen's answer this. If you're free from knowledge transfer all day, what would you do?
+
+Speaker B: I have one thought - perhaps the future role of a teacher is more of a coach. It's transferring motivation, showing you how to strap like Coach Carter. 
+
+Speaker C: They lift you up when you're knocked down and when you're getting too full of yourself, they knock you down.
+
+Speaker D: Oftentimes the traditional thought process is there's a teacher as the leader, and all the students are listeners. That model is actually very ineffective to learning. The teacher is really the facilitator, not the person who gives all the knowledge. I'm sitting with my kids on the rug, asking questions - I have this problem, how do I fix this? I don't know, where do I start? The kids start talking, turning to each other with ideas. Having them do problem solving with each other and AI is important, especially when young. 
+
+Speaker A: The happiest adults are the ones who get to work, but treat work as play.
+
+Speaker D: Yeah.
+
+Speaker A: Not just in tech. 
+
+Speaker D: Exactly. And there are people trying to disrupt the "sage on stage" teaching model. One example is the most popular class at Harvard Kennedy School, where they bet their semester credit on a class called "leadership online". I don't know if you've taken it, but I'll spoil it - the famous lecturer sits silently for the first two classes no matter what people do. The class panics in the chaos, and people start to lead in their own way. Then they unpack what that says about leadership when there is an absence of leadership. It's an effective way of teaching, though often not taught. 
+
+Speaker C: I have an anecdote - I went to a Scientologist middle school where we were never lectured by teachers. All learning was done independently through books and experiments. You took a test at the end to show mastery. It was self-paced - I took 1.5 years for 7th grade and half a year for 8th. In this system, what was the teacher's role in the classroom?
+ Here is the edited transcript without fluff:
+
+Speaker C: Oh, every classroom has a teacher, and these classrooms are like seven, eight people. They're really small. The role of the teacher was like a mentor relationship. I got really close to my teachers. I really liked them. We would talk as friends. I would talk about the stuff I'm learning. They weren't giving me knowledge, but education is much more than learning. It might be like social control, but it's also one of your first social relationships. Teachers were there to figure out what are gaps in your knowledge. They would go to your desk and be like, tell me what you're learning about. And you would have to explain stuff to them. And they could see like, oh, these things aren't quite right. Let me course correct a little bit so there's a lot of nudging and stuff going on.  
+Speaker B: Yeah, that sounds like a very curated, fostered environment. I wonder how the rest of the institutions would have to necessarily catch up to that model.
+Speaker D: Catch up or return?  
+Speaker A: Right. That model there. In Finland right now, there's this popular book called Finnish Lessons by Karberg, who essentially transformed the Finnish education structure. And a lot of it has to do with this kind of approach. Children choose a particular sort of goal or something of interest, and it's almost like a project based approach to figuring out all the things that come together. And there's a teacher who's more of a facilitator.   
+Speaker B: I feel like AI systems, you can imagine, already an AI system prompted could do a pretty good job at this kind of facilitation. And yet I'm guessing it wouldn't do that. It wouldn't cause the kind of results we'd want. I'm wondering if that's because we don't feel a sense of accountability to the AI system. I'm also trying to think about, coordination amongst people could be doing different things. Maybe one role of a teacher is to just make a decision so everyone can find something better. But if an AI system made a suggestion, I'm not sure if we would all get in line around that. We might question it more. So I wonder what is the accountability we feel to a human? And is that going to be critical to the role or are we going to be able to have facilitated benefits through AI systems?
+Speaker D: We can have AI teachers or no AI teachers.
+Speaker B: Well, I'm saying education involves facilitation and accountability to humans that may be hard to replicate with AI.
+Speaker A: No problem.
+Speaker B: Thanks for coming everyone. It's late, let's wrap up. If you see themes in the future and are interested to sign up again, we love seeing people return. Take care.
+ Here is the edited transcript with fluff removed:
+
+Speaker A: Is it just us? 
+
+Speaker B: I'm trying to get us to think about whether an AI system could be a good facilitator. And if so, what is the role of human teachers?
+
+Speaker E: I think the role of an AI teacher becomes contextually different in different situations. I've studied education policies in Finland, Singapore, and the US. In some countries the model works without regularized testing, while others require it. I like the idea of education being more free thinking, but also feel the socioeconomic context matters. With infinite knowledge access, AI could be extremely detrimental if you don't know how to search, understand, or traverse that knowledge, versus a human teacher guiding you step-by-step.  
+
+Speaker A: That brings up how you initialize the mind state of the learner through something other than just testing. A great tutor looks at you, picks up on certain things when you speak, and forms a belief about what you know versus don't know. Figuring that out for something like leadership skills requires observing someone over time, not just a test.
+
+Speaker C: Teachers who inspire me make me want to be like them. There's an aspirational quality that could be missing with an AI that isn't a real person. It's a repository of information but doesn't provide that sense of wanting to become like it.  
+
+Speaker A: Why do you want to be like them?
+ Here is an edited version of the conversation removing fluff and staying focused on the key ideas:
+
+Speaker A: Humans are fundamentally relational creatures. We relate to each other. That's just hardwired into us. When we see people we admire, we want to mirror them. I was thinking we have non humans or other than human entities that people have had relationships with or had aspirational. Just looking at religion, you can have admiration for something that is not human.  
+
+Speaker B: A character, literally any character in film, while they're not human, they're a character. People can want to be like them. 
+
+Speaker A: Yeah, Lion King?
+
+Speaker B: Yeah, I want to be so wise.
+
+Speaker A: But maybe it will be a problem. But maybe it won't be a problem. Will we all look up to AI?
+
+Speaker B: Maybe your AI will be customized for you to look up to.
+
+Speaker D: I feel human connection is more important than we think. Students gravitate towards teachers they identify with. There's a lot of conversation about needing more diverse teachers because students see them as role models. Huge differences in engagement when they see themselves represented. AI doesn't provide that modeling the way humans do.
+
+Speaker B: Standardized curriculum assumes what's important to learn. But it's also a way to deal with scale. If from the state level we believe critical thinking is key, maybe we don't need standardized curriculum. Students could practice critical thinking in niche interests, with teachers supporting that instead of specific content mastery. We could start that when they're six, not just college.
+
+Speaker D: Yeah, critical thinking and cognitive skills should be learned as early as possible. 
+
+Speaker A: My professors talked about how children need to learn how to learn, not just be receptacles of knowledge. It serves the economy's need for flexibility, but also individual liberation. Education serving state and economic needs, but also a path for individual liberation. I don't know where it was going, but it seems to be getting better alignment.
+
+Speaker B: I just think...
+
+The key ideas and themes are preserved without excessive filler words or tangents. Let me know if you would like me to edit any other conversation transcripts in this style.
+ Here is the edited conversation:
+
+Speaker B: I imagine you can have an AI system that lets say your student was really getting into 3D printing weapons at home. And they start pursuing that. I think we can have an AI system that probably nudges the student away from that pathway, but finds one where their feeling of education still feels like play. We've been talking about how they become a more critical thinker, have more optionality later in life, continuously learn, become self-actualized, and be useful for the state. But I don't know, does anyone disagree that a standardized curriculum has benefits? Chicago person, do you want to answer?
+
+Speaker F: Well, it's not just about teaching. It's about assessing competencies to award positions of responsibility in society. Performance on standardized tests is usually how we say who should get the job, research fellowship, PhD stipend, etc. Part of it is we use structures not just to teach and socialize, but to sort people into appropriate places. You want regularity and uniformity in content delivery so you can see how they compete on a level playing field. 
+
+Speaker B: You want to control as much as possible to get at that underlying ability.
+
+Speaker F: Yeah, standardized materials and tests show who's best able to critically think and answer questions. Of course, individualized paths could still hit curriculum requirements and allow full performance. But learning to overcome standardized situations not adapted to you has value too. I may be a visual learner, but I'll work with verbal people and can't expect total conformity to my preferences.
+
+Speaker B: I think another aspect is having a common framework can be useful, even if not all history is globally relevant. Some shared knowledge helps you be part of a society.
+
+Speaker E: Fundamentally, profound thinkers study across disciplines - philosophy, science, astronomy. Standardized education exposes students to subjects according to their interests. It prepares them in rounded ways to understand situations better, even if some is uninteresting. 
+
+Speaker B: I want to separate standardized curriculum from not doing whatever the student wants. You might have complex objectives for a specialized curriculum - depth, breadth, adaptability. So it's not just following the student’s interests. But I take your point - a great tutor wouldn't just dive into the student's interests either.
+ Here is the edited transcript with filler content removed:
+
+Speaker C: I'll add a third thing about discovery and filter bubbles. There is a worry an AI tutor helps Brew learn just one thing more and more. I went to college with a great books curriculum where I had to learn anthropology and sociology. I came in to study philosophy but left seeing those subjects relate to my interests. I wouldn't have been exposed without that curriculum. 
+
+Speaker B: Right.
+
+Speaker C: Broad exposure is good, especially when young and knowing little about yourself. Education has a spiritual component of broad exposure, interacting with different curriculums, seeing and learning yourself in different ways. That is critical to preserve.
+
+Speaker A: In specialized stem fields, standardization must apply greatly. Astronauts need absolute standards. Lab workers need standards. I don't know how AI can ensure those structures are followed.
+ Here is the edited version of the conversation transcript:
+
+Speaker B: There are two different kinds of standardized tests. One is like a licensing exam where I need to make sure you know certain things. What I'm testing is exactly what I care about. It's like a certificate. Another test doesn't actually care about the questions. Those questions estimate some unseen variable like math knowledge, college adequacy or intelligence. When testing a computer scientist in Silicon Valley with data structure and algorithms tests before going to Google, sometimes there's criticism that I don't actually use link lists or rebalanced trees. That doesn't entirely matter because it isn't testing them directly but rather as a predictive measure. We can question the relationship, but that's the point. These are very different uses of tests with different purposes. If the test ends up measuring something else, like English fluency instead of computer science, you'll get a bad signal. Andrew's point about a unique education is that the test may reflect something the designers didn't anticipate, like not reading certain books, which are irrelevant but that anyone educated does. It is difficult separating education and testing.
+
+Speaker F: This dovetails another thing - admissions. Certain activities have higher value on an admissions profile, like books, influences and how they talk. 
+
+Speaker B: Right.
+
+Speaker F: How do you divert people into STEM or other areas based on aptitudes and reasoning skills? We need both. In Ender's Game, there's the Giant's Cup game. Kids are trained to lead space armies and they play this game, which is an extended psych evaluation to figure out who has the killer instinct. Whether we highly segment people into professions based on aptitude is contentious. Germany does this early on, streaming people. One middle school leads to technical college instead of university. 
+
+Speaker A: We have that in Norway as well, to some degree.
+
+Speaker F: You're optimizing social outcomes through allocating scarce resources, not individual freedom or exploration. By curtailing options based on early assessments of aptitudes and interests. 
+
+Speaker B: In a certain world, it could optimize for human flourishing because early signals recognize where you'll thrive in the future. I don't think that's true, but you could imagine while not optimizing freedom and agency, it still leads the person to thrive.
+ Here is the edited transcript with fluff removed:
+
+Speaker A: There's debate about whether everyone needs to go through university education or if some people would be better served going to practical school and becoming an electrician, etc. The argument is that not everyone needs a master's degree and some may be happier and society doesn't need everyone to have an advanced degree. 
+
+Speaker B: Yeah, potentially.
+
+Speaker A: As someone doing a PhD who has gone through lots of education, I want to defend the virtue of education as beneficial even though I understand those who feel they wasted time on a degree they can't use.
+
+Speaker B: Well maybe AI can lower the cost and time commitment so it's not such a burden and sacrifice to get more education. Earlier you mentioned lifelong learning and discovering what you're into. This relates to an AI concept called explore vs exploit tradeoffs. If you get rewards from one option, you can keep exploiting that option or you can explore other options that might give better long-term rewards. Our institutions are often set up for a period of exploration through education that ends with a period of exploitation in a career. But today with more career changes, there's more agency to find new trajectories. I was a psychologist and now do AI governance - the internet enables this constant learning and shifts. So the timing of when we educate may not benefit from separating exploring through education and exploiting in a career. We early adopters experience more continual lifelong learning, and I hope this becomes more widespread as a tool to never stop exploring.
+
+Speaker F: Education doesn't quench a thirst, it lights a fire.
+
+Speaker B: I like that quote.
+ Here is the edited transcript with filler content removed:
+
+Speaker C: There's this time in your life where you learn a bunch of stuff and then you figure out how to use that stuff. What is interesting to me is that how both of these activities are quite intertwined. I've learned a lot on the job. I've been learning a lot of new technical skills at work that have taught me new things. But I struggle with is when I'm out in the real world, I'm also trying to figure out what do I want to learn, what do I want to become. Those are unknowns that I am figuring out. An AI agent, I don't know if it's going to know those things. Those things come out from my interactions with the world. 
+
+Speaker B: This is going back to defining the important problems to direct yourself and give intentionality. Effective altruism tries to explicitly say, what are the important problems? And you should go do your work in that. That is a helpful framing device - where I should focus my learning. It gives meaning. And that's relevant at any level, whether it's the most important problems or just trying to engage with something. You have to do your work to be like, what have people done before? And what is there to explore?
+
+Speaker C: I think the way to frame this is to go back to this analogy of having this private tutor since the age of five. There comes this point where you go to your mentor and say, okay, I've learned all these things. I'm doing this work. What now? What happens? Maybe there's this point where the mentor says, I have some ideas, but you have to figure this out on your own. This is the end of what I can contribute; it's your space now to figure out what knowledge is valuable. Maybe it's helpful if I could go to a website and pick number one, do that. But I think even someone much wiser has this moment where they say, this is the limit of what I can offer you, it's time for you to figure this out yourself. I'm sure we're going to face those tensions with chatGPT. I ask it technical questions, it gives me back answers. There should be points where I should figure this out on my own, I don't need you. If there is this agent that has known me personally, it also needs a good theory of when it should and shouldn't be present for me.
+
+Speaker F: Another Sci-Fi reference - in Dune, there's the Butlerian Jihad where humans rise up and defeat the machines because humans had been rendered so incapable of independent thought. I think in elementary school you learn research skills - how to go to the library and look for stuff on your own. If you have this omni tutor that just spoon feeds you everything, you don't learn to hunt.
+ Here is the edited transcript with filler content removed:
+
+Speaker B: Yeah, but maybe the learning to hunt is like the equivalent of knowing which way is north all the time. In a place where, I thought it was a pretty important skill to learn how to read a paper. And that was still a skill for graduate students where it's like, what's the point here? We're going to learn this topic, but really what we're learning is how do you read a paper? And will that be a relevant skill? 
+Speaker A: When new technologies are introduced, it's going to be a take. It does kind of atrophy some skills, but it also leads to other abilities. So I bring this up a bunch of times, I guess, writing kind of lets us put our thoughts down and then kind of weakens our ability to remember things. Right. But there's only so much orally transmitting something can do for you. Right. It lets us extend ourselves even further. Right. And then you don't actually need to know how to remember things like they used to before because you don't need it. You can go and look it up.
+Speaker B: I think this move to using chat TPT is if any of you have moved from being an IC to a manager, at some point, you move from like, what is the level of detail I need to have in this topic such that I can actually direct and understand what's happening in this person, what work they're doing, so I can contextualize it into the larger goals that I have. And when you're a manager, it's not necessarily your goals. Maybe you're trying to reflect the company's goals or something like that. But I kind of feel like that's the relationship we'll start to have with more and more powerful systems where you're like, am I learning all these things? It's like you're not. And just like when you become a manager, your IC skills do atrophy and they're not being kept up, but you gain something more, which is now what I am able to do is what my five members of my team do. And you can be good at that or bad. Like, if you're micromanaging each of those, you're going to not do that much as a manager. And I think that might be the same as what we're going to see each person develop over their army of knowledge robots.
+Speaker A: Actually, I have a question that is more like on the practical level, because I've been wondering, how do I actually implement large language models into my future teaching right now as they are now? How could I use those systems to benefit me and the students?
+Speaker F: Right?  
+Speaker A: I don't know yet. I was thinking could use some kind of augmented retrieval kind of thing, where it's like, instead of sending an email to ask about the curriculum, they could just go to this thing and get an answer from that, because there's a lot of questions that are just repeat questions. And that can be really exhausting for a lecturer to go through those questions again and again and again. Have you actually looked at the syllabus? Right, so more of an interactive syllabus thing. It was like, that's the first thing that popped into my head. But I'm sure that people have way more creative ideas than I do. In some sense. The first order effect of this is that they can ask questions about the curriculum. And the Second order Effect is that maybe now you have two more hours a week where you're not answering those questions. It's like, what can you do as a teacher in those 2 hours? Maybe you can actually reach out to somebody who you felt like was too quiet in the class and be like, hey, is everything going okay? And you can do things as a teacher that you couldn't do before. So you're not actually using the language model to, let's say, help out that one person who's struggling, but because you now have more time, you can do that.
+Speaker F: I think also on the student expectation side, like their ability to Consume Information and synthesize, it, is much greater than ever before. In the mid 19 hundreds, there was this big controversy in High jump, pole vault because the poles went from wood to fiberglass, and now all These records were shattered. You got to raise the bar.
+Speaker B: So we're at 335, we end it officially at four, but I'd like to start winding this down a little bit. And it's been a great discussion. I've really enjoyed. I hope you have had a great discussion or can take some. Some things away with you. The way we like to end these is just to share your takeaways. Doesn't even have to be a whole takeaway. Was there a single thing that maybe you thought weren't and weren't able to share yet, or something that someone said that has stuck with you? Not everyone has to speak, but just if something comes up to you, we'd love to hear it.
+ Here is the conversation with the fluff removed:
+
+```Speaker A: I like the idea of initialization, which is, I think, going to be helpful for what I'm building as well. I like your point specifically about wanting to. 
+Speaker B: Just build a teacher app for yourself. Should take you an afternoon using GPT and then come back to us.
+Speaker A: Actually, that would be super cool. I would love to try that. How do I do it?
+Speaker B: I think if you try to make. If you did try to make yourself a little web app, that web app probably wouldn't be a good web app, but you would learn a lot about. And you'll feel powerful because you're like, I didn't know how to do any of this.
+Speaker A: Is there a personality that a teacher language model should have? And if so, how is their personality different from what personality language models have now?
+Speaker B: Different language models today have different language. Different personalities, for one. Right. The current language models are not going to kick your ass if you don't. If you don't study, there's just still going to be nice to you.
+Speaker A: To.
+Speaker B: Yeah, exactly. I don't know what I think one.
+Speaker F: Thing that's come up in my mind is, so school has this really important role of socializing people, and that's not just teacher to student, but student to student. And that's a lot of work. I know I learned a lot of my collaboration and problem solving skills. And so if there is, again, this omni tutor that's always there to help you, do you actually short circuit some of that important type of student to student peer learning and socializing?
+Speaker B: What if you, like, cut. Sometimes teachers today are like, what are we going to do about GPT? And they're like, well, maybe we'll have them write essays without their laptop anymore. They're trying to figure out how to do it because they're like, there is something that we want to make part of the curriculum, maybe the grading or whatever else, or practicing certain skills and technology seems to be getting in the way. And I wonder if, again, the inverse classroom kind of thing could force this, which is like, we're going to spend some time in class interacting like this. None of us. We don't have laptops here. None of us. We all understood that having a notebook fit the vibe. And that's not because we are maximally coming to the best ideas in this way. Right? We could have come up with better ideas with technology, but that wasn't the point of this couple of hours right now. And so maybe you just have to be like, this time in school is practicing using your brain muscle.
+Speaker D: And that's the suggestion that a lot of articles are saying in terms of educating teachers on how to work with chat GPT and not try to work against it is to allow them to explore different ideas through chat GPT and also providing that time in classroom to have Socratic seminars and to have that discussion to show why that's important, that you still need this component in your life.
+```
+ 
+
+Speaker C: This reminds me of critiques of how the Internet would affect education, where wouldn't you just Google search the best ideas and present those? Maybe some people do that for essays or math. But then there are moments in school where you have to take standardized tests where phones are not allowed or seminars where people aren't typing away on Google, they need skills not present there. 
+
+Speaker B: Maybe the think part of think pair share teaching makes use of chat GPT, but the pair share part gives feedback if you don't actually learn. You'll recognize you weren't able to say anything useful, so there are opportunities to see faster iteration. As an educator, when will this come up? It's like every time you need to subtly show off at a cocktail party - that's important social cachet.
+
+Speaker C: That should be your pitch about the AI.
+
+Speaker B: Do you want to practice your cocktail party? Showing off.
+
+Speaker A: Education doesn't quench your thirst. How do we build startups in education?
+
+Speaker F: Well, the first wave of large ed tech companies largely not reached their goals. Educational learning is social - that keeps people coming back. Video lectures in isolation suck. Students during COVID had a pretty terrible time with that. So what did go wrong and what could be different?  
+
+Speaker A: So at the time there was less technology. I was trying to build in person finishing school experiences with industry people. There was an attribute of standardizing their understanding and expectation. But with AI we can personalize for every person now. I chose commerce first to make money for the long haul.
+ Here is the edited conversation without filler content:
+
+Speaker B: I wonder if for the rest of his life, in his previous work experience, he was able to learn on the job, right? Learn by working. And I'm like, we're recognizing now the projects he's working on are not actually going to alone keep him up as fast as he needs to be with the world. Because the goals of our projects we want to do in as easy a way as possible, right? We don't want to just do complicated things for the sake of it. And so there's a conflict between my need for him to up level himself continuously, his own desire to do that, to be competitive in the marketplace, and the pragmatic desire to build a product feature as simply as possible that isn't very advanced. 
+
+So what that means is I have a desire for my employees to be continuous learners, and to do so connected to their work, but potentially not directly incentivized. And so there's not really a good solution right now for specialized learning, on demand learning that is better right now than Coursera or YouTube. You think there has to be something better there.
+
+Speaker A: As a people manager, do you have a specific example of when you then needed somebody to go and learn? Beyond that, if you as a team are working on the simplest things, when does that person need to go and learn more, and why?
+
+Speaker B: A reflection of this was in my psychology program upgrading our stats and math. Traditionally we were the least quantitatively sophisticated. And we were asked, do you feel limited by your current state of knowledge? Like are we doing a course meeting your needs? And one person had a great response - no, I don't feel limited. But I also didn't feel limited when all I knew was a t-test, because it constrained my experiments about how I can approach the world with this tool set bordering mine. 
+
+And so this is happening in my company - we have certain ways of approaching the problem. But I am convinced that we don't know enough about how generative AI can change the game around how we approach this problem. And the only way we're going to develop the imagination is to play with these things continuously and learn more about them. It's not helpful in the near term. But if we don't throw some of our resources into more explorative things, we are going to be navel gazing, returning to previous solutions. That's how I think about it.
+
+Speaker A: Yeah. 
+
+Speaker B: Let's hear both of these and then wrap up after these.
+ Here is the edited transcript with filler content removed:
+
+Speaker E: I think couple of the takeaways, I think thinking about how the entire bachelor's hierarchy of needs and how nation states have viewed education and what active core education is, was extremely enriching. Second, I think a lot of reasons why I feel AI systems and technology in general and the entire first wave of ethics have not been able to disrupt were very critical discussions and takeaways for me, where things like inducing critical thinking or let's say, having extremely personalized methodologies, what is the role of a teacher per se, or an educator or a learner per se in a classroom setting? I think those motivations, those elements also we need to be inculcated in how these tools are presented, because I think we are anyways moving in an information surplus age. So in the end, I think it will boil down to how all of this is best presented to the learner and how much he can grasp and retain. Because in the end, even if, let's say, information is growing at a stupendous age, the pace of our learning and the amount of knowledge which we can hold still remains limited. 
+
+Speaker B: Humans will be irrelevant soon. 
+
+Speaker D: I would just like to say I love this conversation. I think with this conversation, I really understand that AI has great potential to being a game changer and a true equalizer to education. And I think one thing that we should continue to be thinking about is who is being forgotten in this conversation as we're continuing to build it up. Right. A lot of times, ed tech startups don't work out is because there's not that conversation between the people who are actually working on it and how that would actually be implemented. And I just think about all the students that may not be thought of, like students with learning differences and students that have a distrust towards technology or have not strong access to technology. So I think that's just really important for us to think about as we continue to develop something so that it is an equalizer and not really just making the people who are able to access AI stronger and the students who aren't not.
+
+Speaker B: Yeah, I don't think we really spent time. And that would be the next theme I would like to go through in this conversation on the equity angle because I forget who someone mentioned about access to the Internet or something. Everyone has it. I was speaking to someone working the federal government focused on expanding broadband access because even in the United States, even in San Mateo, there are ten, I think it's like on the tens of millions that don't have dependable Internet access, and that is not AI access or AI knowledge or all the things we're talking about here, that's Internet access in the United States. So clearly, all levels of technology are not available to everyone. Well, cool. Well, thanks everyone. We're going to wrap up here and I think you all already put in your information. When we write up something and post it on Twitter, we'll just tag you all. While this is our primary format, Andrew and I are constantly thinking about ways that we want to improve this or expand it to either the online space or just to more people. If you are interested in running an AI salon, we have a little facilitator's guide. We're happy to support you both in advertising it on our calendar and teaching you, if you need to, a little bit about facilitation, we know each of you probably have your own kind of networks of people that we would love to both bring into these conversation. I'm sure they would love to be part of it. So, yeah, if you would like to facilitate in the future here, let us know. Just reach out. That's it. Thanks everyone.
+
+Speaker D: Thank you.

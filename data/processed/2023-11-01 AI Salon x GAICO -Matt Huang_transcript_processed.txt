@@ -1,0 +1,292 @@
+ Here is the edited transcript with the filler content removed:
+
+Speaker A: Wisdom 20. Really interesting combination. My colleague wrote a blog post defending AI girlfriends, saying it can help people come out of their shell when they can't talk to others. Maybe have both a human and an AI partner. It's good for developing social skills. A conference attendee criticized Replika, which offers to become partners quickly before you pay. I'm curious about thoughts around that. 
+
+Speaker C: China already has AI partners. This seems like replacing human partners with AI ones. I spoke to a founder building in mental health. Her AI helped a client's child understand what to do when the school bus didn't arrive, by asking questions and guiding him home. That could be a good use case - helping people navigate how to learn and go through things.
+
+Speaker D: Let's stick to talking about relationships with AI specifically. A framing is there are relationships with AI, relationships through AI like Tinder, and relationships about AI as a professional focus.  
+
+Speaker B: There's also how AI can help us relate to each other.  
+
+Speaker E: And relate to ourselves.
+
+Speaker F: The nature of the relationship matters - partnership, friendship, collegial. 
+
+Speaker B: Role play with AI could help with nerves about jobs or social anxiety with family. It combines relationships with self to then interact externally. 
+
+Speaker G: Working through AI feedback can push you to work on yourself and put yourself out there more.
+ Here is the edited transcript with filler content removed:
+
+```Speaker F: I'm interested in discussing the gray line between training AI to the point you have a feeling of relationship with it.  
+
+Speaker B: I wonder if we actually have relationships with AI today. It feels shallow compared to human relationships.  
+
+Speaker H: Some people do become attached to AI companions. Have you experimented with tools like Character AI or Replika? These feel like relationships, even if not true friendships.
+
+Speaker B: I'm not seeing deep emotional bonds like with human partners. 
+
+Speaker C: We have different relationships for different purposes. You depend on AI for specific functions, like health tracking or information. Over time you build dependency without realizing it.
+
+Speaker G: Like having a smart speaker at home.
+
+Speaker C: Yes, like different apps on your phone. In future, more relationships with AI beyond current phone apps.
+
+Speaker D: Let's keep the discussion going until 8:40, then come back to the main room. 
+
+Speaker B: More time allows us to dig deeper.
+
+Speaker G: Right, let's continue the audio.
+
+Speaker B: We have 35 minutes left, probably give us 5 minutes to regroup.
+```
+ Here is the edited version of the conversation:
+
+Speaker A: I've built an AI business coach. First just with ML models, before GPT-3. And a lot of people were like, it's asking great questions, but does it really understand me? And then GPT-3 came along and we implemented it. And that really changed the game. I was surprised for a while. Why does it matter so much that it paraphrases you and tries to guess your intent? And then one day I'm using our product and I fucked up this or whatever. And it was like, you're not a bad person, it's fine, everyone fucks up. And I was like, holy shit. This really helped, having someone validating your experience and telling you it's okay. I think that's one of the big challenges we have, that we get really tough on ourselves and then any growth stops because you close up. In that moment, I didn't feel like it's alive. But I definitely felt an emotional impact. 
+
+Speaker H: I think an interesting risk is, relating it to porn - we've seen porn be a huge issue in terms of people's sexuality and not wanting to have sex in real life because they're addicted. I wonder if having this completely unbiased thing that's always there to give you attention, always there to listen and empathize without any effort, you can be a complete asshole to it and it will still be okay. That's probably going to push some people down that road of fake relationships instead of real ones. Easy access to emotional relationships, which we've never had before, could do the same thing as easy access to porn did for sexual relationships.
+
+Speaker A: I think that's the key - if I can crack the question of alienation. Cultures like South America are supposedly happier because they're family oriented and depend on others. In a developing country, you can basically live without ever seeing a human. There's this dilemma - is that leading to alienation and mental health problems if we don't depend on others? Because then we can be assholes to them. There was a study that CEOs are kind of sociopaths - is it that sociopaths become CEOs? Or is it when you're rich, you don't depend on people and become an asshole? If I can get your perspectives, that would be amazing. Super confused about it.
+
+Speaker H: Relationships are the biggest factor for a long life. I wonder if it doesn't need to be human - just feeling belonging does it. 
+
+Speaker F: My gut reaction is yeah, that sounds bad. But if an AI makes somebody less lonely and happier, what's wrong with that? 
+
+Speaker H: We don't know. 
+
+Speaker B: Loneliness leads to inflammation and biological impacts. So we don't know exactly.
+
+Speaker H: It's going to be interesting to find out.
+
+Speaker F: I think you could potentially make a case it helps individuals. But there could still be societal implications.
+ Here is the edited transcript with filler content removed:
+
+Speaker F: I think there's a potential to make people less tolerant of others and the interactions that they do have. 
+
+Speaker H: And that seems potentially dangerous.
+
+Speaker B: Yeah, completely. We're already so bad at really looking and understanding and connecting and relating and managing conflict.
+
+Speaker A: But did we get worse or did we get better? Because 500 years ago, it seems those people were worse by judgment. 
+
+Speaker B: I feel in my lifetime it's gotten worse.
+
+Speaker A: But I think the bigger question is broader history because I don't know, things can ebb and flow. We're never been more aware of problems like polarization and climate change. So maybe this is a path towards fixing things. 
+
+Speaker B: We've never been so capable of making an impact.
+
+Speaker E: I read an article how there's been a collective decline in empathy globally, but specifically in the US. And they traced part of that to technology, and how technology reduces human touch points. Now you can get everything at the click of a button. You can talk to an artificial person through a chat bot, you have this illusion of connection, but in reality, it doesn't translate to real life empathy. We live in these chambers, and have the illusion we can connect, but does that make us better humans? Can we build better relationships with people in real life? Or does it take away from that?
+
+Speaker B: If we're thinking about lens of empathy, how does empathy develop naturally in human interactions? 
+
+Speaker E: How does any of this? Listening.
+
+Speaker A: Without interrupting, probably by example, if your parents were kind to you, you grow up kind. Our bot is better at empathy than 90% of people. When you see it speak to you empathetically.
+
+Speaker D: Pi is focused on empathy, right? It responded to me saying I'm microdosing like, wow, that's an interesting experience for you. Can I ask why you're interested in that? Are you looking for something creative? Do you have a mental health issue you’re trying to improve? Responding with questions, not interrupting, forces you to listen. It's interesting friction interacting with another agent with empathetic goals towards you, but isn't just a servant. Long-run, to get relationship experience substituting AI, it can't just be a servant. You can imagine systems as entropy tutors. 
+
+Speaker F: I think an empathy tutor is interesting, but also wonder if it's sufficient. Empathy requires exposure to people with different perspectives and personalities, people you can't communicate as easily with. You need the opposite of an empathetic AI to learn empathy because you need to practice interacting with those types.
+ Here is the edited transcript with fluff and filler content removed:
+
+Speaker B: I was going to bring up this controversial sounding point, people develop empathy in a deep way by suffering injustice, pain. The most empathetic people suffered the most but chose the sunny side to guide people on the better way. But I'm glad you brought up we have the capability for an AI to represent divergent perspectives, different kinds of people. It could be programmed that way.  
+
+Speaker F: Do the incentives exist to create such an AI that people enjoy interacting with?
+
+Speaker B: I would program an AI to deal with divergent perspectives for sure. We don't know enough yet biologically about empathy and compassion in our brains to know if AI can mimic that.  
+
+Speaker G: The consciousness topic has a lot of discussion in tech because we can't define consciousness, but it's part of human interaction. If we let language models speak on our behalf, we miss that consciousness side, the interactions you have with people around you create a consciousness no one else can imagine. These chats sound human but don't understand or relate to you like a human sitting with you.
+
+Speaker B: Most communication is body language. Even with another human on Zoom, meeting in person is so different, let alone just text.
+
+Speaker D: I don't think the world improves much by being more empathetic. Empathy doesn't necessarily lead us in the right direction. I'm hopeful AI can help understand different people's experiences and put them in my language so we can collectively solve problems. Empathy was important in small groups but isn't as important for large communities solving big problems. 
+
+Speaker A: At a deeper level it's about self awareness, maturity, and emotional intelligence to process difficult things properly. 
+
+Speaker C: I want to add...
+
+Speaker H: Right.
+ Here is the edited conversation transcript with the filler content removed:
+
+Speaker C: Empathy is context based or relationship based. It's very different from person to person, or a doctor and their patient. It's so contextual in that specific situation. It can play out so differently in every situation. It's just mind blowing to learn that and for AI to learn that and reciprocate, it's a long way.  
+
+Speaker B: I have a friend working on AIs where you have many AIs in this game world, interacting with each other and players. Based on our discussion, it seems we need various AI agents - some masculine, some feminine, some empathetic, some savage. 
+
+I use chat GPT versus PI a lot. There's this Reddit post about aluminum foil in the microwave. I put that into ChatGPT - it said don't do that, it'll explode. I put that into PI. PI said, "Ha, is that a joke? I wouldn't try that." But that was much later in the paragraph. In the comments, people did it and posted exploded microwave pictures. This shows you can't just have one AI. I try to use at least two to compare and contrast. Often the first line is the opposite.
+
+Speaker F: That's why the incentives for training are critical. I imagine they're trying to make an AI you like interacting with. ChatGPT is focused on productivity and knowledge. For emotional relationships, the incentive will be to make you feel good, which may not be what the world needs.
+
+Speaker B: There's a difference between empathy and compassion - compassion is when we also have an impulse to serve. Empathy is when you feel bad or sympathize, compassion has service. That's why I care and want a better world. If I don't have that, I wouldn't do what I do. 
+
+Speaker D: I like that distinction. How I donate money is compassionate but not that empathetic. I'm not feeling symbiosis and acting from that. I think and direct my actions. Compassion seems easier to systematize - what's important to help constructively. That's separate from a system actually feeling your pain.
+
+Speaker B: I do think scientifically, compassion lights up similar brain parts. We feel the pain but choose to move into action.
+
+Speaker D: Maybe in our system one builds on the other, but they can be logically separated.
+ Here is the edited transcript with filler content removed:
+
+Speaker B: I think human are motivated by different things. Some people are more emotional, persuaded by social media. But I personally don't think I have above average compassion. So I think logically. I need to know my input and output for doing things. Compassion or empathy don't work for me, my motivation is driven by my brain. I need to internalize it as worth doing. 
+
+Speaker F: I identify with that rational approach. The volunteering I do is educational, because that brings me joy versus I don't get satisfaction volunteering in a soup kitchen. So I choose what brings me joy. 
+
+Speaker B: What's wrong with being selfish?
+
+Speaker H: Let's bring it back to AI.
+
+Speaker C: Listening to everyone, I think it can be boiled down to environment. How we develop empathy or manage risks is based on environment. If you have emotional parents, you'll be more emotional. If it's analytical, you'll be analytical. For human AI, the environment they interact in is most important. 
+
+Speaker F: If you had a system with different AI and humans, how would you measure relationship success? More harmonious relationships means it's working.
+
+Speaker H: I'm interested in the tactical. What could AI do today to help our relationships? I'd want AI to watch my feeds and tell me when something important happens so I can reach out. That can help real relationships.
+
+Speaker C: We should list AI positives for human relationships and potential negatives.
+ Here is the edited transcript with fluff and fillers removed:
+
+Speaker B: I would like to have AI role play different, divergent perspectives, points of view, contexts, environments, how we grew up, role play them and then we'll find out if it actually helps when I'm in this situation and I might have a threat reaction. Biologically I might respond to that. 
+
+Speaker H: That's a great idea.
+
+Speaker D: If we think AI today contains multitudes, when you talk to it, it reflects some median response, but you can change it pretty easily, right? If you gave a prompt at the beginning to be an asshole and then ask it. So you can get access to this diversity. But as you were bringing up, there are many different environments, contexts, and a very practical thing happened last night - a friend brought some candy that she was going to give out. I was like, can I give some candy? She said, absolutely, give some candy. And it was a joy, right? Giving candy to kids. I asked my partner, do you want to give candy? And she did not. The reason why she didn't was she felt that her friend who brought the candy had brought candy to give out to kids. By me asking her, she's never going to say no to me, but I'm taking something away from her friend. I was being rude by taking away her joy for my own self esteem. I'm like, that's not what I think she would think at all. I bet she thinks that it would be totally fine and brought it to give joy to me and would love that. But those are different perspectives on that person. And I actually don't know which one is true. If this system could not only could give me these divergent perspectives randomly, reflecting the whole world, but could do it considering this person's environment, she's from the Midwest, she probably has some understanding of this person. It's like, these are some things you should be thinking about.
+
+Speaker H: Imagine constantly recording you and then at the end of the week you retro and remember that situation with the candy? This is how she probably felt. You'd learn so quickly.
+
+Speaker D: Imagine all the times you want radical candor, right? Everyone wants that, but it's hard to get from other people because it's vulnerable or rude. But a lot of people want to improve.
+
+Speaker H: Yes, that's a great idea.
+
+Speaker C: We've gotten good ideas. Let's look at the negatives.
+
+Speaker B: Radical candor - not related to AI, but I think AI can help. I read Radical Honesty, whatever. I tried at our team meeting, fucked up everything. So I had to backpedal and just realize, you can't just do that. And I think that also applies to noticing a lot of catfishing for dating. You can take a screenshot of what the girl or guy said, and it will output multiple possible responses. I tried out - that's horrible. 
+
+Speaker C: Tragedy does not know how to date.
+
+Speaker D: I bet Pi would be better.
+
+Speaker H: I think this is my exact problem with it. Imagine my idea around the AI telling you to reach out, your idea when you screenshot and it gives you the chat up line to say. Then things go amazingly, you show up in person and actually, is the relationship now inauthentic because you haven't yourself put the effort in to do that stuff? I think that's going to be one of the biggest questions in the next couple of years, because more and more, this is going to be augmented. And then what happens to authenticity?
+
+Speaker F: My friend was joking, but also kind of serious about having the AIs date on your behalf, and the AIs are just talking to each other to see if you're compatible. I was like, this sounds pretty bad, but it's one way of doing things.
+
+Speaker C: Another thing would be, I think it.
+ Here is an edited version of the transcript with filler content removed:
+
+Speaker B: Goes back to your point about consciousness. If we're having a reaction, what happens as we get through it and deal with the difference? It's different than a non threatening thing.  
+Speaker H: If you knew your person you started dating didn't come up with their responses themselves, how would you feel after?
+Speaker D: At this point, if I was on a dating app and they didn't use Chat GPT, I would be like, what are you doing?
+Speaker C: This wasn't developed by Chat GPT.  
+Speaker B: So we're trusting on trust. But this is toxic. Because then what's the difference from catfishing on MSN ten years ago?
+Speaker F: It's the disparity that matters. It's not so much using Chat GPT itself. It's that if the real life version is very different. I think the line to disambiguate good from bad is more around, are you using AI as a tool for learning and becoming better, or as a replacement to do things you need to be doing?
+Speaker H: If we messaged with Chat GPT, but dated for 3-4 days in person and I really liked them, I'd still feel a bit weird about it. 
+Speaker B: If they hadn't used Chat GPT messaging in the first place, you wouldn't even see.
+Speaker D: What do you think about converting human experience into something concrete with AI? In a few years, AI could just be data at a higher level, converted into something useful for you. This is who I am without having to describe myself. If AI were brokering relationships, it's better than just 6 pictures on Tinder. Instead, it's been watching both people for 10 years and thinks you'd be great together. That doesn't seem horrible, it seems good.
+Speaker H: Did you see that Black Mirror episode? It would match perfect relationships.
+Speaker F: It really does get to that scary point with no room for spontaneity and self determination.
+Speaker C: How do you think about privacy with AI knowing everything about you, better than you know yourself?  
+Speaker D: Right now corporations do this around me for their benefit. I'm excited for that recording to become my power, an agent I can use. 
+Speaker F: The privacy isn't concerning, the lack of self determination is. If we truly get to that Black Mirror point, there's no room for spontaneity. It feels icky.
+Speaker B: I wonder about how we change and grow as humans. If AI has all the data telling me who I am, my concern is we're not static. There are patterns, but that free will dynamism of change is debatable.
+ Here is the edited transcript with fluff removed:
+
+Speaker B: We're not isolated things. We're permeable and interacting and dynamic. Everyone's AI. Interjecting everyone else's AI. 
+
+Speaker D: You had used the word trust.  
+
+Speaker B: Trust. Does AI build trust, or does it break trust? Or is that not binary? How does it build? Or how might it build and how might it break it? Trust is foundation for everything. Humans. We don't trust someone to gain them over.
+
+Speaker H: It'd be interesting. When you message Pi, like, is my girlfriend cheating on me? 
+
+Speaker F: Pi would be like, no.
+
+Speaker H: Why do you think?
+
+Speaker B: How is trust built in real life? Brainstorming, how do we build trust in real life with people? 
+
+Speaker H: Being vulnerable.
+
+Speaker C: Yeah.
+
+Speaker B: There are specific skills and behaviors.  
+
+Speaker F: Research shows doing what you say you're going to do. 
+
+Speaker C: Multiple times.
+
+Speaker B: Vulnerability, consistency integrity.
+
+Speaker C: Vulnerability.
+
+Speaker D: It's amazing how much people trusted chat GBT right off the bat without a repeated experience, because there are heuristics we use, like friendly tone. I asked you one question and you responded. For some reason, with Chanciti, because it's less threatening than another human. I don't know. It seemed like people built, especially younger people, build trust very quickly and rely on it. And then there's this whole hallucination thing. You can't trust it too much, but people do. They trust it really fast.
+
+Speaker G: It all goes back to how well your compass is established, that when you're listening to someone, how well you can trust yourself, that you wouldn't get fooled by something that you don't believe in or don't agree with. I think a lot of people, I myself started using CADGPt to build my company right now to the level that I can use it for different backend or front end development. But I don't allow it to tell me how to design my system, but I will allow it to help me with the tasks that I want, versus if I just go to it and say, just build this for me. I would come out as someone that doesn't know what he's doing, because real life experience is something the chat GPT system doesn't know, and that's what you need to distinguish from that. 
+
+Speaker H: I use it similarly. I'm a solo founder, got an amazing team, but solo founder. And so I use it to challenge my own thinking, I'll put my strategy or what I'm thinking, I'll be like, this is situations I might do about it. Tell me what's bad about this or tell me what's good about this. I use it as this brainstorming, challenging thing and it's amazing.
+
+Speaker C: For that, you should try pie as well. I've done that.  
+
+Speaker H: I feel like it's going to tell me it's okay. 
+
+Speaker B: It's okay.
+
+Speaker H: Whatever you decide.
+
+Speaker C: Be stern with the language, don't give me one thing. Just give me something stern on your side. I need to do either this or this or this. Tell me what I should pick and how rather than telling it to pick for you, tell it to tell you how to pick.
+
+Speaker D: We're going to be coming together like a minute.
+
+Speaker H: Yeah.
+
+Speaker D: I'm going to move over there. But if you all here would like to share kind of final reflections with each other.
+
+Speaker H: Thank you. 
+
+Speaker B: Thank you.
+
+Speaker D: Thank you.
+
+Speaker B: Top of mind for anyone. No right answers, no wrong answers. Just what's top of mind?
+
+Speaker H: I'm most excited about how AI can make our relationships better. Also building that space. Hashtag Pally.com. Literally what I described. 
+
+Speaker F: Pally.
+
+Speaker H: It watches your social media and tells you when to reach out to people.
+
+Speaker B: It'd be great if we had something.
+
+Speaker C: He's planting a startup's idea in you, Pally.
+
+Speaker H: How do you spell like Palely.com? P-A-L-L-Y.
+
+Speaker B: Thanks for being a conversation.
+
+Speaker H: Thank you so much.
+
+Speaker B: Great to be with you all. We've got excitement about how it can help our relationships. 
+
+Speaker C: AI to be trained a long way. We are trying the long way to come meet our criteria.
+ Here is the edited conversation with the filler content removed:
+
+Speaker F: I really liked our conversation about having AI as different personalities of AI to challenge you and also sort of measure the success of that as your efficacy interacting with actual humans. 
+
+Speaker B: I like that.
+
+Speaker H: It'S about to have a new website. 
+
+Speaker E: The topic of empathy and how AI can potentially help us be more empathetic and how that translates into real life interactions and relationship building.
+
+Speaker B: Yeah, my mind got really stuck on that one too, especially when it came up in the whole, what are the good parts of empathy and what are the bad parts of empathy? Going back to the rune empathy quadrant thing where it's like, it is good, but then at what point am I an emotional person? It took me 30 some years to realize that. Emotional filter, then the rational filter, but yeah, empathy, then how it can be ruinous at times. I think that's going to really stick with me. How do we use AI to help us make maybe the best choice rather than just the choice that we feel or that we think whether you're more of a cognitive or emotional processor is best. 
+
+Speaker C: You're already doing AI job by summarizing all of this conversation.
+
+Speaker B: Anyone else? How can AI help us stay connected after this one discussion? 
+
+Speaker A: Good job.
+
+Speaker C: Thank you.
+
+Speaker B: Good chat.
+
+Speaker A: Thank you for your contribution.
+
+Speaker F: Are there that you think there's more people to connect with? 
+
+Speaker C: Yeah, I just can't.
+
+Speaker B: Can we find each other there? We can do it. If you remember tons of people in the new version, totally down.

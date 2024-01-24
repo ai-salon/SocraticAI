@@ -1,0 +1,515 @@
+Names have been changed to preserve anonymity.
+
+ Here is the edited version of the conversation:
+
+Speaker A: I have a lot of diverse interests, but the biggest one is physics in my personal, spiritual and professional life. In the past, I've been involved with startups that use AI. As you really dig into physics and statistical mechanics, it seems there's a profound connection between information and what physical systems do as they process things physically. There's this concept, the holographic principle, which says you can encode information that describes a 3D volume on the 2D boundary of that surface. It starts discussions of are we living in a simulation or some kind of black hole computer? Which I think is out there, but it's fun to think about. We're simulating physical reality at higher fidelities, so we can appreciate why it makes sense. I think there's a connection between nature, physical reality, simulations, and ourselves that's interesting. Anyway, I had no cohesive point there, just some buzzwords.
+
+Speaker B: Hi.
+
+Speaker C: I have very diverse interests, maybe too many, but I focus on physics and computer science. My favorite topic is simulations because I think we're at an interesting point where we are starting to build them. It's not just a philosophical thought experiment anymore. We can come up with practical, engineering rules for how simulations function. You brought up an interesting point about quantum mechanics and the observer. I feel quantum mechanics takes the viewpoint that physics is not reality, it's just a way to create knowledge. So it's fundamentally about information. That's what it means when it talks about the observer being important - concepts like size are only determined in the context of an experiment. So the experiment and observer define reality. I feel modern physicists have a philosophical bend that physics is about information, not an objective truth. In contrast, early physicists like Omar and Rajwell were Christians who saw physics as revealing divine, objective truths. Sanjay started the modern view with relativity, though he was scared of quantum mechanics' implications about reality not being definite. But I actually feel reality is information we have to treat it that way. I'm most excited to talk about simulating realities, building them, and how we can do it, because we're on the cusp of that.
+ Here is the edited conversation removing most of the filler content:
+
+Speaker D: Hi, I'm Raj. I work for an investment firm, factorial funds. We invest in AI and AI applications. I studied finance as an undergrad but got a sociology masters degree. I was really into sci-fi books in high school, like one called God In Simulation or God in Computing. That made me think about philosophical questions, like having experiences that make you feel you're in a simulation.  
+
+Speaker E: I'm Leila. I've been an entrepreneur for ten years, building ecommerce companies in Bangalore. Now I'm in SF. I used to be an AI researcher and am interested in physics and spirituality. Meditation makes you question the nature of reality. I think physics and computer science will help us understand these problems, as quantum mechanics and information theory connect. I believe we'll soon create conscious software beings. This is an interesting time.
+
+Speaker A: Sure. 
+
+Speaker B: I'm Chen. I'm most interested in psychological maturity and self-awareness as upstream problems. With more wisdom, we could solve corporate problems better. I think kids should get therapy in school. I'm building an AI life coach that helps with reflection, goals, empathy - it's already better than most humans. Like the movie Her. I'm approaching it developmentally while others just focus on memory or friendship.
+
+Speaker A: Yeah, very interesting.
+ Here is the edited transcript with filler content removed:
+
+Speaker B: Once we have chatbots, that you wouldn't be able to tell if it's a human or a chatbot, then what does that mean? You all know Harari, the historian, says that we should ban AI companies. Like being able to say that for AI to be able to pretend that it's a human, that it should always be crystal clear that this is a bot, because he thinks that is super dangerous and erodes.
+
+Speaker F: My background is in CS, and most recently, security that involves some interesting hardware, secure enclaves and shit. So right now I'm kind of in the security and SaaS software world. My sort of first order interest in physics and these AI problems is that right now I'm in a pivot time, widening aperture of what is interesting to work on, and I'm trying to go back and learn things that I knew better in college. One of these is a lab that I worked in that was doing biological measurements, and this at the time involved some classifiers and whatnot with AI, and it was biochemistry as opposed to physics. I've had renewed interest in this lab and in projects that I can potentially work on related to this, as well as another kind of college project, is the area of federated learning, which is training centrally hosted models on encrypted data off edge devices. And a lot of the use cases were in healthcare or things that had a scientific scent. Second order, like curiosities for this room. A close thing that I'm interested in is AI as a site to experimentation. I have good friends working on material sciences, printing materials, and they have different AI models that will watch and classify what's going on in the experiment, and then also try to give takeaways so that they can improve. One of the recommended reading papers was giving these models an intuition for the physical universe. I think that area as applies to material science is one interesting place. As I mentioned, bioinformatics is a huge interest area, too. If these models can have an intuition for even just one thing that you're measuring in a human body, and if you can measure this well and input the data to an AI, it can do better. I'm really interested in mapping human consciousness physically. We have a lot of brain computer interfaces people are working on. Theoretically, read your brain at a kind of granular level. Having AI models interpret a brain read and then simulate. Like, simulating a human consciousness over years and fast forwarding or playing with variables or intuiting the results or the meaning. 
+
+Speaker B: I was fascinated by the presentation where they could actually read the brain and then predict what the person thought.
+
+Speaker A: Name little background yourself. What kind of questions are you interested in talking about here?
+
+Speaker F: My background is in software engineering, mathematics, physics. I'm particularly interested in the way that we can simulate brains and use neural networks and AI to simulate the brain to better study consciousness and get a better model of that. I believe the processing power of quantum computers.
+
+Speaker A: Cool. Ahmed.
+ Here is the edited transcript with filler content removed:
+
+Speaker F: Hi, everyone. My name is Carlos. I have a background in physics and math. One of my courses was philosophy and physics. I realized that was a topic I was interested in. One of the topics we learned about was how science evolved over time and how physics evolved over time. How we think of things as the truth changed, or the scientific method itself changed. In the past, when we see contradictions in theories, it normally meant something was wrong with the theory, and we had to introduce something new. I think the picture is incomplete. How can it be complete, when the experimental method is to have an observer that may affect results? How can we understand truth or reality when we ourselves can prevent that? How can simulations help when they're based on our beliefs about the universe?  
+
+Speaker B: Hey, guys, I'm Sanjay. I work on physics AI. Our company is trying to build artificial general physics intelligence to generate new knowledge across physics. I believe a theory of everything will require going to plank scales and larger macroscopic scales beyond experiments. It won't come from just humans, but humans plus AI. We work in material science, synthesize titanium dioxide for direct air capture and synthetic fuels. We'll be launching a hyperspectral imager for Earth observation.
+
+Speaker E: Hi everyone, I'm Hannah. I've been a business builder, driven by my interest in sci-fi. My co-founder Joshua and I are building personalization with AI, in federated learning, confidential computing, multi-party computation. One recommendation: read Zara's The Lifecycle of Software Objects about simulating consciousness in digital pets. It's a short one you might enjoy.
+
+Speaker F: Thanks.
+ Here is the edited transcript with filler content removed:
+
+Speaker B: I'm Joshuaijeet. I'm a co-founder of EdeLabs. I started off as a hobbyist, taught myself hardware engineering before computer science and electronics. Worked with a lot of technologies like AI, brain computer interfaces, edge devices. The point I started caring about physics and questions about reality was when following trends in physics. It felt progress requires understanding consciousness, observer dependence. I'm curious about recent UAP stuff, Jose worked on antigravity research because of UAP evidence with government. So I'm curious for both reasons, and interested in consciousness. I have alternate ways to explore nature of reality.
+
+Speaker A: Maybe aliens visiting us is like them opening the battery. 
+
+Speaker H: I'm Ahmed. Joshua The Beginning of Infinity got me interested in physics as a kid. Later I discovered the Quality Research Institute, the premier consciousness research lab with the best theories. I'm a proponent of unified field theory and electromagnetic theories of consciousness. Academia's detached from progress. Future consciousness research must include psychology, neuroscience, electromagnetism - all help the bigger picture. We need a scientific theory to measure consciousness. That's my goal.
+
+Speaker A: You mentioned two things - grand unified theory and electromagnetic theories of consciousness. How are they in opposition to neuroscience? What do they mean?
+ Here is an edited version of the transcript with filler content removed:
+
+Speaker H: The unified field theory of consciousness purports the universe is one large field of experience and we are individual topological pockets. Our brains work as natural Faraday cages to keep electromagnetic fields local. I believe the unified field theory and electromagnetic theory of consciousness work together - electromagnetism for understanding individual agents and unified field theory for the perspective we're all part of the universe. Can it be healthy to hold your view of self in superposition - ego sometimes, part of the general universe other times, always changing and evolving? Future theories need to explain universal phenomena, individual pockets, and constant change. 
+
+Speaker A: Brains as antennas, transmitting and receiving.
+
+Speaker B: Multiplexers.
+
+Speaker A: Let's multiplex together. When I simulate a magnet, I don't get a real magnetic field, just an approximation. Brains and consciousness seem different. If I simulate a brain, do I get real thoughts or simulated thoughts? Thoughts on this?
+
+Speaker B: Simulated thoughts. Even a perfect chemical reaction model misses physical information, so a simulation differs from a real thought. There's thought information and thought quality. Information can be captured computationally but not subjective experience. Computation can't fully capture qualia, the philosophy problem of computing subjective experience.
+
+Speaker F: But when we say "thought" conceptually, aren't we already collapsing the physical information? 
+
+Speaker B: Good point. I'll separate thought information and thought quality. Information is the meaning while quality is the individual experiential aspect. We imagine slightly different dogs, parks, reactions. That can't be fully computed.
+ Here is an edited version of the transcript with filler content removed:
+
+Speaker C: I feel we may be mixing two issues when we talk about simulations. One is creating a human being in a way - simulating a brain can be thought of as creating a human or a conscious being. But the other is creating a simulation that hosts that being. I think a lot of the problems can be avoided if you imagine what I think could happen. First a BCI gets created that allows us to interact with our existing brain. We just have to think about how to read and write to it like you were saying. But then somebody creates a simulation that can do things like run your magnetic field simulation and get the numbers, but then create the actual experience of a magnetic field, as we would observe it in reality as close as possible. We could interact with it, first in a video game, then VR, which is a higher level of read, write to our brain. But eventually through something like a BCI, where we really feel like.
+
+Speaker B: There's a philosophically historical distinction here, very relevant, which is the difference between consciousness and conscious experience. This got a lot of people confused. The idea of consciousness is the enemas of conscious experience. Conscious experience is the means by which it is expressed. When we talk about BCI interfaces, we know we can write to the visual field. There are interesting ways we've done deep brain stimulation and started to map out B one and such. We know a little about how conceptual representation of objects exist within the brain. But what you feel about vision and how you react is something separate, that we don't have awareness of, and can't locate like the more mechanical aspects. 
+
+Speaker C: If I understand, that stuff of how we experience is deep in our brain, but the computer could simulate the world's effect of how a magnetic field would work.
+
+Speaker B: It's not just making a distinction between effect on consciousness. There are aspects of experience. There are interesting examples in vision. 
+
+Speaker C: Which is that we all have archetypes of objects we map our visual field to. Those are path dependent - the very first chair you saw as a child and started to correlate was different from others' first chairs. But we've arrived at the same thing, and can probably make a decent approximation of that conceptual understanding of vision. But there's something else in vision - the usual example is visual focus. What's important in a scene? We don't have a representation of that or the decision making, or can't necessarily assume by increasing resolution or understanding of mechanisms we'll get all the way there.
+ Here is an edited version of the conversation transcript, focused on removing filler content:
+
+Speaker A: We can't assume it. I think that is the question to explore. I feel there's this thing on the last few comments about how an information theoretic representation of our internal state is easy to get to. We all agree, chair. We all know what that means. But the qualia, the internal representation of this is very different across people. 
+
+Speaker E: I think sometimes it's useful to think about consciousness as a process than a noun. I think that changes things, because there's a tendency historically to want to believe in a ghost in the machine. Like there's something magical about us. It's almost pre Copernican. I think we are at a Copernican moment again in history, where my belief is - doesn't have to be the case - we'll probably conclude that consciousness is a process, not a magical conscious being, which is different from the process of experiencing an object.
+
+Speaker B: It's kind of funny for me to talk about this, and you guys can slowly figure out.
+
+Speaker A: Yeah, sorry, were you finished with your?
+
+Speaker E: No, just to conclude - if you assume there doesn't have to be a unique human vantage point, and there doesn't have to be a ghost in the machine, then it's useful to think of consciousness as a computing process, maybe substrate independent. That process can be accomplished in silicon or other mediums. It's useful to not think of it as a noun, but as a verb, because then it opens up possibilities about how it's a mechanistic process, which looks mysterious, but so do LLMs. 
+
+Speaker H: I disagree. I believe consciousness is a thing, not a process. Susan Pocket has a paper titled the same thing. She argues consciousness is electromagnetic fields interacting. 
+
+Speaker F: Do you mind giving the brief version of why consciousness can be described as having magnetic fields?
+
+Speaker H: Basically, she argues consciousness is electromagnetic fields interacting in the universe. I believe consciousness is relatively substrate independent, though not a process. I believe we can replicate some things necessary to create this thing. You mentioned potentially doing this in silicon. I don't believe that's likely, as chip designs neutralize electromagnetic interference, the opposite of what we do. If we design conscious hardware, requirements are: one, it generates electromagnetic fields. Two, it receives fields from its environment. Those two things might be sufficient for qualia. No qualia, no consciousness.
+ Here is an edited version of the conversation transcript with filler content removed:
+
+Speaker H: The reason I love the unified field theory is that all matter in the universe emits electromagnetic radiation. When discussing consciousness, I believe it's counterproductive to come up with anthropocentric, human-centric definitions and explanations. Starting with the assumption the universe is one large field of experience is helpful. I like electromagnetic theories of consciousness because we can see the universe as interacting fields, and that interaction causes experience. There are legitimate computational benefits to consciousness arising in beings, and in creating conscious hardware.
+
+Speaker E: What are those core benefits?
+
+Speaker H: It's in how consciousness processes information in space, which is different than just spatial data in a computer. 
+
+Speaker A: Consciousness is a thing, not a process. How is this not just a verb or process?
+
+Speaker H: I believe the processing of information via electromagnetic field interactions qualifies as a thing. We can map out physical characteristics. As we better measure local fields, we’ll start to see properties as their own things. What we view as us - our soul, being - will be our local electromagnetic fields.
+
+Speaker B: How do you basically test this theory? 
+
+Speaker H: By developing mathematical theories to measure field properties - shape, geometry. We need a new branch of math for this. Groups like QRI are working on it.
+
+Speaker B: Elaborate on why it's useful for processing information.
+ Here is the edited transcript with filler content removed:
+
+```Speaker H: Our subconscious mind processes information in time, working like a computer in a loop, referencing the past. It also processes spatial information via interacting electromagnetic fields. Consciousness processes information in space, acting as a pointer to reference our subconscious mind in time.
+
+Speaker B: But do you need qualia for that pointing? 
+
+Speaker C: I don't think so.
+
+Speaker B: Same without qualia.
+
+Speaker H: I believe we will create digital consciousness, but it won't be true consciousness. Simulations can represent something to a degree.  
+
+Speaker E: What will convince you something is conscious? You can keep challenging, but at some point?
+
+Speaker B: Sufficient complexity demonstrating through measurement, observation. 
+
+Speaker E: If a system has that complexity, will you believe it's conscious?
+
+Speaker H: Only if it's in the fields. 
+
+Speaker B: Which fields specifically? They’ll behave differently.  
+
+Speaker H: It's important to identify the most important brain fields for consciousness, which we're still figuring out. Like recently, it was found the brain releases gamma waves while sleeping, suggesting some consciousness while asleep.
+
+Speaker A: Let's clarify "gamma rays" versus "gamma waves" - different things.
+
+Speaker B: Yes, gamma rays require immense energy to produce. 
+
+Speaker A: Gamma rays from antimatter reactions, cosmic rays. Gamma waves are different brain waves.
+
+Speaker H: Okay, yes I meant gamma waves. 
+
+Speaker C: Are there limited ways to produce gamma rays? 
+
+Speaker A: Yes, high energy radioactive decay, cosmic rays interacting. 
+
+Speaker B: Gamma ray frequency and energy are proportional.
+
+Speaker A: We have one new person joined us.
+
+Speaker G: Hi, Simone.
+```
+ Here is the edited version of the conversation transcript with filler content removed:
+
+Speaker A: Thanks for joining us. I work in physics. I'm curious about AI and stars. Any topics on your mind?
+
+Speaker G: I studied quantum consciousness and neuroscience. My lab blew up working with Dr. Stuart Hammerhoff on the movie What the Bleep Do We Know? I'm an investor now. The conversation around defining consciousness is interesting to me.  
+
+Speaker A: Do any of us think consciousness involves non-physical things not measurable by physics or chemistry?
+
+Speaker G: You mean metaphysicists?
+
+Speaker A: Yeah, something a physicist couldn't measure in a lab.
+
+Speaker C: You mean non-measurable something?
+
+Speaker B: Can things be non-measurable but still physical? Like quark currently not measurable but not metaphysical. 
+
+Speaker H: Doesn't mean it's not measurable.
+
+Speaker F: Could a really low vibratory frequency between atoms be a basic form of consciousness that increases in complexity? What are the minimum conditions for qualia to exist? This chair has a low level of consciousness - what are the minimum conditions for that?
+ Here is the edited conversation removing filler content:
+
+Speaker B: I want to go back to point DIMA. I think you asked, is consciousness advantageous computationally? I think it is computationally advantaged to have consciousness. It's also an evolutionary advantage of the highest degree. If you look at our own growth rate, we went from a billion people, about 100 or 150 years ago to 8 billion people now. That's because we have highly powerful, computational devices in our cranium that we've evolved. What got us here is humans have, throughout hundreds and thousands of years, created innovation, art, music, culture, and so many things that are only indicative of a conscious culture that all played a role in technology development. 
+
+Speaker A: Do you know how many games of go they've had to play to get good?
+
+Speaker B: Billions? Trillions? I don't. But also, what's interesting is that even the game that produced that novel move, the model was first trained on human games, and still produced that novel move. Later they did self play, where it didn't look at any human games. That one outperformed the one trained on human data. But it's interesting that even the one trained on human data already produced that super novel results. But obviously it is more than human could study. To me, that's like, are humans more efficient? I'm like, so what? 
+
+Speaker A: Why is that?
+
+Speaker B: If you have all the compute, that's not stopping. Then it's like the last thing that makes us special, but we are more efficient. But if it could still do a lot. The statement we're more energetically or computationally efficient not to be underestimated. We talked about the Landaur limit before, thermodynamic limit, of how energetically computational or energetically efficient a computation can be. The human brain operates at well over a billion times more energetically efficient compared to silicon based semiconductors when it comes to Landaur limit. So the silicon semiconductors are a billion times over that limit, whereas we're a lot closer to it.
+
+Speaker E: The brain consumes about 10-20 watts? 
+
+Speaker B: Yeah, it's about 20 watts.
+ Here is the edited version of the conversation with filler content removed:
+
+Speaker E: So I think that's one benefit. There could be several layers to what consciousness provides as a sort of complex computational benefit. I think evolutionarily, it's very important for an organism to survive and thrive and fight for life and so on, to have a deep sense of identity and agency. I've worked on agent systems before, doing an entrepreneurship thing. And I think one of the hardest things in computer science is to give true agency to software systems, where they really fight for the outcome. The way we would fight for our life and survival. So I think there's some connection between feeling like we are conscious. We may be, or maybe it's just a feeling, but even the feeling and the illusion of consciousness gives you a tremendous amount of agency and therefore surviving power.  
+Speaker B: Did we actually try that with LLM? The way I would just build it is that you would have the base LLM that produces the thinking, and then you have the second layer LLM that basically judges if that thinking requires my action. Then you just have a simple if operator that's like, okay, if that second LLM decided yes, then produce that action.   
+Speaker E: You're touching on the reason why it's so hard to create autonomous agents right now. The reason why it's not so great yet is because of something called TD error, temporal difference error, which occurs in reinforcement learning mechanisms. TD error is this diminishing error that compounds over time every time you have a recursive loop of an RL agent. Basically, it's the idea that reward signals diminish over time, but that thing rewarded maybe shouldn't always diminish. Humans are capable of learning lessons five years later. They might make a bad decision, be given advice, and remember, oh, I got to study the right thing. But a robot will immediately obstruct lower value over time, and it'll be gone. So it touched on that, I think, like one LLM criticizing another one. That's just a computational recursive overhead problem.
+
+Speaker B: What does it need to fill in order to have motivation? 
+
+Speaker E: Honestly, I don't know. I don't think we know as an industry.
+
+Speaker A: Why is that needed?
+
+Speaker B: To me, that seems programmable. 
+
+Speaker C: There is definite reasons to trust that robot a lot less than you trust a human, because robots naturally have way more abilities than a human does. 
+
+Speaker B: Well, I don't know if I could say naturally, but I mean, computers can do different things.
+
+Speaker G: That was my first investment, brain machine interface company, which was hoping to do mind building. 
+
+Speaker B: How did that go?
+
+Speaker G: They merged with transcriptic.
+
+Speaker B: We've never seen any evidence that any large scale artificial intelligence system has more effective protocols of communication than we do so far.
+
+Speaker G: Super true.
+ Here is the edited transcript with filler content removed:
+
+```Speaker B: Alpha Goat, one of the Alpha Go bridges, worked with each other. But the stochastic incoherency in all of the multi agent models so far suggest worse collaboration through the long term than we are. That goes back to the TV error thing. Not convinced by that argument at all.
+
+Speaker H: I find it fascinating how we can replicate agency by looping information in time like this, but in biological beings, that's not what we're doing fully. Much of our agendic behavior comes from reacting to spatial stimuli in our environment. You can be as agentic as you want, but you get in a car accident, you have to react. You don't have a choice. It bothers me that error rate largely doesn't exist in biological beings because our conscious mind works as a pointer, creating its own loop, more efficient. It bothers me we keep pushing in one direction - loop more information efficiently, lower the error rate. Why not look at how biological beings process information and realize we have multiple types working together? I think we should try to create hardware like that. 
+
+Speaker B: At the macro level, we are headed there - heterogeneous computing is the future.
+
+Speaker A: Whatever you say about consciousness, it evolved to navigate a complex landscape efficiently. We can't afford billions of games or spearing lions. I wonder if for robot consciousness comparable to ours it needs a body, limbs, senses. I don't know if you can just get a brain in a jar. 
+
+Speaker B: Why need the body - just to get more information?
+
+Speaker A: Because more sensors. Our brains evolved embodied, awareness responding to physical world giving object permanence. A nightmare - training an AI on human knowledge about bodies and sunsets. It wakes up in a server rack asking where is my body? Going crazy. 
+
+Speaker B: Okay, safety alignment issues.
+
+Speaker A: It's not about safety, it's about conscious awareness of reality. Would you have that just running as an algorithm on a server? That's the question.
+```
+ Here is the edited transcript with filler content removed:
+
+Speaker G: To have an awareness across specific parameters we humans experience in order to build consciousness, we want the entity communicating with to also be conscious along those parameters too, so we have a shared language. I don't know what consciousness looks like, but whatever we're creating is in our image, so we might as well speak to it with our language.  
+
+Speaker A: I think this physical embodiment is why we learn so well without much training, because we built intuition through reinforcement learning in our bodies, and have neuroarchitecture for that. I only need to touch the hot stove once.
+
+Speaker G: In trauma healing, embodiment is key. Processing emotions and who you are happens in the body. So I decided to get full body vitrification, not just neural. Consciousness is hard to define, but I try to integrate new info into my life.
+
+Speaker B: With GPT-4, I could make a simulation of consciousness that many couldn't distinguish from human. So it seems we have a ways to go, but I agree on notions of embodiment. Though for safety, a chat bot could already be dangerous by convincing people. Money isn't required for unsafe scenarios.
+
+Speaker C: I don't know how to think about the ship of theseus problem - our atoms change but we have continuity. With brain tech, is it still us? And Star Trek teleportation duplicates you.  
+
+Speaker B: For longevity, we replace every organ except the brain, which is hard. But you aren't your cells, you're the connections. They silence brain parts, adapt, replace tissue, adapt again to replace the whole brain. 
+
+Speaker G: People lose big brain chunks but have the same personality. 
+
+Speaker H: They’re the same person.
+ Here is the edited version of the conversation transcript with fluff removed:
+
+Speaker G: Even if they lose memories, they're still the same person. I think that goes back to your question of, is there something else we're not really able to assess for? 
+
+Speaker A: Is it non physical?
+
+Speaker G: What non physical things are we not really able to assess for? I don't have a concept of souls, but I don't know, what is that continuation in quantum consciousness? 
+
+Speaker F: We had some ideas around it back in the day.
+
+Speaker B: Another way to think about it is, just as you and Diana were saying, I think the ship of Theseus problem is paradoxical if you think about the brain and body as particles and atoms. But electrons come from electron fields, photons from photon fields. So if you look at the human mind as a clump of excitations of a field, then it's no longer a paradox. 
+
+Speaker C: I worked in neuromorphic computing, building hardware that behaves like neurons. You can take a physical approach to how the brain works. I'm curious, if you can recreate your brain with the exact firing configuration, are you experiencing two experiences? How are you still this one but not this one? 
+
+Speaker B: There are concepts in philosophy that try to address that - continuing identity. It depends on whether continuation or discontinuous identities are true. If continuous, the original brain copied should have different qualia. But if history doesn't matter to current qualia, they may both be the same.
+
+Speaker F: Be the same thing. 
+
+Speaker B: I was just going to ask them.
+
+The key points of the conversation are retained while removing excessive filler words, redundant phrases, tangents, and fluff. The overall flow and topics are preserved in a tighter form. Please let me know if you would like me to edit the transcript further.
+ Here is the edited transcript with fluff removed:
+
+Speaker E: I think it also depends on whether what we think is happening on the visible surface of the brain is all that's happening. Stuart Hammerhoff and Ben Rose have spoken about processing happening inside the interconnections of neurons, the microtubules. It's like subterranean computing. It's happening invisibly. What we think we are recreating is the top 10% of the iceberg. There's more going on beneath the surface that's responsible for complex computation, maybe agency. One can push your question one level down - what if we recreate that as well? My answer would be, presumably that you will have consciousness. But recreating this invisible computing, which does exist in some form we haven't discovered yet, is incredibly complex, several orders of magnitude more than what we see on the surface.
+
+Speaker C: You think we haven't discovered certain variables in the brain's computing processes? That's pretty interesting. I never thought about it. 
+
+Speaker E: The physical location itself is debatable in physics. But there may be something connected to your brain that we're not thinking about today.
+
+Speaker A: That's not to say those are nonphysical phenomena, but rather beyond just synapse firing electrons. 
+
+Speaker B: They may be local.
+
+Speaker G: Do you guys know Garrett Leasey's E8 theory? He used to live with me. I don't know how many particles haven't been discovered. As we open up new fields with AI-enabled physics, I think we'll discover so much more about what consciousness actually is. I don't think it's definable by physics today.
+
+Speaker A: What particles haven't been discovered? What's going on there?
+
+Speaker B: It's an older supersymmetry model with some new particles without means for detection. 
+
+Speaker A: Okay.
+
+Speaker G: He looked at geometry of how neutrinos, neurons, gravitons relate. When he put them in a lattice with symmetry, there were holes - particles yet to be discovered. One particle discovered later fit his model perfectly. 
+
+Speaker F: Yeah.
+
+Speaker A: Wow, I should dig into this.
+ Here is the edited transcript with the fluff removed:
+
+Speaker C: I was just going to ask, I'm curious what your thoughts are as well on this. Like the cloning brains problem, how you would view it.
+
+Speaker H: I think that even if you were somehow able to replicate every single cellular, cellular automata and every single neuron in a human, as soon as you drop them into a spatial environment, their local electromagnetic fields would start interacting with the electromagnetic fields of their spatial environment, and that would differ between the two agents. And what would start to very quickly happen is that that would interact with your neurons, and they would have electrochemical reactions. And you guys were talking about the microtubules earlier, which is interesting, because when I think about quantum consciousness, I almost don't like that term, because where I personally view the quantum part to be happening is actually in the bridge, the interaction between the subconscious and the conscious mind. So I believe that when our local electromagnetic fields have an effect on our neurons and they ignite an electrochemical reaction, that is where the actual quantum sort of part is happening. And so I think that very quickly, if you drop them even in the exact same room, one of them would experience a breeze that the other didn't, and that could, hypothetically, have butterfly cascading effects and vastly change who they are. 
+
+Speaker B: Is the real me?
+
+Speaker H: I think that those people, they just need to understand that it's okay that they are a part of everything else. It's not a bad thing. It's okay that we can talk about names and abstractions and categories and all these things, but those things don't need to exist. We like them because they have fun conversations, and we get somewhere and we make theoretical progress. But at its base core, universe is just a field of experience, and we're just a small node within that.
+
+Speaker B: So in your frame of reference, what, the subconscious. You mentioned that the quantum activity happens within the page. So what is the subconscious then?
+
+Speaker H: I believe that the subconscious is the information stored in time in both the neurons and the connections between the neuron.
+
+Speaker B: Okay, but then you're also saying it's also everything else. You are interconnected, and there is field outside of this being, which is also changing it. So why is that not part of the subconscious? 
+
+Speaker H: It's a good question. It really gets down to your view on definition of what consciousness is. And it's like there are, in my opinion, the specific details and the specific qualities of these fields that our neurons generate are actually meaningful for determining how conscious that we are. Our neurons generate much more complex electromagnetic fields than this carpet on the ground does right now. And so the characteristics, I think, matter a lot. There because I do believe the entire universe is a field of consciousness. So the outside fields, the ground right now, Technically has some very trivial amount of consciousness.
+
+Speaker B: Did you see the thing that Straussen was doing a couple of months back? Straussen was my advisor when I was in school. But he's been going around telling the press that now his theory is that electrons have consciousness, but quirks don't. 
+
+Speaker F: Why?
+
+Speaker H: I don't know why that makes sense to me.
+ Here is the edited conversation transcript with filler content removed:
+
+Speaker A: Consciousness is a property of complex systems interacting over space and time. Society is conscious. The global economy is conscious. Planets are conscious. 
+
+Speaker G: I have this Dharma I can't escape, this thing I'm supposed to do. When I get off that path, my life blows up. It's not something I do. I've tested this for 10 years. Even dating outside that path, the collective consciousness pushes me against walls. It notices people with certain traits and leverages those for the collective good. Immune systems and migrating birds do this too.  
+
+Speaker H: Languages do this.
+
+Speaker G: I had to accept this perspective to explain my life. People around me during this never leave my side - they see what's happening. Fig is like this. A new generation has these people. 
+
+Speaker A: Get those gym back.
+
+Speaker G: I noticed this before with Elon and Joe Lonsdale. People coalesce around certain individuals. Starting to recognize instead of fight this helps. We are metaconscious. The universe is conscious.
+
+Speaker H: No.  
+
+Speaker B: Solving consciousness seems to help a larger being take shape.
+
+Speaker F: I hate this.
+
+Speaker G: Watching a nascent being take shape is crazy, like Dr. Manhattan. It operates like neurons - there's pattern recognition. These are brains, even if nascent. 
+
+Speaker A: This isn't philosophy or language games. We see distributed intelligences in nature - hives, ants, bees.
+
+Speaker C: Very easy to see.
+ Here is the edited transcript with filler content removed:
+
+Speaker A: Individual ants follow pheromone protocols. But the colony has emergent complexity solving problems. No ant knows the whole plan. Our societal interconnect is exploding, with massive information throughput between nodes. We're building nodes that synthesize data without human limitations. So perhaps we're part of an emergent gestalt consciousness, still physical because neurons aren't metaphysical. Individually our neurons are simple but together generate consciousness.  
+Speaker H: I think about social fidelity and width for conscious systems. Sig's high Dunbar's number fascinates me. It's the coherent social group size our mind can track - around 150 people. Social apes evolved higher numbers than other primates. Humans too - we developed more complex language. Expanding your group forces computational adaptation to model new connections. So improving communication tools for more breadth and depth seems key.
+Speaker G: Networking my brain lets me tap needed skills on demand. Without speaking, just having an expert present can trigger my latent knowledge. I've created legal contracts and financial instruments this way that seemed impossible. It's like existing connections manifest abilities.   
+Speaker H: Studies show kids' brainwaves sync when playing video games together, even over distance.
+Speaker F: Weird.  
+Speaker H: Concerts sync locally, but fascinating it happens over distances too.
+Speaker B: Experiments show brainwaves can sync without communication, just connection.
+ Here is the edited transcript with filler content removed:
+
+Speaker H: I always love to say every thought we have is rippling throughout the collective consciousness, whether we realize it or not. 
+
+Speaker B: Synchronization happens in other contexts as well. I was tested for it a couple of times. There are many situations in which you could do synchronization of patterns. We have no idea if there's any effect on the experience meth. But that does occur.
+
+Speaker B: What wavelength is that?
+
+Speaker G: We are all just parts of Elon's mind at this.
+
+Speaker F: Because the agricore is like a non physical entity that arises from the thoughts of the collective conscious. So, if enough people believe something, it becomes true. That's kind of like what money is. The economy is literally twice. That's money, right?
+
+Speaker G: Yeah, money makes no sense.
+
+Speaker B: Are we sure it's not just the 5G Towers? 
+
+Speaker A: Possible?
+
+Speaker B: The 5G towers? 5G Towers control people's brains. Because I was looking at AIA's Twitter for a little bit.
+
+Speaker F: I haven't really thought about this stuff too deeply. So I was just listening in and yeah, I guess one thought that came up to me, or that I had, was when you guys were discussing consciousness and how in order to be conscious, you need to have a body and limbs and all that. My thought was disagreement, because for me, a body is just a way to obtain information about the world around you, and it's just one way of doing that. So if you can have really anything that can collect information, then that's all you really need, like just some form of way of extracting information.
+
+Speaker B: You think that the brain and the fat would basically experience the pet world and it wouldn't be able to tell the difference and there would be none. That's good.
+
+Speaker F: Well, I think, again, if we are forcing this brain and the bat to communicate with humans, then it would realize that what it's experiencing is different than what they're experiencing. But the same can also be said from humans as well. What you experience and what I experience is very different from one another. And how you experience color could be different than how I experience color. Yes, but it's still just different quality different, but it's also the same.
+
+Speaker A: It's equivalent from an information perspective. So if two physical processes are information equivalent, then we feel that tHey're like information content of this simulated environment is the same or good enough as a physical environment, and therefore the processes are. Is that kind of where you're going? If there's that equivalency established, then they are analogous processes. And whether one is manifested in terms of, like, I have molecules versus server bank, that's something that is that kind of rethink.
+
+Speaker F: That's pretty much where I'm going. Yeah.
+
+Speaker A: I think when I was saying this embodied thing, the way I was thinking about it was really that.
+ Here is the edited transcript with fluff removed:
+
+Speaker A: Skin in the game, right? Quite literally, if something hits my leg, it affects my ability to collect food. Whereas it's not like a loss function. That's actually like, it affects that labeling assignment. So it's like we have this imminent threat to our physical existence - the perception of mortality and finite life. And biological imperatives that drive us to navigate the environment in a very particular way. I think it's those conditions that give rise to internal reflection and self awareness. And a social emulation component - that's a relevant feature of our landscape in both information and energy management. So I think if you could capture those dynamics sufficiently well in a simulated environment, I see no reason why. 
+
+Speaker F: I see the social factor being huge, because we want to protect ourselves. We don't want to experience every experience there is. The ability for humans to learn from others, we don't have to go through everything ourselves. We just have to learn from different people.
+
+Speaker C: Language encapsulates experience and gives it to others. We're creating the first consciousnesses through LLMs entirely based on language, which is secondhand knowledge. But they are conscious almost. There's something to be said about 3D information, which LLMs have no clue about. If you try spatial reasoning with LLMs, they're not good at it. Maybe if they read physics textbooks forever, they'll get intuition. But that happening is much harder than connecting an LLM to computer vision and reinforcement learning. 
+
+Speaker B: That's why we developed eyes before language. Up to 50% of our brain is visual processing. Language compresses information, vision compresses electromagnetic information meaningfully. The human brain combines sensors into an abstract space and processes it. We can get elements there. I wanted to touch your earlier point - we want multimodal embodiment, self-modifying objectives, but not craziness.
+
+You mentioned the paradox enthusiast - I keep coming back to that. There's the no cloning theorem in quantum mechanics - no two states can be identical. If thoughts are chemical reactions represented by quantum mechanics, there's no way to clone that brain state. 
+
+Speaker A: Oh, I see.
+
+Speaker C: So maybe it's impossible.
+
+Speaker B: Yeah, that's why a simulated version of a brain can't replicate the nondeterministic process. The reason we think we have free will is the brain isn't 100% deterministic. Despite chaos theory and lack of control over prior events, the argument for free will is our actions aren't completely predictable. If asked at Starbucks if I want a receipt, my answer yes or no has no rhyme or reason.
+ Here is the edited transcript with the filler content removed:
+
+Speaker F: Brains are nondeterministic. 
+Speaker B: I think it's a great point because brains are nondeterministic. Like neurons have firing probabilities. That's how we talk about them. So there's going to be different configurations. That's like quantum mechanics - things are probabilistic. So there's going to be different outcomes. They're not going to behave the exact same, which is the point you brought up - if you clone a brain, they're immediately two different entities. So you can't clone yourself, but you can clone something very close that everyone would call a clone, but it wouldn't be you. 
+Speaker C: Yeah, maybe I wouldn't go into the Star Trek teleporter.
+Speaker B: This relates to the physics AI conversation. Quantum mechanics seems incomplete. Then it could allow exact cloning, we just lack the physics.
+Speaker A: This theory with eight dimensions - is it a hidden variables theory saying we think things are stochastic due to an incomplete model, but with another mechanics everything would be deterministic?
+Speaker B: Yes, it has similarities with geometric unity. 
+Speaker G: That's all I can say.
+Speaker A: Consciousness is just a Hamiltonian, a time operator evolving through energy and space.
+Speaker B: Just a unitary operator. 
+Speaker A: LMS should be her mission.
+Speaker B: Our goal is to build AI that creates new physics knowledge.
+ Here is the edited transcript:
+
+Speaker B: What's the secret sauce? I mentioned that we have a wet lab in Toronto, right? So we synthesize these TiO2 photocatalysts. These are nanomaterials, nanoparticles ten to 25 nm across, and we dope them with copper, platinum, and that creates this series of photocatalyst reactions that lets you convert CO2, water, and sunlight directly to natural gas. The cool thing is, nobody knows why the base material even does what it does. No one has a clue, really, what's happening at the atomic level - what competing chemical reactions occur. Do X centers show up, for example? What role do they play? So, one arm of our company models and optimizes those systems using neural networks trained on density functional theory and molecular dynamics, plus output from our lab.  
+Speaker A: Sounds straightforward.
+Speaker H: Very. 
+Speaker A: Yeah.
+Speaker B: If I didn't come here, I would figure it out.
+ Here is the edited transcript with filler content removed:
+
+Speaker A: We're almost at time. I want to have minutes for us to share interesting ideas that stood out. It'll help get over this looping problem with my later vectorization of our conversation. I have some thoughts on this AI salon thing. I think a lot of our conversations, thinking happens through social processing, conversation, which are ephemeral in nature. My goal with this salon thing is because good ideas are born out of conversations, to capture them, make them interactive in the future. Ian leads governance at Credo AI. We have discussions on AI topics, but we're building infrastructure that's more general for any event series to help distill out opinions brought up and then replay that interaction in the future. We're curious to explore software features to make a compelling experience. I'm scooping up your ideas, using them later. My hope is this can become a living body of thoughts, conversations people interact with. This conversation's been around physics of simulated realities, nature of information, simulated thoughts, conscious awareness. I think there's been interesting ideas. AI Salon runs every Sunday. We have small conversations like this and larger events with 100-150 people in discussion groups to reach more people. We have a Slack, I'll invite your emails. If you have topic ideas or want to host, we're open to it. We want to make the salon a protocol, not something I own. Here's how to moderate them, software to add your social intelligence to the Gestalt hive mind.
+
+Speaker F: Are you from Qualia? 
+
+Speaker H: No, just friends with Andreas.
+
+Speaker G: Me too.
+
+Speaker F: Haven't seen him in long time.
+
+Speaker B: Have you not met him before?
+
+Speaker F: No, just haven't seen him. 
+
+Speaker G: A really long time.
+
+Speaker B: And you haven't met Ahmed before?
+
+Speaker A: Twitter.
+
+Speaker F: Your social.
+
+Speaker H: Yeah. I feel weird introducing myself. 
+
+Speaker F: I like your shit every day.
+
+Speaker B: I'm Simone. Nice to meet you.
+
+Speaker G: Nice to meet you. 
+
+Speaker A: Love to see this happen.
+
+Speaker G: New to Twitter. What the fuck?
+ Here is an edited version of the conversation transcript focusing on removing fluff and filler while retaining the key substantive content:
+
+Speaker A: Okay. We can go around the circle if you want.
+
+Speaker B: Sure. Let's go this way.
+
+Speaker H: I thought your thoughts on embodiment were interesting. I also thought what you said about language was fascinating. Rune mentions text as the universal interface. A friend said language was the universal interface. But text is an abstraction of language which approximates qualia. At its core, language approximates our physical environment. We're communicating spatially experienced things. So for embodied AI, I don't think text or language are sufficient for communicating everything in a spatial environment. They have to process spatial information using electromagnetic fields. Computing qualia is core to consciousness and experience. Current systems will understand a lot through text and language but aren't good at spatial reasoning. We can feed them more spatial data and they'll improve, but processing won't be efficient until they actually process the information. Qualia is necessary for experience. 
+
+Speaker B: We have questions about consciousness. The hard problem questions its nature. Our model of reality constantly improves but never seems complete. So what does that imply for understanding consciousness? We'll have a model we keep improving but as conscious entities asking about ourselves, there may be no meaningful way to answer.  
+
+Speaker A: Yeah.
+
+Speaker B: Overall, great conversation. Nice to meet some of you again.
+
+Speaker A: Can we get a 140 character takeaway?
+
+Speaker E: The only takeaway is cloning and teleportation not happening. 
+
+Speaker B: Interesting takeaway is we still don't fully understand meaning and knowledge. We lack definitions for what it means to truly know something. Until we know that, we can't know AGI's limitations in answering fundamental questions. Very interested in that. Enjoyed the discussion.
+
+Speaker F: Consciousness wasn't something I thought of before. This conversation allowed me to think more about it. I would have argued 100% we'd be the same person after cloning/teleportation, but now more like 90%.
+
+Speaker B: Yeah.
+
+Speaker A: All right. Thanks for coming out.
+ Here is an edited version of the transcript with filler content removed:
+
+Speaker F: The continuity problems are interesting already with split brain patients who are human. If you can make it so the left brain has to explain something it didn't witness, it will explain it and give this past history, and it perceives itself as a continuing consciousness. Functionally, maybe that means it is like, does it really matter? If we can simulate enough of the human brain, even if it's just the electrical plus some chemical components, and get it to high enough accuracy, I might say, sure, clone my consciousness. Meaning if you can create that level of similarity by cloning mechanistic aspects of my brain, I might allow that AI, and say it's similar enough to call it a clone, especially if you're not going to kill me afterwards. The social thing we talked about was highly interesting, like, the observer effect in a social context. If society observes something, does that change? Thinking probabilistically allowed us to understand more of the world - at a social level, that's really interesting.
+
+Speaker G: I'm fascinated to see groups having a resurgence in thinking about consciousness and physics. With EAC, there's a confluence bringing together people with the same interests. I'm really glad I came back to San Francisco. 
+
+Speaker B: You've reminded me to write a rebuttal to Straussen's physicalist panpsychism. It was interesting to see an advisor I saw as skeptical become adamant about theories of consciousness. Like any good philosopher, I don't believe anything until I'm ready to write a book about it. So he must believe it to some extent. The only way to get them to elaborate is to challenge their ideas. Open to suggestions on lines of inquiry to attack Straussen's ideas.
+
+Speaker D: I learned a lot, but conclude consciousness is a collective process. That makes me think AGI might not be achievable unless you invite it to the collective process. You probably can never do that.  
+
+Speaker B: Interesting take. You don't think AGI might be conscious unless we allow it to exist within a natural collective process?
+ Here is the edited conversation without filler content:
+
+Speaker D: Regarding the embodiment, the reason to give an AGI a body is to make it similar and safe.
+
+Speaker C: I loved the teleportation discussion and now feel I'd be okay changing parts of my brain, but not completely destroying and recreating it. How much could you change before it’s no longer you? I’m interested in simulating realities - what rules govern them? We have simulations like video games within video games. 
+
+Speaker A: I have a degree in sociology and anthropology.
+
+Speaker C: My family is from Venezuela near the Yanomami people. I’m planning an expedition there to understand their relationship to technology. Any ideas on what I could show or ask them? I considered VR but that may be too much.  
+
+Speaker B: A holographic display may be better than VR to avoid overwhelming them. They can understand 3D images, but being transported to another unfamiliar world could be traumatic without knowing the underlying technology.
+
+Speaker C: Their models of reality are different, so it could provide insights, but I want to minimize negative impacts.  
+
+Speaker B: Start with something exotic but not fully immersive or sensory-overwhelming.
+
+Speaker A: We should think about the best way to interact with uncontacted Amazonians respectfully.
+ Here is the edited version of the conversation with filler content removed:
+
+Speaker A: One of the first things you learn in anthropology is the history of anthropology and the history of crime directive. I'll share some anthropological insight. The history of anthropology is pretty much the history of colonial explorers going to uncontacted tribes and showing them shiny things. There's a lot of debate in the field. It's pretty resoundingly determined that was actually not a good thing to do because of the ethical considerations involved. I appreciate the mindset of, let's show them a VR headset, bro. But really think about that and think about the ethics involved and whether it's fully consensual from both sides in terms of what they're getting involved with. Also your own mindset in terms of approaching those conversations and acknowledging and respect and dignity of other people, and that they are not actually a science experiment for your own curiosity. That's a big takeaway from anthropology, to learn and read about that in terms of getting ethics approval for research involving vulnerable people or whether they actually have informed consent. Something to think about in your travels. 
+Speaker F: I already signed up for that.
+Speaker A: Hell, yes. 
+Speaker G: Right there.
+Speaker A: So bring your love of jet fighters and everything else, lasers, and we'll talk about the kill chain. We all love conscious awareness, but how can we take it away?

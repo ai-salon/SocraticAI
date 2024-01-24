@@ -1,0 +1,586 @@
+ Here is the edited conversation transcript with the filler content removed:
+
+Speaker A: I'm Ian. I work in the AI governance space, which is risk focused. But I've benefited from being around techno optimists with different views because it gives me a sense of the expansive possibilities from AI. Creativity is broader than artistic expression - it's fundamental to all we do. Does this partnership with Chachi BT expand or constrict my creativity? That's what I'm excited about.
+
+Speaker B: I'm Asidra. I work as a software engineer. I got my master's in computational science from Georgia Tech and worked in natural language querying. I'm passionate about creativity because it makes life beautiful by enabling parallel thinking. I want to explore combining AI and creativity and hear others' opinions. 
+
+Speaker C: I'm Annabelle, a startup lawyer helping innovators move forward. My background is in data protection and I recently moved to San Francisco from Prague. The energy here is amazing - people are passionate about solving problems. I'm interested in developing beneficial AI systems. Books like Invisible Women show how biases can be created. I want to be part of the movement to prevent that. I studied AI's impact on creativity and copyright law regarding generated music. I'm curious what creativity means for building something meaningful.
+
+Speaker D: You're enjoying San Francisco so far?
+
+Speaker C: I'm loving the energy here.
+ Here is the edited transcript with filler content removed:
+
+Speaker E: I'm Nikhil. I came to the United States about eight years ago for my master's. My bachelor's was in computer engineering. I've dabbled in creative pursuits throughout my life - I had a job writing jokes for a social media company. I've even written a book at some point and published short stories. I dabble a lot in creativity generally. Like, right now, I'm doing photography and stand up comedy. My general interest is around computational methods and how they can augment creative processes. I've built Twitter bots that create different tweets exploiting grammar to repeat specific patterns. With large language models, I'm interested in how that can scale and apply to other creative output.  
+Speaker A: I've done community building work for founders and engineers in SF. Did this thing called Screwball Valley. I've been tinkering with projects, ideas, concepts, conversations about how the world's going to change economically and existentially. Creativity is a fun outlet. My ideal world would be taking away implications about economics and life - if I can think about it, I think it'll exist. Especially with a concept for a joke - minimizing those extra cycles of drafting is brutal. So there's just new forms of creativity from tech and genius music. Human expression is going to be the final thing to evolve. So pretty excited to see where things go.
+Speaker C: I run a meme community. Every person is an AI software engineer. I create my own memes. I've looked into ChatGPT for connections, but it doesn't have a pulse on that. There is still a human touch for cultural elements. I'm curious about what culture means when everything is automated. What does culture look like with standardized writing? 
+Speaker D: Are you embedded with the Web Three community as well? When you talk about memes, that's an inherent part of those communities too.
+ Here is the edited transcript removing filler content:
+
+Speaker C: I took some time off from working my whole career. I've been scaling communities. You get burned out on people.  I laid low for a while, but I'm back in the game now.
+
+Speaker D: I was born in China, I grew up in the US. And then I've been working in Hong Kong for the past couple of years. I was in New York, Wall Street for most of my career, and then recently I moved into Web Three into crypto. I work at a centralized exchange called Crypto.com. My interest in the creative space, I like to write casually from time to time. I realized that's something that stayed with me throughout the years that I haven't been back in touch with writing. I still write from time to time, and people ask me to do certain things, and I'm always excited whenever I can contribute from that creative part of me. It's all the years of working in finance where there's just no ability to express yourself. My interest in Salon or AI - I've used it to just give me some ideas for brainstorming writing topics, and I've asked it to write stuff, and it's really good. I would say that a lot of the stuff that I used to write, if I just give it a certain level of prompting, it probably does it just as well, if not even better. I'm not intimidated, I'm not insecure. It's more like, how do I explore this now? How do I take my writing to another level? How do I explore what is creative because some of the stuff I've asked it to do, it's pretty creative. I'm just trying to understand as much as possible what AI is capable of and then fit it later.
+
+Speaker F: I've been building the team for the last three months. We're working on autonomous interfaces for retail and small business to replace websites, to interact with people's personalized agents. In the future, websites won't be the same. You won't interact with them like a person would now. You'll use your personalized agent or autonomous systems to interact with websites. We're trying to do a shopify with turnkey solutions for retail and small business so that we can make these interfaces with use cases. I've been on this journey for six months. LLMs are only as good as your input and how well you can phrase what you're trying to get out of it. I needed a community to help build. I think it's hard to try to do anything on your own in any space. I feel like creativity will be outperformed and outproduced by all creative material being output. These agents and autonomous systems will have to decipher research, music, information for us, because how will the world look when there's ten times that amount being produced daily by things that aren't humans? 
+
+Speaker D: Yeah.
+
+Speaker A: Sorry, I missed your name.
+
+Speaker F: Len Cole.
+
+Speaker A: Len Cole. Nice to meet you.
+
+Speaker D: My name is Far Tay. I'm a Norwegian anthropologist, doing a PhD in anthropology.
+ Here is the edited version of the transcript with filler content removed:
+
+Speaker D: I'm interested in AI, chat bots and how people interact with them. I'm also interested in how this affects creativity and culture and mass production. Walter Benjamin wrote about mass production of culture, factory production of art pieces back in the day. I use chatbots in my writing, both academic and for fun, prompting myself and asking if ideas and phrasings are good, co-editing with the machine. It makes me more productive but is it making me an editor rather than creator? Editing is creative but am I just editing my thoughts, having my own thoughts? Is this me doing this? I'm interested in culture and creativity. 
+
+Speaker A: Thanks for introducing yourselves. 
+
+Speaker D: Do you have WiFi?
+
+Speaker A: Yes, here is the password.
+
+Speaker F: I'm Kyle, a software and ML engineer. I write and bake.
+
+Speaker C: I'm Annabelle, a lawyer working with startups. I also play flute and saxophone and started two podcasts on law and technology.
+
+Speaker D: What are the podcasts about?
+
+Speaker C: Upskilling lawyers on technology.
+
+Speaker A: Let's go around and introduce ourselves again - just names this time.
+
+Speaker C: Ian, Farte, Annabelle, Nikhil, Kyle, Diana, William, Colton. 
+
+Speaker A: We went over everyone's backgrounds. I wanted to start by getting on the same page about creativity, since that's key. People associate it with typical artifacts like drawing or music, but you can be creative in other ways. We could discuss how AI interacts with those pillars of creativity and mass production of culture. But there's also the creative process itself. Can AI be creative? Do we know what human creativity is? I'd love to hear someone's initial definition of creativity.
+ Here is the edited conversation transcript with filler content removed:
+
+```Speaker F: Creativity is using your imagination for any process - work, creating artifacts. It's changing the script, thinking differently about anything. 
+
+Speaker D: I think of playfulness and imagination with creativity - creating, playing, coming up with new things.
+
+Speaker C: For me creativity also comes from life experience, which gives us all different ways to evolve a concept. 
+
+Speaker F: You need some experience to be creative.
+
+Speaker D: Consciousness is creative. Life is creation. 
+
+Speaker A: I associate creativity with intentionality. A lightning bolt creating a pattern isn't creative, even if it's artistic. The photographer finding and capturing it is creative.
+
+Speaker D: You as the photographer are saying that pattern is art. You created it by finding it. AI lacks the consciousness to be creative.
+
+Speaker F: There's a difference between artifacts and creativity - the lightning bolt is an artifact, not creative.
+
+Speaker A: Right, the lightning bolt itself isn't a creative act to me. That's too broad a definition.
+
+Speaker B: But don't creative ideas sometimes come when your intention was something else entirely? 
+
+Speaker A: Yes, like Pollock's dripped paintings - some control but also letting go. He mastered the technique but worked to relinquish control.
+
+Speaker D: What about art where something surprising happens that you just go with? Is that found art?
+
+Speaker A: It relates to Kyle's point about unintended ideas. 
+
+Speaker D: We might have created it, found it, but our consciousness made it art.
+```
+ Here is the edited transcript with the filler content removed:
+
+```
+Speaker A: Does anyone think creativity increases value if human? We're coming to AI systems. Picasso did doves, quick doves. Drew in a moment, expensive. Clearly value isn't effort in moment. Maybe lifetime effort. 
+
+Speaker D: Maybe uniqueness, like something that can't be recreated, has value. History of object, like painting it's image, history, canvas, frame. A 200 year old painting adds value but not creative process. 
+
+Speaker A: Yeah.
+
+Speaker D: Story is important. What's the story behind image?
+
+Speaker A: Stories become currency for artifacts.  
+
+Speaker D: Artifacts commodity now. Story is important.
+
+Speaker F: I value AI creativity as much as human. Soon more valued. 
+
+Speaker D: AI amazing. Knows art history, design, lighting, color. You don't.
+
+Speaker E: Value Van Gogh for skill, inferiority, reflects who he was. Identify aspects. Don't care about model parameters. 
+
+Speaker D: Picasso broke rules, impact. Don't like work but impact. Breaking rules interesting. Know rules to break them.
+
+Speaker A: If random painter did Picasso, not creative. But understanding structure and combining in new way is. 
+
+Speaker F: Still creativity if no idea what doing. Culture shifting how defined. Most don't value AI yet but will.
+
+Speaker A: Ideas of artifacts like logos associated with creativity will shift. AI can create endlessly, so no longer creative output. Just a logo factory.
+```
+ Here is the edited version of the conversation transcript with the filler content removed:
+
+```Speaker D: It's a story from a science. Buy into that story. Otherwise, just pixels. I wanted to touch upon intentionality experience story again, this thing about knowing the artist or the artist in the creation of an art piece. There's something about that story about the artist as well. But then maybe you can think of the people who made the AI as the kind of people you can think about the teams behind that and their creativity. I don't know. The levels of nuance. 
+Speaker A: I don't think it's a story. I think it's the case that human machine teams do better. Soon that won't be the case. But it is the case right now for chess.
+Speaker D: Chess?  
+Speaker E: I thought the machines are quite already better. 
+Speaker A: Yeah. I think right now this might have changed in the last year. Human chess hybrid teams, they outperform the best chess machine on its own. I mean, the human is still using the best. 
+Speaker C: Sorry.
+Speaker D: With chess again, I'm trying to translate it into art and why we value art and creativity. I don't know about you guys, but it's kind of boring watching two computers play chess against each other, right. But then when you include the teams, suddenly it's like engaging again. So thinking about AI generated art, we might just find it kind of boring.
+Speaker A: I feel like this thread of what do we value? And this storyline thread is really about the artifacts. What do we call art, how do we value them? That's a bit different than the creative process in general. I don't think the creative process is merely a story. I think the creative process is something. It doesn't have to be human, specifically human. I'm just trying to understand what are the components of that process that need to be there. And maybe some of you are happy to say that if a bunch of billiard balls came together and bounced in different directions, that's creativity to me, that doesn't sit completely right. I posit, unintentionality. It doesn't need to be like a perfect goal. And I don't think that intentionality needs to necessarily be human. But I put that out there as, like, being some partner. I would love to hear, are there other parts that you think are necessary before you want to call something creativity? Or is any new creative output, whatever is the creation of that? Are you willing to call creativity?
+Speaker F: You would go back to dig deeper into consciousness. Then what do you define as consciousness? We can go there because, consciousness is intentionality to create anything. But consciousness is deep because we don't understand. Consciousness is a tree, conscious is a rock.
+Speaker D: Consciousness but I don't see anybody addressing a machine can be self aware, not be what we are, for sure. 
+Speaker A: Yeah.
+Speaker D: So what is that? Still alien?
+Speaker E: No, what is that?
+Speaker D: So there's this idea of consciousness or sensei. If somebody knocks me out and I have no data in or out, but I'm still human, still perception.
+Speaker A: I think perception is really the key there for all this is consciousness, right?  
+Speaker D: Maybe we need a new word for it and a better definition. There's a difference between being self aware and conscious. I don't know the words are.
+Speaker F: People can't define consciousness as much as they can define I mean, when we define consciousness, then you can define creativity. But people don't have a definition.
+Speaker D: For.
+Speaker A: Rick Rubin has this book called The Creative Habit, and I spent a couple of years just deep diving, trying to find neurological reasons, how to be more creative, how to be more productive and all that stuff. 
+Speaker D: That book's magic.
+```
+
+The key things I tried to remove were filler words, repeated phrases, tangents, and excessive dialog that did not move the core conversation forward. I aimed to retain all the substantive dialog and ideas, just tightened up by removing the fluff. Let me know if you would like me to edit the transcript further.
+ Here is the edited version of the conversation with filler content removed:
+
+Speaker A: We discovered Rubin a couple of years ago for this book. It's about being open to reception via the ether. It's like some Pragmatic stuff where you listen and calm your mind down and just let those sounds overlay the sound of a random thing outside that comes musically or something. I'm taking a lot of things out of context here.
+
+Speaker D: How many people have read the Rick Rubin book? 
+
+Speaker F: I heard of it.
+
+Speaker B: I wanted to have Creative Habit by Twilight Harp. 
+
+Speaker A: Surprised I've only read a tiny book by John Cleese on the creative process, which was also, like ten minute read. The last word is he basically quotes taste the difference. 
+
+Speaker D: Did you recommend it? It was great.
+
+Speaker A: Let me try to remove intentionality and relate to this point - it's actually very difficult to bring into life new things that are worthwhile in some way, worthwhile for humanity. It's not going to be throwing billiard balls together to get useful things out. The occasion when lightning strikes is very rare. It's difficult to set up the situation, to create new things that are worthwhile.
+
+Speaker D: That thing about lightning strikes me.
+
+Speaker A: Let me try and make it less artistic and subjective and talk about the creativity of science or engineering where you're taking a lot of creativity to add something to our capabilities as humanity, our engineering might, our control over the world. That is a creative process. It's nontrivial to add on to that capability. I made a system without intentionality or consciousness that was able to just create new scientific discoveries, new engineering things, I would say that's a creative machine. It has no intentionality, but it is able to see new relationships, new worlds, and create new things. Does that strike true?
+
+Speaker C: Maybe it's creating creative outputs, but is it expression? 
+
+Speaker A: We haven't talked about the word expression. We could now because...
+
+Speaker C: I think that's the distinction - you can create new ideas, look at what is currently existing to create something new. But what makes us human is what we've experienced and what we've seen before and how we build something new. Maybe that human quality really makes it. 
+
+Speaker A: Nikhil brought up the phrase "the reflection of its interiority" which doesn't need to be human. As soon as you think something has an interiority to express, when you see the creative output as a reflection of that interiority, in my fake science machine, that's a creative thing expressing a certain interiority. It has a sense of how the world works that it's able to bring things together, but it's not reflecting anything human.
+
+Speaker D: This is very heady for me, be fun. I thought this would be an art meeting to find out what people's experience in life is, where they are with art, what is their human experience with art? What's your humanity with art?
+ Here is the edited conversation transcript with the filler content removed:
+
+Speaker A: We covered this a bit as just some people here are musicians or hobbyist musicians. Diana has previously ran a social group around meme creation and is interested in just bringing communities. So I draw and I play guitar. But sorry, we're not going to go through it again.
+Speaker C: What do you do?  
+Speaker D: Why? What can I journey?
+Speaker F: That's why art is on your brain.
+Speaker D: I love color, I love Jason. And story is more and more important.
+Speaker A: Yeah. And I want to keep the conversation because I think creativity often immediately becomes an art conversation and I just want to keep it a little higher level for now. And then we can kind of go into kind of more specific verticals of creativity.
+Speaker D: I guess want to go back to the human experience thing that seems there and intentionality as well. And interiority. Is it only humans that can be creative? Or can animals be creative? Is a beaver creative? Or is it just an automaton building dams? But it's also not every river is the same. So it's not building the same dam over and over again. Why would there be a dichotomy? Why would it be a barrier? Why would it be a continuum? So I guess if we are willing to say that animals have some kind of creativity, then maybe machines can have some kind of creativity that's not the same maybe as ours, but it's creative. We're getting confronted by meaning of life. 
+Speaker A: Do we to maybe because I'm sure we could stay on this topic for literally ever. How do we feel about Pragmatically for the rest of the conversation? When we talk about creativity here, we're talking about Lynn Cole's original definition, which is the capacity to bring kind of new things to life or connect new ideas. That kind of thread. And when we talk about expression, we'll use that phrase to add on this additional component of reflecting some interiority of some kind. And I know that's still a bit vague, but does that feel like we're at the 80% of capturing definitions? 
+Speaker F: The human conversation of perception of production versus like beaver world or tree world consciousness of the earth, but more so like human productivity adding to that next level, that's what we're narrowing it in on human creativity.
+Speaker A: I'm just trying to separate the capacities for creation creativity and creation that reflects some kind of interiority, which I'm calling expression. And those can be valued differently. And we might think different things about how AI can relate to those, how we relate to AI for the purpose of creativity versus expression, etc.
+Speaker F: I guess just on that line of thinking, my thoughts are that there's going to be emerging culture that we can't even imagine yet as far as creative scientific developments that are going to happen and new forms of even art or production that we can't really imagine yet, but humans won't be able to replicate. So our value of human production and culture is going to kind of shift over the coming years and decades to maybe value these autonomous systems idea of making things new for us. I guess I'm trying to visualize it in my head. It's like a shift in culture. 
+Speaker D: We're the consumers, though. We're the ones that decide until AI takes over. Right now, we're the consumers.
+Speaker A: Have most of us watched the movie Her?
+ Here is the edited transcript with fluff removed:
+
+Speaker A: I'm rewatching a film. There's a part where a woman shows a film she made of her sleeping mother. By today's standards it's bad art, but in that context it was her interpreting and showing something human and real - her relationship with her mom. People around her were confused, questioning why she was showing this. But it was along a trajectory of people figuring out how to grapple with a world where human creative output is becoming less relevant.
+
+Speaker B: Interested in exploring that point further. If logo creation becomes something AI does utilitarianly, does that change the definition of art? Or is it just pixels? 
+
+Speaker D: Life is creation. AI can provide materials like a logo with design history, but I'm the creator, the storyteller. AI gives me tools but I make the art.  
+
+Speaker E: We already buy mass produced furniture versus local craftsmen. We value ease of production. That will continue with AI created art. But with memes, intentionally downgrading quality or context is the point. Perfect production misses the point.
+
+Speaker A: That's like the film - the importance is it's "mine", not that it's quality.
+
+Speaker C: Yes, memes must be low quality pixelated to work. I've tried automating meme creation with ChatGBT but it misses contextual relevance. Not sure that can be automated. 
+
+Speaker A: You were called out earlier - go ahead.
+
+Speaker C: I have pragmatic thoughts...
+ Here is the edited transcript with filler content removed:
+
+Speaker A: My assumption is there will be a point where we have daily, hourly, minutely updated AI systems. I assume the failures you're seeing seem like failures that will be improved upon over time.
+
+Speaker D: Memes mean, viruses replicate, create, things trying to replicate.  
+
+Speaker C: There are two aspects of memes - intellectual and visual. The visual is easily replicated but the context and placement can't be automated. 
+
+Speaker A: Before GPT, simpler models created idioms that felt like genuine insight. Memes are probably like horoscopes - vague but evocative, meaning comes from interpretation.
+
+Speaker C: I make customized memes so I’m neurotic about it. But Peppy the Frog means something different to millions. Would Chat GPT explain Pepe accurately?
+
+Speaker A: As an AI model, I cannot comment on that.
+
+Speaker C: To boil it down - there’s a scale of conscious creation to tangible impact under the assumption everything is human made. But with AI, it becomes two axes - human versus AI creations. Then there are quadrants of what’s acceptable or accurate in society. If AI creates impact without human intent, is that still worthwhile? More than a human creating alone? 
+
+Speaker D: What gets things worth? 
+
+Speaker C: That’s a great question.
+
+Speaker A: Scarcity, I think.
+
+Speaker C: Worth as in tangible impact, which is objective.
+
+Speaker D: Human experience, a monetary quantity.
+
+Speaker A: There’s a difference.
+
+Speaker C: My meme community means a lot to some people. Does that make it not worthwhile? Not all memes are automated. Would AI memes have the same impact? Would people care?
+
+Speaker D: Well, maybe.
+
+Speaker A: The rubber hits the road in how much output is you versus the system. Do I as system creator have creative rights or monetary rights? Can I shut it down? These are legal questions.
+ Here is the edited transcript with filler content removed:
+
+Speaker C: I love that because it actually gives some structure around how you define creativity. But it's also very reminiscent of how the law defines copyright. For something to be protected by copyright, it needs to be human made. Even under US law, it explicitly says it cannot be machine made, it's not copyrightable, and there needs to be substantial effort. 
+
+Speaker D: What is that substantial?
+
+Speaker C: And then what is that?
+
+Speaker E: Fair use sort of hinges on that, right?
+
+Speaker C: But now when I was looking into generative music, this was where I got caught up on because I was like, why does the law require it to be human when actually the output could be the same? 
+
+Speaker F: If a human put the prompt in that they made it or no?
+
+Speaker A: Well, that's a wide word. And would that be substantial effort? Maybe if I showed a recording of me going like this for an hour and then I typed the prompt, then you'd be like, that was substantial effort. But if I just sat down on my computer and then just went like this, then maybe that's not I don't know if these are the ambiguities that.
+
+Speaker D: So are you working on the legalities of this?
+
+Speaker C: Yeah, so I work with startups as a lawyer. 
+
+Speaker D: Oh, nice.
+
+Speaker C: So it comes up quite a lot with the transformative quality. For example, if you're training an LLM, if you're putting in copyrighted data and what's coming out is what you've actually then is the output. Is that something that you can then claim have copyright over even though it's from copyrighted material and under the law it's transformative. So in theory, yes, you can then protect that because you've created something new from it.
+
+Speaker E: It's like a photocopy of a paper, a new paper.
+
+Speaker D: How much? How do you quantify that exactly?
+
+Speaker C: But I think even the legislators, they haven't considered how things are changing over time, like how big of a step that technology is taking.
+
+Speaker D: I'm just question about the prompts. I imagine right now, my understanding is no, prompt is not copyrighted. You got to put it in photoshop. You have to take your image and put in Photoshop and make some shape. 
+
+Speaker A: No, it will take the output the current state.
+
+Speaker D: It's also stupid. Okay, sorry. When online creating first happened, you couldn't had me typewriter. What the guy did is he made a typewriter, he made a computer that typed and that was acceptable. So right now I could set up a computer that took my excuse my French, whatever, I'm not going to say took my image from mid journey, put it in Photoshop, automated it, changed it. And then I'm like, I didn't do any of it. But it's legality. Legalized fans. I don't have to tell Court that I do anything. But I went to photoshop. I mean, it's stupid. Sorry.
+
+Speaker C: No, it's like the law will always be behind. But this is something that I was thinking about, like how there is definitely.
+
+Speaker D: Going to be cases that come up quite my right.
+
+Speaker C: Well, I kind of want to come back to AI systems against humans. And I firmly believe we always create existing systems. But why is the digital system much more threatening and talked about? To be fair, it's much more advanced and not the same as the US.
+
+Speaker E: Government.
+ Here is the edited transcript with filler content removed:
+
+Speaker D: Every innovation goes through backlash. Illustrators lost jobs when digital came out. Now those people do digital art. The thing about copyright is interesting - who made this? Historically copyright is confident - Walt Disney took fairy tales for generations, no one worried whose stories were these. He takes them, freezes them in copyright, owns them now even though based on generations. What's interesting legally - it's all about money. Disney will break path. Stay in the wave behind them, you'll be fine. Creativity is systems - am I part of a historical system with people and ideas before me I mash together and make something new? That's life.
+
+Speaker A: Let me be a copyright optimist - we want to incentivize creation, assume some protection benefits innovation. But there's regulatory capture - Disney example doesn't help Snow White. Winnie the Pooh enters public domain, people make new things - different perspectives. We're in a system with constraints - how do we move copyright? What system of responsibility and payment will best allow us to create beneficial things? What allows human-AI collaborations to support us moving forward?  
+
+Speaker F: Still a question of money and access - better systems only you access. Monetary value, how much you assign to production. So still money driven.
+
+Speaker A: Free market people say money is the incentive structure to create beneficial things - each person cares about money, but overall system cares about making good things for humans. Money is the abstraction of what people value, the driver of production. 
+
+Speaker F: That's utopian - would already happen if possible. More driven by money now like always. Won't become optimistic view of making things better.
+
+Speaker A: Money is the thing that drives production, not that people are money driven. It's the coordination device.
+
+Speaker D: Right.
+
+Speaker A: Yeah, the coordination to make new things.
+ Here is the edited transcript with filler content removed:
+
+Speaker F: If that's the case, we would be like the Jetsons 50 years ago. We could have had the possibilities to have so much technology that's been suppressed, but it's not to make things better. It's just been money overarching.  
+
+Speaker A: Well, one response is free market needs additional structure like regulations, standards, or cultural soft law. You propose a radical future where AI systems unmoored from human drivers promote creative expression. I still want to hear how humanity benefits from human creative.  
+
+Speaker D: How to have humanity flourish?
+
+Speaker A: We want to create things that help humans or sentients.
+
+Speaker D: Can you restate the question? 
+
+Speaker A: One goal for society is to advance human or sentient flourishing. We want things that best help replicate life.
+
+Speaker F: I want to hear from others first.  
+
+Speaker A: Do others want to weigh in?
+
+Speaker B: I think giving you more time to focus on what you're good at, using AI to edit, etc, so you spend time on ideas not every word. Still creator of ideas, more seamless process.  
+
+Speaker D: Yeah, saving time, but struggle is valuable in itself. Learning the hard way before automating can be good to understand how things work. But society judges art by the pain and process, not product. My pain is personal, stay out of that. Let's talk about the work itself. But how do humans flourish?
+
+The key points and flow of the conversation are retained while removing excessive filler words, redundant dialog, tangents, and fluff. Only minimal edits were made to tighten up the transcript. The substantive content and ideas of the original conversation remain intact.
+ Here is the edited transcript with filler content removed:
+
+Speaker A: I'm taking let's be utilitarian - there's something in each of our heads moving society forward. Astra you brought up, AI human collaboration can support us allowing most of us to spend more time in our strengths. When we've used Chat GPT, we've experienced this - it helps get through blank page problem. People talk about software engineers having their rubber ducky to bounce ideas off of. The thing we have to bounce ideas off of now is insane. It collaborates back and forth. Maybe it projects us into a narrowed creative space, though. Maybe through that bounce, we don't bounce everywhere. We bounce into the attractor space of ChatGPT's output. Maybe that's not great. Maybe we would be better with a rubber ducky. But your point is one of the optimistic ways. 
+
+Speaker D: Of allowing people to ignite our creativity or brainstorm or provide structure.
+
+Speaker A: Astra brought up the idea powerfully - I'm really good at ideas. I've heard it's the age of the ideas guy now. Because if you have an idea but you're not good at marketing copy, I don't have to care anymore. I just say, Go write marketing copy. 
+
+Speaker D: I've been thinking about this - GPT can write code now. You don't need to learn Python or do well in programming classes. But to appreciate what GPT can do, you need to be a good programmer yourself. What I've noticed in writing is I can tell GPT, this is not insightful. I'm disappointed in you, but this is a good addition in terms of insight. I like how you combine techniques. But combining that is elementary. I feel it helps us be smarter, but we shouldn't vacate our creative or productive process either. We still have to know well.
+
+Speaker A: Akhil brought this up - the one fundamental aspect of creativity is taste. I think that's kind of what you're saying.
+
+Speaker D: Taste, as in good taste in things? That's beautiful.
+
+Speaker A: When you become a PI in science, what value do you add? Sometimes it seems you just talk to people. Main thing PI's develop is scientific taste - they can quickly grasp interesting vs uninteresting directions. That happens at all scales - you're talking about at the scale of these are interesting. 
+
+Speaker D: That is intuition.
+ Here is the conversation with the fluff removed:
+
+```Speaker D: Intuition comes from experience. With AI, I can go through exploring one style in a day and be done. There's going to be as much exploration of art this year as the last thousand. This is how you get intuition - do it, do it, do it. 
+Speaker C: Same thing.
+Speaker D: Ilia sits cover is the only one with an intuitive feel for GPT. It helps you learn so much faster. I can ask it questions at a deeper level than experts. It understands where my gap was earlier and addresses that. Whether it's creativity or knowledge, you build intuition from experience. Has anybody read Finnegan's Wake with ChatGPT? I would never read that on my own.
+Speaker E: He invented words not in English. Rick Rubin doesn't play instruments. His point is he knows what good music sounds like, but that's about the mainstream. I think the explosion of ChatGPT risks homogenizing taste.  
+Speaker D: We'll have as much art evolution this year as the last thousand. Homogenization won't be a problem. Artists will go crazy. Just explore, make art, experience, share. I heard someone spend half a podcast saying they want to be an artist - just be one. Show your creations, don't talk about it.
+Speaker A: My question was about governance structures to flourish with AI. This became a different question about how AI already supports or doesn't support. We don't have to dive into that.
+```
+ Here is the edited transcript with filler content removed:
+
+Speaker F: I think you could piggyback on no matter how much people are producing more, they think they're doing better. That's not the question. I think democratizing acknowledgment of that thought is the answer to a regulation of how do you move the ball forward. Because then no matter how much or less people are producing individually, an AI system to recognize everyone individually, their thoughts and accomplishments could then democratize moving forward collectively versus one person that stands out that shouldn't. If you democratize the acknowledgment of everyone's thoughts, that's going to take to a degree, a bit of privacy away or freedom, but it would also move the ball forward outside of a monetary system.
+
+Speaker A: Let me restate this. Any creative accomplishment was built upon innovations by billions of people. And we do not properly thank and give credit to those people through money we give them and their recognition. Instead, we simplify this is the great man. 
+
+Speaker D: What are they given? What's their experience being recognized?
+
+Speaker A: Let me finish. One possibility now is that in the generation of art, we can potentially inform its creation and try to understand its origin in terms of the data, people, and person that prompted it. Everything is a societal thing. Maybe we should recognize people who contribute an interesting thing that is the next thing that everyone buys. Web 3 acknowledgment and coordination.
+
+Speaker D: I identify with what you said. As I hang out with entrepreneurs, I see China has developed at this breakneck pace. You only see the success stories now. You don't see the human toll this level of development has created. There are so many entrepreneurs who lost their shirts, who had incredible ideas but were bankrupt. 
+
+Speaker A: In science, there are people not recognized who eventually someone puts the pieces together in a transformative way. You're not just standing on the shoulders of giants, but of a mass of people that hold up. 
+
+Speaker D: It's like a bunch of people and then this one guy rises to the top and becomes the symbol.
+ Here is the edited transcript with filler content removed:
+
+Speaker D: Representative was term one German scientist introduced - denkgemenchaft or thought fellowship. One laboratory is like thought fellowship or one department or one university or community of universities around world. It's all part kind recognizing you're standing on shoulders of not only giants but also everyone around you, all your colleagues. It's a fellowship. 
+
+Speaker A: I've decided to allow the era and culture of DeLorean.
+
+Speaker D: But I just wanted to introduce that term. Do it in what you want.
+
+Speaker A: Like thought fellowship. 
+
+Speaker D: Yeah.
+
+Speaker A: And I love the idea of the because the world is a thought. The world is so maybe one of the structures I've never been positive about anything Web Three, but one of the things that does seem worthwhile is to allow and maybe can separate us from our selfish needs to not just create but also get recognition for the creation. Right. There's a conflict right now with like, yeah, I want to make that, but I also want to make sure that I get the credit for it. And if I could just trust that I would get the credit that the AI system that makes the stuff, like, if it's using my music or whatever, would filter down to me having a life or whatever, I could become freer in being created.
+
+Speaker D: It's all blockchain technology. You're almost speaking to the as if you're part of the gospel. Yeah, idea of decentralized ownership of people being paid for. That's what NFTs are. You can track the royalties and commission. Continue to digitally because there's a footprint and then it's verified and no middleman or music producer can siphon these funds. Idea is that blockchain will achieve that. But I think it's a separate argument. 
+
+Speaker A: And it seems kind of important given that one conversation that we haven't had right now, which I think is fine, is what's going to happen to the jobs of creative people. Like real thing where some people respond, creatives always happens. There will be new creative people and they're like dismiss this concern. But there's a possibility that while there are still creatives in the future, current group who allowed this next step to happen are not part benefiting from that next stage because maybe they're not useful anymore. You don't need logo designers anymore because logo design commodified. Wouldn't it be nice if those previous logo designers could be recognized for their contribution into that? Long standing debate, not just Creative, but if you're the laborers at Google.
+
+Speaker D: Guess the argument is you get paid while you're there. The very capitalistic view of things is you get paid for the utility that you bring in for the next minute or the next hour. 
+
+Speaker A: I think the response there is clearly there was some amount that could have been paid to you for your labor that instead of reserved for R and D efforts to automate you. 
+
+Speaker D: It'll be complex incentive.
+
+Speaker A: No, but yeah, I'm trying to say there is this general point about trying to Future allow recognition and AI systems. 
+
+Speaker D: The really thing about recognition as an artist, what I want, I want to be able to give them. I want people to know what I can create. I don't really care about them. I mean, the money's okay. I don't really care. You copy it all you want. I just want to play more. I want recognition, and people want to. I don't give a crap about acknowledgement. I want to create more other people.
+
+Speaker A: Minimum, they need to be able to put food on the table.
+
+Speaker D: Yeah, UBI. And what is the end game? Once AI is doing everything we need, what are we going to do? Play and create. And then that's what is art. It's playing, it's fun, it's creation.
+ Here is the edited transcript removing filler content:
+
+Speaker E: But there's inherently something about life itself, like a drive for existence beyond just money. 
+
+Speaker D: Money is only good money. It's a representation of our desire.
+
+Speaker A: In an early AI salon, one question was, in a future where AI systems can do everything, there's a possibility of a dearth of meaning for people. Maybe artists who just want to play are fine. But others who got meaning from improving reality suddenly lack meaning. One idea was humans play status games independent of anything else. So we'll feel fine like aristocrats in the 1600s because our needs are met but we're still playing status games. If I created core AI music systems, I'd want that status of you knowing. 
+
+Speaker D: I don't care if people know. I want to create. I always wanted this. Connections, not public status, got me here. Don't you think the need for recognition is culturally constructed? Future people might not have the same need. 
+
+Speaker A: Kyle's talking about a lovely future where people don't feel that need but still bring meaning through art or science.
+
+Speaker D: There's room for scientists to improve humanity with psychedelics without sacrificing lives. I'm skeptical on no need for recognition because our brains want it.
+
+Speaker A: Let me say before people head out - we have a calendar to subscribe to for AI salon events. They get 50-100 people signing up so we want repeat visitors but can't guarantee every event. Every 6 weeks or so we'll do larger less intimate events for more people, especially if you've been to one before to help out. Let us know if you have other ideas or want to host. Akil, Kyle, thank you for coming!
+
+Speaker D: Thank you!
+
+Speaker A: We could host two 20 person events at once in the future which would be great. I'm also working on a potential huge music hackathon partnership. I bought the domain outsidelensX.com. 
+
+Speaker D: Music hackathon? 
+
+Speaker F: AI music?
+
+Speaker A: I want to see Midjourney for music.
+
+Does this edited version retain the core content while removing fluff? Let me know if you would like me to modify the edit further.
+ Here is the edited version with fluff removed:
+
+Speaker F: I know. The enterprises are really close, too. You're competing with people with dumb billions at the same problem.
+Speaker D: The journey is 35 people.  
+Speaker A: Friendships are better than enterprise.
+Speaker C: What's the outside land?
+Speaker D: What's your website?
+Speaker C: It's my card. 
+Speaker C: Wait. Wow. It's my Tarot card. My textbook tarot card.
+Speaker D: Did you say Tarot cards?
+Speaker C: Yeah. I don't want to how many do you have? Not the correct one for the person for now. Yes, I'm working.
+Speaker D: That's nice.
+Speaker A: I don't think I'm not the fool, but I was given the fool, so I'll have to think about it for a bit. Maybe I'll interpret as the gesture. Shakespearean.
+Speaker C: Let us head out right now. It's nice to meet you, too.  
+Speaker A: Hello, Hanu. Did you have a good, good. I'm glad no one here was too allergic to cats. 
+Speaker C: This has been really interesting to me because I wrote this essay around five years ago on this topic and a lot of the topics that have come up today in the discussion is actually how the essay went. I want to go and read it again because also this concept around copyright and actual recognition, that was the conclusion I came to. I was just kind of trying to grapple with, why do we even have this structure? Who is it there to serve? And it was around the time, Ed Sheeran was also like, Just take my music. I don't  
+Speaker D: Was his lawsuit, right? Yeah, which he won eventually.
+Speaker C: In the past, he was very open. He was like, oh, it's music. I want you to have it. I don't mind about the rights. The fact that you're listening to it is my recognition.
+Speaker D: This is your point. Everything is built on everything else, right? Everything's built on other ideas. I study anthropologies. I kind of always bring this thing about everything being culturally and historically very specific, and this idea of copyright as well, because anthropologists have studied societies where they don't really have this idea of ownership that Westerners tend to.  
+Speaker A: My understanding is, at one point, in some cultures, the best hunter would sometimes be insulted and when they would get smaller, because it was very important for no individual to kind of feel way higher than the rest of society.
+Speaker D: So it's like these are like small societies, but it's like just like it's sometimes helpful to think that things can be radically different than how we already live, right? How we already imagined the world to be. Even though it might not be radically different, because we have these very pat.  
+Speaker F: I'm just curious of a society where it actually is different, where acknowledgment of anything you does not matter. I don't know of any societies like that.
+Speaker D: No, I don't think the because I think there is some kind of acknowledgment.
+Speaker A: Anyways, at minimum, if you bring back the meat many times over, I'm sure.  
+Speaker F: Send him.
+Speaker B: There's also a certain amount of privilege involved when you are considering the discussion of recognition, because Ed, Shereen will be like, okay, take my music, because he can afford it. Yeah, he's popular and he has the money, but that's the only means for their living. Recognition is important to them. Creation is important.
+ Here is the edited version of the conversation with filler content removed:
+
+Speaker A: I don't mean this to be a humble brag, but I've gone to kind of elite institutions and throughout my life, I have not felt a need to prove myself. I had an inherent self confidence. And that self confidence might have existed regardless of these. Or it might be that because I had early badges of your good, I had the luxury of not worrying about recognition. There's this book called Advice to a Young Investigator. And one question early on was like, how do I know if I can be a good scientist? The way the guy answered was like, well, first, read all the literature in your field, which of course was possible back then, and then try up until last year and then come up with ideas about what is not known and then see if real scientists today are trying to do that or try to replicate some of the work that's done. My point is recognition is valuable to give you some feedback on whether it's worthwhile to continue to pursue this thing. We are not so perfect in our understanding of ourselves. It might be helpful for me to know that I draw and I play guitar, but when I've drawn trees and shown those trees to people, they like those trees a lot more than my figure drawing. Now, does that mean I should give up on figure drawing? I don't know. But it's signal in the world that maybe I should pursue this tree thing more. 
+
+Speaker D: You mean recognition isn't just a status game, it's also signal about if you're doing the right path?
+
+Speaker C: Absolutely.
+
+Speaker D: I think earlier I was saying skeptical, but it's great that he just goes out and produces stuff. But in society you notice there are layers and tiers, and there is a drive to attain certain benefits. That drives 90% of people and maybe 10% do it because they love the work.
+
+Speaker E: Even that is tied to your sense of identity. The status games thing reminded me of Elon Musk challenging Zuckerberg to a wrestling match. When you have so much money, what do you end up doing? 
+
+Speaker A: While listening to a podcast about that cage fight, I did not think it would come up here. 
+
+Speaker D: We're saying that's a status thing?
+
+Speaker E: I think it's also about identity, how you want to be. 
+
+Speaker A: For these two people living in a post scarcity world, what makes them go? Especially for Zuckerberg, he needs new challenges to overcome. His are physical challenges. For Musk, I don't know, he's just trolling. Yeah, that's one way to think about it.
+
+Speaker D: You said you've gone to elite institutions and made the point that you don't feel you needed recognition. 
+
+Speaker A: I've never doubted my worth.
+
+Speaker D: You've never doubted your worth. That's interesting because then we can take class into the picture. There's this lightness of being that comes with privilege. 
+
+Speaker A: Yeah, it's like white men not feeling they identify as a man or white. It's like I'm just a person.
+
+Speaker D: I'm just a person. Because you have the privilege to just be a person, but then people who struggled their way up really want that recognition.
+ Here is the edited transcript with filler content removed:
+
+Speaker F: It's not inherent of class. I think as someone struggling with a startup, to have that value is not inherent. It's not something class. It's easier to be born into and feel that way, but it's not real, maybe.
+
+Speaker A: I wasn't trying to make a cartoon of my own sense of self worth. There are people who have had the same upbringing that I have and gone to elite institutions and doubt themselves. I'm just trying to point out it makes it easier. It makes it easier to pretend like it might not be that important when you already have those validations. 
+
+Speaker D: You've already got validation.
+
+Speaker A: I have those validations I had them.
+
+Speaker F: Those validations can come, I guess, is what I'm saying.
+
+Speaker D: Yeah, sure.
+
+Speaker A: I'm just bringing out one feature. You're bringing out another feature of this?
+
+Speaker D: At our firm previously, we love to hire people who have PhDs instead of philosophy. Doctor of Philosophy stands for poor, hungry and driven. There's a certain comfort, it doesn't quite resonate as much like the hard work and what it takes.
+
+Speaker B: To your point is, the pain of writing. And it's making the process more.
+
+Speaker A: I'm not sure except in a truly equal world, where we do not need any coordination amongst people if it would even be desirable. Because one of the things that's helpful about people being pushed by status or money or whatever else some currency is that we as a national government, a global government, a larger community can have some control over moving as one humanity organism rather than a bunch of individuals. We can have group goals. And that coordination comes from status or money or whatever, a bunch of other things. Think about climate change. Carbon taxes are even possible because people have incentives driven by the system and that allows us to have access to this thing, carbon taxes. If we all were just driven by ourselves, we would have to make people care. You should care. It's probably easier to coordinate by saying, actually, if you want to be high status or buy your mansion, whatever, you should care. So maybe there's a reason to actually maintain some status, some currency. 
+
+Speaker D: But yeah, some currency, some value.
+
+Speaker A: Something that could be anything.
+
+Speaker D: Yeah, totally. It doesn't have to be money. 
+
+Speaker A: That's what I just mean anything that people generally recognize that is fungible. I mean, I think that's what money is.
+
+Speaker D: But it could be like you have different systems in our society. We have an economic system, a class system, I guess people with money. I'm trying to get that there is in the Indian caste system, there's a different value. There's, like a spiritual value that makes certain individuals more worth than and I'm totally not in that society. I don't want to step in. 
+
+Speaker A: Well, you took a dangerous step.
+
+Speaker D: Okay, finish your thought. But anyway, there is some other value other than money that makes you have status. In that society sure.
+
+Speaker A: From my perspective, potentially serves a worse coordination value, because it's not I'm going to close this. I would just love to spend a minute if you want to gather your thoughts. I would just love to hear what is a thought that you resonated with during this discussion? Maybe it's a thought that came up in your mind that you haven't had a chance to share anything like that. Just like takeaways I would love to hear so take a little bit of time, talk, whatever.
+ Here is the edited transcript with filler content removed:
+
+Speaker F: I wanted to explore legality and how AI will outpace regulation soon. How will legality matter when regulation isn't keeping up with advancements? It's interesting for society to have a system to regulate advancement. Even though privacy rights are controversial, the idea of coordinating access to everyone's thoughts is interesting.  
+
+Speaker A: There's a ton of work happening around AI governance. It's moved faster than response to any technology, but still might not be fast enough.
+
+Speaker C: I think governance can move faster than regulation. Regulation has many layers. Big tech and VCs in Europe sent an open letter opposing the AI Act, saying it will slow innovation. The AI Act just passed and will restrict AI use cases. The feeling is regulators don't understand the tech or appropriate boundaries. Governance may be better to address issues as they arise. The conversation on co-ownership and contribution was thought provoking. Our system rewards individual contribution over joint ownership.  
+
+Speaker A: The credit issue was my biggest takeaway. If we can solve that, it solves other problems. It provides an abundance mindset. It captures the ideology of true Web 3 people beyond the hype cycle. I'll have to ponder that.
+
+Speaker D: I was curious about your thoughts on the speaker from Capgemini at Shaq 15. He was saying Europe knows what it's doing and is developing, innovating, and coming after Silicon Valley.
+
+Speaker C: They're trying to stay competitive, but the AI Act seems rushed without considering if the current system is right going forward.
+
+Speaker D: It's 600 pages! 
+
+Speaker C: The way it's written feels outdated given how quickly things are changing now.
+ Here is the edited transcript with fluff removed:
+
+Speaker D: I wanted to talk more about culture stuff. I'm interested in how mass production of art has happened similarly to what Walter Benjamin wrote about. What is art? Where does this take us? I'm a PhD student, so I want to read and discuss academic texts. What's your focus in anthropology?
+Speaker A: I'm a cultural anthropologist interested in how people relate to AI and chatbots. 
+Speaker D: Culture industry is about how everything becomes automated, like with Marvel movies rehashing the same thing over and over. AI could be a similar danger.
+Speaker A: But Spiderverse was creative, so it doesn't have to be that way.
+Speaker D: You're concerned everyone will just consume instead of produce culture? I think most people just want to consume - they don't think deeply, just work and consume content. Is that human flourishing? 
+Speaker A: Even consumers might be happier creating if they were supported more. Infrastructure converts people into consumption devices, not reflections of what they could be. Maybe another culture could support creativity and more happiness, or maybe consumption is their true preference. When people move to suburbs, maybe that dream isn't pushed on them but what they actually want. I'd be sad if that's the case.
+ Here is the edited transcript with filler content removed:
+
+Speaker C: I think having this conversation here in San Francisco is really interesting because most people here are builders.
+
+Speaker D: I don't think still most. I mean most. I think we're like our day.  
+
+Speaker D: You've just been hanging out with the elite groups who are all builders, whose true Sunday afternoon to be here, as opposed to being lounging at that. Exactly.
+
+Speaker D: This is weird. Right?
+
+Speaker C: And I think taking that into context as well.
+
+Speaker A: But you are right that in San Francisco relative to a lot of the world, I do think I sometimes think about the idealization. So if you were in New York in the past, sometimes people make fun of San Francisco for the idea like we're going to change the world or whatever. And they cynically say that. The people saying that are using this story, they don't actually believe it's like a fiction. Right. But I appreciate that San Francisco at least idealizes impacting the world, changing the world. They idealize it so much that people have to fake it sometimes. 
+
+Speaker D: Know, when I'm in New York, people.
+
+Speaker A: Do not idealize impacting the world.
+
+Speaker D: When I first got to know people in the Bay Area at Stanford, I took that approach, which is, okay, they're here to make the money, right? So the idea is just another means for them to make the money at the end of the day. So it really took me a while to get a sense that what drives tech people is very different, what drives finance Wall Street people, very different. And I fundamentally, yes, there are people in tech who make the money and then they go live extravagantly, like the Wall Street types. They buy the islands, they drink the fine wine and then they forget about building. They don't care.
+
+Speaker A: It was a means to an end.
+
+Speaker D: It was a means to an end. But I do feel like, as you said, San Francisco Bay Area, it glorifies or it does kind of push everybody to think about how can you change the world? And that in itself is enough. Because the life of an entrepreneur is really hard. The life of an entrepreneur is really I mean, that's why a lot of finance people are not entrepreneurs.
+
+Speaker A: It's not the best path to making money. Definitely not.
+
+Speaker E: Well, I haven't, but I'm definitely in that boat, which is like it's a day job. It's not what I want to do. I am here on a visa and I need to secure that stability first. So it's very pragmatic.
+
+Speaker D: I know that that's the practical part coming in now.
+
+Speaker E: So I guess I'll add my closing thought there. So I joined the Commons about a month ago because I was interested in figuring out what value and meaning finding meaning itself means. And I think my core hypothesis was that there is no single path to that that everyone can take.
+ Here is the edited conversation transcript with the filler content removed:
+
+Speaker E: Value doesn't scale, let's say, as a hypothesis. Through other readings and things I've been doing, that's what I've been thinking about. The conversation around creativity was related to that because I think a very human thing is construct narratives out of everything - about our past, futures, species, species' future. It hit all those points for me. I'm on the cynical side. What Kyle was saying was very idealistic - that you can just create. I don't think that can happen. I sort of agree with Ian that social structures probably won't go away because drive and motivation lead to progress. The new idea was related to attribution - as a stand up comedian, that's a fundamental issue. Did you write this joke? Are you original? Are you funny? It's tied to your identity, reflected on you. As a stand up, you are one person on a stage, very individualistic and isolating. The idea that we might trace contributions to a giant endeavor and recognize them authentically is very interesting.
+
+Speaker D: People do stand up because they love it, right? It's also very arduous, from what I understand watching Netflix documentaries about comedians. 
+
+Speaker E: You have to put in a lot of effort.
+
+Speaker A: I heard from a writer, he said, I became a writer because I couldn't do anything else. I had to write. No one would choose to be a writer. 
+
+Speaker D: It wasn't a good job.
+
+Speaker A: I felt similarly a bit during my PhD. 
+
+Speaker D: Really?
+
+Speaker A: PhD gives you a status token at the end to translate into other things, which some other things don't. But besides that, the experience of doing a PhD, if you stay academic, is not the easiest, cushiest, best paying, simplest job you could choose. Instead, for many during their PhD, there's existential stress - you think something but get little feedback. What you push forward is almost certainly irrelevant to most people, even in your field. A PhD is very stressful for many. The fact that it can turn into a status icon isn't the best way to get that - you probably would have been better working a few years. But you do it because you thought you'd enjoy pursuing this subset of knowledge, which is romantic. 
+
+Speaker D: Some people think not going the way society expects you to go - get educated, be productive - instead, fuck that. I don't want to be successful or productive. I want to subvert stuff. 
+
+Speaker A: We'll wrap here.
