@@ -38,6 +38,13 @@ to download the specific model we use to run NER.
 After installing the repo in your python environment, you can 
 use the CLI by calling `SocraticAI`.
 
-For instance, to see all commands you can get help like so:
+For instance, to see all commands you can get help by running 
 
 ```SocraticAI -h```
+
+- stats               Stats on repo
+- full_run            Transcribe and generate_insights
+- generate            Generate insights from a transcript
+- generate_multi      Generate insights from multiple transcripts
+- transcribe          Transcribe a single file
+- transcribe_multi    Transcribe multiple files
