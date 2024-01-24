@@ -21,11 +21,15 @@ def get_data_directory(subdirectory):
 def get_transcribed_path(file_path):
     basename = os.path.basename(file_path)
     basename = os.path.splitext(basename)[0] + "_transcript.txt"
-    return os.path.join(get_data_directory("processed"), basename)
+    return os.path.join(get_data_directory("transcripts"), basename)
 
 
-def get_processed_path(transcript_file_path):
-    return get_transcribed_path().replace(".txt", "_processed.txt")
+def get_processed_path(file_path):
+    return (
+        get_transcribed_path(file_path)
+        .replace(".txt", "_processed.txt")
+        .replace("transcripts", "processed")
+    )
 
 
 def get_anonymized_path(processed_file_path):
