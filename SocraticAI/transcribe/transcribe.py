@@ -12,34 +12,21 @@ logger = logging.getLogger(__name__)
 aai.settings.api_key = os.getenv("ASSEMBLYAI_KEY")
 
 
-def transcribe(file_path, process=True, anonymize=True, output_file=None):
+def transcribe(file_path, process=True, anonymize_transcript=True, output_file=None):
     """
     Transcribes an audio file using AssemblyAI's transcription service.
 
     Args:
         file_path (str): The path to the audio file to transcribe.
-        process (bool, optional): Whether to process the transcript after transcription. Default is True.
-        anonymize (bool, optional): Whether to anonymize the transcript. Default is True.
+        process (bool, optional): Whether to process the transcript after transcription.
+            Defaults to True.
+        anonymize_transcript (bool, optional): Whether to anonymize the transcript.
+            Defaults to True.
         output_file (str, optional): The path to save the transcript to. If not provided,
             a default path will be used.
 
     Returns:
         tuple: A tuple containing the output file path and the transcript text.
-    """
-    # Function implementation...
-
-
-def transcribe(file_path, process=True, anonymize=True, output_file=None):
-    """
-    Transcribes an audio file using AssemblyAI's transcription service.
-
-    Args:
-        file_path (str): The path to the audio file to transcribe.
-        output_file (str, optional): The path to save the transcript to. If not provided,
-            a default path will be used.
-
-    Returns:
-        assemblyai.transcript.Transcript: The transcript object returned by AssemblyAI.
     """
     if output_file is None:
         output_file = get_transcribed_path(file_path)
@@ -61,10 +48,10 @@ def transcribe(file_path, process=True, anonymize=True, output_file=None):
             f"Speaker {utterance.speaker}: {utterance.text}"
             for utterance in transcript.utterances
         ]
-        transcript = "\n".join(utterances)
+        transcript_string = "\n".join(utterances)
         logger.info(f"Transcribed in {time.time() - start:.2f} seconds")
         with open(output_file, "w") as f:
-            f.write(transcript)
+            f.write(transcript_string)
     if process is True:
         transcript_file = output_file
         processed_file_path = get_processed_path(transcript_file)
