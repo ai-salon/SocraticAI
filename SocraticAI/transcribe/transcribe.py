@@ -5,11 +5,28 @@ import time
 import assemblyai as aai
 
 from SocraticAI.transcribe.process import anonymize_transcript, process_file
-from SocraticAI.utils import get_data_directory
+from SocraticAI.utils import get_processed_path, get_transcribed_path
 
 logger = logging.getLogger(__name__)
 
 aai.settings.api_key = os.getenv("ASSEMBLYAI_KEY")
+
+
+def transcribe(file_path, process=True, anonymize=True, output_file=None):
+    """
+    Transcribes an audio file using AssemblyAI's transcription service.
+
+    Args:
+        file_path (str): The path to the audio file to transcribe.
+        process (bool, optional): Whether to process the transcript after transcription. Default is True.
+        anonymize (bool, optional): Whether to anonymize the transcript. Default is True.
+        output_file (str, optional): The path to save the transcript to. If not provided,
+            a default path will be used.
+
+    Returns:
+        tuple: A tuple containing the output file path and the transcript text.
+    """
+    # Function implementation...
 
 
 def transcribe(file_path, process=True, anonymize=True, output_file=None):
@@ -25,9 +42,7 @@ def transcribe(file_path, process=True, anonymize=True, output_file=None):
         assemblyai.transcript.Transcript: The transcript object returned by AssemblyAI.
     """
     if output_file is None:
-        basename = os.path.basename(file_path)
-        basename = os.path.splitext(basename)[0] + "_transcript.txt"
-        output_file = os.path.join(get_data_directory("processed"), basename)
+        output_file = get_transcribed_path(file_path)
 
     if os.path.exists(output_file):
         logger.info(f"Transcription already done. Loading {output_file}...")
@@ -52,7 +67,7 @@ def transcribe(file_path, process=True, anonymize=True, output_file=None):
             f.write(transcript)
     if process is True:
         transcript_file = output_file
-        processed_file_path = transcript_file.replace(".txt", "_processed.txt")
+        processed_file_path = get_processed_path(transcript_file)
         if not os.path.exists(processed_file_path):
             logger.info(f"Processing {transcript_file}...")
             transcript = process_file(transcript_file)

@@ -20,10 +20,10 @@ def strip_preamble(text):
     return result
 
 
-def expansion_to_string(expansions):
+def expansion_to_string(takeaways):
     # add blogs and insights to one long string\
     final_string = ""
-    for theme, value in expansions.items():
+    for theme, value in takeaways.items():
         final_string += f"# {theme}\n\n"
         for insight in value["insights"]:
             final_string += f"* {insight}\n"

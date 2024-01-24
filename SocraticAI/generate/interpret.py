@@ -3,13 +3,22 @@ import os
 
 from SocraticAI.generate.takeaways import run_takeaway_generation
 from SocraticAI.generate.utils import dict_to_markdown, expansion_to_string
-from SocraticAI.transcribe.process import process_file
 from SocraticAI.utils import get_data_directory
 
 logger = logging.getLogger(__name__)
 
 
 def interpret_transcript(file_path, expand=False):
+    """
+    Interprets a transcript file and generates takeaways.
+
+    Args:
+        file_path (str): The path to the transcript file.
+        expand (bool, optional): Whether to expand the takeaways or not. Defaults to False.
+
+    Returns:
+        str: The generated takeaways as a string.
+    """
     processed_file_path = file_path.replace(".txt", "_processed_anon.txt")
     if not os.path.exists(processed_file_path):
         logger.info(
