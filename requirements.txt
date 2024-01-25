@@ -3,3 +3,4 @@ assemblyai
 langchain
 spacy
 tiktoken
+python-dotenv
