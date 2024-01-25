@@ -1,3 +1,5 @@
+from dotenv import load_dotenv
+
 import argparse
 
 from SocraticAI.cli.commands import (
@@ -68,6 +70,7 @@ parser_transcribe_multi.set_defaults(func=transcribe_multi)
 
 
 def main():
+    load_dotenv()
     # Parse the command line arguments
     args = parser.parse_args()
 
