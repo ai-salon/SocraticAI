@@ -20,7 +20,9 @@ be created in that folder and moved to outputs.
 
 ### Environment Variables
 You'll need certain environment variables set:
-* ANTHROPIC_KEY: anthropic api token, used to interpret transcripts
+* MODEL_TYPE: either 'openai' or 'anthropic'. Set the corresponding key below.
+* (Optional) ANTHROPIC_KEY: anthropic api token, used to interpret transcripts
+* (Optional) OPENAI_KEY: openai api token, used to interpret transcripts
 * ASSEMBLYAI_KEY: Assembly AI api token, used to transcribe
 You can set these in a '.env' file in your project.
 

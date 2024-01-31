@@ -24,7 +24,7 @@ def transcribe(file_path, process=True, output_file=None):
         file_path (str): The path to the audio file to transcribe.
         process (bool, optional): Whether to process the transcript after transcription.
             Defaults to True.
-        anonymize_transcript (bool, optional): Whether to anonymize the transcript.
+        should_anonymize_transcript (bool, optional): Whether to anonymize the transcript.
             Defaults to True.
         output_file (str, optional): The path to save the transcript to. If not provided,
             a default path will be used.
@@ -69,7 +69,8 @@ def transcribe(file_path, process=True, output_file=None):
         anon_file_path = get_anonymized_path(file_path)
         if not os.path.exists(anon_file_path):
             logger.info(f"Anonymizing {processed_file_path}...")
-            transcript = anonymize_transcript(processed_file_path, anon_file_path)
+            transcript = anonymize_transcript(
+                processed_file_path, anon_file_path)
         else:
             logger.info(f"Anonymized already. Loading {anon_file_path}...")
             with open(anon_file_path, "r") as f:
