@@ -4,7 +4,7 @@ import os
 import spacy
 
 from SocraticAI.generate.prompts import copy_edit_prompt
-from SocraticAI.llm_utils import chat_completion
+from SocraticAI.llm_utils import Model
 from SocraticAI.transcribe.utils import get_name_list
 from SocraticAI.utils import chunk_text, get_data_directory
 
@@ -28,6 +28,7 @@ def process_file(transcript_path, save_file=True, process_prompt=copy_edit_promp
     Returns:
         str: The processed text as a single string.
     """
+    model = Model.get_instance()
     # Read the file
     with open(transcript_path, "r") as f:
         text = f.read()
@@ -35,7 +36,8 @@ def process_file(transcript_path, save_file=True, process_prompt=copy_edit_promp
     processed_chunks = []
     for i, chunk in enumerate(text_chunks):
         logger.info(f"Processing chunk {i+1}/{len(text_chunks)}")
-        processed = chat_completion(process_prompt(text=chunk), "claude-2", 10000)
+        processed = model.chat_completion(
+            process_prompt(text=chunk), "complex")
         # remove text at beginning of string
         to_remove = "Processed Transcript!"
         processed = processed.replace(to_remove, "")
@@ -45,7 +47,8 @@ def process_file(transcript_path, save_file=True, process_prompt=copy_edit_promp
     if save_file:
         basename = os.path.basename(transcript_path)
         output_path = os.path.join(
-            get_data_directory("processed"), basename.replace(".txt", "_processed.txt")
+            get_data_directory("processed"), basename.replace(
+                ".txt", "_processed.txt")
         )
         with open(output_path, "w") as f:
             f.write(processed_text)
