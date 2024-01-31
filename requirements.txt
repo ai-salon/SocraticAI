@@ -4,3 +4,4 @@ langchain
 spacy
 tiktoken
 python-dotenv
+openai
