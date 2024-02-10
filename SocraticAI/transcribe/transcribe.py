@@ -24,8 +24,6 @@ def transcribe(file_path, process=True, output_file=None):
         file_path (str): The path to the audio file to transcribe.
         process (bool, optional): Whether to process the transcript after transcription.
             Defaults to True.
-        should_anonymize_transcript (bool, optional): Whether to anonymize the transcript.
-            Defaults to True.
         output_file (str, optional): The path to save the transcript to. If not provided,
             a default path will be used.
 
