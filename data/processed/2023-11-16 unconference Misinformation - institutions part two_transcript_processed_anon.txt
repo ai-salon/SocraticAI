@@ -1,0 +1,177 @@
+Names have been changed to preserve anonymity.
+
+ 
+
+Speaker A: It's not necessarily easy to find, but I think that that could be easier to find. And sort of if you inter sort of bring in financial, publicly traded companies, tons of regulations that they need to adhere to to be able to be traded publicly. And so having something like that to be a legitimate government, you need to sort of adhere to some kind of rules. Some countries won't, but it's a goal. But I think that it's hard right now because we don't have the tools to do granular accounting of financial, like what corporations or construction company is getting money to do what our own government is.
+
+Speaker B: The one, I hear super Pacs. Right.
+
+Speaker C: Dod just failed another audit.
+
+Speaker A: What's that?
+
+Speaker C: Dod just failed another audit.
+
+Speaker B: Do we want to put money? Whether they got to pass it or not, it can also depend on how you define corruption. Right. So in Middle east or Africa, in the US.
+
+Speaker D: We talked about this in the previous session about Apple creating this part where we can verify photos, whether it's verify iPhone or deep face, which is nice for media, right? But I think on Instagram and TikTok, people just watch videos and photos. But I think people still read on like Reddit and other things. And I think if you want to do a misinformation campaign, Reddit is your best source. But after Elon took over, it's harder. I think one thing he done good is that he introduced the badges system where you have to either upload a passport or pay a couple of bucks to make your misinformation more legit. In terms of where I think the media landscape is going, I think it's going to get a lot worse before it gets any better. 
+
+Speaker B: I think you could have platforms like meta and Reddit integrating AI for debunking and promoting good sources. But I think it's especially on Reddit, if you are a foreign actor that doesn't have the world's best interest, it's a lot easier to set up a campaign now. And you can see entire suburbs heavily influenced, and that's just getting easier. And I don't really see a solution to text verification except for either paying or uploading your passport and then everything you do online being tied to your passport, which is really Orwellian, but it's hard otherwise unless we have some consensus on truth.
+
+Speaker B: I think it's about the reputation. So again, we go back to the investment side. If you have an audience that follows you for financial advice and you make a statement which is false, you're going to lose followers, get called out and lose money. There's always exceptions, but then you just become irrelevant.  
+
+Speaker D: Of the United States. He has this campaign about the election being stolen, which is false, but it doesn't lose him any supporters.
+
+Speaker B: But that's our point. Because if I believe the election is stolen or not, there's no consequence to me. I'm not going to lose money on that. My inclination is I'm more likely to accept misinformation that confirms my worldview, that feels good, helps me align with my tribe. And if I'm wrong, there's no consequence, no incentive to seek truth. In investing, no, I want the truth, otherwise I bet wrong and lose money.  
+
+Speaker A: But that backfires with Covid misinformation, because if you don't vaccinate, there's a higher chance you die. That contradicts not wanting to pay for believing misinformation. You should want to know what's right.
+ 
+
+Speaker B: Yeah, I think a lot of us are driven by that, too. To actually discover what was right with COVID Right. I mean, I think a lot more people. I mean, there's definitely still people that.
+Speaker A: May, those people that don't care.
+Speaker Kwame: Actually, with what you're saying, because that kind of comes back to what I was describing as potentially a solution where people have some id verification and there is some reputation score to whatever you're doing. You're saying online, whenever you're fact checking information, signaling if you have done that for something that turns out to be fake, well, you're going to lose your score. It's not going to be that strong.
+Speaker A: The Black Mirror episode.
+Speaker Kwame: Yeah, right. 
+Speaker D: But what if it's so easy, like, say I'm a Reddit user, the score is karma, right? They can find a final meme somewhere five years ago, repost it on airbeans, get a lot of karma, and then go to our politics and then make some claims about stolen election or whatever. And if people download me, I have my other account which have 100 voting content I can use, start posting with that one instead.
+Speaker Kwame: But that's the point that we're supposed to have one identity that you cannot create multiple.
+Speaker D: Right? But we do not at this.
+Speaker Kwame: That's what I mean, we should. And that's why I said it kind of stumps on the idea of you.
+Speaker B: Could have a system where you have different identities, students on different social media sites, and still ties back to one kind of universal identity that's only known to you, and then the reputation can be maintained and still be attested to different social media sites without revealing your true identity.  
+Speaker A: Yeah, I think the importance of anonymity in publishing contentious worldviews is like, to me, paramount. If anyone's familiar with the federalist papers. But do you know what name they were published under? It wasn't Sanjay or Luis. It was publius. Right. Because they were contentious, because they would single that person out for sanctions by the community or by political authorities.
+Speaker E: I pretty much agree with your hypothesis that there's, like, a profit motive. And I think the two examples that I think were very valid, that were examples where it didn't work, were short term and unregulated. But short term mostly, by which, you know, Dalio has made way more money than any individual crypto scam because he was able to long term incentive, align the profits. And I'm wondering, we're trying to speak about governance structures. If there was, like, a couple of things that you could do, which is, given that most of the misinformation that's important is temporal in nature, which is, it's more important that it happens kind of immediately and starts to proliferate if you just stifled the speed at which things were able to get out until it had gone through some sort of verification, and then once it had been verified, you could increase someone's reach, by which I mean, incentivize them to have told the truth after they've gone through this short verification period, and then disclose the way it was verified to the rest of the people that saw it.  
+Speaker F: Can I say something more about the basic problem, though? Somebody mentioned the Trump election stolen thing. Suppose that we had some institution that decides what is true and false and rewards people accordingly. Yeah, it doesn't literally have to be an institution. It could be some decentralized protocol. Whatever the case, there will be some outcome in which those who declared that the election was stolen received financial payments or whatever. Then everybody else is going to quit the system immediately because they disagree. And I think all the important issues are like this, where nobody is going to trust or change their opinions based on the decision of some protocol or some ministry or whatever else. I think it would just pretty much immediately descend into chaos like Balkanizer.
+ 
+
+Speaker B: You do have that with prediction markets, right?
+Speaker F: But they never decide anything that's like this. And you have to, ahead of time, make sure that the decision criteria are objective. 
+Speaker B: Market.
+Speaker A: Right.
+Speaker F: Regardless of the outcome. Suppose that it resolved that, yes, it was stolen, right? 
+Speaker A: Wrong.
+Speaker F: I disagree. And then suppose it resolved, no, it wasn't stolen. What I'm saying is that people who have the belief are not going to change it because some weird crypto nerd stuff. I worked in crypto. 
+Speaker D: There's no skin in the game, following the institution, it doesn't matter. But in this fictional story, the Ministry of Truth, you follow it because it's quite important to your life. And also in China, more realistic, they're moving to this post capitalistic system of reputation system. And there's this book, the most downloaded app in China called the Red Book or the fort of Qi, and it very clearly states what is. If you don't agree with it on social media, your scroll goes down.
+Speaker F: Yeah, but that's bad. I would rather have Trump than, yeah, I think this was mainly mentioned by you. One of the difficulties of having a protocol or an institution that is using a classifier to figure out what is correct and what is not correct is that you can end up in these failure cases, which is, I think, what happened with our system, where you just have general distrust in the media and information, environment and ecosystem. Everything that's presented to you is like, could this be wrong? Should I believe it? And one of the dangers here is that it crowds out what is correct and good and true. Right. Like, even that starts to be seen as maybe suspicious. One of the other dangers is if everything I see is incorrect, anything goes, and I'm just going to weigh what is correct and incorrect based on my opinions. Anyway, I think that there's a real risk here of having a central entity that decides what is right or wrong, especially because there's a chance that you get it wrong.  
+Speaker Kwame: What role do the journalists? Because they always have this way of trying to determine the truth. And is that methodology based in any of the computer systems? It's like an algorithm, right. Journalists have this way of like, okay. And they went to Bucha and they were like, okay, we have to document all these things that happen and document them. I think it was the UN. So that's a methodology. Is that something that we are able to use?  
+Speaker F: Yeah.
+Speaker A: Journalism has somehow evolved from the presentation of facts to finding things to support a narrative, to appeal to their viewership. I don't know if that's the other people's sentiment, but I was politically very interested at a very young age, and I think my trust in news media is at an all time level to present any kind of unbiased.  
+Speaker Kwame: But what about the investigations at Pucho, where they went in and they're like, okay, we have to document all these things. Oh, you get to spin it however you want.
+Speaker F: So there's sort of, like, two things about this. One is that this is already, like a big debate in can there be writings about the world that are not colored by opinion? Right. And I think that there was a period in journalism where, yes, we can develop a method, kind of like a scientific method, an approach to understanding the world and analyzing it, where we can produce correct information that people can believe. And now it's sort of quite suspect that that's the case. And there's also this, like, okay, then anything goes. And we should just be going into opinion and not acting like we're presenting factual information. What you're bringing up here is attention. In journalism, on the other hand, I do like what you're saying. I think that there is a method by which you can go into the world and figure things out. I don't think anything.
+Speaker Kwame: Well, there's a difference between the New York Post and the New Yorker. I'm not saying New Yorker is better. Well, yeah, to me it's better. And it's like, oh, it's like, oh, it's much less black and white. And they have, like, ten page articles instead of like. And I like reading a New York Post for fun, but sometimes they'll just put it really weird.
+ 
+
+Speaker F: One of the things here is, these outlets like the New York Times and your posts are able to reason about what their biases might be, where they're come from. One's from Kwameermany, one is not and so forth. You can do those sorts of things. Right? I can't do that about a model. I can't easily point out what are the biases of this random person on Facebook presenting some information to me and my ability to reason about who the producer of information is is really critical to my ability to navigate my information environment. 
+
+Speaker A: Yeah, it's understanding biases. Academic, scientific literature, at the end of your article, you say this was funded by these agencies and departments, and you hint at, okay, maybe there's some other interest here, but then also this idea of profit loss track record, where your hedge fund sucks, you never make money, your beliefs are bad. But again, there's not a lot of accountability for this. I don't want to get political, but I've seen some stuff on Fox News, and I'm like, dude, these guys never get taken to task for saying just random stuff. And then I saw the actual adjudication of this legal dispute after saying Dominion securities was whatever, some Chavez plant, which was like the legal team at Fox News. I'm trying to be political, but it's like nobody could reasonably infer this was anything but entertainment. 
+
+Speaker B: There's this map on the y axis is how factual, going up, it's more factual, going down, it's less factual. Then on the x axis, interestingly, at the top, which is center, and most factual is Economist, et cetera. 
+
+Speaker A: I read financial news, I believe it for the most part, because it's got to be sort of true, because their audience is not somebody who wants to be lied to about something. And I read the Economist, which I think is pretty good, too. I think they're sort of in the middle. One thing I'll note is I listen to the online podcast, and they're postulating that they're the new thing, but they're so full of opinions lately, I'm like, you guys are not the new thing. You're the old thing in a new coat.
+
+Speaker D: Anything that involves Jason Kalatani, whatever he's called. I don't touch that. But I think the whole thing, another saloon. We have, everything came down to incentives. And if you have this saloon, the whole thing comes down to what is truth. Can we have a truth ministry? I think what communication is, is just one human, like a New Yorker journalist writing English, to express need to another human. And it is opinionated. There is no way around it, but it is opinionated fundamentally. And then it's just a matter of how well does that represent universe, those choice of words. But I think right of what we want to do is like reputation systems and verifications of offers on the web. And I wanted to quickly hear if anyone has any thoughts here about this thing where we can have the fundamentalist papers or Edward Snowden making claims on the mean, but also have some kind of reputation system for people that do make faults or good.
+ 
+
+Speaker C: If we look at the example of the financial papers and incentives. I used to do stock trading and I would be CNBC. For some reason, my friend at Hudson river trading would just like outperform me all the time and I have no idea why that is. 
+
+Speaker B: Right.
+
+Speaker C: And if we could get something like that for information, right. I suspect that that's where AI would be able to help us out because you've got Kwamedell out of University of Kwameeorgia is constantly going, getting like, and they're partnered with Kwameoogle to do all the content analysis. But it's just like taking that next level of AI to say, hey, here's what's currently going on, what is it telling us? 
+
+Speaker H: Very pragmatic, here's what's right here.
+
+Speaker B: I don't doubt that AI is capable of that.
+
+Speaker F: What I'm afraid of is that we're going to end up with two AI. 
+
+Speaker B: And people are going to subscribe to the one that confirms what they want to hear.
+
+Speaker C: That's the question is what are you predicting, right. Where if you can predict events, you can predict the outcome of things. That's one thing. If you can predict what is right, what is wrong, that's another thing.
+
+Speaker A: I would suggest, then, this is getting to the crux of what I see as the issue under analysis here, which is that we have a de facto ministry of truth, but it is an outsourced series of commercial entities that have for profit motives, and their algorithms are the arbiters of which stories get promoted or demoted. And that is how the truth manifests to us, is what stories and information is available. And the question I think, really is, can we trust? 
+
+Speaker Kwame: What are the reports by corporations? They can't lie. They get penalized. They can get in big trouble. 
+
+Speaker A: They get caught.
+
+Speaker Kwame: Oh, if they get caught. 
+
+Speaker B: Advertising, not lying.
+
+Speaker Kwame: Well, when you go like, meadow goes to Wall street and analysts will gather around them like vultures and they're like, you can't cook the books or you'll get in trouble.
+
+Speaker B: Right.  
+
+Speaker D: Even if they'll mess up, they cannot cook the beef.
+
+Speaker B: So I guess, do we have a propensity? Tribal, right. I think we mentioned earlier about the news. So even party can lie a little bit, but it's leave out parts in context where the narrative that suits our audience, whether they're like, either you are pro Israel advocate, and that doesn't make me necessarily against anyone, right. And when we're tribal, we're also to us. But if I'm so biased and so tribal, doesn't matter.
+ 
+
+Speaker A: I think most consistent thing I've observed in this sense, and people's self interested, whatever is like, how often do you actually find someone who will believe things that are not in their direct economic interest? That's kind of a marxist perspective, but it's like, certainly true for companies. People that work at companies and you better believe these people in the companies think for sure that this is the best way to move the ball forward in society, and it just happens to be aligned with their economic self interest.  
+
+Speaker H: Yeah, I think part of the question with, we so often are looking at a tribe we disagree with and saying, how can I get that tribe to agree with me? But I think a lot of the best fact checking, a lot of the disinformation reduction online happens when someone within a tribe tells somebody else in the same tribe, no, you're wrong and you're out of bounds. For if you're friends with me, you won't be posting that kind of nonsense. And so this happens, I've seen this a lot on Facebook where it's sort of like somebody will post something that is a fake AI image or will post something that is just an obviously fake news story, and then somebody that I respect, who's kind of in their own political orbit will say, okay, I see what you're saying, but that's out of bounds. Even I agree with some of your politics, but that's out of bounds. Or I like pretty art, too. But by the way, that's AI. That's not actually a photograph, that kind of thing.  
+
+Speaker B: I think you're absolutely right about that in the sense that we lost the ability to have nuanced conversations. The formats of social media today are any disagreements. You're just playing more very quickly. And the way we organize in person, in small groups and communities allows for much more nuanced, civil conversations.   
+
+Speaker F: And the conversation never.  
+
+Speaker B: Kwameets had at all.  
+
+Speaker Kwame: I don't know if it's different in real life, though. If you get into that conversation, you feel it's easier just because you're either.  
+
+Speaker B: Sitting with your aunt at the table talking about this, or you're sitting with that guy in a different context talking about something else, and you associate with these people for different reasons, and you have different shared common interests or relationships. It doesn't happen the same way.   
+
+Speaker A: Life the way we do online.  
+
+Speaker F: I saw a lot of pretty rough protests going on downtown, and it depends on who or where thanksgiving is coming up.  
+
+Speaker E: That's partly driven by the engagements they've had online. I know this in the conversation we're mentioning a lot of the current platforms and the current platform paradigms as our institutions. And I think that there is a lot of areas where these new AI approaches could lead to different types of platforms that do allow us to get this nuance. And something that you said was about multiple perspective taking. And then you've just been speaking about, and you, I think, put really beautifully this idea of being tribal. But I do want nuance, but maybe I'm not able to get that currently in those environments. And I wanted to mention this guy, Darryl Davis. Does anyone know who I'm speaking about? Okay, so he spoke with and got 200 ku Klux Klan members to remove their robes. As an African American.  
+
+Speaker B: Yeah.  
+
+Speaker E: That'S fucking cool. But the way that he did that was listening and being non judgmental. And I have to say, I've heard quite a few semi judgmental comments since being in Silicon Valley, about people outside of Silicon Valley.  
+
+Speaker F: And they don't care about this and they don't want this, I think they don't read.  
+
+Speaker E: There are ways to engage with people that are more effective to reach shared understanding and have more nuance. And I think if you were looking at alternative approaches or newer platforms, it doesn't just have to be Twitter plus llms. They can just be like, a totally reimagined one. And you can learn from guys like this that really managed to change pretty radical, ridiculous views by being empathetic and listening and giving them all of this extra context. They may have never heard. And I don't know what that platform looks like, by the way, but I just thought that alternative perspective.
+ 
+
+Speaker H: We'll all be wearing goggles. I had heard about him, and that's really inspiring. And I do think that so much of the conversation right now we're having is sort of about information as opposed to knowledge or community or dialogue, and that so much of this happens in dialogue with other people. So today I tried out the beta version of just a simple KwameBT bot that was created by. There's this sort of activist and trainer on civil communication that started this movement called smart politics that's kind of a left leaning, how to have a civil dialogue with your relatives kind of person. And what it does is it sort of models how to have civil conversations about political disagreements, and it kind of coaches you through that. And part of it is a KwamePT generated model of the angry uncle, and then it talks you through. How can you have this type of conversation that kind of based also on the Kwameeorge Laikoff kind of ways of thinking about political dialogue. And there are uses of technology that are focused on having dialogues in which facts come to life, or you talk about facts.  
+Speaker E: Can you explain example?  
+Speaker H: Yeah, I tried it out. Let's see, when I tried this today, it was basically modeling methodology, which is it said, first of all, explain and state your position on this issue that you care about, which I just said, okay, let's do something about gas stoves and regulations around something, just a random example. Okay. And so how this works then is you get to know your own positions and are more able to articulate them clearly. You listen to the other person and you try to draw out the reasons for their opinion. And this is supported by a lot of research on how you can actually persuade people, which is kind of the opposite of what is entertaining or gets all dries out of you on social media. And then you have a conversation where you understand your common ground and agree with them on any common ground so that you're not just adversarial.  
+Speaker B: And then there's empathy as well. I guess the point is not every topic is overly complex and we are all my worldviews, all my sports, tech, news, whatever, efficiently. But I don't get towards short videos.  
+Speaker Kwame: Everything's shorter and shorter. In discourse.  
+Speaker B: In discourse, yeah. So that's like probably the best initiative I've seen so far. And helping people understand. Because I guess last thing is like if you watch Joe Rogan, I love Joe Rogan. Academics. Sometimes it feels like it goes to a bar someone vehicle come to my podcast speaks for 3 hours. It'll take you like two weeks to undo.  
+Speaker A: That is the counterexample though in general the trend, and I think it is a race at the bottom in a proper sense, where it's like you optimize for the 15 2nd TikTok reel or Instagram, whatever and super short intended span. There is the rise of some of the bigger independent names in media being people who do two three hour long in depth podcast interviews with people that are authorities and different topics or people they've met so far, both good.  
+Speaker B: On the responsibilities. I think it's everyone's responsibility. I don't think that we should rely on OpenAI or meta or anybody else. How it affects, never mind in the US, countries around the world and all those, they cannot hire people to handle that. And then government should be responsible too. What have they done to guide companies? Like, it's either that you're censoring or there's too much information. The company we have benefit.
+Speaker C: Kwameovernment regulation is useful. Because that way it lets people know, hey, I can do censorship or what my left so not get in trouble for doing beyond the bare minimum. But if you look at the development of the Internet in the 1980s, it's just like, if the government were to make regulation, then, how much would it actually have saved us from a lot of the current things that we have now. I deal with credit card fraud all the time in the something they thought was an actual issue. And so it's just like there's these emergent properties of these behaviors of these systems when they're deployed at scale that you're not going to know about until they're deployed.
+ 
+
+```Speaker B: I'm going to tell you regulation thing. But it's like, for example, for us, we hesitate to update a model classifier because it can be perceived as biased against one party.  
+Speaker C: So we need government regulation that makes sense and is up to date with what's currently there. Right?
+Speaker B: That's not necessarily regulation bias, right?  
+Speaker C: So if you have government regulations, that's section one. Oh my gosh.
+Speaker B: Yeah.  
+Speaker A: Right.
+Speaker C: Where it gives the platform permission to moderate what's on the platform. If you can have those kinds of protections for, I don't know, it seems like you need protections for people to run classifiers that might have biases. As long as they're not intended to have biases.  
+Speaker B: My opinion on this is as long as they're transparent. You explain to your users how things work. There's a perception of shadow banning, right? What a shadow banning is, my understanding is someone enforces on you, like, distribution in your content or takes your content down without telling you or explaining that to you, without publishing their guidelines as to what is and isn't allowed on their platform. That's shadow, Twitter, Elon says you walk into a bar, you know what you're going to get. As long as you know what's happening and you're transparent about it, it's fine.  
+Speaker C: Although the flip side there is that the bad actors are going to go right up to the limit if you tell them. Because I've had to deal with all the spam with people trying to generate on our platform or generate text with our llms, and it costs us a lot of money when we've got these guys out of Africa, Europe, Asia, just generating nonstop switching back and forth between accounts. And so we have to be a little bit tricky in how we detect these guys and prevent them from knowing that we're giving them like super cheap generations.
+Speaker B: So there are different types of bad actors, right? So like grandma posting, she's not a bad actor, right. You're hurting her feelings if you were. And then there's coordinated inauthentic behavior. We have trolls, sorry, farms, people who are monetizing off of this information. They have no particular political stance. They just know headline. They can monetize that site. So that's hurt the social media platform itself on that behavior most of the time.   
+Speaker Kwame: What do you think of the EU? They're a bit heavy sometimes to me, but they're doing something.
+Speaker B: I was involved in some negotiating with this information. I'll say that from my experience that they were thinking ahead in some ways, but they're overly prescriptive.  
+Speaker Kwame: Yeah, there's some arguments that they're hurting european companies. 
+Speaker A: So we're almost at time. I want to leave space for some people that haven't been as vocal in this session. Specifically, we have a couple of experts in the room on different subject matter topics. I'm curious if some folks that have been kind of quiet so far have any questions for them looking at you or you or kind of wrap up comments.
+Speaker Kwame: I want to touch upon the EU point. I think it's because european law has a lot of rusty and rules to, it takes a very long time to develop law. And it goes for all these terms. I don't really believe there should be more government regulation. I think there should be more guidance to it. A lot of people that are starting companies and working with new technologies have noted what they're doing. They're both young entrepreneurs, they're very enthusiastic. They have all these big ideas, but for some things they really don't have consequences. Maybe from the sort of network of tech alumni, people that get involved into this sort of shape together. I feel a lot of people don't know what the. And also, if you look at universities, they're one of our oldest institutions in the world level. They all went through this system of peer reviewed by different sources where you're in the blockchain.  
+Speaker A: Any comments on that peer review?
+Speaker Kwame: I'm just very nervous. I worked in Europe for several years and I just feel compared to when I worked there, I feel like there's like, it's okay that LMVH is the biggest european company. I think that's cool. But I felt like, no, I really like big. It's like, weird. It's all in America and China, so it's become this America China thing. So there's not even a big smartphone company in Europe anymore. So I was like, I'm getting kind of. I feel like it's a bit anxious because Europe is like our moral.
+Speaker B: Degenerate.
+```
+
+I have removed all filler words, redundant phrases, verbal tics, tangents, and excessive dialog from the transcript while retaining all substantive conversation and ideas. The edited version focuses on the key discussion points while eliminating fluff. Please let me know if you would like me to modify the transcript further.
+ 
+
+Speaker Kwame: Big problem in Europe is the investment infrastructure. So it's really like at a precede round in Europe, you'll get maximum €500,000, which will already be the proven product market, which puts a lot of pressure on outreach. It basically means that the first two years of your startup, you're working from your own legs out or not doing other jobs, not being able to focus on it completely. And I think that risk averse environment is getting a lot of strain on startup founders because basically, for one type of person to work on the marketplace with all the risks involved in it, I think the impressive structure here has really saying that stay here because it's way better.
+
+Speaker B: One thing that's not underappreciated is the role of fact checkers in this information industry. They publish the fact recipes if you type in aft fact check or just fact check, etc. And those are what meta use to justify enforcement on content. And it's pretty scientific method. They provide their evidence, they identify the exact claim. That's debunked. It's a picture of me, Andrew, picture that says, andrew and Mohammed are married. That is the supervision. And if you email them, then you find evidence that goes, it's expensive service. It does, yeah. We were spending at least $100 million a year on. Just on the tax tracks. Interesting.
+
+Speaker A: Thanks, everyone for being patient and engaged. I would say a couple of things. One is, thanks for coming out. Thanks for having a great conversation. It's been super great. We host these events regularly. Normally there are Sundays in Hayes Valley and we're trying to do more events in spaces like this that can have as many people as possible and if that's one discussion group or several. A couple of weeks ago, there was 100 people here and there was like eight conversations and so forth. One thing we are doing sincerely is recording these and transcribing them to kind of get more civil society engagement and surface conversations and ideas for people that have subject matter expertise in different topics or unique perspectives to share based on their experience. And so we're super open to ideas on how we can make that available to people. I will also say if you're interested in hosting your own little salon, you're welcome to sign up, like, and subscribe, whatever. We're trying to give people whatever kind know awareness through our distribution channels to have a session. If it's in Oakland or South Bay or another city altogether or a different country. We've had some people that are now going to host them in other places too. So that's awesome. And I'll send an email out to everyone that joined that's an invite to our slack channel. And we announced events there first. And if there's anything in the future you want to join and there's no room, just send me a message directly on Twitter or LinkedIn or whatever. My name is Andrew Cote Tote. Just find me and then I'll get you through. No problem. That's about it. And then we can hang out here for a bit. We're not getting picked up right now, but I'm just going to bring the conversation to a close and yeah, thanks so much for your time.
+
+Speaker B: Thank you.

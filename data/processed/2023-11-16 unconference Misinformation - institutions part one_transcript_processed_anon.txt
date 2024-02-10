@@ -1,0 +1,129 @@
+Names have been changed to preserve anonymity.
+
+ 
+
+Speaker A: The recordings are not preserved in their raw form, and they are also washed of any personal identity. And the whole theme is called chaplain house rules. And it goes for people here, too, which is feel free to reference things you discuss here, but don't attribute it to individuals. And so that way, we feel a little bit more free or open to share whatever ideas we kind of like. 
+
+Speaker B: Okay.
+
+Speaker A: So, yeah, this second topic is really about social institutions, right. And misinformation, as it might manifest in them, affect them, as well as understanding market forces among companies that are for profit and whether they can be incentivized to be truthful or to reduce the amount of information or society. And I think also really touching on things like upcoming elections and democracy. Which I think is kind of something I think about a lot, too. We'll do the same kind of format. We can just go around. If you've already introduced yourself, I guess we can just kind of talk more about questions you'd be really interested in talking about in the context of social institutions and organizations. If you have to leave early, it's totally fine. Just get up and go. And hopefully we can kind of weave a path that touches or answer some questions or bring some new ideas. 
+
+Speaker A: I'm Kwesi, and yeah, I think for me, it's like really thinking about how does our government work and how do we make decisions in society, is by being informed voters and having what we think is a reliable way of expressing our preferences through democracy. And that's kind of like, we like to think that's why some societies are successful. It might just be because of geography or whatever, but I think certainly for the expression and freedom of thought and what we like to think of as a meritocracy, it's the ability to discern things like talent achievement on a fair basis. It's the ability to vote for things that are in your self interest, to not have other people's interests imposed on you in an unjust or unfair way. I think all of that comes down to what we think is true or what information we have access to as well. So I think I'd be really interested to talk about maybe in a pragmatic sense, like, yeah, what are actual threats to election or democratic integrity or things we can learn from the past and that kind of stuff.  
+
+Speaker B: Um.
+
+Speaker C: No, go that way.
+
+Speaker D: You had almost saved me from the pot seat here. So, yeah, my name is Leila. I think in the last group, we were talking a lot about the role of media and understanding news and what's happening in the world. 
+
+Speaker B: And.
+
+Speaker D: When you talk about things like the elections, I think a big question is just what can we do? And then kind of building on what the group was talking about earlier is what can we do that actually matters because it's not just a matter of reducing misinformation, but it's a matter of reducing misinformation based persuasion and misinformation based social division, things like that.
+ 
+
+Speaker B: I'm interested in the whole science thing, where traditionally science is if you understand something, you can predict what's going to happen. And so when we're talking about information, it's misinformation. First we have to understand what the information sphere currently looks like, and then how information influences it. And then to do that correctly, you have predictions of what the information ecosystem is going to look like and see how the misinformation or information narrative changes our expectations of what's going to happen. There's a couple things there that are interesting. One is, how do you create those forecasts? You got stuff like Gdell getting information. But as we're seeing the information ecosystem clamping down because of AI, where Reddit, Twitter, newspapers are saying don't scrape me, it's getting harder to get that information and figure out where information is making impacts, even though we really don't understand in the first place. 
+Speaker A: The discussion topic is understanding what impact AI will have on some social institutions - democratic elections, market forces driving commercial entities towards more truthfulness, and things we could do as individuals to guard against harms.
+Speaker B: I don't think it's right to just present an antagonistic relationship between people and their social institutions. Ideally, it's symbiotic - we work with them for political and social ends. One worry I have is social institutions overusing AI to understand the populations they serve without knowing the statistical limitations, having good data, and ending up with bad predictions or policy. That attitude is dangerous in business and for social institutions. 
+Speaker E: Matthew, alternative government structures, truth alignment with profit, place to storytelling.
+Speaker C: I'm kind of interested how the engagement profit model contributes to these problems and new ways to approach them, especially late elections, because I don't know how to fight it as long as that model is benefiting from amplifying anger. 
+Speaker B: I'm trying to move to this country, but the 2024 election worries me. Short term, we want to make sure that election doesn't make the whole world worse. We could try pushing OpenAI to do some election website work, because chat is kind of rational. And if they helped with making elections better, that would be nice. Other thing is adding penalties for misinformation, because companies don't care about misinformation short term since it increases engagement, but long term they should care or people will stop using them. We gotta make sure we don't lose this election thanks to companies turning into massive misinformation engines.
+ 
+
+Speaker C: Anya and I grew up in Russia, and both personal and professional interests, I've observed different types of misinformation interference. I'm interested in ethics and parameters of the models that we use and how it can be information warnings or prevention. 
+
+Speaker B: I've been thinking about instead of how AI could be used to fix the problem, how it could be used to make it worse. It hallucinates really well. And that might be a really good way to spread stories that are misinformation that spreads faster, because that's something people seem to glom onto - emotional paranoid stories. 
+
+Speaker A: I'm Jason, I'm a product designer. To synthesize what I heard, there were ideas around having truth verification, but along with that comes some sort of institution. So the other part is also education. The intention is that everyone has a right to vote here. So could AI provide multiple sides of a story so someone could make the right decision, as opposed to just getting one side through social media?
+
+Speaker F: I'm Murray. I run a human data platform. I believe it's almost impossible to remove all misinformation. So it's important to counter that by widely distributing information you see as correct. I'm also interested in how information distribution and data collection could be used in future smart cities.
+
+Speaker A: Eric and I had two thoughts. One is that maybe blockchain can finally be useful in politics and proving truth. And maybe we can reinvigorate the UN with AI to help deliver better governance worldwide through this structure.  
+
+Speaker C: I'm Charlote. I'm really interested in learning, and my dream is to teach people, especially children, how to learn themselves, to give them confidence and resilience to explore the world more curiously. I'm trying to start a company using AI to teach children.
+
+Speaker B: I'm Jack. I work at a social media company, so I'm interested in defending against governmental and political misinformation, as well as monetization. How do you implement solutions?
+
+Speaker G: I'm Michael. I think most information online is false right now. I'm not too worried about text dissemination but more concerned about images. But I'm also optimistic. I am worried about public figures misusing "alternative facts" and conspiracy theories. But existing and future tools will make it easier to identify those problems and mitigate them, especially for big social media companies.
+ 
+
+Speaker C: I'm Anya, I'm a software engineer and a concerned citizen on the planet watching this AI emerge and also having a lot of personal experience, being from Russia and seeing people's realities being distorted with AI, with misinformation created by AI. I find it very philosophically peculiar that we're going to have AI being a gigantic actor as the creator of this information, as well as trying to come up with versus how AI can help us solve the problem. At the same time, I'm not sure whether humans are particularly variable in the process or not because we've seen RHF actually make models dumber and things like that. This whole philosophical aspect of how this all plays out is very interesting to me, how humanity is going to catastrophically self destruct or not, like optimistically create a better utopia. But the worst case scenario that I see is that we all just going to deconstruct back into some tribal society where the only truth is what I can see and touch in the immediate.
+
+Speaker B: Environment, everything else will become escapes. 
+
+Speaker A: Metaverse. Yeah, nice. One last fellow joining us. Do you want to give your name and things you'd be interested in talking about here? Questions we could hope to get to as a group on the topic of how AI misinformation, its ability to defend or produce it, might impact some of our core social institutions? Education seems to have come up a few times and training people both for beliefs about the world, but also meritocratic achievement in society, as well as a lot of concerns around integrity of government, elections, and dense the democratic process. Just, you know, my name is, and a sentence on your background if you want. It's optional.
+
+Speaker B: My name is Mohammed. I led the forex strategy on edited disk aspects we talked about is how can AI be used to help us better navigate the Internet.
+
+Speaker A: Nice. Okay, cool. Well, there's a lot on the table because social institutions are very broad and amorphous. But it sounds like there's a clear and imminent threat on their ability to produce misinformation, either deepfakes, photos and hallucinations. Would you like to introduce yourself and add any questions to the agenda?
+
+Speaker B: Hello, everyone. My name is Leo. I myself am working on a project to decentralize social media, and one of the core issues there is surrounding this information. And for me, I worry about same as how today people select influencers that will basically say things that they want to hear rather than telling them the truth. Similarly, people will select AI tools that will simply tell them things that will confirm their biases or hold you tribal being rather than the truth. So I think a lot about how we get people to care more about the truth when there's a direct consequence to being wrong about that particular topic. How to hear the truth.  
+
+Speaker A: I guess maybe also related to that is how do you get for profit companies to care about the truth when maybe they make more money just by stoking cents?
+
+Speaker B: Exactly. Two sides of the same.
+
+Speaker A: Totally. Yeah. Okay, well, I'm curious. Is there anyone here willing to lay out a case for AI tools as providing an asymmetric advantage to offense information production or defense in detecting lies and things like from a practical perspective? Because to me this is kind of a black box where I don't know the algorithms in use that could actually stop the spread of misinformation in real time through social networks or how those algorithms operate.
+
+Speaker G: The first, you probably would have done this.  
+
+Speaker B: What do you mean by algorithms?
+ 
+
+Speaker A: Let's suppose there is a malicious actor that wants to spread fake news about a topic for some malicious purpose, and then how would people defend against that?
+
+Speaker F: I think the best way to fight misinformation is just by providing information at a greater rate and greater volume. Going back to what you said as well too, I think you're almost looking at from a tail wagon dog sort of perspective. I think what actually happens is social media influences a lot of what people think already. I think we can change a lot of what people think based on what we show them, what we drive them into. If we know, number one, who they are, how they think, what they currently do, we can start to formulate a plan of how we can adjust what they think over time. That's what Facebook and a lot of other organizations have been doing for quite some time. I think the best way, if we want to influence human behavior with the truth, whatever that may be, we should go ahead and counter with as much information distributed in the way we want targeted to who people are and what motivates them.
+
+Speaker B: So it's complicated because freedom of speech and censorship. And then information, especially, like every minute, and there isn't any evidence around the debug, we can take that or reduce some distribution. So what companies take preemptive measures. So if you have a classifier that can contain information, you can reduce its distribution by that. What it means is it's lowered down your newsfeed, your Instagram feed, or Facebook. So we're not censoring, but it takes others longer, much more time to find it. And what that does is it prevents problem. Isn't that go viral and be viewed by many people and then also elections? 
+
+Speaker G: Yeah, I think that last part is key is that in order for the misinformation to be bad, a lot of people have to be saying the same misinformation. If they're all saying different misinformation, it's very unlikely that it'll actually cause harm. Right. And so you can just identify a relatively small number of things accurately, and then if you downwrite those or remove.
+
+Speaker A: Them or whatever else, then you could.
+
+Speaker G: Pretty much mitigate all the damage that would come from something that would affect.
+
+Speaker B: The election because we have limited resources. Right. So fact checkers would sometimes over some of their nonsensical. Their argument is that when you shift their information and that's how they. Is that true that if you have different views that it doesn't have an impact because it's not about views. Yeah, different angles. Right. So if everyone's talking about the same thing, if something is important on the agenda, that means that issue is important, that people are thinking about it versus other issues. 
+
+Speaker G: I can't because it suppose like a million different people falsely claim that a million different celebrities have died, and each one claims a different celebrity. Okay, maybe there aren't a million celebrities, but whatever. To me it seems like the likely bad outcomes from that scenario are far less bad than the likely bad outcomes from 1 million people all claiming that the same celebrity has died.
+
+Speaker C: What it can create is it can create knowing to drawn out the actual factual information that is important, that would.
+
+Speaker F: Have affected, which goes back to volume and now volume distribution of correct information. So meta being a platform in charge, has ability to suppress information that they deem as misinformation, and they have the ability to put on more as well, to distribute more information that is considered correct. So ultimately it comes down to the platform. So I'd almost call open AI platform to distribute information right now to about 100 billion people, but more in the future as well too. Especially more as they move on to other devices and platforms as well too. So if you really want to kind of fight misinformation, you go to platform level. I think engagement with the individual, human level and consumer level is useless and unfair, quite frankly.
+
+Speaker A: Sorry, can you expand on what you mean useless?
+ 
+
+Speaker F: The average person does not care about misinformation. They do not think about their data, they do not think about misinformation. They see, they react, they feel, they take action. It's unfair to put the responsibility onto an average person, especially when considered a global population. It's not fair to put the responsibility on them to kind of go through and seek out information. I know we are here, we're a self selecting group in San Francisco, which is kind of a bubble, quite frankly. I think if you go to anywhere between here in New York City and especially anywhere Philippines or Malaysia, for example, you'll find that most people do not consider anything we're talking about at all, quite frankly.  
+
+Speaker C: And even as I think for us there's a danger because there is that information misinformation once othered and imagined in the mind, the way it's registered, if it's an emotional information, for example, very recent example, beheading of children, right? When somebody, a president, comes and talks about beheading of children, there's an image in my mind that my brain creates, and it's recorded in my amygdala as an emotional memory association. And then if it comes at this word like fake news, and that it's not true, doesn't change that already existing emotional memory of that thing, even if I consciously understand it was not true, it already affected me. 
+
+Speaker B: Biden makes a good point. The damage has already been done. Right? So that's where, in journalism, that's called the agenda setting, where it's here are the topics, because everyone's got limited attention to what they can care about, right? Is it the Israelis ahead of people, or is it so and so? Right, and then what's also important there is that traditionally, when you study these things, most people don't actually read the news or pay attention. And then even what was claimed in that doesn't really matter that much. So I don't know how much the fact checks matter because you're still letting that thing stay salient. And that's why I think one of the things people do is you try to depromote it, right? So you say, hey, we're not even going to talk about it at all.  
+
+Speaker D: Yeah. And so this kind of thinking about the content moderation conversation earlier, there are multiple kinds of harm that affect different goals or different interest groups. And so hearing and believing something strongly, that believing something false strongly is one type of harm when it comes to how it affects people and things.
+
+Speaker B: Being.
+ 
+
+Speaker D: The sort of classic disinformation result is not deciding that truth is unknowable and just kind of becoming apathetic. It's a different kind of harm. Social media platforms may have less incentive to that sort of numbing effect or confusion compared to making people believe one really harmful false story versus we're making people just kind of stop trusting objective reporting. There are other kinds of harms we talked about earlier as well. But the type of harm we're trying to prevent has a big effect on what solutions we come up with.
+
+Speaker B: One thing we talk about is you can create harms without false information, just by selecting truthful facts carefully to an individual, knowing vulnerabilities, what convinces them. AI in an informationally rich time could figure that out. You can convince them of things. The problem is more complicated than just false facts. You brought up the Dunning Hoover effect - people that know little think they know more because they don't check against what they know. A lot of people know little about things yet have strong opinions based on correct but limited facts. There's also intellectual humility, not just false information.  
+
+Speaker G: Can I bring it back to AI? Do we believe things will get better or worse from AI improvements? I believe better because pretty much everything we’ve talked about - it's hard to believe AI will make it worse. We already have false flags. I'm good at compelling fake stories. I don’t need AI. Where AI differs is doing it broadly, personalized, at scale. But that doesn’t seem necessary to cause the damage I’m worried about. It’s more important everybody believes the same thing than personalized. The distrust from this depersonalization might happen from AI.  
+
+Speaker E: It’s memetic anyway, right?
+
+Speaker G: Yeah. 
+
+Speaker A: Constructing a single narrative humans are good at. But manufacturing an entire fake community reinforcing a worldview now requires just fractions of a penny with AI. Any small actor can have outsized influence creating artificial voices.  
+
+Speaker G: Will detection improve enough to offset the lower cost of generating content? I think so, because generation will be more expensive than classification.
+ 
+
+Speaker B: I brought up the Iraq force several times. Iraq was bombed around lies of WMP. You don't have to be in like a communist dictatorship. We rely on certain resources. If you don't need AI, think one thing we talked about was these tools that people use to create these information sources are currently being used for commercial purposes, where I've done a lot of text generation, and we had guys out of Europe doing like millions of generation of spam blog sites, or then later on we saw like guys. And so there's these huge commercial incentives right now to do a ton of generation. And what we've seen previously is these systems, when people want to, different actors just pay those people to produce content at the source that they want. 
+
+Speaker E: Warframe describes these linguistic models as a sort of linguistic compression algorithm. And so we're speaking about the generation, but they're also really good at just getting the information that you want. I'll get back to that in a second. Curate the experience that I want. I know that it's about misinformation in AI, but I think the discernment layer is about. In our first group, we spoke about this a few times, is combining AI with other levers to do with verification. And at that point you can get this compression, shown me the verified information. Only you could have a feed of only verified information.
+
+Speaker A: So you had a point earlier about verifying images being taken using sort of hardware signatures, this kind of thing. Are there other, I mean, the question becomes, how do you verify, I guess more general news stories for things that are not image based, like who to trust. 
+
+Speaker B: Despite that, way less misinformation than generally outside of that. So I'm not saying zero misinformation, but.
+
+Speaker A: I mentioned the UN earlier, but I think that corruption, money, financial corruption, is a big problem in so many countries around the world. And I think AI, you can have an accounting AI that looks at the books of every country in the world, and corporations and how they interface and where the money goes, who's getting the pork. And that's, I think, pretty doable with AI.

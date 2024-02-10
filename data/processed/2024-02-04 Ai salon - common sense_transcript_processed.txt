@@ -1,0 +1,514 @@
+ 
+
+Speaker A: I record these conversations because I think the information in these conversations is really cool. And I don't know all the things that I might want to do with these conversations. But currently what we're doing is we have a substac and we synthesize these and we try to summarize them and put them there. That's hopefully helpful for you all, just as you can look back and like, oh, that's what we talked about. And also helpful for other people. The way that the processing steps is we transcribe them, we kind of defluff them, kind of remove a lot of the fillers and do our best to anonymize them. 
+Speaker B: Okay, so spicy takes are all spicy takes.
+Speaker A: There should definitely be spicy takes here. I think that that's really the point. By having the kind of conversation we're about to have for two and a half hours. For those of you who basically will go till four, it'll take like an hour, and we'll start to get the lay of the land, and then we can have spicy takes. 
+Speaker C: Right?
+Speaker A: Like, you will start to get places. My name is Ian. I'm one of the founders of the Axlan. Andrew Cote is the other who isn't here today and today hosting in partnership with Liz, whose homework we're in on this theme of common sense. And we're going to spend a little bit of time going around. And let me start just introducing the as lawn itself. The goal is to bring people together to talk about AI from kind of historical, philosophical, sociological, like many different perspectives. Whatever perspectives you bring in are valid perspectives here. And to talk about this kind of transformative and impactful technology. And each time we're talking from the perspective of a particular theme. And so we're going to try to not talk about all aspects of AI, but stay within the context of the theme of the day. And the theme is common sense here. So that can be taken many ways. And I'd like us to go around and just introduce yourself and give your background if you want, if it's relevant here. And some of the ideas that have been floating in your head related to this theme. 
+Speaker D: Hi, everyone, I'm Spencer, I'm an anthropologist. I'm doing my dissertation on the anthropology of AI. That specifically is mostly about how AI raises questions about what it means to be human and how mostly AI researchers are trying to answer those questions now through the tools and concepts of machine learning. So they're almost becoming kind of anthropologists themselves. So, yeah, this topic of common sense is very interesting to me. I wonder if machine learning models do have a form of knowledge that we humans would call common sense and how we would actually figure that out or what we would call it, and then what I would in turn say about our own common sense. I guess as an anthropologist, I kind of have like a constructivist view of common sense. So something is common sense because we have a consensus that it is like we say it is, and it only becomes problematized when suddenly someone lacks it or another entity starts to have it or it doesn't go far enough. So I'm curious what that means for AI and these other intelligent agents.
+ 
+
+Speaker E: I'm Laura. Working on a personal project, helping a friend whose daughter has leukemia, and she has a hospital social worker who's supposed to refer her to different programs that she's eligible for, but she's just not doing her job. And so I'm trying to help her and I don't know anything about what programs are available. And so I thought AI could help me get up to speed really quickly and maybe tell her, here are the programs that are right for you and haven't gotten it to do that yet, but I'm sure it's possible. I just have to figure out how to do it. And yeah, so that got me kind of thinking about all the different possible applications of AI, including in spaces that maybe they're not thinking about, like they're not early adopters, like nonprofits and social work, and doesn't seem like anyone's building tools for those segments yet. 
+
+Speaker A: Cool.
+
+Speaker E: I am CEO of AI guardrails company called Vera, and I also do some policy advising through the National AI Advisory Committee in DC. So I am out west for about another three weeks. I usually live in New York City, but I came out here to see what all the buz is about with the San Francisco version of the AI scene. And so part of this is my anthropology of how do the different coasts think about and work with AI? In a previous lifetime, I ran the data operations pipeline for a computer vision company, which meant working with dozens of people all over the world. And we were labeling images and trying to train models. And this was my first experience in deep learning. And it was actually remarkable to me the weird things the models would do if not explicitly told not to. Right. And so in particular, for instance, there was a situation once where we were trying to train a model to detect dog breeds, and we figured out that when the dog was in the upper left hand corner of the image, it just didn't get it. And part of the reason was because all the other images, they were centered or they were in the lower right hand corner. And so that common sense factor of, like, it's still a dog, it's just in the different place in the image is, I think, actually one of the hardest challenges in AI in general is conveying these things that we take for granted about gravity existing, right? A lot of my work really, is in helping people get beyond the prototype phase. I'm much more interested in how things actually are and what is the real application, where is it truly going to be used, where is it good, where is it bad than I am in this utopian or doomerist narrative that seems to be dominating the conversation. So I wanted to bring together a group of people to really get to the core of it. What does an AI powered future actually look like, and how do we determine what's real and what's not? And I think common sense plays a big role in that.
+ 
+
+Speaker B: My name is Mikhail, my background is in physics. I did a PhD in physics and then did a technology startup after that. That didn't work out quite the way I wanted to, but it was a really good experience, and I work as a machine learning engineer now. I think a lot about where AI models are going to be a part of our lives and how they're going to permeate the different tools and systems that we interact with every day. On the topic of common sense, I share Spencer's constructivist view around, common sense is what we agree is common sense. If an AI model begins to behave in ways that don't agree with that intuition, then that would really bother us. I also think that common sense is probably adjacent to reasoning, and reasoning is one of these things that AI models, as soon as they get to be sufficiently large, begin to display. The argument that these models are just sarcastic parrots, repeating things statistically without understanding relationships, that argument is getting weaker every day. What does it mean for very large generative models to reason about the world? I think it has a lot to do with how we set up the problem when training these.
+Speaker F: I have a company. As part of what we do is basically simulate human interactions, particularly transactional interactions. That got me more into understanding the underlying dynamics and logic between interactions. The language models we know infer logic and common sense from language, but I'm not sure that's the only way we humans do it. We infer logic and common sense from language and consuming it, but there's also symbolic structures and embodied learning. 
+Speaker B: Like mathematical logic.
+Speaker A: Exactly.  
+Speaker F: So to simulate interactions, how much beyond language do we need to go into symbolic logic? That's my interest here.
+Speaker C: I've been working on a video podcast platform using AI to analyze the video content and suggest the best content people might like. I think a lot about multimodality because current AI lacks human cues like expressions, understanding beyond words. Like gravity - simple things not written down. No AI description on how providing more context could help humans. I'm trying to develop a system curating what information we feed LLM systems behind our tools. That's the common sense part I want to talk about.
+Speaker G: What was your name again?
+Speaker C: Ismail.
+ 
+
+Speaker G: Hi, everyone. I'm Jeremy. I run a small generative AI agency and consultancy called Handshake. Been around for a few years now. We kind of do three things. One is teach classes about generative AI to kind of like director, creative director, project manager level folks. We build custom software solutions for clients. An example would be like we're working with gift to build a chat bot on their knowledge base of podcasts and videos and reports and things like that. So lots of retrieval augmented chat bots. We work a lot with senior leaders, usually at the C suite or board level of organizations. So work with valvoline or Walmart or Deloitte to kind of think about what's the impact of generative AI on their organization and their clients, both from in the near term perspective and kind of a future perspective. On the national security side, I work quite a lot with kind of like navy groups and FBI and different kind of security groups, usually as a subcontractor but really appreciate those contexts to really reframe the kind of potential use cases that exist.  
+Speaker E: You did?
+Speaker G: Yeah.  
+Speaker E: That's crazy.  
+Speaker G: It was very easy to do, technically. Where can I play with this madrash AI?
+Speaker E: Cool. Yes. I'm so excited about this.
+Speaker G: We interviewed a bunch of rabbis about it, and most of them were like, well, why does it only give one answer? The Talmud was in v two. We'll redo it and make it look more like a Talmud page that has divergent views and things like that. So there's the old ML definition of common sense that Allen Institute of AI used to be really into. And it's surprising how much of that has been resolved by making the models bigger. And I have no belief or conviction around. Can you just make them bigger and it'll all solve it? Or do we need symbolic approaches or to bring back graphs in at some point? But I'm less interested in this. Like, why do the models still sometimes not get transitive things, right? Like, if he's her son, then it doesn't know that she's his mother. And more like, how do we deal with subjectivity? And how do we get out of this framing of, like, tis, Tis, Tis. The AI companies aren't making unbiased models, because how do we instead make biases really explicit and controllable, and then grapple with as a society about what we might want them to do and what.
+Speaker D: Interest, objective kind of purpose might help them have?
+Speaker A: Hello, everyone.
+ 
+
+Speaker H: I'm apur. I'm an operator based startup based in Estonia called rightgrav. So we use microgravity. It's like a biodiscovery platform using microgravity. We also do instrumentation for scientific discovery. So that's why AI is very interesting to me, because the scientific discovery, mostly what's happening right now, could not utilize what's happening with llms and AI, because the instruments and the infrastructure which is used for discovery is so far behind that they can't even catch up to that. So infrastructure like emerald cloud labs and people who do works on those who are building AWS version of those kind of infrastructure for scientific discovery, I'm very much interested in that, because right now, hardcore research, or whatever people call automated discovery is way far behind in terms of common sense, I would say.  
+
+Speaker G: What's microgravity?
+
+Speaker H: So microgravity is like simulating gravity on Earth. 
+
+Speaker B: You're not going to space with this? 
+
+Speaker H: Not right now. Okay, but that's the kind of plan over the years.  
+
+Speaker B: Okay, yeah, but how do you simulate microgravity on Earth? Dropping stuff? 
+
+Speaker A: No.  
+
+Speaker H: So we have a full stack solution, like hardware and software. We work with companies like Novartis and other pharma companies, where basically we give them the cutting edge extreme scenarios of microgravity to find the cutting edge materials, therapeutics and whatnot. But there is like other stuff happening.  
+
+Speaker A: Which I can't talk about.  
+
+Speaker G: Simulated.  
+
+Speaker E: I would love to pick your brain about AI and science.
+
+Speaker A: Okay.
+
+Speaker H: I'm not a scientist.  
+
+Speaker A: To make sure. Cool. So we just went around and introduced ourselves. But please, what we're basically doing is, what's your name? And if you want to talk about your professional background, you can. But what background is relevant for the conversation today? And what kind of questions do you want to pursue on the topic of AI and common sense?  
+
+Speaker D: Yeah, can I have a few minutes before.  
+
+Speaker A: Absolutely. Cool. So anyway, thank you all for introducing. I think where I actually want to start is let's dive into this idea that has been kind of talked about by different people, which is like, how common is common sense, right? Is there a set of human. Is there a common sense that we all share? And how constructed is it? And if it's constructed in the way that Spencer kind of brought up, how divergent are our different constructions of it? And I'll put out there that I think we probably miss the 99.99% of common sense that we all share and then focus on the parts where we diverge. And an AI system, which is an alien, may not overlap with that 99.99% that we share. Like, when I look at an object and I just see that it's an object, that's an inferential bias that I have, that we all have. And there are like, people who study that, right? There's a shape bias. People use shape as a categorization thing more than they use color. Why do we do that? Maybe there are reasons in the world. Maybe shape is more functionally associated. I don't know. There's a huge number of things. But then there are also very important ways that it seems that common sense isn't so common. Right. When you interact with other culture. So maybe that's someplace we can talk about first, just like how common is common sense. And does anyone believe, as I do, that there's actually, like, a fairly large chunk of common sense that we could recognize as common? That's where I would like to start. And then just as a telegraph of where I hope we kind of end up going is if there's some aspect of common sense that we would like to make, either because it's joint and we'd like it to be in our systems, or it's divergent, but called out, as you mentioned, to reflect, like, particular biases, what kind of information would AI systems need to have that they don't currently have that would support the learning of that kind of perspective on the world? Do they need to be embodied? I mean, right now they just have access to text. That doesn't seem like the most. So let's start there. Can you start by introducing us a little bit more to the idea of a constructivist view on common sense and.  
+
+Speaker E: We can take it from there?
+ 
+
+Speaker D: This constructivist view of common sense hinges on the things. There's no fundamental definition of common sense. We call something common sense, when it's problematized. So if someone has a certain behavior or doesn't understand that there's a sort of social norm that's going on, we would say oh, they just lack that.
+
+Speaker A: Sort of common sense.
+
+Speaker D: I sense that we have a different understanding what common sense is. 
+
+Speaker A: Because I.
+
+Speaker D: Think there is certain body of knowledge that all humans must have in one way or another. Maybe that fingers have a hand of five fingers. I would personally not call that common sense. I think it's a different kind of knowledge. So common sense is more of a social sort of set of knowledge. It's a knowledge of how to navigate a certain society or community.
+
+Speaker A: Yeah, maybe I'm blowing the scope too large by saying we all share an understanding of a folk physics where we understand the balls drop and fall. And maybe you would like to constrain common sense to an understanding of the social and cultural context that you're in. Right? I think so.
+
+Speaker D: And I would also say that I think everyone has a common sense. Just everyone's common sense might be sadly different.
+
+Speaker A: Like, everyone has a culture where everyone.
+
+Speaker D: Is culturally raised, but culture is diverse. It's kind of defined as that which is diverse. So common sense, I think, shares that same kind of property.
+
+Speaker B: It might be helpful to have an example of of a social interaction where an individual, lacking what we might call common sense, acts in a way that we problematize. Do you have an example of that?
+
+Speaker D: Yeah, I would say that just going to the grocery store and doing the grocery store things is common sense. So knowing what you're supposed to do with the items on the shelf and knowing that you're supposed to go and cash out at the register at the very end, I think if someone does that, doesn't do that because they don't have common sense, or it's common sense to just do that thing.
+
+Speaker A: Do you think there's one that's brought up in misalignment literature is like, if you're like, clean my house and it killed the cat, you don't think you should have to specify, clean my house and don't kill the cat. There are certain expectations that are left unsaid, and there are a huge number of them that I've noticed this. I had a cat sitter recently who is not a trained cat sitter, and she's a very conscientious person, by all accounts, and did an incredibly terrible job. And my cat got harmed, and I was like, okay, what are all the things that I know about taking care of cats that she clearly did not, that I need to make apparent for her so that she can act in a conscientious way that she probably wanted to, but completely failed in doing.
+
+Speaker B: Okay, so this is an illuminating example, I think, because you've been socialized as a cat owner, you spend time with cats, you know what their needs are, and you attend to those needs, and you've done that enough that it becomes routine and you don't have to actively think about it. The non cat owner has not been so socialized and is making all kinds of mistakes because they don't know how to attend to a cat's needs. And so you have intuitions about that and common practices that seem rational and normal, but that's because they've sort of become like background processes in your brain.
+
+Speaker G: I think there's more useful definitions for that kind of knowledge than common sense. I work a lot with contractors, and it's really distinct, the difference between what you think you're telling someone to do and what you are actually telling someone to do. And if someone hasn't done the job before, you quickly realize that enumerating in an explicit way all of the possible things that they must do in order to complete the task is impossible. You must simply wait for them to go, make the mistakes elsewhere and come back to you. I would not call that common sense. I would call that learned knowledge or learned behavior. Of course you could call it common sense, but I think that's exactly what.
+
+Speaker A: In my head is what common sense is within the context. Right. It's within the context of that job. So I guess it's not common, but it's very analogous.
+ 
+
+Speaker G: You could call that common sense, but I think because we have all these other definitions for that, like skills or knowledge or understanding, that a more useful definition of common sense is one that is actually, and that is more relevant in the context of AI models, is like, how deep do we have to go before? Because, for instance, it is not common sense in many places that cats are not food or that under no conditions would it be okay for.
+
+Speaker A: To make that kind of knowledge that she didn't express in the cat domain is the kind of knowledge that is analogous to common sense. And I kind of am now getting a little bit closer to Spencer, which is like that kind of knowledge applied to the social cultural area might be what I think we can also squeeze one more person on this couch which might be more comfortable. 
+
+Speaker C: Thank you.
+
+Speaker A: I really think we have plenty of space, but whatever you're more most comfortable with.
+
+Speaker G: So just to clarify, you're proposing that we situate definition of common sense in kind of like a culturally specific, socially specific set of shared understanding, as opposed to the understanding that when I set beverages on a table, the beverage does.
+
+Speaker A: Not fall through the table, which this was with Spencer. And right now I don't want to like. Clearly this always happens. I think it's good for us to find some scoped definition of what we're talking about. And we could talk about folk physics, like an understanding of physical relationships. We could talk about these kind of skills like understanding background knowledge that is applied so that you can have more effective conversations without explicating everything perfectly. And the current thing under I think that is the most positive statement of what common sense might be is some aspect of the set of beliefs and perspectives that allow you to have easy relationships within the context of social, culturally tasks. It has to be held in common.  
+
+Speaker D: For it to be common sense.  
+
+Speaker A: Yes.
+
+Speaker D: I guess this is a good segment for my intro, if you don't mind.  
+
+Speaker A: Yeah, that sounds great. And I'm also going to just let you introduce yourself. We went through introductions a moment ago. Let me give a brief, just intro to what we're doing today. Just so you two feel kind of included. It's the AI salon. You're going to be having a conversation for the next 2 hours. We're recording. The recording will be anonymized for all uses, but just know about that. And we follow this thing called Chatham House rules, which is talk about the ideas here outside, but don't attribute them to individuals. We introduced our names before. Feel free to ask people their names, but we won't go around explicitly again. And we're talking about common sense today. And I won't say exactly what that is because right now we're in the midst of trying to kind of define that and the relationship between common sense and AI. So both of you came in afterwards. So I would love to hear after your name and your background relevance to this conversation. It doesn't have to be a professional one. And what you were interested in talking about today, that's a lot on you. I know.  
+
+Speaker D: Okay, so I'm Mohammed I did math in college, and I think the interesting thing about common sense for me was that I'm working on a robotics company, and robotics is just filled with these instances where you're like, wow, we just take so much things for granted. And the tasks that are very easy for humans are extremely hard for robots and vice versa. So I think recently, when I keep thinking about why is it that certain tasks are so hard for robots and easy for us, I get to answers like, our brain has just evolved to bias towards visual information so much. And like, a huge part of our brain has evolved to process that. And because of evolutionary reasons, it was so important. And computer vision is just not there yet at all. And there are huge problems that are just completely unresolved.  
+
+Speaker A: Does anyone know the phrase the paradox? That's like, things that are easy for.  
+
+Speaker G: Humans, it starts with a w. It's like Wasserstein or some dude.
+
+Speaker A: Yeah. This has been repeated many times over where we expect things that were hard for us, like chess. It's like, ah, that's the peak of intelligence. But actually looking at things and recognizing them is a very hard intellectual thing. And none of us care about that because we all do it perfectly because we've been optimized to do it over eons. And chess is really hard for us. But we can learn in one lifetime, which means it's not that hard a problem. Anyway.  
+
+Speaker G: I always forget the name of the for understanding depth.  
+
+Speaker D: I keep getting shocked at how hard it is in the computer realm.  
+
+Speaker E: Interesting depth.  
+
+Speaker D: Like depth in pictures or like doing depth estimation.
+ 
+
+Speaker A: Sophisticated. Yeah. So people with one eye have no common sense.
+Speaker G: We should piece that out later.
+Speaker A: Yeah, it was a joke, but. Sorry, could you.
+Speaker I: Yeah, sure. I'm an engineer, but I used to work in data science and I've actually not kept up with the AI hype over the last couple of years. So I've been looking for some kind of way to get into the conversation. I think the talk here today was more interesting to me because I feel like AI is. A lot of the discourse around AI is very philosophical. And so I kind of wanted to hear what people had to say that was independent of all the developments and events and technological innovation. What are people thinking about it? Mankind, I guess. 
+Speaker A: Cool. Welcome.
+Speaker B: Okay, so the paradox that we were referring to just now is called Moravx paradox. In case anyone.
+Speaker A: Cool. Thanks. I've looked this up so many times, I will never remember it. Does anyone else want who we haven't heard of from yet, want to offer a positive or negative kind of perspective on what we're starting to circle in common sense definitions?
+Speaker E: One thing that I spend a lot of my time thinking about is, is there a set of information or facts, knowledge, common sense that everybody can agree on, or at least 99.9 repeating? If so, then it would be great to have that be the starting point for all the branching models that I'm sure we're going to have over the next hundred years. Every time you come up with one fact, you're like, oh, the laws of physics. I believe that. But there are people who don't actually believe the laws behave in a predictable way and that they could stop working any time. But I'm interested in what is the set of information that has near complete overlap across cultures maybe that is the common sense. 
+Speaker A: I feel like the answer is going to be no, there is no overlap. There's no complete overlap there, which would bring us to kind of Jeremy's point, which is like, maybe instead of trying to find this overlap or unbiased perspective, we want a controllable or transparent representation of like, what common sense are you operating under right now? Because it's not common to everyone, but it might be common to this 100 million people.  
+Speaker F: Like the cat owners, for example. All cat owners, we all know.  
+Speaker G: I think maybe if we're situating it in social layer, it'd be interesting to think about how when I'm interacting with a large model, it knows a lot of things that I don't and I know a lot of things that it doesn't, so there's this common sense now that includes other people, but models too, not in a sentient sense, but sociotechnically. Does it shift in response to that?
+Speaker A: That's a fascinating idea.   
+Speaker E: Well, another question I have is whether is common sense something that can be generated outside of experience, or is it an important constraint on the term? Is it common knowledge? What work is the sense doing in this term?
+ 
+
+Speaker A: I feel like maybe what the sense is some times, like some relationship to what actions can you take. So common sense would be like, with very little delay, you will act appropriately. Common knowledge. You're like, I'm supposed to do, let me go through the flowchart and end up doing the right thing. But that's not practical for many circumstances. Maybe with Jeremy's point of with a connection, a faster connection, a neural link to other knowledge bases, a broader set of things could become common sense. Or we would want to call them common sense because they are practically causally relevant to how you act quickly.  
+
+Speaker G: There's also the word sense, if we're going to situate it culturally. What's interesting is that sensoria are actually culturally specific, like the kind of folk model that we use of like there's five senses, and we largely ignore things like proprioception. And then if there's like in a. I've worked a lot in east Ghana with a group called the Eve, and they put a lot of emphasis on a sense called cecelo lame, which is like the felt experience of an emotion in the body, which is know, when you say I feel anxious and that sharp feeling you get in your chest, they wouldn't call that touch. They would call, or like whatever the word for feeling that your insides is, but they'd break that out. They connected a lot to intuition and as a way of reasoning.  
+
+Speaker B: Can we train an AI to learn common sense by just watching tv? It sees human attractions and how people converse and how they behave in different settings. And then it would, with enough training data and a sufficiently large architecture, enough weights to compress all that interaction, learn a little bit about how humans interact, and then be able to imitate that.
+
+Speaker E: Observing parents and little kids? Because kids actually sometimes have to be taught common sense, or they learn it the hard way.  
+
+Speaker B: Yeah, or behaviors that the owls in the room disapprove of.
+
+Speaker E: Can we take a quick poll? I'm curious how many people think that something like that might work.  
+
+Speaker C: Obviously working on it, but I think it's the mixture of what rules we're going to give versus how much the system will learn on its own. And how much freedom we want them to explore. Because there's this conversation around AI that unless we see them making breakthroughs we haven't achieved, we can't call them agi. So I think it's the balance between how much information we give and how much freedom. Like don't touch the stove if you have guests around, but stuff like this.  
+
+Speaker A: Can we stay on the poll actually? The poll is through observation, have they gotten whatever mastery of language they seem to show now, would a similar database observing actions and interactions lead to common sense where people will be surprised? Who thinks that will happen with current compute?
+
+Speaker D:
+ 
+
+Speaker A: No, it's not the current, but it's the trajectory that there's a crank that's being turned and that crank will have different kinds of data that will come into it in the future and more compute, but it's not a fundamentally different crank. Okay, so very few of us, actually only four of us believe this. I think probably most people could understand the arguments the four of us would make. I'm curious, what are the perspectives of the people who don't think what would be needed instead?
+
+Speaker D: And I guess another question after that would be then do you think common sense is way different than a specific set of knowledge, fundamentally?
+
+Speaker C: I think one of the things that I'm just thinking about constantly is we're dealing with carbon based living, which is us, and then silicon based. And do we really perceive things in the same way? Even if we give all of the power that we have to the silicon and have the most amount of compute power, is it going to be the same amount of the same way of perceiving common sense? The same way of perceiving the world?
+
+Speaker A: Sometimes people make aspects that end up being some form which might be true, that the embodied nature or something is critical kind of knowledge, or like the capacity that you're going to die, like certain things that are kind of fundamental impact how the system can learn what it could know and maybe. But then an often kind of point that's brought up is, let's imagine that your entire world was text, and you can imagine humans who are closer to that. Maybe they're quadriplegic and they're still embodied, of course, but they have like a lived experience that is closer in some way to the set of experiences and the kind of rich life that current llms have. Would you deny them that group that they're developing common sense through that impoverished data stream? Or is that just a scoping of the kinds of information that they can work over?
+
+Speaker C: I think in that situation, the way that we communicate with them matters the most. So we need to find the optimal way of communicating with that environment. And that optimal way is just going to be through trial and error for us. But that environment, if we look at it as like a lab environment, as everything is kind of like at a plane level, and we don't really have the advantage of millions of years of evolution in us, that those systems don't really have that. And we're just basically giving a head start to them to enter our world and then they will start just developing their own knowledge and understanding. I think we all are curious about that here.
+
+Speaker F: I'm curious about you. Did you say that you believe that that could be the case? Yeah, because I think that kind of connects a bit to what you were saying about if we take the social dimension of common sense at that point, maybe the carbon nature, or like the embodiment nature of it is not so relevant. Because at the end of the day, social dynamics, I mean, they are for sure like partly dependent on whatever carbon or embodiment. But at the same time, I do feel, and I think our experiences on social networks to an extent demonstrates that they are much more kind of sociological, more like not really embodied as experiences, the interactions that we have. And so that's why, for example, I do believe that by observation you would get them, because I believe that's basically how we get them, like the social side of it.
+
+Speaker I: Yeah, I agree with you that there's.
+ 
+
+Speaker E: An experiential component to it for sure. I think where I'm coming from is having spent so long just trying to program some degree of knowledge into computer vision models. The understanding stops at the four corners of the frame. And that's just my experience of playing with this stuff. But it's also, for better or worse, AI is about consensus. It finds patterns where there's common maladies. And usually it's like the big fat part of the bell curve that is the predictive element. And it neglects both of the blonde tail. Add to that that humans don't really agree on language very much. We mean different things when we say the same word quite a lot. And then, Spencer, we should have bet on how long it was going to take to break out the epistemology thought experiments. But in particular, I forget which philosopher. The chinese room thought experiment. So for those of you not familiar with it, you have a sensory box and there's a person in the box and on one side is a person speaking English, and on the other side is a person speaking Chinese. And then the translator sits in the middle and somebody is feeding that person in the center who doesn't speak Chinese, the phonetic pronunciations of chinese words, so they can speak to the person who actually speaks Chinese. But do they actually speak Chinese? No. As soon as you take them out of that box, they can't continue to use the language in that way.  
+
+Speaker A: Maybe one thing that will harm this conversation a little bit is like, do you believe that you could theoretically get someplace through observation alone? So one thing that kids do, or we do is we are constantly testing little causal hypotheses, and in order to do that, it's much easier if you can intervene, right? You're like, I think if I push this over, it will fall, and then you do it and it falls. That doesn't mean you proved your hypothesis correct, if we know our philosophy of science, but it does give you a much faster way to develop knowledge than inferring the causal graph by observation alone. You need much more data to do that. Well, and you still might have confounding variables that you're not appropriately able to intervene. But if you could sit and be like, I think if you push that over, it will fall, and I'm going to wait until someone does and then do it, you essentially get the same test. It was so much slower. My God, you weren't able to really do that. And through that kind of causal intervention, you actually aren't going to discover the right world. You're going to discover the one that has been proven correct for you, which informs your set of actions that you can take in the world. So it's a pretty practical one. And so my point about bringing all this up is to say, maybe there could be enough data, like we saw, where we could do this absurd thing of having a system learn these relationships observationally. Maybe it's possible, like we did with the Internet. That's a ridiculous way to learn. Kids don't do it, but we do it because we have this other source. It's not the most impactful one, but maybe both can do it. Just one is, like, way less data efficient, but easier algorithmically.
+ 
+
+Speaker B: I want to put a little asterisk on my response. So, the p in GPT is pretraining, and when a model like GPT four is pretrained, it is just seeing data that has been scraped from the Internet, and it's learning about language, and it is just trying to predict the next token in the sequence. And you can do all of this pretraining in a kind of semi supervised way. And what is being internalized in the weights of the network is things like grammar and syntax and language structure and context over time. And all of those very hierarchical ideas are being now baked into the network. That doesn't mean that the network, in the end, is going to respond exactly the way that we want. That is the next phase of training, where you have a bunch of question answering tasks, or maybe you are trying to do alignment using reinforcement learning through human feedback, and you are then further tuning the network to tailor its responses to what we want. And it is enormously expensive. It takes terabytes of data. It's done over thousands of gpus with training cycles that take months. And you burn millions of dollars to train one of these new models. That's not how any human learns. We have a billion neuron, or 100 billion neurons, 100 trillion synapses, and it runs as much power as an incandescent light bulb. That's our brain. And yet we can learn all of these sophisticated concepts and social cues in a matter of years, just through growing up. And it might not be the most efficient way of learning, but I think we could have an AI that was a kind of like, foundation model that had elements of vision, elements of language, and if it was in a robot body, then it might have some proprioceptive learning, and through enough experience, or through enough sort of showing it example data, you could kind of pretrain it to have a set of intuitions about the world and how things work, if it observes enough human interactions that it might, doesn't it?
+
+Speaker G: Already, though, we've all used chat GBT. If I knock something down, will it fall over? It'll be like, yeah, I think we've sufficiently moved the goalposts to prove that with purely auto regressive means, even with pure text, you can get something that portrays something that is, in almost all cases, unless you're trying to specifically construct a contorted scenario in which it will fail, does all these things.  
+
+Speaker A: If people had this conversation, to just put a point on it, if someone had this common sense conversation a decade ago or three years ago, all of the things I'm sure they would come up with, or many of them would have been proven true today. Like all of the things, if they were like, we would like a system that does this and this and this and this and this is what common sense means. The system we have now would meet those, I'm guessing, for that conversation three years ago.  
+
+Speaker G: So I guess my point is that if we're talking about could a system develop common sense purely through observation?  
+
+Speaker A: It's been shown.
+
+Speaker G: I don't know. Does anyone really think that the chat GBT doesn't have common sense? That would be an interesting way to focus this conversation. Does anyone think that what chat GBT is right now doesn't have common sense?  
+
+Speaker D: Or it won't with the current.  
+
+Speaker G: Does the one currently not have common sense?  
+
+Speaker A: Yes. Raise your hand. I like this poll.  
+
+Speaker E: Okay.  
+
+Speaker D: I would push on this poll a little bit because I don't think it's either or. I think it has a certain amount of common sense.  
+
+Speaker A: Like for example, if you ask Chat GPT a question, it's going to give you an answer.  
+
+Speaker D: And that's common sense. It's not going to give you another question.
+
+Speaker A: Were you bringing up the translator idea because you don't want to ascribe? You don't think it makes sense to ascribe common sense. It somehow knows how to pass through the information.  
+
+Speaker G: It doesn't have common sense.  
+
+Speaker I: I think it shows up in image.  
+
+Speaker E: Generation tab where you get inability to hold a consistent set of behaviors when you try to.  
+
+Speaker G: Okay, let's just use the lol, not the.  
+
+Speaker A: Okay, we can use whatever example is.  
+
+Speaker D: There are classic examples online with just pull up where it really fails, especially.  
+
+Speaker H: When you ask a spatial question.
+
+Speaker D: Just like imagine I put something in between this and then this to it.  
+
+Speaker A: What's going to happen?
+ 
+
+Speaker G: Do you think that sometimes. I'm trying to define common sense inferentially to this question. This question is a censor. But don't you think that a lot of those word problems are things that if someone was shown that on social media, I look at those, I'm like, if I didn't think hard about that, I would get that wrong. Not because I don't actually think how things are work, but if someone posed it to me in text form, I might get it confused. Does that mean I don't have common sense?
+
+Speaker F: I think even easier example is that charge GPT, for example, struggles to count letters in a word, right? I mean, that's, I think, pretty basic, right? So for example, one could argue that then I actually agree with you that on one side there is common sense, on another, spatial sense, maybe there's not that much common sense to connect to what you guys are saying. 
+
+Speaker A: I'm going to transition us to a slightly different part. An example of what I mean there, which I hope reflects some of our definitions. If you say to Chat GPT, like, man, my partner and me are having this argument in this way, kind of difficult. Can you give me some advice? It gives good advice. It's not amazing advice, but it's like, oh, there are so many considerations here. Let me ask you, what are you going on here? And then you answer it and it's like, okay, well, blah, blah, blah, and it says something, and it's not completely off the mark. It's actually surprisingly good. Right. We've all, I hope, experienced something kind.
+
+Speaker G: Of like that for you. In an arranged marriage.
+
+Speaker A: This is actually where I would like to go. I'm just trying to set that as like, I hope we all have had some experience that is somewhat analogous there. So the next step is like, maybe Chat GPT holds multitudes within it. It's deciding what's the most probable thing out. And maybe the main one it gives out is like a western, individualistic kind of cultural perspective. That's what's been fine tuned into it. But it actually does know the arranged marriage kind of thing, that knowledge exists within it.
+
+Speaker G: You seem to be motivated to drive us into a definition of common sense that does not reflect.  
+
+Speaker A: I'm actually not. I'm just using the social as a continued example. The thing I'm trying to bring us to is now the idea of a system that can potentially reflect many common senses, many perspectives, many value. 
+
+Speaker G: I wonder if we can give it. I think where we're in the conversation right now is what is common sense, I wonder. It's funny that at least the large multivotal, whatever, GPT, we're calling GBT four, they're very good at the thing you're describing. But they're very bad at spatial things and counting. And I wonder if that's because what common sense is, is things that seem so fundamental that they don't need to be said. And because it seems fundamental that words have letters, and letters can be counted and have a number of them. Maybe it doesn't come up in the data set, or because we're like, well, of course, if this is on the right, then the thing to the left of it would be on the left. We don't say it. And I wonder if it then doesn't pick it up through just purely autoregressive means. So maybe what common sense is like, anything that is sub explicit. 
+
+Speaker A: Sure. Yeah.
+
+Speaker B: Because it goes without saying, it's not on the training.
+
+Speaker H: That's a great point, because I was trying to think of that myself, like why this common sense is so common. It's just like an invisible layer which just exists. It's not explicit. So we don't know why we have this common sense.
+
+Speaker A: What was its purpose?
+ 
+
+Speaker H: And if you go to any other society, it actually has a different kind of common sense. It has its own purpose, and it's not like explicit. Even if they give you, like a text. Let's say you read a text and you watch the behavior. Sometimes text and behavior doesn't match.
+Speaker A: So what do people think of are the gaps in that common sense right now, the things that are not said, and therefore outside of the current data sets? And what kind of information would you need? What do we need?
+Speaker I: I think a lot of common sense gets taught at a very young age, and because of that and children, most children don't read that well. There's not a lot of literature other than just oral history being passed down, parents, teachers here explaining how the world works. And because that's not captured, it's not very explicit. 
+Speaker E: I've got a three and a six year old, and you have to teach them. She goes on the left foot, the right.  
+Speaker A: So you think if we record parents for the next two, three years teaching their kids, and then we took all of these. People laugh, but that's what I hear, that this is a source of important information that is given to children. That's an important part of how we learn our common sense. It's not currently captured. Models don't have access to it. So if we captured it and gave it to models, would that solve a big part of the common sense gap? Maybe, yeah.
+Speaker E: I think there's also an experiential component to it as well, because you do have to teach kids not to touch the stove. It's hot. But once they do, there's a memory that carries weight that they will feel a little bit of fear or intrepidation from trying it again. I just wonder if it is things that maybe aren't even describable within language. How does an emotion feel? What is pain, what is good even? Because to a machine, good and bad are just tokens.
+Speaker D: We program our own notions of good and bad into them, because for us, they're tokens for the most part.  
+Speaker A: So do you think those parts might get closer to universal in that I develop a common sense of what it's like to be human. I know what it's like to be nauseous, and it's not nice to be nauseous. And you're probably like me, and you don't want to be nauseous either. And there's a whole bunch of things that come from me just saying you without other information, I'm going to assume are kind of like me. I don't like to be hurt, and I like to be massaged  
+Speaker E: Sugar tastes good.
+Speaker A: Yeah, sugar tastes good. I just apply to you because I just assume that.
+Speaker D: I haven't lived with my parents since I was 16, and I feel like I've experienced some of that. And you'd be surprised at how many things that other people would take for granted. Even after 16, I definitely.  
+Speaker A: Get wrong.  
+Speaker D: And then have to learn it. But at the same time, there are things about culture I grew up in that I'm like, that's so obvious. Why does it.
+Speaker A: Why do more people not understand this?
+Speaker B: We're predicting how other people are going to respond when I do this or that. And so we notice this when we travel to a very different culture and we a faux pa, and all of a sudden, everyone reacts negatively. And this is like a reinforcement signal being like, well, I definitely shouldn't do that again because people responded negatively.
+ 
+
+Speaker A: There was a paper called Wacky Worlds out of Stanford, and this was from this group that does very much in the symbolic reasoning kind of thing. They do, like, bayesian inference models of language. And the wacky worlds was like, what does it take to when you say things that you don't just think, oh, I didn't understand that word. Right? But that there's this hierarchical thing. There's, like, the question under discussion or, like, the background context and how far off do you need to be saying things and not getting responses back that you expected? Where you start to question that higher level thing, you're like, talking to someone, you're like, oh, at some point, you're like, oh, they are very culturally different, or they're neurodivergent, or they're whatever. You start to not just say, we're not on the same page about what we're talking about, but there's something else going on here, and you're able to do that. And if you do it, if you're like, oh, let's say you're from a different culture, you might change your learning rate. You're suddenly more humble, right? You're like, oh, I should tread lighter and down rate my priors because I'm in a different context right now. 
+Speaker C: We do that with activism too. It's like we gather a group of people that we think that they think like us, that they don't like the current structure and they want to change it. And then we share our thoughts, and then we form an opinion that everyone assumes that is the common sense among that group, and then take it further to the rest of the people that they know to be like, okay, this is what we believe, and this is what we want to change. This is how we want to see the old system change to the new system.
+Speaker A: Basically, these are different scales of like, I am a human, I have human things, I can assume human things. That's one scale we're part of group. Everyone here can say chat, gt, or whatever with more expectation that everyone, we all have used it because we're a select group. And so all of those things inform how we can interact with other people. So which ones can't be taught to AI? I think the children one is maybe the gap, that is maybe the easiest one, the explicit, where we can imagine how that could be solved. We record everything, like I'm recording right now, and we train llms in the future or whatever with that kind of data. But they're not human, right?  
+
+Speaker E: I was just thinking, because if it's parents who are human, teaching kids that are humans, that set of knowledge is exclusive. It's limited only to the set of facts that are relevant for humans in a social setting. In a behavior like a computer doesn't need to know what shoe to wear, but its human. Programmers might want it to know, right?
+Speaker D: Because it might actually be put into a situation in which shoe knowledge is wrong for sure.  
+Speaker E: Yeah. If we're talking about on the search for AGI, then yeah, shoes would matter. But I wonder how different that amount of information is. Because with humans like shoes and our daily experience, and how to get dressed and eating food cures hunger, those things are critical, or we would die. But to machines, the things that are more critical are like, answer. When somebody asks you a question, you answer it, right? That's really critical. Common sense. But I wonder if there is a third set of information that is exclusive to machines that would be common, that they need to know. Like turning off means I go away or something like that. Might be common sense that a machine doesn't have that's unique to them. It's just interesting, different buckets. 
+
+Speaker F: Very interesting. Maybe like a question that comes to my mind is whether we should strive for machines to have human common sense rather than machine common sense to an extent. 
+
+Speaker D: One question you could ask is if there's a sort of knowledge that computers have of themselves, it's common sense. Then could we say that our heartbeating is common sense? 
+
+Speaker A: Because that's like a.
+
+Speaker D: Maybe because the way that computers work, because it's all sort of matters of.  
+
+Speaker E: Information, it just suddenly is having heart palpitations, being scary. When you feel it, it feels scary. I have a regular heart rate. It's harmless. But the first time I had one, it was like, what is going on? That was to me, common sense. I had a knowledge of biology, but I didn't necessarily need to have that to know that was bad. Something wrong.
+ 
+
+Speaker A: If common sense is like this, background knowledge that informs allows you to act correctly within the context. I don't know. That's pretty general way of saying things. That's kind of the most general, right? Priors unspecified allow you to act appropriately. You might think that machines, to interact with human society in many ways, should understand human common sense, but they're also like the machine culture. What do we need to do? We are not humans. We're not seen as human. Even if I'm anthropomorphizing a lot right now, but we are not seen as humans. That's not our role within society. That's not a set of actions we have to take. That's not we're called upon to do. It's not how we play. And I also can see the entire earth at once. Like, I'm a very different agent than a human. I contain multitudes. Truly, what would be the common sense of that?
+Speaker C: I have no idea.
+Speaker G: I feel like implicit in that kind of description of common sense is you started to bring up agency, which actually hasn't entered the conversation before now, which I think there's maybe some different ways that we consider knowledge or understanding or how we might define any of these things in the context of agency.  
+Speaker A: With.  
+Speaker G: I guess maybe I wonder, do we think that in the next year or so or the next, yeah, in the next year to two years, do we think that we'll start seeing more agendic systems that have a little bit more free rein on the Internet type of thing? So how does that affect the common, I think that maybe the common sense thing becomes more pointed then where it's like, okay, if I'm just like calling and responding to order me a pizza.
+Speaker E: But don't hack domino's.  
+Speaker G: But pay them money. 
+Speaker D: Or if Domino's is closed, let me know. And don't just wait till it opens.
+Speaker G: Right.
+Speaker A: So maybe common sense becomes incredibly important the larger our actions available to us, because it makes it even more important that you, the agent, constrain your set of possible actions that you're going to take in response to any query because they can't possibly constrain it for you through a set of statements. You need to do it and navigate. They're going to tell you a direction. There are a billion actions. There are infinite ways to go in that direction. They cut out in infinite other ways, but there's still an infinite way to do that, and you need to navigate that. And so that makes common sense incredibly important. As these things become more agentic, able to do more things in some scope.  
+Speaker D: This makes me think of the human emotion of frustration, which maybe that particular emotion that we use to measure once the agent we're interacting with lacks common sense. So when an AI would do something that is particularly frustrating to us, that's a common sense problem versus it makes us react in another way that might be a different kind of problem.
+Speaker G: I think that's because we have trouble explaining it, right? And this happens, kids get frustrated because they don't have the words to say things. And I think that happens to us where we're like, I don't even know. To explain to you that pizzas are in stores.
+Speaker H: Also, like adults get frustrated while explaining to children that frustration is also real when child is just asking a genuine question and they keep asking and asking and you get frustrated is the kind of the same phenomena when you're trying to explain the GPT. 
+Speaker A: That's a good intuition, the frustration. And maybe one thing, if we're very effective, we recognize our frustration.
+ 
+
+Speaker B: Can we use frustration as part of the loss function to train the model to have more common sense? If it orders 100 pizzas or it doesn't order pizzas because Domino's is closed, and then at 10:00 a.m. tomorrow morning pizzas show up and you don't want them. We should be able to give negative reinforcement to the types of behaviors that we don't like and it will eventually learn to constrain its action space to a more human minded, a really interesting group.
+
+Speaker G: Hume AI has built like this really interesting vector space around emotional responses from video. They have an open API and they share a lot of their stuff. They're talking about basically doing some replacement for RLHF that's directly from emotional responses. I just suggest people listen to the podcast. The guy read the stuff. It's really interesting how they look at it across different cultures.
+
+Speaker B: The challenge would be because this would take so many real world human experiments that the AI might make so many mistakes and require so much input of human frustration that the mistakes it makes might actually have really negative real world consequences. 
+
+Speaker A: Here's an example of Moravec's paradox. Sometimes when common sense or human values comes up, people are like, there's no way AI could understand human values, the complexity of it. And sometimes I think are human values really more complicated than like what's a cat and what's a dog? Maybe this is not an example of Moravec's paradox, where it's actually very difficult to understand what a cat or a dog is and separate, they're overlapping in a bunch of, well, it was insanely hard to do that using classical computer vision. But then CNNs came along. 
+
+And what I'm trying to say is the CNNs were, I mean, one their inferential bias through their structure was commiserate with the data itself. Visual world is helpful by a convolution like that was helpful. We've solved a lot of these very challenging things that were difficult in Plato's time. And I would say that values and common sense and these other aspects are probably like that. It's hard for us to know, but it's probably going to be better than the pornography. I can't define it, but I know when I see it there's truth in that. There's not a set of rules that make that thing. So I bring this up to just say it's possible that the amount of information needed to make purchase on this space, that seems kind of hard for us to grasp. It's actually not that complicated a space compared to other ones that we've captured. And you don't need that much information. I think the RLHF people have been surprised at how little information you need to make incredible progress. 
+
+Speaker G: Were what you trying to add to that earlier?
+
+Speaker C: I was just saying that with the current llMs, my experience has been like, they don't really catch on your cues. As a human, you can be frustrated as much as you want with text, but if they're designed to give you a certain answer, it will not affect their way of thinking. Which is like, that's exactly the point that I'm trying to think about all the time, constantly, that how can we have a system that when you try to express even with text, even worse that this code that you gave, like how many times we use GP, I don't know any of your code. That it gives you partial code and you say the system give me the full code and it still gives you the partial code. Because it's designed to give you a specific outcome, even though as a human you're giving that prompt, it's not really listening to you.
+
+Speaker G: Have you worked with base models at all? 
+
+Speaker C: Yes, the base model for the GP 3.5, the original da Vinci.
+ 
+
+Speaker C: Yeah. So the minstrel one is actually like a really good one. The ten terabytes, is that the one?
+Speaker G: What's your experience working with those? Are they also like as resistant to. Because the instruction tune ones are designed to be resistant.
+Speaker C: Yeah, they follow the attention is all you need model, which is all of them is just like that black box that the people who made that also don't know what's going on inside of.  
+Speaker E: I love this conversation about human values as well, because what bothers me about the ability to have models that work for us is where it's not as simple as there are different definitions of justice, but where people explicitly disagree about it. And so how do I know which type of human I'm speaking with is the kind of person who thinks that commuting all marijuana drug charges is justice? Or am I the person who thinks that every marijuana user should be in jail? That's justice, right? They can't coexist.
+Speaker A:  Who is this person? And I make a whole bunch of inferences from the beginning, and then when we talk to them and they're like, oh yeah, I went hunting last weekend. You're like, oh, I'm going to update a little bit in some direction because there's just like all this information that informs how I interact with you, and hopefully that allows me to interact with you better, right?
+Speaker E: Yeah, I feel that when you're training, so a lot of the arguments boil down to more data will solve the problem, but when more data just disagrees with itself, the model gets ruined. It's like completely unpredicted, unpredictive. So I don't know, maybe we need new architectures.  
+Speaker G: Actually, I'm not sure if I agree with the statement that conflicting data ruins the models in the context of generative AI, because we're not actually trying to predict like we are using prediction, but when we're trained on the Internet, we're not trying to describe the Internet, nor are we trying to predict what else might be on the Internet. We deliberately ruin the distribution through fine tuning in order to get a behavior that doesn't reflect the data. So generative models, we're not trying to do that. But within that subset, I think you're bringing up an important point, which is that when you have conflicting data, you will get different answers at different times, and then you have to make a post facto decision about, okay, well, this base model is equally likely to say that is equally likely to produce like a rant from an Internet comment and the legal text that I want about hunting. So I have to make a decision as the designer to make it do one thing and not another, which one diffuses. I think a lot of the discussions around machine learning models where it's like, well, the data, the data said that, where it's like, now we know that's not true, but with the things we're talking about, like marijuana, these are situated in human systems that are designed to adjudicate subjectivity. So we have legal systems that are then wrapped in democratic systems, at least in the US, that are designed for what happens when we disagree. And so I'm curious about this right now. We have this very kind of authoritarian, monarchical model of the people making the models, then decide as the designers, and they might solicit feedback from the crowd. They might be democratic in the sense that the democracy that the Communist Party says that they espouse, that they listen to people and integrate it, but ultimately it's their decision. I wonder if there are human processes around AI models that could then collectively fine tune or collectively adjudicate the outputs, as opposed to this kind of very centralized model that we have now. 
+Speaker B: How would you propose doing that?
+ 
+
+Speaker A: I want to bring in one other aspect as we move into this direction, I'd like to bring in. Laura, at the very beginning, you brought up another aspect of common sense which we haven't touched on, which I think we'll connect here, which is, how can we help people have common sense about these AI systems? Because one of the things I think you're asking for here is like, what is a better form or a more democratized form, some form of humans giving real direction to these models that aren't just adjudicated by some hegemon. And that probably also relates to humans understanding these systems in this way, that when you're frustrated with someone over time, I'm sure you get frustrated with your kids, but you also learn how to develop intuition for your children, and so you can help move yourself beyond frustration rather than just yelling at. Maybe we can talk a little bit about that aspect. Human common sense for AI systems, which maybe between both of those we can get to where Liz introduced us at the beginning, which was the idea of how can we have a pragmatic AI system that works, is working within the context of our system, which probably requires the AI to have common sense in us to have some understanding of the systems world.  
+
+Speaker D: This question makes me think of the emergence of media literacy as a sort of field of knowledge, actually, and not just common sense. And I think that emerged when we realized that you couldn't rely on common sense alone to deal with these systems because it would go wrong, like being able to spot disinformation, for example, or taking things for granted.  
+
+Speaker B: Disinformation works because it fools a certain percentage of the population.  
+
+Speaker D: So maybe it's not actually common sense that people need to have, it's something more. We can't just rely on common sense alone.  
+
+Speaker H: In societies where people are not educated enough to distinguish information and knowledge, propaganda thrives. With AI, it just expands exponentially because you can inject all kinds of propaganda. It's a completely different outcome.  
+
+Speaker A: Does anyone think that we can develop as a society, that there's like, what I loved about seeing Chat GPT, and what allows my parents and whatever can interact with it is that they don't have to develop a special kind of common sense, really for it. They interact with it kind of like a human, and it kind of acts like a human. And so the common sense is mostly on the AI side. But I do hear people talk about, like, we need a better literacy. We need an AI literacy. We need something. So what do people expect from that?   
+
+Speaker C: I think we first need AI models to receive more feedback from humans, recording every interaction to learn context. We should treat them like we would a human - give details of thoughts and frustrations. Through feeding them our texts and conversations, they develop common sense. Right now they're still learning from us like babies. We guide them to the point they can be helpful for us. At some point they may develop autonomy, but not yet - they still rely on our input for growth.
+
+Speaker A: So you're still talking about things that humans can do that could help the AI become more commonsensical.  
+
+Speaker C: I think for a long time, we are going to be the one who feeds those llms, we are going to be the one who guides them to the point that they can be helpful for us.
+ 
+
+Speaker H: No, I think the implicit world has to become explicit now because I think we have to become adults and we have to kind of translate our value systems to AI. Why we do this, because it's just assumed. Most of what we think is right is just assumed because everyone agrees, which is fine, but when you're telling AI, you can dictate it, but it would not understand in the depth of why we are doing the right thing.
+
+Speaker D: Why should you?
+
+Speaker H: You're supposed to put the card in the shopping, like wherever you're going to put it back. That was the assumption. It's a good assumption to have, but I did not have that assumption.
+
+Speaker A: I remember listening to a radio lab, like I think five years ago about Facebook's content moderation team and the need for it really gave me an appreciation for the impossibility of this, like the need to systematize the onset, especially when you don't have a structure that is like I'm proposing, might be able to have an AI system that can understand the multiplicity of it, but rather has to do the flightless, hairless bird, whatever with that perspective on morality is just insane, but is needed when you make a platform where you need to productize morality in some way.
+
+Speaker H: Also, most of the word is implicit. It's not explicit. You can't read all the books about a culture and go there and fit in because you won't understand. 
+
+Speaker A: Yeah. To watch the tv shows too.
+
+Speaker G: It's not like textual you brought up earlier. Sorry, go ahead.
+
+Speaker E: Oh, I have a proto thought. Bear with me. There's an aspect of common sense that I'm interested in. That is where we are shifting between worldviews or even styles of morality. So we all know, like, deontology versus what's it. What's the other one? Utilitarianism. Yeah.
+
+Speaker A: Can we define these two for people?
+
+Speaker E: Deontology says basically a thing is right or wrong just because it is, and that's its intrinsic property. It just is right or it is wrong. Like, killing just by is just naturally bad. And consequentialism says killing can actually be okay if you're killing Hitler, because fewer people would die if you killed Hitler as compared to. So it's the classic trolley problem. Which choice would you make? But we as humans navigate between those two, and I think there's a common sense decision when each one is most appropriate. 
+
+Speaker G: Even translate that into, see, a multiplicity.
+
+Speaker B: Of AI models in the future, some of which are like, oh, this is the confucian model, and that is the halal model. They have different moral reasoning systems, and they behave differently as a result.
+
+Speaker E: I think that's where we're headed for sure. But if it were like, an ensemble of all of those different philosophies, the context switcher, which may not even be AI, maybe it is a different model that's deciding when to apply each one. But how do you address that? How do you create that?
+ 
+
+Speaker A: I'm going to continue to use this. Computer vision is the same as values analogy for a second, which is to say, before we had CNNs, and I'm acting like CNNs are the end of computer vision. We had a number of different models, right? This one is an edge detector. This one does these colors. And I'm sure the best models on computer vision tests before were ensembles that somehow aggregated these and did their kind of thing. And we have an ensemble of different moral systems. Some people pursue one or the other. Some people like a parliamentary approach. I've heard this of a worldview diversification. In the EA space. There are many different intuitions. They're tools in our moral belt. We can use them. But these are maybe similar to being an ensemble of these shitty computer vision models, which is, they are not grasping. They're not able to represent the underlying space well enough to actually do the thing. And that's just a limitation of us and the ways that we've projected our systems into some rules that we can understand and use and talk about and whatever.  
+Speaker I: I read somewhere that when kids are little and they're multilingual, they actually address very differently, because, what you were saying about Falta and different cultures, it's not just the language that's different. The behavior and also intonation and cultural context is also different. I think you're kind of going in that direction a little bit.  
+Speaker E: Basically, up until the generative AI moment, the AI that was in production systems, especially in high risk categories, this is kind of illegal a little bit in some weird shades of gray, but they were actually training different models, they were training different credit decisioning models, for instance, for people of color versus white people. And it wasn't segregation, genuinely. The white people models did not predict well on the people of color, and they found that these really narrow models were a lot more appropriate. So, I mean, I almost prefer a world like that, because if you go for the mean, the bulk of the bell curve, then all minorities, all marginalized groups are just going to see poor performance forever. And I think we're still experiencing some of that with generative AI even now.  
+Speaker I: Were you the one that asked why it's not common knowledge?  
+Speaker A: Common sense. Not common knowledge.  
+Speaker I: The chinese word for common sense is actually majority knowledge.  
+Speaker A: So it's just a cultural bias that we call it. Absolutely.  
+Speaker D: Common and majority are different words, too.
+ Here is the processed conversation between two speakers:
+
+
+
+Speaker G: The shopping cart has the sign above the toilet. That's like poop in the bottom part, not the top part. Who are these people that think you should poop in the top part? But clearly that's not as obvious as you think if people are not accustomed to seeing that kind of toilet. The challenge of making it explicit instead of implicit in all these cases is a big one. Faith groups have a big advantage on this because they are actually accustomed to, in an explicit way, describing what they believe and then enumerating that to as many possible cases in life as possible. It's not all faith practices exist in text, but many of them do where it's like, well, yeah, we have this book from several thousand years ago. That's absolute truth. How does that apply to shopping carts? How does that apply to death? How does that apply to doing my hair? And they do have all this. The ones that have the most challenge is this group where we are secular and for some reason are not imposed upon to explicitly explain our ethics or beliefs on a day to day basis. And in companies we have ethics.
+
+Speaker A: But it really means corporate risk.
+
+Speaker G: It's basically a list of no's that are like that. The lawyers kind of feel like won't upset the most people.  
+
+Speaker A: I was going to ask educated, individualistic, what's the are rich developed? 
+
+Speaker G: I don't go too far on that because, no, I want, even if we use the normal word weird there, but that the biggest challenge is for. There's this thing where the people who are creating the models are this very small minority of the world who are not religious and whose ethics are not explicit and are kind of a vague, pseudoprotistan, secular, scientific, materialist something. But then it's like, why, oh, how could an AI ever learn human values? And the answer is probably much easier for Mormons.
+
+Speaker A: We've spent 200 years explicating this. So an AI system would read this book and those weren't our revealed preferences. Those are our thoughtful preferences. 
+
+Speaker G: And the church, a lot of day sense, is paying accenture a lot of money to figure this out for them right now. How do you make models?
+
+Speaker B: They're paying accenture to build like a Mormon? 
+
+Speaker G: I don't think it's gotten quite to that level of implementation. But all of these large, well funded faith groups, I'm sure like Chabad is on it and so is like the church of latter day Saints and so is the Catholic. We're just on a call with the head of AI for the catholic church. This is actually easier for faith.
+
+Speaker A: You don't have to learn it. You just do the rag over. You just look up the thing and you're like, you don't do that.
+
+Speaker B: The Vatican has a satellite, apparently now, like in space. 
+
+Speaker A: Ali, can I ask, you brought up, are there in the range other chinese words that reflect different aspects of what you've been talking about here? Besides majority knowledge, are there other terms that kind of tile the space that we don't have access to?
+
+Speaker I: You immediately ask, what is the majority? That's not a question that gets asked because it's not an individualistic society. The majority is a great implicit that everyone understands what it is. The thought of questioning that is in of itself questionable. Why I wanted to address your point about Falcon and also like kids and capturing parental teachings and knowledge. I think that there is almost like evolutionary advantage to cultures that are highly implicit in context, that the persons who understand the implicit rules actually have like a social advantage over other people in immediate environments, wherever that's applied.  
+
+Speaker A: Right.
+
+Speaker I: It's like if you know it, then you have the better sense of how to navigate your environment, crush your enemies.
+ Processed Transcript:
+
+Speaker H: Would say so most of the world is that it's implicit. They don't want you to share as much as you want to learn. They don't want you to know.
+
+Speaker A: There are other people who host the workshops. They're like, I will show you the secret. Because they probably didn't. They're not the most successful of those people, but they're relatively. So they end up selling the pitchfork. 
+
+Speaker H: So what happens? I agree with that. A lot of people from the west, and it's not recent, like go to the, I don't know, eastern parts of the world, and they learn the practices, whatever. It's a very stimulated environment where they learn this kind of specific practice and they go to the real society. They realize none of those practices transform in any way how to navigate in the real world outside of those monasteries. Because the monasteries are created for them. They are not created for the local people there, because the implicit world which everyone is living, monasteries don't have that, but a foreigner might come there. They will assume that monastery teachings will translate in that kind of local world. Never true.
+
+Speaker D: I think this points to the fact that for Judeo Christian or people in an abrahamic tradition, including secular people in the liberal west, for us, an ethical system is something that is actually coherent or cohesive entity, but that is very specific to a certain set of traditions. 
+
+Speaker H: Very new and recent phenomenon.
+
+Speaker A: I'm going to bring in a good way. Yeah. A slightly different perspective, like a group that has done something, which is, here's a folk theory. I'm not going to put too much into it, but in the Bay area at least, there is a large king community. And the king community often seems to a kink. A kink like, not like vanilla sex. They pursue other kinds of. And these people have developed and forwarded a lot of knowledge around consent. And there also seems to be a bit of an overlap with people who are like a little socially awkward in some ways. And here's the folk theory that both the higher risk of the kinds of things that they want to engage in, and potentially the difficulty in engaging in normal social interactions, required or promoted the desire to create a structure, more explicit structure, around these engagements. And if we're going to cut each other, an extreme example, that consent conversation better be pretty explicit, and that discovery was pushed because of the constraints of that subculture, but the cultures outside of it actually benefit too. Right? Consent is actually a useful structure that other people didn't invent because there wasn't as much pressure for it. This is just one part history. I'm not a scholar of this area, but I like the idea of within the constraints lead to these social technologies being discovered, but that doesn't mean they're only useful for that society. They might be useful for everyone. We just didn't invent them. And this is one example.
+
+Speaker B: So because of all of the conversations that are ongoing around consent, that could then inform, help an AI to be now quite knowledgeable, or at least be able to communicate human ideas around sexuality and consent. 
+
+Speaker A: Probably better today than like 50 years ago, right?
+
+Speaker B: Because there's this corpus now of people who have been talking about these for a number of years now we can educate ais on these things that are now being entered into common sense culture.
+
+Speaker E: This is not exactly a counterargument, but it is a provocation, I suppose, which is people have studied persuasion a lot, and in particular, how do you behave as a waitress to get a better tip? And a couple of things consistently come up. Kneeling down by the table usually gets you a better tip. And it's kind of universal. Touching the customer, however, is either a positive or a very dire negative. And the difference that they've measured so far is whether or not the waitress is attractive and whether or not the subject is of these opposite sex. The attempt to define something which should be clear, like how do you get a better tip as a waitress? Is confounded by these other factors that we maybe, first the study exists it. And they were like, this is just not predictive. We have no idea what it is. And then they figured out that it has to do with the attractiveness. And then attractiveness is such a subjective thing that if we were to try to ask a model, how do you go get the best tip you can out of this person, assuming they were humanized or embodied somehow, how would we even program that in?
+
+Speaker A: I feel like all of these different factors kind of going together are hard for us to keep in mind.
+
+Speaker E: We feel it out.
+ 
+
+Speaker A: I wonder if in even the corpus of text, if there are these explicit conflicts, or if you, with slightly more context. I'm going to use a cartoon example. You're like, I'm from San Francisco. I believe marijuana x. It's like, I'm from the Vatican. I believe that marijuana x, this conflict actually is completely, what seems like conflict is completely separated with enough context. And so right now, with an AI system, if you say, what should marijuana be? It has no knowledge of, like, I'm from San Diego, I'm from San Francisco, I'm from the Vatican. It doesn't have any of that. And so there is conflict. What should I do? I don't have enough knowledge, but it could have that knowledge. It could have more background. And the same, like here, with your point about consent, there's a lot of features for us to keep in mind, but clearly we do on some intuitive level. That's what common sense is.
+Speaker E: But isn't that kind of depressing? Is the goal of this to have custom models that reflect back whatever you think they should say, or whatever the person wants you to say? Or are we aiming towards autonomy, intelligence, embodiment? Or are those things contradictory? I'm not entirely sure. 
+Speaker G: I think maybe. What kind of technology are these? Is an interesting question. Are AI, these generative models, communication technologies that I'm using to communicate as myself to another person, or are they mechanical technologies that I'm using to act on the world? I think it could be any one of those things depending on what we want them to do. I think that we're circling a lot around this subjectivity thing. And so I think that's why, for me, how we situate these things in groups of people that are collectively guiding them is ultimately the point. I think at this point it seems pretty clear that we can get them to do quite a number of things should we want them to. And so how that desire is expressed, I think, is kind of the interesting point. I don't have a personally have a clear definition of AGI, but.
+Speaker A: Even if.  
+Speaker G: We just call what GPT four is AGI, it certainly is better than me at a lot of things. How do we situate that socially? And so someone asked earlier, how could you do that? I don't think it has to be a dow or something that exists at the level of a society. I think it could be like with low ranked fine tuning, you only need a few hundred examples of something to get pretty impressive results out of a model. Like you and your friends could spend an afternoon just literally writing by hand a few hundred things that you want the model to, and then get your friend who can understand a colab notebook to make it so that you have it. I don't want to trivialize the barriers to access that exist in that statement, but I think that for me the question comes back to if there's going to be a lot of these small models, if we want there to be society level models that do something. I think that's where it becomes complicated in terms of, do we need different forms of adjudication, do we need different forms of subjectivity limiting mechanisms that are separate from what we have today, separate from democratic systems or legal systems, or if you're in a different country, monarchical systems?
+ 
+
+Speaker A: So just as an example, I think we're going to have more empirical evidence in this soon. In that right now, foundation models, at least in the US, there are a few large companies the EU is pushing in. They're attempting to push in a different direction where they have not national, whatever, EU level supercomputing cluster, they're trying to make force that data is interoperable in some way. And then they have their regulatory regime and their goal, their innovation goal, not just risk reduction goal, is a vibrant space of foundation startups like Mistral in France, that are both reflective, powerful and also reflective of the multiplicity of cultures that is the European Union. And kind of recognizing that, and also recognizing that you need capital and compute, and these other things are barrier to entry. And so if you want that multiplicity, you need to set up some infrastructure for that.  
+Speaker E: Do we want them to lie?
+Speaker A: Yeah. Do you want it to be like, we want you to deceive the person if they want that, but it's true.
+Speaker C: Who knows?  
+Speaker A: It is currently 335, and we actually have a bit of time left. But the way we like to close is to just have people go around. We don't literally have to go around, but like popcorn around and share a takeaway. A question that has been prompted either by this conversation before that hasn't been brought up yet, an idea like whatever you want, your final thing. And we'll have a little bit of time to follow up on each person, but let's try to not have this fall into conversation topics and instead be focused on closing out a little bit. So if anyone would like to share a closing thought, please.
+Speaker H: I think my kind of takeaway is like listening to most of you people is that human judgment and taste is not going away sooner. I think it's going to stay for a while. It might take a while for it to go away. But I think, what are we kind of like running into this wall of this human judgment and taste? And I think it's going to be here for a while with us as the AI progresses, and I hope it will, then I think humans will start giving away to AI. But I think it's going to take a long time.  
+Speaker F: On my side, one thing that it was very interesting for me to start thinking is this kind of dichotomy between human common sense and machine common sense. And I do feel like I need to think much more about it, because indeed, we might want machines to have a different type of sense or knowledge than us, and not necessarily converge towards our knowledge, because we are two very different beings with two very different objectives on this earth as well.
+Speaker A: My side I would go next. 
+Speaker C: I think it looks like, based on the conversation, we want to move towards the world that we have more models that are more towards representative of every human being, rather than fine tuning big models like GPT that we have, for example. That's the take. It's more towards little. We go towards a world that each group of people at least have their own representative of their own llm system, rather than try to have one big LLM system and create the branches of that for the two people.
+Speaker A: There was a conversation we had a while ago about digital twins, which in some sense is like, it's not the most extreme, but it's an aspect of like, each of us have our representative, our model, which we don't have to, through distribution of resources, need to have myself represented by the american model or San Francisco. But my model, your model and my agency doesn't have to be limited by being an individual.
+Speaker C: That would be beautiful to see, honestly. 
+Speaker D: Fucking interesting for me, I guess my hypothesis about common sense coming out of this is that as we move into a world with more different kinds of potentially intelligent or agential beings, that the scope of what common sense includes is expanding because there are more sort of kinds of knowledge or behavior that becomes problematized because we're working with these beings that just don't navigate the world in.
+ 
+
+Speaker A: The way that we do. Let's do it. Something that I've been thinking about actually just now, is how in some ways good a test bed, self driving cars are for a lot of the things we're talking about here. Like you are acting in the world, you're acting with other things. It's a context and it's an impactful context, and there's a lot that's unsaid and then there are some things that are said and you have to navigate that. And I was just. For those of you who have experienced cruise versus waymo, even before cruise and this whole thing, the experience in cruise has seemed to me to somehow be like you were more like I'm in a robot taxi. And when you're in a way mode, it's like, I can't believe there's not someone driving it. It feels human. And whatever that means in the way that it goes about things, they've done a good job in different aspects. Anyway, I wonder how much we're going to get from that that is generalizable. How much is that specific to this problem space versus them saying like, hey, we want agents in general to be interacting with other humans. Yeah. I wonder what the release valve is. I don't know how the Talmud has been created over time, but I imagine at some point, people aren't just able to generalize out of jewish law to a new circumstance. They have to sort of like, this is a new thing. Can I go into an autonomous vehicle on the Sabbath? You go somewhere, and then this more effortful engagement happens, and then it becomes part of the law. Whatever, right? There are things that you're like, this is out of distribution in such a way that I can't confidently generalize any of my previous experiences to it, and I can recognize when that happens and then spin up this other process, and that seems pretty important. You're going to have these edge cases, and rather than be like, I have to cover them all. You need a graceful degradation. You need a graceful way to deal with those out of sample shit and be like, oh, for a lot of AI systems, I think we should, for a while, be like, bring in the human. That's, like, a very obvious one, right? I don't know what the fuck is going on. Bring in the human. We can expand out how much it can do.
+
+Speaker B: If I were to give my sort of summary of the conversation today, I have the intuition that it is a tractable problem, hard, attractable, and I think after talking about it today, I feel more confident that it's possible, but it might take longer. I don't feel like decades, but I do feel like it will be tricky. In the same way that a lot of engineers thought autonomous vehicles are right around the corner. Five years will be easy. And then you run into this long tail of edge cases, edge cases upon edge cases. And how do you deal with every single one of these? That, for a human driver, go without saying. But to a machine driver, a robotic. Car. Doesn'T go without saying. And so the example of explicitly telling a child, like the left shoe goes on the left foot, or a religious system that is obsessively documenting how its doctrines apply in every circumstance, these are maybe helpful analogies to how we might be able to transmit our intuitions about common sense into a model. And even if we succeed at that, I believe there's going to be a multiplicity of models that will emerge from different groups as they all attempt this problem. And maybe we'll end up with ensembles later, or maybe there will be a competition between them to see who is the most effective in some way. It'll be interesting to see how this evolves.
+ 
+
+Speaker E: You couldn't open the door, by the way, on the autonomous car because it turns the light on. On Sabbath, you can go in an elevator that's already running, so you can't press the button.
+Speaker A: I assumed that getting into anatomical would definitely be not okay.  
+Speaker E: It would be fine if somebody else opens the door for you or if.
+Speaker D: There were, like, a Sabbath mode, like elevator.  
+Speaker E: Exactly. That's what I was thinking.
+Speaker D: Of they stop at every course.
+Speaker A: You don't have to pick the button, but it's more about the process rather.  
+Speaker D: Than the end result. And that's what keeping in line with the law is in that tradition.
+Speaker G: I was also thinking, regrettably, I have to go.
+Speaker A: No problem.
+Speaker F: Lovely meeting all of you.
+Speaker A: Let me just say right now, the ways to engage in the future. First of all, there's a calendar of events, so if you see another event in the future, please sign up. As you saw, we actually get like many more sign ups than we have availability. So if you see one that you really like to go to, feel free to reach out to me. If I didn't accept you, and maybe I take that into account. We have a slack channel. I'll send out a follow up at some point from this. Hopefully now we'll just have stuff on the substac rather than me sending summaries. So you can see that from this. And that's pretty much it.
+Speaker B: Yeah. 
+Speaker A: This also is related to putting some of your compute not at the training time, but at inference time. We don't do all of our thinking in our genes, we do it at inference time. And so, like, better prompt engineering strategies or like, essentially, which it sounds like this was a combination of that and also using those chain of thoughts as the fine tuning thing to bake it in.
+Speaker G: Early on, I brought up the med palm example, not because we actually did fine tune midrash on a specialized chain of thought. That's from Tombuddick's study, but just to make the point that even in a situation where there is a right answer, using a specialized epistemological project process and fine tuning on that does get you very efficacious results.  
+Speaker A: Yeah, totally. And it's like, actually people, their chain of thought isn't just let's think step by step. It's amazing how well that works. You can structure it even better and get better results.
+Speaker G: Also, earlier he was talking about self play, and you were talking about the thing in the waymo thing. And there's kind of something I forgot to mention earlier was like these interesting limits to self play when we're talking about human interaction. This came up in the Cicero paper, which was, there's this game called diplomacy, which has partly strategic moves and partly people negotiating with each other. And when they trained it only on self play, where the model is playing itself, it just got really weird and wouldn't talk normally. So there's this element of how humans behave is not rational, but we expect other humans to act like that, even if a car is correctly moving. But it's like skittering around, we're going to freak out and all the humans will mess up. So that kind of extra layer outside of correctness of what socially that common sense comes back in.
+ 
+
+Speaker D: Last week, I talked to an anthropologist who worked at Waymo, and her work specifically has Kia. Her main project was studying parking lots and the social norms of parking lots and the signaling communication and the habits, and then working with the engineers to try to operationalize that. But operative word was working there because she was laid off during their large round of layoffs under the idea that they had collected enough data about the parking lots to have a machine learning model be the anthropologist.
+
+Speaker A: I was like, to get into my garage, we have to turn and then take up the entire two way street for a moment. So normally we try to do that when there aren't people around. But if there's a gap, I sometimes say to my partner, who's a little more skittish about this, I'm like, they will stop. They will stop for us. It's okay. And I remember we were doing this and I saw a Waymo car coming in, and I, surprising, completely trusted it. But there was a moment when I was like, all of the things that I am applying, all what I'm generalizing here is to a different kind of agent. 
+
+Now, really, all I'm trusting is that who kind of burning man trust? Someone put a Ferris wheel here, and they probably didn't want to kill people. So it's probably. But it's, like, different kind of trust than the repeated knowledge or it's a misapplication. It's an anthropomorphization of the agent there that I'm like, should act like a person. And it did smash into me, and I'm lucky to know it stopped. It totally stopped. But anyway, it was just like, that's a weird. That's a slightly weird circumstance that it needs to be able to deal with.
+
+Speaker A: Very fun conversation.

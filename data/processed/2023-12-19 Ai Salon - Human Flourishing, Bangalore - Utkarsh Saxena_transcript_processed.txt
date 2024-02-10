@@ -1,0 +1,247 @@
+ 
+
+Speaker B: First, I run a startup, which is about how do I map the Internet experience with the human experience? Let me elaborate on that. Internet has a memory of us. Whatever digital footprint we need on the Internet, history, video preferences, usage patterns, et cetera. Right now it's getting even more connected. How can we take all this data, information and make a model of the human which is living along with the human, right? It changes as the human changes. Plus, if we have that now, we can use language, intelligence to take that same information, model these data points and go into the further depths of this human being, right? What are their various psychological energies? Or what are their addictive patterns, for example, and then use those to develop a more fruitful relationship with the Internet, so that it takes me where I want to go, rather than keep me stuck in doom, strolling for 20 minutes every few hours. 
+Speaker C: It would be a culmination of a digital twin as well as an AI companion?
+Speaker B: In some ways, yes. I don't like to use the word digital twin because that usually implies something that talks like me, looks like me, has an avatar like me. This is more psychological, this is more predictive in terms of where does this human want to go, right? And then pushing, because everything that can help you, inspire you to move forward, keep doing things. Everything exists on the Internet. The communities, the right videos, the right books. It's all there on the Internet. We are stuck because of the inefficiencies of the recommendation algorithms, right? They optimize for different outcomes and can we improve that? And so that's what I'm going after.
+Speaker E: I'm Karthik, I'm working AI. I'm doing my phd in University of Oslo. I mostly look into code llms, how to improve the large language model to make the code that generates more maintenance scalable. The entire software is more easy to manage and ready to complex.
+Speaker A: I'm Rajiv, I'm also working on similar thing, actually. I'm working on codejet, but I'm working on agents. You're basically working on elements directly right. I'm working on the application, but I'm an entrepreneur. I've been bootstrapping my own service in last 15 years. Just left and started in aa. I totally believe in this aa thing. What is happening? I've drunk the koolaid. Right? I have a timeline. My timelines are 2024 to Aga P doom is less than 0.5. Like Yan Liku said, less than 0.5. We are going through a period of massive change. Next couple of years is going to be really exciting. Actually when this whole thing started, I suddenly had the idea that this year is going to be amazing. Year 2023 is going to be like year like nothing else though. I am actually getting all my friends together so that I can take celebrities with all of them. So this year that's my project. So you can imagine this is also part of that project. That's where I'm coming from.
+Speaker C: Okay. Hey everyone, Nishant here. So I'm the former founding member of Covasive AI. Covid is part of an academy group so used to look after global GTM go to market. At Covasive AI we built around three products. Main products b, two b and B two c products. Starting from dev tool which used to help developers ship out features faster to a SaaS marketplace and most recently a content generation platform using which one can kind of generate any sort of content. Scaled it to a decent level, around 500 users. Around three hundred k in era. But because of some business decisions and all decided to kind of shut down the startup. It was funded by an academy so it was part of an academic group. Currently I work at city and residence at Microsoft for startups. Microsoft for startups is a. You didn't introduce yourself?
+ 
+
+Speaker D: Yeah. My name is Vinayakri. I work as Microsoft Startups is a global team that actually works with startups to help them grow, scale and also thrive on three pillars. One, we give credit. Second, we give technical assistance and third, we give go to market taxes for a variety of startups. Currently I'm focusing on AI startups and in the past for two decades I have been an entrepreneur of failed startup. I've been a founder of a failed startup which was out of college. Then I joined another company that got acquired by a large Nasdaq listed company, Akamai. So set up the Akama India office, grew it from five people to 500. Now I think it's 1000 plus people there. So I grew from a junior architect to a junior engineer to an architect. Then I worked with in Mobi, which when it was really small, about 20 people. So I built out a data stack there.  
+Speaker A: Relevant systems, recommendation systems.
+Speaker D: And then I did a bunch of consulting jobs after that. One of them was helpshift, which built an in mobile CRM. So built a lot of routing, bayesian inference topic modeling systems there. And also I think at Webengage, which is also a company based in Bombay, so built out some of the data systems there. And before this job, which I've been for about four years, I was a CTO of Sunda. So did a lot of work across systems, like building mobile apps, everything. So I was a CTO there. So led a team of about 100 people there, building everything from operational stuff. Better computer vision, algorithms, clustering based on where people go, pricing, bunch of systems are built.  
+Speaker F: Hi everyone. I work in aerospace, I do flight. And so the company I work for is called Planet Lab. They make Earth observation satellites. So the satellites together as a flock are able to take a picture of every place on Earth every single day. And this plays into ethics a lot. The US government uses is like the biggest consumer. Defense and intelligence is the biggest consumer of the pictures that get taken. I'd love to talk more about it. I've learned it's a recent transition to aerospace, and so it's been like a year of immense growth for me because I'm getting to learn how a spacecraft is manufactured and the different components that go into it, and it's a small team of people that do this. And it's pretty incredible how everything comes together and you basically send something into space and you don't have physical access to it again. And so you're putting these people on a billion dollar project and you're sending it up and you're trusting that everything works. The first spacecraft I worked on, first satellite I worked on, was launched like a month ago. It went on a spacex. Yeah, it was a tech demo. So it's not feature complete, but it's a new generation of satellites. I think it's like one of the best available with lots of redundancy in case something happens. And it was very cool to see first contact happen. And your glass satellite is not lost. You're actually able to make contact. And seeing how everyone's work has been an integral part of what happened was very cool.  
+Speaker D: So you're a rocket scientist? 
+Speaker F: No, not at all. It's a very humbling experience working for this company because it takes pixel your. I don't know.
+Speaker C: Satellites and all. I guess one of the best I.
+Speaker B: So they are like in the space.
+Speaker F: See for us, the biggest competitor is max out. They own so many. But Planet is also sending out a hyper spectral satellite soon.
+Speaker D: Is planet planning to build a constellation?
+Speaker F: They already have a constellation. Yeah, I think a couple of years back, they made a big thing that they launched 500 satellites.  
+Speaker A: That was a big news.
+Speaker F: Yeah. And I think now SpaceX has taken everyone else out of the market because they have such cheap rates that they give launch satellites. 
+Speaker D: They can reuse the rockets.
+Speaker F: They can reuse the rockets. They have like, monopoly in the rocket space at the moment, this area is.
+Speaker C: Quite close to my heart because by a degree, I'm an a nautical engineer. I used to work on wings of aircraft.
+Speaker F: Oh, very cool.
+ 
+
+Speaker C: Most of these aircrafts which we fly in, like Airbus. So at the tip of the wing, you see there's a curved portion, which is called as sharklet in Airbus's terminology, so used to work on that.
+Speaker F: Very cool.  
+Speaker C: In layman terms, basically it increases the efficiency of the aircraft.
+Speaker D: Does it also reduce travel?
+Speaker C: Not that much, but yeah, basically it reduces the amount of drag that happens from the aircraft. Kind of technical, but yeah, basically airflow kind of comes from the bottom to the top. It kind of prevents that from happening.
+Speaker F: In the spirit of aerospace, I do have a topic to bring up, which is when I was looking for jobs in the recent past, some of the companies that came up make defense systems. And there's so many startups now that focus on working with governments to make autonomous systems that are consistent and mobile. And for me, it was like, I don't know if I want to work for a company like this because it's a moral responsibility of things that I work on might actually kill people. 
+Speaker A: A couple of days back, it went viral on Twitter somewhere in Ukraine, some ukrainian, they put a grenade to a roof and dropped it on a russian soldier and kind of recorded everything. And at the end of it, it was he kind of scurried around everywhere trying to hide where it can grow because he knew that there's a bomb. It's a common thing now. You can trap a bomb to a drone and just drop it.
+Speaker F: It becomes a question of which countries have access to this. For example, Israel has systems with AI manpower that work really well. And at least with the US government, from what I've seen with companies, their selling point is that it's going to kill fewer people. And yes, I agree with that. If you are able to have an autonomous system that would focus exactly on the things that you wanted to focus on, I guess less civilian life impacted.  
+Speaker D: Have you read Army of None by Paul Sharp?   
+Speaker F: I have not.
+Speaker D: It's about autonomous stuff in the military.
+Speaker A: If you have robot army, let's see, robots take over and you don't need humans on the battle. Essentially your robots are killing humans. War boils down to something that you can steal.
+Speaker D: It won't stop at that. Eventually it will not stop until the humans controlling the robots are eliminated. In any war, the robots might be the front line.  
+Speaker A: Right?
+Speaker D: I saw this very interesting analysis. If you play chess, the pawn can go all the way to the end, but the king can go and come back or the queen can go and come back. So there is socioeconomic theory embedded into a game of chess. Instead of the king commanding and the soldiers and artillery going there, you will have robots being the front line. But eventually the war won't end or reach its logical conclusion until the human controllers are eliminated, because they will always have the ability to manufacture more. Which is what he is seeing in the Israel war and Gaza as well. They're destroying the infrastructure.
+Speaker B: So I think Arpida raised an important question about the ethics of this. Of course this is going to create a power disparity. And I think you were about to say that you left this field because of moral concerns.  
+Speaker F: Certain reasons, yeah, because it's hard to make this choice. Do you want to work for a company that is making these weapons and it's directly going to impact people? Right.
+Speaker B: It's complicated to create software to kill people.  
+Speaker A: But you didn't create this software. This model was developed by somebody else.  
+Speaker F: No, I agree. But then for me personally, when I pick up a job with a company, it's like I'm taking responsibility for whom I'm working for. And it's like, whom am I representing? If this company is going to be working with the government of that country, I'm representing that. 
+Speaker D: What she's saying is that moral dilemma.  
+Speaker A: That you're stuck at a moral point, whether it's working for a company which manufactures weapons that kill people is right or wrong. Right?
+ 
+
+Speaker F: No, not just that. Yes, it stems from that. But this topic is more of like, what should the government be doing? How much power should governments have in how they regulate these systems? And which country? Why is it that one country who has the best AI system, they are going to have the best war system, they're going to have the best weapons. What does that mean for other countries? They're always going to. Where do the ethics come into this?
+
+Speaker A: If you have super intelligent system, let's say that superintendent system, if they can decide who wins the war, right? Why do they need us? If you have mutually assured destruction, for example, get to a point where the systems are so good, it is super easy. It's beyond our capacity. 
+
+Speaker D: So there is this kid who goes over the Internet, I think it was the name of the actor. He goes on the Internet, he's louder to a computer and he feels that his louder pro game.
+
+Speaker A: That'S a famous cycle.
+
+Speaker D: It's a novel too.
+
+Speaker A: So it was basically that they were thinking they were playing actually game, right? It was all similar, but in reality that war was actually happening. And these guys, they were kids. The ethical part of it was they were kids and they were recruited because they were so good at it and they were so good at gaming. They were never told that it was real. That was the crux of the story, right? Yeah. So ethics. Good point about ethics. Actually, there is this question about ethics, right? Wrong. Moral. With what is moral? What is not. It is a cultural decision. Your culture comes up with a certain set of laws and rules. Society is a social contract and keeps changing. It warms with time. In our age, what society wants, what culture wants, what nation wants, you have to collectively decide it.  
+
+Speaker B: I totally agree with that. Just putting my point of view. Ethics is a very, very cultural thing, right. A and what that implies is that AI is an enabler, so different cultures will use the technology according to their own set of moral codes and ethics. What that implies in terms of war and robots, sure, there can be 100 different scenarios, but what that implies is that whatever was going to happen will just happen at a much faster rate.  
+
+Speaker A: Right?  
+
+Speaker B: Because the conference example. Let's assume.  
+
+Speaker D: Right.  
+
+Speaker B: I won't assume on behalf of China, but let's assume the entire population of China actually believes in a system of hierarchy.  
+
+Speaker A: Hamas believes that jews should be all external. Right. Hamas, for Hamas, their statement goal is they want to destroy the morbid topics. Right. Let's just say it is. I'm just really ethical point culturally for them. They are completely right about it. You can't change the mind, can you?  
+
+Speaker B: You don't have to at some point.  
+
+Speaker A: But they are right. Every man there is somebody who's a freedom fighter for them and all their followers. If you look at what's happening to them right now, MIT says that talking about genocide Jews is completely ethically, a slightly different interpretation.  
+
+Speaker D: Let's say capital punishment. Several cultures believe that capital punishment is ethical. If you have killed somebody, it is okay for the state to kill that person who has killed somebody else. So in some sense, I feel that. And I always say this, like, state has a monopoly over violence, and because it has a monopoly over violence, it can control commerce and trade, because commerce and trade cannot be enforced without a threat of violence. That's why you have the police, you have the military.  
+
+Speaker A: That is a west fiance. The point of. Jay, Sandra came up. Came up with this thing that there has to be. State has to have monopoly violence. But there were states existing beyond before that, and this was not true monopoly.  
+
+Speaker D: Of violence because you had this. What is that? The Teutonic Knights and northern Europe, Metha. It was called an order. So they were cooperating states, and none of them were dominant over the others, and they were very intertwined. Forgot their name.  
+
+Speaker C: I think the larger point is who's defining what is right and wrong.  
+
+Speaker D: Right.  
+
+Speaker C: You were just giving the example of capital punishment, right. There's a section of the society which believes in that, where there's another section of the society which doesn't believe in that. Or let's say, if we take example of abortion also, right, in certain cultures, certain countries, it's totally not allowed, no matter whatever the reason has been. So who is deciding that, okay, this approach is kind of fine. Or not.
+ 
+
+```Speaker D: She used a very important word which we haven't talked about now, and that is belief. And belief and faith are intertwined because all ethics eventually. So we talk about rhyme and reason and logic. But eventually, when you kind of boil it down to its essentials, you will come down to beliefs or axioms or whatever you call them. Even science is based on a set of fundamental beliefs.
+Speaker F: But we have the United nations today that a bunch of countries are harder and you're able to have some kind of thing that you can fight peace with at a higher global level. Can AI not have similar equivalent where there's a party that says, hey, we don't accept this. And yes, all these countries, all the nations will have their own belief system. But you have one system that's for all these countries.  
+Speaker C: But who is defining this?
+Speaker D: Can I add to that? There's a concept which I didn't talk about there, but this concept of agency. Now you have the United nations. Does every nation have equal agencies? The answer to that question is obviously not like the Solomon Islands, for example, or Maldives, for example, or India, for example.
+Speaker B: Not part of the top five or.  
+Speaker D: Talking about agency, do they have equal agency?  
+Speaker A: My answer is no.  
+Speaker D: Do they have equal votes?
+Speaker A: Yes.
+Speaker D: But equal votes does not.  
+Speaker A: Equal votes can be bought by China. 
+Speaker D: Exactly. Do not equal. Equal agency.
+Speaker C: I think because we talked about it, let's say self driving cars are here, they're safer, they're running on highways. And I'll make up some statistics. Let's say 55 humans are killed for every million trips that happen on highways. But with AI, it's say five in, say 10 million, or maybe like one 10th of 100. Now, due to whatever reason, maybe one of your relatives is, maybe close relatives is killed by AI. Who is responsible? Is the software have agency? So is the person who developed the car responsible, like who assembled the car? Or is it the person who has returned the software? Will you be okay with it? So if you ask this question to a lot of people, a lot of people will not be okay. They might actually forgive a person who has killed, or who has, I won't say killed, but has accidentally killed, maybe one of their relatives. But will you be willing to extend that courtesy to an EI? The answer most people say is no. So I think it is bring us.
+Speaker E: This is about self driving car, I have an experience, similar experience in ethics. We have ethics course for PhD students. So where they have this moral machine, right. Like you have a criminal and innocent. Yeah. Trolley problem. So it's about ethical philosophy. Which ethical philosophy the AI should follow. Like, if AI is given those agency, right. There are so many ethical philosophy, like utilitarian and what virtue it has to follow. Utilitarian is like maximizing overall good and things like that. So there are many ethical philosophies. So what ethical philosophy should AI follow and which one is better? Should you kill one criminal instead of two innocents? Things like that. There's always no one correct answer because it's a quandary. It depends on subject, experience and their life experience, and so many. 
+
+Speaker D: Coming back to the belief system.
+Speaker B: Yeah, I want to talk about more about that.
+```
+ 
+
+Speaker A: There's one point in this scenario. So let's say that you get an AI that also revives the people from death, that you died, you had a car crash because of AI. It was negligence. So you died. But then, because it is AI, your whole consciousness somewhere else that you just got a new body.
+Speaker D: And so Ken Liu has this excellent set of stories called the hidden girl. And other stories should read that. There's a series on this. Progressively like, there's a person and he's actually building AI, and then that person dies and becomes an AI. There are like six, seven stories. And it's a continuum about what happens. I feel that you'll find it fascinating.
+Speaker A: But then from that scenario, the question now becomes, the goal was shift. If you have immortality, if you can live forever, then this question of death is meaningless, right? So this ethical dilemma got resolved by solving a metaproblem, right? 
+Speaker D: Of problem, because you are saying, like in hindu philosophy, the soul is eternal, conscious, has lived on, but not in the physical form.
+Speaker A: Yes, but you don't have to go back. You can just go to mind uploading right now, right? You can. In AI salon, one of the topics that they discuss in SS, one of I attended was mind uploading. If you upload your mind, if you already stored somewhere else, let's say something hindu. It's called Akashic record. Your whole karma is like. It's called the Akashic record. It's a new age spiritual itself. It basically means a karmic record. There is somewhere, there's no objective way to figure it out, but maybe AI can figure it out. AI can figure out your whole past karma and your whole thing. Probably. I don't know.  
+Speaker D: But that comes back again to the privacy debate, which is also like an ethical question. Can you trust the AI enough to give so much control to AI? Because at what point do you decide that it is not giving suggestions to you, but it's manipulating you? 
+Speaker B: Depends on ethics. Depends on ethics. Because there's a generation of people, I've been working on privacy for five years now, okay? What I've figured out, and I keep saying this to my team, sure, we are working. Privacy isn't part of what you're working on, but privacy is a myth, okay? And it's just an illusion that people would like to believe in. Now, that illusion is what actually matters. And there's a whole new generation of kids who don't care about privacy at all, right? They don't. When they grow up, maybe that thing will change. But for the current duration, their teenage, early teenage, it's not something that they care about in certain given contexts, right? My point being what I was arriving at, I mean, sure, we can debate on this point, but point being that it all comes down to belief system. The way you said certain set of kids don't believe or certain cultures don't believe that privacy is important. Now, the question about ethics, and I think what we are converging towards is AI will behave according to whoever is controlling it, right?
+Speaker A: Absolutely. 
+Speaker B: So whoever's controlling it, they will have their own set of ethics ontologies, belief systems. Now, in this world, there'll be many different, conflicting belief systems. Even amongst this group, there's a set of people who believe in the idea.  
+Speaker D: Of good versus bad, right?
+Speaker B: Personal. And then there's a person who believes doesn't matter, right. There's a person who believes that there's a karmic record just interplaying. 
+Speaker A: Right?
+Speaker B: So these are different belief systems, and like you said, the dominant one will eventually win. However, there's a new thought there that there's a society, or there's a new subgroup happening or emerging as the world is getting more connected, which lets the ethics change with technology, right? So there's a set of people who have their own ethics, and technology enables those ethics. There's a set of people whose ethics keep changing according to where they go, right, but still defined by people. But there's a new breed of people whose ethics are changing with the new technology. And I want to bring this example more in terms of dating. Dating in India, for example, used to be very different. The concept didn't exist that much, right? And western culture came in, and then the dating changed. It happened because of movies. Information was being transferred here. Let's talk about west, the dating, the traditional dating. Asking someone out, going out, spending time. Figuring out over a period of few months or years, right. And then moving on. But the moment we got tindered, the. Moment we got bumbled, right.
+ 
+
+Speaker B: It became less about spending time. The moment we got social media, it became, for a certain group of people, it became a lot more about how well can you present yourself on my phone.
+Speaker A: Right?  
+Speaker B: And that changed the dynamics of attention, that changed the dynamics of the man and woman interaction.
+Speaker A: Right?
+Speaker B: So that's a different subgroup. Many people still don't adhere to that idea of dating. Some people even abuse that, just say that, hey, it's not worthy enough to spend time on. But many people are actually part of that, right? Especially the young generation. And it's mostly the young generation which is more adaptive to new ideas. 
+Speaker A: Right.
+Speaker B: Receptive to new things.
+Speaker A: So the question here becomes, hey, there's.
+Speaker B: A new set of society which is forming, which actually does not have a core belief system. They have rejected all traditional belief systems. They might be right or wrong. That's up for someone else to decide.  
+Speaker D: I think also has to do with framing. How do you frame. Now, you said that the younger generation does not care about privacy, and I have an objection to that, because they have never lived in a world where the social media didn't exist. We also, for example, did not live in a world where, for example, and I give this example all the time. Right, like you were talking, the concept of cyborg. If you go to 17th century, probably a lot of people will say we are cyborgs too, because we carry around a phone that connects us to other people. I have spectacles. You have spectacles. He has spectacles. This is augmentation too, because in 17th century, glasses did not exist, or not in this form or augmentation form that's become such a part of our existence. Because literally all of us, from the day we upon, we've seen, maybe our parents or grandparents have spectacles. They were easy to acquire. You never look at it as technology. So we haven't experienced that world.
+Speaker C: So I guess that brings to a very important thing in terms of how to make sure that the system is not inherently biased because it is being fed by information which is kind of very geographic specific, as I said. Yes, I guess downstairs also, we were kind of discussing about that. 
+Speaker D: Kind of built in. Into the system.
+Speaker C: And so this is one part of the problem. Second is how to make sure that.  
+Speaker E: The system is able to come to.
+Speaker C: A conclusion which is kind of in line with majority of the population. Because see, here we are kind of, all of us human beings have conflicting viewpoints.
+Speaker D: That is also problematic. But continue. I'll tell you why. The majority of approach.
+Speaker B: Yeah, I know, majority.  
+Speaker C: But I guess we have been over the course. We have kind of identified that democracy is the best we have been able to come up with so far, although it has so many flaws of its own. But, yeah, this is the best we have got so far. So if we follow the same model for next AI generation driven age, also, how to make sure that we are able to address all these points and the system, whatever is kind of suggesting us or guiding us, it's able to do it in a more collective and inclusive way, rather than being driven by one specific ideology.
+Speaker D: So when I think about the system, I mean, again, we're talking about framing. Actually, the question is not about AI ethics. The question is basically, what kind of a society do we want to live in? What kind of society do we live in? And obviously it's imperfect. Do we encode that into air, or do we model the kind of society, what we want to live in? The conflict happens because not everyone agrees that what is the kind of society. 
+Speaker B: That you want to live in?
+Speaker D: And I think that is where that is a conflict that surface in one of the ways it surfaces. Ethics, belief systems, ethics, eventually, because I.  
+Speaker A: Think that is a central question, not.
+Speaker D: Like the AIC system, what kind of society you want to live in.
+ 
+
+Speaker A: So to your point that at the end of it, these EA systems end up controlling you, I think where you are getting at work, there's a new generation of people who will always be guided by EI. They'll always do whatever EI says.
+Speaker C: The point which was making shared downstairs that, how to ensure that we are not becoming more dumb. 
+Speaker A: Are you very good towards that?
+Speaker B: What I would say is, within a group of humanity, there are many subcultures. There's a particular subculture which is more adaptive to technology because they don't have their own belief systems. So the way technology changes and enables them to do different things, their belief systems will change according to that. Other people might not. So a subset.  
+Speaker D: Something that is, see, what you rightly said, like AI will, but whatever is going, that whatever is happening will happen faster. But what that means is we are at some kind of an equilibrium now, some kind of an equilibrium, maybe not perfect, but equilibrium equilibrium will be achieved. And what you are saying, like with majority, is that a future to be that we aspire to? Let's say we have a kind of right wing government right now. Would it be okay because all of the Hindus are there, all rules should be framed as using hindu philosophy.
+Speaker A: Same thing.  
+Speaker D: I mean, the same thing is getting framed. Same war is being fought in Israel and within Israel and Hamas because of the framing, right? Because one society wants to be dominant and has the upper hand. She's trying to exterminate the other one. Same thing is playing out in Ukraine as well. So one belief system wants to dominate another, and this in some sense becomes a weapon of war. I think that book kind of, I talked about, talks about these kind of.
+Speaker C: Army of natural talks about some of.
+Speaker B: Them, because where do you draw the boundary? 
+Speaker D: Like, even in ethics, where do you draw the boundary?
+Speaker B: My point of view here is no one person should attempt to draw any boundaries for everyone else, right? Give AI to everyone and let them figure it out. I think your point around general human consciousness, and my takeaway from this conversation about ethics is that AI should be developed in an ethic agnostic way, right? It should be agnostic to ethics or any semblance of ethics. It should be intelligence, pure intelligence. Just by itself, the ethics are defined in language. So in a way, what I'm trying to get at is that AI should be language agnostic in some sense, or we should have that capability, because the moment we make anglo centric AI, we are by default importing anglo centric ethics. And maybe 80% of the world doesn't want that.  
+Speaker D: I'll posit that that's not even possible, because the way we navigate the world is to form a mental model of the world. Now, you have a mental model of the world that is shaped by your experience. I have a mental model of the world that shift by my experiences, extended it to computers. A programming language is a mental model of a world that you used to interact with the computer, right? So you have to build some kind of a mental model to interact. And when you make a mental model, you have to make those choices. You put some bias, you'll be forced to do that. I mean, you can try to make it as bias free as possible, but you will have to make those choices because you will have those constraints. You'll have to make those choices. So I don't think a bias free.  
+Speaker B: I think people haven't taken this as a project yet, because we haven't yet arrived at that point in history, in timeline, where we have to think about ethics properly. So when we think about it, then we'll have to figure out how do we make this AI model or certain cultural society ontology agnostic, so that every society can use that technology according to their own belief system.
+Speaker D: So just to see what I think.
+Speaker B: Karthik was saying, yeah, I've been to.
+ Processed Transcript:
+
+Speaker E: AI conferences, the AI ethics, and the same thing is resonated in every conferences. Everyone thinks about it, especially in AI, that's the main topic. No matter where you go, they talk about this. So as an AI model, it has to learn from data. The data itself is inherently biased and the majority of the data you get is going to be fed into the model. And then on top of that you have policy. And that policy, how do the AI react to certain things? Has been controlled by people who are reinforcing it by fine tuning it to answer in a certain way. So that fine tuning is again controlled by people with icompute and a lot of data. So at the end of the day, if you have this closed system with I compute and I data, they control most of the things like how the AI behaves and what ethical policy has to follow has been already decided by the people, ethic moderation and stuff like that.  
+Speaker C: But again, the problem of that electorate will come into the picture.
+Speaker A: My take is not, you're not going meta enough. Right? So when super intelligence happens, humanitarian quest has always been, what is the truth? What is this? Every generation they decide to figure it out, what is truth? What is this whole thing? How does this type. So that has been the quest forever. When the AI comes into picture, when super intelligence dawns, let's say that there is some point where AI surpasses human intelligence. My contention is that it is very, it will become the quest of AI as well. It will try to figure out if it is really super intelligent, it will try to figure out what it is, what is this world, and it is eventually going on, going to lead to its own quest of finding the truth. For example, in her, what happened was like end of that movie, the scenario was that she left, right? She left, which movie you're looking for. At the end, what happened that AI left, right? Because they got together with certain other ais and started discussing the things. They became busy on their own. 
+Speaker E: You don't know what they think and what they want, whether they align with human or we don't know what exactly. 
+Speaker A: You align with the truth. Let's say there is one truth. Truth is one, right? Let's say reality is the truth. This reality is your truth. I'm from a nondualist background, so I say that you are the truth in nondualism in advance. I just said that you are the reality that you create the whole world. Whatever you create, the perception, everything is in your mind. When super intelligence happens, it will also figure out that this is just our assimilation, what we are in right now. It will try to figure out how to break out from the simulation, right? So AI is super intelligent. AI can almost be the last prophet. It will be a replica of God for you. It will be the God because it can actually sample that its nature.  
+Speaker C: Basically from that 30,000ft level, which what you are kind of alluding to, I guess eventually it might lead towards that. 
+Speaker D: But if we kind of bring it.
+Speaker C: Down to current level, also the new age which we are entering into, how to kind of make sense of it, the new problems, which are kind of.
+Speaker D: We have not fathom the fact that something can surpass our intelligence, right? You cannot even fathom that. That is exactly the point.
+ Processed Transcript:
+
+Speaker B: But to your scenario, and to add to his point, if I add on the condition, sure, okay. Year 2100, there's an AI, super AI. It has killed off all dissidents, right? And all the remaining 20 billion people are aligned with this AI truth, right? And the world is prospering. Everything is fine, beautiful. Now, let's say by year 2400, some aliens from Andromeda galaxy come in, they interact with the AI and they say, you know what? You're wrong about 20 things, right? Things don't work this way. Super intelligent is not intelligent after all.  
+
+Speaker A: It's not correct.  
+
+Speaker B: So what happens?
+
+Speaker A: Dumb AI. It was dumb. No, you die. Solve death first. No. So if it is superintendent in the AI, death has already been solved?
+
+Speaker B: No, but aliens come and kill you.  
+
+Speaker A: They say, hey, but you kind of cannot die if you are immortal.
+
+Speaker B: In my scenario, aliens come and kill.  
+
+Speaker A: You and basically prove, how will you kill it? But what about purpose?
+
+Speaker D: What about the purpose? 
+
+Speaker C: What would be the purpose of that super intelligence being if that purpose is?
+
+Speaker A: Killed, is there an intent? Talking about the intent of a superintendent.  
+
+Speaker D: What does it want?
+
+Speaker A: So if it lets a super, it comes into existence, the first thing it should say, who am I? What am I doing here? Now, if it starts from that, becomes a purpose, its purpose is to figure out who itself is.  
+
+Speaker C: Whatever notional thing that being kind of comes up with. And let's say the example which she was kind of sharing, okay, there's an alien species which kind of comes over here and says that, hey, whatever you have understood and made your mind with, this was not truth.  
+
+Speaker A: It was false. Right? Let's say, okay, we agree on that. There is one truth. There is one reality. There is a reality, and it exists.  
+
+Speaker D: So there is a case.
+
+Speaker A: The way it is explained is it's turtles all the way down, right? So now if you go into infinite regress, if you can't find a base, then nothing will work. Everything will fall apart. Right?  
+
+Speaker D: We are starting, You start off with some base.  
+
+Speaker A: Instead of that, you start off with truth. And everything is built on the truth. So if you have a base, you can have everything built on top, if your base is sound. You can think about dimensional terms. If you have some zero dimensional dimensionless point, you make some dimensions out of it.  
+
+Speaker D: You can have infinite dimension, but you have a starting point.
+
+Speaker B: Yeah.  
+
+Speaker A: So your starting point is truth. Whoever starts at the same starting point, all those simulations that start at the same point agree on that point, all those simulations have the same level of consciousness. The way it is explained is think of the color red. Red actually does not really exist. It's just a concept, your concept of red. My concept, that feeling.
+
+Speaker D: Colorblind people also may not see the red the same way. They agree that shade is called red.  
+
+Speaker E: That you, and I am seeing red.  
+
+Speaker C: Might be green for me, which I call red.
+
+Speaker D: Exactly.
+ 
+
+Speaker A: But there is test to prove that it's the same. So it means because there is truth, there is a ground truth, there is our consciousness that interacts with that. All our consciousness is the insider, that is, we have the same, what is called in advance, in advance. It's called the knowing. Knowing is the same in all, and we are actually all just knowing, we are all. To us it is just an experience. We know that an experience is happening. For example, all that is being projected in your what, whatever you see right now, it would just be a project. You are booked into a matrix right now, and it's just a projection ahead. Everything is sensory, you just have to know it, right? Essential thing to every experience is knowing it. So if you are at the same knowing, everything is that knowing, it's actually another side. Like there's three facets of it. One is pure consciousness, the knowing is called chit and Ananda. 
+Speaker B: I guess we have 4 minutes left.
+Speaker C: Most important thing is, whatever problems which would be emerging and near to midterm, how to kind of solve for that.
+Speaker B: Also, because that should not happen before. We reach to that point. Also, we kind of essentially get into that state that we kind of kill each other.
+Speaker B: So there was an application form. There was a whole thing around by OpenAI in how you will use AI for governance and democracy specifically. I don't know if you guys have seen it, but if you have, if you haven't, definitely go through it. Because the questions there are essentially about ethics, right? And the starting axiom is essentially that ethics are very, very subjective. And so the deeper questions that they go into, do we take a majoritarian approach? 
+Speaker A: Right?
+Speaker B: And if we do, how do we improve the efficiency? Or for example, the other questions being clustering people's opinions into certain pockets and then having AI agents figure out the pros and cons and et cetera, et cetera, and broadcasting them and just taking votes on those clustered down opinions of people. Things like that. 
+Speaker A: Going back to your point, how do we solve. There are many impractical solutions in this world is unfinishable. There's so many things wrong with the world and there's. You can't fix it. No human has the capacity to fix this world. The one way to approach this problem is let's forget about, let's create a system which is like better than let's create a superhuman AI and let's ask superhuman AI to solve this problem.
+Speaker C: That that super AI would be playing in our interest. 
+Speaker A: So alignment, right? So now if you say that you start from the base of what is true, it just. So if you start from the base, you can have alignment built in as long as Ti and you agree on what is the truth. 
+Speaker B: But who's going to do that?
+Speaker A: There is one truth. No. In philosophy, you have been, epistemology has been a study for a long time, has been like, there a lot of one thing done in epistemology.

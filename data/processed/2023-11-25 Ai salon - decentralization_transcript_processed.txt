@@ -1,0 +1,455 @@
+ 
+
+Speaker A: What's your background, where you're coming from, into the world of AI and stuff? And I guess the important thing is questions you'd be interested in discussing today, actually, and here, I'll, I'll start the first option. AI and the debate between centralization and decentralization. And that's like, very broad. I think there's a couple of ways we could take the conversation. One is from a technical implementation perspective, and what is our ability to train and deploy models that have a certain level of competency into distributed compute platforms like your laptop, your cell phone, and so forth, like AI wearables, that kind of thing. But I think also more interesting is how we think about the social control of these things and whether we trust them being run by centralized authorities or governments or corporations, or whether we think they should be fully open sourced in that sense, like decentralized and available to anyone to modify and tune and so forth.
+Speaker B: Hi, everyone. My name is Faye. Yeah, I sort of started interested in kind of this AI space since, this beginning of this year when everything goes bonkers. Yeah. I think in terms of the open source. Centralized. Centralized. I kind of have formed my opinion, but today I would like to just kind of hear what everyone thinks about it, just to learn if I can mode my thinking about it a bit more.  
+Speaker A: Do you want to share ahead of time what your conclusion is? 
+Speaker B: Yeah, okay.
+Speaker A: My name is Val, or Val. I started doing stuff with AI since I was like 14. Yeah. So kept track of the scene, and now I'm like, I think things got really interesting when people started putting lots and lots and lots of money into these models. And while money is centralized by nature. Right. So it's like, kind of like, I think if we want AI to be decentralized, at the end of the day, you were at their mercy of who has the money. Right. And I think it's like, trying to decentralize money is too broad of a question to just be focused on AI. Particularly.
+Speaker C: I have an epic allergy.  
+Speaker A: It. Sorry, you were just going around. Come on in, guys. Welcome. Yeah, so I just kind of introduced the topic centralization versus decentralization in the context of this being kind of like just open discussion where we just talk about whatever we want really. And one thing is that I'm recording the audio, but then we remove all the identifying information, ultimately just transcribe it and put it to some LLM chat bot and site. Cool. And then we're just going around giving a little bit of intro kind of background as AI and then things you'd be interested talking about here today so far, like in the theme of say centralization of power over the control of money and these expensive train, and how you think about the governance of AI models, whether that should be in the control of a central authority or open source kind of.  
+Speaker D: I'm Lois. I started looking to AI like December, November ish. 
+Speaker A: Last year this guy and another friend. 
+Speaker D: Dragged me into it because I used to be in finance crypto and I was trying to figure out.  
+Speaker A: Which field.
+Speaker D: I actually want to focus on, which would less zero sum in terms of this discussion.
+Speaker B: I'm curious on the sorts of even.  
+Speaker D: If we want decentralized models, the probability of that happening when it's, as he said, being funded by centralized agencies, I don't know what's the probability of that even happening. So they just give this much money to fund these models and decentralize it, essentially like throwing their investment away.
+ 
+
+Speaker E: I'm Eric building a peer to peer database. When I pitch this on AI events, I say the only safe AI is peer to peer AI. Of course that's not entirely true. It could be centralized AI, it's safe too. But I love the idea of decentralized AI. We mostly focus on consumer peer to peer stuff, but long term want to build like a model as well. That's peer to peer. But yeah, there's some academical breakthroughs in making a good peer to peer model, but it's still like all the methods, whatever is built on centralized servers, like big data racks. And I think, I'm not entirely sure about what I think is the best safe AI, honestly, the oligopoly AI is good at. You can't make a nuclear weapon in your microwave and spread it. But it's also like a bit scary long term, like 1984 turning by the oligopoly, controlling the AI. There is this thing like what about individual autonomy versus making sure. We don't give really dangerous weapons to the people. I haven't figured it out exactly.
+Speaker F: Hi, I'm Allison. I don't work with AI directly, but I'm a software engineer. I'm just keeping an eye on the space and doing side projects, investigation type stuff for about six months or so. 
+Speaker A: Hey, everyone, my name is Mark. I recently open sourced the project commerce. We turn your stories into multimodal outlook, which is comic books, autobiographies, films, and anything can imagine. Ar, VR, whatever.  
+Speaker C: Hey, I'm Zach. I'm a software engineer. I've been into open source AI for quite a while. Started a community around it. Open source projects, model communications, things like that. Started a startup around that, cut ties with them. Working with Mark now on nurse.  
+Speaker G: Teddy. I'm Bibi, I'm from Nigeria. I'm hoping to build a significant AI company. Trying to use AI to shift social media into social intelligence and automate the process. Use AI to curate and create content. I feel as if there's somewhere that's going to exist in the middle. It's going to be centralization, but I'm not very technical. Smart guys talk about it and see what happens.
+Speaker C: I'm Eli from this planet. I absolutely agree that there will not be centralization. There can't be decentralization will be tended towards because humans like to share, steal, spread things. As soon as somebody comes up with a really cool model, somebody's going to share it eventually. So, given that these things will eventually be shared, we have to assume someday in the near next 40 years, there will be a plague engineered by Nazis to kill all jewish people. I'm jewish. I don't think there's anything we can do, nothing we can do to stop this, and I don't think we should try to stop it. This is coming from someone who I think will be targeted in the next 30, 40 years. These tools can make it so you can make an engineered virus kill everyone with a certain genetic marker, or maim them, hurt them, cause economic harm to countries. And in the end result, you cannot control this full of information. The only way to fight back is to use AI to better your lives faster than people can hurt. And to that furtherance, I'm working on brain uploading in the future. So let's get out of this world before you all die. That's the point. I think we all are going to see some serious violence and harm through enablement from this software research prior to AI taking off in 2015. There's just so many moonshot projects on targeted viruses to kill cancer cells. As soon as you get that cancer moonshot, you have to kill people with certain genetics weapons. And that is going to happen. So that is all related back to centralization versus decentralization and how you literally cannot centralize these weapons because they're not physical items that you can just secure with a guard. You can just put it on a USB drive. It's too easy to prevent this or, sorry, it's too hard to prevent this. So plan for it, to plan for the world to end. I mean, a lot of people, they're not boomer, but genetically targeted viruses is not a serious leap. Without AI, serious bad people can already cause lots of harm with millions of dollars. This just changes the equation to tens of thousands instead of millions to causing insane harm. That's me.
+ 
+
+Speaker A: Yeah, that's interesting. Well, okay, so it sounds like there's a few different questions here, but really I guess I would start off with just a general question that anyone can chime in on, really, which is, and it's kind of trying to draw a common thread here, how realistic do we think it is that high performing models will be able to be run distributedly in the near term future? And by that I mean on your laptop, like not requiring a data center or even really specialized GPU hardware? And do we think the competency of those models will be good enough to either perform some of the kind of baseline level economic function or even further to the point of are they going to be super intelligent or be able to solve really challenging problems that make them an asymmetric terror threat? I think personally it's like the open source models, like the ones that can run your laptop and stuff like that. They're certainly not now at a level that seems to be useful, I guess I would say from having just played around a little bit.
+
+Speaker C: To clarify, what do you mean by highly capable models? You mean just currently most capable, like GPT four v or whatever?
+
+Speaker D: Yeah.
+
+Speaker C: Yeah, the latest macbooks do 128 gigs of unified shared ram. They might even be able to run some of the latest models like proprietary. Not talking to open, but very slowly. But 128 is enough to fit like, I don't know, I'm more propane AI, but I imagine they could fit like a highly competent subset in that already.
+
+Speaker A: Yeah. Have you guys tried using these on your computer?
+
+Speaker C: Yeah, so I've got like 8gb on my laptop, but they're releasing better quantization techniques every day. They just released this paper bitnet one bit quantization for some of these models. And as far as, like most tasks, you don't need the foundation models to do. That's only for the tasks that require the utmost accuracy. So I think that's only smaller and smaller devices.  
+
+Speaker G: Can I piggyback that question and ask when people think that would be that distributed wearables and whatever it is, you're only three years out, five years off, ten years off, the Internet surround you everywhere.
+
+Speaker C: I don't think the distinction is very dangerous. And even if it's not Internet, local network, network, I don't think people expect their earbuds to run a model. Or maybe Apple doesn't even make their headset run the stuff. Or it does, but they got the batteries separate and everything. I just don't see the use it would run on your laptop. And nothing more smaller than that. Well, the brand is on Raspberry PI before. I've seen some projects running on Raspberry PI's and phones outside of speech recognition, like contact search stuff that's on your phone, though a lot of time you have Internet. So it's like, I imagine unless you're going to do something heavy, which involves video generation, at that point the phone might struggle to run it to begin with. I know, like next ten years maybe. I think phones could do some pretty cool stuff, but why have them do that? Everyone's got servers and computers and the use case of having a powerful AI model on your phone is you're stranded in the desert. What are you going to do with that model that's going to be so helpful? And your Internet's down and there's been a nuclear war.
+
+Speaker D: What are you going to do with.
+ 
+
+```Speaker A: I guess that's a general question, right? It's like, do you think individuals should have the right to have private ownership of the latest, most competent AI models, whatever that may mean in the current era, right? Or is that something because it's illegal to buy a tank, you can't buy a jetpiter in the US.
+Speaker C: That statement not very right. It's illegal to buy a tank that's been armed to a certain degree and also hasn't been made for purchase for various things. Like you can literally buy an armed fighter jet in America. There's one billionaire who bought one from Russia and then dearmed it because our government complained, but it was not legally required. You're allowed to bear arms. 
+Speaker A: And nuclear.
+Speaker C: Weapons are only illegal because of international treaties.
+Speaker A: Do you think that the right to bear arms should extend to AI models, foundation models? What do you guys think?  
+Speaker F: I think it's more free speech related. 
+Speaker C: Yeah, speech as an army.
+Speaker F: I think that it's more of a first amendment type thing. It's an encoding of knowledge and information. And so is there a government right to restrict that flow? 
+Speaker C: So when you guys jump to the extremes, like I give you guys a guide on how to make a nuke and under, let's say under 50 grand, should I be allowed to? I think that's one of the very few.   
+Speaker A: I don't know, but, I mean, this is a tough question, right? It's like how absolute is the principle of absolute free speech?
+Speaker C: Well, right now you can security through obscurity. In America, security is the one thing that we have more than any other. We can learn about flaws and that information we can own. In many other countries, your government immediately takes any security flaws that you've had. If you don't report the flaw to the government, you go to jail. If you find information that it has a dual use as a weapon, it immediately becomes the government's property. Except in the US, we have the best rights about that. You can find flaws and products that you've owned, and you are not required to give the flaws to anyone. You can weaponize them and sell them to the government.  
+Speaker A: There are classifications of information, like classified and top secret and so forth that have special legal standing.
+Speaker C: They only have standing if you've signed, if you have a security clearance.
+Speaker A: Well, let's move beyond the pragmatic implementation of our concerns over the restriction of access to certain kinds of information and think more generally. Do we feel like that's a fair principle to apply to things like AI models? They're going to help you write your homework, write your email, like help you develop some front end system? Or are we perhaps overblowing our sense of fear at the unknown that these models have certain competencies? I mean, this is a question. This is a tool for ultimately flourishing in abundance. And I think it's like our concern over this and our fear of it getting into the wrong hands. It's like, I don't know, I'm just kind of opening it up. The question of, like, I think these are less dangerous than assault rifles, at least in their current implementation, because they can't develop biosuper weapons. But it sounds like that's like, top of mind for you.  
+Speaker E: Are you going to say something in general? I think we're not very grateful species, and I think security for obscurity is a good thing, and then we just complain about the obscurity. We never be grateful for the security, and there's very few terrorist attacks. It could have been really bad, but we take for granted the national security that we have around the world. And I think sticking to the current status quo is actually not that bad in many cases. There's a lot of bad things in status quo, of course, but that's the status quo.
+Speaker A: Right. But. 
+Speaker E: It is good, I think, to restrict access to information like China does and like America does with confidential information, because that's the way it is. We're living a very fragile society. It could go downhill very fast if things go wrong. So I think it is good to restrict some information for sure.```
+ 
+
+Speaker C: Could be added, but the performance would tank. You could do decentralized additions to a model homomorphically. But as we all know, or people who know what homomorphic encryption is, it's very slow right now. Even with the theoretical new ASIC, somebody just published two years ago, no one fabbed it yet, probably because you can't. But that is fundamentally, mathematically, there is a way to have a decentralized input only conversation, but there would be a centralized arbitrage still, even if it's an AI model, not person. I think in my opinion, there should just be another, we should get like another 1020 years of status quo and then at some point shift the entire equation and be like, okay, let's stop restricting stuff. Now that we've enabled more health care technologies for people who get hurt by these new generation of terrorists, now we'll release the floodgate, yeah, new terrorists, but also new things you couldn't imagine and we'll never will imagine until we enable everyone to have everything, access to information. It's not goods and stuff. 
+
+Speaker H: I'm a bit naive about stuff in.
+
+Speaker G: I do think we've had this test many times through history and some past. I feel as if the Internet, social media, television, that free flow of information has always tested humanity and humanity has relatively regulated to not great, but to survival at least. So I think the real concern is the idea of sentient being or AgI or whatever. But until that,  for as long as that centralization is happening in some form, I think humanity has found a way to always err on the side of survival.
+
+Speaker C: But it's also starting to change for the first time ever, which is unfortunate.  
+
+Speaker A: I don't think it's the first time ever.
+
+Speaker G: That's my point. I think it changed every time there was progress. And people who sort of look from at the brink of progress feel as if, holy shit, this is going to destroy humanity.  
+
+Speaker H: Eye actually does say, you know what.
+
+Speaker G: But for as long as that centralization is happening in some form, I think humanity has found a way to sort of always err on the side of survival.
+
+Speaker C: I think the key lesson is humanity is great on average. But in all those big shifts that have happened, maybe at most, 40% of the entire world could have felt useless. But I feel like with this AI shift, maybe 90% of people could feel useless. And that shift could cause people to be less reasonable, and there will be more depression on this planet soon. So increased capabilities and more depression, it is slightly increased risk. I do think it is risky enough that plane toys are dangerous. When enabled by AI, that tells them how to do harmful things. I work on AI alignment, guardrail stuff to stop people from doing that. But I think even with my tech protects everyone, there is just never going to be humans perfect and implement stuff perfectly.
+
+Speaker A: Yet no one has done it. And how many dozens of countries now have nuclear bombs?  
+
+Speaker C: We do synthesize these viruses.
+
+Speaker A: The point I'm trying to build on is the one you just made.
+ 
+
+Speaker G: We build a guardrail to protect that.
+Speaker F: I don't think the thing that is stopping the vast majority of people from committing terrorist attacks is not knowing how to commit a terrorist attack, even if you're useless. Okay, maybe you can't do an engineered bioweapon, but you can make a bomb. People can do that. And I feel like where we have been successful at pushing back against those kinds of things is by making a culture that as much as possible, obviously not perfect, but trying to provide avenues for human flourishing and improvement and getting people to buy in. 
+Speaker C: I think there's a distinction in this level of badness, though. There's hate and there's evil. There's so little evil, I don't know if anyone's ever been evil. Evil is like, I want to kill everyone on the planet for harmful reasons, and then hate is I want to kill all the Jews because my religion tells me to do that.
+Speaker F: It's like an arbitrary distinction.
+Speaker C: Yeah, I don't know hate because you don't like certain groups of people versus the entire hate it, hate for the whole world versus hate for people. And people who hate certain groups. They're not going to apply logic or reason, and they're not going to be enabled of odds, they're not going to have a lot of money if they happen to just. I have a phone that runs a foundation model and they kill me and they take my phone and they ask it how to do even worse things. They are killing people, and there are real Nazis all over the world still. If I had a foundation model on my laptop and I work in the stuff where I wouldn't have any guardrails because I make garbage. And if they killed me and took my laptop, I would actually be concerned that they could cause real harm.
+Speaker A: Just pause there for a second, because we had someone just join us. Eli, I'm also going to call you out as dominating the conversation a little bit, and I want you to be mindful that there's other people here who may have perspectives that also like to share. So I'm going to ask you to refrain from talking too much at length on your very opinionated beliefs.
+Speaker C: Absolutely.
+Speaker A: Thanks for understanding. Introduce yourself just like a couple of sentences in your background and questions on the topic of centralization versus decentralization. 
+Speaker D: Background mostly in conservation and physics, I guess, but very niche AI scene in a lot of ways, apart from building cnns and neural networks for detecting animal sounds over the past few years. On that question, talking about, I think I'm definitely pro distributed. I think there's a lot we can do there also in terms of data hosting as well. I think that the sort of centralization stuff in the cloud is pretty moment even to those who use it, at least for us. And we gather a lot of data on nature, mostly sound, but I'm going to listen to what everyone else says and learn a lot in about 30 seconds.
+Speaker A: Yeah, sweet. Yeah. Would anyone here feel strongly if I was to say, okay, the government is going to keep all the best AI models for themselves and then everyone else is banned from having them. Does that feel good to you guys?
+Speaker F: Not going to do useful things with. I just don't love the government.
+Speaker A: Yeah, right.  They are training disclosures, right?
+Speaker E: If you have a server bigger than x, you need to share your data with the government. Are you explaining more compliance thing that you shouldn't have illegal data?
+ 
+
+Speaker A: I think the biggest abuses of power occur when some new competency or ability is monopolized by a single entity, and that's where you get the asymmetric use of that for their own purposes. I think a multipolar world is less stable in a lot of ways, but it depends on what people are doing. So it's like if you look at the history of nuclear weapons, which is just the classic catastrophic GMZA weapon, whatever, right? The only times they were used in practice was when only one country had them, because otherwise the threat of retaliation is so great that it dissuades other people from engaging in malicious use of this tool. I don't know if that's going to be like a sufficiently stabilizing force, though, in this future scenario.
+
+Speaker E: If a 15 year old can create a biwess band that creates this, destroys his little town or his country or world, that's the scary thing. And there's no incentives that can stop that. But I wonder, what does it mean the government has the best AI model, or that everyone has the best AI model? What would it mean in theory, right? And it's like, does it matter if you have the best model or the second best model? If you're Renaissance technologies trading on the stock market versus the second best trading firm, yeah, it does matter if you have the best market or not. But if you're just using it for intelligence, like chativity, or for vision or creating stuff, it doesn't matter that much, right? So we talk about definitions. What would it mean to have in a multipolar world where everyone has API really good AI, what would a society look like then? What would be like power imbalances? What will people use the models for?  
+
+Speaker C: John Sotos Defcon 2015. Really interesting talk about how governments see other governments in terms of how we harm them, and not about killing, but in terms of how to increase economical load. Like, everyone has a disease that needs an expensive treatment now your entire country can just crumble. And some countries think war is appropriate.  
+
+Speaker A: I think there's already national level combat being taken or being carried out right now using what are basically NL algorithms. But it looks a lot more like TikTok than like, coronavirus.  
+
+Speaker C: Exactly.  
+
+Speaker A: So it's like super powerful AI models. I think the thing they're going to try to do, first off, is fuck up elections. Let's be real. Okay. 
+
+Speaker C: Do you think models will do things by themselves before humans that are bad will take advantage of them?  
+
+Speaker A: No, I'm still assuming they're not agentic. And it's like realistic near term fit is like disruptions to the effective functioning of democracies, through the production of misinformation, through the production of mass fire off campaigns, to get people riled up, to stoke the flames of polarization, to make people doubt the media. And there's no more trust anymore to information landscape. Isn't that the real threat?  
+
+Speaker F: Is that different from the status quo? Does it get?   
+
+Speaker A: No, not at all. We're there, dude.   
+
+Speaker F: Is our democracy functioning enough to begin with that you can meaningfully disrupt it?   
+
+Speaker C: There was a 2020 law where I think we put like a billion dollars into combating efforts into that by doing our own, which I was like, what? It's not solution.   
+
+Speaker D: That's not helping.   
+
+Speaker C: Yeah, it was like this actually mentioned the word fake news in the law. Really, it's all make sense.   
+
+Speaker D: Yeah, but he's bringing up on, like, marginally different models and better models. If they are operating as agents and they're able to iterate or just go through cycles and they are talking to each other, then, like a 0.1% better model would exponentially gain upper hand over a short period of time, because that's operational. Not sure what that looks like, but comparing to nuclear weapons, at least with nuclear weapons, there's no sense of possible reliability. Even when there were multiple state actors, their distributed model could be obfuscated to the point where I'm not sure if.
+ 
+
+Speaker C: I'm not really worried about autonomous agents that will go around doing their own things until everyone's computers are pretty good. I don't know. It's just like, what are they going to do?
+Speaker D: Maybe one bad thing very well, specifically, ads don't really.
+Speaker C: There's no directives other than just help the prompter and then knowing rules. And if you're mixing your input. 
+Speaker A: Were we still talking about misinformation?
+Speaker F: No, that's the thing. I mean, at what point do people. Maybe we're just not able to do this biologically, but at a certain point, do you just tune out everything? I feel like it's been a bit like, don't believe what you see on the Internet for decades. And at what point when you can just images, video, whatever can be generated that's realistically and just didn't happen. Do people just. You have to check out or there's going to be some desire for authenticity and a way to sign things or whatever?  
+Speaker A: Yeah, I mean, we've already produced pretty well self reinforcing echo chambers. And if I want to support a particular prejudiced argument about some topic, I can probably go find some evidence to support already. I can probably find some weird journal articles or random news articles from any side of the political spectrum to justify some edge case belief about things. You guys just joined us, so we had all introduced ourselves, like a couple sentences on your background, I guess if you work with AI, what kind of things you're interested in. Our conversation on centralization versus decentralization has so far been on the realm of asymmetric threat scenarios that you could think of happening because competent models become distributed in anyone's hands, and you can run the one computer. And so it's like someone with a laptop can, I don't know, engineer a holocaust or something, or. Eli's perspective is quite poignant on this. But anyway, I'm curious if you guys have also things you're curious about. I mean, we can also go into the nitty gritty of implementation details in terms of how do you actually decentralize things like training and inference on large model sizes, which I think is quite difficult and challenging. Anyway. Yes, introduce yourselves and a couple of questions.
+Speaker H: This is Konal here. My name is Konal. We're exploring ideas right now on softbuild. We just are pivoting out of something else we're doing in the marketing space. But one of the things that interested me for about a year now is there's been decentralized training and hosting as well. And how the incentivization models work around could be built around that right there. Is there a web three angle to it, or could you just make it a very simple pay percentage of whatever you make on it? So the economic model is something that's, that's interesting, that could actually drive it to be more cost effective. That's something that's interesting. But of course, I think what I think is it also depends on how much more useful could it be from a utility perspective. 
+Speaker A: Right.  
+Speaker H: And that's when people start using it as well, not just from an idealistic standpoint. So that's something I'm interested in. Would love to kind of know all of your thoughts.
+Speaker D: Hey.  
+Speaker A: Hi.
+Speaker D: This is Vignesh. You can call me vic, if that would be easy. I'm a data scientist, Kunal's co founder. Been building machine learning models since ten years. I know nothing about decentralization. I know just how to train models and make them work. Kunal is very much into decentralization, so I wanted to come and learn what's going on around the space, maybe talk a bit more about, hey, can we really figure out how to train models that actually could work or not?
+Speaker A: Yeah, I'm curious to hear from you guys on exactly that. What do you think about the feasibility of doing this? And then also, what is the beneficial use case? Or what's the advantage in having a distributed inference model or system?  
+Speaker H: My thought around that is especially around continual learning, because the costs are just going to keep increasing with larger and larger models. 
+Speaker A: Right.
+Speaker H: So if there's a distributed architecture, can you do it in a way that can still make sure that it's not as expensive to just train or keep training larger and larger models? Is that something that would work? Of course. If you've decentralized it, you could always incentivize on two fronts. One is new data coming in. So anyone who's, who's providing new data can also be incentivized because you're contributing to the entire model, and then you have the people who own the gpus as well. 
+Speaker C: Right?
+Speaker H: They get paid for it as well. It's still vague, but it's a thought direction.
+ 
+
+Speaker A: Now that's interesting. Yeah. Information these models train from is inherently decentralized. It's the joint production of all humanity. Right? It's all of our written text and media formats, so forth. 
+Speaker H: No one gets paid for it, no.
+Speaker A: One gets paid for it. Right? And it gets centralized into the model. Right. So yeah, it's actually really interesting as like attribution of source, I guess. And I am a data producer in the economy, right? I produce valuable information that other companies monopolize or monetize in some way, but there's no passage of revenue to me through that data production. If I write things online, if I produce geolocation data that has value of some kind. Have people looked into this before?
+Speaker C: So copyright is incompatible with human memory at the moment. Once we have brain implants that help us, they say you have a hippocampal disc defect that makes it so you can't store memories. Once we actually effectively give someone computer esque storage in their head of memories, that person won't be allowed to exit their house because of copyright infringement of everything around them. Because copyright law is currently not encoded in any such way to handle AI or human mechanized memory, both will have the same regime, probably solving it. Whenever we solve human brains with implants that are computer based and ais that have training data, the same stuff is going to apply to both people, and we're not going to have really competent either of those until the laws.
+Speaker A: I mean, realistically, let's think about this. In a scenario where we do have memory enhanced brain implants, do you think it's more likely that we'll reform copyright law or that people won't leave their homes? We're going to reform copyright law, but it needs to be changed. I'm saying the current regime state certainly.
+Speaker C: Doesn'T work with AI or people, if you really think about the extreme end states.
+Speaker A: But this is a funny thing because this is already in the nature of productions of works of art, right? And artists derive their styles from other influences. And same with music and cultural productions are always part of an ongoing dialogue with both the past and other members of society. And I think it's understanding that we are synthesizing other influences and repackaging them through the filter of our own experiences into new forms of art is like something that's going on constantly, right? And somehow I don't need to attribute my sources, my choice, perceived differently if.
+Speaker C: It'S a person doing it.
+Speaker D: In this case, even if it's going to be based on shipping a ring, that's still like an identity and a citizen, that you're absolutely.
+Speaker C: My position on this is that we should do a way of copyright and maybe think about other value sharing mechanisms in society. I don't know. I mean, I do work on a peer to peer CDN thing that has stuff about that I don't know. I don't even know where to start.
+Speaker F: It needs to be incompatible. I think at the end of the day, if I sit down and based on the stuff in my head, I write down something that is sufficiently similar to a previous art to the point that it is enforceable in copyright law, then they can slap me with a copyright whatever on it. If I used an LLM to come up with the same thing because it was trained on it, I don't see how that's functionally different. I think it's not so much the can it produce something? I think that's where I think there are some lawsuits or something going forward right now where it's like, oh, if I ask it to do this, it'll do that. But that's never been the standard, right? Like, you can always write fan fiction, you can always write whatever the question is at the point where you try to publish it and sell it and profit from it, if there's a copyright violation, that's when it becomes a problem. So I don't see how that really changes.
+Speaker G: Spot on. I mean, more so to that is the idea of at what point it.
+Speaker C: Becomes infringement.
+ 
+
+Speaker G: My point is society sort of functions decently on that stuff already, right? So like, there's people who take stuff from history and craft things of their own, and a bunch of people get together and say, that feels like he crossed on. Now there's going to be really powerful machines that can say when the line is crossed real time. I think that's actually one of the easy things to solve is the copyright, sort of. I do think it is the collision of automatic. You're right, but I do think we need to define what the line is. And AI is going to be so easy at being able to say, okay, yeah, this market from here, this, from here, this, this, if it crosses a line, it says, yeah, you cross the line.  
+Speaker C: I don't think that's the way of function.
+Speaker D: Sorry, is that line of function, of human judgment, though? But if you're being fed information that comes out of the lm, it's hard to distinguish between I remember the conversation or I don't. If I don't, and I think it's mine, that's still an error in my judgment versus being petty and not knowing. Difference in creativity and frankly, data retrieval, anyway.
+Speaker G: Isn't that what's going to change, though? This has just always been right. So you're going to feed that same watchdog system into the air whether you like it or not. And it's going to litigate explainability, though.
+Speaker C: Because I'd be so scared of a judge that he doesn't explain his actions. I would want it to be able to tell me exactly where the line is. 
+Speaker G: The judges don't explain right now. They write a paper. But whether you agree with it or not doesn't matter.
+Speaker C: I don't think we should be trying to reimplement the status quo, though. Waymos are on the street still, because they're much better at certain things. Now, obviously, they're worse at a lot of things, too, but it's not going to be like Waymo wouldn't be allowed if it was just as good as humans and ended up killing people every day. If we're going to be making a future shift, it needs to be better than we currently are.
+Speaker F: What we're not flagging is like where does it have to be different from the status quo? There are courts that determine that line. There is case law, there is precedent. I think people just assume that because it's like an LLM spitting it out, it has to be different. I think the best example I've seen is like when we're talking about safety and it's like, oh, we can't have the AI ever say killing is good. And then somebody has like a picture of a word document where they typed out killing is good and they're like, look what this program, let me say blah, blah, blah. At the end of the day it's just spitting out text. Why does it have to be treated differently than what is in our status quo? You have to show why it's different before you say like, oh, everything has to change now.
+ 
+
+Speaker G: I think we've seen social media in particular, and information companies make trillions of dollars and feel like they're making trillions of dollars off our IP or contribution or whatever it is, right? And I don't disagree that there definitely should have been some sort of regulation about that stuff, but I think that's the big concern either we think, oh, that's just going to be exponentially worse and we're still not going to be given our share of whatever it is and it's going to be some one zuck somewhere that say nothing is infringement and everything's okay and making a trick in bucks. 
+
+Speaker B: What if the money that the companies made from LMS can fund art projects? Would artists be willingly donate their, waive their copyrights and donate their art?
+
+Speaker C: There are already programs right now where if you want to donate your art to this AI consortium and stuff, and licensing, you already can without even participating by specifying the license on your art, say public domain.
+
+Speaker B: I'm just saying with this kind of thinking about the OMs or AIS is infringing my rights, but rather you're fighting to get your income or livelihood kind of satisfied in other means, but at the same time improving whatever AI that's being trained on.
+
+Speaker C: If you're getting value out of it, that would be an exchange for value. If you want money because you gave it your art, then that's not a donation.  
+
+Speaker D: We live in a fairly unequal creative market now, where some is worth lots, some is worth almost nothing at all. And we view it up to our judgment to do that. But if AI is there pumping out all the time, you essentially commoditize creativity where it may turn towards zero, which is the value of any creativity at all. But it's more equalized in that particular sense. Maybe we just overvalue creativity or intellectual property as a concept in the first place.
+
+Speaker B: It's like if you're a drug company, right? If you just have a ten year pattern for your drug, it's very expensive, it's not good for anyone, it's good for the people who benefit from the drug, because you wouldn't have made it if there was no chance of getting it.  
+
+Speaker A: There's time windows for intellectual property rights to expire after a period of time beyond the public domain, even patents have exclusive license for, I think, default 40 years, something. I forget like that. But Disney actually had this changed for trademarked, I forget what the specific type of intellectual property, right, it was. But things do naturally fall into the public domain after a period of time. And so you want to take Voltaire's Candide, you can make an audiobook recording of that and sell it online and no one can come after you for IP on that because public domain, right?  
+
+Speaker D: Explainability. I'm actually a little vague on the term explainability.
+
+Speaker A: Oh, yeah. The issue of interpretability, I think, is one thing that I'm sure other folks can comment on that are more technical.
+ 
+
+Speaker C: Enforcement is going to be good old police work. You subpoena, interrogate, figure out, oh, this guy says he stole this model data. This guy says he didn't. Well, police work, figure it out. You'll figure out some data, if everyone's colluding, and that's a concern already today for various social interactions.
+
+Speaker G: Can I ask a question to sort of lead to the remuneration part? I think the thing that could be solved now is the recognition part before you get into the remuneration. Every single point of data has to have some unique marker in some way, right? To the technical people, is that something that's possible, dates be attached to the source? 
+
+Speaker A: Correct.
+
+Speaker G: For everything, even as it gets manipulated over time. So starting January 2024, every single picture, every single voice, every single must have some unique marker that, as it feeds into llms and arms, must be built in a way that they do not alter that marker. They keep the marker, they keep getting manipulated. You can have a tracker of all the things that we put into.
+
+Speaker A: That's just that implementation. 
+
+Speaker G: But isn't it just ones and zeros?
+
+Speaker C: Performance is going to be horrible, and implementations you can come up with will become limited. But can an AI system be lossless? Absolutely lossless AI is possible, but there's restrictions.  
+
+Speaker A: Keep defined lossless.
+
+Speaker C: Being able to fully pull out the.
+
+Speaker D: Perhaps it's proportional, whatever is most proportional.
+
+Speaker C: I don't know if it's ever been made, mathematically. Of course you can make an inefficient, super bad AI model that's just like having a secondary model that literally just has full lossless data and mapping. There's lossful, but in most use cases, I could not see it being.
+
+Speaker G: We keep saying how not efficient it'll be. Or slow it'll be. But for most people who aren't interacting directly with larger elements, so what do we know about the efficiency rate?
+
+Speaker C: Well, it's not just computer efficiency, it's memory and usage.  
+
+Speaker A: This is an important point to delineate two possible use cases, one that we have today, it's messy and memory inefficient, which is the LM is also acting as memory retrieval internally, where it has information encoded in its weights. A more elegant implementation is using an LLM as an interface layer to an external database of knowledge that may be indexing vector databases or knowledge graphs, where it's easily searched and indexed by an LLM system. In that case, it's quite easy to attribute the data because you know which things you're pulling from and sources. And I think that's probably one of the frontiers for improving performance on distributed systems - maybe we don't need so many parameters and volume of training to get the model competency, when it's acting as an IO layer to a knowledge database. 
+
+Speaker B: So attribution governance is centralized towards centralized model, right?
+
+Speaker D: What do you mean by that? 
+
+Speaker C: Implementation?
+
+Speaker A: Right.
+ 
+
+Speaker B: If I just like open source, I can just strip away any attribution and pirate the model and whatever I want. Which side are we on now.
+Speaker A: Not.
+Speaker C: To take over attribution, just keep doing it. I'm sorry, I was hoping more of you guys can work in AI. I just suddenly want to get more exposure. What you were saying, mathematically possible, but fundamentally practically impossible due to memory concerns. That is one way of attribution. That probably won't happen, but attribution is already being heavily worked on by OpenAI and by Microsoft for their Bing stuff. If you've ever tried bard and Bing, Bing's like three out of ten will get actually accurate citations. Where barred is like one out of ten, it's pretty bad, but it's something solvable. 
+Speaker G: I guess my question is, isn't this the stage for it to be slow and bad and not great? And as things get faster, as more money is put into it, as chips get better, as computing gets better, all that stuff improves, as opposed to the status quo, where you've sort of gone with everything unmarked, and you hope you can attribute everything, but you really can't. And then you then debate in the remuneration without the information on the recognition. To me, that's sort of silly. If I really can't tell that Andrew had some contribution to this thing, what's the point in the conversation around remuneration, right? It's like he might have, if this stuff is now commingled, but if inherently at a certain point, everything has some sort of marker. Yes, to make things slower, but things are going to get faster, they're going to get cheaper. That's what happened to the technology through time. If that's the case, then possibly you can get into actual remuneration and actual sort of attribution. Who owns what? I think.
+Speaker A: Yeah, it's a general question of what's called data provenance. Where does information originate? And that's also really important for making it actionable too. Right? Contextualizing information as where it's coming from, both from internal to a company as well. For example, in research, drug discovery is the best case example of this, where data providence and data rights, and there's a whole movement around making data what's called fair, which is findable, accessible, something high, something closest. 
+Speaker C: Stuff, where's the part some people misuse an application built on something, where it's like the input data not supposed to contain certain patient information, but they'll end up doing it and they're training on that. That's definitely happening for real.
+Speaker A: Yeah, this is kind of the thing. Data is just the new oil, right? It's the new geopolitical, strategic resource that will determine the rise and fall of nations and so forth. And it's produced in a distributed format by each of us individually going about our lives, interacting with the digital landscape. But capturing the value from that is entirely done by centralized entities, right, who are able to scrape thousands of millions of websites or whatever and build something. And, yeah, we kind of get no real benefit from that apart from just using those tools.
+Speaker F: I mean, the thing is also, I feel like what I've seen, whether this is true or not, but any individual's person's data is not actually worth very much if you think about all the money from an ad perspective, right? Maybe I spend like $500 a year on shit I see on an Instagram ad that I wouldn't have bought otherwise. That's like the value of my data and my Internet presence. Now, if we divide that by every single ad I see to get me to spend that $500, any individual person is not actually worth that much. It's like, oh, maybe Facebook can kick me back like fifty cents or something. It's not a proposition that actually.  
+ 
+
+Speaker A: So there's two kinds of data to delineate here too. One is things passively generated by interacting on a platform, which we think of as like marketing segmentation data to be sold to advertisers. In that sense, not everyone's data is equal valuable, right? There are some people who are going to buy some big enterprise SaaS thing to a company. And so it's weird. Like, even on the highway here, driving through south San Francisco, I just see these billboards and it's like, to a very specific person, right? It's like, rebuild your company's enterprise knowledge systems. Like, okay, that's not for most people driving on this highway, but the ones who are going to buy that. It's like a $5 million deal, right? 
+Speaker G: I'd really like to hear what other ways thinking that it could be. If it's not simply like demonetization she's speaking about. Which other way does the data have?
+Speaker H: I think it's also affecting human choices and the way we think. Right. To some extent, yeah. I mean, people are monetary value cents, but we're being manipulated. At the end of the day, freedom is the price you pay. You don't really have that freedom because.
+Speaker C: Being manipulated, well, CPRA in the state soon. My employer is helping everyone get that autonomy freedom of, if you're seeing the ad, at least you have the choice to share your private data or, sorry, choice to stop sharing it. And I really agree with that because websites should be allowed to track by default and then you can say, no, pay them money.
+Speaker H: But most people don't because that's an extra step. It costs money to go to someone's website and for a website to send the data back to you. It's not free yet, so they can charge you.
+Speaker A: Well, so I think you're talking about something a little bit different, which is, if I want to use an LLM API, the information I send to it, is it being sent to some remote, for example?
+Speaker G: Let me actually try to bring it to, say, use case, right, which will help us think through it. You have a whole bunch of customer data and identifiable information, like their phone number, email address, but you still want to use their interactions without identifying them. And you want to train your model based on that data because it improves the system. Is there a way where you can extract only some of that information while you're sending it to the LLM?
+ 
+
+Speaker A: This problem, though, is actually a really important consideration. I think. As far as I know, there's not really. Right now, maybe I'm wrong, but more to the point is when you think about what is going to drive the adoption of a very high performance foundation model that is not owned by, say, OpenAI or enthrall support. It's obviously for this enterprise knowledge management use case, right, where it's like a very large panasonic or Samsung whatever, 500,000 employees is crazy. It's like a small country, and they want to have a foundation model internally because right now I had a friend that works at Samsung, they're not allowed to use it. They're not allowed to use any external API providers, right? And so it's like, this is the same for any kind of like cloud hosting solutions and so forth. Often they end up having to run on hardware owned by the company for data integrity purposes. Or it has to be like, the data has to ultimately be in a certain, like in a certain national border or something like that. And so the desire for companies to have a foundation model that can operate on sensitive information, that is their ip and so forth, I think is going to be one of the biggest driving forces for having a portable foundation model that now is. And this is now where the threat, it becomes leaked, right? It's like, how do you package it in a way where you can't just expose the weights and biases because it's one thing. If it's like an API running on open ad servers. But if they have some dockerized container or something that is now going to run on your local thing, well, now they have access to all of the guts of that LLM, right? And so I think there's going to be some tension there where it's like, this is a really expensive thing to produce, $100 million to produce it. Are they going to let people take that and run it on enterprise servers for data integrity purposes when that exposes some of their stuff to being stolen or leaked back.  
+
+Speaker C: It'S not easy to.  
+
+Speaker H: Kind of break the entire software anyway. I'm sure packaging is still a solvable problem where you can package and deploy it with the enterprise.  
+
+Speaker C: But.  
+
+Speaker H: How does that model get better? Because they want to build version two, version three, and for that they need better data coming in. And that data is sensitive. But you still have some indicators from the data which can help in the trading. I think that probably if there's an unlock there that will accelerate enterprise adoption as well.
+
+Speaker G: Do you want the default to be that the sensitive information is out and how quickly finds that? Or do you want it to be the user ops, what they do? Or is the complete other side of spectrum being able to, again, non tech call, but WhatsApp, right. Is it being able to train it, but then what it feeds out doesn't allow the sense of information to be. Do you see what I mean? But then you need the sort of. Because the more information is, is that correct? Simplistically, sure.  
+
+Speaker D: So there are two ways to think about this. One is can I mask my data and send it to the OpenAI server in such a way that I can protect my privacy, but I mask it in a way that it doesn't hurt the performance of tele. So if we are able to smartly mask it and send it to them and then get back the result and demask.  
+
+Speaker C: So we work directly on that and it's not really soluble, but there are approximations. Generally though, there is one thing to know is that anonymizing data is not a real thing, it's made up. If anyone's ever said this, I anonymize my data set. I lied to the person I talked to. There are so many ways to infer what you didn't remove and to basically reconstruct data. The only valid way is to just fully remove it, not have the queries. If there's a private inference, don't as private train, don't. But you can put it into a separate store or a library. And now it's public. I think we can say chat. GPT now has that feature where you can flip the library thing and it's public for everyone. So that's kind of how that kind of paradigm applies.  
+
+Speaker F: I think it's just use case dependent and these companies are going to offer different products for different. It's like, as a user, I don't really care if OpenAI gets more data to improve their model or not, I pay them the amount that they charge because it's worth it. For me, I think they aren't getting into the enterprise space. And that would be the deal where it's like, okay, you're going to pay us a lot more for this enterprise deal. It's like 150 seats minimum, 100,000 a year, and we will not use the data for training, and we will not expose it to external things, and we will sign a baa and blah blah blah. And then that's an economically valuable proposition. Even if they can't train the model.
+ 
+
+Speaker A: Companies are not just under their own internal rules, but under federal rules as well, in terms of how they can handle and share data with external third parties. And so I think there they might have their hands tied.
+Speaker F: Obviously there are more aggressive, but under for HIpa they will sign.
+Speaker H: I'm still not sure.
+Speaker D: If you're allowed to send your data out of a European server to OpenAI. I'm not sure. I used to work for a vertical search engine in Europe and we cannot share the data or we cannot even retain the data within our system. And any PII has to be, you have to get a permission of the person within 90 days or redacted. It's very serious. 
+Speaker A: Yeah. It's very much the case that technology keeps breaking the law in ways that we have to figure out how to patch up as we go.
+Speaker D: Okay. The earlier discussion, actually we brought up artists and other stuff and things I think of. I remember some chat earlier in the past month. A lot of musical artists, they build on stuff before them. I was looking at even a book referrals like this author. A lot of the stuff was inspired by these other authors or even like copyright. A lot of the music that was initially copyright first came out. Like a lot of the blues stuff was very similar to something had gone before. So if this artist copied something that was pre copyright, then initial copyright guy kind of sues him for copying him. I feel there's these discontinuities in the law that aren't properly reflected. So applying that, even like you look at a current artist he studies, whether it's music or painting from all this existing stuff. Why do we in a sense, how is that different from LLM learning from publicly available images or whatever?
+Speaker A: I think there's something with people where it's like this person went through the pain and effort to learn those skills and internalize them. And now we respect their creative acts as something original in itself and worthy of recognition and credit, because they went through the same labor of creation as the original artists. Right. Where it's like somehow it's different. If I was just like, take a photo of a bunch of other people's artwork and then dump that into some model and then have it generate images that just look like their art, somehow that person hasn't gone through the act of becoming an artist, at least not as we think of it.
+Speaker F: I don't think that's something people actually value. I think that's something that we philosophically would like to think is important. 
+Speaker D: So at what point then does an LLM make that leap where it's.
+ 
+
+Speaker A: Know, when does it get its own rights of copyright in membership? And that's a terrifying process.
+Speaker C: Maybe the owner of the LLM should get the right.
+Speaker D: I think the major problem comes from the fact that the rate at which now you can copy other people's work is much, much higher. Llms can copy other people's work and churn out plagiarized work at much higher rate than what an ordinary individual can do. 
+Speaker A: Right?
+Speaker D: So the threshold... 
+Speaker C: The Payu threshold.
+Speaker D: No, so the threshold. So, for instance, all of us have some level of carcinogenic element into our body. Doesn't mean that we are cancerous. When it crosses that threshold, then we become cancerous.  
+Speaker A: Right.
+Speaker D: I think it's something like that. Until now, the rate at which we can copy and put out plagiarist content was probably under the threshold, which people were okay with living it. Seriously, it did not affect their livelihood. But given that these machines can show out content at a much, much higher rate, I think that's why it's causing trouble to people.
+Speaker G: Wouldn't you say the best arbiter of that would be the safe machine? Yeah, they would be in the best position to know where that threshold is. Because they've got all that information. And so if we help to determine what the line is, then they'll be really good at also sort of saying, yep, you cross that threshold.
+Speaker B: Technically, it came up with that by accident. It's randomly generated. Right? So it came up with that by accident. It doesn't have certain threshold to determine whether it should generate it or not. 
+Speaker C: I would ask the AI what the current threshold is and explain it in some manner, and then ask them to adjust the threshold and just learn about how it's explaining it, and then try to make a law about what that threshold is. Because it should not be encoded in an MLM. The base law needs to be encoded by some form of clear logic. That's my opinion on the legal system.
+Speaker D: Nobody can interpret it.
+Speaker G: I think it'd be really interesting to know since he's worked for a bunch of centralized companies. Where do you stand on centralization?
+Speaker D: Yeah, it's certainly open AI, Google or say, Facebook is able to do a lot of cool stuff by having access all the stuff and putting it to use. Sure that you're a shareholder in some of these companies, you'd be doing pretty well. And for me opening, I wasn't doing friends trying to do startups using stock off some models. This is a great resource. How can we collectively build our own startups or whatever off of that? So I don't know, maybe it'd be great if we had some kind of decentralized models that were not controlled by a big company, that each of us would be wanting to do our own startups off of that. The really big companies are also the ones that are probably the most sensitive targets for the privacy. The rest of that, federated learning is pushed by some of these big companies training models and keep user data at the edge if possible. I think it forces both directions for sure. I'm not sure if you see that. The other challenge is like if you think of most regulation, it helps the big companies. If I wanted to start up now and be compliant with GDPR Europe here, I wouldn't be able to. I mean, I don't know, it was just too complicated. Whereas Google now has the money they can keep ahead of this.
+Speaker C: So in some sense, all the regulations...
+Speaker D: That we add only entrenches the companies. It makes it hard.
+Speaker G: But it's so much harder to regulate decentralization. 
+Speaker D: Oh, you're talking big versus small companies, like market share versus new, right.
+Speaker G: And if you decentralize, maybe tons of small companies print it all out. I thought that's significantly harder to.
+Speaker C: This is the thing with tracking regulations in general.
+Speaker A: This is the interesting thing with what meta is doing with open source new models, which is kind of like, if you don't have the best model, what's the next best thing you can do, right? And it's probably to open source the thing you do have, because it undercuts anyone else's ability to monopolize the gains from this, right? So it's kind of like this weird game theory move, right? Chess piece. It's like, well, let's just say the best would capture so much of the market share. Well, up until a certain level of competency, I'm just going to put that market share off the table for everyone. Right. Rather than have anyone kind of take it the curiosity. Yeah, totally.
+ 
+
+Speaker C: I've had the opinion that Facebook's had so many stumbles and everyone thinks everyone hates them, Facebook might think one great saving grace is repurposing all the ML research in x rays and mris to actually make a productized MRI. Lumaforge is like productizing their research right now, and Facebook could have dropped that.  
+
+Speaker A: Open source software has this crazy competitive advantage where it's like no one company can beat the whole community of developers in terms of getting something to a certain quality. I can't think of specific examples that meet this definition. But I think there's arguments for saying that if the whole community comes together to work on something, it'll be better than any one team whatever. But that probably comes down to the technical implementation of how much can you decentralize these large training runs, because an open source project probably has a hard time coming up with $100 million.
+
+Speaker F: Is the constraint brain power and number of people, or is the constraint capital and physical gpus that need to have a centralized body?
+
+Speaker H: You'll find innovation coming from distilled models and trying to bring more efficiency because people without resources will try to make it more efficient. Whereas if you have a lot of resources, there may be bloating on many corners which you can't control. Here you'll be able to assemble them in a much lighter architecture.  
+
+Speaker B: What if proprietary models become public domain after certain years?  
+
+Speaker A: Interesting.
+
+Speaker E: Even llama models, you can't run them distributed. They're made for large servers.  
+
+Speaker A: Right.
+
+Speaker B: You have to separate the model itself and the compute resources to run it. Because if you don't have the model, you don't know how to distribute.
+
+Speaker C: They could profit off open models too. I was going back to Facebook, if they actually made medical scanners from their research and distributed across the world, the goodwill would be so significant. Facebook would get immense goodwill and could launch products and make money off that goodwill.  
+
+Speaker E: I'd love to discuss technical details about building distributed AI models. What are your thoughts on exciting projects and philosophies like Bitweb or hyperspace for peer to peer models?  
+
+Speaker A: What is Bitweb?
+
+Speaker E: Do you want to explain?  
+
+Speaker D: Bitwin?
+
+Speaker C: It's just a quantization technique, models are getting easier to run on worse hardware.
+
+Speaker D: To train as well, or just to run? 
+
+Speaker C: Or training, just for inference.
+
+Speaker B: Like the LM models now are trained distributed by nature. So there's nothing preventing distribution of inference or training. You can pull everyone's iPhone.
+ 
+
+Speaker F: OpenAI or some company that I'm going to pay money to hit their API for their model versus download Zephyr onto my computer and just hit it from the command line. That's all running locally. And I think the question is kind of along those lines of like are those open source smaller models going to get better? And flagging that also, I mean, better is dependent on what is the use case. I think we have the vision of the large LLM and the AGI and it can do everything blah, blah, blah, like maybe that has to be centralized, but I'm also not convinced that that's where we're necessarily going to get the most value to. Just like the economy and improving human condition and making companies that do useful things. I think there is a big role for sort of small, specialized good models that are not necessarily huge.  
+
+Speaker B: Yeah, like if you have a text.
+
+Speaker C: To speech it's like takes 3 seconds.
+
+Speaker F: I have unstructured medical data that I want to put in an interoperable format, like just shit like that. That makes it easier to do things that used to be hard and get benefit from that. I don't need that to.
+
+Speaker D: You treat people like that, you don't treat everyone like they're expert.  
+
+Speaker F: Everything.
+
+Speaker E: The local AI is pretty easy to think about because it's like you need a good model that can run your device. The online AI should be decentralized or centralized because when it is you still have to use the Internet, you have to share your data. This could be Anton encryption still if it's centralized, but there's so many like if you want to build distributed system, there are a lot of overheads and there are source of benefits. You can access to more data, you can access to more latent computes, and there is the balance and it's possible if someone can make the argument that it is maybe even more efficient long term for a peer to peer model than having a centralized server. But I am skeptical, like a distributed model and train on many different devices.  
+
+Speaker D: One challenge listening to you is adversarial attacks. What if I want to corrupt the greater goods model? This is one thing. Other thing I think is like opened eyes put a lot of work into trying to clean the data, clean the model, clean the responses. So in a sense you have a centralized place, trying to instill some sense of values as to what's appropriate and what's not appropriate. How you do decentralized values as to.
+
+Speaker F: What'S safe versus sensitive, that's question for humanity as well. We don't have centralized values, why do we think that their values are good? It's a contrived example, but the whole trolley problem. The train is going to kill a billion people unless you whisper the n word to the machine and no one will hear it. And are you allowed to do that? Woke GPT is going to be like, no, you can never say that under any circumstances. It's like most people would disagree with that value set. So maybe it's better that we have decentralized options that can encode different value systems.
+
+Speaker A: Are you familiar with the concept of public goods versus private goods? Roughly, public goods are things, and this is debatable, what things are public versus private goods, but public goods are things that we conceive of as best being delivered to people through a government service. So a good example would be like roads, we don't really think of. There should be a free market for roads and companies are just out there building roads and competing with each other and who has the nicest freeway or whatever. It's kind of weird, right? And then most developed countries have health care as a public good as well, right? Where provision of a good or service centrally is seen as the best thing and you fund it through tax revenue. Military is a public good because it makes more sense for us to pool our resources collectively to build a standing armed force. And we don't want a bunch of private militias and all this kind of stuff. And I wonder if there's a role for foundation models to be a public good in the future. Or maybe there should be a base case publicly funded API that anyone can use that's maybe not the best at a certain task or whatever, but it's better than what you could run locally because there is a economies of scale argument to be made for centralized and compute architecture, but it's still good enough to be useful for your personal I want free health, I want free counseling or I want a trip planner or something.  
+
+Speaker G: Would you define Google search as a public good?  
+
+Speaker A: This is interesting because I think Internet infrastructure is now approaching the realm of a necessary utility. Right? Approaching well, what? I mean, it's already there, but we don't have national telecom service providers. But we do have publicly owned energy companies. I'm from Canada. We have companies there that are owned by the government.
+
+Speaker H: One more thing. Where's that?
+
+Speaker A: Right.
+ 
+
+Speaker C: The line is government services right now. And once the government provides a search engine, then that will be under those restrictions. But right now, Google, there is no way for our government to make it.
+Speaker D: A public good because they can just leave, they can't be forced, and that'll be forced speech, which is unconstitutional. 
+Speaker H: And it's a global public good, not a public good, private good that they've allowed you to access every time so far.
+Speaker G: I guess what we're saying is that regardless of the market put on it or the nomenclature, certain things are doing the same things as public good. You don't pay for it directly out of your pocket, you pay through advertising. And for every single public good you bring up, there's an option of the private good. And there's going to be, whether it's private or not, there's going to be some centralized form that we also use and decentralized small options.  
+Speaker H: Actually have a question about the commerce. It's flowing in multiple directions. When we talk about decentralized, there are different layers of decentralization that we're talking about. One is decentralized compute, decentralized training, decentralized model deployment. What parts do you think are more practical? And what's just like I have one.
+Speaker C: That's the least practical. So centralized control if exerted on a public model, if the government is to ever provide a public model and there are any centralized controls, there will be immense risks and harms due to use cases that are not imagined. If there was like a central public model, it probably would have some kind of central control saying don't hurt people for any reason. It should be actually used user, protect user for all reasons. But that's not what it is. It's going to be something else.
+Speaker A: Or the centrally controlled public model solves the trolley problem in a way that preserves the life of elected officials. 
+Speaker C: I just wanted my waymo to run over this guy. Somebody was trying to hassle me. I'm like, dude, the waymo should understand this guy is threatening me and just fucking run him over. The risk of the centralization is that it becomes subject to a particular bias.  
+Speaker A: And do I really imagine the government had its own search engine? Are you really going to trust that for news critical of the government? 
+Speaker C: I don't know. In America we have very corrupt system.
+Speaker A: But I think there's a good point because there is so certainly in terms of data collection production we've established is decentralized. Who controls big models because of technical implementation details at this point, for them to be performant has to be centralized by nature. In terms of compute architecture, I think the control over who gets to choose these models I think is hard for that to be decentralized when there's regulatory overhead. That makes it onerous for new people to come up and build new models and stuff. So we can almost think of a few things that are on different degrees of centralized versus decentralized that are probably going to be changing in the near term future too.
+Speaker E: Is there anyone that disagrees that the compute architecture could be more efficient in a decentralized system? 
+Speaker A: I don't see how it could ever actually be. I think more performance.
+Speaker E: Yoshva Buck is working on something which should be more efficient. I don't know much about it, I'm not sure he does that. But I think he said something that if you connect all devices, basically it could be much more efficient compute.
+ 
+
+Speaker A: But it's just like, I have a bunch of gpus and right now they're connected by a meter of fiber optic interconnect. And now I change that to 5 fiber optic interconnect. How could that ever be better? It's the exact same algorithm and stuff. I just don't think it'll be better decentralized.  
+
+Speaker D: A per model basis, technical on a per deployment basis, sure. But if distributed models are connected, perhaps with a greater iteration.
+
+Speaker H: Not just latency, it's also loss. 
+
+Speaker A: Can you expand on that?
+
+Speaker H: Lose a lot of information there?
+
+Speaker B: And also, what's the energy cost of the communication between mesh network?
+
+Speaker B: Centralized, you can have like an infinitely large mesh system to achieve the same thing. If you have something more centralized. 
+
+Speaker B: Have per node, higher power, more memory, more cpu, more compute.
+
+Speaker A: Yeah, I think the physics is pretty clear cut in my mind, actually. It's just decentralized will not be as good as a centralized method. And so for it to compete, you have to bring more resources into the fold, which you can do through a decentralized method, will it get cheaper?  
+
+Speaker H: Organize your resources into an economic incentive.
+
+Speaker E: If you build a really good software that makes mass adoption very quickly and they get like billions of like, then yeah, you can compete. But I think the really other strong argument for centralization is the fact that they have specialized gpus and don't run on like iPhones or m one.  
+
+Speaker A: That's right, yeah. Like how many m ones add up to an h 100 or something?  
+
+Speaker C: It's crazy. The latest snapdragon is like 45 tops. No jokes. Like the one prior was like eleven. That's like a decent, I mean obviously that's like, I'm assuming eight bit or four bit, whatever, but that's pretty crazy. Like the new three, the TSMC three, n three e. I don't know how.  
+
+Speaker A: If there was some marxist utopian model service I could sign up to where it's like all my computers now will have a service that runs in the background, occasionally uses local compute capacity for inference on some public good foundation model.
+
+Speaker C: That'S so horrible for the world. Unless it only runs on the people who have the latest stuff. Because I just feel like overall pollution of energy use, anyone who's not running on the most efficient is just the scale of inefficiency is quite large.
+
+Speaker A: I want to pause. So we've had a pretty wandering conversation that might kind of move to wrap up, I guess, here, but is there any other final thoughts that we would want to discuss as a group or things we didn't get to in the context of this conversation can be anything outside of AI centralization. I mean, we've covered a lot of ground. I mean it's been pretty. There was no agenda.  
+
+Speaker A: Maybe we'll hold off for that for a minute. I would do a shout out if anyone has ideas for future salon discussions. This has been one of the more wandering discussions. So sometimes you're more focused. But yeah, I don't know if anyone has topics they'd like to discuss in future conversations, I'm super open to it.
+
+Speaker A: All right. I'm not sure.
+ 
+
+Speaker D: So one is a world model.
+Speaker G: How this viral machine works, what's goal of the machine, and how our mechanisms fit it so we can increase output of the survival machine. I summarize it as Nasdaq is all you need goal of life is to maximize Nasdaq index.  
+Speaker A: That's right.
+Speaker G: The point of the world model and second alternative is the next space for next species of agents which can self evolve with economic selection when they pay to each other for services. And those who has more money scale their presence on terror, those who know they are not surviving on servers, and those who understand how to create value for clients scale their program and control over service base.  
+Speaker A: Yeah, we need a capitalist underdone to train AI models. And two models entered one model.
+Speaker C: I saw on Twitter once for people like, we should be racing the self driving cars and we really should, because I want the ambulances to be self driving too. It really would help because here's the problem. As somebody who rides Waymo, I've recognized the reaction time to Waymo is five to ten milliseconds, which is like kind of human kind of bad for a computer. It actually is that slow Waymo generates have confirmed this to me. Ten milliseconds is actually normal. To see that's actually crazy for a computer. So these things, we should be raced and they just be able to respond one millisecond adjustments and all their stuff. It's great, though. I've never been in an accident. They're not bad.
+Speaker A: Anyone have. Was there ideas brought up today that challenged your thinking on certain things, or you come away with a different perspective than you came with on any of the things we discussed. Where is the.
+Speaker D: I thought the point you had around is application layer or il llmzac type two of a knowledge graph or something like that, especially if I was centralized or distributed, could be really interesting. But it brings up the question of if that changes, does the distributed model needs to be retrained, or how does training become more distributed in that same way as well? And are there any breakthroughs happening on the training side that we don't get to hear about as much around efficiency or anything else?  
+Speaker A: It's interesting that I've been reading a little bit about this, but it seems like there's a convergence among different transformer based architectures where they will just basically converge to the underlying data set with enough training. Kind of cool. So just the data is the most important thing completely. And then whatever variations of architecture you have, like the best case, your model just approximates the data to the training set. That's like where it converges anyway.
+Speaker D: Is that based on x number of iterations?  
+Speaker A: That's just with enough training. Iterations? Yeah. I'm not in the technical leads. I don't know.
+Speaker D: Did any one of you get a chance to read this paper on llms learning from a single example, one shot.
+Speaker C: Something called one shot something?
+Speaker D: No, it's just like, it's very interesting. So usually when you train the model, any form of model, the loss graph, the training loss graph goes down, right? It's exponential.  
+Speaker A: Right.  
+Speaker D: When you train llms, it's very interesting. That's why llms are trained only for one or two apocalypse as well. The loss graph looks like a step graph. So the first iteration the loss stays the same, and then suddenly there is a drop in the second step. Not the iteration. The first epoch, it stays the same, and then suddenly there is a drop in the second epoch, and then it stays the same and the third epoch stays. So it's literally true that llms end up memorizing stuff. So that's why they are like parents, something, they're structural parents, but they are parrots.
+Speaker G: That's the data you would have been.  
+Speaker D: Sort of embedded into the model itself.
+Speaker A: That sounds like a specific other kind of thing. I have to learn more about.
+Speaker D: Sorry, I was two things out of the same.
+Speaker A: I think they're a little bit different. Well, how fast can you reproduce the data set is the question of learning speed, I guess. Cool. 
+Speaker D: How about things accurate?
+ 
+
+Speaker A: Any other things that came up that are interesting? Otherwise we can just wrap up here. I'll say. Thanks, everyone, for coming.
