@@ -157,6 +157,7 @@ def write_article(expansions, questions, disagreements, length=1000, model="clau
             length=length,
         )
         response = chat_completion(p, model=model)
+        response = response.split("Written Article!", 1)[1]
         logger.info("wrote article")
         return response
     except Exception as e:
@@ -164,7 +165,7 @@ def write_article(expansions, questions, disagreements, length=1000, model="clau
         raise
 
 
-def run_takeaway_generation(text, model="claude-2", article_length=2000):
+def run_takeaway_generation(text, model="claude-2", article_length=1000):
     """
     Generates insights from the given text using the specified model.
 

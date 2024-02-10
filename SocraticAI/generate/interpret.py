@@ -1,14 +1,14 @@
+import json
 import logging
 import os
 
 from SocraticAI.generate.takeaways import run_takeaway_generation
-from SocraticAI.generate.utils import dict_to_markdown, expansion_to_string
-from SocraticAI.utils import get_data_directory
+from SocraticAI.utils import get_anonymized_path, get_output_path
 
 logger = logging.getLogger(__name__)
 
 
-def interpret_transcript(file_path, expand=False):
+def interpret_transcript(file_path):
     """
     Interprets a transcript file and generates takeaways.
 
@@ -19,7 +19,7 @@ def interpret_transcript(file_path, expand=False):
     Returns:
         str: The generated takeaways as a string.
     """
-    processed_file_path = file_path.replace(".txt", "_processed_anon.txt")
+    processed_file_path = get_anonymized_path(file_path)
     if not os.path.exists(processed_file_path):
         logger.info(
             f"No anonymous processed file found. First transcribe and process file before continuing. Exiting..."
@@ -30,33 +30,75 @@ def interpret_transcript(file_path, expand=False):
         with open(processed_file_path, "r") as f:
             text = f.read()
 
-    # create takeaways if they don't exist
-    basename = os.path.basename(file_path)
-    output_path = os.path.join(
-        get_data_directory("outputs"),
-        basename.replace("transcript.txt", "takeaways.md"),
-    )
-
-    if not os.path.exists(output_path):
-        # generate takeaways and "blogs"
-        logger.info("Generating takeaways...")
-        try:
-            takeaways = run_takeaway_generation(text, model="claude-2", expand=expand)
-        except Exception as e:
-            logger.error(e)
-            logger.error(f"Failed to generate insights for {file_path}")
-
-        # save expansions to file in output folder
-        logger.info("Saving insights...")
-        if expand:
-            takeaway_string = expansion_to_string(takeaways)
-        else:
-            takeaway_string = dict_to_markdown(takeaways)
-
-        with open(output_path, "w") as f:
-            f.write(takeaway_string)
+    takeaways_path = get_output_path(file_path, postfix="takeaways.json")
+    if os.path.exists(takeaways_path):
+        logger.info(f"Takeaways already exist at {takeaways_path}. Loading...")
+        with open(takeaways_path, "r") as f:
+            takeaways = json.load(f)
+        save_takeaways(takeaways, file_path)
+        return takeaways
     else:
-        logger.info(f"Loading {output_path}...")
-        with open(output_path, "r") as f:
-            takeaway_string = f.read()
-    return takeaway_string
+        logger.info(f"No takeaways found at {takeaways_path}. Generating...")
+        takeaways = run_takeaway_generation(text, model="claude-2")
+        save_takeaways(takeaways, file_path)
+        return takeaways
+
+
+def save_takeaways(takeaways, file_path):
+    """
+    Write takeaways to file.
+
+    Combine insights, questions and disagreements into one markdownfile.
+    Save the full article into another.
+    Save the entire takeaways dictionary into a json file.
+    """
+    # write takeaways to file
+    output_path = get_output_path(file_path, postfix="takeaways.md")
+    if not os.path.exists(output_path):
+        logger.info("Writing takeaways to file...")
+        try:
+
+            preamble = f"These are the takeaways from the conversation: {os.path.basename(file_path)}"
+            with open(output_path, "w") as f:
+                f.write(f"{preamble}\n\n")
+                f.write("# Insights\n")
+                f.writelines([f"- {item}\n\n" for item in takeaways["insights"]])
+                f.write("\n\n# Questions\n")
+                f.writelines([f"- {item}\n\n" for item in takeaways["questions"]])
+                f.write("\n\n# Disagreements\n")
+                f.writelines([f"- {item}\n\n" for item in takeaways["disagreements"]])
+            logger.info(f"Saved takeaways to {output_path}")
+
+        except Exception as e:
+            logger.error(f"Error writing takeaways to file: {e}")
+            raise
+    else:
+        logger.info(f"Takeaways already exist at {output_path}. Skipping...")
+
+    # write article to file
+    output_path = get_output_path(file_path, postfix="article.md")
+    if not os.path.exists(output_path):
+        logger.info("Writing article to file...")
+        try:
+            with open(output_path, "w") as f:
+                f.write(takeaways["article"])
+            logger.info(f"Saved article to {output_path}")
+        except Exception as e:
+            logger.error(f"Error writing article to file: {e}")
+            raise
+    else:
+        logger.info(f"Article already exists at {output_path}. Skipping...")
+
+    # writing takeaways to json
+    output_path = get_output_path(file_path, postfix="takeaways.json")
+    if not os.path.exists(output_path):
+        logger.info("Writing takeaways to json...")
+        try:
+            with open(output_path, "w") as f:
+                f.write(json.dumps(takeaways))
+            logger.info(f"Saved takeaways to {output_path}")
+        except Exception as e:
+            logger.error(f"Error writing takeaways to json: {e}")
+            raise
+    else:
+        logger.info(f"Takeaway JSON already exist at {output_path}. Skipping...")

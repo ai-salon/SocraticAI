@@ -12,7 +12,7 @@ logging.basicConfig(
 logger = logging.getLogger("SocraticAICLI")
 
 
-def transcribe_generate(file_path, expand=False):
+def transcribe_generate(file_path):
     """
     Transcribes the given file and generates a takeaway string.
 
@@ -24,11 +24,11 @@ def transcribe_generate(file_path, expand=False):
         str: The generated takeaway string.
     """
     output_file, _ = transcribe(file_path)
-    takeaway_string = interpret_transcript(output_file, expand)
-    return takeaway_string
+    takeaway_obj = interpret_transcript(output_file)
+    return takeaway_obj
 
 
-def generate_multi(path_pattern, expand):
+def generate_multi(path_pattern):
     """
     Generate multiple takeaway strings from files matching the given path pattern.
 
@@ -39,10 +39,14 @@ def generate_multi(path_pattern, expand):
     Returns:
         list: A list of takeaway strings generated from the matching files.
     """
-    takeaway_strings = []
+    takeaway_objs = []
     for file_path in glob(path_pattern):
-        s = interpret_transcript(file_path, expand)
-        takeaway_strings.append(s)
+        try:
+            s = interpret_transcript(file_path)
+            takeaway_objs.append(s)
+        except:
+            logger.info(f"Failed to generate takeaway for {file_path}")
+            continue
 
 
 def transcribe_multi(path_pattern):
