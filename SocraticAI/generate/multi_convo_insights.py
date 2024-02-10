@@ -2,12 +2,13 @@ import logging
 
 from SocraticAI.generate.prompts import multi_convo_prompt
 from SocraticAI.generate.utils import strip_preamble
-from SocraticAI.llm_utils import chat_completion
+from SocraticAI.llm_utils import Model
 
 logger = logging.getLogger(__name__)
 
 
-def compare_conversation_insights(conversation_insights, model="claude-2"):
+def compare_conversation_insights(conversation_insights):
+    model = Model.get_instance()
     logger.info(f"Comparing insights across conversations: {model}")
     try:
         # concatenate conversaion insight strings into one large string
@@ -17,7 +18,7 @@ def compare_conversation_insights(conversation_insights, model="claude-2"):
             concat_text += convo_insight
 
         p = multi_convo_prompt(text=concat_text)
-        comparison = strip_preamble(chat_completion(p, model=model))
+        comparison = strip_preamble(model.chat_completion(p, "complex"))
         logger.info(f"Generated {len(comparison)} insights")
         return comparison
     except Exception as e:
