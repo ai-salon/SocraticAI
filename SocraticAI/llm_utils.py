@@ -6,43 +6,15 @@ import time
 from collections import namedtuple
 
 from anthropic import AI_PROMPT, HUMAN_PROMPT, Anthropic, InternalServerError
+from openai import OpenAI
 from tenacity import *
 
 logger = logging.getLogger(__name__)
-anthropic = Anthropic(api_key=os.getenv("ANTHROPIC_KEY"))
 
-MAX_TOKENS = 10000
-
-
-@retry(
-    retry=retry_if_exception_type([InternalServerError]),
-    stop=stop_after_attempt(5),
-    wait=wait_random_exponential(min=1, max=60),
-    reraise=True,
-)
-def anthropic_completion(
-    prompt, model="claude-instant-1", max_tokens_to_sample=MAX_TOKENS, **kwargs
-):
-    """
-    Generates a chatbot response given a prompt using the specified model.
-
-    Args:
-        prompt (str): The prompt to generate a response for.
-        model (str, optional): The name of the model to use. Defaults to "claude-instant-1".
-        max_tokens_to_sample (int, optional): The maximum number of tokens to sample. Defaults to MAX_TOKENS.
-
-    Returns:
-        str: The generated chatbot response.
-    """
-    start = time.time()
-    completion = anthropic.completions.create(
-        model=model, max_tokens_to_sample=max_tokens_to_sample, prompt=prompt, **kwargs
-    )
-    logger.info(f"Time taken: {time.time() - start:.2f} seconds with model {model}")
-    return completion.completion
+MAX_TOKENS = 2000
 
 
-def chat(model="claude-instant-1", max_tokens_to_sample=MAX_TOKENS, **kwargs):
+def chat(modelType="claude-instant-1", max_tokens_to_sample=MAX_TOKENS, **kwargs):
     """
     This function allows the user to chat with an AI model using the command line interface.
 
@@ -54,26 +26,21 @@ def chat(model="claude-instant-1", max_tokens_to_sample=MAX_TOKENS, **kwargs):
     - None
 
     """
+    model = Model.get_instance()
     history = ""
     while True:
         human_input = input("Human [q to exit]: ")
         if human_input == "q":
             break
         prompt = f"{history} {HUMAN_PROMPT} {human_input}{AI_PROMPT}"
-        response = anthropic_completion(prompt, model, max_tokens_to_sample, **kwargs)
+        response = model.chat_completion(
+            prompt, modelType, max_tokens_to_sample, **kwargs)
         history = f"{prompt} {response}"
         logger.info(response)
 
 
-def chat_completion(
-    prompt, model="claude-instant-1", max_tokens_to_sample=MAX_TOKENS, **kwargs
-):
-    prompt = f"{HUMAN_PROMPT} {prompt}{AI_PROMPT}"
-    return anthropic_completion(prompt, model, max_tokens_to_sample, **kwargs)
-
-
 def chain_completion(
-    prompts, model="claude-instant-1", max_tokens_to_sample=MAX_TOKENS
+    prompts, modelType="claude-instant-1", max_tokens_to_sample=MAX_TOKENS
 ):
     """
     This function takes a list of prompts and generates a response for each prompt using the anthropic_completion function.
@@ -88,18 +55,21 @@ def chain_completion(
     Returns:
     - a list of strings representing the responses generated for each prompt
     """
-
+    model = Model.get_instance()
     history = ""
     responses = []
     for next_prompt in prompts:
         prompt = f"{history} {HUMAN_PROMPT} {next_prompt}{AI_PROMPT}"
-        response = anthropic_completion(prompt, model, max_tokens_to_sample)
+        response = model.chat_completion(
+            prompt, modelType, max_tokens_to_sample)
         history = f"{prompt} {response}"
         responses.append(response)
     return responses
 
 
 def repair_json(json_str, error):
+    model = Model.get_instance()
+
     repair_json_prompt = f"""
 {json_str}
 
@@ -108,7 +78,7 @@ The JSON object is invalid for the following reason:
 
 The following is a revised JSON object:\n;
 """
-    response = chat_completion(repair_json_prompt, model="claude-2")
+    response = model.chat_completion(repair_json_prompt, "simple")
     return response
 
 
@@ -124,9 +94,125 @@ def extract_and_read_json(s, try_repair=True):
         except json.JSONDecodeError as e:
             error = e
             if try_repair:
-                logger.info("Trying to repair...")
+                logger.info(f"Trying to repair error {error}")
                 return extract_and_read_json(repair_json(json_str, error), False)
             else:
                 logger.error(e)
     else:
         raise ValueError("No JSON object found in the string")
+
+
+class OpenAiClient:
+    def __init__(self, api_key):
+        self.low_level_client = OpenAI(api_key=api_key)
+
+    @retry(
+        retry=retry_if_exception_type([InternalServerError]),
+        stop=stop_after_attempt(5),
+        wait=wait_random_exponential(min=1, max=60),
+        reraise=True,
+    )
+    def __call__(self, prompt, modelType="gpt-3.5-turbo", max_tokens_to_sample=MAX_TOKENS, **kwargs):
+        """
+        Generates a chatbot response given a prompt using the specified model.
+
+        Args:
+            prompt (str): The prompt to generate a response for.
+            model (str, optional): The name of the model to use. Defaults to "claude-instant-1".
+            max_tokens_to_sample (int, optional): The maximum number of tokens to sample. Defaults to MAX_TOKENS.
+
+        Returns:
+            str: The generated chatbot response.
+        """
+        # TODO: We ignore max_tokens_to_sample for now. OpenAI automatically sets this value to be the model's
+        # context_length - input_length. We should add a check to make sure the input length is not too long.
+        start = time.time()
+        formattedPrompt = self._format_prompt(prompt)
+        completion = self.low_level_client.chat.completions.create(
+            model=modelType, messages=formattedPrompt, **kwargs
+        )
+        logger.info(
+            f"Time taken: {time.time() - start:.2f} seconds with model {modelType}")
+        print("completion", completion.choices[0].message)
+        return completion.choices[0].message.content
+
+    def _format_prompt(self, prompt):
+        return [{"role": "user", "content": prompt}]
+
+
+class AnthropicClient:
+    def __init__(self, api_key):
+        self.low_level_client = Anthropic(api_key=api_key)
+
+    @retry(
+        retry=retry_if_exception_type([InternalServerError]),
+        stop=stop_after_attempt(5),
+        wait=wait_random_exponential(min=1, max=60),
+        reraise=True,
+    )
+    def __call__(self, prompt, modelType="claude-instant-1", max_tokens_to_sample=MAX_TOKENS, **kwargs):
+        """
+        Generates a chatbot response given a prompt using the specified model.
+
+        Args:
+            prompt (str): The prompt to generate a response for.
+            model (str, optional): The name of the model to use. Defaults to "claude-instant-1".
+            max_tokens_to_sample (int, optional): The maximum number of tokens to sample. Defaults to MAX_TOKENS.
+
+        Returns:
+            str: The generated chatbot response.
+        """
+        start = time.time()
+        formattedPrompt = self._format_prompt(prompt)
+        completion = self.low_level_client.completions.create(
+            model=modelType, max_tokens_to_sample=max_tokens_to_sample, prompt=formattedPrompt, **kwargs
+        )
+        logger.info(
+            f"Time taken: {time.time() - start:.2f} seconds with model {modelType}")
+        return completion.completion
+
+    def _format_prompt(self, prompt):
+        return f"{HUMAN_PROMPT} {prompt}{AI_PROMPT}"
+
+
+class Model:
+    """
+    A class representing a model.
+
+    Attributes:
+    -----------
+    template : str
+        The string template for the prompt, with variables to be filled in using the `format` method.
+    """
+    _instance: "Model" = None
+
+    @classmethod
+    def get_instance(cls):
+        if cls._instance is None:
+            cls._instance = cls()
+        return cls._instance
+
+    def __init__(self):
+        """
+        Initializes a new Model object.
+
+        By default, the model is backed by Anthropic's "claude-instant-1".
+        """
+        self.type = os.getenv("MODEL_TYPE") or "anthropic"
+        if self.type == "openai":
+            self.client = OpenAiClient(api_key=os.getenv("OPENAI_KEY"))
+            self.name_dict = {"simple": "gpt-3.5-turbo",
+                              "complex": "gpt-4-turbo-preview"}
+        else:
+            self.client = AnthropicClient(api_key=os.getenv("ANTHROPIC_KEY"))
+            self.name_dict = {
+                "simple": "claude-instant-1", "complex": "claude-2"}
+
+    def __str__(self):
+        """Return information about the current model."""
+        return f"Model(type={self.type})"
+
+    def chat_completion(
+            self, prompt, modelType="simple", max_tokens_to_sample=MAX_TOKENS, **kwargs):
+        print("Using model type:", self.name_dict[modelType])
+        return self.client(prompt, self.name_dict[modelType], max_tokens_to_sample, **kwargs)
