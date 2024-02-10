@@ -5,14 +5,18 @@ import time
 import assemblyai as aai
 
 from SocraticAI.transcribe.process import anonymize_transcript, process_file
-from SocraticAI.utils import get_processed_path, get_transcribed_path
+from SocraticAI.utils import (
+    get_anonymized_path,
+    get_processed_path,
+    get_transcribed_path,
+)
 
 logger = logging.getLogger(__name__)
 
 aai.settings.api_key = os.getenv("ASSEMBLYAI_KEY")
 
 
-def transcribe(file_path, process=True, anonymize_transcript=True, output_file=None):
+def transcribe(file_path, process=True, output_file=None):
     """
     Transcribes an audio file using AssemblyAI's transcription service.
 
@@ -54,7 +58,7 @@ def transcribe(file_path, process=True, anonymize_transcript=True, output_file=N
             f.write(transcript_string)
     if process is True:
         transcript_file = output_file
-        processed_file_path = get_processed_path(transcript_file)
+        processed_file_path = get_processed_path(file_path)
         if not os.path.exists(processed_file_path):
             logger.info(f"Processing {transcript_file}...")
             transcript = process_file(transcript_file)
@@ -62,6 +66,12 @@ def transcribe(file_path, process=True, anonymize_transcript=True, output_file=N
             logger.info(f"Processed already. Loading {processed_file_path}...")
             with open(processed_file_path, "r") as f:
                 transcript = f.read()
-        if anonymize_transcript:
-            transcript = anonymize_transcript(processed_file_path, save_file=True)
+        anon_file_path = get_anonymized_path(file_path)
+        if not os.path.exists(anon_file_path):
+            logger.info(f"Anonymizing {processed_file_path}...")
+            transcript = anonymize_transcript(processed_file_path, anon_file_path)
+        else:
+            logger.info(f"Anonymized already. Loading {anon_file_path}...")
+            with open(anon_file_path, "r") as f:
+                transcript = f.read()
     return output_file, transcript

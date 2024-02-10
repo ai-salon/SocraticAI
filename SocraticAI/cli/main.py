@@ -1,6 +1,6 @@
-from dotenv import load_dotenv
-
 import argparse
+
+from dotenv import load_dotenv
 
 from SocraticAI.cli.commands import (
     generate_multi,
@@ -24,9 +24,6 @@ parser_generate = subparsers.add_parser(
     "full_run", help="Transcribe and generate_insights"
 )
 parser_generate.add_argument("file_path", help="the name of the audio file to use")
-parser_generate.add_argument(
-    "--expand", action="store_true", help="expand the transcript into insights"
-)
 parser_generate.set_defaults(func=transcribe_generate)
 
 
@@ -35,9 +32,6 @@ parser_generate = subparsers.add_parser(
     "generate", help="Generate insights from a transcript"
 )
 parser_generate.add_argument("file_path", help="the name of the transcription to use")
-parser_generate.add_argument(
-    "--expand", action="store_true", help="expand the transcript into insights"
-)
 parser_generate.set_defaults(func=interpret_transcript)
 
 # Create the parser for the 'generate_multi' command
@@ -46,9 +40,6 @@ parser_generate_multi = subparsers.add_parser(
 )
 parser_generate_multi.add_argument(
     "path_pattern", help="the pattern of the transcripts to use for insights"
-)
-parser_generate_multi.add_argument(
-    "--expand", action="store_true", help="expand the insights into blogs"
 )
 parser_generate_multi.set_defaults(func=generate_multi)
 

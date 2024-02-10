@@ -52,7 +52,7 @@ def process_file(transcript_path, save_file=True, process_prompt=copy_edit_promp
     return processed_text
 
 
-def anonymize_transcript(file_path, save_file=True):
+def anonymize_transcript(file_path, save_path=None):
     """
     Anonymize a transcript by replacing all names with a generic name.
 
@@ -79,12 +79,7 @@ def anonymize_transcript(file_path, save_file=True):
         text = text.replace(person, name)
     text = "Names have been changed to preserve anonymity.\n\n" + text
     logger.info(f"Finished anonymizing {file_path}")
-    if save_file:
-        basename = os.path.basename(file_path)
-        output_path = os.path.join(
-            get_data_directory("processed"),
-            basename.replace("_processed.txt", "_processed_anon.txt"),
-        )
-        with open(output_path, "w") as f:
+    if save_path:
+        with open(save_path, "w") as f:
             f.write(text)
     return text

@@ -32,8 +32,14 @@ def get_processed_path(file_path):
     )
 
 
-def get_anonymized_path(processed_file_path):
-    return processed_file_path.replace(".txt", "_anon.txt")
+def get_anonymized_path(file_path):
+    return get_processed_path(file_path).replace(".txt", "_anon.txt")
+
+
+def get_output_path(file_path, postfix):
+    basename = os.path.basename(file_path)
+    basename = os.path.splitext(basename)[0] + "_" + postfix
+    return os.path.join(get_data_directory("outputs"), basename)
 
 
 def get_stats():
