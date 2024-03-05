@@ -56,6 +56,7 @@ def transcribe(file_path, process=True, output_file=None):
         logger.info(f"Transcribed in {time.time() - start:.2f} seconds")
         with open(output_file, "w") as f:
             f.write(transcript_string)
+    returned_file = output_file
     if process is True:
         transcript_file = output_file
         processed_file_path = get_processed_path(file_path)
@@ -74,4 +75,5 @@ def transcribe(file_path, process=True, output_file=None):
             logger.info(f"Anonymized already. Loading {anon_file_path}...")
             with open(anon_file_path, "r") as f:
                 transcript = f.read()
-    return output_file, transcript
+        returned_file = anon_file_path
+    return returned_file, transcript
