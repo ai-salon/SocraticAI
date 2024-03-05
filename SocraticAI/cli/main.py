@@ -1,6 +1,7 @@
-import argparse
+from dotenv import load_dotenv, find_dotenv
 
-from dotenv import load_dotenv
+import argparse
+import os
 
 from SocraticAI.cli.commands import (
     generate_multi,
@@ -48,6 +49,9 @@ parser_transcribe = subparsers.add_parser("transcribe", help="Transcribe a singl
 parser_transcribe.add_argument(
     "file_path", help="the name of the audio file to transcribe"
 )
+parser_transcribe.add_argument(
+    "--output_file", help="the name of the file the transcription is saved to"
+)
 parser_transcribe.set_defaults(func=transcribe)
 
 # Create the parser for the 'transcribe_multi' command
@@ -61,8 +65,11 @@ parser_transcribe_multi.set_defaults(func=transcribe_multi)
 
 
 def main():
-    load_dotenv()
     # Parse the command line arguments
+    dotenv_path = find_dotenv()
+    print(f'Loading dotenv at {dotenv_path}', load_dotenv(dotenv_path))
+    print(f'os.getenv("MODEL_TYPE") = {os.getenv("MODEL_TYPE")}')
+
     args = parser.parse_args()
 
     # Call the default function for the selected command
