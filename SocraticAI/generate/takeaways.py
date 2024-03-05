@@ -1,6 +1,7 @@
 import logging
 import re
 
+from SocraticAI.config import MODEL
 from SocraticAI.generate.prompts import (
     aggregator_prompt,
     article_prompt,
@@ -17,7 +18,7 @@ logger = logging.getLogger(__name__)
 DEFAULT_TAKEAWAY = "insights"
 
 
-def generate_takeaways(text, takeaway_type=DEFAULT_TAKEAWAY, model="claude-2"):
+def generate_takeaways(text, takeaway_type=DEFAULT_TAKEAWAY, model=MODEL):
     logger.info(
         f"Generating takeaways ({takeaway_type}) from text using model: {model}"
     )
@@ -32,9 +33,7 @@ def generate_takeaways(text, takeaway_type=DEFAULT_TAKEAWAY, model="claude-2"):
         raise
 
 
-def generate_tree_takeaways(
-    text, takeaway_type=DEFAULT_TAKEAWAY, n=5, model="claude-2"
-):
+def generate_tree_takeaways(text, takeaway_type=DEFAULT_TAKEAWAY, n=5, model=MODEL):
     logger.info(
         f"Generating tree insights from text using model: {model}, iterations: {n}"
     )
@@ -57,7 +56,7 @@ def generate_takeaways_from_chunks(
     text,
     takeaway_type=DEFAULT_TAKEAWAY,
     chunk_size=10000,
-    model="claude-2",
+    model=MODEL,
     tree_generator=False,
 ):
     logger.info("Generating takeaways from text chunks")
@@ -87,12 +86,12 @@ def get_quotes(insights):
         p = quote_extraction_prompt(
             text=chunked_insights["chunk"], insight_list=insight_string
         )
-        response = chat_completion(p, model="claude-2")
+        response = chat_completion(p, model=MODEL)
         quotes.append(response)
         break
 
 
-def generate_all_takeaways(text, model="claude-2"):
+def generate_all_takeaways(text, model=MODEL):
     takeaways = {
         t: generate_takeaways_from_chunks(text, t) for t in basic_prompts.keys()
     }
@@ -112,7 +111,7 @@ def collapse_takeaways(takeaways):
     return takeaway_list
 
 
-def classify_takeaways(takeaways, model="claude-2"):
+def classify_takeaways(takeaways, model=MODEL):
     logger.info("Classifying takeaways")
     try:
         p = categorizer_prompt(takeaway_list="\n\n".join(takeaways))
@@ -129,7 +128,7 @@ def classify_takeaways(takeaways, model="claude-2"):
         raise
 
 
-def expand_insights(classified_insights, model="claude-2"):
+def expand_insights(classified_insights, model=MODEL):
     logger.info("Expanding insights into blog posts")
     try:
         expansions = {}
@@ -144,7 +143,7 @@ def expand_insights(classified_insights, model="claude-2"):
         raise
 
 
-def write_article(expansions, questions, disagreements, length=1000, model="claude-2"):
+def write_article(expansions, questions, disagreements, length=1000, model=MODEL):
     logger.info("Writing an article...")
     try:
         expansion_string = "\n\n".join(expansions.values())
@@ -165,13 +164,13 @@ def write_article(expansions, questions, disagreements, length=1000, model="clau
         raise
 
 
-def run_takeaway_generation(text, model="claude-2", article_length=1000):
+def run_takeaway_generation(text, model=MODEL, article_length=1000):
     """
     Generates insights from the given text using the specified model.
 
     Args:
         text (str): The text to generate insights from.
-        model (str, optional): The name of the model to use for generating insights. Defaults to "claude-2".
+        model (str, optional): The name of the model to use for generating insights. Defaults to MODEL.
         expand (bool, optional): Whether to expand the insights into blog posts. Defaults to True.
 
     Returns:
