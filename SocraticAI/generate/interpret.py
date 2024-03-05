@@ -39,7 +39,7 @@ def interpret_transcript(file_path):
         return takeaways
     else:
         logger.info(f"No takeaways found at {takeaways_path}. Generating...")
-        takeaways = run_takeaway_generation(text, model="claude-2")
+        takeaways = run_takeaway_generation(text)
         save_takeaways(takeaways, file_path)
         return takeaways
 

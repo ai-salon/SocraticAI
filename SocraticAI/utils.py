@@ -20,7 +20,8 @@ def get_data_directory(subdirectory):
 
 def get_transcribed_path(file_path):
     basename = os.path.basename(file_path)
-    basename = os.path.splitext(basename)[0] + "_transcript.txt"
+    if not basename.endswith("_transcript.txt"):
+        basename = os.path.splitext(basename)[0] + "_transcript.txt"
     return os.path.join(get_data_directory("transcripts"), basename)
 
 

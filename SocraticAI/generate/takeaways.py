@@ -1,7 +1,6 @@
 import logging
 import re
 
-from SocraticAI.config import MODEL
 from SocraticAI.generate.prompts import (
     aggregator_prompt,
     article_prompt,
@@ -10,7 +9,7 @@ from SocraticAI.generate.prompts import (
     expand_prompt,
     quote_extraction_prompt,
 )
-from SocraticAI.llm_utils import chat_completion, extract_and_read_json
+from SocraticAI.llm_utils import Model, extract_and_read_json
 from SocraticAI.utils import chunk_text
 
 logger = logging.getLogger(__name__)
@@ -18,13 +17,13 @@ logger = logging.getLogger(__name__)
 DEFAULT_TAKEAWAY = "insights"
 
 
-def generate_takeaways(text, takeaway_type=DEFAULT_TAKEAWAY, model=MODEL):
+def generate_takeaways(text, model, takeaway_type=DEFAULT_TAKEAWAY):
     logger.info(
         f"Generating takeaways ({takeaway_type}) from text using model: {model}"
     )
     try:
         p = basic_prompts[takeaway_type](text=text)
-        response = chat_completion(p, model=model)
+        response = model.chat_completion(p, "complex")
         takeaways = re.findall(r"\* (.*?[.!?])\s*(?=\*|\Z)", response, re.S)
         logger.info(f"Generated {len(takeaways)} {takeaway_type}")
         return takeaways
@@ -33,7 +32,12 @@ def generate_takeaways(text, takeaway_type=DEFAULT_TAKEAWAY, model=MODEL):
         raise
 
 
-def generate_tree_takeaways(text, takeaway_type=DEFAULT_TAKEAWAY, n=5, model=MODEL):
+def generate_tree_takeaways(
+    text,
+    model,
+    takeaway_type=DEFAULT_TAKEAWAY,
+    n=5,
+):
     logger.info(
         f"Generating tree insights from text using model: {model}, iterations: {n}"
     )
@@ -43,7 +47,7 @@ def generate_tree_takeaways(text, takeaway_type=DEFAULT_TAKEAWAY, n=5, model=MOD
         ]
         takeaways = [item for sublist in takeaways for item in sublist]
         p = aggregator_prompt(output_list="\n\n".join(takeaways), output_type="insight")
-        response = chat_completion(p, model=model)
+        response = model.chat_completion(p, "complex")
         final_takeaways = re.findall(r"\* (.*?\.)\s*(?=\*|\Z)", response, re.S)
         logger.info(f"Aggregated to {len(final_takeaways)} final {takeaway_type}")
         return takeaways, final_takeaways
@@ -54,9 +58,9 @@ def generate_tree_takeaways(text, takeaway_type=DEFAULT_TAKEAWAY, n=5, model=MOD
 
 def generate_takeaways_from_chunks(
     text,
+    model,
     takeaway_type=DEFAULT_TAKEAWAY,
     chunk_size=10000,
-    model=MODEL,
     tree_generator=False,
 ):
     logger.info("Generating takeaways from text chunks")
@@ -66,11 +70,9 @@ def generate_takeaways_from_chunks(
         for chunk in chunks:
             logger.info(f"Processing chunk of size: {len(chunk)}")
             if tree_generator:
-                _, takeaways = generate_tree_takeaways(
-                    chunk, takeaway_type, model=model
-                )
+                _, takeaways = generate_tree_takeaways(chunk, model, takeaway_type)
             else:
-                takeaways = generate_takeaways(chunk, takeaway_type, model=model)
+                takeaways = generate_takeaways(chunk, model, takeaway_type)
             output.append({"chunk": chunk, "takeaways": takeaways})
         logger.info("Completed generating takeaways from chunks")
         return output
@@ -79,21 +81,21 @@ def generate_takeaways_from_chunks(
         raise
 
 
-def get_quotes(insights):
+def get_quotes(insights, model):
     quotes = []
     for chunked_insights in insights:
         insight_string = "\n\n".join(chunked_insights["takeaways"])
         p = quote_extraction_prompt(
             text=chunked_insights["chunk"], insight_list=insight_string
         )
-        response = chat_completion(p, model=MODEL)
+        response = model.chat_completion(p, "complex")
         quotes.append(response)
         break
 
 
-def generate_all_takeaways(text, model=MODEL):
+def generate_all_takeaways(text, model):
     takeaways = {
-        t: generate_takeaways_from_chunks(text, t) for t in basic_prompts.keys()
+        t: generate_takeaways_from_chunks(text, model, t) for t in basic_prompts.keys()
     }
     return takeaways
 
@@ -111,30 +113,30 @@ def collapse_takeaways(takeaways):
     return takeaway_list
 
 
-def classify_takeaways(takeaways, model=MODEL):
+def classify_takeaways(takeaways, model):
     logger.info("Classifying takeaways")
     try:
         p = categorizer_prompt(takeaway_list="\n\n".join(takeaways))
-        classified_takeaways = chat_completion(p, model=model, temperature=0)
+        classified_takeaways = model.chat_completion(p, "complex", temperature=0)
         try:
             extracted_json = extract_and_read_json(classified_takeaways)
             logger.info("Successfully classified and extracted takeaways")
             return extracted_json
-        except:
-            logger.error("Could not extract JSON from classified takeaways")
+        except Exception as e:
+            logger.error(f"Could not extract JSON from classified takeaways: {e}")
             return classified_takeaways
     except Exception as e:
         logger.error(f"Error classifying takeaways: {e}")
         raise
 
 
-def expand_insights(classified_insights, model=MODEL):
+def expand_insights(classified_insights, model):
     logger.info("Expanding insights into blog posts")
     try:
         expansions = {}
         for theme, insights in classified_insights.items():
             p = expand_prompt(takeaway_list="\n\n".join(insights), theme=theme)
-            response = chat_completion(p, model=model)
+            response = model.chat_completion(p, "complex")
             expansions[theme] = response
         logger.info("Expanded insights into blog posts")
         return expansions
@@ -143,7 +145,7 @@ def expand_insights(classified_insights, model=MODEL):
         raise
 
 
-def write_article(expansions, questions, disagreements, length=1000, model=MODEL):
+def write_article(expansions, questions, disagreements, model, length=1000):
     logger.info("Writing an article...")
     try:
         expansion_string = "\n\n".join(expansions.values())
@@ -155,7 +157,7 @@ def write_article(expansions, questions, disagreements, length=1000, model=MODEL
             disagreements=disagreements,
             length=length,
         )
-        response = chat_completion(p, model=model)
+        response = model.chat_completion(p, "complex")
         response = response.split("Written Article!", 1)[1]
         logger.info("wrote article")
         return response
@@ -164,7 +166,7 @@ def write_article(expansions, questions, disagreements, length=1000, model=MODEL
         raise
 
 
-def run_takeaway_generation(text, model=MODEL, article_length=1000):
+def run_takeaway_generation(text, article_length=1000):
     """
     Generates insights from the given text using the specified model.
 
@@ -176,18 +178,19 @@ def run_takeaway_generation(text, model=MODEL, article_length=1000):
     Returns:
         tuple: A tuple containing two lists. The first list contains the expanded insights as blog posts, and the second list contains the raw insights.
     """
+    model = Model.get_instance()
     logger.info("Running the full insight generation process")
     try:
-        takeaways = generate_all_takeaways(text, model=model)
+        takeaways = generate_all_takeaways(text, model)
         collapsed = collapse_takeaways(takeaways["insight"])
-        classified = classify_takeaways(collapsed, model=model)
-        expansions = expand_insights(classified, model=model)
+        classified = classify_takeaways(collapsed, model)
+        expansions = expand_insights(classified, model)
         article = write_article(
             expansions,
             takeaways["question"],
             takeaways["disagreement"],
+            model,
             length=article_length,
-            model=model,
         )
         output = {
             "insights": collapse_takeaways(takeaways["insight"]),
