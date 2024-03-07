@@ -1,7 +1,7 @@
-from dotenv import load_dotenv, find_dotenv
-
 import argparse
 import os
+
+from dotenv import find_dotenv, load_dotenv
 
 from SocraticAI.cli.commands import (
     generate_multi,
@@ -67,7 +67,7 @@ parser_transcribe_multi.set_defaults(func=transcribe_multi)
 def main():
     # Parse the command line arguments
     dotenv_path = find_dotenv()
-    print(f'Loading dotenv at {dotenv_path}', load_dotenv(dotenv_path))
+    print(f"Loading dotenv at {dotenv_path}", load_dotenv(dotenv_path))
     print(f'os.getenv("MODEL_TYPE") = {os.getenv("MODEL_TYPE")}')
 
     args = parser.parse_args()
@@ -86,6 +86,5 @@ def main():
         parser.print_help()
 
 
-# Ensure this is at the bottom of the cli.py file
 if __name__ == "__main__":
     main()

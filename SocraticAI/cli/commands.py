@@ -23,8 +23,8 @@ def transcribe_generate(file_path):
     Returns:
         str: The generated takeaway string.
     """
-    output_file, _ = transcribe(file_path)
-    takeaway_obj = interpret_transcript(output_file)
+    _ = transcribe(file_path)
+    takeaway_obj = interpret_transcript(file_path)
     return takeaway_obj
 
 
