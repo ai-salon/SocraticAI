@@ -49,7 +49,7 @@ def generate_multi(path_pattern):
             continue
 
 
-def transcribe_multi(path_pattern):
+def transcribe_multi(path_pattern, process=True):
     """
     Transcribes multiple files based on the given path pattern.
 
@@ -61,5 +61,5 @@ def transcribe_multi(path_pattern):
     """
     for file_path in glob(path_pattern):
         logger.info(f"Transcribing {file_path}...")
-        output_file, _ = transcribe(file_path)
+        output_file, _ = transcribe(file_path, process=process)
         logger.info(f"Transcribed {file_path} to {output_file}")
