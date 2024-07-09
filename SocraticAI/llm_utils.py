@@ -14,7 +14,9 @@ logger = logging.getLogger(__name__)
 MAX_TOKENS = 2000
 
 
-def chat(modelType="claude-instant-1", max_tokens_to_sample=MAX_TOKENS, **kwargs):
+def chat(
+    modelType="claude-3-sonnet-20240229", max_tokens_to_sample=MAX_TOKENS, **kwargs
+):
     """
     This function allows the user to chat with an AI model using the command line interface.
 
@@ -34,7 +36,8 @@ def chat(modelType="claude-instant-1", max_tokens_to_sample=MAX_TOKENS, **kwargs
             break
         prompt = f"{history} {HUMAN_PROMPT} {human_input}{AI_PROMPT}"
         response = model.chat_completion(
-            prompt, modelType, max_tokens_to_sample, **kwargs)
+            prompt, modelType, max_tokens_to_sample, **kwargs
+        )
         history = f"{prompt} {response}"
         logger.info(response)
 
@@ -60,8 +63,7 @@ def chain_completion(
     responses = []
     for next_prompt in prompts:
         prompt = f"{history} {HUMAN_PROMPT} {next_prompt}{AI_PROMPT}"
-        response = model.chat_completion(
-            prompt, modelType, max_tokens_to_sample)
+        response = model.chat_completion(prompt, modelType, max_tokens_to_sample)
         history = f"{prompt} {response}"
         responses.append(response)
     return responses
@@ -112,7 +114,13 @@ class OpenAiClient:
         wait=wait_random_exponential(min=1, max=60),
         reraise=True,
     )
-    def __call__(self, prompt, modelType="gpt-3.5-turbo", max_tokens_to_sample=MAX_TOKENS, **kwargs):
+    def __call__(
+        self,
+        prompt,
+        modelType="gpt-3.5-turbo",
+        max_tokens_to_sample=MAX_TOKENS,
+        **kwargs,
+    ):
         """
         Generates a chatbot response given a prompt using the specified model.
 
@@ -132,7 +140,8 @@ class OpenAiClient:
             model=modelType, messages=formattedPrompt, **kwargs
         )
         logger.info(
-            f"Time taken: {time.time() - start:.2f} seconds with model {modelType}")
+            f"Time taken: {time.time() - start:.2f} seconds with model {modelType}"
+        )
         print("completion", completion.choices[0].message)
         return completion.choices[0].message.content
 
@@ -150,7 +159,13 @@ class AnthropicClient:
         wait=wait_random_exponential(min=1, max=60),
         reraise=True,
     )
-    def __call__(self, prompt, modelType="claude-instant-1", max_tokens_to_sample=MAX_TOKENS, **kwargs):
+    def __call__(
+        self,
+        prompt,
+        modelType="claude-instant-1",
+        max_tokens_to_sample=MAX_TOKENS,
+        **kwargs,
+    ):
         """
         Generates a chatbot response given a prompt using the specified model.
 
@@ -165,10 +180,14 @@ class AnthropicClient:
         start = time.time()
         formattedPrompt = self._format_prompt(prompt)
         completion = self.low_level_client.completions.create(
-            model=modelType, max_tokens_to_sample=max_tokens_to_sample, prompt=formattedPrompt, **kwargs
+            model=modelType,
+            max_tokens_to_sample=max_tokens_to_sample,
+            prompt=formattedPrompt,
+            **kwargs,
         )
         logger.info(
-            f"Time taken: {time.time() - start:.2f} seconds with model {modelType}")
+            f"Time taken: {time.time() - start:.2f} seconds with model {modelType}"
+        )
         return completion.completion
 
     def _format_prompt(self, prompt):
@@ -184,6 +203,7 @@ class Model:
     template : str
         The string template for the prompt, with variables to be filled in using the `format` method.
     """
+
     _instance: "Model" = None
 
     @classmethod
@@ -201,18 +221,22 @@ class Model:
         self.type = os.getenv("MODEL_TYPE") or "anthropic"
         if self.type == "openai":
             self.client = OpenAiClient(api_key=os.getenv("OPENAI_KEY"))
-            self.name_dict = {"simple": "gpt-3.5-turbo",
-                              "complex": "gpt-4-turbo-preview"}
+            self.name_dict = {
+                "simple": "gpt-3.5-turbo",
+                "complex": "gpt-4-turbo-preview",
+            }
         else:
             self.client = AnthropicClient(api_key=os.getenv("ANTHROPIC_KEY"))
-            self.name_dict = {
-                "simple": "claude-instant-1", "complex": "claude-2"}
+            self.name_dict = {"simple": "claude-instant-1", "complex": "claude-2"}
 
     def __str__(self):
         """Return information about the current model."""
         return f"Model(type={self.type})"
 
     def chat_completion(
-            self, prompt, modelType="simple", max_tokens_to_sample=MAX_TOKENS, **kwargs):
+        self, prompt, modelType="simple", max_tokens_to_sample=MAX_TOKENS, **kwargs
+    ):
         print("Using model type:", self.name_dict[modelType])
-        return self.client(prompt, self.name_dict[modelType], max_tokens_to_sample, **kwargs)
+        return self.client(
+            prompt, self.name_dict[modelType], max_tokens_to_sample, **kwargs
+        )
