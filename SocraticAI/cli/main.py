@@ -50,6 +50,13 @@ parser_transcribe.add_argument(
     "file_path", help="the name of the audio file to transcribe"
 )
 parser_transcribe.add_argument(
+    "-p",
+    "--process",
+    action="store_true",
+    help="flag to indicate whether to process the transcription",
+    default=False,
+)
+parser_transcribe.add_argument(
     "--output_file", help="the name of the file the transcription is saved to"
 )
 parser_transcribe.set_defaults(func=transcribe)
@@ -60,6 +67,13 @@ parser_transcribe_multi = subparsers.add_parser(
 )
 parser_transcribe_multi.add_argument(
     "path_pattern", help="the pattern of the files to transcribe"
+)
+parser_transcribe_multi.add_argument(
+    "-p",
+    "--process",
+    action="store_true",
+    help="flag to indicate whether to process the transcription",
+    default=False,
 )
 parser_transcribe_multi.set_defaults(func=transcribe_multi)
 

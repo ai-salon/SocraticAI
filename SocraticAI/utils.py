@@ -33,8 +33,15 @@ def get_processed_path(file_path):
     )
 
 
-def get_anonymized_path(file_path):
-    return get_processed_path(file_path).replace(".txt", "_anon.txt")
+def get_anonymized_path(file_path, processed=True):
+    if processed:
+        return get_processed_path(file_path).replace(".txt", "_anon.txt")
+    else:
+        return (
+            get_transcribed_path(file_path)
+            .replace(".txt", "_anon.txt")
+            .replace("transcripts", "processed")
+        )
 
 
 def get_output_path(file_path, postfix):

@@ -68,11 +68,21 @@ def transcribe(file_path, process=True, output_file=None):
         anon_file_path = get_anonymized_path(file_path)
         if not os.path.exists(anon_file_path):
             logger.info(f"Anonymizing {processed_file_path}...")
-            transcript = anonymize_transcript(
-                processed_file_path, anon_file_path)
+            transcript = anonymize_transcript(processed_file_path, anon_file_path)
         else:
             logger.info(f"Anonymized already. Loading {anon_file_path}...")
             with open(anon_file_path, "r") as f:
                 transcript = f.read()
         returned_file = anon_file_path
+    else:
+        anon_file_path = get_anonymized_path(file_path, processed=False)
+        if not os.path.exists(anon_file_path):
+            logger.info(f"Anonymizing {output_file}...")
+            transcript = anonymize_transcript(output_file, anon_file_path)
+        else:
+            logger.info(f"Anonymized already. Loading {anon_file_path}...")
+            with open(anon_file_path, "r") as f:
+                transcript = f.read()
+        returned_file = anon_file_path
+
     return returned_file, transcript
