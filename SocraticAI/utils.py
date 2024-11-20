@@ -6,7 +6,6 @@ from glob import glob
 from typing import Dict, List
 
 import tiktoken
-from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 from SocraticAI.config import DATA_DIRECTORY
 
@@ -64,15 +63,22 @@ def get_stats():
     logging.info(f"{len(anonymized_files)} anonymized files")
     logging.info(f"{len(takeaways)} takeaways")
 
+def split_text(text, chunk_size=1000, overlap=200):
+    encoding = tiktoken.get_encoding("cl100k_base")
+    tokens = encoding.encode(text)
+    chunks = []
+    
+    start = 0
+    while start < len(tokens):
+        end = start + chunk_size
+        chunk_tokens = tokens[start:end]
+        chunks.append(encoding.decode(chunk_tokens))
+        start += (chunk_size - overlap)
+    
+    return chunks
 
 def chunk_text(text, chunk_size=5000, chunk_overlap=0):
-    text_splitter = RecursiveCharacterTextSplitter(
-        # Set a really small chunk size, just to show.
-        chunk_size=chunk_size,
-        chunk_overlap=chunk_overlap,
-    )
-    docs = text_splitter.create_documents([text])
-    chunks = [d.page_content for d in docs]
+    chunks = split_text(text, chunk_size, chunk_overlap)
     return chunks
 
 

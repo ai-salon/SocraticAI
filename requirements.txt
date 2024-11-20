@@ -1,7 +1,0 @@
-anthropic
-assemblyai
-langchain
-spacy
-tiktoken
-python-dotenv
-openai
