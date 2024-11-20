@@ -38,14 +38,11 @@ to download the specific model we use to run NER.
 
 ## Command Line Interface (CLI)
 
-You can install the repo in your python environment with:
-`pip install -e .` if you are in the parent directory.
-
-After installing the repo, you can use the CLI by calling `SocraticAI`.
+After installing the repo, you can use the CLI by calling `poetry run SocraticAI`.
 
 For instance, to see all commands you can get help by running 
 
-```SocraticAI -h```
+```poetry runSocraticAI -h```
 
 - stats               Stats on repo
 - full_run            Transcribe and generate_insights

@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "SocraticAI"
+version = "0.1.0"
+description = ""
+authors = ["Ian Eisenberg <IanEisenberg90@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+en_core_web_lg = { url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.8.0/en_core_web_lg-3.8.0.tar.gz" }
+python = "^3.11"
+numpy = "^2.0.0"
+pandas = "^2.2.3"
+scipy = "^1.14.1"
+matplotlib = "^3.9.2"
+seaborn = "^0.13.2"
+scikit-learn = "^1.5.2"
+nltk = "^3.9.1"
+pillow = "^11.0.0"
+opencv-python = "^4.10.0.84"
+jupyterlab = "^4.3.1"
+fastapi = "^0.115.5"
+anthropic = "^0.39.0"
+assemblyai = "^0.35.1"
+tiktoken = "^0.8.0"
+python-dotenv = "^1.0.1"
+openai = "^1.54.5"
+spacy = "^3.8.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+SocraticAI = "SocraticAI.cli.main:main"

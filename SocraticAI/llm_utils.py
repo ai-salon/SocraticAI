@@ -7,7 +7,6 @@ from collections import namedtuple
 
 from anthropic import AI_PROMPT, HUMAN_PROMPT, Anthropic, InternalServerError
 from openai import OpenAI
-from tenacity import *
 
 logger = logging.getLogger(__name__)
 
@@ -108,42 +107,18 @@ class OpenAiClient:
     def __init__(self, api_key):
         self.low_level_client = OpenAI(api_key=api_key)
 
-    @retry(
-        retry=retry_if_exception_type([InternalServerError]),
-        stop=stop_after_attempt(5),
-        wait=wait_random_exponential(min=1, max=60),
-        reraise=True,
-    )
-    def __call__(
-        self,
-        prompt,
-        modelType="gpt-3.5-turbo",
-        max_tokens_to_sample=MAX_TOKENS,
-        **kwargs,
-    ):
-        """
-        Generates a chatbot response given a prompt using the specified model.
-
-        Args:
-            prompt (str): The prompt to generate a response for.
-            model (str, optional): The name of the model to use. Defaults to "claude-instant-1".
-            max_tokens_to_sample (int, optional): The maximum number of tokens to sample. Defaults to MAX_TOKENS.
-
-        Returns:
-            str: The generated chatbot response.
-        """
-        # TODO: We ignore max_tokens_to_sample for now. OpenAI automatically sets this value to be the model's
-        # context_length - input_length. We should add a check to make sure the input length is not too long.
+    def __call__(self, prompt, modelType="gpt-3.5-turbo", max_tokens_to_sample=MAX_TOKENS, **kwargs):
         start = time.time()
         formattedPrompt = self._format_prompt(prompt)
+        # Remove @retry decorator - built-in retries will handle it
         completion = self.low_level_client.chat.completions.create(
-            model=modelType, messages=formattedPrompt, **kwargs
+            model=modelType, 
+            messages=formattedPrompt, 
+            **kwargs
         )
-        logger.info(
-            f"Time taken: {time.time() - start:.2f} seconds with model {modelType}"
-        )
-        print("completion", completion.choices[0].message)
+        logger.info(f"Time taken: {time.time() - start:.2f} seconds with model {modelType}")
         return completion.choices[0].message.content
+
 
     def _format_prompt(self, prompt):
         return [{"role": "user", "content": prompt}]
@@ -153,41 +128,17 @@ class AnthropicClient:
     def __init__(self, api_key):
         self.low_level_client = Anthropic(api_key=api_key)
 
-    @retry(
-        retry=retry_if_exception_type([InternalServerError]),
-        stop=stop_after_attempt(5),
-        wait=wait_random_exponential(min=1, max=60),
-        reraise=True,
-    )
-    def __call__(
-        self,
-        prompt,
-        modelType="claude-instant-1",
-        max_tokens_to_sample=MAX_TOKENS,
-        **kwargs,
-    ):
-        """
-        Generates a chatbot response given a prompt using the specified model.
-
-        Args:
-            prompt (str): The prompt to generate a response for.
-            model (str, optional): The name of the model to use. Defaults to "claude-instant-1".
-            max_tokens_to_sample (int, optional): The maximum number of tokens to sample. Defaults to MAX_TOKENS.
-
-        Returns:
-            str: The generated chatbot response.
-        """
+    def __call__(self, prompt, modelType="claude-instant-1", max_tokens_to_sample=MAX_TOKENS, **kwargs):
         start = time.time()
         formattedPrompt = self._format_prompt(prompt)
+        # Remove @retry decorator - built-in retries will handle it
         completion = self.low_level_client.completions.create(
             model=modelType,
             max_tokens_to_sample=max_tokens_to_sample,
             prompt=formattedPrompt,
-            **kwargs,
+            **kwargs
         )
-        logger.info(
-            f"Time taken: {time.time() - start:.2f} seconds with model {modelType}"
-        )
+        logger.info(f"Time taken: {time.time() - start:.2f} seconds with model {modelType}")
         return completion.completion
 
     def _format_prompt(self, prompt):
