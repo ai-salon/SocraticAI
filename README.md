@@ -1,18 +1,17 @@
-![Alt text](https://github.com/IanEisenberg/SocraticAI/blob/main/static/AI_Salon.png?raw=true "AI Salon")
+![Alt text](https://github.com/ai-salon/SocraticAI/blob/main/static/logo.png?raw=true "AI Salon")
 
 
 # SocraticAI
 Codebase for transcribing and interpreting human conversations. SocraticAI was originally
 developed to support modern civil discourse about transformative ideas and technologies,
-like those facilitated by the [AI Salon](https://lu.ma/Ai-salon).
-
+like those facilitated by the [AI Salon](https://aisalon.xyz/).
 
 ## Setup
 
 ### Installation
 Install the repo from source:
 
-```pip install git+https://github.com/IanEisenberg/SocraticAI.git```
+```pip install git+https://github.com/ai-salon/SocraticAI.git```
 
 ### Data
 Audio files should be put in the "data" folder. Transcriptions and processed transcriptions will
