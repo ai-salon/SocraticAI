@@ -35,13 +35,46 @@ to download the specific model we use to run NER.
 
 ```python -m spacy download en_core_web_lg```
 
+### Poetry Setup and Usage
+This project uses Poetry for dependency management and packaging. To get started with Poetry:
+
+1. First, [install Poetry](https://python-poetry.org/docs/#installation) if you haven't already.
+
+2. Clone the repository and navigate to the project directory:
+```bash
+git clone https://github.com/ai-salon/SocraticAI.git
+cd SocraticAI
+```
+
+3. Install dependencies using Poetry:
+```bash
+poetry install
+```
+
+4. Activate the virtual environment:
+```bash
+poetry shell
+```
+
+5. Run commands within the Poetry environment:
+```bash
+# Instead of: poetry run SocraticAI -h
+SocraticAI -h
+```
+
+Common Poetry commands:
+- `poetry add package-name`: Add a new dependency
+- `poetry update`: Update dependencies to their latest versions
+- `poetry build`: Build the project
+- `poetry env info`: Show information about the virtual environment
+
 ## Command Line Interface (CLI)
 
 After installing the repo, you can use the CLI by calling `poetry run SocraticAI`.
 
 For instance, to see all commands you can get help by running 
 
-```poetry runSocraticAI -h```
+```poetry run SocraticAI -h```
 
 - stats               Stats on repo
 - full_run            Transcribe and generate_insights
