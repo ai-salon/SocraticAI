@@ -7,61 +7,67 @@ from typing import Dict, List
 
 import tiktoken
 
-from SocraticAI.config import DATA_DIRECTORY
+from socraticai.core.config import DATA_DIRECTORY
+
+
+def ensure_data_directories():
+    """Ensure all required data directories exist."""
+    subdirs = ['inputs', 'transcripts', 'processed', 'outputs']
+    for subdir in subdirs:
+        path = os.path.join(DATA_DIRECTORY, subdir)
+        if not os.path.exists(path):
+            os.makedirs(path)
+            logging.info(f"Created directory: {path}")
 
 
 def get_data_directory(subdirectory):
+    """Get the path to a data subdirectory, creating it if it doesn't exist."""
     path = os.path.join(DATA_DIRECTORY, subdirectory)
     if not os.path.exists(path):
         os.makedirs(path)
+        logging.info(f"Created directory: {path}")
     return path
 
 
 def get_transcribed_path(file_path):
+    """Get the path where a transcription should be saved."""
     basename = os.path.basename(file_path)
     if not basename.endswith("_transcript.txt"):
         basename = os.path.splitext(basename)[0] + "_transcript.txt"
     return os.path.join(get_data_directory("transcripts"), basename)
 
 
-def get_processed_path(file_path):
+def get_anonymized_path(file_path):
+    """Get the path where an anonymized transcription should be saved."""
     return (
         get_transcribed_path(file_path)
-        .replace(".txt", "_processed.txt")
+        .replace(".txt", "_anon.txt")
         .replace("transcripts", "processed")
     )
 
 
-def get_anonymized_path(file_path, processed=True):
-    if processed:
-        return get_processed_path(file_path).replace(".txt", "_anon.txt")
-    else:
-        return (
-            get_transcribed_path(file_path)
-            .replace(".txt", "_anon.txt")
-            .replace("transcripts", "processed")
-        )
-
-
-def get_output_path(file_path, postfix):
-    basename = os.path.basename(file_path)
-    basename = os.path.splitext(basename)[0] + "_" + postfix
-    return os.path.join(get_data_directory("outputs"), basename)
+def get_output_path():
+    """Get the path where output files should be saved."""
+    return get_data_directory("outputs")
 
 
 def get_stats():
+    """Get statistics about the files in the data directory."""
+    ensure_data_directories()
+    
     audio_files = glob(os.path.join(DATA_DIRECTORY, "inputs", "*"))
-    transcriptions = glob(os.path.join(DATA_DIRECTORY, "processed", "*transcript.txt"))
-    processed_files = glob(os.path.join(DATA_DIRECTORY, "processed", "*_processed.txt"))
+    transcriptions = glob(os.path.join(DATA_DIRECTORY, "transcripts", "*_transcript.txt"))
     anonymized_files = glob(os.path.join(DATA_DIRECTORY, "processed", "*_anon.txt"))
-    takeaways = glob(os.path.join(DATA_DIRECTORY, "outputs", "*takeaways.md"))
+    articles = glob(os.path.join(DATA_DIRECTORY, "outputs", "articles","*.md"))
 
-    # log number of each
-    logging.info(f"{len(audio_files)} audio files")
-    logging.info(f"{len(transcriptions)} transcriptions")
-    logging.info(f"{len(processed_files)} processed files")
-    logging.info(f"{len(anonymized_files)} anonymized files")
-    logging.info(f"{len(takeaways)} takeaways")
+    print("\nSocraticAI Data Directory Statistics:")
+    print("-" * 35)
+    print(f"Audio files: {len(audio_files)}")
+    print(f"Transcriptions: {len(transcriptions)}")
+    print(f"Anonymized files: {len(anonymized_files)}")
+    print(f"Articles: {len(articles)}")
+    print(f"\nData directory: {DATA_DIRECTORY}")
+
 
 def split_text(text, chunk_size=1000, overlap=200):
     encoding = tiktoken.get_encoding("cl100k_base")
@@ -76,6 +82,7 @@ def split_text(text, chunk_size=1000, overlap=200):
         start += (chunk_size - overlap)
     
     return chunks
+
 
 def chunk_text(text, chunk_size=5000, chunk_overlap=0):
     chunks = split_text(text, chunk_size, chunk_overlap)
