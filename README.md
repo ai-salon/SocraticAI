@@ -2,83 +2,145 @@
 
 
 # SocraticAI
-Codebase for transcribing and interpreting human conversations. SocraticAI was originally
-developed to support modern civil discourse about transformative ideas and technologies,
-like those facilitated by the [AI Salon](https://aisalon.xyz/).
 
-## Setup
+A powerful tool for transcribing conversations and generating blog posts from transcripts or audio files.
+
+## Quickstart
 
 ### Installation
-Install the repo from source:
 
-```pip install git+https://github.com/ai-salon/SocraticAI.git```
-
-### Data
-Audio files should be put in the "data" folder. Transcriptions and processed transcriptions will
-be created in that folder and moved to outputs.
-
-### Environment Variables
-You'll need certain environment variables set:
-* MODEL_TYPE: either 'openai' or 'anthropic'. Set the corresponding key below.
-* (Optional) ANTHROPIC_KEY: anthropic api token, used to interpret transcripts
-* (Optional) OPENAI_KEY: openai api token, used to interpret transcripts
-* ASSEMBLYAI_KEY: Assembly AI api token, used to transcribe
-You can set these in a '.env' file in your project.
-
-### Configuration
-Configuration is set up to automatically expect your files to be places in `data/inputs`. If
-you would like a different directory then `data` change it in the configuration file.
-
-### Spacy Setup
-We use spacy for named-entity-recognition (NER) to remove names. After downloading spacy you need
-to download the specific model we use to run NER.
-
-```python -m spacy download en_core_web_lg```
-
-### Poetry Setup and Usage
-This project uses Poetry for dependency management and packaging. To get started with Poetry:
-
-1. First, [install Poetry](https://python-poetry.org/docs/#installation) if you haven't already.
-
-2. Clone the repository and navigate to the project directory:
+1. Clone the repository:
 ```bash
-git clone https://github.com/ai-salon/SocraticAI.git
+git clone https://github.com/yourusername/SocraticAI.git
 cd SocraticAI
 ```
 
-3. Install dependencies using Poetry:
+2. Install dependencies using Poetry:
 ```bash
 poetry install
 ```
 
-4. Activate the virtual environment:
+3. Install spaCy model:
 ```bash
-poetry shell
+poetry run python -m spacy download en_core_web_lg
 ```
 
-5. Run commands within the Poetry environment:
-```bash
-# Instead of: poetry run SocraticAI -h
-SocraticAI -h
+### Environment Setup
+
+Create a `.env` file in the root directory with the following variables:
+
+```env
+# Required for transcription
+ASSEMBLYAI_API_KEY=your_assemblyai_key
+
+# Required for blog generation
+ANTHROPIC_API_KEY=your_anthropic_key
+
+# Optional settings
+MODEL_TYPE=claude-3-sonnet  # Default model for generation
 ```
 
-Common Poetry commands:
-- `poetry add package-name`: Add a new dependency
-- `poetry update`: Update dependencies to their latest versions
-- `poetry build`: Build the project
-- `poetry env info`: Show information about the virtual environment
+### Basic Usage
 
-## Command Line Interface (CLI)
+Generate a blog post from an audio file or transcript:
+```bash
+# From audio file
+socraticai substack generate recording.mp3
 
-After installing the repo, you can use the CLI by calling `poetry run SocraticAI`.
+# From transcript
+socraticai substack generate transcript.txt
+```
 
-For instance, to see all commands you can get help by running 
+Transcribe audio files:
+```bash
+# Single file
+socraticai transcribe single audio.mp3
 
-```poetry run SocraticAI -h```
+# Multiple files
+socraticai transcribe batch "audio/*.mp3"
+```
 
-- stats               Stats on repo
-- full_run            Transcribe and generate_insights
-- generate            Generate insights from a transcript
-- generate_multi      Generate insights from multiple transcripts
-- transcribe          Transcribe a single file
-- transcribe_multi    Transcribe multiple files
+## Detailed CLI Guide
+
+The CLI provides several command groups for different functionalities:
+
+### Transcription Commands
+
+```bash
+# Transcribe a single audio file
+socraticai transcribe single <file_path> [options]
+
+Options:
+  -o, --output-file TEXT    The name of the file to save the transcription to
+
+# Transcribe multiple audio files
+socraticai transcribe batch <path_pattern>
+```
+
+### Blog Generation Commands
+
+```bash
+# Generate a blog post from audio or transcript
+socraticai substack generate <input_file>
+```
+
+The `generate` command automatically detects whether the input is an audio file or transcript and processes it accordingly. Supported audio formats: mp3, wav, m4a, aac, flac.
+
+Blog posts and metadata are automatically saved in the `outputs/articles` directory:
+- The blog content is saved as a markdown file (`.md`)
+- Associated metadata is saved in a separate JSON file (`.meta.json`)
+
+### Other Commands
+
+```bash
+# Get repository statistics
+socraticai stats
+```
+
+## Output Format
+
+For each generated blog post, two files are created in the `outputs/articles` directory:
+
+1. Blog Content (`article_TIMESTAMP.md`):
+```markdown
+# Generated blog content in markdown format
+```
+
+2. Metadata (`article_TIMESTAMP.meta.json`):
+```json
+{
+  "generated_at": "ISO timestamp",
+  "type": "article",
+  "transcript_length": 1234,
+  "model": "claude-3-sonnet",
+  "source_audio": "path/to/audio.mp3",  // If generated from audio
+  "transcript_file": "path/to/transcript.txt"  // If generated from audio
+}
+```
+
+## Requirements
+
+- Python 3.11 or higher
+- Poetry for dependency management
+- AssemblyAI API key for transcription
+- Anthropic API key for blog generation
+- spaCy's en_core_web_lg model
+
+## Error Handling
+
+The tool includes various error checks:
+- Validates input file types (audio/text)
+- Ensures transcripts are long enough (minimum 1000 characters)
+- Provides helpful error messages for common issues
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
