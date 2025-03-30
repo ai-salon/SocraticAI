@@ -7,9 +7,9 @@ from glob import glob
 import logging
 
 from socraticai.transcribe.service import transcribe
-from socraticai.content.substack.blog_generator import (
-    BlogGenerator, 
-    BlogGenerationError,
+from socraticai.content.article.article_generator import (
+    ArticleGenerator, 
+    articleGenerationError,
     TranscriptTooShortError,
     UnsupportedFileTypeError
 )
@@ -62,63 +62,63 @@ def transcribe_multi(path_pattern: str):
 # Substack commands
 @click.group()
 def substack():
-    """Commands for managing Substack blog content."""
+    """Commands for managing Substack article content."""
     pass
 
 @substack.command()
 @click.argument('input_file', type=click.Path(exists=True))
 def generate(input_file: str, rerun: bool = False):
-    """Generate a blog post from either an audio file or transcript.
+    """Generate a article post from either an audio file or transcript.
     
     The command automatically detects whether the input is an audio file
     or a transcript and processes it accordingly.
     """
-    # Initialize the blog generator
-    generator = BlogGenerator()
+    # Initialize the article generator
+    generator = ArticleGenerator()
     
     try:
-        # Generate blog and get file paths
-        blog_path, metadata_path = generator.generate(
+        # Generate article and get file paths
+        article_path, metadata_path = generator.generate(
             input_path=input_file,
             rerun=rerun
         )
         
         # Show success message
-        click.echo(f"Blog post generated successfully!")
-        click.echo(f"Blog saved to: {blog_path}")
+        click.echo(f"article post generated successfully!")
+        click.echo(f"article saved to: {article_path}")
         click.echo(f"Metadata saved to: {metadata_path}")
             
     except TranscriptTooShortError as e:
         click.echo(f"Error: {str(e)}", err=True)
-        click.echo("The transcript needs to be longer to generate a meaningful blog post.", err=True)
+        click.echo("The transcript needs to be longer to generate a meaningful article post.", err=True)
     except UnsupportedFileTypeError as e:
         click.echo(f"Error: {str(e)}", err=True)
     except FileNotFoundError as e:
         click.echo(f"Error: {str(e)}", err=True)
     except Exception as e:
-        click.echo(f"Error generating blog post: {str(e)}", err=True)
+        click.echo(f"Error generating article post: {str(e)}", err=True)
 
 @substack.command(name="generate-multi")
 @click.argument('path_pattern', type=str)
 def generate_multi(path_pattern: str, rerun: bool = False):
-    """Generate blog posts from multiple files matching a pattern.
+    """Generate article posts from multiple files matching a pattern.
     
     This command will process all audio files or transcripts that match
-    the provided glob pattern and generate a blog post for each one.
+    the provided glob pattern and generate a article post for each one.
     """
     files = glob(path_pattern)
     if not files:
         click.echo(f"No files found matching pattern: {path_pattern}", err=True)
         return
     
-    generator = BlogGenerator()
+    generator = ArticleGenerator()
     success_count = 0
     
     for file_path in files:
         try:
-            blog_path, metadata_path = generator.generate(input_path=file_path, rerun=rerun)
-            click.echo(f"Successfully generated blog from {file_path}")
-            click.echo(f"  Blog: {blog_path}")
+            article_path, metadata_path = generator.generate(input_path=file_path, rerun=rerun)
+            click.echo(f"Successfully generated article from {file_path}")
+            click.echo(f"  article: {article_path}")
             click.echo(f"  Metadata: {metadata_path}")
             success_count += 1
         except TranscriptTooShortError as e:
@@ -128,7 +128,7 @@ def generate_multi(path_pattern: str, rerun: bool = False):
         except Exception as e:
             click.echo(f"Error processing {file_path}: {str(e)}", err=True)
     
-    click.echo(f"\nSummary: Successfully generated {success_count} of {len(files)} blog posts")
+    click.echo(f"\nSummary: Successfully generated {success_count} of {len(files)} article posts")
 
 
 # Knowledge Graph commands

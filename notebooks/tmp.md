@@ -1,4 +1,4 @@
-_Editors Note: This blog article is an AI-supported distillation of an in-person event held in [CITY] on February 22, 2025 - it is meant to capture the conversations at the event. Quotes are paraphrased from the original conversation and all names have been changed._
+_Editors Note: This article article is an AI-supported distillation of an in-person event held in [CITY] on February 22, 2025 - it is meant to capture the conversations at the event. Quotes are paraphrased from the original conversation and all names have been changed._
 
 👉 Jump to a longer list of takeaways and open questions
 

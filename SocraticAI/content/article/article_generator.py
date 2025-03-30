@@ -1,4 +1,4 @@
-"""Module for generating blog posts from transcripts."""
+"""Module for generating article posts from transcripts."""
 
 import os
 import mimetypes
@@ -10,29 +10,29 @@ from datetime import datetime
 import time
 
 from socraticai.core.llm import LLMChain, LLMResponse
-from socraticai.content.substack.prompts import transcript_analysis_prompt, blog_writing_prompt, blog_refinement_prompt
+from socraticai.content.article.prompts import transcript_analysis_prompt, article_writing_prompt, article_refinement_prompt
 from socraticai.transcribe.service import transcribe
 from socraticai.core.utils import get_output_path
 
 logger = logging.getLogger(__name__)
 
-class BlogGenerationError(Exception):
-    """Base exception for blog generation errors."""
+class articleGenerationError(Exception):
+    """Base exception for article generation errors."""
     pass
 
-class TranscriptTooShortError(BlogGenerationError):
+class TranscriptTooShortError(articleGenerationError):
     """Exception raised when transcript is too short."""
     pass
 
-class UnsupportedFileTypeError(BlogGenerationError):
+class UnsupportedFileTypeError(articleGenerationError):
     """Exception raised when file type is not supported."""
     pass
 
-class AnalysisParsingError(BlogGenerationError):
+class AnalysisParsingError(articleGenerationError):
     """Exception raised when analysis sections cannot be parsed."""
     pass
 
-class BlogGenerator:
+class ArticleGenerator:
     # Supported audio file extensions
     SUPPORTED_AUDIO_EXTENSIONS = {'.mp3', '.wav', '.m4a', '.aac', '.flac'}
     # Minimum transcript length (in characters)
@@ -41,29 +41,29 @@ class BlogGenerator:
     def __init__(self, llm_chain: Optional[LLMChain] = None):
         self.llm_chain = llm_chain or LLMChain()
         self.output_dir = Path(get_output_path()) / "articles"
-        logger.info(f"Initialized BlogGenerator with output directory: {self.output_dir}")
+        logger.info(f"Initialized ArticleGenerator with output directory: {self.output_dir}")
     
     def generate(self,
                 input_path: str,
                 rerun: bool = False) -> Tuple[Path, Path]:
         """
-        Generate and save a blog post from either an audio file or transcript.
+        Generate and save a article post from either an audio file or transcript.
         
         Args:
             input_path: Path to either an audio file or transcript text file
-            rerun: Whether to rerun the generation even if the blog already exists
+            rerun: Whether to rerun the generation even if the article already exists
         Returns:
-            Tuple of (blog_path, metadata_path) where the files were saved
+            Tuple of (article_path, metadata_path) where the files were saved
             
         Raises:
             UnsupportedFileTypeError: If the file type is not supported
             TranscriptTooShortError: If the transcript is too short
             FileNotFoundError: If the input file doesn't exist
         """
-        logger.info(f"Starting blog generation from input: {input_path}")
+        logger.info(f"Starting article generation from input: {input_path}")
         output_base_path = self.output_dir / self._get_base_filename(input_path)
         if os.path.exists(output_base_path.with_suffix('.md')) and not rerun:
-            logger.info(f"Blog already exists. Skipping generation. Set rerun=True to regenerate: {output_base_path.with_suffix('.md')}")
+            logger.info(f"article already exists. Skipping generation. Set rerun=True to regenerate: {output_base_path.with_suffix('.md')}")
             return output_base_path.with_suffix('.md'), output_base_path.with_suffix('.meta.json')
 
         if not os.path.exists(input_path):
@@ -75,8 +75,8 @@ class BlogGenerator:
         logger.info(f"Input detected as {'audio' if is_audio else 'text'} file")
         
         if is_audio:
-            logger.info("Processing audio file for blog generation")
-            result = self.generate_blog_from_audiofile(
+            logger.info("Processing audio file for article generation")
+            result = self.generate_article_from_audiofile(
                 audio_file=input_path,
             )
         else:
@@ -85,7 +85,7 @@ class BlogGenerator:
                 logger.info("Reading transcript file")
                 with open(input_path, 'r') as f:
                     transcript = f.read()
-                result = self.generate_blog_from_transcript(
+                result = self.generate_article_from_transcript(
                     transcript=transcript,
                     source_file=input_path
                 )
@@ -94,18 +94,18 @@ class BlogGenerator:
                 logger.error(error_msg)
                 raise UnsupportedFileTypeError(error_msg)
                 
-        # Save the generated blog and metadata
-        logger.info("Saving generated blog and metadata")
-        blog_path, metadata_path = self._save_blog(result, output_base_path)
-        logger.info(f"Blog saved to: {blog_path}")
+        # Save the generated article and metadata
+        logger.info("Saving generated article and metadata")
+        article_path, metadata_path = self._save_article(result, output_base_path)
+        logger.info(f"article saved to: {article_path}")
         logger.info(f"Metadata saved to: {metadata_path}")
-        return blog_path, metadata_path
+        return article_path, metadata_path
         
-    def generate_blog_from_transcript(self, 
+    def generate_article_from_transcript(self, 
                                     transcript: str,
                                     source_file: str) -> Dict[str, Any]:
         """
-        Generate a blog post from a transcript.
+        Generate a article post from a transcript.
         
         Args:
             transcript: The input transcript text
@@ -144,29 +144,29 @@ class BlogGenerator:
         # Parse the analysis sections
         analysis_sections = self._parse_analysis_sections(analysis)
         
-        # Step 2: Generate initial blog post
-        logger.info("Step 2: Writing initial blog post based on analysis")
+        # Step 2: Generate initial article post
+        logger.info("Step 2: Writing initial article post based on analysis")
         start_time = time.time()
-        blog_prompt = blog_writing_prompt(
+        article_prompt = article_writing_prompt(
             text=transcript,
             analysis=analysis
         )
-        blog_response = self.llm_chain.generate(
-            prompt=blog_prompt,
+        article_response = self.llm_chain.generate(
+            prompt=article_prompt,
             thinking_tokens=8096
         )
-        initial_blog = blog_response.content
-        step_times['initial_blog'] = time.time() - start_time
-        logger.info(f"Initial blog content generated in {step_times['initial_blog']:.2f} seconds")
-        final_blog = initial_blog
+        initial_article = article_response.content
+        step_times['initial_article'] = time.time() - start_time
+        logger.info(f"Initial article content generated in {step_times['initial_article']:.2f} seconds")
+        final_article = initial_article
 
-        # Step 3: reformat blog
-        # Format the final blog content
-        formatted_content = self._format_blog_content(source_file, final_blog, analysis_sections)
+        # Step 3: reformat article
+        # Format the final article content
+        formatted_content = self._format_article_content(source_file, final_article, analysis_sections)
         
         # Calculate total time
         total_time = sum(step_times.values())
-        logger.info(f"Total blog generation completed in {total_time:.2f} seconds")
+        logger.info(f"Total article generation completed in {total_time:.2f} seconds")
         
         # Process and structure the output
         output = {
@@ -183,7 +183,7 @@ class BlogGenerator:
                 },
                 "generation_times": {
                     "analysis_time": step_times['analysis'],
-                    "initial_blog_time": step_times['initial_blog'],
+                    "initial_article_time": step_times['initial_article'],
                     "total_time": total_time
                 }
             }
@@ -196,10 +196,10 @@ class BlogGenerator:
             
         return output
 
-    def generate_blog_from_audiofile(self,
+    def generate_article_from_audiofile(self,
                                    audio_file: str) -> Dict[str, Any]:
         """
-        Transcribe an audio file and generate a blog post from it.
+        Transcribe an audio file and generate a article post from it.
         
         Args:
             audio_file: Path to the audio file
@@ -223,9 +223,9 @@ class BlogGenerator:
         )
         logger.info(f"Audio transcription completed. Transcript saved to: {transcript_file}")
         
-        # Generate blog from the transcript
-        logger.info("Generating blog from transcription")
-        output = self.generate_blog_from_transcript(
+        # Generate article from the transcript
+        logger.info("Generating article from transcription")
+        output = self.generate_article_from_transcript(
             transcript=transcript,
             source_file=transcript_file
         )
@@ -249,16 +249,16 @@ class BlogGenerator:
         logger.debug(f"File {file_path} audio check: {is_audio} (ext: {ext}, mime: {mime_type})")
         return is_audio
 
-    def _format_blog_content(self, input_path: str, blog_content: str, analysis_sections: Dict[str, Any]) -> str:
-        """Format the blog content with the analysis sections in the correct places."""
-        logger.debug("Formatting final blog content")
+    def _format_article_content(self, input_path: str, article_content: str, analysis_sections: Dict[str, Any]) -> str:
+        """Format the article content with the analysis sections in the correct places."""
+        logger.debug("Formatting final article content")
         
         try:
             
-            # Construct the final blog with proper sections
+            # Construct the final article with proper sections
             sections = [
                 f"{self._get_header(input_path)}\n\n",
-                blog_content,
+                article_content,
                 "\n\n# Notes from the Conversation",
                 analysis_sections["insights"],
                 "\n\n# Open Questions",
@@ -268,17 +268,17 @@ class BlogGenerator:
             ]
             
             formatted_content = "\n".join(sections)
-            logger.debug("Successfully formatted blog content")
+            logger.debug("Successfully formatted article content")
             return formatted_content
             
         except Exception as e:
-            error_msg = f"Error formatting blog content: {str(e)}"
+            error_msg = f"Error formatting article content: {str(e)}"
             logger.error(error_msg)
             raise AnalysisParsingError(error_msg)
 
     def _get_header(self, input_path: str) -> str:
-        """Get the header for the blog post."""
-        header = """_Editors Note: This blog article is an AI-supported distillation of an in-person event held in [CITY] on [DATE] facilitated by [HOST]- it is meant to capture the conversations at the event. Quotes are paraphrased from the original conversation and all names have been changed._
+        """Get the header for the article post."""
+        header = """_Editors Note: This article article is an AI-supported distillation of an in-person event held in [CITY] on [DATE] facilitated by [HOST]- it is meant to capture the conversations at the event. Quotes are paraphrased from the original conversation and all names have been changed._
 
 👉 [Jump](https://aisalon.substack.com/i/FILLIN/notes-from-the-conversation) to a longer list of takeaways and open questions"""
         # Try to extract date from filename format "YYYY-MM-DD *"
@@ -336,16 +336,16 @@ class BlogGenerator:
             logger.error(error_msg)
             raise AnalysisParsingError(error_msg)
         
-    def _save_blog(self, blog_info: Dict[str, Any], output_base_path: str) -> Tuple[Path, Path]:
+    def _save_article(self, article_info: Dict[str, Any], output_base_path: str) -> Tuple[Path, Path]:
         """
-        Save the blog content and metadata as separate files.
+        Save the article content and metadata as separate files.
         
         Args:
-            blog_info: Dictionary containing blog content and metadata
-            output_base_path: Base path to save the blog and metadata
+            article_info: Dictionary containing article content and metadata
+            output_base_path: Base path to save the article and metadata
             
         Returns:
-            Tuple of (blog_path, metadata_path)
+            Tuple of (article_path, metadata_path)
         """
         # Generate base filename from input
         logger.info(f"Preparing to save files with output path: {output_base_path}")
@@ -353,11 +353,11 @@ class BlogGenerator:
         # Create directory if it doesn't exist
         os.makedirs(self.output_dir, exist_ok=True)
         
-        # Save blog content as markdown
-        blog_path = output_base_path.with_suffix('.md')
-        logger.info(f"Saving blog content to: {blog_path}")
-        with open(blog_path, 'w') as f:
-            f.write(blog_info["content"])
+        # Save article content as markdown
+        article_path = output_base_path.with_suffix('.md')
+        logger.info(f"Saving article content to: {article_path}")
+        with open(article_path, 'w') as f:
+            f.write(article_info["content"])
             
         # Save metadata as JSON
         stem = Path(output_base_path).stem
@@ -365,6 +365,6 @@ class BlogGenerator:
         logger.info(f"Saving metadata to: {metadata_path}")
         with open(metadata_path, 'w') as f:
             import json
-            json.dump(blog_info["metadata"], f, indent=2)
+            json.dump(article_info["metadata"], f, indent=2)
             
-        return blog_path, metadata_path
+        return article_path, metadata_path

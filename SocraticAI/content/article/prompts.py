@@ -1,4 +1,4 @@
-"""Prompts for blog generation and content creation."""
+"""Prompts for article generation and content creation."""
 
 from socraticai.core.utils import Prompt
 
@@ -50,10 +50,10 @@ TRANSCRIPT:
 '''
 )
 
-blog_writing_prompt = Prompt(
-    "blog_writing",
+article_writing_prompt = Prompt(
+    "article_writing",
     '''
-I'd like you to write a blog post based on a conversation transcript and its analysis. The blog should be about 2000 words in length.
+I'd like you to write a article post based on a conversation transcript and its analysis. The article should be about 2000 words in length.
 
 ## Previous Analysis
 ```{analysis}```
@@ -118,10 +118,10 @@ TRANSCRIPT:
 '''
 )
 
-blog_refinement_prompt = Prompt(
-    "blog_refinement",
+article_refinement_prompt = Prompt(
+    "article_refinement",
     '''
-I'd like you to refine and improve a blog post based on its source transcript and analysis. The goal is to ensure the blog deeply explores the themes while maintaining fidelity to the original conversation.
+I'd like you to refine and improve a article post based on its source transcript and analysis. The goal is to ensure the article deeply explores the themes while maintaining fidelity to the original conversation.
 
 ## Original Transcript
 ```{text}```
@@ -129,14 +129,14 @@ I'd like you to refine and improve a blog post based on its source transcript an
 ## Analysis
 ```{analysis}```
 
-## Current Blog Draft
-```{blog}```
+## Current article Draft
+```{article}```
 
 ## Refinement Goals
 1. Ensure strict fidelity to the content and insights from the transcript:
    - Verify all claims and interpretations are supported by the transcript
    - Remove any speculative or unsupported statements
-   - Ensure the blog accurately represents the conversation's context and nuances
+   - Ensure the article accurately represents the conversation's context and nuances
 
 2. Deepen the exploration of themes:
    - Fully develop each thematic section
@@ -151,7 +151,7 @@ I'd like you to refine and improve a blog post based on its source transcript an
    - Remove redundant or less impactful quotes
 
 ## Output Format
-Please provide the refined blog post maintaining the same overall structure:
+Please provide the refined article post maintaining the same overall structure:
 - Main Takeaways section at the start
 - Thematic sections in the middle
 

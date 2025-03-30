@@ -3,7 +3,7 @@
 
 # SocraticAI
 
-A powerful tool for transcribing conversations and generating blog posts from transcripts or audio files.
+A powerful tool for transcribing conversations and generating article posts from transcripts or audio files.
 
 ## Quickstart
 
@@ -33,7 +33,7 @@ Create a `.env` file in the root directory with the following variables:
 # Required for transcription
 ASSEMBLYAI_API_KEY=your_assemblyai_key
 
-# Required for blog generation
+# Required for article generation
 ANTHROPIC_API_KEY=your_anthropic_key
 
 # Optional settings
@@ -42,7 +42,7 @@ MODEL_TYPE=claude-3-sonnet  # Default model for generation
 
 ### Basic Usage
 
-Generate a blog post from an audio file or transcript:
+Generate a article post from an audio file or transcript:
 ```bash
 # From audio file
 socraticai substack generate recording.mp3
@@ -77,17 +77,17 @@ Options:
 socraticai transcribe batch <path_pattern>
 ```
 
-### Blog Generation Commands
+### article Generation Commands
 
 ```bash
-# Generate a blog post from audio or transcript
+# Generate a article post from audio or transcript
 socraticai substack generate <input_file>
 ```
 
 The `generate` command automatically detects whether the input is an audio file or transcript and processes it accordingly. Supported audio formats: mp3, wav, m4a, aac, flac.
 
-Blog posts and metadata are automatically saved in the `outputs/articles` directory:
-- The blog content is saved as a markdown file (`.md`)
+article posts and metadata are automatically saved in the `outputs/articles` directory:
+- The article content is saved as a markdown file (`.md`)
 - Associated metadata is saved in a separate JSON file (`.meta.json`)
 
 ### Other Commands
@@ -99,11 +99,11 @@ socraticai stats
 
 ## Output Format
 
-For each generated blog post, two files are created in the `outputs/articles` directory:
+For each generated article post, two files are created in the `outputs/articles` directory:
 
-1. Blog Content (`article_TIMESTAMP.md`):
+1. article Content (`article_TIMESTAMP.md`):
 ```markdown
-# Generated blog content in markdown format
+# Generated article content in markdown format
 ```
 
 2. Metadata (`article_TIMESTAMP.meta.json`):
@@ -123,7 +123,7 @@ For each generated blog post, two files are created in the `outputs/articles` di
 - Python 3.11 or higher
 - Poetry for dependency management
 - AssemblyAI API key for transcription
-- Anthropic API key for blog generation
+- Anthropic API key for article generation
 - spaCy's en_core_web_lg model
 
 ## Error Handling
