@@ -160,9 +160,10 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-# Audiofiles
+# Data files
 data/inputs/*
 data/processed/*txt
 data/transcripts/*txt
-data/outputs/*
+data/outputs/**/*md
+data/outputs/**/*json
 outputs/*
