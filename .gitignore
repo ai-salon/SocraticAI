@@ -162,4 +162,7 @@ cython_debug/
 
 # Audiofiles
 data/inputs/*
+data/processed/*txt
+data/transcripts/*txt
+data/outputs/*
 outputs/*
