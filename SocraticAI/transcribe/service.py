@@ -9,10 +9,11 @@ from socraticai.core.utils import (
     get_anonymized_path,
     get_transcribed_path,
 )
+from socraticai.config import ASSEMBLYAI_API_KEY
 
 logger = logging.getLogger(__name__)
 
-aai.settings.api_key = os.getenv("ASSEMBLYAI_API_KEY")
+aai.settings.api_key = ASSEMBLYAI_API_KEY
 
 
 def transcribe(file_path, output_file=None, anonymize=True):

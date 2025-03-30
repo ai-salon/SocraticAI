@@ -1,15 +1,13 @@
-import json
 import logging
 import os
-import re
-import time
 from collections import namedtuple
 from typing import Optional, Dict, Any, List, Union
 from anthropic import Anthropic
 from tenacity import retry, stop_after_attempt, wait_exponential
+from socraticai.config import ANTHROPIC_API_KEY, DEFAULT_LLM_MODEL
 
 logger = logging.getLogger(__name__)
-MODEL = "claude-3-7-sonnet-20250219"
+MODEL = DEFAULT_LLM_MODEL
 
 class LLMResponse:
     def __init__(self, content: str, metadata: Optional[Dict[str, Any]] = None):
@@ -18,7 +16,7 @@ class LLMResponse:
 
 class LLMChain:
     def __init__(self, api_key: Optional[str] = None):
-        self.api_key = api_key or os.getenv("ANTHROPIC_API_KEY")
+        self.api_key = api_key or ANTHROPIC_API_KEY
         if not self.api_key:
             raise ValueError("Anthropic API key must be provided or set in ANTHROPIC_API_KEY environment variable")
         self.client = Anthropic(api_key=self.api_key)
