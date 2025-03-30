@@ -161,9 +161,4 @@ cython_debug/
 #.idea/
 
 # Data files
-data/inputs/*
-data/processed/*txt
-data/transcripts/*txt
-data/outputs/**/*md
-data/outputs/**/*json
-outputs/*
+data/*
