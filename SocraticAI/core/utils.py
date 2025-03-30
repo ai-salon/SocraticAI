@@ -59,13 +59,14 @@ def get_stats():
     ensure_data_directories()
     
     audio_files = glob(os.path.join(DATA_DIRECTORY, "inputs", "*"))
+    audio_files = [file for file in audio_files if not file.endswith(".py")]
     transcriptions = glob(os.path.join(DATA_DIRECTORY, "transcripts", "*_transcript.txt"))
     anonymized_files = glob(os.path.join(DATA_DIRECTORY, "processed", "*_anon.txt"))
     articles = glob(os.path.join(DATA_DIRECTORY, "outputs", "articles","*.md"))
 
     print("\nSocraticAI Data Directory Statistics:")
     print("-" * 35)
-    print(f"Audio files: {len(audio_files)-1}")
+    print(f"Audio files: {len(audio_files)}")
     print(f"Transcriptions: {len(transcriptions)}")
     print(f"Anonymized files: {len(anonymized_files)}")
     print(f"Articles: {len(articles)}")
