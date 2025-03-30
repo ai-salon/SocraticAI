@@ -3,7 +3,7 @@
 
 # SocraticAI
 
-A powerful tool for transcribing conversations and generating article posts from transcripts or audio files.
+A tool for transcribing conversations and generating distillations (summaries, articles) from transcripts or audio files.
 
 ## Quickstart
 
@@ -20,9 +20,14 @@ cd SocraticAI
 poetry install
 ```
 
-3. Install spaCy model:
+3. Install spaCy model (used for transcript anonymization)
 ```bash
 poetry run python -m spacy download en_core_web_lg
+```
+
+4. Run Socratic AI
+```bash
+poetry run socraticai -h
 ```
 
 ### Environment Setup
@@ -40,53 +45,86 @@ ANTHROPIC_API_KEY=your_anthropic_key
 MODEL_TYPE=claude-3-sonnet  # Default model for generation
 ```
 
+### Data Directory Setup
+
+SocraticAI uses a structured data directory for all inputs and outputs. By default it will use the data directory in the repo. You can change that directory in the `socraticai/config.py`. 
+
+Place any audio files or transcripts you want to process in the `data/inputs` directory.
+
 ### Basic Usage
 
-Generate a article post from an audio file or transcript:
+Generate an article (which will also transcribe)
 ```bash
-# From audio file
-socraticai substack generate recording.mp3
+# Process all files in the input directory
+socraticai article
 
-# From transcript
-socraticai substack generate transcript.txt
+# From a specific file (doesn't have to be in the input directory)
+socraticai article recording.mp3
+
+# From multiple files using a wildcard pattern
+socraticai article "recordings/*.mp3"
+
+
+# Generate article without anonymization
+socraticai article recording.mp3 --no-anonymize
 ```
 
-Transcribe audio files:
+Transcribe audio files with content creation:
 ```bash
-# Single file
-socraticai transcribe single audio.mp3
+# A specific file
+socraticai transcribe audio.mp3
 
-# Multiple files
-socraticai transcribe batch "audio/*.mp3"
+# Multiple files using a wildcard pattern
+socraticai transcribe "audio/*.mp3"
+
+# Process all files in the input directory
+socraticai transcribe
+
+# Transcribe without anonymization
+socraticai transcribe audio.mp3 --no-anonymize
 ```
 
 ## Detailed CLI Guide
 
-The CLI provides several command groups for different functionalities:
+The CLI provides several main commands with adaptive behavior:
 
-### Transcription Commands
+### Transcription Command
 
 ```bash
-# Transcribe a single audio file
-socraticai transcribe single <file_path> [options]
+socraticai transcribe [path] [options]
+```
+
+The `transcribe` command adapts to the argument provided:
+- No path: Processes all files in the input directory
+- Specific file: Processes just that file
+- Path with wildcards: Processes all matching files
 
 Options:
-  -o, --output-file TEXT    The name of the file to save the transcription to
-
-# Transcribe multiple audio files
-socraticai transcribe batch <path_pattern>
+```
+-o, --output-file TEXT                The name of the file to save the transcription to (only works when processing a single file)
+--anonymize/--no-anonymize            Whether to anonymize the transcript (default: True)
 ```
 
-### article Generation Commands
+### Article Generation Command
 
 ```bash
-# Generate a article post from audio or transcript
-socraticai substack generate <input_file>
+socraticai article [path] [options]
 ```
 
-The `generate` command automatically detects whether the input is an audio file or transcript and processes it accordingly. Supported audio formats: mp3, wav, m4a, aac, flac.
+The `article` command adapts to the argument provided:
+- No path: Processes all files in the input directory
+- Specific file: Processes just that file
+- Path with wildcards: Processes all matching files
 
-article posts and metadata are automatically saved in the `outputs/articles` directory:
+Options:
+```
+--rerun                              Force regeneration even if article already exists
+--anonymize/--no-anonymize           Whether to anonymize the transcript (default: True)
+```
+
+The article command automatically detects whether the input is an audio file or transcript and processes it accordingly. Supported audio formats: mp3, wav, m4a, aac, flac.
+
+Articles and metadata are automatically saved in the `outputs/articles` directory:
 - The article content is saved as a markdown file (`.md`)
 - Associated metadata is saved in a separate JSON file (`.meta.json`)
 
@@ -97,11 +135,28 @@ article posts and metadata are automatically saved in the `outputs/articles` dir
 socraticai stats
 ```
 
+## Custom Data Directory
+
+By default, SocraticAI uses a `data` directory in the project root for all input and output files. You can customize this location by modifying the `socraticai/config.py` file:
+
+```python
+# Update this path to use a different data directory
+DATA_DIRECTORY = os.path.join(BASE_DIRECTORY, "data")
+```
+
+The data directory structure is as follows:
+- `data/inputs/` - Place your audio files or transcripts here for batch processing
+- `data/transcripts/` - Generated transcripts are stored here
+- `data/processed/` - Processed and anonymized transcripts
+- `data/outputs/` - Generated outputs (articles, etc.)
+
+These folders will be automatically created by running SocraticAI.
+
 ## Output Format
 
 For each generated article post, two files are created in the `outputs/articles` directory:
 
-1. article Content (`article_TIMESTAMP.md`):
+1. Article Content (`article_TIMESTAMP.md`):
 ```markdown
 # Generated article content in markdown format
 ```
@@ -114,7 +169,8 @@ For each generated article post, two files are created in the `outputs/articles`
   "transcript_length": 1234,
   "model": "claude-3-sonnet",
   "source_audio": "path/to/audio.mp3",  // If generated from audio
-  "transcript_file": "path/to/transcript.txt"  // If generated from audio
+  "transcript_file": "path/to/transcript.txt",  // If generated from audio
+  "anonymized": true  // Whether the transcript was anonymized
 }
 ```
 
@@ -132,6 +188,63 @@ The tool includes various error checks:
 - Validates input file types (audio/text)
 - Ensures transcripts are long enough (minimum 1000 characters)
 - Provides helpful error messages for common issues
+
+## Developer Guide
+
+### Adding New Output Types
+
+SocraticAI is designed to be modular, allowing for easy addition of new output types beyond articles. To create a new output type:
+
+1. Create a new submodule in the `socraticai/content/` directory:
+```
+socraticai/content/your_output_type/
+```
+
+2. Create a generator class following the pattern of `ArticleGenerator`:
+```python
+# socraticai/content/your_output_type/output_generator.py
+
+class YourOutputTypeGenerator:
+    def __init__(self):
+        # Setup necessary resources
+        pass
+        
+    def generate(self, input_path, anonymize=True):
+        # Handle both audio files and transcript files
+        # Use the transcribe service with the anonymize option
+        # Generate your output
+        # Return paths to output files
+        pass
+```
+
+3. Add prompts for your generator (if using LLMs):
+```python
+# socraticai/content/your_output_type/prompts.py
+
+def your_prompt_template(text, **kwargs):
+    return f"""
+    Your prompt instructions here...
+    
+    {text}
+    """
+```
+
+4. Add a new command to the CLI:
+```python
+# cli/commands.py
+
+@click.command()
+@click.argument('path', type=str, required=False)
+@click.option('--anonymize/--no-anonymize', default=True, help='Whether to anonymize the transcript (default: True)')
+def your_output_type(path=None, anonymize=True):
+    """Generate your output type from audio or transcript files."""
+    # Implementation similar to the article command
+    pass
+    
+# Register in cli/__init__.py
+```
+
+5. Update tests to cover your new functionality.
 
 ## Contributing
 

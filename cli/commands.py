@@ -5,110 +5,96 @@ from pathlib import Path
 from typing import Optional
 from glob import glob
 import logging
+import os
 
 from socraticai.transcribe.service import transcribe
 from socraticai.content.article.article_generator import (
     ArticleGenerator, 
-    articleGenerationError,
     TranscriptTooShortError,
     UnsupportedFileTypeError
 )
 from socraticai.content.knowledge_graph.graph_generator import KnowledgeGraphGenerator
-from socraticai.core.utils import get_stats
+from socraticai.core.utils import get_stats, get_input_path
 
 logger = logging.getLogger(__name__)
 
 # Stats command
 @click.command()
 def stats():
-    """Get statistics about the repository."""
+    """Get statistics about the data folder."""
     get_stats()
 
-# Transcription commands
-@click.group()
-def transcribe_group():
-    """Commands for audio transcription."""
-    pass
-
-@transcribe_group.command(name="single")
-@click.argument('file_path', type=click.Path(exists=True))
-@click.option('--output-file', '-o',
-              type=click.Path(),
-              help='The name of the file the transcription is saved to')
-def transcribe_single(file_path: str, output_file: Optional[str] = None):
-    """Transcribe a single audio file."""
-    try:
-        output_file, _ = transcribe(file_path, output_file=output_file)
-        click.echo(f"Successfully transcribed {file_path} to {output_file}")
-    except Exception as e:
-        click.echo(f"Error transcribing file: {str(e)}", err=True)
-
-@transcribe_group.command(name="batch")
-@click.argument('path_pattern', type=str)
-def transcribe_multi(path_pattern: str):
-    """Transcribe multiple files matching a pattern."""
-    files = glob(path_pattern)
+# Transcription command
+@click.command()
+@click.argument('path', type=str, required=False)
+@click.option('--output-file', '-o', type=click.Path(), help='The name of the file to save the transcription to')
+@click.option('--anonymize/--no-anonymize', default=True, help='Whether to anonymize the transcript (default: True)')
+def transcribe(path=None, output_file=None, anonymize=True):
+    """Transcribe audio files.
+    
+    If no path is provided, processes all files in the input directory.
+    If a specific file path is provided, processes just that file.
+    If a pattern with wildcards is provided, processes all matching files.
+    """
+    if path is None:
+        # Process all files in the input directory
+        input_path = get_input_path()
+        files = glob(os.path.join(input_path, "*"))
+    elif '*' in path or '?' in path:
+        # Process files matching the pattern
+        files = glob(path)
+    else:
+        # Process a single file
+        if not os.path.exists(path):
+            click.echo(f"Error: File not found: {path}", err=True)
+            return
+        files = [path]
+        
+    # Filter out __init__.py files
+    files = [f for f in files if not os.path.basename(f) == "__init__.py"]
+        
     if not files:
-        click.echo(f"No files found matching pattern: {path_pattern}", err=True)
+        click.echo(f"No files found to process", err=True)
         return
     
     for file_path in files:
         try:
-            output_file, _ = transcribe(file_path)
-            click.echo(f"Successfully transcribed {file_path} to {output_file}")
+            output_path, _ = transcribe(file_path, output_file=output_file if len(files) == 1 else None, anonymize=anonymize)
+            click.echo(f"Successfully transcribed {file_path} to {output_path}")
         except Exception as e:
             click.echo(f"Error transcribing {file_path}: {str(e)}", err=True)
 
-# Substack commands
-@click.group()
-def substack():
-    """Commands for managing Substack article content."""
-    pass
-
-@substack.command()
-@click.argument('input_file', type=click.Path(exists=True))
-def generate(input_file: str, rerun: bool = False):
-    """Generate a article post from either an audio file or transcript.
+# Article command
+@click.command()
+@click.argument('path', type=str, required=False)
+@click.option('--rerun', is_flag=True, help='Force regeneration even if article already exists')
+@click.option('--anonymize/--no-anonymize', default=True, help='Whether to anonymize the transcript (default: True)')
+def article(path=None, rerun=False, anonymize=True):
+    """Generate articles from audio or transcript files.
     
-    The command automatically detects whether the input is an audio file
-    or a transcript and processes it accordingly.
+    If no path is provided, processes all files in the input directory.
+    If a specific file path is provided, processes just that file.
+    If a pattern with wildcards is provided, processes all matching files.
     """
-    # Initialize the article generator
-    generator = ArticleGenerator()
+    if path is None:
+        # Process all files in the input directory
+        input_path = get_input_path()
+        files = glob(os.path.join(input_path, "*"))
+    elif '*' in path or '?' in path:
+        # Process files matching the pattern
+        files = glob(path)
+    else:
+        # Process a single file
+        if not os.path.exists(path):
+            click.echo(f"Error: File not found: {path}", err=True)
+            return
+        files = [path]
     
-    try:
-        # Generate article and get file paths
-        article_path, metadata_path = generator.generate(
-            input_path=input_file,
-            rerun=rerun
-        )
-        
-        # Show success message
-        click.echo(f"article post generated successfully!")
-        click.echo(f"article saved to: {article_path}")
-        click.echo(f"Metadata saved to: {metadata_path}")
-            
-    except TranscriptTooShortError as e:
-        click.echo(f"Error: {str(e)}", err=True)
-        click.echo("The transcript needs to be longer to generate a meaningful article post.", err=True)
-    except UnsupportedFileTypeError as e:
-        click.echo(f"Error: {str(e)}", err=True)
-    except FileNotFoundError as e:
-        click.echo(f"Error: {str(e)}", err=True)
-    except Exception as e:
-        click.echo(f"Error generating article post: {str(e)}", err=True)
-
-@substack.command(name="generate-multi")
-@click.argument('path_pattern', type=str)
-def generate_multi(path_pattern: str, rerun: bool = False):
-    """Generate article posts from multiple files matching a pattern.
+    # Filter out __init__.py files
+    files = [f for f in files if not os.path.basename(f) == "__init__.py"]
     
-    This command will process all audio files or transcripts that match
-    the provided glob pattern and generate a article post for each one.
-    """
-    files = glob(path_pattern)
     if not files:
-        click.echo(f"No files found matching pattern: {path_pattern}", err=True)
+        click.echo(f"No files found to process", err=True)
         return
     
     generator = ArticleGenerator()
@@ -116,9 +102,9 @@ def generate_multi(path_pattern: str, rerun: bool = False):
     
     for file_path in files:
         try:
-            article_path, metadata_path = generator.generate(input_path=file_path, rerun=rerun)
+            article_path, metadata_path = generator.generate(input_path=file_path, rerun=rerun, anonymize=anonymize)
             click.echo(f"Successfully generated article from {file_path}")
-            click.echo(f"  article: {article_path}")
+            click.echo(f"  Article: {article_path}")
             click.echo(f"  Metadata: {metadata_path}")
             success_count += 1
         except TranscriptTooShortError as e:
@@ -128,69 +114,6 @@ def generate_multi(path_pattern: str, rerun: bool = False):
         except Exception as e:
             click.echo(f"Error processing {file_path}: {str(e)}", err=True)
     
-    click.echo(f"\nSummary: Successfully generated {success_count} of {len(files)} article posts")
-
-
-# Knowledge Graph commands
-@click.group()
-def knowledge_graph():
-    """Commands for managing knowledge graph content."""
-    pass
-
-@knowledge_graph.command()
-@click.argument('article_path', type=click.Path(exists=True))
-def process_article(article_path: str):
-    """Process an article and generate knowledge graph nodes.
-    
-    This command will:
-    1. Extract entities from the article
-    2. Generate or update nodes for each entity
-    3. Update related nodes to maintain consistency
-    """
-    generator = KnowledgeGraphGenerator()
-    
-    try:
-        # Read the article
-        with open(article_path, 'r') as f:
-            content = f.read()
-            
-        # Process the article
-        source_id = Path(article_path).stem
-        updated_nodes = generator.process_article(content, source_id)
-        
-        # Show success message
-        click.echo(f"Successfully processed article!")
-        click.echo(f"Generated/updated {len(updated_nodes)} nodes:")
-        for node_path in updated_nodes:
-            click.echo(f"  - {node_path}")
-            
-    except Exception as e:
-        click.echo(f"Error processing article: {str(e)}", err=True)
-
-@knowledge_graph.command()
-@click.argument('source_id', type=str)
-@click.argument('target_id', type=str)
-def merge_entities(source_id: str, target_id: str):
-    """Merge two entities in the knowledge graph.
-    
-    This will:
-    1. Merge the source entity into the target
-    2. Update all relationships
-    3. Delete the source node
-    4. Update the target node
-    """
-    generator = KnowledgeGraphGenerator()
-    
-    try:
-        # Merge entities
-        updated_node = generator.merge_entities(source_id, target_id)
-        
-        if updated_node:
-            click.echo(f"Successfully merged entities!")
-            click.echo(f"Updated node: {updated_node}")
-        else:
-            click.echo("Failed to merge entities - check entity IDs", err=True)
-            
-    except Exception as e:
-        click.echo(f"Error merging entities: {str(e)}", err=True)
+    if len(files) > 1:
+        click.echo(f"\nSummary: Successfully generated {success_count} of {len(files)} articles")
 

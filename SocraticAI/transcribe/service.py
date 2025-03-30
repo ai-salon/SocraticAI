@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 aai.settings.api_key = os.getenv("ASSEMBLYAI_API_KEY")
 
 
-def transcribe(file_path, output_file=None):
+def transcribe(file_path, output_file=None, anonymize=True):
     """
     Transcribes an audio file using AssemblyAI's transcription service.
 
@@ -23,6 +23,7 @@ def transcribe(file_path, output_file=None):
         file_path (str): The path to the audio file to transcribe.
         output_file (str, optional): The path to save the transcript to. If not provided,
             a default path will be used.
+        anonymize (bool, optional): Whether to anonymize the transcript. Defaults to True.
 
     Returns:
         tuple: A tuple containing the output file path and the transcript text.
@@ -53,14 +54,15 @@ def transcribe(file_path, output_file=None):
             f.write(transcript_string)
     returned_file = output_file
 
-    anon_file_path = get_anonymized_path(file_path)
-    if not os.path.exists(anon_file_path):
-        logger.info(f"Anonymizing {output_file}...")
-        transcript = anonymize_transcript(output_file, anon_file_path)
-    else:
-        logger.info(f"Anonymized already. Loading {anon_file_path}...")
-        with open(anon_file_path, "r") as f:
-            transcript = f.read()
-    returned_file = anon_file_path
+    if anonymize:
+        anon_file_path = get_anonymized_path(file_path)
+        if not os.path.exists(anon_file_path):
+            logger.info(f"Anonymizing {output_file}...")
+            transcript = anonymize_transcript(output_file, anon_file_path)
+        else:
+            logger.info(f"Anonymized already. Loading {anon_file_path}...")
+            with open(anon_file_path, "r") as f:
+                transcript = f.read()
+        returned_file = anon_file_path
 
     return returned_file, transcript

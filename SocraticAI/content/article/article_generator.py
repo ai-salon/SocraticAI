@@ -9,7 +9,7 @@ from typing import Optional, Dict, Any, Tuple, List
 from datetime import datetime
 import time
 
-from socraticai.core.llm import LLMChain, LLMResponse
+from socraticai.core.llm import LLMChain
 from socraticai.content.article.prompts import transcript_analysis_prompt, article_writing_prompt, article_refinement_prompt
 from socraticai.transcribe.service import transcribe
 from socraticai.core.utils import get_output_path
@@ -45,13 +45,15 @@ class ArticleGenerator:
     
     def generate(self,
                 input_path: str,
-                rerun: bool = False) -> Tuple[Path, Path]:
+                rerun: bool = False,
+                anonymize: bool = True) -> Tuple[Path, Path]:
         """
         Generate and save a article post from either an audio file or transcript.
         
         Args:
             input_path: Path to either an audio file or transcript text file
             rerun: Whether to rerun the generation even if the article already exists
+            anonymize: Whether to anonymize the transcript. Defaults to True.
         Returns:
             Tuple of (article_path, metadata_path) where the files were saved
             
@@ -78,6 +80,7 @@ class ArticleGenerator:
             logger.info("Processing audio file for article generation")
             result = self.generate_article_from_audiofile(
                 audio_file=input_path,
+                anonymize=anonymize
             )
         else:
             # Try to read as text file
@@ -197,12 +200,14 @@ class ArticleGenerator:
         return output
 
     def generate_article_from_audiofile(self,
-                                   audio_file: str) -> Dict[str, Any]:
+                                   audio_file: str,
+                                   anonymize: bool = True) -> Dict[str, Any]:
         """
         Transcribe an audio file and generate a article post from it.
         
         Args:
             audio_file: Path to the audio file
+            anonymize: Whether to anonymize the transcript. Defaults to True.
             
         Returns:
             Dictionary containing the generated content and metadata
@@ -220,6 +225,7 @@ class ArticleGenerator:
         logger.info(f"Starting transcription of audio file: {audio_file}")
         transcript_file, transcript = transcribe(
             audio_file, 
+            anonymize=anonymize
         )
         logger.info(f"Audio transcription completed. Transcript saved to: {transcript_file}")
         
@@ -234,7 +240,8 @@ class ArticleGenerator:
         logger.info("Adding audio source metadata")
         output["metadata"].update({
             "source_audio": audio_file,
-            "transcript_file": transcript_file
+            "transcript_file": transcript_file,
+            "anonymized": anonymize
         })
         
         return output

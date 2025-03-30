@@ -5,7 +5,7 @@ import logging
 from dotenv import find_dotenv, load_dotenv
 import os
 
-from cli.commands import substack, transcribe_group, stats
+from cli.commands import transcribe, article, stats
 
 # Set up logging
 logging.basicConfig(
@@ -15,7 +15,7 @@ logging.basicConfig(
 
 logger = logging.getLogger("SocraticAI")
 
-@click.group()
+@click.group(context_settings=dict(help_option_names=['-h', '--help']))
 def cli():
     """SocraticAI CLI tool."""
     # Load environment variables
@@ -25,10 +25,10 @@ def cli():
         load_dotenv(dotenv_path)
         logger.info(f'Model type: {os.getenv("MODEL_TYPE")}')
 
-# Add all command groups
+# Add all commands
 cli.add_command(stats)
-cli.add_command(transcribe_group, name="transcribe")
-cli.add_command(substack)
+cli.add_command(transcribe)
+cli.add_command(article)
 
 if __name__ == '__main__':
     cli()

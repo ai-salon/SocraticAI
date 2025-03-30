@@ -7,7 +7,7 @@ from typing import Dict, List
 
 import tiktoken
 
-from socraticai.core.config import DATA_DIRECTORY
+from socraticai.config import DATA_DIRECTORY
 
 
 def ensure_data_directories():
@@ -45,6 +45,9 @@ def get_anonymized_path(file_path):
         .replace("transcripts", "processed")
     )
 
+def get_input_path():
+    """Get the path where input files should be saved."""
+    return get_data_directory("inputs")
 
 def get_output_path():
     """Get the path where output files should be saved."""
@@ -62,7 +65,7 @@ def get_stats():
 
     print("\nSocraticAI Data Directory Statistics:")
     print("-" * 35)
-    print(f"Audio files: {len(audio_files)}")
+    print(f"Audio files: {len(audio_files)-1}")
     print(f"Transcriptions: {len(transcriptions)}")
     print(f"Anonymized files: {len(anonymized_files)}")
     print(f"Articles: {len(articles)}")
