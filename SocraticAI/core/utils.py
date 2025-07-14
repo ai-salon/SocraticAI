@@ -8,6 +8,7 @@ from typing import Dict, List
 import tiktoken
 
 from socraticai.config import DATA_DIRECTORY
+from socraticai.core.llm import ANTHROPIC_MODELS, GEMINI_MODELS
 
 
 def ensure_data_directories():
@@ -154,6 +155,153 @@ def count_string_tokens(string: str, model_name: str = "gpt-3.5-turbo-0301") -> 
     encoding = tiktoken.encoding_for_model(model_name)
     num_tokens = len(encoding.encode(string))
     return num_tokens
+
+
+def get_model_context_limit(model_name: str) -> int:
+    """
+    Get the context window limit for a specific model.
+    
+    Args:
+        model_name: The name of the model
+        
+    Returns:
+        int: The context window limit in tokens
+    """
+    # Claude models context limits
+    if model_name in ANTHROPIC_MODELS:
+        # Claude 3.5 Sonnet and newer models have 200k context
+        if "claude-3-5-sonnet" in model_name or "claude-3-7-sonnet" in model_name:
+            return 200000
+        # Claude 3.5 Haiku has 200k context
+        elif "claude-3-5-haiku" in model_name:
+            return 200000
+        # Claude 3 Opus has 200k context
+        elif "claude-3-opus" in model_name:
+            return 200000
+        # Claude 3 Sonnet has 200k context
+        elif "claude-3-sonnet" in model_name:
+            return 200000
+        # Claude 3 Haiku has 200k context
+        elif "claude-3-haiku" in model_name:
+            return 200000
+        else:
+            # Conservative default for unknown Claude models
+            return 200000
+    
+    # Gemini models context limits
+    elif model_name in GEMINI_MODELS:
+        # Gemini 2.5 Pro has 1M context
+        if "gemini-2.5-pro" in model_name:
+            return 1000000
+        # Gemini 2.5 Flash has 1M context
+        elif "gemini-2.5-flash" in model_name:
+            return 1000000
+        else:
+            # Conservative default for unknown Gemini models
+            return 1000000
+    
+    else:
+        # Conservative default for unknown models
+        logging.warning(f"Unknown model '{model_name}', using conservative 200k token limit")
+        return 200000
+
+
+def estimate_transcript_tokens(transcript: str, model_name: str = "gpt-3.5-turbo") -> int:
+    """
+    Estimate the number of tokens in a transcript for a given model.
+    
+    Args:
+        transcript: The transcript text
+        model_name: The model name (for encoding selection)
+        
+    Returns:
+        int: Estimated number of tokens
+    """
+    try:
+        # Use appropriate encoding based on model
+        if model_name in ANTHROPIC_MODELS:
+            # Claude uses cl100k_base encoding
+            encoding = tiktoken.get_encoding("cl100k_base")
+        elif model_name in GEMINI_MODELS:
+            # Gemini also uses cl100k_base encoding approximately
+            encoding = tiktoken.get_encoding("cl100k_base")
+        else:
+            # Default to cl100k_base for unknown models
+            encoding = tiktoken.get_encoding("cl100k_base")
+        
+        return len(encoding.encode(transcript))
+    except Exception as e:
+        logging.error(f"Error estimating tokens for transcript: {e}")
+        # Fallback: rough estimate of 4 characters per token
+        return len(transcript) // 4
+
+
+def group_transcripts_by_context(transcripts: List[Dict[str, str]], model_name: str, 
+                                 safety_margin: float = 0.75) -> List[List[Dict[str, str]]]:
+    """
+    Group transcripts into batches that fit within the model's context window.
+    
+    Args:
+        transcripts: List of transcript dictionaries with 'content' and 'source' keys
+        model_name: The model name to determine context limits
+        safety_margin: Percentage of context to use (default 0.75 = 75%)
+        
+    Returns:
+        List of transcript groups, where each group fits within context limits
+    """
+    context_limit = get_model_context_limit(model_name)
+    usable_tokens = int(context_limit * safety_margin)
+    
+    logging.info(f"Grouping transcripts for model {model_name} with {usable_tokens} usable tokens "
+                f"(safety margin: {safety_margin:.1%})")
+    
+    groups = []
+    current_group = []
+    current_tokens = 0
+    
+    # Reserve tokens for prompts and overhead (rough estimate)
+    prompt_overhead = 2000
+    
+    for transcript in transcripts:
+        transcript_tokens = estimate_transcript_tokens(transcript['content'], model_name)
+        
+        # Check if single transcript exceeds limit
+        if transcript_tokens > (usable_tokens - prompt_overhead):
+            logging.warning(f"Single transcript from {transcript['source']} ({transcript_tokens} tokens) "
+                          f"exceeds context limit. May need truncation.")
+            
+            # If we have a current group, save it
+            if current_group:
+                groups.append(current_group)
+                current_group = []
+                current_tokens = 0
+            
+            # Add oversized transcript as its own group
+            groups.append([transcript])
+            continue
+        
+        # Check if adding this transcript would exceed the limit
+        if current_tokens + transcript_tokens + prompt_overhead > usable_tokens:
+            # Start a new group
+            if current_group:
+                groups.append(current_group)
+            current_group = [transcript]
+            current_tokens = transcript_tokens
+        else:
+            # Add to current group
+            current_group.append(transcript)
+            current_tokens += transcript_tokens
+    
+    # Add any remaining group
+    if current_group:
+        groups.append(current_group)
+    
+    logging.info(f"Created {len(groups)} transcript groups from {len(transcripts)} transcripts")
+    for i, group in enumerate(groups):
+        total_tokens = sum(estimate_transcript_tokens(t['content'], model_name) for t in group)
+        logging.info(f"Group {i+1}: {len(group)} transcripts, ~{total_tokens} tokens")
+    
+    return groups
 
 
 class Prompt:

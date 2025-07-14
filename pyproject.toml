@@ -28,6 +28,8 @@ spacy = "^3.8.2"
 tenacity = "^9.0.0"
 pyyaml = "^6.0.1"
 pyperclip = "^1.9.0"
+google-genai = "^1.16.1"
+pytest = "^8.3.5"
 
 
 [build-system]
@@ -36,3 +38,30 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 socraticai = "cli.main:cli"
+
+[tool.pytest.ini_options]
+# Test discovery
+testpaths = ["tests"]
+python_files = "test_*.py"
+python_classes = "Test*"
+python_functions = "test_*"
+
+# Custom markers
+markers = [
+    "unit: marks tests as unit tests (fast, no external dependencies)",
+    "integration: marks tests as integration tests (may make real API calls)",
+    "slow: marks tests as slow running",
+]
+
+# Default behavior
+addopts = [
+    "-v",
+    "--tb=short",
+    "--strict-markers",
+]
+
+# Logging
+log_cli = true
+log_cli_level = "INFO"
+log_cli_format = "%(asctime)s [%(levelname)8s] %(name)s: %(message)s"
+log_cli_date_format = "%Y-%m-%d %H:%M:%S"

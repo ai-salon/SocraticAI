@@ -70,10 +70,10 @@ def anonymize_transcript(file_path, save_path=None):
 
     Args:
         file_path (str): The path to the input file.
-        save_file (bool, optional): Whether to save the processed text to a new file. Defaults to True.
+        save_path (str, optional): Path to save the anonymized text.
 
     Returns:
-        str: The processed text as a single string.
+        tuple: (processed_text, entities_count) - The processed text and number of entities found.
     """
     logger.info(f"Anonymizing {file_path}...")
     # Read the file
@@ -87,6 +87,8 @@ def anonymize_transcript(file_path, save_path=None):
     persons = [ent.text for ent in doc.ents if ent.label_ == "PERSON"]
     name_list = get_name_list()
     remapping = {person: name_list[i] for i, person in enumerate(persons)}
+    entities_count = len(persons)
+    
     for person, name in remapping.items():
         text = text.replace(person, name)
     text = "Names have been changed to preserve anonymity.\n\n" + text
@@ -94,4 +96,4 @@ def anonymize_transcript(file_path, save_path=None):
     if save_path:
         with open(save_path, "w") as f:
             f.write(text)
-    return text
+    return text, entities_count

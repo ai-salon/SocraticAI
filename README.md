@@ -1,259 +1,259 @@
 ![Alt text](https://github.com/ai-salon/SocraticAI/blob/main/static/logo.png?raw=true "AI Salon")
 
-
 # SocraticAI
 
-A tool for transcribing conversations and generating distillations (summaries, articles) from transcripts or audio files.
+🤖 **Transform conversations into insights.** SocraticAI is an intelligent CLI tool that transcribes audio discussions and generates comprehensive, well-structured articles using advanced AI models like Claude and Gemini. Perfect for researchers, journalists, podcasters, and anyone who wants to extract meaningful content from recorded conversations.
 
-## Quickstart
+✨ **What makes it special?** Smart multi-source synthesis, beautiful terminal interface, and context-aware processing that handles everything from quick meetings to lengthy multi-session discussions.
 
-### Installation
+## Quick Start
 
-1. Clone the repository:
+### 1. Installation (5 minutes)
+
+**Prerequisites:**
+- Python 3.11+ (check with `python --version`)
+- [Poetry](https://python-poetry.org/docs/#installation) for dependency management
+
+**Setup:**
 ```bash
-git clone https://github.com/yourusername/SocraticAI.git
+# 1. Get the code
+git clone https://github.com/ai-salon/SocraticAI.git
 cd SocraticAI
-```
 
-2. Install dependencies using Poetry:
-```bash
+# 2. Install everything
 poetry install
-```
 
-3. Install spaCy model (used for transcript anonymization)
-```bash
+# 3. Install language model for anonymization
 poetry run python -m spacy download en_core_web_lg
+
+# 4. Test installation
+poetry run socraticai --help
 ```
 
-4. Run Socratic AI
-```bash
-poetry run socraticai -h
-```
+### 2. API Keys Setup
 
-### Environment Setup
-
-Create a `.env` file in the root directory with the following variables:
+Create a `.env` file in the project root:
 
 ```env
 # Required for transcription
-ASSEMBLYAI_API_KEY=your_assemblyai_key
+ASSEMBLYAI_API_KEY=your_assemblyai_key_here
 
-# Required for article generation
-ANTHROPIC_API_KEY=your_anthropic_key
-
-# Optional settings
-MODEL_TYPE=claude-3-sonnet  # Default model for generation
+# Choose one or both AI providers:
+ANTHROPIC_API_KEY=your_anthropic_key_here  # For Claude models
+GOOGLE_API_KEY=your_google_api_key_here    # For Gemini models
 ```
 
-### Data Directory Setup
+**Getting API Keys:**
+- **AssemblyAI** (transcription): [Get free key](https://www.assemblyai.com/) - $0.37/hour of audio
+- **Anthropic** (Claude): [Get key](https://console.anthropic.com/) - Advanced reasoning
+- **Google** (Gemini): [Get key](https://makersuite.google.com/) - Large context windows
 
-SocraticAI uses a structured data directory for all inputs and outputs. By default it will use the data directory in the repo. You can change that directory in the `socraticai/config.py`. 
+### 3. Create Your First Articles!
 
-Place any audio files or transcripts you want to process in the `data/inputs` directory.
-
-### Basic Usage
-
-Generate an article (which will also transcribe)
+**Option A: Single File Article**
 ```bash
-# Process all files in the input directory
-socraticai article
-
-# From a specific file (doesn't have to be in the input directory)
-socraticai article recording.mp3
-
-# From multiple files using a wildcard pattern
-socraticai article "recordings/*.mp3"
-
-
-# Generate article without anonymization
-socraticai article recording.mp3 --no-anonymize
+# Process one audio file or transcript
+poetry run socraticai article your_meeting.mp3
+# Creates: article_TIMESTAMP.md + metadata
 ```
 
-Transcribe audio files with content creation:
+**Option B: Multiple Files as Individual Articles**
 ```bash
-# A specific file
-socraticai transcribe audio.mp3
-
-# Multiple files using a wildcard pattern
-socraticai transcribe "audio/*.mp3"
-
-# Process all files in the input directory
-socraticai transcribe
-
-# Transcribe without anonymization
-socraticai transcribe audio.mp3 --no-anonymize
+# Drop multiple files in data/inputs/ then process each separately
+poetry run socraticai article
+# Creates: article_TIMESTAMP1.md, article_TIMESTAMP2.md, etc.
 ```
 
-## Detailed CLI Guide
-
-The CLI provides several main commands with adaptive behavior:
-
-### Transcription Command
-
+**Option C: Combined Multi-Source Article (🔥 Most Popular)**
 ```bash
-socraticai transcribe [path] [options]
+# Combine multiple discussions into one comprehensive article
+poetry run socraticai article session*.mp3 --multi-source
+# Creates: combined_AI_Ethics_Debate_20240115_20240120.md
 ```
 
-The `transcribe` command adapts to the argument provided:
-- No path: Processes all files in the input directory
-- Specific file: Processes just that file
-- Path with wildcards: Processes all matching files
+## ✨ Key Features
 
-Options:
-```
--o, --output-file TEXT                The name of the file to save the transcription to (only works when processing a single file)
---anonymize/--no-anonymize            Whether to anonymize the transcript (default: True)
+### 🔗 Smart Multi-Source Articles
+Combine multiple recordings into a single, coherent article with automatically generated titles:
+```bash
+# Processes all files and creates: combined_AI_Ethics_Debate_20240115_20240120.md
+socraticai article session*.mp3 --multi-source
 ```
 
-### Article Generation Command
+### 🤖 Multiple AI Models
+Choose the best model for your needs:
+```bash
+socraticai article --model sonnet    # Claude Sonnet-4 (best reasoning)
+socraticai article --model pro       # Gemini 2.5 Pro (1M context)
+socraticai article --model flash     # Gemini 2.5 Flash (fast, default)
+```
+
+### 🎯 Context-Aware Processing
+- **Automatic Grouping**: Splits large multi-file projects to fit model limits
+- **Smart Token Management**: Uses 75% of available context for reliability
+- **Model-Specific Limits**: Claude (200k tokens), Gemini (1M tokens)
+
+### 🎨 Beautiful Terminal Experience
+- **Rich Progress Bars**: Visual feedback for long operations
+- **Colored Output**: Success in green, warnings in yellow, errors in red
+- **Interactive Prompts**: Confirmation for batch operations
+- **Comprehensive Stats**: Beautiful overview of your data directory
+
+## Command Reference
+
+### 📄 Article Generation
 
 ```bash
 socraticai article [path] [options]
 ```
 
-The `article` command adapts to the argument provided:
-- No path: Processes all files in the input directory
-- Specific file: Processes just that file
-- Path with wildcards: Processes all matching files
+**Examples:**
+```bash
+# Single file
+socraticai article recording.mp3
 
-Options:
+# All files in input directory  
+socraticai article
+
+# Multiple files as one article (NEW!)
+socraticai article "session*.mp3" --multi-source
+
+# Choose specific model (sonnet/pro/flash)
+socraticai article meeting.mp3 --model sonnet
+
+# Force regeneration
+socraticai article old_file.mp3 --rerun
+
+# Skip anonymization (keeps names/emails)
+socraticai article sensitive.mp3 --no-anonymize
 ```
---rerun                              Force regeneration even if article already exists
---anonymize/--no-anonymize           Whether to anonymize the transcript (default: True)
-```
 
-The article command automatically detects whether the input is an audio file or transcript and processes it accordingly. Supported audio formats: mp3, wav, m4a, aac, flac.
+**Options:**
+- `--multi-source`: Combine multiple files into one comprehensive article
+- `--model`: Choose AI model (`default`, `flash`, `sonnet`, `pro`)
+- `--rerun`: Force regeneration even if article exists
+- `--anonymize/--no-anonymize`: Control privacy (default: anonymize)
 
-Articles and metadata are automatically saved in the `outputs/articles` directory:
-- The article content is saved as a markdown file (`.md`)
-- Associated metadata is saved in a separate JSON file (`.meta.json`)
-
-### Other Commands
+### 🎵 Transcription
 
 ```bash
-# Get repository statistics
+socraticai transcribe [path] [options]
+```
+
+**Examples:**
+```bash
+# Single file
+socraticai transcribe audio.mp3
+
+# All files in input directory
+socraticai transcribe
+
+# Custom output name
+socraticai transcribe audio.mp3 -o my_transcript.txt
+
+# Skip anonymization
+socraticai transcribe meeting.mp3 --no-anonymize
+```
+
+### 📊 Statistics
+
+```bash
 socraticai stats
 ```
 
-## Custom Data Directory
+Shows beautiful overview of your data directory with file counts, sizes, and recent activity.
 
-By default, SocraticAI uses a `data` directory in the project root for all input and output files. You can customize this location by modifying the `socraticai/config.py` file:
+## Supported Formats
 
-```python
-# Update this path to use a different data directory
-DATA_DIRECTORY = os.path.join(BASE_DIRECTORY, "data")
+**Audio:** mp3, wav, m4a, aac, flac  
+**Text:** Any UTF-8 text file (treated as transcript)
+
+## Output Structure
+
+```
+AiSalonContent/
+├── inputs/          # Drop your files here
+├── transcripts/     # Generated transcripts
+├── processed/       # Anonymized versions
+└── outputs/
+    └── articles/    # Final articles + metadata
 ```
 
-The data directory structure is as follows:
-- `data/inputs/` - Place your audio files or transcripts here for batch processing
-- `data/transcripts/` - Generated transcripts are stored here
-- `data/processed/` - Processed and anonymized transcripts
-- `data/outputs/` - Generated outputs (articles, etc.)
+**Article Files:**
+- `article_TIMESTAMP.md` - The article content
+- `article_TIMESTAMP_meta.json` - Processing metadata
+- `combined_TITLE_DATE1_DATE2.md` - Multi-source articles with generated titles
 
-These folders will be automatically created by running SocraticAI.
+## Model Guide
 
-## Output Format
+| Model | Full Model Name | Best For | Context | Speed | Cost |
+|-------|----------------|----------|---------|--------|------|
+| **flash** (default) | gemini-2.5-flash | Most content, fast processing | 1M tokens | ⚡⚡⚡ | $ |
+| **pro** | gemini-2.5-pro | Complex analysis, long discussions | 1M tokens | ⚡⚡ | $$ |
+| **sonnet** | claude-sonnet-4-20250514 | Highest quality reasoning | 200k tokens | ⚡ | $$$ |
 
-For each generated article post, two files are created in the `outputs/articles` directory:
+**Additional Models Available:**
+- `claude-3-5-haiku-latest` - Fast, lightweight Claude model
+- `gemini-2.5-flash-lite-preview-06-17` - Experimental lightweight Gemini
 
-1. Article Content (`article_TIMESTAMP.md`):
-```markdown
-# Generated article content in markdown format
-```
+## Advanced Features
 
-2. Metadata (`article_TIMESTAMP.meta.json`):
-```json
-{
-  "generated_at": "ISO timestamp",
-  "type": "article",
-  "transcript_length": 1234,
-  "model": "claude-3-sonnet",
-  "source_audio": "path/to/audio.mp3",  // If generated from audio
-  "transcript_file": "path/to/transcript.txt",  // If generated from audio
-  "anonymized": true  // Whether the transcript was anonymized
-}
-```
+### Multi-Source Intelligence
+When using `--multi-source`, SocraticAI:
+- Analyzes themes across all sources
+- Generates descriptive titles automatically
+- Creates date-range filenames
+- Synthesizes cross-cutting insights
+- Maintains source attribution
 
-## Requirements
+### Smart Context Management
+- Automatically groups files that exceed model context limits
+- Uses safety margins to prevent token limit errors
+- Estimates token usage before processing
+- Provides detailed logging of context decisions
 
-- Python 3.11 or higher
-- Poetry for dependency management
-- AssemblyAI API key for transcription
-- Anthropic API key for article generation
-- spaCy's en_core_web_lg model
+### Privacy & Anonymization
+- Removes names, emails, phone numbers, addresses
+- Replaces with generic placeholders (Person A, Person B)
+- Maintains conversation flow and meaning
+- Optional - can be disabled with `--no-anonymize`
 
-## Error Handling
+## Troubleshooting
 
-The tool includes various error checks:
-- Validates input file types (audio/text)
-- Ensures transcripts are long enough (minimum 1000 characters)
-- Provides helpful error messages for common issues
+**"No API key found"**
+- Check your `.env` file exists in the project root
+- Verify API key format (no quotes needed)
+- Restart terminal after adding keys
 
-## Developer Guide
+**"Transcript too short"**
+- Minimum 1000 characters required
+- Check audio quality and length
+- Verify transcription completed successfully
 
-### Adding New Output Types
+**"Model returned empty response"**
+- Try a different model with `--model`
+- Check if you hit rate limits
+- Verify API key has sufficient credits
 
-SocraticAI is designed to be modular, allowing for easy addition of new output types beyond articles. To create a new output type:
-
-1. Create a new submodule in the `socraticai/content/` directory:
-```
-socraticai/content/your_output_type/
-```
-
-2. Create a generator class following the pattern of `ArticleGenerator`:
-```python
-# socraticai/content/your_output_type/output_generator.py
-
-class YourOutputTypeGenerator:
-    def __init__(self):
-        # Setup necessary resources
-        pass
-        
-    def generate(self, input_path, anonymize=True):
-        # Handle both audio files and transcript files
-        # Use the transcribe service with the anonymize option
-        # Generate your output
-        # Return paths to output files
-        pass
-```
-
-3. Add prompts for your generator (if using LLMs):
-```python
-# socraticai/content/your_output_type/prompts.py
-
-def your_prompt_template(text, **kwargs):
-    return f"""
-    Your prompt instructions here...
-    
-    {text}
-    """
-```
-
-4. Add a new command to the CLI:
-```python
-# cli/commands.py
-
-@click.command()
-@click.argument('path', type=str, required=False)
-@click.option('--anonymize/--no-anonymize', default=True, help='Whether to anonymize the transcript (default: True)')
-def your_output_type(path=None, anonymize=True):
-    """Generate your output type from audio or transcript files."""
-    # Implementation similar to the article command
-    pass
-    
-# Register in cli/__init__.py
-```
-
-5. Update tests to cover your new functionality.
+**"File not found"**
+- Use full paths for files outside the project
+- Check file permissions
+- Supported formats: mp3, wav, m4a, aac, flac, txt
 
 ## Contributing
 
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+
 1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
 3. Commit your changes (`git commit -m 'Add amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+**Made with ❤️ by the AI Salon community**
