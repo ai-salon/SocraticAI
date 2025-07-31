@@ -199,7 +199,6 @@ class ArticleGenerator:
             
             if is_audio:
                 # Transcribe audio file
-                colored_logger.transcription_start(filename)
                 start_time = time.time()
                 transcript_file, transcript_content = transcribe(input_path, anonymize=anonymize)
                 duration = time.time() - start_time
@@ -311,8 +310,8 @@ class ArticleGenerator:
         
         # Parse analysis sections
         analysis_sections = self._parse_analysis_sections(analysis_raw)
-        insights_count = len(analysis_sections.get('insights', []))
-        themes_count = len(analysis_sections.get('themes', []))
+        insights_count = len(analysis_sections.get('insights', "").split("\n"))
+        themes_count = len(analysis_sections.get('themes', "").split("##"))
         colored_logger.analysis_complete(insights_count, themes_count, step_times['analysis'])
         
         # Step 2: Generate initial article
@@ -340,7 +339,6 @@ class ArticleGenerator:
             colored_logger.article_refinement_start(model)
             start_time = time.time()
             refinement_prompt_text = article_refinement_prompt(
-                text=transcript_content, 
                 analysis=analysis_raw, 
                 article=article_content
             )
@@ -466,7 +464,6 @@ class ArticleGenerator:
             colored_logger.article_refinement_start(model)
             start_time = time.time()
             refinement_prompt_text = article_refinement_prompt(
-                text=combined_transcript, 
                 analysis=analysis_raw, 
                 article=article_content
             )
@@ -657,7 +654,7 @@ class ArticleGenerator:
             raise AnalysisParsingError(f"Error formatting article content: {str(e)}")
 
     def _get_header(self, input_path_or_paths: Union[str, List[str]], is_combined: bool = False, num_sources: Optional[int] = None) -> str:
-        base_header = """_Editors Note: This article is an AI-supported distillation of {source_description} - it is meant to capture the conversations at the event. Quotes are paraphrased from the original conversation and all names have been changed._
+        base_header = """_Editors Note: This article is an AI-supported distillation of {source_description} - it is meant to capture the conversations at the event. Transcripts are fed into our custom tool, [SocraticAI](https://github.com/ai-salon/SocraticAI), to create these blogs, followed by human editing. Quotes are paraphrased from the original conversation and all names have been changed._
 
 👉 [Jump](https://aisalon.substack.com/i/FILLIN/notes-from-the-conversation) to a longer list of takeaways and open questions"""
 
