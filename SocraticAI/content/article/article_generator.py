@@ -349,6 +349,10 @@ class ArticleGenerator:
                 model=model
             )
             article_content = refinement_response.content
+            # Find first "#" and remove everything before it
+            first_header_pos = article_content.find("#")
+            if first_header_pos != -1:
+                article_content = article_content[first_header_pos:]
             step_times['refinement'] = time.time() - start_time
             colored_logger.article_refinement_complete(step_times['refinement'])
             logger.info(f"Article refinement completed in {step_times['refinement']:.2f}s")
@@ -474,6 +478,10 @@ class ArticleGenerator:
                 model=model
             )
             article_content = refinement_response.content
+            # Find first "#" and remove everything before it
+            first_header_pos = article_content.find("#")
+            if first_header_pos != -1:
+                article_content = article_content[first_header_pos:]
             step_times['refinement'] = time.time() - start_time
             colored_logger.article_refinement_complete(step_times['refinement'])
         
