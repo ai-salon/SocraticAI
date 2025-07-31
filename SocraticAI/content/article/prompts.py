@@ -55,10 +55,7 @@ article_writing_prompt = Prompt(
     '''
 I'd like you to write a article post based on a conversation transcript and its analysis. The article should be about 2000 words in length.
 
-## Previous Analysis
-```{analysis}```
-
-## Writing Structure
+## WRITING STRUCTURE
 - Markdown format with headers
 
 ### Flow
@@ -70,30 +67,24 @@ I'd like you to write a article post based on a conversation transcript and its 
     - End with a transition to the main content
 
 2. Main Takeaways Section
-    - Include 5-7 concise, bold statements that summarize the most important insights
+    - Include 3-5 concise, bold statements that summarize the most important insights. 
+    - Each takeaway should begin with a concise bold statement.
     - These should function as executive summary points
     - Write each as a complete, standalone statement
 
-3. Thematic Sections (300-500 words each)
+3. Deep Dive Thematic Sections (300-500 words each)
     For each major theme:
     - Begin with a clear statement of the theme and why it matters
-    - Integrate 2-3 direct quotes that showcase diverse perspectives
-    - Provide synthesis and context between quotes
     - Connect to broader implications
     - End with a transition to the next theme
 
-### Paragraph Structure:
-- Opens each section with a clear thesis or main point
-- Follows a pattern of: introduce idea → explore tension → provide example/quote → analyze implications
-- Uses transitional phrases to connect ideas naturally
-
-### Quote Integration:
-- Don't overuse quotes. Some paragraphs should be quote free. Quotes should only be used when they punctuate a point. 
-- Paraphrase quotes for clarity while maintaining speaker intent
-- Provide meaningful context for each quote: what prompted the comment, relevant background about the speaker's perspective, or reactions from others
-- Use quote attributions that describe the person when relevant like "[Name], a [descriptive aspect of the person]" as well as more generic "As one participant noted..." or "One participant observed...". Example: "Jen, a software engineer...". The names are anonymized so make sure you don't describe characteristics of the person that are identifying and leave company names and titles out if mentioned.
-- Maintain consistent quote attribution format throughout
+### Quote Handling:
+- Paraphrase quotes for clarity while maintaining speaker intent. 
+- REMOVE disfluencies and filler words like "uh", "like", "you know", etc. 
+- Quotes should ideally be woven into the text for adding clarity and authenticity to the piece.
+- Use paraphrased full quotes and quote snippets. Full quotes should be italicized.
 - For impactful quotes, consider setting them apart as pull quotes when they capture a key insight
+- Don't use names in quotes. Describe them as "a participant" or something similarly generic. If their background is relevant, you can bring it up. For example "One parent noted" or "A software engineer focused on safety...". When using quote snippets you don't need to attribute the quote.
 
 ### Tension Points:
 - Explicitly highlight moments of disagreement or conflicting perspectives between participants
@@ -123,7 +114,25 @@ I'd like you to write a article post based on a conversation transcript and its 
 - Avoid characterizing certain perspectives as clearly correct/incorrect
 - Focus on representing the conversation accurately rather than advocating positions
 
-TRANSCRIPT:
+## Example
+Below is an example section from one  article about Human Relationships. Use it to inform style  but not substance.
+
+The Authenticity Paradox
+-------------------------
+Participants kept circling back to a simple equation— **connection = frequency x depth**. Digital tools have multiplied the first variable almost to infinity, yet many felt the second has hardly budged. AI companions epitomize the gap: they deliver instant, always-agreeable company but very little of the creative tension that makes a bond feel alive.
+
+One attendee captured the dilemma: *“I pay twenty dollars a month and the bot does whatever I want—there's no sense of what it wants back.”* Without mutual stake, reciprocity collapses into a one-way service transaction, and the relationship starts to resemble emotional fast food—convenient, predictable, engineered to please.
+
+Others noted that authenticity also relies on serendipity—an “invisible law of attraction” that can't be scripted or optimized. Algorithms chase patterns; true intimacy often hides in the stray edge-cases they smooth away. Friction, challenge, and the occasional misunderstanding aren't bugs to be eliminated; they're proof you're dealing with another willful mind. Until a companion can surprise—or refuse—us, its warmth risks feeling hollow, no matter how many heartfelt emojis it sends back.
+
+Still, the room acknowledged AI's upside. One participant described a friend grieving her father who “found solace in ChatGPT when human support felt out of reach.” Moments like that show the technology can meet real emotional needs, especially when loneliness intersects with overburdened mental-health systems.
+
+Yet convenience can quietly erode trust. Several attendees said they'd feel cheated if they learned every text from a partner or colleague had been routed through an assistant: *“If I found out, I'd question the point of the conversation.”* The consensus: AI expands accessibility, but depth still depends on mutual risk, unfiltered exchange, and the chance happenings that only messy human interaction can supply.
+
+# PREVIOUS ANALYSIS
+```{analysis}```
+
+# TRANSCRIPT:
 ```{text}```
 '''
 )
@@ -131,41 +140,32 @@ TRANSCRIPT:
 article_refinement_prompt = Prompt(
     "article_refinement",
     '''
-I'd like you to refine and improve a article post based on its source transcript and analysis. The goal is to ensure the article deeply explores the themes while maintaining fidelity to the original conversation.
+I'd like you to refine and improve a article post. You will also have access to analysis done on the transcript used to generate the article. The goal is to ensure the article deeply explores the themes while maintaining fidelity to the original conversation.
 
-## Original Transcript
-```{text}```
+## Refinement Goals
+1. Deepen the exploration of themes:
+   - Fully develop each thematic section ensuring the capture the main questions and insights
+   - Draw stronger connections between related points
+   - Highlight subtle implications and interconnections
+   - Ensure each theme receives appropriate depth and attention
+
+3. Optimize quote usage:
+   - REMOVE disfluencies and filler words like "uh", "like", "you know", etc. 
+   - Paraphrase quotes for clarity while maintaining speaker intent. 
+   - Keep only the most impactful and illustrative quotes
+   - Ensure each quote serves a clear purpose in developing themes
+   - Provide sufficient context and analysis for each quote
+
+## Output Format
+Please provide the refined article post maintaining the same overall structure:
+
+Focus on substantive improvements to the analysis and theme development while preserving the established structure.
 
 ## Analysis
 ```{analysis}```
 
 ## Current article Draft
 ```{article}```
-
-## Refinement Goals
-1. Ensure strict fidelity to the content and insights from the transcript:
-   - Verify all claims and interpretations are supported by the transcript
-   - Remove any speculative or unsupported statements
-   - Ensure the article accurately represents the conversation's context and nuances
-
-2. Deepen the exploration of themes:
-   - Fully develop each thematic section
-   - Draw stronger connections between related points
-   - Highlight subtle implications and interconnections
-   - Ensure each theme receives appropriate depth and attention
-
-3. Optimize quote usage:
-   - Keep only the most impactful and illustrative quotes
-   - Ensure each quote serves a clear purpose in developing themes
-   - Provide sufficient context and analysis for each quote
-   - Remove redundant or less impactful quotes
-
-## Output Format
-Please provide the refined article post maintaining the same overall structure:
-- Main Takeaways section at the start
-- Thematic sections in the middle
-
-Focus on substantive improvements to the analysis and theme development while preserving the established structure.
 '''
 )
 
@@ -186,8 +186,8 @@ Below are the texts of the individual articles. These are the core, unformatted 
 4.  **Preserve Key Insights and Impactful Quotes**: Ensure that the most critical insights and truly evocative quotes from each source article are preserved and integrated effectively into the combined version.
 5.  **Structured Output**: The final article should be in Markdown and follow a clear, engaging structure:
     *   **Compelling Introduction (200-300 words)**: Hook the reader with a strong opening related to the combined content. Establish the broad relevance and frame the central tension or question for the *entire combined set* of discussions.
-    *   **Overall Main Takeaways (5-7 points)**: A concise, bolded list summarizing the most critical insights from *all* source articles. These should act as an executive summary for the combined piece.
-    *   **Thematic Sections (Multiple, each 400-600 words)**: Develop 3-5 major themes that span the source articles. If source articles cover distinct topics, these can be distinct major sections. Each section should:
+    *   **Overall Main Takeaways (3-5 points)**: A concise, bolded list summarizing the most critical insights from *all* source articles. These should act as an executive summary for the combined piece.
+    *   **Deep Dive Thematic Sections (Multiple, each 400-600 words)**: Develop 3-5 major themes that span the source articles. If source articles cover distinct topics, these can be distinct major sections. Each section should:
         *   Begin with a clear statement of the theme and its significance.
         *   Integrate insights and supporting quotes from relevant source articles.
         *   Provide synthesis, context, and analysis, connecting ideas from different sources where appropriate.
@@ -196,7 +196,14 @@ Below are the texts of the individual articles. These are the core, unformatted 
     *   **Open Questions/Tensions (Optional but Recommended)**: A section summarizing key unresolved questions or significant tensions that emerged across the discussions.
     *   **Conclusion (150-250 words)**: A thoughtful concluding section that ties the main threads together, perhaps reiterating the central thesis or offering a final thought-provoking takeaway.
 6.  **Consistent Voice and Style**: Maintain an analytical, measured, and engaging tone, similar to high-quality journalistic or academic articles. Ensure smooth transitions between sections and ideas derived from different source materials.
-7.  **Quote Integration**: Paraphrase quotes for clarity and conciseness where appropriate, while maintaining speaker intent. Integrate them meaningfully into the narrative. Use attributions like "One participant in the [original context/topic] discussion noted..." or more general attributions if context is less critical for the combined flow.
+7. Quote Handling
+- Paraphrase quotes for clarity while maintaining speaker intent. 
+- REMOVE disfluencies and filler words like "uh", "like", "you know", etc. 
+- Quotes should ideally be woven into the text for adding clarity and authenticity to the piece.
+- Use paraphrased full quotes and quote snippets. Full quotes should be italicized.
+- For impactful quotes, consider setting them apart as pull quotes when they capture a key insight
+- Don't use names in quotes. Describe them as "a participant" or something similarly generic. If their background is relevant, you can bring it up. For example "One parent noted" or "A software engineer focused on safety...". When using quote snippets you don't need to attribute the quote.
+
 
 ## Input Format for `{article_texts}`
 The `{article_texts}` placeholder will be filled with the content of the source articles, formatted like this:
@@ -325,9 +332,6 @@ multi_source_article_writing_prompt = Prompt(
     '''
 I'd like you to write a comprehensive article based on multiple conversation transcripts and their collective analysis. The article should be substantial (3000-4000 words) and synthesize insights across all sources.
 
-## Previous Analysis
-```{analysis}```
-
 ## Writing Structure
 - Markdown format with headers
 
@@ -344,7 +348,7 @@ I'd like you to write a comprehensive article based on multiple conversation tra
     - These should function as an executive summary of the collective discussions
     - Write each as a complete, standalone statement that captures cross-cutting themes
 
-3. Thematic Sections (500-700 words each)
+3. Deep Dive Thematic Sections (500-700 words each)
     For each major theme spanning the discussions:
     - Begin with a clear statement of the theme and why it matters across contexts
     - Integrate 3-4 direct quotes from different sources that showcase diverse perspectives
@@ -352,18 +356,14 @@ I'd like you to write a comprehensive article based on multiple conversation tra
     - Connect to broader implications that emerge from the collective discussions
     - End with a transition to the next theme
 
-### Paragraph Structure:
-- Opens each section with a clear thesis that synthesizes insights across sources
-- Follows a pattern of: introduce cross-cutting idea → explore multi-source tensions → provide examples/quotes → analyze collective implications
-- Uses transitional phrases to connect ideas and sources naturally
+### Quote Handling:
+- Paraphrase quotes for clarity while maintaining speaker intent. 
+- REMOVE disfluencies and filler words like "uh", "like", "you know", etc. 
+- Quotes should ideally be woven into the text for adding clarity and authenticity to the piece.
+- Use paraphrased full quotes and quote snippets. Full quotes should be italicized.
+- For impactful quotes, consider setting them apart as pull quotes when they capture a key insight
+- Don't use names in quotes. Describe them as "a participant" or something similarly generic. If their background is relevant, you can bring it up. For example "One parent noted" or "A software engineer focused on safety...". When using quote snippets you don't need to attribute the quote.
 
-### Quote Integration:
-- Balance quotes across sources - don't over-rely on any single source
-- Use source attribution: "As discussed in [Source Context]..." or "One participant in the [Topic] discussion noted..."
-- Paraphrase quotes for clarity while maintaining speaker intent
-- Provide meaningful context: what prompted the comment, how it relates to other sources, reactions across discussions
-- Maintain consistent attribution format throughout
-- Highlight moments where different sources converge or diverge on similar topics
 
 ### Cross-Source Synthesis:
 - Explicitly connect insights and tensions across different sources
@@ -392,7 +392,25 @@ I'd like you to write a comprehensive article based on multiple conversation tra
 - Focus on representing the collective conversation accurately rather than advocating positions
 - Show how the multi-source perspective enriches understanding of complex topics
 
-## Source Transcripts
+## Example
+Below is an example section from one  article about Human Relationships. Use it to inform style and quote intergration, but not substance.
+
+The Authenticity Paradox
+-------------------------
+Participants kept circling back to a simple equation— **connection = frequency x depth**. Digital tools have multiplied the first variable almost to infinity, yet many felt the second has hardly budged. AI companions epitomize the gap: they deliver instant, always-agreeable company but very little of the creative tension that makes a bond feel alive.
+
+One attendee captured the dilemma: *“I pay twenty dollars a month and the bot does whatever I want—there's no sense of what it wants back.”* Without mutual stake, reciprocity collapses into a one-way service transaction, and the relationship starts to resemble emotional fast food—convenient, predictable, engineered to please.
+
+Others noted that authenticity also relies on serendipity—an “invisible law of attraction” that can't be scripted or optimized. Algorithms chase patterns; true intimacy often hides in the stray edge-cases they smooth away. Friction, challenge, and the occasional misunderstanding aren't bugs to be eliminated; they're proof you're dealing with another willful mind. Until a companion can surprise—or refuse—us, its warmth risks feeling hollow, no matter how many heartfelt emojis it sends back.
+
+Still, the room acknowledged AI's upside. One participant described a friend grieving her father who “found solace in ChatGPT when human support felt out of reach.” Moments like that show the technology can meet real emotional needs, especially when loneliness intersects with overburdened mental-health systems.
+
+Yet convenience can quietly erode trust. Several attendees said they'd feel cheated if they learned every text from a partner or colleague had been routed through an assistant: *“If I found out, I'd question the point of the conversation.”* The consensus: AI expands accessibility, but depth still depends on mutual risk, unfiltered exchange, and the chance happenings that only messy human interaction can supply.
+
+# Previous Analysis
+```{analysis}```
+
+# Source Transcripts
 {transcripts_text}
 '''
 )
