@@ -684,7 +684,7 @@ class ArticleGenerator:
                     logger.debug(f"Could not parse date from filename: {filename} for header.")
             except (ValueError, IndexError):
                 logger.debug(f"Error parsing date from filename: {filename} for header.")
-            source_description = f"an in-person event held in {city_str} on {date_str_for_header} facilitated by {host_str}"
+            source_description = f"an in-person [Ai Salon](https://aisalon.xyz/) event held in {city_str} on {date_str_for_header} facilitated by {host_str}"
         else:
             source_description = f"a discussion held in {city_str} on {date_str_for_header} facilitated by {host_str}"
         
