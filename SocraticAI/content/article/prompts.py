@@ -67,7 +67,7 @@ I'd like you to write a article post based on a conversation transcript and its 
     - End with a transition to the main content
 
 2. Main Takeaways Section
-    - Include 3-5 concise, bold statements that summarize the most important insights. 
+    - Include 3-5 concise, statements that summarize the most important insights. 
     - Each takeaway should begin with a concise bold statement.
     - These should function as executive summary points
     - Write each as a complete, standalone statement
@@ -186,7 +186,7 @@ Below are the texts of the individual articles. These are the core, unformatted 
 4.  **Preserve Key Insights and Impactful Quotes**: Ensure that the most critical insights and truly evocative quotes from each source article are preserved and integrated effectively into the combined version.
 5.  **Structured Output**: The final article should be in Markdown and follow a clear, engaging structure:
     *   **Compelling Introduction (200-300 words)**: Hook the reader with a strong opening related to the combined content. Establish the broad relevance and frame the central tension or question for the *entire combined set* of discussions.
-    *   **Overall Main Takeaways (3-5 points)**: A concise, bolded list summarizing the most critical insights from *all* source articles. These should act as an executive summary for the combined piece.
+    *   **Overall Main Takeaways (3-5 points)**: A concise list summarizing the most critical insights from *all* source articles. These should act as an executive summary for the combined piece. Start the sentence with a small bold statement.
     *   **Deep Dive Thematic Sections (Multiple, each 400-600 words)**: Develop 3-5 major themes that span the source articles. If source articles cover distinct topics, these can be distinct major sections. Each section should:
         *   Begin with a clear statement of the theme and its significance.
         *   Integrate insights and supporting quotes from relevant source articles.
@@ -344,7 +344,8 @@ I'd like you to write a comprehensive article based on multiple conversation tra
     - End with a transition to the main content
 
 2. Main Takeaways Section
-    - Include 6-8 concise, bold statements that synthesize the most important insights across all sources
+    - Include 5-7 concise statements that synthesize the most important insights across all sources
+    - Each statement should begin with a small bold statement.
     - These should function as an executive summary of the collective discussions
     - Write each as a complete, standalone statement that captures cross-cutting themes
 
