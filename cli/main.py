@@ -1,8 +1,11 @@
 """Main CLI entry point for SocraticAI."""
 
+# Load environment variables first, before any other imports
+from dotenv import find_dotenv, load_dotenv
+load_dotenv(find_dotenv())
+
 import click
 import logging
-from dotenv import find_dotenv, load_dotenv
 import os
 
 from rich.console import Console
@@ -40,12 +43,7 @@ def cli():
       socraticai article "*.mp3" --multi-source         # Combine multiple files into one article
       socraticai stats                                   # View data directory statistics
     """
-    # Load environment variables
-    dotenv_path = find_dotenv()
-    if dotenv_path:
-        logger.info(f"Loading environment from {dotenv_path}")
-        load_dotenv(dotenv_path)
-        logger.info(f'Model type: {os.getenv("MODEL_TYPE")}')
+    pass  # Environment variables already loaded at module level
 
 # Add all commands
 cli.add_command(stats)
