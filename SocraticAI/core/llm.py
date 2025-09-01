@@ -5,7 +5,7 @@ from collections import namedtuple
 from typing import Optional, Dict, Any, List, Union
 from anthropic import Anthropic
 from tenacity import retry, stop_after_attempt, wait_exponential
-from socraticai.config import ANTHROPIC_API_KEY, DEFAULT_LLM_MODEL
+from SocraticAI.config import ANTHROPIC_API_KEY, DEFAULT_LLM_MODEL
 
 try:
     from google import genai

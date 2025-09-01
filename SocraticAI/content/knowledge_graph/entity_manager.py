@@ -7,12 +7,12 @@ from pathlib import Path
 from typing import Dict, List, Optional, Any
 from datetime import datetime
 
-from socraticai.core.llm import LLMChain
-from socraticai.content.knowledge_graph.prompts import (
+from SocraticAI.core.llm import LLMChain
+from SocraticAI.content.knowledge_graph.prompts import (
     entity_extraction_prompt,
     relationship_analysis_prompt
 )
-from socraticai.core.utils import get_output_path
+from SocraticAI.core.utils import get_output_path
 
 logger = logging.getLogger(__name__)
 

@@ -1,6 +1,6 @@
 """Prompts for knowledge graph generation."""
 
-from socraticai.core.utils import Prompt
+from SocraticAI.core.utils import Prompt
 from datetime import datetime
 
 entity_extraction_prompt = Prompt(

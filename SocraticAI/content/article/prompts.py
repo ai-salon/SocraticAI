@@ -1,6 +1,6 @@
 """Prompts for article generation and content creation."""
 
-from socraticai.core.utils import Prompt
+from SocraticAI.core.utils import Prompt
 
 transcript_analysis_prompt = Prompt(
     "transcript_analysis",

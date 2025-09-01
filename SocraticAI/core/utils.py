@@ -7,8 +7,8 @@ from typing import Dict, List
 
 import tiktoken
 
-from socraticai.config import DATA_DIRECTORY
-from socraticai.core.llm import ANTHROPIC_MODELS, GEMINI_MODELS
+from SocraticAI.config import DATA_DIRECTORY
+from SocraticAI.core.llm import ANTHROPIC_MODELS, GEMINI_MODELS
 
 
 def ensure_data_directories():

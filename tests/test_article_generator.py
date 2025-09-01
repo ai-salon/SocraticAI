@@ -8,14 +8,14 @@ import shutil
 from datetime import datetime
 import logging
 
-from socraticai.content.article.article_generator import (
+from SocraticAI.content.article.article_generator import (
     ArticleGenerator,
     TranscriptTooShortError,
     UnsupportedFileTypeError,
     AnalysisParsingError
 )
-from socraticai.core.llm import LLMChain # Ensure this can be imported or mock its usage
-from socraticai.config import TEST_GOOGLE_MODEL as TEST_LLM_MODEL 
+from SocraticAI.core.llm import LLMChain # Ensure this can be imported or mock its usage
+from SocraticAI.config import TEST_GOOGLE_MODEL as TEST_LLM_MODEL 
 
 # Mock the LLMChain if it's complex to instantiate or has external dependencies
 class MockLLMResponse:

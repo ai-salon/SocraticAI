@@ -16,15 +16,15 @@ from rich.text import Text
 from rich import print as rprint
 from rich.prompt import Confirm
 
-from socraticai.transcribe.service import transcribe
-from socraticai.content.article.article_generator import (
+from SocraticAI.transcribe.service import transcribe
+from SocraticAI.content.article.article_generator import (
     ArticleGenerator, 
     TranscriptTooShortError,
     UnsupportedFileTypeError
 )
-from socraticai.content.knowledge_graph.graph_generator import KnowledgeGraphGenerator
-from socraticai.core.utils import get_stats, get_input_path
-from socraticai.config import MODEL_CHOICES
+from SocraticAI.content.knowledge_graph.graph_generator import KnowledgeGraphGenerator
+from SocraticAI.core.utils import get_stats, get_input_path
+from SocraticAI.config import MODEL_CHOICES
 
 logger = logging.getLogger(__name__)
 console = Console()
@@ -74,7 +74,7 @@ def get_file_list(path: Optional[str]) -> List[str]:
 @click.command()
 def stats():
     """Get comprehensive statistics about the data folder with rich formatting."""
-    from socraticai.core.utils import get_data_directory
+    from SocraticAI.core.utils import get_data_directory
     
     console.print("\n[bold blue]📊 SocraticAI Data Directory Statistics[/bold blue]\n")
     

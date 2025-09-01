@@ -5,8 +5,8 @@ from pathlib import Path
 import logging
 import yaml
 
-from socraticai.content.knowledge_graph import KnowledgeGraphGenerator
-from socraticai.core.utils import get_output_path
+from SocraticAI.content.knowledge_graph import KnowledgeGraphGenerator
+from SocraticAI.core.utils import get_output_path
 
 # Set up logging
 logging.basicConfig(
