@@ -10,9 +10,9 @@ from typing import Optional, Dict, Any, Tuple, List, Union
 from datetime import datetime
 import time
 
-from socraticai.core.llm import LLMChain
-from socraticai.core.colored_logging import get_colored_logger
-from socraticai.content.article.prompts import (
+from SocraticAI.core.llm import LLMChain
+from SocraticAI.core.colored_logging import get_colored_logger
+from SocraticAI.content.article.prompts import (
     transcript_analysis_prompt, 
     article_writing_prompt, 
     article_refinement_prompt, 
@@ -22,14 +22,14 @@ from socraticai.content.article.prompts import (
     multi_source_article_writing_prompt,
     combined_title_prompt
 )
-from socraticai.transcribe.service import transcribe
-from socraticai.core.utils import (
+from SocraticAI.transcribe.service import transcribe
+from SocraticAI.core.utils import (
     get_output_path,
     get_model_context_limit,
     estimate_transcript_tokens,
     group_transcripts_by_context
 )
-from socraticai.config import DEFAULT_LLM_MODEL
+from SocraticAI.config import DEFAULT_LLM_MODEL
 
 logger = logging.getLogger(__name__)
 colored_logger = get_colored_logger(__name__)

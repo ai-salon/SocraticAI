@@ -1,8 +1,8 @@
 import pytest
 import os
 import logging
-from socraticai.core.llm import LLMChain, AnthropicLLMChain, GeminiLLMChain
-from socraticai.config import TEST_GOOGLE_MODEL, TEST_ANTHROPIC_MODEL
+from SocraticAI.core.llm import LLMChain, AnthropicLLMChain, GeminiLLMChain
+from SocraticAI.config import TEST_GOOGLE_MODEL, TEST_ANTHROPIC_MODEL
 
 logger = logging.getLogger(__name__)
 

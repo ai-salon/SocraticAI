@@ -3,8 +3,13 @@
 Example usage of the abstracted LLM system supporting both Anthropic and Gemini models.
 """
 
-from socraticai.core.llm import create_llm_chain, LLMChain
-from socraticai.config import TEST_GOOGLE_MODEL, TEST_ANTHROPIC_MODEL
+from dotenv import find_dotenv, load_dotenv
+
+# Load environment variables from .env if present (before importing config)
+load_dotenv(find_dotenv())
+
+from SocraticAI.core.llm import create_llm_chain, LLMChain
+from SocraticAI.config import TEST_GOOGLE_MODEL, TEST_ANTHROPIC_MODEL
 
 def main():
     # Example 1: Using the unified LLMChain with model parameter (Recommended)
@@ -122,7 +127,7 @@ def main():
     # Example 6: Dynamic model switching and comparison
     print("=== Example 6: Dynamic model switching and comparison ===")
     
-    models_to_try = ["claude-3-5-sonnet-20241022", "gemini-1.5-pro"]
+    models_to_try = [TEST_ANTHROPIC_MODEL, TEST_GOOGLE_MODEL]
     prompt = "What's the meaning of life?"
     
     # Method 1: Create separate chains

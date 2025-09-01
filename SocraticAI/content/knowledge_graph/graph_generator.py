@@ -6,9 +6,9 @@ from pathlib import Path
 from typing import Dict, List, Optional, Any, Tuple
 from datetime import datetime
 
-from socraticai.core.llm import LLMChain
-from socraticai.content.knowledge_graph.entity_manager import EntityManager
-from socraticai.content.knowledge_graph.node_generator import NodeGenerator
+from SocraticAI.core.llm import LLMChain
+from SocraticAI.content.knowledge_graph.entity_manager import EntityManager
+from SocraticAI.content.knowledge_graph.node_generator import NodeGenerator
 
 logger = logging.getLogger(__name__)
 

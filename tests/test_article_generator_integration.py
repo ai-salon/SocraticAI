@@ -12,8 +12,8 @@ import shutil
 from pathlib import Path
 from datetime import datetime
 
-from socraticai.content.article.article_generator import ArticleGenerator
-from socraticai.config import TEST_MODEL, TEST_API_KEY
+from SocraticAI.content.article.article_generator import ArticleGenerator
+from SocraticAI.config import TEST_MODEL, TEST_API_KEY
 from socraticai import config
 
 logger = logging.getLogger(__name__)

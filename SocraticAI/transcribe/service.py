@@ -4,13 +4,13 @@ import time
 
 import assemblyai as aai
 
-from socraticai.transcribe.utils import anonymize_transcript
-from socraticai.core.utils import (
+from SocraticAI.transcribe.utils import anonymize_transcript
+from SocraticAI.core.utils import (
     get_anonymized_path,
     get_transcribed_path,
 )
-from socraticai.core.colored_logging import get_colored_logger
-from socraticai.config import ASSEMBLYAI_API_KEY
+from SocraticAI.core.colored_logging import get_colored_logger
+from SocraticAI.config import ASSEMBLYAI_API_KEY
 
 logger = logging.getLogger(__name__)
 colored_logger = get_colored_logger(__name__)

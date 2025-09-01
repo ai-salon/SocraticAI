@@ -1,7 +1,7 @@
 import pytest
 import logging
 from unittest.mock import Mock, patch, MagicMock
-from socraticai.core.llm import (
+from SocraticAI.core.llm import (
     LLMChain, 
     AnthropicLLMChain, 
     GeminiLLMChain,
@@ -13,7 +13,7 @@ from socraticai.core.llm import (
     ANTHROPIC_MODELS,
     GEMINI_MODELS
 )
-from socraticai.config import TEST_GOOGLE_MODEL, TEST_ANTHROPIC_MODEL
+from SocraticAI.config import TEST_GOOGLE_MODEL, TEST_ANTHROPIC_MODEL
 from tenacity import RetryError
 
 # Set up logging for tests
