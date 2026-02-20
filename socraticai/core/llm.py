@@ -18,14 +18,15 @@ MODEL = DEFAULT_LLM_MODEL
 
 # Model type mappings
 ANTHROPIC_MODELS = {
-    "claude-3-5-haiku-latest",
-    "claude-sonnet-4-20250514"
+    "claude-haiku-4-5",
+    "claude-sonnet-4-6"
 }
 
 GEMINI_MODELS = {
     "gemini-2.5-pro",
     "gemini-2.5-flash",
-    "gemini-2.5-flash-lite-preview-06-17"
+    "gemini-2.5-flash-lite",
+    "gemini-3-flash-preview"
 }
 
 def get_all_models() -> List[str]:
@@ -189,22 +190,18 @@ class GeminiLLMChain(BaseLLMChain):
             GeminiLLMResponse object containing the generated content and metadata
         """
         try:
-            # Prepare the content with system prompt if provided
-            contents = []
-            if system_prompt:
-                contents.append(f"System: {system_prompt}\n\nUser: {prompt}")
-            else:
-                contents.append(prompt)
-            
             # Create the config using the correct types
-            config = genai.types.GenerateContentConfig(
-                max_output_tokens=max_tokens,
-                temperature=temperature,
-            )
+            config_kwargs = {
+                "max_output_tokens": max_tokens,
+                "temperature": temperature,
+            }
+            if system_prompt:
+                config_kwargs["system_instruction"] = system_prompt
+            config = genai.types.GenerateContentConfig(**config_kwargs)
             
             response = self.client.models.generate_content(
                 model=self.model_name,
-                contents=contents,
+                contents=prompt,
                 config=config
             )
             

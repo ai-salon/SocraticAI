@@ -184,11 +184,73 @@ class TestGeminiLLMChain:
         assert response.metadata["provider"] == "gemini"
         logger.info("Gemini response generated successfully")
     
+    @patch('socraticai.core.llm.GENAI_AVAILABLE', True)
+    @patch('socraticai.core.llm.genai')
+    def test_gemini_generate_with_system_prompt(self, mock_genai):
+        """Verify that system_prompt is passed as system_instruction in GenerateContentConfig."""
+        logger.info("Testing Gemini system prompt passed as system_instruction")
+
+        mock_response = Mock()
+        mock_response.text = "Response text"
+        mock_response.usage_metadata = Mock()
+        mock_response.usage_metadata.prompt_token_count = 5
+        mock_response.usage_metadata.candidates_token_count = 10
+
+        mock_client = Mock()
+        mock_client.models.generate_content.return_value = mock_response
+        mock_genai.Client.return_value = mock_client
+
+        with patch.dict('os.environ', {'GOOGLE_API_KEY': 'test-key'}):
+            chain = GeminiLLMChain(model_name=TEST_GOOGLE_MODEL)
+
+        chain.generate("Hello", system_prompt="Be helpful")
+
+        # Verify GenerateContentConfig was called with system_instruction
+        config_call = mock_genai.types.GenerateContentConfig.call_args
+        assert config_call.kwargs.get("system_instruction") == "Be helpful"
+
+        # Verify contents is just the prompt string, not a list with "System:" prefix
+        content_call = mock_client.models.generate_content.call_args
+        contents_arg = content_call.kwargs.get("contents") or content_call.args[0] if content_call.args else None
+        # contents should be the plain prompt, not contain "System:"
+        if isinstance(contents_arg, str):
+            assert "System:" not in contents_arg
+        elif isinstance(contents_arg, list):
+            for item in contents_arg:
+                if isinstance(item, str):
+                    assert "System:" not in item
+        logger.info("Gemini system prompt correctly passed as system_instruction")
+
+    @patch('socraticai.core.llm.GENAI_AVAILABLE', True)
+    @patch('socraticai.core.llm.genai')
+    def test_gemini_generate_without_system_prompt(self, mock_genai):
+        """Verify that no system_instruction is set when system_prompt is empty."""
+        logger.info("Testing Gemini without system prompt")
+
+        mock_response = Mock()
+        mock_response.text = "Response text"
+        mock_response.usage_metadata = Mock()
+        mock_response.usage_metadata.prompt_token_count = 5
+        mock_response.usage_metadata.candidates_token_count = 10
+
+        mock_client = Mock()
+        mock_client.models.generate_content.return_value = mock_response
+        mock_genai.Client.return_value = mock_client
+
+        with patch.dict('os.environ', {'GOOGLE_API_KEY': 'test-key'}):
+            chain = GeminiLLMChain(model_name=TEST_GOOGLE_MODEL)
+
+        chain.generate("Hello", system_prompt="")
+
+        config_call = mock_genai.types.GenerateContentConfig.call_args
+        assert "system_instruction" not in config_call.kwargs
+        logger.info("Gemini correctly omits system_instruction when empty")
+
     @patch('socraticai.core.llm.GENAI_AVAILABLE', False)
     def test_gemini_unavailable_error(self):
         """Test error when Gemini dependencies are not available."""
         logger.info("Testing Gemini unavailable error")
-        
+
         with pytest.raises(ImportError, match="google-generativeai package is required"):
             GeminiLLMChain(model_name=TEST_GOOGLE_MODEL)
         logger.info("Gemini unavailable error handled correctly")

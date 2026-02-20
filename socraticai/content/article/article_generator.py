@@ -664,7 +664,7 @@ class ArticleGenerator:
     def _get_header(self, input_path_or_paths: Union[str, List[str]], is_combined: bool = False, num_sources: Optional[int] = None) -> str:
         base_header = """_Editors Note: This article is an AI-supported distillation of {source_description} - it is meant to capture the conversations at the event. Transcripts are fed into our custom tool, [SocraticAI](https://github.com/ai-salon/SocraticAI), to create these blogs, followed by human editing. Quotes are paraphrased from the original conversation and all names have been changed._
 
-👉 [Jump](https://aisalon.substack.com/i/FILLIN/notes-from-the-conversation) to a longer list of takeaways and open questions"""
+👉 Prefer the highlights? [Skip to key takeaways and open questions](https://aisalon.substack.com/i/FILLIN/notes-from-the-conversation)"""
 
         date_str_for_header = "[DATE]"
         city_str = "[CITY]"
@@ -766,9 +766,9 @@ class ArticleGenerator:
                 
                 # Handle different formats
                 if len(date_str) == 8:  # YYYYMMDD or MMDDYYYY
-                    if date_str[:4] > '1900' and date_str[:4] < '2100':  # Likely YYYYMMDD
+                    if 1900 < int(date_str[:4]) < 2100:  # Likely YYYYMMDD
                         return date_str
-                    elif date_str[4:] > '1900' and date_str[4:] < '2100':  # Likely MMDDYYYY
+                    elif 1900 < int(date_str[4:]) < 2100:  # Likely MMDDYYYY
                         return date_str[4:] + date_str[:4]
                 
                 # Add more date parsing as needed

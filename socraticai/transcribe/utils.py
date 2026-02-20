@@ -1,4 +1,5 @@
 import random
+import re
 import spacy
 import logging
 
@@ -57,6 +58,17 @@ NAME_LIST = [
     "Andrew"
 ]
 
+# Lazy-loaded spaCy model cache
+_nlp_model = None
+
+
+def _get_nlp_model():
+    """Lazy-load and cache the spaCy model."""
+    global _nlp_model
+    if _nlp_model is None:
+        _nlp_model = spacy.load("en_core_web_lg")
+    return _nlp_model
+
 
 def get_name_list():
     name_list = NAME_LIST.copy()
@@ -80,17 +92,15 @@ def anonymize_transcript(file_path, save_path=None):
     with open(file_path, "r") as f:
         text = f.read()
 
-    # assume names of people are in the first 1/6 of the text
-    first_sixth = text[: len(text) // 6]
-    nlp = spacy.load("en_core_web_lg")
-    doc = nlp(first_sixth)
-    persons = [ent.text for ent in doc.ents if ent.label_ == "PERSON"]
+    nlp = _get_nlp_model()
+    doc = nlp(text)
+    persons = list(dict.fromkeys(ent.text for ent in doc.ents if ent.label_ == "PERSON"))
     name_list = get_name_list()
     remapping = {person: name_list[i] for i, person in enumerate(persons)}
     entities_count = len(persons)
-    
+
     for person, name in remapping.items():
-        text = text.replace(person, name)
+        text = re.sub(r'\b' + re.escape(person) + r'\b', name, text)
     text = "Names have been changed to preserve anonymity.\n\n" + text
     logger.info(f"Finished anonymizing {file_path}")
     if save_path:

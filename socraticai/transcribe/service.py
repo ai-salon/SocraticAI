@@ -43,7 +43,7 @@ def transcribe(file_path, output_file=None, anonymize=True):
             transcript = f.read()
     else:
         if aai.settings.api_key is None:
-            raise ValueError("ASSEMBLYAI_KEY environment variable not set")
+            raise ValueError("ASSEMBLYAI_API_KEY environment variable not set")
         
         colored_logger.transcription_start(filename, "AssemblyAI")
         start = time.time()

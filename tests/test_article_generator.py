@@ -15,7 +15,7 @@ from socraticai.content.article.article_generator import (
     AnalysisParsingError
 )
 from socraticai.core.llm import LLMChain # Ensure this can be imported or mock its usage
-from socraticai.config import TEST_GOOGLE_MODEL as TEST_LLM_MODEL 
+from socraticai.config import TEST_GOOGLE_MODEL as TEST_LLM_MODEL
 
 # Mock the LLMChain if it's complex to instantiate or has external dependencies
 class MockLLMResponse:
@@ -26,10 +26,6 @@ class TestArticleGenerator(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         """Set up logging for the test class."""
-        # Configure logging to show INFO level messages for tests
-        # You can adjust level and format as needed
-        # To see logs during `python -m unittest` add the --buffer flag or use a test runner that captures logs
-        #logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(name)s - %(funcName)s - %(message)s')
         cls.logger = logging.getLogger(__name__)
 
     def setUp(self):
@@ -40,7 +36,7 @@ class TestArticleGenerator(unittest.TestCase):
         self.mock_output_path = self.output_path_patch.start()
 
         self.TEST_LLM_MODEL = TEST_LLM_MODEL # Use the imported model
-        
+
         self.transcript_path = Path(__file__).parent / "test_transcript.txt"
         with open(self.transcript_path, 'r') as f:
             self.sample_transcript = f.read()
@@ -50,15 +46,15 @@ class TestArticleGenerator(unittest.TestCase):
         self.MockLLMChain = self.mock_llm_chain_patch.start()
         self.mock_llm_instance = self.MockLLMChain.return_value
         # Default mock response; can be overridden per test using _mock_llm_generate
-        self.mock_llm_instance.generate.return_value = MockLLMResponse("Default Mocked LLM content") 
-        
+        self.mock_llm_instance.generate.return_value = MockLLMResponse("Default Mocked LLM content")
+
         # Initialize the ArticleGenerator after setting up the mock
         self.generator = ArticleGenerator(model=self.TEST_LLM_MODEL)
         self.generator.output_dir = Path(self.test_dir) / "articles" # Ensure output is within test_dir
-        
+
         # Now mock the actual llm_chain instance that was created
         self.generator.llm_chain = self.mock_llm_instance
-        
+
         self.min_transcript_length = ArticleGenerator.MIN_TRANSCRIPT_LENGTH
         self.logger.info(f"Finished setUp for {self._testMethodName}")
 
@@ -66,7 +62,7 @@ class TestArticleGenerator(unittest.TestCase):
         """Helper to set up mock LLM responses."""
         if not isinstance(side_effects, list):
             side_effects = [side_effects]
-        
+
         # Ensure each item in side_effects will produce a MockLLMResponse
         mock_responses = []
         for content in side_effects:
@@ -166,16 +162,11 @@ class TestArticleGenerator(unittest.TestCase):
         self.assertEqual(sections["questions"], "[Open Questions not found in analysis]")
         self.assertEqual(sections["themes"], "[Main Themes not found in analysis]")
         self.assertEqual(sections["pull_quotes"], "[Pull Quotes not found in analysis]")
-        
+
     def test_parse_analysis_sections_malformed(self):
         """Test _parse_analysis_sections with malformed section titles."""
         self.logger.info(f"Running test: {self._testMethodName}")
-        analysis_text = "# Key Insights\nInsight A\n#Bad Title\nContent" 
-        # The regex for sections looks for known titles. "#Bad Title" is not one of them.
-        # The content under "#Bad Title" would be part of "Insight A" if it's not followed by another known title.
-        # Let's re-evaluate the expected behavior of _parse_analysis_sections based on its implementation.
-        # The pattern is: rf"""#\s*{re.escape(title)}\s*(.*?)(?=\s*\n(?:#\s*(?:{all_known_titles_regex}|END_OF_ANALYSIS_MARKER)|$))"""
-        # This means it captures everything until the next known title or end marker.
+        analysis_text = "# Key Insights\nInsight A\n#Bad Title\nContent"
         sections = self.generator._parse_analysis_sections(analysis_text)
         self.assertEqual(sections["insights"], "Insight A\n#Bad Title\nContent") # Corrected expected output
         self.assertEqual(sections["questions"], "[Open Questions not found in analysis]")
@@ -187,21 +178,21 @@ class TestArticleGenerator(unittest.TestCase):
         self.logger.info(f"Running test: {self._testMethodName}")
         header = self.generator._get_header("/path/to/2023-10-20-event.txt")
         self.assertIn("October 20, 2023", header)
-        self.assertIn("an in-person event held in [CITY] on October 20, 2023 facilitated by [HOST]", header)
+        self.assertIn("an in-person [Ai Salon](https://aisalon.xyz/) event held in [CITY] on October 20, 2023 facilitated by [HOST]", header)
 
     def test_get_header_single_file_no_date_in_filename(self):
         """Test _get_header for a single file without a parseable date."""
         self.logger.info(f"Running test: {self._testMethodName}")
         header = self.generator._get_header("/path/to/myevent.txt")
         self.assertIn("[DATE]", header)
-        self.assertIn("an in-person event held in [CITY] on [DATE] facilitated by [HOST]", header)
+        self.assertIn("an in-person [Ai Salon](https://aisalon.xyz/) event held in [CITY] on [DATE] facilitated by [HOST]", header)
 
     def test_get_header_combined(self):
         """Test _get_header for a combined article."""
         self.logger.info(f"Running test: {self._testMethodName}")
         header = self.generator._get_header(["file1.txt", "file2.txt"], is_combined=True, num_sources=2)
         self.assertIn("2 discussions/events held in [CITY] around [DATE] facilitated by [HOST]", header)
-        
+
     def test_get_header_combined_with_num_sources(self):
         """Test _get_header for a combined article explicitly providing num_sources."""
         self.logger.info(f"Running test: {self._testMethodName}")
@@ -237,246 +228,166 @@ class TestArticleGenerator(unittest.TestCase):
         self.assertIn("\n\nBody", formatted_content)
         self.assertIn("\n\n# Notes from the Conversation\ni", formatted_content)
 
-    def test_generate_article_components_from_transcript_too_short(self):
-        """Test error for transcript too short."""
-        self.logger.info(f"Running test: {self._testMethodName}")
-        short_transcript = "a" * (self.min_transcript_length - 1)
-        with self.assertRaises(TranscriptTooShortError):
-            self.generator._generate_article_components_from_transcript(short_transcript, "source.txt", self.TEST_LLM_MODEL)
+    # --- Tests for _process_single_transcript (replaces old _generate_article_components_from_transcript) ---
 
-    def test_generate_article_components_from_transcript_success(self):
-        """Test successful generation of article components from transcript (no refinement)."""
+    def test_process_single_transcript_success(self):
+        """Test successful _process_single_transcript (no refinement)."""
         self.logger.info(f"Running test: {self._testMethodName}")
         self._mock_llm_generate(side_effects=[
             "# Key Insights\nMocked Analysis From LLM",
             "Mocked Initial Article From LLM"
         ])
-        
+
         self.generator.refine = False
-        components = self.generator._generate_article_components_from_transcript(
-            self.sample_transcript, "source.txt", model=self.TEST_LLM_MODEL
-        )
+        transcript_data = {
+            'content': self.sample_transcript,
+            'source': 'source.txt',
+            'original_input': 'source.txt',
+            'is_audio': False,
+            'anonymized': False
+        }
+        result = self.generator._process_single_transcript(transcript_data, model=self.TEST_LLM_MODEL)
 
-        self.assertEqual(components["final_article_content"], "Mocked Initial Article From LLM")
-        self.assertEqual(components["raw_article_content"], "Mocked Initial Article From LLM")
-        self.assertIn("Mocked Analysis From LLM", components["analysis_sections"]["insights"])
-        self.assertEqual(components["analysis_raw_text"], "# Key Insights\nMocked Analysis From LLM")
-        self.assertEqual(components["metadata"]["source_transcript"], "source.txt")
-        self.assertEqual(components["metadata"]["transcript_length"], len(self.sample_transcript))
-        self.assertIn("analysis", components["metadata"]["generation_times"])
-        self.assertIn("initial_article", components["metadata"]["generation_times"])
-        self.assertNotIn("refinement", components["metadata"]["generation_times"])
-        
-        # Check that LLMChain().generate was called with the correct model
-        self.mock_llm_instance.generate.assert_any_call(prompt=unittest.mock.ANY, thinking_tokens=unittest.mock.ANY, model=self.TEST_LLM_MODEL)
+        self.assertEqual(result["article_content"], "Mocked Initial Article From LLM")
+        self.assertIn("Mocked Analysis From LLM", result["analysis_sections"]["insights"])
+        self.assertEqual(result["metadata"]["analysis_sections_raw"], "# Key Insights\nMocked Analysis From LLM")
+        self.assertEqual(result["metadata"]["source_transcript"], "source.txt")
+        self.assertEqual(result["metadata"]["transcript_length"], len(self.sample_transcript))
+        self.assertIn("analysis", result["metadata"]["generation_times"])
+        self.assertIn("article", result["metadata"]["generation_times"])
+        self.assertNotIn("refinement", result["metadata"]["generation_times"])
+
         self.assertEqual(self.mock_llm_instance.generate.call_count, 2)
+        for call in self.mock_llm_instance.generate.call_args_list:
+            self.assertEqual(call.kwargs['model'], self.TEST_LLM_MODEL)
 
-    def test_generate_article_components_from_transcript_with_refinement(self):
-        """Test successful generation with refinement."""
+    def test_process_single_transcript_with_refinement(self):
+        """Test _process_single_transcript with refinement."""
         self.logger.info(f"Running test: {self._testMethodName}")
         self._mock_llm_generate(side_effects=[
             "# Key Insights\nAnalysis for refinement LLM",
             "Initial Article for refinement LLM",
-            "Refined Article From LLM"
+            "# Refined Article From LLM"
         ])
 
         self.generator.refine = True
-        components = self.generator._generate_article_components_from_transcript(
-            self.sample_transcript, "source_ref.txt", model=self.TEST_LLM_MODEL
-        )
+        transcript_data = {
+            'content': self.sample_transcript,
+            'source': 'source_ref.txt',
+            'original_input': 'source_ref.txt',
+            'is_audio': False,
+            'anonymized': False
+        }
+        result = self.generator._process_single_transcript(transcript_data, model=self.TEST_LLM_MODEL)
         self.generator.refine = False # Reset for other tests
 
-        self.assertEqual(components["final_article_content"], "Refined Article From LLM")
-        self.assertEqual(components["raw_article_content"], "Refined Article From LLM")
-        self.assertIn("Analysis for refinement LLM", components["analysis_sections"]["insights"])
-        self.assertIn("refinement", components["metadata"]["generation_times"])
-        self.mock_llm_instance.generate.assert_any_call(prompt=unittest.mock.ANY, thinking_tokens=unittest.mock.ANY, model=self.TEST_LLM_MODEL)
+        self.assertEqual(result["article_content"], "# Refined Article From LLM")
+        self.assertIn("Analysis for refinement LLM", result["analysis_sections"]["insights"])
+        self.assertIn("refinement", result["metadata"]["generation_times"])
         self.assertEqual(self.mock_llm_instance.generate.call_count, 3)
+        for call in self.mock_llm_instance.generate.call_args_list:
+            self.assertEqual(call.kwargs['model'], self.TEST_LLM_MODEL)
 
-    @patch('socraticai.content.article.article_generator.transcribe')
-    def test_generate_article_components_from_audiofile(self, mock_transcribe):
-        """Test generating components from a (mocked) audio file."""
+    def test_process_single_transcript_audio_metadata(self):
+        """Test that _process_single_transcript includes audio metadata when is_audio is True."""
         self.logger.info(f"Running test: {self._testMethodName}")
-        # Fix: Make the mocked transcript long enough
-        long_enough_mock_transcript = "This is a sufficiently long mock transcript. " * (self.min_transcript_length // 40 + 1)
-        mock_transcribe.return_value=("mock_transcript.txt", long_enough_mock_transcript)
-
         self._mock_llm_generate(side_effects=[
-            "# Key Insights\nAudio Analysis LLM", 
+            "# Key Insights\nAudio Analysis LLM",
             "Audio Article LLM"
         ])
         self.generator.refine = False
-        
-        with patch.object(self.generator, '_is_audio_file', return_value=True) as mock_is_audio:
-            components = self.generator._generate_article_components_from_audiofile(
-                "test.mp3", anonymize=True, model=self.TEST_LLM_MODEL
-            )
-        
-        mock_transcribe.assert_called_once_with("test.mp3", anonymize=True)
-        mock_is_audio.assert_called_once_with("test.mp3")
 
-        self.assertEqual(components["final_article_content"], "Audio Article LLM")
-        self.assertIn("Audio Analysis LLM", components["analysis_sections"]["insights"])
-        self.assertEqual(components["metadata"]["source_audio"], "test.mp3")
-        self.assertEqual(components["metadata"]["source_transcript"], "mock_transcript.txt")
-        self.assertTrue(components["metadata"]["anonymized"])
-        self.mock_llm_instance.generate.assert_any_call(prompt=unittest.mock.ANY, thinking_tokens=unittest.mock.ANY, model=self.TEST_LLM_MODEL)
+        transcript_data = {
+            'content': self.sample_transcript,
+            'source': 'mock_transcript.txt',
+            'original_input': 'test.mp3',
+            'is_audio': True,
+            'anonymized': True
+        }
+        result = self.generator._process_single_transcript(transcript_data, model=self.TEST_LLM_MODEL)
 
-    def test_generate_article_components_from_audiofile_unsupported_type(self):
-        """Test error for unsupported audio file type when _is_audio_file is false."""
+        self.assertEqual(result["article_content"], "Audio Article LLM")
+        self.assertIn("Audio Analysis LLM", result["analysis_sections"]["insights"])
+        self.assertEqual(result["metadata"]["source_audio"], "test.mp3")
+        self.assertEqual(result["metadata"]["source_transcript"], "mock_transcript.txt")
+        self.assertTrue(result["metadata"]["anonymized"])
+
+    # --- Tests for _transcribe_all_inputs ---
+
+    def test_transcribe_all_inputs_transcript_too_short(self):
+        """Test error for transcript too short via _transcribe_all_inputs."""
         self.logger.info(f"Running test: {self._testMethodName}")
+        short_file = Path(self.test_dir) / "short.txt"
+        short_content = "a" * (self.min_transcript_length - 1)
+        with open(short_file, "w") as f:
+            f.write(short_content)
+
+        with self.assertRaises(TranscriptTooShortError):
+            self.generator._transcribe_all_inputs([str(short_file)], anonymize=False, model=self.TEST_LLM_MODEL)
+
+    @patch('socraticai.content.article.article_generator.transcribe')
+    @patch('socraticai.content.article.article_generator.estimate_transcript_tokens', return_value=100)
+    def test_transcribe_all_inputs_audio_file(self, mock_tokens, mock_transcribe):
+        """Test _transcribe_all_inputs with an audio file."""
+        self.logger.info(f"Running test: {self._testMethodName}")
+        long_enough_transcript = "This is a sufficiently long mock transcript. " * (self.min_transcript_length // 40 + 1)
+        mock_transcribe.return_value = ("mock_transcript.txt", long_enough_transcript)
+
+        # Create a dummy audio file path (doesn't need to exist since transcribe is mocked)
+        audio_path = Path(self.test_dir) / "test.mp3"
+        audio_path.touch()
+
+        transcripts = self.generator._transcribe_all_inputs(
+            [str(audio_path)], anonymize=True, model=self.TEST_LLM_MODEL
+        )
+
+        mock_transcribe.assert_called_once_with(str(audio_path), anonymize=True)
+        self.assertEqual(len(transcripts), 1)
+        self.assertEqual(transcripts[0]['source'], "mock_transcript.txt")
+        self.assertEqual(transcripts[0]['original_input'], str(audio_path))
+        self.assertTrue(transcripts[0]['is_audio'])
+        self.assertTrue(transcripts[0]['anonymized'])
+
+    def test_transcribe_all_inputs_file_not_found(self):
+        """Test _transcribe_all_inputs with a non-existent file."""
+        self.logger.info(f"Running test: {self._testMethodName}")
+        with self.assertRaises(FileNotFoundError):
+            self.generator._transcribe_all_inputs(
+                ["non_existent_file.txt"], anonymize=False, model=self.TEST_LLM_MODEL
+            )
+
+    @patch('socraticai.content.article.article_generator.estimate_transcript_tokens', return_value=100)
+    def test_transcribe_all_inputs_unsupported_binary_file(self, mock_tokens):
+        """Test _transcribe_all_inputs with a binary file treated as transcript."""
+        self.logger.info(f"Running test: {self._testMethodName}")
+        unsupported_file_path = Path(self.test_dir) / "unsupported.dat"
+        with open(unsupported_file_path, "wb") as f:
+            f.write(os.urandom(10))
+
         with patch.object(self.generator, '_is_audio_file', return_value=False):
             with self.assertRaises(UnsupportedFileTypeError):
-                self.generator._generate_article_components_from_audiofile("test.docx", True, self.TEST_LLM_MODEL)
-
-    def test_process_single_input_transcript_success(self):
-        """Test _process_single_input with a transcript, successful generation and saving."""
-        self.logger.info(f"Running test: {self._testMethodName}")
-        temp_transcript_path = self.generator.output_dir.parent / "temp_transcript_for_process.txt"
-        with open(temp_transcript_path, "w") as f:
-            f.write(self.sample_transcript)
-
-        self._mock_llm_generate(side_effects=[
-            "# Key Insights\nProcessed Analysis LLM", 
-            "Processed Article LLM"
-        ])
-        self.generator.refine = False
-        output_base_name = "processed_article_single"
-        output_base = self.generator.output_dir / output_base_name
-
-        article_data, raw_llm_output = self.generator._process_single_input(
-            str(temp_transcript_path), rerun=True, anonymize=False, model=self.TEST_LLM_MODEL,
-            output_base_path_for_sub_article=output_base
-        )
-
-        self.assertEqual(raw_llm_output, "Processed Article LLM")
-        self.assertIn("Processed Article LLM", article_data["content"])
-        self.assertIn("Processed Analysis LLM", article_data["metadata"]["analysis_summary"]["insights"])
-        self.assertEqual(article_data["metadata"]["model_used"], self.TEST_LLM_MODEL)
-        self.assertEqual(article_data["metadata"]["source_transcript"], str(temp_transcript_path))
-        self.assertEqual(article_data["metadata"]["raw_llm_article_content"], "Processed Article LLM")
-        
-        expected_md_path = output_base.with_suffix(".md")
-        # Corrected path construction for metadata file, consistent with the fix in article_generator.py
-        expected_meta_path = output_base.with_name(output_base.name + "_meta.json")
-        self.assertTrue(expected_md_path.exists())
-        self.assertTrue(expected_meta_path.exists())
-        
-        with open(expected_md_path, 'r') as f_md, open(expected_meta_path, 'r') as f_meta:
-            saved_md = f_md.read()
-            saved_meta = json.load(f_meta)
-        self.assertIn("Processed Article LLM", saved_md)
-        self.assertEqual(saved_meta["raw_llm_article_content"], "Processed Article LLM")
-        self.assertEqual(saved_meta["model_used"], self.TEST_LLM_MODEL)
-        
-        os.remove(temp_transcript_path)
-        self.mock_llm_instance.generate.assert_any_call(prompt=unittest.mock.ANY, thinking_tokens=unittest.mock.ANY, model=self.TEST_LLM_MODEL)
-
-    def test_process_single_input_file_not_found(self):
-        """Test _process_single_input with a non-existent input file."""
-        self.logger.info(f"Running test: {self._testMethodName}")
-        output_base = self.generator.output_dir / "non_existent_test"
-        with self.assertRaises(FileNotFoundError):
-            self.generator._process_single_input("non_existent_file.txt", rerun=True, anonymize=False, model=self.TEST_LLM_MODEL, output_base_path_for_sub_article=output_base)
-
-    def test_process_single_input_unsupported_file_type_as_transcript(self):
-        """Test _process_single_input with an unsupported file type (e.g. binary) treated as transcript."""
-        self.logger.info(f"Running test: {self._testMethodName}")
-        unsupported_file_path = self.generator.output_dir.parent / "unsupported.dat"
-        with open(unsupported_file_path, "wb") as f:
-            f.write(os.urandom(10)) 
-        
-        output_base = self.generator.output_dir / "unsupported_test"
-        with patch.object(self.generator, '_is_audio_file', return_value=False):
-            with self.assertRaises(UnsupportedFileTypeError): 
-                self.generator._process_single_input(
-                    str(unsupported_file_path), 
-                    rerun=True, anonymize=False, model=self.TEST_LLM_MODEL, 
-                    output_base_path_for_sub_article=output_base
+                self.generator._transcribe_all_inputs(
+                    [str(unsupported_file_path)], anonymize=False, model=self.TEST_LLM_MODEL
                 )
-        os.remove(unsupported_file_path)
 
-    def test_process_single_input_transcript_no_rerun_files_exist_with_raw_llm(self):
-        """Test _process_single_input: no rerun, files exist, metadata has raw_llm_content."""
-        self.logger.info(f"Running test: {self._testMethodName}")
-        output_base_name = "existing_article_no_rerun"
-        output_base = self.generator.output_dir / output_base_name
-        os.makedirs(self.generator.output_dir, exist_ok=True)
-        
-        mock_metadata = {
-            "raw_llm_article_content": "Existing LLM Output from Meta",
-            "model_used": "old_model_in_meta", # This should be preserved
-            "source_transcript": "dummy_transcript.txt"
-        }
-        md_path = output_base.with_suffix(".md")
-        meta_path = output_base.with_name(output_base.name + "_meta.json")
+    # --- Tests for generate (end-to-end) ---
 
-        with open(md_path, "w") as f_md: f_md.write("Existing MD Content")
-        with open(meta_path, "w") as f_meta: json.dump(mock_metadata, f_meta)
-
-        dummy_input_path = "dummy_transcript.txt" 
-
-        article_data, raw_llm_output = self.generator._process_single_input(
-            dummy_input_path, rerun=False, anonymize=False, model=self.TEST_LLM_MODEL, # New model shouldn't be used
-            output_base_path_for_sub_article=output_base
-        )
-        self.assertEqual(raw_llm_output, "Existing LLM Output from Meta")
-        self.assertEqual(article_data["content"], "Existing MD Content")
-        self.assertEqual(article_data["metadata"]["model_used"], "old_model_in_meta") # Verify old model is kept
-        self.mock_llm_instance.generate.assert_not_called()
-
-    def test_process_single_input_transcript_no_rerun_files_exist_no_raw_llm(self):
-        """Test _process_single_input: no rerun, files exist, but metadata missing raw_llm_content (should regenerate)."""
-        self.logger.info(f"Running test: {self._testMethodName}")
-        temp_transcript_path = self.generator.output_dir.parent / "temp_regen_transcript_no_raw.txt"
-        with open(temp_transcript_path, "w") as f:
-            f.write(self.sample_transcript)
-
-        output_base_name = "existing_article_regen_no_raw"
-        output_base = self.generator.output_dir / output_base_name
-        os.makedirs(self.generator.output_dir, exist_ok=True)
-        
-        mock_metadata_no_raw = {
-            "model_used": "old_model_no_raw",
-            "source_transcript": str(temp_transcript_path)
-        }
-        md_path = output_base.with_suffix(".md")
-        meta_path = output_base.with_name(output_base.name + "_meta.json")
-        with open(md_path, "w") as f_md: f_md.write("Old MD Content, will be overwritten")
-        with open(meta_path, "w") as f_meta: json.dump(mock_metadata_no_raw, f_meta)
-
-        self._mock_llm_generate(side_effects=[
-            "# Key Insights\nRegenerated Analysis Due to No Raw LLM", 
-            "Regenerated Article Due to No Raw LLM"
-        ])
-        self.generator.refine = False
-
-        article_data, raw_llm_output = self.generator._process_single_input(
-            str(temp_transcript_path), rerun=False, anonymize=False, model=self.TEST_LLM_MODEL,
-            output_base_path_for_sub_article=output_base, is_sub_article=True 
-        )
-
-        self.assertEqual(raw_llm_output, "Regenerated Article Due to No Raw LLM")
-        self.assertIn("Regenerated Article Due to No Raw LLM", article_data["content"])
-        self.assertEqual(article_data["metadata"]["model_used"], self.TEST_LLM_MODEL) # Should use new model
-        self.mock_llm_instance.generate.assert_called() 
-        self.assertTrue(md_path.exists())
-        self.assertTrue(meta_path.exists())
-        with open(meta_path, 'r') as f_meta_new:
-            new_meta = json.load(f_meta_new)
-        self.assertEqual(new_meta["raw_llm_article_content"], "Regenerated Article Due to No Raw LLM")
-        self.mock_llm_instance.generate.assert_any_call(prompt=unittest.mock.ANY, thinking_tokens=unittest.mock.ANY, model=self.TEST_LLM_MODEL)
-        os.remove(temp_transcript_path)
-
-    def test_generate_single_transcript_input(self):
+    @patch('socraticai.content.article.article_generator.group_transcripts_by_context')
+    @patch('socraticai.content.article.article_generator.estimate_transcript_tokens', return_value=100)
+    def test_generate_single_transcript_input(self, mock_tokens, mock_grouping):
         """Test main generate method with a single transcript file (rerun=True)."""
         self.logger.info(f"Running test: {self._testMethodName}")
         temp_transcript_path = self.generator.output_dir.parent / "main_gen_single_transcript.txt"
         with open(temp_transcript_path, "w") as f:
             f.write(self.sample_transcript)
 
+        # Mock grouping to return a single group with one transcript
+        def group_side_effect(transcripts, model):
+            return [transcripts]
+        mock_grouping.side_effect = group_side_effect
+
         self._mock_llm_generate(side_effects=[
-            "# Key Insights\nMain Gen Single Analysis LLM", 
+            "# Key Insights\nMain Gen Single Analysis LLM",
             "Main Gen Single Article LLM"
         ])
         self.generator.refine = False
@@ -494,13 +405,16 @@ class TestArticleGenerator(unittest.TestCase):
         with open(article_path, 'r') as f_art, open(meta_path, 'r') as f_meta:
             article_content = f_art.read()
             metadata_content = json.load(f_meta)
-        
+
         self.assertIn("Main Gen Single Article LLM", article_content)
         self.assertIn("Main Gen Single Analysis LLM", metadata_content["analysis_summary"]["insights"])
         self.assertEqual(metadata_content["model_used"], self.TEST_LLM_MODEL)
         self.assertEqual(metadata_content["raw_llm_article_content"], "Main Gen Single Article LLM")
         self.assertEqual(metadata_content["source_transcript"], str(temp_transcript_path))
-        self.mock_llm_instance.generate.assert_any_call(prompt=unittest.mock.ANY, thinking_tokens=unittest.mock.ANY, model=self.TEST_LLM_MODEL)
+        # Verify LLM was called with the correct model (analysis + article = 2 calls)
+        self.assertEqual(self.mock_llm_instance.generate.call_count, 2)
+        for call in self.mock_llm_instance.generate.call_args_list:
+            self.assertEqual(call.kwargs['model'], self.TEST_LLM_MODEL)
         os.remove(temp_transcript_path)
 
     def test_generate_single_transcript_input_no_rerun_exists(self):
@@ -510,7 +424,7 @@ class TestArticleGenerator(unittest.TestCase):
         base_name = self.generator._get_base_filename(str(temp_transcript_path))
         output_base = self.generator.output_dir / base_name
         os.makedirs(self.generator.output_dir, exist_ok=True)
-        
+
         md_path = output_base.with_suffix(".md")
         meta_path = output_base.with_name(output_base.name + "_meta.json")
 
@@ -527,7 +441,7 @@ class TestArticleGenerator(unittest.TestCase):
         article_path_res, meta_path_res = self.generator.generate(
             str(temp_transcript_path), rerun=False, model=self.TEST_LLM_MODEL
         )
-        
+
         self.assertEqual(article_path_res, md_path)
         self.assertEqual(meta_path_res, meta_path)
         with open(article_path_res, 'r') as f_art:
@@ -545,82 +459,81 @@ class TestArticleGenerator(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "No input paths provided."):
             self.generator.generate([])
 
-    def test_combine_articles_content(self):
-        """Test _combine_articles_content method."""
+    def test_combine_group_results(self):
+        """Test _combine_group_results method."""
         self.logger.info(f"Running test: {self._testMethodName}")
-        self._mock_llm_generate("Combined Article Output LLM")
-        raw_texts = ["Article 1 text content.", "Article 2 text content."]
-        source_ids = ["source_id_1", "source_id_2"]
-        
-        combined_content = self.generator._combine_articles_content(raw_texts, source_ids, model=self.TEST_LLM_MODEL)
-        self.assertEqual(combined_content, "Combined Article Output LLM")
-        
-        self.mock_llm_instance.generate.assert_called_once()
-        args, kwargs = self.mock_llm_instance.generate.call_args_list[0] # Get the first (and only) call
+        # Two LLM calls: article combination + analysis synthesis
+        self._mock_llm_generate([
+            "Combined Article Output LLM",
+            "# Key Insights\nSynthesized insights"
+        ])
+        group_results = [
+            {
+                "article_content": "Article 1 text content.",
+                "metadata": {
+                    "analysis_sections_raw": "# Key Insights\nInsight from group 1",
+                    "source_transcripts": ["transcript_1.txt"],
+                    "original_inputs": ["input_1.mp3"],
+                    "total_transcript_length": 5000
+                }
+            },
+            {
+                "article_content": "Article 2 text content.",
+                "metadata": {
+                    "analysis_sections_raw": "# Key Insights\nInsight from group 2",
+                    "source_transcripts": ["transcript_2.txt"],
+                    "original_inputs": ["input_2.mp3"],
+                    "total_transcript_length": 6000
+                }
+            }
+        ]
+
+        result = self.generator._combine_group_results(group_results, model=self.TEST_LLM_MODEL)
+        self.assertEqual(result["article_content"], "Combined Article Output LLM")
+
+        self.assertEqual(self.mock_llm_instance.generate.call_count, 2)
+        # Check the article combination call
+        args, kwargs = self.mock_llm_instance.generate.call_args_list[0]
         called_prompt = kwargs['prompt']
-        self.assertIn("--- Source Article 1: source_id_1 ---", called_prompt)
+        self.assertIn("--- Group 1 ---", called_prompt)
         self.assertIn("Article 1 text content.", called_prompt)
-        self.assertIn("--- Source Article 2: source_id_2 ---", called_prompt)
+        self.assertIn("--- Group 2 ---", called_prompt)
         self.assertIn("Article 2 text content.", called_prompt)
         self.assertEqual(kwargs['model'], self.TEST_LLM_MODEL)
 
-    def test_synthesize_combined_analysis_sections(self):
-        """Test _synthesize_combined_analysis_sections method."""
-        self.logger.info(f"Running test: {self._testMethodName}")
-        self._mock_llm_generate("# Key Insights\nSynthesized Insights From LLM")
-        collected_sections = [
-            {"identifier": "src_analysis_1", "sections": "# Key Insights\nInsight From Source 1"},
-            {"identifier": "src_analysis_2", "sections": "# Open Questions\nQuestion From Source 2"}
-        ]
-        synthesized_output = self.generator._synthesize_combined_analysis_sections(collected_sections, model=self.TEST_LLM_MODEL)
-        self.assertEqual(synthesized_output, "# Key Insights\nSynthesized Insights From LLM")
-        self.mock_llm_instance.generate.assert_called_once()
-        args, kwargs = self.mock_llm_instance.generate.call_args_list[0] # Get the first (and only) call
-        called_prompt = kwargs['prompt']
-        self.assertIn("--- Source: src_analysis_1 ---", called_prompt)
-        self.assertIn("# Key Insights\nInsight From Source 1", called_prompt)
-        self.assertIn("--- Source: src_analysis_2 ---", called_prompt)
-        self.assertIn("# Open Questions\nQuestion From Source 2", called_prompt)
-        self.assertEqual(kwargs['model'], self.TEST_LLM_MODEL)
-
-    def test_synthesize_combined_analysis_sections_no_valid_sections(self):
-        """Test synthesis with no valid (string) sections provided."""
-        self.logger.info(f"Running test: {self._testMethodName}")
-        output_empty = self.generator._synthesize_combined_analysis_sections([], model=self.TEST_LLM_MODEL)
-        self.assertIn("[No insights synthesized due to missing source data.]", output_empty)
-        self.mock_llm_instance.generate.assert_not_called()
-        
-        output_invalid_type = self.generator._synthesize_combined_analysis_sections(
-            [{"identifier": "s1", "sections": {"key": "value"}}], model=self.TEST_LLM_MODEL
-        )
-        self.assertIn("[No insights synthesized due to missing source data.]", output_invalid_type)
-        self.mock_llm_instance.generate.assert_not_called()
-
-    def test_generate_multiple_transcript_inputs(self):
+    @patch('socraticai.content.article.article_generator.group_transcripts_by_context')
+    @patch('socraticai.content.article.article_generator.estimate_transcript_tokens', return_value=100)
+    def test_generate_multiple_transcript_inputs(self, mock_tokens, mock_grouping):
         """Test main generate method with multiple transcript files for combined article."""
         self.logger.info(f"Running test: {self._testMethodName}")
         temp_transcript1_path = self.generator.output_dir.parent / "multi_transcript1_for_main_gen.txt"
         temp_transcript2_path = self.generator.output_dir.parent / "multi_transcript2_for_main_gen.txt"
-        
+
         # Write transcripts that are long enough to pass the minimum length requirement
         long_transcript1 = "Transcript 1 content for multi-gen. This is a longer transcript to meet the minimum length requirement." * 20
         long_transcript2 = "Transcript 2 content for multi-gen. This is a longer transcript to meet the minimum length requirement." * 20
-        
+
         with open(temp_transcript1_path, "w") as f: f.write(long_transcript1)
         with open(temp_transcript2_path, "w") as f: f.write(long_transcript2)
+
+        # Mock grouping to put both transcripts in a single group
+        def group_side_effect(transcripts, model):
+            return [transcripts]
+        mock_grouping.side_effect = group_side_effect
 
         # Mock the LLM responses for the new multi-source flow
         self._mock_llm_generate(side_effects=[
             "# Key Insights\nMulti-source Analysis From LLM",  # Analysis response
-            "Combined Multi-Source Article Content From LLM"    # Article response
+            "Combined Multi-Source Article Content From LLM",   # Article response
+            "AI_and_Discussion"                                 # Title generation response
         ])
 
         self.generator.refine = False
 
         input_paths_list = [str(temp_transcript1_path), str(temp_transcript2_path)]
         article_path, meta_path = self.generator.generate(
-            input_paths_list, 
-            rerun=True, 
+            input_paths_list,
+            rerun=True,
             model=self.TEST_LLM_MODEL
         )
 
@@ -628,18 +541,14 @@ class TestArticleGenerator(unittest.TestCase):
         self.assertTrue(meta_path.exists())
         self.assertTrue(article_path.name.startswith("combined_"))
         self.assertTrue(meta_path.name.startswith("combined_"))
-        # The metadata filename for combined uses a timestamp, so we only check suffix
-        self.assertTrue(meta_path.name.endswith("_meta.json")) 
-
-        # Verify that the LLM was called for analysis and article generation
-        self.assertEqual(self.mock_llm_instance.generate.call_count, 2)
+        self.assertTrue(meta_path.name.endswith("_meta.json"))
 
         with open(article_path, 'r') as f_art, open(meta_path, 'r') as f_meta:
             article_content = f_art.read()
             metadata_content = json.load(f_meta)
-        
+
         self.assertIn("Combined Multi-Source Article Content From LLM", article_content)
-        self.assertIn("# Notes from the Conversation\nMulti-source Analysis From LLM", article_content) 
+        self.assertIn("# Notes from the Conversation\nMulti-source Analysis From LLM", article_content)
         self.assertEqual(metadata_content["type"], "multi_source_article")
         self.assertEqual(metadata_content["model_used"], self.TEST_LLM_MODEL)
         self.assertEqual(metadata_content["source_count"], 2)
@@ -650,5 +559,29 @@ class TestArticleGenerator(unittest.TestCase):
         os.remove(temp_transcript1_path)
         os.remove(temp_transcript2_path)
 
+    def test_extract_date_from_filename_yyyymmdd(self):
+        """Test date extraction from various YYYY-MM-DD format filenames."""
+        self.logger.info(f"Running test: {self._testMethodName}")
+        # YYYY-MM-DD
+        self.assertEqual(self.generator._extract_date_from_filename("2023-10-20-event.txt"), "20231020")
+        # YYYYMMDD
+        self.assertEqual(self.generator._extract_date_from_filename("20231020_event.txt"), "20231020")
+        # YYYY_MM_DD
+        self.assertEqual(self.generator._extract_date_from_filename("2023_10_20_event.txt"), "20231020")
+
+    def test_extract_date_from_filename_no_date(self):
+        """Test that filenames with no date return None."""
+        self.logger.info(f"Running test: {self._testMethodName}")
+        self.assertIsNone(self.generator._extract_date_from_filename("myevent.txt"))
+        self.assertIsNone(self.generator._extract_date_from_filename("notes.md"))
+
+    def test_extract_date_uses_numeric_comparison(self):
+        """Verify numeric comparison is used for year validation (not string)."""
+        self.logger.info(f"Running test: {self._testMethodName}")
+        # Year 2023 should work
+        self.assertEqual(self.generator._extract_date_from_filename("20230115_event.txt"), "20230115")
+        # Year 1899 should not be valid (< 1900)
+        self.assertIsNone(self.generator._extract_date_from_filename("18990115_event.txt"))
+
 if __name__ == '__main__':
-    unittest.main() 
+    unittest.main()

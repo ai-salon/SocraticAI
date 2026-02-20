@@ -254,9 +254,9 @@ def article(path=None, rerun=False, anonymize=True, multi_source=False, model=No
     Use --multi-source to combine multiple files into a single article.
     
     Model choices:
-    1) default - gemini-2.5-flash (default)
-    2) flash - gemini-2.5-flash  
-    3) sonnet - claude-sonnet-4-20250514
+    1) default - gemini-3-flash-preview (default)
+    2) flash - gemini-3-flash-preview
+    3) sonnet - claude-sonnet-4-6
     4) pro - gemini-2.5-pro
     """
     console.print("\n[bold blue]📄 SocraticAI Article Generator[/bold blue]\n")

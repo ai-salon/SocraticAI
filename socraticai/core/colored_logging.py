@@ -129,6 +129,15 @@ class ColoredLogger:
         """Log when file already exists and is skipped."""
         console.print(f"⏭️  [dim]FILE EXISTS[/dim] {filepath} (use --rerun to regenerate)")
     
+    # General Purpose Methods
+    def info(self, message: str):
+        """Log a general informational message."""
+        console.print(f"[bold cyan]INFO[/bold cyan] {message}")
+
+    def success(self, message: str):
+        """Log a general success message."""
+        console.print(f"[bold green]SUCCESS[/bold green] {message}")
+
     # Error Operations
     def error(self, operation: str, error_msg: str):
         """Log operation errors."""
