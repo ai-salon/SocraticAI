@@ -29,7 +29,7 @@ from socraticai.core.utils import (
     estimate_transcript_tokens,
     group_transcripts_by_context
 )
-from socraticai.config import DEFAULT_LLM_MODEL
+from socraticai.config import DEFAULT_LLM_MODEL, DEFAULT_MAX_WORKERS
 
 logger = logging.getLogger(__name__)
 colored_logger = get_colored_logger(__name__)
@@ -128,12 +128,22 @@ class ArticleGenerator:
         colored_logger.step_start(2, 5, "Context analysis and grouping")
         transcript_groups = self._group_transcripts_by_context(transcripts, current_model)
         
-        # Step 3: Process each group
+        # Step 3: Process each group (parallelize when multiple groups)
         colored_logger.step_start(3, 5, f"Processing {len(transcript_groups)} transcript groups")
-        group_results = []
-        for i, group in enumerate(transcript_groups):
-            group_result = self._process_transcript_group(group, current_model)
-            group_results.append(group_result)
+        if len(transcript_groups) == 1:
+            group_results = [self._process_transcript_group(transcript_groups[0], current_model)]
+        else:
+            from concurrent.futures import ThreadPoolExecutor, as_completed
+
+            group_results = [None] * len(transcript_groups)
+            with ThreadPoolExecutor(max_workers=DEFAULT_MAX_WORKERS) as executor:
+                future_to_idx = {
+                    executor.submit(self._process_transcript_group, group, current_model): i
+                    for i, group in enumerate(transcript_groups)
+                }
+                for future in as_completed(future_to_idx):
+                    idx = future_to_idx[future]
+                    group_results[idx] = future.result()
         
         # Step 4: Combine results if multiple groups
         if len(group_results) == 1:
@@ -175,66 +185,87 @@ class ArticleGenerator:
         
         return self._save_article(article_data, output_base_path)
 
+    def _transcribe_single_input(self, input_path: str, anonymize: bool) -> Dict[str, str]:
+        """
+        Transcribe or read a single input file.
+
+        Args:
+            input_path: Path to an audio or transcript file
+            anonymize: Whether to anonymize transcripts
+
+        Returns:
+            Transcript dictionary with 'content', 'source', and metadata keys
+        """
+        if not os.path.exists(input_path):
+            colored_logger.error("File processing", f"Input file not found: {input_path}")
+            raise FileNotFoundError(f"Input file not found: {input_path}")
+
+        is_audio = self._is_audio_file(input_path)
+        filename = os.path.basename(input_path)
+
+        if is_audio:
+            start_time = time.time()
+            transcript_file, transcript_content = transcribe(input_path, anonymize=anonymize)
+            duration = time.time() - start_time
+            source_file = transcript_file
+            colored_logger.transcription_complete(filename, os.path.basename(transcript_file), duration)
+        else:
+            colored_logger.transcription_found(filename, input_path)
+            try:
+                with open(input_path, 'r', encoding='utf-8') as f:
+                    transcript_content = f.read()
+                source_file = input_path
+            except UnicodeDecodeError:
+                error_msg = f"File {input_path} is neither a supported audio file nor a valid text file."
+                colored_logger.error("File reading", error_msg)
+                raise UnsupportedFileTypeError(error_msg)
+
+        if len(transcript_content) < self.MIN_TRANSCRIPT_LENGTH:
+            raise TranscriptTooShortError(
+                f"Transcript from {input_path} is too short ({len(transcript_content)} chars). "
+                f"Minimum is {self.MIN_TRANSCRIPT_LENGTH}."
+            )
+
+        return {
+            'content': transcript_content,
+            'source': source_file,
+            'original_input': input_path,
+            'is_audio': is_audio,
+            'anonymized': anonymize if is_audio else False
+        }
+
     def _transcribe_all_inputs(self, input_paths: List[str], anonymize: bool, model: str) -> List[Dict[str, str]]:
         """
         Transcribe all input files and return transcript data.
-        
+        Parallelizes transcription when multiple inputs are provided.
+
         Args:
             input_paths: List of paths to audio or transcript files
             anonymize: Whether to anonymize transcripts
             model: Model name for context estimation
-            
+
         Returns:
             List of transcript dictionaries with 'content' and 'source' keys
         """
-        transcripts = []
-        
-        for input_path in input_paths:
-            if not os.path.exists(input_path):
-                colored_logger.error("File processing", f"Input file not found: {input_path}")
-                raise FileNotFoundError(f"Input file not found: {input_path}")
-            
-            is_audio = self._is_audio_file(input_path)
-            filename = os.path.basename(input_path)
-            
-            if is_audio:
-                # Transcribe audio file
-                start_time = time.time()
-                transcript_file, transcript_content = transcribe(input_path, anonymize=anonymize)
-                duration = time.time() - start_time
-                source_file = transcript_file
-                colored_logger.transcription_complete(filename, os.path.basename(transcript_file), duration)
-            else:
-                # Read transcript file
-                colored_logger.transcription_found(filename, input_path)
-                try:
-                    with open(input_path, 'r', encoding='utf-8') as f:
-                        transcript_content = f.read()
-                    source_file = input_path
-                except UnicodeDecodeError:
-                    error_msg = f"File {input_path} is neither a supported audio file nor a valid text file."
-                    colored_logger.error("File reading", error_msg)
-                    raise UnsupportedFileTypeError(error_msg)
-            
-            # Validate transcript length
-            if len(transcript_content) < self.MIN_TRANSCRIPT_LENGTH:
-                raise TranscriptTooShortError(
-                    f"Transcript from {input_path} is too short ({len(transcript_content)} chars). "
-                    f"Minimum is {self.MIN_TRANSCRIPT_LENGTH}."
-                )
-            
-            transcripts.append({
-                'content': transcript_content,
-                'source': source_file,
-                'original_input': input_path,
-                'is_audio': is_audio,
-                'anonymized': anonymize if is_audio else False
-            })
-        
+        if len(input_paths) == 1:
+            transcripts = [self._transcribe_single_input(input_paths[0], anonymize)]
+        else:
+            from concurrent.futures import ThreadPoolExecutor, as_completed
+
+            transcripts = [None] * len(input_paths)
+            with ThreadPoolExecutor(max_workers=DEFAULT_MAX_WORKERS) as executor:
+                future_to_idx = {
+                    executor.submit(self._transcribe_single_input, path, anonymize): i
+                    for i, path in enumerate(input_paths)
+                }
+                for future in as_completed(future_to_idx):
+                    idx = future_to_idx[future]
+                    transcripts[idx] = future.result()
+
         # Token estimation for context planning
         total_tokens = sum(estimate_transcript_tokens(t['content'], model) for t in transcripts)
         colored_logger.token_estimation(len(transcripts), total_tokens, model)
-        
+
         return transcripts
 
     def _group_transcripts_by_context(self, transcripts: List[Dict[str, str]], model: str) -> List[List[Dict[str, str]]]:
@@ -693,6 +724,11 @@ class ArticleGenerator:
     
     def _get_base_filename(self, input_path: str, include_date: bool = True) -> str:
         stem = Path(input_path).stem
+        # Strip transcript-related suffixes
+        for suffix in ['_transcript_anon', '_transcript']:
+            if stem.endswith(suffix):
+                stem = stem[:-len(suffix)]
+                break
         if include_date:
             return stem
         else:
@@ -808,7 +844,8 @@ class ArticleGenerator:
             "insights": "Key Insights",
             "questions": "Open Questions",
             "themes": "Main Themes",
-            "pull_quotes": "Pull Quotes"
+            "pull_quotes": "Pull Quotes",
+            "moments": "Moments"
         }
         
         all_known_titles_regex = "|".join([re.escape(t) for t in section_titles.values()])

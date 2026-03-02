@@ -59,7 +59,7 @@ TRANSCRIPT:
 article_writing_prompt = Prompt(
     "article_writing",
     '''
-I'd like you to write an article based on a conversation transcript and its analysis. The article should be about 2000 words in length.
+I'd like you to write an article based on a conversation transcript and its analysis. The article should be **2000-2500 words** in the article body.
 
 ## CRITICAL RULES
 - NEVER reference the analysis document in the article. Do not include parenthetical references like “(Key Insight 8)” or “(Open Question 3)”. The analysis is your research material — synthesize it into prose, don't cite it.
@@ -79,9 +79,11 @@ I'd like you to write an article based on a conversation transcript and its anal
     - Include 3-5 single-sentence takeaways. Each should be one bold sentence — punchy enough to share on social media.
     - These are NOT paragraphs. They are standalone single sentences.
 
-3. Deep Dive Thematic Sections (300-500 words each)
+3. Deep Dive Thematic Sections (**400-600 words each**)
+    Aim for **4-5 thematic sections** that comprehensively represent the breadth of the conversation. These are expert discussions lasting 1-3 hours — the article should reflect the richness and range of perspectives, not just the most dramatic highlights.
     For each major theme:
     - Begin with a clear statement of the theme and why it matters
+    - Integrate **2-3 direct quotes** per section that showcase diverse perspectives. Provide synthesis and context between quotes — don't just list viewpoints, connect them.
     - Within each section, bring in at least one specific “moment” from the conversation — a disagreement, a surprised reaction, a shift in the room's energy. This is what makes the article feel alive rather than like a summary.
     - Connect to broader implications
     - End with a transition to the next theme
@@ -182,13 +184,18 @@ I'd like you to refine and improve an article. You will also have access to anal
 - Draw stronger connections between related points
 - Highlight subtle implications and interconnections
 
-### 5. Optimize Quote Usage
+### 5. Depth & Completeness Check
+- The article should be at least 2000 words. If significantly shorter, expand thematic sections with additional perspectives, quotes, and analysis from the transcript.
+- Ensure the article covers the full breadth of the conversation — not just 2-3 highlights, but the range of themes discussed.
+- Each thematic section should integrate 2-3 quotes from different participants showing diverse viewpoints.
+
+### 6. Optimize Quote Usage
 - REMOVE disfluencies and filler words like "uh", "like", "you know", etc.
 - Paraphrase quotes for clarity while maintaining speaker intent
 - Keep only the most impactful and illustrative quotes
 - Ensure each quote serves a clear purpose in developing themes
 
-### 6. Block Quotes
+### 7. Block Quotes
 - Ensure 2-4 block quotes are placed throughout the article using the [[BLOCK]] format: [[BLOCK]] quote text [[BLOCK]]
 - Block quotes should be spread across sections, not clustered
 - Each should be a quote that makes someone stop scrolling — evocative, surprising, or crystallizing a key tension

@@ -24,7 +24,7 @@ from socraticai.content.article.article_generator import (
 )
 from socraticai.content.knowledge_graph.graph_generator import KnowledgeGraphGenerator
 from socraticai.core.utils import get_stats, get_input_path
-from socraticai.config import MODEL_CHOICES
+from socraticai.config import MODEL_CHOICES, DEFAULT_MAX_WORKERS
 
 logger = logging.getLogger(__name__)
 console = Console()
@@ -245,7 +245,8 @@ def transcribe_cmd(path=None, output_file=None, anonymize=True):
 @click.option('--anonymize/--no-anonymize', default=True, help='Whether to anonymize the transcript (default: True)')
 @click.option('--multi-source', is_flag=True, help='Process multiple files as a single combined article')
 @click.option('--model', type=click.Choice(['default', 'flash', 'sonnet', 'pro']), help='Choose model: 1) default (gemini-2.5-flash), 2) flash (gemini-2.5-flash), 3) sonnet (claude-sonnet-4), 4) pro (gemini-2.5-pro)')
-def article(path=None, rerun=False, anonymize=True, multi_source=False, model=None):
+@click.option('--workers', '-w', type=int, default=DEFAULT_MAX_WORKERS, show_default=True, help='Number of parallel workers for batch processing')
+def article(path=None, rerun=False, anonymize=True, multi_source=False, model=None, workers=DEFAULT_MAX_WORKERS):
     """Generate articles from audio or transcript files with enhanced UX.
     
     If no path is provided, processes all files in the input directory.
@@ -347,9 +348,17 @@ def article(path=None, rerun=False, anonymize=True, multi_source=False, model=No
     generator_kwargs = {}
     if model:
         generator_kwargs['model'] = MODEL_CHOICES.get(model, MODEL_CHOICES["default"])
-    generator = ArticleGenerator(**generator_kwargs)
     success_count = 0
-    
+    effective_workers = min(workers, len(files))
+
+    if effective_workers > 1:
+        console.print(f"[dim]⚡ Processing with {effective_workers} parallel workers[/dim]")
+
+    def _process_single_file(file_path):
+        """Process a single file with its own ArticleGenerator instance."""
+        gen = ArticleGenerator(**generator_kwargs)
+        return gen.generate(input_paths=file_path, rerun=rerun, anonymize=anonymize)
+
     with Progress(
         SpinnerColumn(),
         TextColumn("[progress.description]{task.description}"),
@@ -358,38 +367,70 @@ def article(path=None, rerun=False, anonymize=True, multi_source=False, model=No
         TimeElapsedColumn(),
         console=console
     ) as progress:
-        
+
         task = progress.add_task("[cyan]Generating articles...", total=len(files))
-        
-        for i, file_path in enumerate(files):
-            filename = os.path.basename(file_path)
-            progress.update(task, description=f"[cyan]Processing {filename}...")
-            
-            try:
-                article_path, metadata_path = generator.generate(
-                    input_paths=file_path, 
-                    rerun=rerun, 
-                    anonymize=anonymize
-                )
-                success_count += 1
-                progress.update(task, advance=1)
-                console.print(f"  [green]✅ {filename} → {os.path.basename(article_path)}[/green]")
-                
-            except TranscriptTooShortError:
-                progress.update(task, advance=1)
-                console.print(f"  [red]❌ {filename}: Transcript too short[/red]")
-            except UnsupportedFileTypeError:
-                progress.update(task, advance=1)
-                console.print(f"  [red]❌ {filename}: Unsupported file type[/red]")
-            except RuntimeError as e:
-                progress.update(task, advance=1)
-                if "returned empty response" in str(e):
-                    console.print(f"  [red]❌ {filename}: Model returned no response (try a different model)[/red]")
-                else:
+
+        if effective_workers <= 1:
+            # Sequential processing
+            generator = ArticleGenerator(**generator_kwargs)
+            for file_path in files:
+                filename = os.path.basename(file_path)
+                progress.update(task, description=f"[cyan]Processing {filename}...")
+                try:
+                    article_path, _ = generator.generate(
+                        input_paths=file_path, rerun=rerun, anonymize=anonymize
+                    )
+                    success_count += 1
+                    progress.update(task, advance=1)
+                    console.print(f"  [green]✅ {filename} → {os.path.basename(article_path)}[/green]")
+                except TranscriptTooShortError:
+                    progress.update(task, advance=1)
+                    console.print(f"  [red]❌ {filename}: Transcript too short[/red]")
+                except UnsupportedFileTypeError:
+                    progress.update(task, advance=1)
+                    console.print(f"  [red]❌ {filename}: Unsupported file type[/red]")
+                except RuntimeError as e:
+                    progress.update(task, advance=1)
+                    if "returned empty response" in str(e):
+                        console.print(f"  [red]❌ {filename}: Model returned no response (try a different model)[/red]")
+                    else:
+                        console.print(f"  [red]❌ {filename}: {str(e)}[/red]")
+                except Exception as e:
+                    progress.update(task, advance=1)
                     console.print(f"  [red]❌ {filename}: {str(e)}[/red]")
-            except Exception as e:
-                progress.update(task, advance=1)
-                console.print(f"  [red]❌ {filename}: {str(e)}[/red]")
+        else:
+            # Parallel processing
+            from concurrent.futures import ThreadPoolExecutor, as_completed
+
+            future_to_file = {}
+            with ThreadPoolExecutor(max_workers=effective_workers) as executor:
+                for file_path in files:
+                    future = executor.submit(_process_single_file, file_path)
+                    future_to_file[future] = file_path
+
+                for future in as_completed(future_to_file):
+                    file_path = future_to_file[future]
+                    filename = os.path.basename(file_path)
+                    try:
+                        article_path, _ = future.result()
+                        success_count += 1
+                        progress.update(task, advance=1)
+                        console.print(f"  [green]✅ {filename} → {os.path.basename(article_path)}[/green]")
+                    except TranscriptTooShortError:
+                        progress.update(task, advance=1)
+                        console.print(f"  [red]❌ {filename}: Transcript too short[/red]")
+                    except UnsupportedFileTypeError:
+                        progress.update(task, advance=1)
+                        console.print(f"  [red]❌ {filename}: Unsupported file type[/red]")
+                    except RuntimeError as e:
+                        progress.update(task, advance=1)
+                        if "returned empty response" in str(e):
+                            console.print(f"  [red]❌ {filename}: Model returned no response (try a different model)[/red]")
+                        else:
+                            console.print(f"  [red]❌ {filename}: {str(e)}[/red]")
+                    except Exception as e:
+                        progress.update(task, advance=1)
+                        console.print(f"  [red]❌ {filename}: {str(e)}[/red]")
     
     # Summary
     if len(files) > 1:
