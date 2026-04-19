@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <style>
   html, body { margin: 0; padding: 0; background: white; }
-  canvas { display: block; }
+  canvas { display: block; cursor: crosshair; }
 </style>
 </head>
 <body>
@@ -12,7 +12,6 @@
 <script>
 'use strict';
 
-// ── Canvas setup (2× for retina) ─────────────────────────────────────────────
 const W = 494, H = 345, DPR = 2;
 const canvas = document.getElementById('c');
 const ctx = canvas.getContext('2d');
@@ -30,70 +29,48 @@ function mkRng(seed) {
 }
 
 // ── Network geometry ──────────────────────────────────────────────────────────
-// The original network circle is a 2000×2000px PNG scaled to fit a 450-unit
-// square rotated 45° around SVG point (318.438, -145.938). The inscribed circle
-// has center ≈ (318, 172) and radius ≈ 225 in SVG coordinates.
 const CX = 319, CY = 184, SCALE = 112;
-const R_MIN = 0.75 * SCALE;  // inner ring edge
-const R_MAX = 1.25 * SCALE;  // outer ring edge
+const R_MIN = 0.75 * SCALE;
+const R_MAX = 1.25 * SCALE;
 const MAX_DIST = 0.27 * SCALE;
 const MAX_NBRS = 5;
 const N_PTS = 600;
 const DRIFT_AMP = 0.04 * SCALE;
 const PERIOD_MS = 3200;
 const PULSE_SIGMA = 0.45;
-const BASE_BRIGHT = 0.76;  // dim (light grey for black-on-white variant)
-const PEAK_BRIGHT = 0.0;   // bright = black
+const BASE_BRIGHT = 0.76;
+const PEAK_BRIGHT = 0.0;
 
-// ── Pinned extension nodes (exact SVG coordinates from original) ──────────────
-// Indices 0-12 in the PINNED array.
+// ── Interaction parameters ────────────────────────────────────────────────────
+const GRAVITY_RADIUS = 130;   // px — mouse pull radius
+const GRAVITY_STRENGTH = 18;  // px — max node displacement toward mouse
+const CHAIN_RADIUS = 160;     // px — how close to trigger materialised chain
+const CHAIN_JITTER = 10;      // px — electric jitter on chain nodes
+const CHAIN_STEPS = 4;        // intermediate chain nodes
+const CLICK_PULSE_MS = 1100;  // ms — how long click pulse expands
+const CLICK_PULSE_R = 180;    // px — max click pulse radius
+
+// ── Pinned extension nodes ────────────────────────────────────────────────────
 const PINNED = [
-  // idx 0 — large upper node
   { x: 119.721, y: 111.389, r: 4.89, fill: 'black' },
-  // idx 1 — hub
   { x: 135.332, y: 122.0,   r: 3.5,  fill: 'black' },
-  // idx 2
   { x: 153.332, y: 125.0,   r: 2.0,  fill: 'black' },
-  // idx 3
   { x: 163.832, y: 106.5,   r: 1.5,  fill: 'black' },
-  // idx 4
   { x: 172.832, y: 122.5,   r: 1.5,  fill: 'black' },
-  // idx 5
   { x: 179.082, y: 108.75,  r: 1.25, fill: 'black' },
-  // idx 6 — outer upper
   { x: 187.937, y: 111.5,   r: 1.0,  fill: 'black' },
-  // idx 7 — gateway (just above "i" stem)
   { x: 109.332, y: 168.0,   r: 2.5,  fill: 'black' },
-  // idx 8 — white "hole" in i
   { x: 88.332,  y: 175.0,   r: 3.5,  fill: 'white' },
-  // idx 9 — white "hole" in i
   { x: 92.832,  y: 186.5,   r: 2.0,  fill: 'white' },
-  // idx 10 — white, below i
   { x: 85.332,  y: 195.0,   r: 1.5,  fill: 'white' },
-  // idx 11 — white, tip of tail
   { x: 92.082,  y: 205.75,  r: 0.75, fill: 'white' },
-  // idx 12 — "i dot" junction (center of the dot letterform)
   { x: 89.5,    y: 150.0,   r: 4.5,  fill: 'black' },
 ];
 
-// Forced connections between pinned nodes (exactly from SVG lines).
-// Pairs are [pinnedIndexA, pinnedIndexB].
 const FORCED = [
-  [1, 0],   // 135 → 119  (line 41)
-  [1, 3],   // 135 → 164  (line 42)
-  [1, 2],   // 135 → 153  (line 43)
-  [3, 2],   // 164 → 153  (line 44)
-  [4, 3],   // 173 → 164  (line 45)
-  [3, 5],   // 164 → 179  (line 47)
-  [6, 5],   // 188 → 179  (line 49)
-  [8, 7],   // white 88 → gateway 109  (line 36)
-  [9, 7],   // white 93 → gateway 109  (line 37)
-  [8, 9],   // white 88 → white 93     (line 38)
-  [9, 10],  // white 93 → white 85     (line 39)
-  [11, 10], // white 92 → white 85     (line 40)
-  [12, 0],  // i-dot → upper node 119  (line 57)
-  [12, 7],  // i-dot → gateway 109     (line 58)
-  [8, 12],  // white 88 → i-dot        (line 59)
+  [1,0],[1,3],[1,2],[3,2],[4,3],[3,5],[6,5],
+  [8,7],[9,7],[8,9],[9,10],[11,10],
+  [12,0],[12,7],[8,12],
 ];
 
 // ── Build network ─────────────────────────────────────────────────────────────
@@ -101,32 +78,27 @@ function buildNetwork() {
   const rng = mkRng(42);
   const pts = [];
 
-  // Generate random ring nodes
   for (let i = 0; i < N_PTS; i++) {
-    const r     = R_MIN + rng() * (R_MAX - R_MIN);
+    const r = R_MIN + rng() * (R_MAX - R_MIN);
     const theta = rng() * 2 * Math.PI;
-    const dp    = rng() * 2 * Math.PI;  // drift phase
-    const da    = rng() * 2 * Math.PI;  // drift direction
+    const dp = rng() * 2 * Math.PI;
+    const da = rng() * 2 * Math.PI;
     pts.push({
-      x0: CX + r * Math.cos(theta),
-      y0: CY + r * Math.sin(theta),
-      x: 0, y: 0,
-      r: 1.5, fill: 'black',
+      x0: CX + r * Math.cos(theta), y0: CY + r * Math.sin(theta),
+      x: 0, y: 0, r: 1.5, fill: 'black',
       pinned: false, dp, dax: Math.cos(da), day: Math.sin(da), driftAmp: DRIFT_AMP,
+      behindLetter: false,
     });
   }
 
-  // Append pinned extension nodes
   const pinnedStart = pts.length;
   const extRng = mkRng(7);
   for (let pi = 0; pi < PINNED.length; pi++) {
     const p = PINNED[pi];
-    // Upper extension nodes (0-6) get a small drift so they move gently
-    const isExtension = pi <= 6;
-    const amp = isExtension ? DRIFT_AMP * 0.25 : 0;
-    const dp  = isExtension ? extRng() * 2 * Math.PI : 0;
-    const da  = isExtension ? extRng() * 2 * Math.PI : 0;
-    // Node 12 (i-dot junction) sits under the letter i-dot, so draw it before letters
+    const isExt = pi <= 6;
+    const amp = isExt ? DRIFT_AMP * 0.25 : 0;
+    const dp  = isExt ? extRng() * 2 * Math.PI : 0;
+    const da  = isExt ? extRng() * 2 * Math.PI : 0;
     pts.push({ x0: p.x, y0: p.y, x: p.x, y: p.y,
                r: p.r, fill: p.fill, pinned: true,
                dp, dax: Math.cos(da), day: Math.sin(da), driftAmp: amp,
@@ -134,7 +106,6 @@ function buildNetwork() {
   }
   for (const p of pts) { p.x = p.x0; p.y = p.y0; }
 
-  // Proximity connections
   const rng2 = mkRng(42);
   const pairs = [];
   const seen = new Set();
@@ -142,79 +113,88 @@ function buildNetwork() {
     const key = Math.min(a,b) * 100000 + Math.max(a,b);
     if (!seen.has(key)) { seen.add(key); pairs.push([a, b]); }
   };
-
   for (let i = 0; i < pts.length; i++) {
     const nbrs = [];
     for (let j = 0; j < pts.length; j++) {
-      if (i === j) continue;
-      const dx = pts[i].x0 - pts[j].x0, dy = pts[i].y0 - pts[j].y0;
-      if (dx*dx + dy*dy < MAX_DIST*MAX_DIST) nbrs.push(j);
+      if (i===j) continue;
+      const dx = pts[i].x0-pts[j].x0, dy = pts[i].y0-pts[j].y0;
+      if (dx*dx+dy*dy < MAX_DIST*MAX_DIST) nbrs.push(j);
     }
-    // shuffle
-    for (let k = nbrs.length - 1; k > 0; k--) {
-      const j = Math.floor(rng2() * (k+1));
-      [nbrs[k], nbrs[j]] = [nbrs[j], nbrs[k]];
+    for (let k = nbrs.length-1; k>0; k--) {
+      const j = Math.floor(rng2()*(k+1)); [nbrs[k],nbrs[j]]=[nbrs[j],nbrs[k]];
     }
-    for (let k = 0; k < Math.min(MAX_NBRS, nbrs.length); k++) addPair(i, nbrs[k]);
+    for (let k=0; k<Math.min(MAX_NBRS,nbrs.length); k++) addPair(i, nbrs[k]);
   }
+  for (const [pi,pj] of FORCED) addPair(pinnedStart+pi, pinnedStart+pj);
 
-  // Forced pinned-node connections
-  for (const [pi, pj] of FORCED) addPair(pinnedStart + pi, pinnedStart + pj);
-
-  // Tag each pair as "over-letter" if either endpoint is a y>140 pinned node.
-  // These are redrawn on top of the letter fills.
-  const iLetterArea = new Set(
-    PINNED.map((p, i) => p.y > 140 ? pinnedStart + i : -1).filter(i => i >= 0)
-  );
-  const overLetterPairs = pairs.filter(([a,b]) => iLetterArea.has(a) || iLetterArea.has(b));
+  const iArea = new Set(PINNED.map((p,i)=>p.y>140?pinnedStart+i:-1).filter(i=>i>=0));
+  const overLetterPairs = pairs.filter(([a,b])=>iArea.has(a)||iArea.has(b));
 
   return { pts, pairs, overLetterPairs, pinnedStart };
 }
 
 const { pts, pairs, overLetterPairs } = buildNetwork();
 
-// ── Letter Path2D objects (from original SVG path data) ──────────────────────
+// ── Letter paths ──────────────────────────────────────────────────────────────
 const LETTERS = [
-  // A
   "M39.6418 250.076C33.6604 250.076 29.5045 247.91 27.174 243.576C24.8824 239.243 23.6978 233.497 23.6201 226.34V220.768C23.6201 216.125 24.2804 212.353 25.601 209.451C26.9604 206.549 28.883 204.189 31.3688 202.371C33.8546 200.552 36.8259 198.966 40.2827 197.612C43.7395 196.257 47.5847 194.807 51.8183 193.259V185.656C51.8183 182.716 51.7018 180.375 51.4688 178.634C51.2357 176.854 50.7114 175.558 49.8957 174.745C49.0801 173.933 47.8177 173.527 46.1088 173.527C44.4386 173.527 43.1569 173.952 42.2636 174.803C41.4091 175.616 40.8265 176.893 40.5157 178.634C40.205 180.336 40.0496 182.522 40.0496 185.192V189.08H24.7853V186.469C24.7853 182.483 25.1155 178.924 25.7758 175.79C26.4749 172.656 27.6401 170.006 29.2714 167.839C30.9027 165.634 33.1166 163.97 35.9131 162.848C38.7485 161.687 42.3024 161.107 46.5749 161.107C50.3424 161.107 53.5661 161.648 56.2461 162.732C58.9261 163.776 61.1012 165.363 62.7713 167.491C64.4415 169.58 65.665 172.211 66.4418 175.384C67.2186 178.556 67.607 182.251 67.607 186.469V249.206H52.0514V240.558C51.5853 242.222 50.789 243.789 49.6627 245.259C48.5363 246.691 47.1186 247.852 45.4096 248.742C43.7395 249.632 41.8169 250.076 39.6418 250.076ZM45.0018 238.237C46.9438 238.237 48.4975 237.541 49.6627 236.148C50.8279 234.755 51.5464 233.343 51.8183 231.911V201.964C49.4879 203.009 47.5264 203.996 45.934 204.924C44.3415 205.814 43.0598 206.801 42.0888 207.884C41.1178 208.967 40.4186 210.244 39.9914 211.714C39.5641 213.185 39.3505 214.984 39.3505 217.112V226.862C39.3505 230.847 39.7583 233.749 40.574 235.567C41.4285 237.347 42.9044 238.237 45.0018 238.237Z",
-  // i stem
   "M82.1722 249.206V162.151H97.6113V249.206H82.1722Z",
-  // i dot
   "M89.9233 143C93.9383 143 97.1936 146.255 97.1938 150.27C97.1938 154.285 93.9384 157.54 89.9233 157.54C85.9084 157.54 82.6538 154.284 82.6538 150.27C82.6541 146.255 85.9086 143 89.9233 143Z",
-  // S
   "M152.784 250.309C145.754 250.309 140.53 248.316 137.112 244.331C133.694 240.346 131.985 233.826 131.985 224.773V219.143H146.492V226.165C146.492 229.957 146.958 232.84 147.89 234.813C148.822 236.786 150.337 237.773 152.435 237.773C154.454 237.773 155.95 237.096 156.921 235.741C157.892 234.387 158.377 232.046 158.377 228.719C158.377 226.785 158.086 224.908 157.503 223.09C156.96 221.271 156.086 219.491 154.882 217.75C153.716 215.97 152.202 214.249 150.337 212.585L142.472 205.505C138.86 202.255 136.16 198.753 134.374 195C132.587 191.208 131.694 187.03 131.694 182.464C131.694 175.074 133.422 169.677 136.879 166.272C140.375 162.828 145.54 161.107 152.376 161.107C156.804 161.107 160.475 161.939 163.388 163.602C166.301 165.227 168.476 167.878 169.913 171.553C171.35 175.229 172.069 180.162 172.069 186.353V191.112H158.261V185.366C158.261 181.536 157.814 178.634 156.921 176.66C156.066 174.687 154.59 173.701 152.493 173.701C150.434 173.701 148.92 174.281 147.949 175.442C146.978 176.564 146.453 178.556 146.376 181.419C146.337 182.967 146.531 184.495 146.958 186.004C147.385 187.475 148.046 188.926 148.939 190.357C149.871 191.75 151.075 193.123 152.551 194.478L160.824 201.964C165.174 205.872 168.379 209.954 170.437 214.21C172.535 218.466 173.583 223.07 173.583 228.023C173.583 235.335 171.913 240.887 168.573 244.679C165.233 248.432 159.97 250.309 152.784 250.309Z",
-  // a
   "M199.16 250.076C193.178 250.076 189.022 247.91 186.692 243.576C184.4 239.243 183.216 233.497 183.138 226.34V220.768C183.138 216.125 183.798 212.353 185.119 209.451C186.478 206.549 188.401 204.189 190.887 202.371C193.373 200.552 196.344 198.966 199.801 197.612C203.257 196.257 207.103 194.807 211.336 193.259V185.656C211.336 182.716 211.22 180.375 210.987 178.634C210.754 176.854 210.229 175.558 209.414 174.745C208.598 173.933 207.336 173.527 205.627 173.527C203.957 173.527 202.675 173.952 201.781 174.803C200.927 175.616 200.344 176.893 200.034 178.634C199.723 180.336 199.568 182.522 199.568 185.192V189.08H184.303V186.469C184.303 182.483 184.633 178.924 185.294 175.79C185.993 172.656 187.158 170.006 188.789 167.839C190.421 165.634 192.635 163.97 195.431 162.848C198.266 161.687 201.82 161.107 206.093 161.107C209.86 161.107 213.084 161.648 215.764 162.732C218.444 163.776 220.619 165.363 222.289 167.491C223.959 169.58 225.183 172.211 225.96 175.384C226.737 178.556 227.125 182.251 227.125 186.469V249.206H211.569V240.558C211.103 242.222 210.307 243.789 209.181 245.259C208.054 246.691 206.637 247.852 204.928 248.742C203.257 249.632 201.335 250.076 199.16 250.076ZM204.52 238.237C206.462 238.237 208.015 237.541 209.181 236.148C210.346 234.755 211.064 233.343 211.336 231.911V201.964C209.006 203.009 207.044 203.996 205.452 204.924C203.859 205.814 202.578 206.801 201.607 207.884C200.636 208.967 199.937 210.244 199.509 211.714C199.082 213.185 198.868 214.984 198.868 217.112V226.862C198.868 230.847 199.276 233.749 200.092 235.567C200.946 237.347 202.422 238.237 204.52 238.237Z",
-  // l
   "M241.457 249.206V146.191H256.838V249.206H241.457Z",
-  // o
   "M293.076 250.251C288.881 250.251 285.366 249.612 282.531 248.335C279.696 247.02 277.443 245.143 275.773 242.706C274.141 240.23 272.957 237.231 272.219 233.71C271.52 230.151 271.17 226.107 271.17 221.581V189.022C271.17 183.567 271.869 178.75 273.267 174.571C274.705 170.354 277.035 167.065 280.259 164.705C283.482 162.306 287.755 161.107 293.076 161.107C297.116 161.107 300.514 161.784 303.272 163.138C306.068 164.492 308.302 166.427 309.972 168.942C311.681 171.418 312.924 174.358 313.7 177.763C314.477 181.168 314.866 184.921 314.866 189.022V221.581C314.866 226.03 314.516 230.015 313.817 233.536C313.157 237.057 311.991 240.075 310.321 242.59C308.69 245.066 306.476 246.962 303.68 248.277C300.883 249.593 297.349 250.251 293.076 250.251ZM293.076 237.831C294.824 237.831 296.145 237.308 297.038 236.264C297.931 235.18 298.533 233.691 298.844 231.795C299.155 229.899 299.31 227.713 299.31 225.237V186.295C299.31 183.664 299.135 181.4 298.786 179.504C298.436 177.608 297.815 176.138 296.921 175.093C296.028 174.049 294.746 173.527 293.076 173.527C291.328 173.527 289.988 174.049 289.056 175.093C288.163 176.138 287.541 177.608 287.192 179.504C286.881 181.4 286.726 183.664 286.726 186.295V225.237C286.726 227.713 286.881 229.899 287.192 231.795C287.541 233.691 288.163 235.18 289.056 236.264C289.988 237.308 291.328 237.831 293.076 237.831Z",
-  // n
   "M328.906 249.206V162.151H344.346V172.134C345.122 169.154 346.754 166.582 349.239 164.415C351.725 162.209 354.774 161.107 358.386 161.107C363.436 161.107 367.223 162.79 369.747 166.156C372.272 169.483 373.534 174.32 373.534 180.665V249.206H358.095V181.594C358.095 179.079 357.512 177.105 356.347 175.674C355.221 174.242 353.667 173.527 351.686 173.527C350.094 173.527 348.735 173.971 347.608 174.861C346.521 175.713 345.705 176.912 345.161 178.46C344.617 179.969 344.346 181.748 344.346 183.799V249.206H328.906Z",
 ].map(d => new Path2D(d));
 
-// ── Draw helpers ─────────────────────────────────────────────────────────────
+// ── Interaction state ─────────────────────────────────────────────────────────
+let mouseX = -9999, mouseY = -9999;
+let clickPulses = [];  // { x, y, t0 }
+
+canvas.addEventListener('mousemove', e => {
+  const r = canvas.getBoundingClientRect();
+  mouseX = e.clientX - r.left;
+  mouseY = e.clientY - r.top;
+});
+canvas.addEventListener('mouseleave', () => { mouseX = -9999; mouseY = -9999; });
+canvas.addEventListener('click', e => {
+  const r = canvas.getBoundingClientRect();
+  clickPulses.push({ x: e.clientX - r.left, y: e.clientY - r.top, t0: performance.now() });
+});
+
+// ── Draw helpers ──────────────────────────────────────────────────────────────
 function angleDiff(a, wave) {
-  // JS % preserves sign — add 2π before mod to handle negative angles (top half)
   let d = ((a - wave) % (2 * Math.PI) + 2 * Math.PI) % (2 * Math.PI);
   if (d > Math.PI) d -= 2 * Math.PI;
   return d;
+}
+
+function edgeBrightness(mx, my, wave) {
+  const isTail = false; // handled by caller
+  const diff = angleDiff(Math.atan2(my - CY, mx - CX), wave);
+  let b = BASE_BRIGHT + (PEAK_BRIGHT - BASE_BRIGHT) *
+      Math.exp(-diff * diff / (2 * PULSE_SIGMA * PULSE_SIGMA));
+
+  // Click pulse darkens edges it sweeps through
+  const now = performance.now();
+  for (const p of clickPulses) {
+    const elapsed = now - p.t0;
+    if (elapsed > CLICK_PULSE_MS) continue;
+    const progress = elapsed / CLICK_PULSE_MS;
+    const pulseR = progress * CLICK_PULSE_R;
+    const dist = Math.abs(Math.hypot(mx - p.x, my - p.y) - pulseR);
+    b -= (PEAK_BRIGHT - BASE_BRIGHT) * 0.55 *
+         Math.exp(-dist * dist / (2 * 18 * 18)) * (1 - progress);
+  }
+  return Math.max(PEAK_BRIGHT, Math.min(BASE_BRIGHT, b));
 }
 
 function drawEdges(edgeList, wave) {
   for (const [i, j] of edgeList) {
     const mx = (pts[i].x + pts[j].x) / 2;
     const my = (pts[i].y + pts[j].y) / 2;
-    // Tail edges (connected to y>140 pinned nodes) are static — no animation
     const isTail = (pts[i].pinned && pts[i].y > 140) || (pts[j].pinned && pts[j].y > 140);
-    let b;
-    if (isTail) {
-      b = BASE_BRIGHT;
-    } else {
-      const diff = angleDiff(Math.atan2(my - CY, mx - CX), wave);
-      b = BASE_BRIGHT + (PEAK_BRIGHT - BASE_BRIGHT) *
-          Math.exp(-diff * diff / (2 * PULSE_SIGMA * PULSE_SIGMA));
-    }
+    const b = isTail ? BASE_BRIGHT : edgeBrightness(mx, my, wave);
     const c = (b * 255) | 0;
     ctx.strokeStyle = `rgb(${c},${c},${c})`;
     ctx.beginPath();
@@ -224,26 +204,102 @@ function drawEdges(edgeList, wave) {
   }
 }
 
-// mode 'before': ring nodes + behindLetter pinned (drawn before letter fills)
-// mode 'after':  pinned nodes that aren't behindLetter (drawn after letter fills)
 function drawNodes(mode) {
   const include = p => mode === 'before'
     ? (!p.pinned || p.behindLetter)
     : (p.pinned && !p.behindLetter);
-
   ctx.fillStyle = 'black';
   for (const p of pts) {
     if (p.fill === 'white' || !include(p)) continue;
-    ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, 2 * Math.PI); ctx.fill();
+    ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, 2*Math.PI); ctx.fill();
   }
   ctx.fillStyle = 'white';
   for (const p of pts) {
     if (p.fill !== 'white' || !include(p)) continue;
-    ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, 2 * Math.PI); ctx.fill();
+    ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, 2*Math.PI); ctx.fill();
   }
 }
 
-// ── Animation ────────────────────────────────────────────────────────────────
+// ── Mouse chain (materialising nodes + edges toward cursor) ───────────────────
+function buildChain(ts) {
+  // Find nearest ring node
+  let nearest = -1, nearestDist = Infinity;
+  for (let i = 0; i < N_PTS; i++) {
+    const d = Math.hypot(pts[i].x - mouseX, pts[i].y - mouseY);
+    if (d < nearestDist) { nearestDist = d; nearest = i; }
+  }
+  if (nearestDist > CHAIN_RADIUS) return null;
+
+  const alpha = Math.pow(1 - nearestDist / CHAIN_RADIUS, 1.5);
+
+  // Generate virtual intermediate nodes along path to mouse with slow jitter
+  // Jitter seed changes every 120ms so the chain rewires occasionally
+  const slot = Math.floor(ts / 120);
+  const jRng = mkRng(slot * 997 + nearest);
+
+  const nx = pts[nearest].x, ny = pts[nearest].y;
+  const chain = [];  // { x, y }
+  for (let s = 1; s <= CHAIN_STEPS; s++) {
+    const f = s / (CHAIN_STEPS + 1);
+    const bx = nx + f * (mouseX - nx);
+    const by = ny + f * (mouseY - ny);
+    const jScale = CHAIN_JITTER * (1 - f * 0.7);  // less jitter near mouse
+    chain.push({
+      x: bx + (jRng() - 0.5) * 2 * jScale,
+      y: by + (jRng() - 0.5) * 2 * jScale,
+    });
+  }
+
+  return { nearest, chain, alpha };
+}
+
+function drawChain(c) {
+  if (!c) return;
+  const { nearest, chain, alpha } = c;
+  const nx = pts[nearest].x, ny = pts[nearest].y;
+
+  ctx.save();
+  ctx.globalAlpha = alpha;
+  ctx.lineWidth = 0.6;
+  ctx.strokeStyle = 'rgb(40,40,40)';
+
+  // Draw the chain as a polyline: ring node → intermediates → mouse
+  ctx.beginPath();
+  ctx.moveTo(nx, ny);
+  for (const n of chain) ctx.lineTo(n.x, n.y);
+  ctx.lineTo(mouseX, mouseY);
+  ctx.stroke();
+
+  // Draw intermediate nodes
+  ctx.fillStyle = 'rgb(40,40,40)';
+  for (const n of chain) {
+    ctx.beginPath(); ctx.arc(n.x, n.y, 1.5, 0, 2*Math.PI); ctx.fill();
+  }
+
+  // Cursor dot
+  ctx.beginPath(); ctx.arc(mouseX, mouseY, 2.5, 0, 2*Math.PI); ctx.fill();
+
+  ctx.restore();
+}
+
+// ── Click pulse rings ─────────────────────────────────────────────────────────
+function drawClickPulses(ts) {
+  const now = performance.now();
+  clickPulses = clickPulses.filter(p => now - p.t0 < CLICK_PULSE_MS);
+  for (const p of clickPulses) {
+    const progress = (now - p.t0) / CLICK_PULSE_MS;
+    const r = progress * CLICK_PULSE_R;
+    const alpha = (1 - progress) * 0.5;
+    ctx.save();
+    ctx.globalAlpha = alpha;
+    ctx.strokeStyle = 'rgb(20,20,20)';
+    ctx.lineWidth = 1.2 * (1 - progress * 0.5);
+    ctx.beginPath(); ctx.arc(p.x, p.y, r, 0, 2*Math.PI); ctx.stroke();
+    ctx.restore();
+  }
+}
+
+// ── Animation loop ────────────────────────────────────────────────────────────
 let t0 = null;
 
 function frame(ts) {
@@ -251,6 +307,7 @@ function frame(ts) {
   const t = ((ts - t0) % PERIOD_MS) / PERIOD_MS;
   const wave = 2 * Math.PI * t;
 
+  // 1. Update node positions (drift + gravity)
   for (const p of pts) {
     if (!p.driftAmp) continue;
     const d = p.driftAmp * Math.sin(2 * Math.PI * t + p.dp);
@@ -258,30 +315,45 @@ function frame(ts) {
     p.y = p.y0 + d * p.day;
   }
 
+  // Gravity: pull ring nodes toward mouse
+  for (let i = 0; i < N_PTS; i++) {
+    const p = pts[i];
+    const dx = mouseX - p.x, dy = mouseY - p.y;
+    const dist = Math.hypot(dx, dy);
+    if (dist < GRAVITY_RADIUS && dist > 1) {
+      const pull = GRAVITY_STRENGTH * Math.pow(1 - dist / GRAVITY_RADIUS, 2);
+      p.x += (dx / dist) * pull;
+      p.y += (dy / dist) * pull;
+    }
+  }
+
+  // 2. Build chain before drawing
+  const chain = buildChain(ts);
+
   ctx.clearRect(0, 0, W, H);
   ctx.lineWidth = 0.3;
 
-  // 1. All edges
+  // 3. All edges
   drawEdges(pairs, wave);
 
-  // 2. Ring nodes + behindLetter pinned nodes (before letter fills)
+  // 4. Ring + behind-letter nodes
   drawNodes('before');
 
-  // 3. Letter fills (covers ring edges/nodes that overlap letters)
+  // 5. Letter fills
   ctx.fillStyle = 'black';
   for (const lp of LETTERS) ctx.fill(lp);
 
-  // 4. Tail/over-letter edges on top of letter fills
+  // 6. Over-letter tail edges
   ctx.lineWidth = 0.5;
   drawEdges(overLetterPairs, wave);
   ctx.lineWidth = 0.3;
 
-  // 5. Re-draw the "i" (stem + dot) so it sits in front of any crossing edges
+  // 7. Re-draw "i" over crossing edges
   ctx.fillStyle = 'black';
-  ctx.fill(LETTERS[1]); // i stem
-  ctx.fill(LETTERS[2]); // i dot
+  ctx.fill(LETTERS[1]);
+  ctx.fill(LETTERS[2]);
 
-  // 5b. Re-draw white-to-white edges inside the stem (covered by step 5)
+  // 7b. Re-draw white-to-white edges inside the stem (covered by step 7)
   ctx.strokeStyle = 'rgba(255,255,255,0.65)';
   ctx.lineWidth = 0.5;
   for (const [i, j] of overLetterPairs) {
@@ -293,8 +365,14 @@ function frame(ts) {
   }
   ctx.lineWidth = 0.3;
 
-  // 6. Pinned nodes (excluding behindLetter) on top of letters
+  // 8. Pinned nodes on top
   drawNodes('after');
+
+  // 9. Mouse chain (materialises on hover)
+  drawChain(chain);
+
+  // 10. Click pulse rings (on top of everything)
+  drawClickPulses(ts);
 
   requestAnimationFrame(frame);
 }
