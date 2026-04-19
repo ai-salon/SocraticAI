@@ -112,15 +112,25 @@ function buildNetwork() {
       y0: CY + r * Math.sin(theta),
       x: 0, y: 0,
       r: 1.5, fill: 'black',
-      pinned: false, dp, dax: Math.cos(da), day: Math.sin(da),
+      pinned: false, dp, dax: Math.cos(da), day: Math.sin(da), driftAmp: DRIFT_AMP,
     });
   }
 
   // Append pinned extension nodes
   const pinnedStart = pts.length;
-  for (const p of PINNED) {
+  const extRng = mkRng(7);
+  for (let pi = 0; pi < PINNED.length; pi++) {
+    const p = PINNED[pi];
+    // Upper extension nodes (0-6) get a small drift so they move gently
+    const isExtension = pi <= 6;
+    const amp = isExtension ? DRIFT_AMP * 0.25 : 0;
+    const dp  = isExtension ? extRng() * 2 * Math.PI : 0;
+    const da  = isExtension ? extRng() * 2 * Math.PI : 0;
+    // Node 12 (i-dot junction) sits under the letter i-dot, so draw it before letters
     pts.push({ x0: p.x, y0: p.y, x: p.x, y: p.y,
-               r: p.r, fill: p.fill, pinned: true, dp: 0, dax: 0, day: 0 });
+               r: p.r, fill: p.fill, pinned: true,
+               dp, dax: Math.cos(da), day: Math.sin(da), driftAmp: amp,
+               behindLetter: pi === 12 });
   }
   for (const p of pts) { p.x = p.x0; p.y = p.y0; }
 
@@ -191,19 +201,15 @@ function angleDiff(a, wave) {
   return d;
 }
 
-function drawEdges(edgeList, wave, tailWave) {
+function drawEdges(edgeList, wave) {
   for (const [i, j] of edgeList) {
     const mx = (pts[i].x + pts[j].x) / 2;
     const my = (pts[i].y + pts[j].y) / 2;
-    const isPinned = pts[i].pinned || pts[j].pinned;
+    // Tail edges (connected to y>140 pinned nodes) are static — no animation
+    const isTail = (pts[i].pinned && pts[i].y > 140) || (pts[j].pinned && pts[j].y > 140);
     let b;
-    if (isPinned && (pts[i].pinned && pts[i].y > 140 || pts[j].pinned && pts[j].y > 140)) {
-      // tail edges: small separate pulse based on distance from CX,CY
-      const dist = Math.hypot(mx - CX, my - CY);
-      const norm = dist / SCALE;
-      let td = ((norm - tailWave) % 1 + 1) % 1;
-      if (td > 0.5) td = 1 - td;
-      b = BASE_BRIGHT + (PEAK_BRIGHT - BASE_BRIGHT) * Math.exp(-td * td / 0.02) * 0.4;
+    if (isTail) {
+      b = BASE_BRIGHT;
     } else {
       const diff = angleDiff(Math.atan2(my - CY, mx - CX), wave);
       b = BASE_BRIGHT + (PEAK_BRIGHT - BASE_BRIGHT) *
@@ -218,22 +224,22 @@ function drawEdges(edgeList, wave, tailWave) {
   }
 }
 
-function drawNodes(pinnedOnly) {
+// mode 'before': ring nodes + behindLetter pinned (drawn before letter fills)
+// mode 'after':  pinned nodes that aren't behindLetter (drawn after letter fills)
+function drawNodes(mode) {
+  const include = p => mode === 'before'
+    ? (!p.pinned || p.behindLetter)
+    : (p.pinned && !p.behindLetter);
+
   ctx.fillStyle = 'black';
   for (const p of pts) {
-    if (p.fill === 'white') continue;
-    if (pinnedOnly && !p.pinned) continue;
-    ctx.beginPath();
-    ctx.arc(p.x, p.y, p.r, 0, 2 * Math.PI);
-    ctx.fill();
+    if (p.fill === 'white' || !include(p)) continue;
+    ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, 2 * Math.PI); ctx.fill();
   }
   ctx.fillStyle = 'white';
   for (const p of pts) {
-    if (p.fill !== 'white') continue;
-    if (pinnedOnly && !p.pinned) continue;
-    ctx.beginPath();
-    ctx.arc(p.x, p.y, p.r, 0, 2 * Math.PI);
-    ctx.fill();
+    if (p.fill !== 'white' || !include(p)) continue;
+    ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, 2 * Math.PI); ctx.fill();
   }
 }
 
@@ -244,11 +250,10 @@ function frame(ts) {
   if (!t0) t0 = ts;
   const t = ((ts - t0) % PERIOD_MS) / PERIOD_MS;
   const wave = 2 * Math.PI * t;
-  const tailWave = (t * 1.5) % 1;  // slower independent pulse along tail
 
   for (const p of pts) {
-    if (p.pinned) continue;
-    const d = DRIFT_AMP * Math.sin(2 * Math.PI * t + p.dp);
+    if (!p.driftAmp) continue;
+    const d = p.driftAmp * Math.sin(2 * Math.PI * t + p.dp);
     p.x = p.x0 + d * p.dax;
     p.y = p.y0 + d * p.day;
   }
@@ -256,23 +261,23 @@ function frame(ts) {
   ctx.clearRect(0, 0, W, H);
   ctx.lineWidth = 0.3;
 
-  // 1. All edges behind letters
-  drawEdges(pairs, wave, tailWave);
+  // 1. All edges
+  drawEdges(pairs, wave);
 
-  // 2. All ring nodes behind letters
-  drawNodes(false);
+  // 2. Ring nodes + behindLetter pinned nodes (before letter fills)
+  drawNodes('before');
 
-  // 3. Letter fills (covers ring edges and nodes that overlap letters)
+  // 3. Letter fills (covers ring edges/nodes that overlap letters)
   ctx.fillStyle = 'black';
   for (const lp of LETTERS) ctx.fill(lp);
 
   // 4. Tail/over-letter edges on top of letter fills
   ctx.lineWidth = 0.5;
-  drawEdges(overLetterPairs, wave, tailWave);
+  drawEdges(overLetterPairs, wave);
   ctx.lineWidth = 0.3;
 
-  // 5. Pinned nodes on top of letters
-  drawNodes(true);
+  // 5. Pinned nodes (excluding behindLetter) on top of letters
+  drawNodes('after');
 
   requestAnimationFrame(frame);
 }
