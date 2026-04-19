@@ -44,11 +44,9 @@ const PEAK_BRIGHT = 0.0;
 // ── Interaction parameters ────────────────────────────────────────────────────
 const GRAVITY_RADIUS = 130;   // px — mouse pull radius
 const GRAVITY_STRENGTH = 18;  // px — max node displacement toward mouse
-const CHAIN_RADIUS = 160;     // px — how close to trigger materialised chain
-const CHAIN_JITTER = 10;      // px — electric jitter on chain nodes
-const CHAIN_STEPS = 4;        // intermediate chain nodes
-const CLICK_PULSE_MS = 1100;  // ms — how long click pulse expands
-const CLICK_PULSE_R = 180;    // px — max click pulse radius
+const CLICK_PULSE_MS = 1800;  // ms — how long click pulse travels
+const CLICK_PULSE_R = 300;    // px — max click pulse radius
+const CLICK_PULSE_SIGMA = 22; // px — width of the darkening wave front
 
 // ── Pinned extension nodes ────────────────────────────────────────────────────
 const PINNED = [
@@ -170,21 +168,22 @@ function angleDiff(a, wave) {
 }
 
 function edgeBrightness(mx, my, wave) {
-  const isTail = false; // handled by caller
   const diff = angleDiff(Math.atan2(my - CY, mx - CX), wave);
   let b = BASE_BRIGHT + (PEAK_BRIGHT - BASE_BRIGHT) *
       Math.exp(-diff * diff / (2 * PULSE_SIGMA * PULSE_SIGMA));
 
-  // Click pulse darkens edges it sweeps through
+  // Click pulses: a radial darkening wave expands from click point
   const now = performance.now();
   for (const p of clickPulses) {
     const elapsed = now - p.t0;
     if (elapsed > CLICK_PULSE_MS) continue;
     const progress = elapsed / CLICK_PULSE_MS;
     const pulseR = progress * CLICK_PULSE_R;
-    const dist = Math.abs(Math.hypot(mx - p.x, my - p.y) - pulseR);
-    b -= (PEAK_BRIGHT - BASE_BRIGHT) * 0.55 *
-         Math.exp(-dist * dist / (2 * 18 * 18)) * (1 - progress);
+    const edgeDist = Math.hypot(mx - p.x, my - p.y);
+    const ringDiff = edgeDist - pulseR;  // signed: neg=inside wave, pos=outside
+    const amplitude = (1 - progress) * 0.85;
+    b += (PEAK_BRIGHT - BASE_BRIGHT) * amplitude *
+         Math.exp(-ringDiff * ringDiff / (2 * CLICK_PULSE_SIGMA * CLICK_PULSE_SIGMA));
   }
   return Math.max(PEAK_BRIGHT, Math.min(BASE_BRIGHT, b));
 }
@@ -220,83 +219,10 @@ function drawNodes(mode) {
   }
 }
 
-// ── Mouse chain (materialising nodes + edges toward cursor) ───────────────────
-function buildChain(ts) {
-  // Find nearest ring node
-  let nearest = -1, nearestDist = Infinity;
-  for (let i = 0; i < N_PTS; i++) {
-    const d = Math.hypot(pts[i].x - mouseX, pts[i].y - mouseY);
-    if (d < nearestDist) { nearestDist = d; nearest = i; }
-  }
-  if (nearestDist > CHAIN_RADIUS) return null;
-
-  const alpha = Math.pow(1 - nearestDist / CHAIN_RADIUS, 1.5);
-
-  // Generate virtual intermediate nodes along path to mouse with slow jitter
-  // Jitter seed changes every 120ms so the chain rewires occasionally
-  const slot = Math.floor(ts / 120);
-  const jRng = mkRng(slot * 997 + nearest);
-
-  const nx = pts[nearest].x, ny = pts[nearest].y;
-  const chain = [];  // { x, y }
-  for (let s = 1; s <= CHAIN_STEPS; s++) {
-    const f = s / (CHAIN_STEPS + 1);
-    const bx = nx + f * (mouseX - nx);
-    const by = ny + f * (mouseY - ny);
-    const jScale = CHAIN_JITTER * (1 - f * 0.7);  // less jitter near mouse
-    chain.push({
-      x: bx + (jRng() - 0.5) * 2 * jScale,
-      y: by + (jRng() - 0.5) * 2 * jScale,
-    });
-  }
-
-  return { nearest, chain, alpha };
-}
-
-function drawChain(c) {
-  if (!c) return;
-  const { nearest, chain, alpha } = c;
-  const nx = pts[nearest].x, ny = pts[nearest].y;
-
-  ctx.save();
-  ctx.globalAlpha = alpha;
-  ctx.lineWidth = 0.6;
-  ctx.strokeStyle = 'rgb(40,40,40)';
-
-  // Draw the chain as a polyline: ring node → intermediates → mouse
-  ctx.beginPath();
-  ctx.moveTo(nx, ny);
-  for (const n of chain) ctx.lineTo(n.x, n.y);
-  ctx.lineTo(mouseX, mouseY);
-  ctx.stroke();
-
-  // Draw intermediate nodes
-  ctx.fillStyle = 'rgb(40,40,40)';
-  for (const n of chain) {
-    ctx.beginPath(); ctx.arc(n.x, n.y, 1.5, 0, 2*Math.PI); ctx.fill();
-  }
-
-  // Cursor dot
-  ctx.beginPath(); ctx.arc(mouseX, mouseY, 2.5, 0, 2*Math.PI); ctx.fill();
-
-  ctx.restore();
-}
-
-// ── Click pulse rings ─────────────────────────────────────────────────────────
-function drawClickPulses(ts) {
+// ── Click pulse cleanup ───────────────────────────────────────────────────────
+function pruneClickPulses() {
   const now = performance.now();
   clickPulses = clickPulses.filter(p => now - p.t0 < CLICK_PULSE_MS);
-  for (const p of clickPulses) {
-    const progress = (now - p.t0) / CLICK_PULSE_MS;
-    const r = progress * CLICK_PULSE_R;
-    const alpha = (1 - progress) * 0.5;
-    ctx.save();
-    ctx.globalAlpha = alpha;
-    ctx.strokeStyle = 'rgb(20,20,20)';
-    ctx.lineWidth = 1.2 * (1 - progress * 0.5);
-    ctx.beginPath(); ctx.arc(p.x, p.y, r, 0, 2*Math.PI); ctx.stroke();
-    ctx.restore();
-  }
 }
 
 // ── Animation loop ────────────────────────────────────────────────────────────
@@ -327,9 +253,7 @@ function frame(ts) {
     }
   }
 
-  // 2. Build chain before drawing
-  const chain = buildChain(ts);
-
+  pruneClickPulses();
   ctx.clearRect(0, 0, W, H);
   ctx.lineWidth = 0.3;
 
@@ -367,12 +291,6 @@ function frame(ts) {
 
   // 8. Pinned nodes on top
   drawNodes('after');
-
-  // 9. Mouse chain (materialises on hover)
-  drawChain(chain);
-
-  // 10. Click pulse rings (on top of everything)
-  drawClickPulses(ts);
 
   requestAnimationFrame(frame);
 }
