@@ -24,7 +24,7 @@ from socraticai.content.article.article_generator import (
 )
 from socraticai.content.knowledge_graph.graph_generator import KnowledgeGraphGenerator
 from socraticai.core.utils import get_stats, get_input_path
-from socraticai.config import MODEL_CHOICES, DEFAULT_MAX_WORKERS
+from socraticai.config import DEFAULT_MAX_WORKERS
 
 logger = logging.getLogger(__name__)
 console = Console()
@@ -244,7 +244,7 @@ def transcribe_cmd(path=None, output_file=None, anonymize=True):
 @click.option('--rerun', is_flag=True, help='Force regeneration even if article already exists')
 @click.option('--anonymize/--no-anonymize', default=True, help='Whether to anonymize the transcript (default: True)')
 @click.option('--multi-source', is_flag=True, help='Process multiple files as a single combined article')
-@click.option('--model', type=click.Choice(['default', 'flash', 'sonnet', 'pro']), help='Choose model: 1) default (gemini-2.5-flash), 2) flash (gemini-2.5-flash), 3) sonnet (claude-sonnet-4), 4) pro (gemini-2.5-pro)')
+@click.option('--model', type=str, default=None, help='Model to use for generation (e.g. gemini-3-flash-preview, gemini-2.5-pro, claude-sonnet-4-6)')
 @click.option('--workers', '-w', type=int, default=DEFAULT_MAX_WORKERS, show_default=True, help='Number of parallel workers for batch processing')
 def article(path=None, rerun=False, anonymize=True, multi_source=False, model=None, workers=DEFAULT_MAX_WORKERS):
     """Generate articles from audio or transcript files with enhanced UX.
@@ -254,18 +254,11 @@ def article(path=None, rerun=False, anonymize=True, multi_source=False, model=No
     If a pattern with wildcards is provided, processes all matching files.
     Use --multi-source to combine multiple files into a single article.
     
-    Model choices:
-    1) default - gemini-3-flash-preview (default)
-    2) flash - gemini-3-flash-preview
-    3) sonnet - claude-sonnet-4-6
-    4) pro - gemini-2.5-pro
     """
     console.print("\n[bold blue]📄 SocraticAI Article Generator[/bold blue]\n")
     
-    # Show model selection if specified
     if model:
-        selected_model = MODEL_CHOICES.get(model, MODEL_CHOICES["default"])
-        console.print(f"[cyan]🤖 Using model: {model} ({selected_model})[/cyan]\n")
+        console.print(f"[cyan]🤖 Using model: {model}[/cyan]\n")
     
     files = get_file_list(path)
     
@@ -289,7 +282,7 @@ def article(path=None, rerun=False, anonymize=True, multi_source=False, model=No
         # Process as single multi-input
         generator_kwargs = {}
         if model:
-            generator_kwargs['model'] = MODEL_CHOICES.get(model, MODEL_CHOICES["default"])
+            generator_kwargs['model'] = model
         generator = ArticleGenerator(**generator_kwargs)
         with Progress(
             SpinnerColumn(),
