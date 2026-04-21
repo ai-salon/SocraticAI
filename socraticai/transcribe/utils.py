@@ -96,7 +96,7 @@ def anonymize_transcript(file_path, save_path=None):
     doc = nlp(text)
     persons = list(dict.fromkeys(ent.text for ent in doc.ents if ent.label_ == "PERSON"))
     name_list = get_name_list()
-    remapping = {person: name_list[i] for i, person in enumerate(persons)}
+    remapping = {person: name_list[i % len(name_list)] for i, person in enumerate(persons)}
     entities_count = len(persons)
 
     for person, name in remapping.items():
