@@ -9,7 +9,7 @@ ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
 ASSEMBLYAI_API_KEY = os.getenv("ASSEMBLYAI_API_KEY")
 
 # Default model configuration
-DEFAULT_LLM_MODEL = "gemini-3-flash-preview"
+DEFAULT_LLM_MODEL = "gemini-3.1-flash-lite"
 
 # Default parallelism for batch processing
 DEFAULT_MAX_WORKERS = 3
